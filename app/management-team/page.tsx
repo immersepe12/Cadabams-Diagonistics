@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import {
   Home,
@@ -45,12 +46,19 @@ interface Leader {
   role: string;
   description: string;
   achievements: string[];
+  /**
+   * Optional headshot from public/management/ (e.g.
+   * "/management/cadabam-m-ramesh.webp"). When absent, an initials avatar is
+   * shown instead.
+   */
+  image?: string;
 }
 
 const TEAM: Leader[] = [
   {
     name: "Cadabam M Ramesh",
     role: "Chairman, Cadabam's Group",
+    image: "/management/cadabam-m-ramesh.webp",
     description:
       "Mr. Cadabam M. Ramesh, the nucleus of the organization, envisioned Cadabams as a place for treatment and solace for every kind of healthcare concern. Founded with a vision of delivering excellence to patients, he has driven unparalleled service and new outcomes across the Cadabam's Group.",
     achievements: [
@@ -63,6 +71,7 @@ const TEAM: Leader[] = [
   {
     name: "Sudha R. Cadabam",
     role: "Vice Chairperson, Cadabam's Group",
+    image: "/management/sudha-r-cadabam.webp",
     description:
       "Mrs. Sudha R. Cadabam oversees the Cadabam's Group's growth and sustainability. With 20 years of expertise, she shapes, structures, and enables smooth, ideal functioning across the organization.",
     achievements: [
@@ -75,6 +84,7 @@ const TEAM: Leader[] = [
   {
     name: "M.K. Saraswathi",
     role: "Vice Chairperson, Cadabam's Group",
+    image: "/management/mk-saraswathi.webp",
     description:
       "Ms. M. K. Saraswathi has made an immense contribution to Cadabam's with over two decades of expertise in psychology. With her administrative skills and strategies, she designed the healthcare system to structure operational efficiency.",
     achievements: [
@@ -87,6 +97,7 @@ const TEAM: Leader[] = [
   {
     name: "Sandesh Cadabam",
     role: "Director",
+    image: "/management/sandesh-cadabam.webp",
     description:
       "Mr. Sandesh R. Cadabam, a promising entrepreneur within the organization, is passionate about providing healthcare to international standards. With an MSc. in International Business & Management from Manchester Business School, UK, he brings innovative strategic methods and modern thinking to the organization.",
     achievements: [
@@ -99,6 +110,7 @@ const TEAM: Leader[] = [
   {
     name: "Neha S. Cadabam",
     role: "Executive Director & Psychologist",
+    image: "/management/neha-s-cadabam.webp",
     description:
       "Neha Cadabam is a Psychologist at Cadabam's with over 11 years of experience in mental health. She specializes in preventive and promotive mental healthcare, helping individuals improve their well-being and adopt healthier lifestyle changes.",
     achievements: [
@@ -218,9 +230,21 @@ export default function ManagementTeamPage() {
             >
               {/* Identity panel */}
               <div className="bg-gradient-orange-soft p-6 sm:p-7 flex items-center gap-4 lg:flex-col lg:items-start lg:justify-center border-b lg:border-b-0 lg:border-r border-cream-line">
-                <span className="w-16 h-16 lg:w-20 lg:h-20 inline-flex items-center justify-center rounded-pill bg-gradient-cta text-white font-display font-extrabold text-h2 lg:text-h1 shadow-glow-orange flex-shrink-0">
-                  {initials(m.name)}
-                </span>
+                {m.image ? (
+                  <span className="relative w-16 h-16 lg:w-24 lg:h-24 rounded-pill overflow-hidden bg-cream-card shadow-sh-2 ring-2 ring-white flex-shrink-0">
+                    <Image
+                      src={m.image}
+                      alt={m.name}
+                      fill
+                      className="object-cover object-top"
+                      sizes="96px"
+                    />
+                  </span>
+                ) : (
+                  <span className="w-16 h-16 lg:w-20 lg:h-20 inline-flex items-center justify-center rounded-pill bg-gradient-cta text-white font-display font-extrabold text-h2 lg:text-h1 shadow-glow-orange flex-shrink-0">
+                    {initials(m.name)}
+                  </span>
+                )}
                 <div className="min-w-0">
                   <h3 className="text-h3 lg:text-h2 font-display font-bold text-ink-900 leading-tight">
                     {m.name}
