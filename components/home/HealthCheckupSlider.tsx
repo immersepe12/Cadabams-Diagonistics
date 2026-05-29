@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useCallback, useEffect, useState } from "react";
 import { ChevronLeft, ChevronRight, Clock, ShieldCheck } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { AddToCartButton } from "@/components/shared/AddToCartButton";
 
 export interface HealthCheckupCard {
   id: string;
@@ -119,12 +120,18 @@ export function HealthCheckupSlider({
                 >
                   View details
                 </Link>
-                <Link
-                  href="/cart"
-                  className="flex-1 inline-flex items-center justify-center px-4 py-2.5 rounded-md text-body-sm font-semibold bg-orange-500 text-white shadow-glow-orange hover:bg-orange-600 transition-all duration-200 active:scale-[0.97] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-500 focus-visible:ring-offset-2"
-                >
-                  Add to cart
-                </Link>
+                <AddToCartButton
+                  item={{
+                    id: current.id,
+                    name: current.title,
+                    price: current.discountedPrice,
+                    originalPrice: showStrike ? current.price : undefined,
+                    href: current.detailHref,
+                    kind: "Lab Test",
+                  }}
+                  label="Add to cart"
+                  className="flex-1 inline-flex items-center justify-center gap-1.5 px-4 py-2.5 rounded-md text-body-sm font-semibold bg-orange-500 text-white shadow-glow-orange hover:bg-orange-600 transition-all duration-200 active:scale-[0.97] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-500 focus-visible:ring-offset-2"
+                />
               </div>
             </article>
 

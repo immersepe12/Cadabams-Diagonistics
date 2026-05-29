@@ -2,7 +2,8 @@
 
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
-import { Phone, ShoppingCart, X, Zap } from "lucide-react";
+import { Check, Phone, ShoppingCart, X, Zap } from "lucide-react";
+import { useCartStore } from "@/lib/cart/store";
 
 const PHONE_DISPLAY = "+91 99006 64696";
 const PHONE_TEL = "+919900664696";
@@ -13,7 +14,14 @@ type Mode = "whatsapp" | "call";
 interface TestBookingActionsProps {
   testName: string;
   finalPrice: number;
-  cartHref?: string;
+  /** Stable id used as the cart key. Falls back to bookHref/testName. */
+  testId?: string;
+  /** Detail-page href stored with the cart item. */
+  testHref?: string;
+  /** Original (struck) price, if discounted. */
+  originalPrice?: number;
+  /** "Lab Test" | "Radiology". */
+  kind?: string;
   bookHref?: string;
 }
 
@@ -33,7 +41,10 @@ function WhatsAppIcon({ className }: { className?: string }) {
 export function TestBookingActions({
   testName,
   finalPrice,
-  cartHref = "/cart",
+  testId,
+  testHref,
+  originalPrice,
+  kind,
   bookHref = "/cart",
 }: TestBookingActionsProps) {
   const [mode, setMode] = useState<Mode | null>(null);
@@ -42,6 +53,33 @@ export function TestBookingActions({
   const [message, setMessage] = useState("");
   const dialogRef = useRef<HTMLDivElement>(null);
   const firstFieldRef = useRef<HTMLInputElement>(null);
+
+  const cartId = testId ?? testHref ?? testName;
+  const addItem = useCartStore((s) => s.addItem);
+  const inCart = useCartStore((s) => s.items.some((i) => i.id === cartId));
+  const [justAdded, setJustAdded] = useState(false);
+  const addedTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  function handleAddToCart() {
+    addItem({
+      id: cartId,
+      name: testName,
+      price: finalPrice,
+      originalPrice,
+      href: testHref ?? "/cart",
+      kind,
+    });
+    setJustAdded(true);
+    if (addedTimer.current) clearTimeout(addedTimer.current);
+    addedTimer.current = setTimeout(() => setJustAdded(false), 1800);
+  }
+
+  useEffect(
+    () => () => {
+      if (addedTimer.current) clearTimeout(addedTimer.current);
+    },
+    [],
+  );
 
   const isOpen = mode !== null;
 
@@ -124,13 +162,23 @@ export function TestBookingActions({
           Book now · ₹{finalPrice.toLocaleString("en-IN")}
         </Link>
 
-        <Link
-          href={cartHref}
+        <button
+          type="button"
+          onClick={handleAddToCart}
           className="w-full inline-flex items-center justify-center gap-2 rounded-pill bg-orange-50 hover:bg-orange-100 text-orange-700 font-semibold px-7 py-3.5 text-body border-2 border-orange-200 hover:border-orange-300 transition-all duration-200 active:scale-[0.98] focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-orange-200"
         >
-          <ShoppingCart className="w-4 h-4" />
-          Add to cart
-        </Link>
+          {justAdded ? (
+            <>
+              <Check className="w-4 h-4" />
+              Added to cart
+            </>
+          ) : (
+            <>
+              <ShoppingCart className="w-4 h-4" />
+              {inCart ? "Added to cart" : "Add to cart"}
+            </>
+          )}
+        </button>
 
         <button
           type="button"

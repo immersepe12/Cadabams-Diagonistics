@@ -9,7 +9,6 @@ import {
   Tag,
   Home as HomeIcon,
   Zap,
-  ShoppingCart,
 } from "lucide-react";
 import {
   getAllLabTestSlugs,
@@ -24,6 +23,7 @@ import { stripLeadingSlash } from "@/lib/data/types";
 import { MarkdownContent } from "@/components/shared/MarkdownContent";
 import { TestCard } from "@/components/shared/TestCard";
 import { TestBookingActions } from "@/components/shared/TestBookingActions";
+import { AddToCartButton } from "@/components/shared/AddToCartButton";
 import { LabStats } from "@/components/shared/LabStats";
 import { CentersListCard } from "@/components/shared/CentersListCard";
 import { getAllCenters, getCenterSlug } from "@/lib/data/centers";
@@ -286,13 +286,17 @@ export default async function LabTestDetailPage({ params }: PageProps) {
               </div>
 
               <div className="flex flex-col sm:flex-row gap-2.5 sm:gap-3 pt-2 sm:pt-3">
-                <Link
-                  href="/cart"
+                <AddToCartButton
+                  item={{
+                    id: test.id,
+                    name: test.testName,
+                    price: finalPrice,
+                    originalPrice: showDiscount ? price : undefined,
+                    href: labTestUrl(test),
+                    kind: "Lab Test",
+                  }}
                   className="inline-flex items-center justify-center gap-2 rounded-pill bg-orange-50 hover:bg-orange-100 text-orange-700 font-semibold px-5 py-2.5 sm:px-6 sm:py-3 text-body-sm sm:text-body border-2 border-orange-200 hover:border-orange-300 transition-all duration-200 active:scale-[0.98]"
-                >
-                  <ShoppingCart className="w-4 h-4 flex-shrink-0" />
-                  Add to cart
-                </Link>
+                />
                 <Link
                   href="/cart"
                   className="inline-flex items-center justify-center gap-2 rounded-pill bg-gradient-cta text-white font-bold px-5 py-2.5 sm:px-6 sm:py-3 text-body-sm sm:text-body shadow-glow-orange ring-2 ring-orange-300/30 hover:brightness-110 active:scale-[0.98] transition-all duration-200"
@@ -465,6 +469,8 @@ export default async function LabTestDetailPage({ params }: PageProps) {
                   return (
                     <TestCard
                       key={t.id}
+                      id={t.id}
+                      kind="Lab Test"
                       name={t.testName}
                       image={t.basic_info.imageSrc || tCategory?.image}
                       price={dp || p}
@@ -532,6 +538,10 @@ export default async function LabTestDetailPage({ params }: PageProps) {
               <TestBookingActions
                 testName={test.testName}
                 finalPrice={finalPrice}
+                testId={test.id}
+                testHref={labTestUrl(test)}
+                originalPrice={showDiscount ? price : undefined}
+                kind="Lab Test"
               />
             </div>
           </div>

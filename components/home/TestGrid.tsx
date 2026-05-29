@@ -30,6 +30,8 @@ export function TestGrid({ overline, title, tests }: TestGridProps) {
             return (
               <TestCard
                 key={test.id}
+                id={test.id}
+                kind="Lab Test"
                 name={test.testName}
                 image={test.basic_info.imageSrc}
                 price={discounted || original}

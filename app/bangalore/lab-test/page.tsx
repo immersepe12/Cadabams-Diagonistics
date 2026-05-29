@@ -525,6 +525,8 @@ function TestsGrid({ tests }: { tests: LabTest[] }) {
         return (
           <TestCard
             key={test.id}
+            id={test.id}
+            kind="Lab Test"
             name={test.testName}
             image={test.basic_info.imageSrc || categoryImage}
             price={discounted || price}

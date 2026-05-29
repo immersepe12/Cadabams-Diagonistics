@@ -8,7 +8,6 @@ import {
   Tag,
   Building2,
   Zap,
-  ShoppingCart,
 } from "lucide-react";
 import {
   getNonLabCategorySlug,
@@ -22,6 +21,7 @@ import { nonLabTestUrl } from "@/lib/urls";
 import { MarkdownContent } from "@/components/shared/MarkdownContent";
 import { TestCard } from "@/components/shared/TestCard";
 import { TestBookingActions } from "@/components/shared/TestBookingActions";
+import { AddToCartButton } from "@/components/shared/AddToCartButton";
 import { LabStats } from "@/components/shared/LabStats";
 import { CentersListCard } from "@/components/shared/CentersListCard";
 import { getAllCenters, getCenterSlug } from "@/lib/data/centers";
@@ -317,13 +317,17 @@ export function ScanDetail({ familyPath, slug }: ScanDetailProps) {
               </div>
 
               <div className="flex flex-col sm:flex-row gap-3 pt-3">
-                <Link
-                  href="/cart"
+                <AddToCartButton
+                  item={{
+                    id: test.id,
+                    name: test.testName,
+                    price: finalPrice,
+                    originalPrice: showDiscount ? price : undefined,
+                    href: nonLabTestUrl(test),
+                    kind: "Radiology",
+                  }}
                   className="inline-flex items-center justify-center gap-2 rounded-pill bg-orange-50 hover:bg-orange-100 text-orange-700 font-semibold px-6 py-3 text-body border-2 border-orange-200 hover:border-orange-300 transition-all duration-200 active:scale-[0.98] focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-orange-200"
-                >
-                  <ShoppingCart className="w-4 h-4" />
-                  Add to cart
-                </Link>
+                />
                 <Link
                   href="/cart"
                   className="inline-flex items-center justify-center gap-2 rounded-pill bg-gradient-cta text-white font-bold px-6 py-3 text-body shadow-glow-orange ring-2 ring-orange-300/30 hover:brightness-110 hover:-translate-y-0.5 hover:ring-orange-400/50 active:scale-[0.98] transition-all duration-200 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-orange-300"
@@ -535,6 +539,8 @@ export function ScanDetail({ familyPath, slug }: ScanDetailProps) {
                   return (
                     <TestCard
                       key={t.id}
+                      id={t.id}
+                      kind="Radiology"
                       name={t.testName}
                       image={t.basic_info.imageSrc ?? tCategory?.image ?? null}
                       price={dp || p}
@@ -602,6 +608,10 @@ export function ScanDetail({ familyPath, slug }: ScanDetailProps) {
               <TestBookingActions
                 testName={test.testName}
                 finalPrice={finalPrice}
+                testId={test.id}
+                testHref={nonLabTestUrl(test)}
+                originalPrice={showDiscount ? price : undefined}
+                kind="Radiology"
               />
             </div>
           </div>

@@ -18,6 +18,7 @@ import {
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { ContactActionButton } from "@/components/shared/ContactActionButton";
+import { useCartStore, useCartHydrated, selectCount } from "@/lib/cart/store";
 
 interface NavItem {
   name: string;
@@ -36,6 +37,9 @@ export function HeaderClient({
   radiologyCategories,
 }: HeaderClientProps) {
   const pathname = usePathname();
+  const cartHydrated = useCartHydrated();
+  const cartCount = useCartStore(selectCount);
+  const showCartCount = cartHydrated && cartCount > 0;
   const [mobileOpen, setMobileOpen] = useState(false);
   const [radioOpen, setRadioOpen] = useState(false);
   const [centerOpen, setCenterOpen] = useState(false);
@@ -229,7 +233,14 @@ export function HeaderClient({
                   isActive("/cart") && "text-orange-600 bg-orange-50",
                 )}
               >
-                <ShoppingCart className="w-4 h-4" />
+                <span className="relative">
+                  <ShoppingCart className="w-4 h-4" />
+                  {showCartCount && (
+                    <span className="absolute -top-2 -right-2 min-w-4 h-4 px-1 inline-flex items-center justify-center rounded-pill bg-orange-500 text-white text-[10px] font-bold leading-none">
+                      {cartCount > 99 ? "99+" : cartCount}
+                    </span>
+                  )}
+                </span>
                 <span>Cart</span>
               </Link>
 
@@ -363,7 +374,7 @@ export function HeaderClient({
           <MobileLink
             href="/cart"
             icon={<ShoppingCart className="w-5 h-5" />}
-            label="Cart"
+            label={showCartCount ? `Cart (${cartCount})` : "Cart"}
             active={isActive("/cart")}
             onNavigate={() => setMobileOpen(false)}
           />

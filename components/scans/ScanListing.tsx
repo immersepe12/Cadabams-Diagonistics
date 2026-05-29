@@ -365,6 +365,8 @@ export function ScanListing({ familyPath, searchParams }: ScanListingProps) {
                     return (
                       <TestCard
                         key={test.id}
+                        id={test.id}
+                        kind="Radiology"
                         name={test.testName}
                         image={
                           test.basic_info.imageSrc ?? category.image ?? null

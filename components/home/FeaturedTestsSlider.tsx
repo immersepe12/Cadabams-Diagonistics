@@ -1,10 +1,6 @@
 import Link from "next/link";
-import {
-  ChevronRight,
-  Clock,
-  FlaskConical,
-  ShoppingCart,
-} from "lucide-react";
+import { ChevronRight, Clock, FlaskConical } from "lucide-react";
+import { AddToCartButton } from "@/components/shared/AddToCartButton";
 
 export interface FeaturedTestCard {
   id: string;
@@ -126,13 +122,20 @@ export function FeaturedTestsSlider({
                   </div>
 
                   <div className="flex items-center gap-2">
-                    <Link
-                      href="/cart"
-                      className="flex-1 inline-flex items-center justify-center gap-1 sm:gap-1.5 px-2 py-1.5 sm:px-3 sm:py-2 rounded-pill bg-orange-500 text-white font-semibold text-caption sm:text-body-sm shadow-glow-orange hover:bg-orange-600 transition-all duration-200 active:scale-[0.97]"
-                    >
-                      <ShoppingCart className="w-3 h-3 sm:w-3.5 sm:h-3.5" />
-                      Add to cart
-                    </Link>
+                    <AddToCartButton
+                      item={{
+                        id: card.id,
+                        name: card.name,
+                        price: card.discountedPrice,
+                        originalPrice:
+                          card.price > card.discountedPrice
+                            ? card.price
+                            : undefined,
+                        href: card.href,
+                        kind: card.kind,
+                      }}
+                      className="flex-1 inline-flex items-center justify-center gap-1 sm:gap-1.5 px-2 py-1.5 sm:px-3 sm:py-2 rounded-pill bg-orange-500 text-white font-semibold text-caption sm:text-body-sm shadow-glow-orange hover:bg-orange-600 transition-all duration-200 active:scale-[0.97] [&_svg]:w-3 [&_svg]:h-3 sm:[&_svg]:w-3.5 sm:[&_svg]:h-3.5"
+                    />
                     <Link
                       href={card.href}
                       className="inline-flex items-center gap-0.5 text-caption sm:text-body-sm font-semibold text-orange-600 hover:text-orange-700 transition-colors focus-visible:outline-none focus-visible:underline group/link"
