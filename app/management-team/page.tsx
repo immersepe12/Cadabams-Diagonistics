@@ -3,18 +3,15 @@ import Link from "next/link";
 import {
   Home,
   ChevronRight,
-  ShieldCheck,
-  Award,
-  HeartPulse,
-  Database,
-  Stethoscope,
-  ClipboardCheck,
   Sparkles,
+  Calendar,
   Users,
-  Building2,
+  Star,
+  Target,
+  Check,
+  Stethoscope,
   Phone,
 } from "lucide-react";
-import { getAllCenters } from "@/lib/data/centers";
 import { ContactActionButton } from "@/components/shared/ContactActionButton";
 import {
   Breadcrumb,
@@ -28,57 +25,99 @@ import {
 export const revalidate = 86400;
 
 export const metadata: Metadata = {
-  title: "Management team",
+  title: "Management Team | Leadership & Vision",
   description:
-    "The leadership behind Cadabam's Diagnostics — the clinical-governance, quality, patient-experience, and technology principles that guide every centre across Bangalore.",
+    "Meet the visionary leaders of Cadabam's Diagnostics. Our management team brings 30+ years of healthcare excellence, led by Chairman Cadabam M Ramesh and an experienced executive board.",
   alternates: {
     canonical: "https://cadabamsdiagnostics.com/management-team",
   },
 };
 
-const FOCUS_AREAS = [
+const STATS = [
+  { Icon: Calendar, value: "30+", label: "Years of Excellence" },
+  { Icon: Users, value: "100+", label: "Team Members" },
+  { Icon: Star, value: "95%", label: "Patient Satisfaction" },
+  { Icon: Target, value: "5", label: "Specialized Departments" },
+] as const;
+
+interface Leader {
+  name: string;
+  role: string;
+  description: string;
+  achievements: string[];
+}
+
+const TEAM: Leader[] = [
   {
-    Icon: ClipboardCheck,
-    title: "Clinical governance",
-    body: "Regular peer review, double-blind reporting on critical imaging, and ongoing CME for every clinician on the panel.",
+    name: "Cadabam M Ramesh",
+    role: "Chairman, Cadabam's Group",
+    description:
+      "Mr. Cadabam M. Ramesh, the nucleus of the organization, envisioned Cadabams as a place for treatment and solace for every kind of healthcare concern. Founded with a vision of delivering excellence to patients, he has driven unparalleled service and new outcomes across the Cadabam's Group.",
+    achievements: [
+      "Steering board priorities",
+      "Focus on infrastructure development",
+      "Emphasis on quality healthcare",
+      "Creating a nurturing work environment",
+    ],
   },
   {
-    Icon: Award,
-    title: "Quality & accreditation",
-    body: "NABL-aligned lab processes, calibrated equipment, and reproducible reference ranges that stay consistent across every centre.",
+    name: "Sudha R. Cadabam",
+    role: "Vice Chairperson, Cadabam's Group",
+    description:
+      "Mrs. Sudha R. Cadabam oversees the Cadabam's Group's growth and sustainability. With 20 years of expertise, she shapes, structures, and enables smooth, ideal functioning across the organization.",
+    achievements: [
+      "20+ years of healthcare expertise",
+      "Focus on organizational growth",
+      "Patient care enhancement",
+      "Staff development initiatives",
+    ],
   },
   {
-    Icon: HeartPulse,
-    title: "Patient experience",
-    body: "Transparent pricing, predictable report timelines, and a dedicated team for safe, on-time home sample collection.",
+    name: "M.K. Saraswathi",
+    role: "Vice Chairperson, Cadabam's Group",
+    description:
+      "Ms. M. K. Saraswathi has made an immense contribution to Cadabam's with over two decades of expertise in psychology. With her administrative skills and strategies, she designed the healthcare system to structure operational efficiency.",
+    achievements: [
+      "20+ years in psychology",
+      "Healthcare system design",
+      "Operational efficiency",
+      "Department supervision",
+    ],
   },
   {
-    Icon: Database,
-    title: "Technology & data",
-    body: "Digital reports over WhatsApp and email, secure record-keeping, and a referral workflow built to respect your data.",
+    name: "Sandesh Cadabam",
+    role: "Director",
+    description:
+      "Mr. Sandesh R. Cadabam, a promising entrepreneur within the organization, is passionate about providing healthcare to international standards. With an MSc. in International Business & Management from Manchester Business School, UK, he brings innovative strategic methods and modern thinking to the organization.",
+    achievements: [
+      "International healthcare expertise",
+      "Strategic innovation",
+      "Team development",
+      "Quality healthcare focus",
+    ],
+  },
+  {
+    name: "Neha S. Cadabam",
+    role: "Executive Director & Psychologist",
+    description:
+      "Neha Cadabam is a Psychologist at Cadabam's with over 11 years of experience in mental health. She specializes in preventive and promotive mental healthcare, helping individuals improve their well-being and adopt healthier lifestyle changes.",
+    achievements: [
+      "11+ years in mental health",
+      "Certified NLP Practitioner",
+      "Multi-lingual expertise",
+      "Specialized counseling approaches",
+    ],
   },
 ];
 
-const PRINCIPLES = [
-  {
-    title: "Accuracy is non-negotiable",
-    body: "Every critical result is reviewed before it reaches you. We would rather re-run a sample than ship a doubtful number.",
-  },
-  {
-    title: "Respect your time",
-    body: "Most lab reports land within 6 hours and routine scans are read the same day — because waiting on health answers is its own kind of stress.",
-  },
-  {
-    title: "Care, not transactions",
-    body: "From the phlebotomist at your door to the radiologist on the report, the goal is the same: treat every patient like family.",
-  },
-];
+function initials(name: string): string {
+  const parts = name.replace(/^(mr|mrs|ms|dr)\.?\s+/i, "").trim().split(/\s+/);
+  const first = parts[0]?.[0] ?? "";
+  const last = parts.length > 1 ? parts[parts.length - 1][0] : "";
+  return (first + last).toUpperCase();
+}
 
 export default function ManagementTeamPage() {
-  const centerCount = getAllCenters().filter(
-    (c) => c.basic_info?.center_name?.trim().length > 0,
-  ).length;
-
   return (
     <main className="bg-cream-bg min-h-screen">
       {/* Hero */}
@@ -101,7 +140,7 @@ export default function ManagementTeamPage() {
           }}
         />
 
-        <div className="relative mx-auto max-w-7xl px-gutter pt-5 pb-12 sm:pt-6 sm:pb-16 lg:pt-8 lg:pb-24">
+        <div className="relative mx-auto max-w-7xl px-gutter pt-5 pb-14 sm:pt-6 sm:pb-16 lg:pt-8 lg:pb-24">
           <Breadcrumb>
             <BreadcrumbList className="text-white/80">
               <BreadcrumbItem>
@@ -125,211 +164,149 @@ export default function ManagementTeamPage() {
           <div className="mt-6 sm:mt-8 max-w-3xl">
             <span className="inline-flex items-center gap-1.5 rounded-pill bg-white/15 backdrop-blur-md ring-1 ring-white/25 px-3 py-1 text-overline uppercase font-bold tracking-overline">
               <Sparkles className="w-3.5 h-3.5" />
-              Leadership
+              Leadership & Vision
             </span>
             <h1 className="mt-4 text-h1 sm:text-display-2 lg:text-[52px] lg:leading-[1.05] font-display font-extrabold tracking-tight">
-              The team behind Cadabam&apos;s Diagnostics.
+              Our management team.
             </h1>
             <p className="mt-4 text-body sm:text-h3 text-white/90 leading-relaxed max-w-2xl">
-              A multidisciplinary leadership team that blends clinical
-              expertise with operational rigour — keeping patient outcomes at
-              the centre of every decision, across {centerCount} centres in
-              Bangalore.
+              Meet the visionaries leading Cadabam&apos;s towards excellence in
+              healthcare — with 30+ years of combined experience steering
+              quality, growth, and patient-first care.
             </p>
-          </div>
-        </div>
-      </section>
-
-      {/* Leadership philosophy */}
-      <section className="mx-auto max-w-7xl px-gutter py-12 sm:py-14 lg:py-20">
-        <div className="grid gap-8 lg:gap-14 lg:grid-cols-2 items-start">
-          <div>
-            <p className="text-overline uppercase text-orange-700 font-bold mb-3 tracking-overline">
-              How we lead
-            </p>
-            <h2 className="text-h1 sm:text-display-2 font-display font-extrabold text-ink-900 tracking-tight leading-tight">
-              Clinical expertise, operational rigour.
-            </h2>
-            <p className="mt-4 text-body sm:text-h3 text-ink-700 leading-relaxed">
-              From day-to-day centre operations to long-term clinical strategy,
-              our leadership works hand-in-hand with the medical team. The
-              brief is simple: build a diagnostic network you can trust with
-              your family&apos;s health.
-            </p>
-            <p className="mt-4 text-body text-ink-700 leading-relaxed">
-              That means investing in the right equipment, holding ourselves to
-              accreditation standards, and designing every touchpoint —
-              booking, collection, reporting — around the patient.
-            </p>
-          </div>
-
-          <ul className="space-y-4">
-            {PRINCIPLES.map((p, i) => (
-              <li
-                key={p.title}
-                className="flex gap-4 bg-cream-card rounded-2xl shadow-sh-1 border border-cream-line p-5"
-              >
-                <span className="w-9 h-9 inline-flex items-center justify-center rounded-pill bg-gradient-cta text-white font-display font-extrabold text-body flex-shrink-0 shadow-glow-orange">
-                  {i + 1}
-                </span>
-                <div>
-                  <h3 className="text-h3 font-bold text-ink-900 leading-snug">
-                    {p.title}
-                  </h3>
-                  <p className="mt-1.5 text-body-sm text-ink-600 leading-relaxed">
-                    {p.body}
-                  </p>
-                </div>
-              </li>
-            ))}
-          </ul>
-        </div>
-      </section>
-
-      {/* Focus areas */}
-      <section className="bg-cream-soft py-12 sm:py-14 lg:py-20 border-y border-cream-line">
-        <div className="mx-auto max-w-7xl px-gutter">
-          <div className="text-center max-w-2xl mx-auto mb-10 sm:mb-12">
-            <p className="text-overline uppercase text-orange-700 font-bold mb-3 tracking-overline">
-              What our leadership owns
-            </p>
-            <h2 className="text-h1 sm:text-display-2 font-display font-extrabold text-ink-900 tracking-tight leading-tight">
-              Four pillars, every decision.
-            </h2>
-          </div>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-5">
-            {FOCUS_AREAS.map(({ Icon, title, body }) => (
-              <article
-                key={title}
-                className="bg-cream-card rounded-2xl shadow-sh-1 hover:shadow-sh-3 border border-cream-line hover:border-orange-200 transition-all duration-200 p-5 sm:p-6 hover:-translate-y-0.5"
-              >
-                <div className="w-11 h-11 rounded-pill bg-orange-50 inline-flex items-center justify-center mb-3">
-                  <Icon className="w-5 h-5 text-orange-600" />
-                </div>
-                <h3 className="text-h3 font-bold text-ink-900 leading-snug">
-                  {title}
-                </h3>
-                <p className="mt-2 text-body-sm text-ink-600 leading-relaxed">
-                  {body}
-                </p>
-              </article>
-            ))}
           </div>
         </div>
       </section>
 
       {/* Stats band */}
-      <section className="mx-auto max-w-7xl px-gutter py-12 sm:py-14 lg:py-20">
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-5">
-          <StatCard value="2020" label="Founded" Icon={Sparkles} />
-          <StatCard
-            value={`${centerCount}`}
-            label="Centres in Bangalore"
-            Icon={Building2}
-          />
-          <StatCard value="1M+" label="Tests delivered" Icon={Users} />
-          <StatCard value="NABL" label="Accredited labs" Icon={ShieldCheck} />
+      <section className="mx-auto max-w-7xl px-gutter -mt-6 lg:-mt-10 relative z-10">
+        <div className="bg-cream-card rounded-2xl shadow-sh-3 border border-cream-line p-4 lg:p-5 grid grid-cols-2 lg:grid-cols-4 gap-3 lg:gap-6">
+          {STATS.map(({ Icon, value, label }) => (
+            <div key={label} className="flex items-center gap-3 min-w-0">
+              <span className="w-10 h-10 lg:w-12 lg:h-12 inline-flex items-center justify-center rounded-pill bg-orange-50 text-orange-600 flex-shrink-0">
+                <Icon className="w-5 h-5 lg:w-6 lg:h-6" />
+              </span>
+              <div className="min-w-0">
+                <p className="text-h2 lg:text-display-2 font-display font-extrabold text-orange-600 leading-none">
+                  {value}
+                </p>
+                <p className="text-caption lg:text-meta text-ink-600 font-medium mt-0.5 lg:mt-1 truncate">
+                  {label}
+                </p>
+              </div>
+            </div>
+          ))}
         </div>
       </section>
 
-      {/* Meet the clinical team */}
-      <section className="bg-cream-soft py-12 sm:py-14 lg:py-20 border-y border-cream-line">
-        <div className="mx-auto max-w-5xl px-gutter">
-          <div className="bg-cream-card rounded-3xl shadow-sh-2 border border-cream-line p-6 sm:p-8 lg:p-10 grid gap-6 lg:grid-cols-[auto_1fr] items-center">
-            <span className="w-16 h-16 inline-flex items-center justify-center rounded-2xl bg-gradient-cta text-white shadow-glow-orange flex-shrink-0">
-              <Stethoscope className="w-8 h-8" />
-            </span>
-            <div>
-              <h2 className="text-h2 sm:text-h1 font-display font-extrabold text-ink-900 tracking-tight leading-tight">
-                Meet the specialists who read your reports.
-              </h2>
-              <p className="mt-2 text-body text-ink-600 leading-relaxed">
-                Our radiologists and clinical experts bring decades of combined
-                experience in fetal medicine, musculoskeletal imaging, and
-                diagnostic radiology.
-              </p>
-              <Link
-                href="/clinical-team"
-                className="mt-5 inline-flex items-center gap-2 rounded-pill bg-gradient-cta text-white font-bold px-6 py-3 text-body shadow-glow-orange hover:brightness-110 active:scale-[0.98] transition-all"
-              >
-                View the clinical team
-                <ChevronRight className="w-4 h-4" />
-              </Link>
-            </div>
-          </div>
+      {/* Team */}
+      <section className="mx-auto max-w-7xl px-gutter py-12 sm:py-14 lg:py-20">
+        <div className="mb-8 sm:mb-10 max-w-2xl">
+          <p className="text-overline uppercase text-orange-700 font-bold mb-2 tracking-overline">
+            Meet the leadership
+          </p>
+          <h2 className="text-h1 sm:text-display-2 font-display font-extrabold text-ink-900 tracking-tight leading-tight">
+            The visionaries behind Cadabam&apos;s.
+          </h2>
+        </div>
+
+        <div className="space-y-5 lg:space-y-6">
+          {TEAM.map((m) => (
+            <article
+              key={m.name}
+              className="bg-cream-card rounded-2xl shadow-sh-1 hover:shadow-sh-2 border border-cream-line transition-shadow duration-200 overflow-hidden grid lg:grid-cols-[300px_1fr]"
+            >
+              {/* Identity panel */}
+              <div className="bg-gradient-orange-soft p-6 sm:p-7 flex items-center gap-4 lg:flex-col lg:items-start lg:justify-center border-b lg:border-b-0 lg:border-r border-cream-line">
+                <span className="w-16 h-16 lg:w-20 lg:h-20 inline-flex items-center justify-center rounded-pill bg-gradient-cta text-white font-display font-extrabold text-h2 lg:text-h1 shadow-glow-orange flex-shrink-0">
+                  {initials(m.name)}
+                </span>
+                <div className="min-w-0">
+                  <h3 className="text-h3 lg:text-h2 font-display font-bold text-ink-900 leading-tight">
+                    {m.name}
+                  </h3>
+                  <p className="mt-1 text-meta lg:text-body-sm font-bold uppercase tracking-overline text-orange-700">
+                    {m.role}
+                  </p>
+                </div>
+              </div>
+
+              {/* Bio + contributions */}
+              <div className="p-6 sm:p-7 lg:p-8">
+                <p className="text-body text-ink-700 leading-relaxed">
+                  {m.description}
+                </p>
+                <div className="mt-5">
+                  <p className="text-overline uppercase text-orange-700 font-bold tracking-overline mb-3">
+                    Key contributions
+                  </p>
+                  <ul className="grid sm:grid-cols-2 gap-x-5 gap-y-2.5">
+                    {m.achievements.map((a) => (
+                      <li
+                        key={a}
+                        className="flex items-start gap-2.5 text-body-sm text-ink-700"
+                      >
+                        <span className="w-5 h-5 rounded-pill bg-success-bg text-success inline-flex items-center justify-center flex-shrink-0 mt-0.5">
+                          <Check className="w-3 h-3" />
+                        </span>
+                        {a}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
+            </article>
+          ))}
         </div>
       </section>
 
       {/* Closing CTA */}
-      <section className="mx-auto max-w-5xl px-gutter py-12 sm:py-14 lg:py-20">
-        <div className="relative overflow-hidden bg-gradient-hero text-white rounded-3xl shadow-sh-3 p-8 sm:p-10 lg:p-14">
-          <div
-            aria-hidden
-            className="pointer-events-none absolute -top-20 -right-16 w-72 h-72 rounded-pill bg-white/15 blur-3xl"
-          />
-          <div
-            aria-hidden
-            className="pointer-events-none absolute -bottom-24 -left-10 w-80 h-80 rounded-pill bg-coral-300/30 blur-3xl"
-          />
-          <div className="relative grid gap-6 lg:grid-cols-[1.4fr_1fr] items-center">
-            <div>
-              <p className="text-overline uppercase font-bold text-white/80 mb-2 tracking-overline">
-                Partnerships & press
-              </p>
-              <h2 className="text-h1 sm:text-display-2 font-display font-extrabold tracking-tight leading-tight">
-                Want to work with us?
-              </h2>
-              <p className="mt-3 text-body lg:text-h3 text-white/85 max-w-xl leading-relaxed">
-                For partnerships, press, or governance enquiries, our team is
-                one message away.
-              </p>
-            </div>
-            <div className="flex flex-col sm:flex-row lg:flex-col gap-3">
-              <Link
-                href="/contact-us"
-                className="inline-flex items-center justify-center gap-2 rounded-pill bg-white text-orange-700 font-bold px-6 py-3 text-body shadow-sh-2 hover:brightness-95 active:scale-[0.98] transition-all"
-              >
-                Contact us
-              </Link>
-              <ContactActionButton
-                mode="call"
-                phone="+91 99006 64696"
-                context="Management team — enquiry"
-                className="inline-flex items-center justify-center gap-2 rounded-pill bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 text-body border border-white/30 transition-all"
-              >
-                <Phone className="w-4 h-4" />
-                Talk to us
-              </ContactActionButton>
+      <section className="bg-cream-soft py-12 sm:py-14 lg:py-20 border-t border-cream-line">
+        <div className="mx-auto max-w-5xl px-gutter">
+          <div className="relative overflow-hidden bg-gradient-hero text-white rounded-3xl shadow-sh-3 p-8 sm:p-10 lg:p-14">
+            <div
+              aria-hidden
+              className="pointer-events-none absolute -top-20 -right-16 w-72 h-72 rounded-pill bg-white/15 blur-3xl"
+            />
+            <div
+              aria-hidden
+              className="pointer-events-none absolute -bottom-24 -left-10 w-80 h-80 rounded-pill bg-coral-300/30 blur-3xl"
+            />
+            <div className="relative grid gap-6 lg:grid-cols-[1.4fr_1fr] items-center">
+              <div>
+                <p className="text-overline uppercase font-bold text-white/80 mb-2 tracking-overline">
+                  Get in touch with our management
+                </p>
+                <h2 className="text-h1 sm:text-display-2 font-display font-extrabold tracking-tight leading-tight">
+                  Want to learn more about our leadership?
+                </h2>
+                <p className="mt-3 text-body lg:text-h3 text-white/85 max-w-xl leading-relaxed">
+                  For partnerships, press, or governance enquiries, our team is
+                  one message away.
+                </p>
+              </div>
+              <div className="flex flex-col sm:flex-row lg:flex-col gap-3">
+                <Link
+                  href="/contact-us"
+                  className="inline-flex items-center justify-center gap-2 rounded-pill bg-white text-orange-700 font-bold px-6 py-3 text-body shadow-sh-2 hover:brightness-95 active:scale-[0.98] transition-all"
+                >
+                  Contact us
+                  <ChevronRight className="w-4 h-4" />
+                </Link>
+                <ContactActionButton
+                  mode="call"
+                  phone="+91 99006 64696"
+                  context="Management team — enquiry"
+                  className="inline-flex items-center justify-center gap-2 rounded-pill bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 text-body border border-white/30 transition-all"
+                >
+                  <Phone className="w-4 h-4" />
+                  Talk to us
+                </ContactActionButton>
+              </div>
             </div>
           </div>
         </div>
       </section>
     </main>
-  );
-}
-
-function StatCard({
-  value,
-  label,
-  Icon,
-}: {
-  value: string;
-  label: string;
-  Icon: typeof Users;
-}) {
-  return (
-    <div className="bg-cream-card rounded-2xl shadow-sh-1 border border-cream-line p-4 sm:p-5 lg:p-6 flex items-center gap-3 sm:gap-4">
-      <span className="w-10 h-10 sm:w-12 sm:h-12 inline-flex items-center justify-center rounded-pill bg-orange-50 text-orange-600 flex-shrink-0">
-        <Icon className="w-5 h-5 sm:w-6 sm:h-6" />
-      </span>
-      <div className="min-w-0">
-        <p className="text-h2 sm:text-display-2 font-display font-extrabold text-orange-600 leading-none">
-          {value}
-        </p>
-        <p className="text-caption sm:text-meta text-ink-600 font-medium mt-1 truncate">
-          {label}
-        </p>
-      </div>
-    </div>
   );
 }
