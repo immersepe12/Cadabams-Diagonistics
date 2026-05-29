@@ -245,6 +245,21 @@ body {
    ========================================================================== */
 html,
 body {
+  width: 100%;
   max-width: 100%;
   overflow-x: clip;
+}
+
+/* Belt-and-braces: stop long unbreakable words / urls inside prose from
+   pushing their container wider than the viewport. */
+p,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+  word-break: break-word;
 }

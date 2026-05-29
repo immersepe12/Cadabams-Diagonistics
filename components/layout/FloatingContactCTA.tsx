@@ -100,7 +100,7 @@ export function FloatingContactCTA() {
 
   return (
     <div
-      className="fixed z-50 right-4 sm:right-6 bottom-4 sm:bottom-6 flex flex-col items-end gap-3"
+      className="fixed z-50 right-3 sm:right-6 bottom-3 sm:bottom-6 flex flex-col items-end gap-2 sm:gap-3"
       style={{
         paddingBottom: "env(safe-area-inset-bottom)",
         paddingRight: "env(safe-area-inset-right)",
@@ -227,9 +227,9 @@ export function FloatingContactCTA() {
         onClick={() => setMode(isWhatsApp ? null : "whatsapp")}
         aria-label="Chat with us on WhatsApp"
         aria-expanded={isWhatsApp}
-        className="inline-flex items-center justify-center w-14 h-14 rounded-pill bg-[#25D366] text-white shadow-sh-3 ring-2 ring-white hover:brightness-110 active:scale-95 transition-[filter,transform] duration-150"
+        className="inline-flex items-center justify-center w-11 h-11 sm:w-14 sm:h-14 rounded-pill bg-[#25D366] text-white shadow-sh-3 ring-2 ring-white hover:brightness-110 active:scale-95 transition-[filter,transform] duration-150"
       >
-        <WhatsAppIcon className="w-7 h-7" />
+        <WhatsAppIcon className="w-5 h-5 sm:w-7 sm:h-7" />
       </button>
 
       <button
@@ -237,9 +237,9 @@ export function FloatingContactCTA() {
         onClick={() => setMode(mode === "call" ? null : "call")}
         aria-label="Call Cadabam's Diagnostics"
         aria-expanded={mode === "call"}
-        className="inline-flex items-center justify-center w-14 h-14 rounded-pill bg-gradient-cta text-white shadow-glow-orange ring-2 ring-white hover:brightness-110 active:scale-95 transition-[filter,transform] duration-150"
+        className="inline-flex items-center justify-center w-11 h-11 sm:w-14 sm:h-14 rounded-pill bg-gradient-cta text-white shadow-glow-orange ring-2 ring-white hover:brightness-110 active:scale-95 transition-[filter,transform] duration-150"
       >
-        <Phone className="w-6 h-6 fill-white" />
+        <Phone className="w-5 h-5 sm:w-6 sm:h-6 fill-white" />
       </button>
     </div>
   );
