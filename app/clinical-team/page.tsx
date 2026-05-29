@@ -7,13 +7,15 @@ import {
   Sparkles,
   Stethoscope,
   GraduationCap,
-  BriefcaseMedical,
+  Activity,
+  Trophy,
+  Check,
   ShieldCheck,
   Users,
   Award,
   Phone,
 } from "lucide-react";
-import { getAllCenters } from "@/lib/data/centers";
+import { CLINICAL_TEAM } from "@/lib/data/clinical-team";
 import { ContactActionButton } from "@/components/shared/ContactActionButton";
 import {
   Breadcrumb,
@@ -29,84 +31,11 @@ export const revalidate = 86400;
 export const metadata: Metadata = {
   title: "Clinical team",
   description:
-    "Meet the radiologists, fetal-medicine specialists, and clinical experts behind Cadabam's Diagnostics across our Bangalore centres.",
+    "Meet our expert team of radiologists and specialists at Cadabam's Diagnostics — led by Dr. S Pradeep, Dr. Divya Cadabam, and Dr. Shreyas Cadabam, offering specialized diagnostic services in Bangalore.",
   alternates: { canonical: "https://cadabamsdiagnostics.com/clinical-team" },
 };
 
-interface Member {
-  name: string;
-  designation: string;
-  qualification: string;
-  experience: string;
-  image: string;
-}
-
-/**
- * Normalise a doctor name so "Dr S Pradeep" and "Dr. S Pradeep" collapse to
- * the same key: lowercase, drop a leading Dr/Dr. honorific, strip punctuation,
- * and collapse whitespace.
- */
-function nameKey(name: string): string {
-  return name
-    .toLowerCase()
-    .replace(/^dr\.?\s+/, "")
-    .replace(/[.,]/g, "")
-    .replace(/\s+/g, " ")
-    .trim();
-}
-
-/** Ensure the display name carries a clean "Dr. " honorific. */
-function displayName(name: string): string {
-  const bare = name.replace(/^dr\.?\s+/i, "").trim();
-  return `Dr. ${bare}`;
-}
-
-function cleanExperience(exp: string): string {
-  return exp
-    .trim()
-    .replace(/\s*(years?)\s*(experience)?$/i, "")
-    .replace(/\+\s*$/, "+")
-    .trim();
-}
-
-function getClinicalTeam(): Member[] {
-  const byKey = new Map<string, Member>();
-  for (const center of getAllCenters()) {
-    for (const m of center.team ?? []) {
-      const name = (m.name ?? "").trim();
-      if (name.length === 0) continue;
-      const key = nameKey(name);
-      const candidate: Member = {
-        name,
-        designation: (m.designation ?? "").trim(),
-        qualification: (m.qualification ?? "").trim(),
-        experience: (m.experience ?? "").trim(),
-        image: m.image ?? "",
-      };
-      const existing = byKey.get(key);
-      if (!existing) {
-        byKey.set(key, candidate);
-        continue;
-      }
-      // Keep the richer record (prefer one that has an image, then longer
-      // designation/qualification text).
-      const score = (x: Member) =>
-        (x.image ? 4 : 0) +
-        (x.designation.length > 0 ? 2 : 0) +
-        (x.qualification.length > 0 ? 1 : 0) +
-        Math.min(x.designation.length + x.qualification.length, 100) / 100;
-      if (score(candidate) > score(existing)) byKey.set(key, candidate);
-    }
-  }
-  return Array.from(byKey.values());
-}
-
 export default function ClinicalTeamPage() {
-  const team = getClinicalTeam();
-  const centerCount = getAllCenters().filter(
-    (c) => c.basic_info?.center_name?.trim().length > 0,
-  ).length;
-
   return (
     <main className="bg-cream-bg min-h-screen">
       {/* Hero */}
@@ -129,7 +58,7 @@ export default function ClinicalTeamPage() {
           }}
         />
 
-        <div className="relative mx-auto max-w-7xl px-gutter pt-5 pb-12 sm:pt-6 sm:pb-16 lg:pt-8 lg:pb-24">
+        <div className="relative mx-auto max-w-7xl px-gutter pt-5 pb-14 sm:pt-6 sm:pb-16 lg:pt-8 lg:pb-24">
           <Breadcrumb>
             <BreadcrumbList className="text-white/80">
               <BreadcrumbItem>
@@ -161,8 +90,7 @@ export default function ClinicalTeamPage() {
             <p className="mt-4 text-body sm:text-h3 text-white/90 leading-relaxed max-w-2xl">
               Our radiologists and clinical experts bring decades of combined
               experience in fetal medicine, musculoskeletal imaging, and
-              diagnostic radiology — reviewing every report across {centerCount}{" "}
-              centres in Bangalore.
+              diagnostic radiology — reviewing every report with care.
             </p>
           </div>
         </div>
@@ -171,7 +99,11 @@ export default function ClinicalTeamPage() {
       {/* Stats band */}
       <section className="mx-auto max-w-7xl px-gutter -mt-6 lg:-mt-10 relative z-10">
         <div className="bg-cream-card rounded-2xl shadow-sh-3 border border-cream-line p-4 lg:p-5 grid grid-cols-2 lg:grid-cols-4 gap-3 lg:gap-6">
-          <MiniStat Icon={Users} value={`${team.length}`} label="Specialists" />
+          <MiniStat
+            Icon={Users}
+            value={`${CLINICAL_TEAM.length}`}
+            label="Specialists"
+          />
           <MiniStat Icon={Award} value="25+" label="Years of experience" />
           <MiniStat
             Icon={ShieldCheck}
@@ -182,7 +114,7 @@ export default function ClinicalTeamPage() {
         </div>
       </section>
 
-      {/* Team grid */}
+      {/* Doctor profiles */}
       <section className="mx-auto max-w-7xl px-gutter py-12 sm:py-14 lg:py-20">
         <div className="mb-8 sm:mb-10 max-w-2xl">
           <p className="text-overline uppercase text-orange-700 font-bold mb-2 tracking-overline">
@@ -193,69 +125,81 @@ export default function ClinicalTeamPage() {
           </h2>
         </div>
 
-        {team.length === 0 ? (
-          <p className="text-body text-ink-500">
-            Team information will be available shortly.
-          </p>
-        ) : (
-          <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-6">
-            {team.map((m, i) => (
-              <li key={`${nameKey(m.name)}-${i}`}>
-                <article className="group bg-cream-card rounded-2xl shadow-sh-1 hover:shadow-sh-3 border border-cream-line hover:border-orange-200 transition-all duration-200 overflow-hidden h-full flex flex-col hover:-translate-y-0.5">
-                  <div className="relative aspect-[4/3] bg-cream-soft overflow-hidden">
-                    {m.image && m.image.startsWith("/") ? (
-                      <Image
-                        src={m.image}
-                        alt={displayName(m.name)}
-                        fill
-                        className="object-cover object-top group-hover:scale-105 transition-transform duration-300"
-                        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                      />
-                    ) : (
-                      <div className="absolute inset-0 flex items-center justify-center">
-                        <span className="w-20 h-20 inline-flex items-center justify-center rounded-pill bg-orange-50 text-orange-600">
-                          <Stethoscope className="w-9 h-9" />
-                        </span>
-                      </div>
-                    )}
-                    <span
-                      aria-hidden
-                      className="absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-t from-ink-900/35 to-transparent"
-                    />
-                  </div>
-
-                  <div className="p-5 flex flex-col flex-1">
-                    <h3 className="text-h3 font-bold text-ink-900 leading-snug">
-                      {displayName(m.name)}
+        <div className="space-y-6 lg:space-y-8">
+          {CLINICAL_TEAM.map((doc) => (
+            <article
+              key={doc.name}
+              className="bg-cream-card rounded-2xl shadow-sh-1 hover:shadow-sh-2 border border-cream-line transition-shadow duration-200 overflow-hidden grid lg:grid-cols-[320px_1fr]"
+            >
+              {/* Photo + identity */}
+              <div className="relative bg-gradient-orange-soft border-b lg:border-b-0 lg:border-r border-cream-line">
+                <div className="relative aspect-[4/3] lg:aspect-auto lg:h-full lg:min-h-[340px] overflow-hidden">
+                  <Image
+                    src={doc.image}
+                    alt={doc.name}
+                    fill
+                    className="object-cover object-top"
+                    sizes="(max-width: 1024px) 100vw, 320px"
+                  />
+                  <span
+                    aria-hidden
+                    className="absolute inset-x-0 bottom-0 h-2/5 bg-gradient-to-t from-ink-900/70 to-transparent"
+                  />
+                  <div className="absolute bottom-0 left-0 right-0 p-5">
+                    <h3 className="text-h2 font-display font-extrabold text-white leading-tight">
+                      {doc.name}
                     </h3>
-                    {m.designation && (
-                      <p className="mt-1.5 text-body-sm font-semibold text-orange-700 leading-snug">
-                        {m.designation}
-                      </p>
-                    )}
+                    <p className="mt-1 text-body-sm font-semibold text-white/90">
+                      {doc.qualifications}
+                    </p>
+                    <p className="mt-1 text-meta text-white/80">
+                      {doc.position}
+                    </p>
+                  </div>
+                </div>
+              </div>
 
-                    <div className="mt-auto pt-4 space-y-2 border-t border-cream-line-soft mt-4">
-                      {m.qualification && (
-                        <p className="flex items-start gap-2 text-meta text-ink-600">
-                          <GraduationCap className="w-3.5 h-3.5 text-orange-600 flex-shrink-0 mt-0.5" />
-                          <span>{m.qualification}</span>
-                        </p>
-                      )}
-                      {m.experience && (
-                        <p className="flex items-center gap-2 text-meta text-ink-600">
-                          <BriefcaseMedical className="w-3.5 h-3.5 text-orange-600 flex-shrink-0" />
-                          <span>
-                            {cleanExperience(m.experience)} years experience
-                          </span>
-                        </p>
-                      )}
+              {/* Details */}
+              <div className="p-6 sm:p-7 lg:p-8">
+                <p className="text-body text-ink-700 leading-relaxed">
+                  {doc.description}
+                </p>
+
+                <div className="mt-6 grid sm:grid-cols-2 gap-x-8 gap-y-6">
+                  <DetailList
+                    Icon={GraduationCap}
+                    title="Education & Experience"
+                    items={doc.education}
+                  />
+                  <DetailList
+                    Icon={Activity}
+                    title="Areas of Expertise"
+                    items={doc.expertise}
+                  />
+                </div>
+
+                {doc.achievements.length > 0 && (
+                  <div className="mt-6 pt-5 border-t border-cream-line-soft">
+                    <h4 className="flex items-center gap-2 text-overline uppercase text-orange-700 font-bold tracking-overline mb-3">
+                      <Trophy className="w-3.5 h-3.5" />
+                      Achievements
+                    </h4>
+                    <div className="flex flex-wrap gap-2">
+                      {doc.achievements.map((a) => (
+                        <span
+                          key={a}
+                          className="inline-flex items-center rounded-pill bg-orange-50 border border-orange-100 text-orange-700 text-meta font-semibold px-3 py-1"
+                        >
+                          {a}
+                        </span>
+                      ))}
                     </div>
                   </div>
-                </article>
-              </li>
-            ))}
-          </ul>
-        )}
+                )}
+              </div>
+            </article>
+          ))}
+        </div>
       </section>
 
       {/* Closing CTA */}
@@ -306,6 +250,38 @@ export default function ClinicalTeamPage() {
         </div>
       </section>
     </main>
+  );
+}
+
+function DetailList({
+  Icon,
+  title,
+  items,
+}: {
+  Icon: typeof GraduationCap;
+  title: string;
+  items: string[];
+}) {
+  return (
+    <div>
+      <h4 className="flex items-center gap-2 text-overline uppercase text-orange-700 font-bold tracking-overline mb-3">
+        <Icon className="w-3.5 h-3.5" />
+        {title}
+      </h4>
+      <ul className="space-y-2.5">
+        {items.map((item) => (
+          <li
+            key={item}
+            className="flex items-start gap-2.5 text-body-sm text-ink-700 leading-snug"
+          >
+            <span className="w-5 h-5 rounded-pill bg-success-bg text-success inline-flex items-center justify-center flex-shrink-0 mt-0.5">
+              <Check className="w-3 h-3" />
+            </span>
+            {item}
+          </li>
+        ))}
+      </ul>
+    </div>
   );
 }
 
