@@ -1,11 +1,10 @@
-import Image from "next/image";
 import Link from "next/link";
 import { Clock, ShoppingCart, Zap } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 export interface TestCardProps {
   name: string;
-  /** Local path (e.g. /lab-tests/image-xxx.webp) or a fallback URL. */
+  /** Kept for API compatibility — currently ignored, no image is rendered. */
   image?: string | null;
   /** Discounted/current price shown prominently. */
   price: number;
@@ -19,11 +18,8 @@ export interface TestCardProps {
   className?: string;
 }
 
-const FALLBACK_IMAGE = "/shared/image-1727884059139-383535423.webp";
-
 export function TestCard({
   name,
-  image,
   price,
   originalPrice,
   parameters,
@@ -37,7 +33,6 @@ export function TestCard({
     showOriginal && originalPrice
       ? Math.round(((originalPrice - price) / originalPrice) * 100)
       : 0;
-  const src = image && image.length > 0 ? image : FALLBACK_IMAGE;
 
   return (
     <article
@@ -46,41 +41,25 @@ export function TestCard({
         className,
       )}
     >
-      <Link
-        href={href}
-        aria-label={name}
-        className="relative aspect-[5/3] sm:aspect-[4/3] block overflow-hidden bg-cream-soft focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-500"
-      >
-        <Image
-          src={src}
-          alt={name}
-          fill
-          className="object-cover group-hover:scale-105 transition-transform duration-300"
-          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-        />
-        <span
-          aria-hidden
-          className="absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-t from-ink-900/30 to-transparent"
-        />
-        {discountPct > 0 && (
-          <span className="absolute top-2 left-2 sm:top-3 sm:left-3 inline-flex items-center rounded-pill bg-coral-400 text-white text-caption font-bold px-2 py-0.5 sm:px-2.5 sm:py-1 shadow-sh-1">
-            {discountPct}% OFF
-          </span>
-        )}
-      </Link>
-
-      <div className="p-3 sm:p-4 lg:p-5 flex flex-col flex-1">
-        <h3 className="text-body sm:text-h3 text-ink-900 font-bold leading-snug line-clamp-2">
-          <Link
-            href={href}
-            className="hover:text-orange-600 transition-colors focus-visible:outline-none focus-visible:underline"
-          >
-            {name}
-          </Link>
-        </h3>
+      <div className="p-4 sm:p-5 flex flex-col flex-1 min-w-0">
+        <div className="flex items-start justify-between gap-2">
+          <h3 className="text-body sm:text-h3 text-ink-900 font-bold leading-snug line-clamp-2 flex-1 min-w-0">
+            <Link
+              href={href}
+              className="hover:text-orange-600 transition-colors focus-visible:outline-none focus-visible:underline"
+            >
+              {name}
+            </Link>
+          </h3>
+          {discountPct > 0 && (
+            <span className="inline-flex items-center rounded-pill bg-coral-400 text-white text-caption font-bold px-2 py-0.5 sm:px-2.5 sm:py-1 shadow-sh-1 flex-shrink-0">
+              {discountPct}% OFF
+            </span>
+          )}
+        </div>
 
         {(parameters !== undefined || reportTime) && (
-          <div className="mt-1.5 flex flex-wrap items-center gap-x-2.5 gap-y-1 text-caption sm:text-meta text-ink-500">
+          <div className="mt-2 flex flex-wrap items-center gap-x-2.5 gap-y-1 text-caption sm:text-meta text-ink-500">
             {parameters !== undefined && (
               <span className="inline-flex items-center gap-1">
                 <span className="w-1 h-1 rounded-pill bg-ink-300" />
@@ -96,16 +75,16 @@ export function TestCard({
           </div>
         )}
 
-        <div className="mt-auto pt-3 sm:pt-4 border-t border-cream-line-soft space-y-2.5">
-          <div className="flex flex-col">
+        <div className="mt-auto pt-4 sm:pt-5 border-t border-cream-line-soft space-y-3">
+          <div className="flex items-baseline gap-2 flex-wrap">
+            <span className="text-h3 sm:text-h2 text-ink-900 font-extrabold leading-tight tracking-tight">
+              ₹{price.toLocaleString("en-IN")}
+            </span>
             {showOriginal && (
               <span className="text-caption text-ink-400 line-through leading-none">
                 ₹{originalPrice.toLocaleString("en-IN")}
               </span>
             )}
-            <span className="text-h3 sm:text-h2 text-ink-900 font-extrabold leading-tight tracking-tight">
-              ₹{price.toLocaleString("en-IN")}
-            </span>
           </div>
           <div className="flex gap-2">
             <Link
