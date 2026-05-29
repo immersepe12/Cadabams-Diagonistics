@@ -234,7 +234,7 @@ export function ScanListing({ familyPath, searchParams }: ScanListingProps) {
           className="pointer-events-none absolute -bottom-40 -left-32 w-[28rem] h-[28rem] rounded-pill bg-coral-400/30 blur-3xl"
         />
 
-        <div className="relative mx-auto max-w-7xl px-gutter pt-6 pb-14 lg:pt-8 lg:pb-20">
+        <div className="relative mx-auto max-w-7xl px-gutter pt-5 pb-10 sm:pt-6 sm:pb-14 lg:pt-8 lg:pb-20">
           <nav
             aria-label="Breadcrumb"
             className="flex items-center gap-1.5 text-meta text-white/80 mb-6"
@@ -262,10 +262,10 @@ export function ScanListing({ familyPath, searchParams }: ScanListingProps) {
               <p className="text-overline uppercase text-white/80 font-bold mb-3 tracking-overline">
                 {category.name} in Bangalore
               </p>
-              <h1 className="text-display-2 sm:text-display-1 lg:text-[52px] lg:leading-[1.05] font-display font-extrabold mb-4 tracking-tight">
+              <h1 className="text-h1 sm:text-display-2 lg:text-[52px] lg:leading-[1.05] font-display font-extrabold mb-4 tracking-tight">
                 {category.name} Scans
               </h1>
-              <p className="text-body lg:text-h3 text-white/90 max-w-2xl leading-relaxed">
+              <p className="text-body-sm sm:text-body lg:text-h3 text-white/90 max-w-2xl leading-relaxed">
                 {allTests.length}+ {category.name.toLowerCase()} scans in
                 Bangalore. Fast reports, certified equipment, trusted by
                 10,000+ patients.
@@ -402,7 +402,7 @@ export function ScanListing({ familyPath, searchParams }: ScanListingProps) {
             return (
               <section
                 key={`md-section-${i}`}
-                className="bg-cream-card rounded-2xl shadow-sh-2 border border-cream-line p-6 sm:p-8"
+                className="bg-cream-card rounded-2xl shadow-sh-2 border border-cream-line p-4 sm:p-6 lg:p-8"
               >
                 <h2 className="text-h2 font-display font-bold text-ink-900 mb-4">
                   {section.title}
@@ -414,7 +414,7 @@ export function ScanListing({ familyPath, searchParams }: ScanListingProps) {
           return (
             <section
               key={`md-section-${i}`}
-              className="bg-cream-card rounded-2xl shadow-sh-2 border border-cream-line p-6 sm:p-8 overflow-hidden"
+              className="bg-cream-card rounded-2xl shadow-sh-2 border border-cream-line p-4 sm:p-6 lg:p-8 overflow-hidden"
             >
               <div
                 className={cn(
@@ -445,7 +445,7 @@ export function ScanListing({ familyPath, searchParams }: ScanListingProps) {
         })}
 
         {hasInterpretations && (
-          <section className="bg-cream-card rounded-2xl shadow-sh-2 border border-cream-line p-6 sm:p-8">
+          <section className="bg-cream-card rounded-2xl shadow-sh-2 border border-cream-line p-4 sm:p-6 lg:p-8">
             <h2 className="text-h2 font-display font-bold text-ink-900 mb-4">
               Test Results
             </h2>
@@ -499,7 +499,7 @@ export function ScanListing({ familyPath, searchParams }: ScanListingProps) {
         )}
 
         {hasFaqs && (
-          <section className="bg-cream-card rounded-2xl shadow-sh-2 border border-cream-line p-6 sm:p-8">
+          <section className="bg-cream-card rounded-2xl shadow-sh-2 border border-cream-line p-4 sm:p-6 lg:p-8">
             <h2 className="text-h2 font-display font-bold text-ink-900 mb-5">
               FAQs
             </h2>

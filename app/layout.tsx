@@ -24,7 +24,7 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en" className="h-full antialiased">
-      <body className="min-h-full bg-cream-bg text-ink-900 flex flex-col">
+      <body className="min-h-full bg-cream-bg text-ink-900 flex flex-col overflow-x-hidden">
         <Header />
         {children}
         <SiteFooterArea />

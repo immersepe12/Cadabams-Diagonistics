@@ -159,7 +159,7 @@ export default async function BlogDetailPage({ params }: PageProps) {
             >
               {blog.categoryName}
             </Link>
-            <h1 className="mt-4 text-h1 sm:text-display-2 lg:text-display-1 font-display font-extrabold text-ink-900 leading-tight tracking-tight">
+            <h1 className="mt-4 text-h2 sm:text-h1 lg:text-display-1 font-display font-extrabold text-ink-900 leading-tight tracking-tight">
               {blog.title}
             </h1>
             {published && (
@@ -187,12 +187,12 @@ export default async function BlogDetailPage({ params }: PageProps) {
             </div>
           )}
 
-          <div className="bg-cream-card rounded-2xl shadow-sh-2 border border-cream-line p-6 sm:p-8 lg:p-10">
+          <div className="bg-cream-card rounded-2xl shadow-sh-2 border border-cream-line p-4 sm:p-6 lg:p-10">
             <MarkdownContent content={blog.markdown} />
           </div>
 
           {blog.faqs && blog.faqs.length > 0 && (
-            <section className="bg-cream-card rounded-2xl shadow-sh-2 border border-cream-line p-6 sm:p-8">
+            <section className="bg-cream-card rounded-2xl shadow-sh-2 border border-cream-line p-4 sm:p-6 lg:p-8">
               <h2 className="text-h2 font-display font-bold text-ink-900 mb-5">
                 FAQs
               </h2>

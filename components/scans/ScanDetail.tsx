@@ -218,7 +218,7 @@ export function ScanDetail({ familyPath, slug }: ScanDetailProps) {
           className="pointer-events-none absolute -bottom-32 -left-10 w-96 h-96 rounded-pill bg-coral-300/20 blur-3xl"
         />
 
-        <div className="relative mx-auto max-w-7xl px-gutter pt-6 pb-10 lg:pt-8 lg:pb-14">
+        <div className="relative mx-auto max-w-7xl px-gutter pt-5 pb-8 sm:pt-6 sm:pb-10 lg:pt-8 lg:pb-14">
           <Breadcrumb>
             <BreadcrumbList>
               <BreadcrumbItem>
@@ -239,7 +239,7 @@ export function ScanDetail({ familyPath, slug }: ScanDetailProps) {
             </BreadcrumbList>
           </Breadcrumb>
 
-          <div className="mt-6 lg:mt-8 grid gap-6 lg:gap-10 lg:grid-cols-[1fr_440px] items-start">
+          <div className="mt-5 sm:mt-6 lg:mt-8 grid gap-5 sm:gap-6 lg:gap-10 lg:grid-cols-[1fr_440px] items-start min-w-0">
             <div className="space-y-5">
               <Link
                 href={`/${CITY}/${familyPath}`}
@@ -249,7 +249,7 @@ export function ScanDetail({ familyPath, slug }: ScanDetailProps) {
                 {category.name}
               </Link>
 
-              <h1 className="text-h1 sm:text-display-2 lg:text-display-1 font-display font-extrabold text-ink-900 leading-tight tracking-tight">
+              <h1 className="text-h2 sm:text-h1 lg:text-display-1 font-display font-extrabold text-ink-900 leading-tight tracking-tight">
                 {test.testName}
               </h1>
 
@@ -360,7 +360,7 @@ export function ScanDetail({ familyPath, slug }: ScanDetailProps) {
       <div className="mx-auto max-w-7xl px-gutter py-10 lg:py-14 grid gap-6 lg:gap-10 lg:grid-cols-3">
         <div className="lg:col-span-2 space-y-6">
           {(test.basic_info.Identifies || test.basic_info.measures) && (
-            <section className="bg-cream-card rounded-2xl shadow-sh-2 border border-cream-line p-6 sm:p-8">
+            <section className="bg-cream-card rounded-2xl shadow-sh-2 border border-cream-line p-4 sm:p-6 lg:p-8">
               <h2 className="text-h2 font-display font-bold text-ink-900 mb-5">
                 About The Scan
               </h2>
@@ -395,7 +395,7 @@ export function ScanDetail({ familyPath, slug }: ScanDetailProps) {
               return (
                 <section
                   key={`md-section-${i}`}
-                  className="bg-cream-card rounded-2xl shadow-sh-2 border border-cream-line p-6 sm:p-8"
+                  className="bg-cream-card rounded-2xl shadow-sh-2 border border-cream-line p-4 sm:p-6 lg:p-8"
                 >
                   <h2 className="text-h2 font-display font-bold text-ink-900 mb-4">
                     {section.title}
@@ -407,7 +407,7 @@ export function ScanDetail({ familyPath, slug }: ScanDetailProps) {
             return (
               <section
                 key={`md-section-${i}`}
-                className="bg-cream-card rounded-2xl shadow-sh-2 border border-cream-line p-6 sm:p-8 overflow-hidden"
+                className="bg-cream-card rounded-2xl shadow-sh-2 border border-cream-line p-4 sm:p-6 lg:p-8 overflow-hidden"
               >
                 <div className="grid gap-6 lg:gap-10 items-center lg:grid-cols-[1fr_1fr]">
                   <div className={imageRight ? "lg:order-1" : "lg:order-2"}>
@@ -433,7 +433,7 @@ export function ScanDetail({ familyPath, slug }: ScanDetailProps) {
           })}
 
           {hasInterpretations && (
-            <section className="bg-cream-card rounded-2xl shadow-sh-2 border border-cream-line p-6 sm:p-8">
+            <section className="bg-cream-card rounded-2xl shadow-sh-2 border border-cream-line p-4 sm:p-6 lg:p-8">
               <h2 className="text-h2 font-display font-bold text-ink-900 mb-4">
                 Test Results
               </h2>
@@ -487,7 +487,7 @@ export function ScanDetail({ familyPath, slug }: ScanDetailProps) {
           )}
 
           {hasFaqs && (
-            <section className="bg-cream-card rounded-2xl shadow-sh-2 border border-cream-line p-6 sm:p-8">
+            <section className="bg-cream-card rounded-2xl shadow-sh-2 border border-cream-line p-4 sm:p-6 lg:p-8">
               <h2 className="text-h2 font-display font-bold text-ink-900 mb-5">
                 FAQs
               </h2>

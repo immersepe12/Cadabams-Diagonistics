@@ -211,7 +211,7 @@ export default async function CenterDetailPage({ params }: PageProps) {
           className="pointer-events-none absolute -bottom-32 -left-10 w-96 h-96 rounded-pill bg-coral-300/20 blur-3xl"
         />
 
-        <div className="relative mx-auto max-w-7xl px-gutter pt-6 pb-10 lg:pt-8 lg:pb-14">
+        <div className="relative mx-auto max-w-7xl px-gutter pt-5 pb-8 sm:pt-6 sm:pb-10 lg:pt-8 lg:pb-14">
           <Breadcrumb>
             <BreadcrumbList>
               <BreadcrumbItem>
@@ -230,14 +230,14 @@ export default async function CenterDetailPage({ params }: PageProps) {
             </BreadcrumbList>
           </Breadcrumb>
 
-          <div className="mt-6 lg:mt-8 grid gap-6 lg:gap-10 lg:grid-cols-[1fr_440px] items-start">
+          <div className="mt-5 sm:mt-6 lg:mt-8 grid gap-5 sm:gap-6 lg:gap-10 lg:grid-cols-[1fr_440px] items-start min-w-0">
             <div className="space-y-5">
               <span className="inline-flex items-center gap-1.5 rounded-pill bg-cream-card border border-cream-line px-3 py-1 text-overline uppercase text-orange-700 font-bold">
                 <Building2 className="w-3.5 h-3.5" />
                 Diagnostic centre · {titleCase(center.basic_info.area)}
               </span>
 
-              <h1 className="text-h1 sm:text-display-2 lg:text-display-1 font-display font-extrabold text-ink-900 leading-tight tracking-tight">
+              <h1 className="text-h2 sm:text-h1 lg:text-display-1 font-display font-extrabold text-ink-900 leading-tight tracking-tight">
                 {center.basic_info.center_name}
               </h1>
 
@@ -340,7 +340,7 @@ export default async function CenterDetailPage({ params }: PageProps) {
           {markdownSections.map((section, i) => (
             <section
               key={`md-section-${i}`}
-              className="bg-cream-card rounded-2xl shadow-sh-2 border border-cream-line p-6 sm:p-8"
+              className="bg-cream-card rounded-2xl shadow-sh-2 border border-cream-line p-4 sm:p-6 lg:p-8"
             >
               <h2 className="text-h2 font-display font-bold text-ink-900 mb-4">
                 {section.title}
@@ -350,7 +350,7 @@ export default async function CenterDetailPage({ params }: PageProps) {
           ))}
 
           {services.length > 0 && (
-            <section className="bg-cream-card rounded-2xl shadow-sh-2 border border-cream-line p-6 sm:p-8">
+            <section className="bg-cream-card rounded-2xl shadow-sh-2 border border-cream-line p-4 sm:p-6 lg:p-8">
               <h2 className="text-h2 font-display font-bold text-ink-900 mb-5">
                 Services at this centre
               </h2>
@@ -414,7 +414,7 @@ export default async function CenterDetailPage({ params }: PageProps) {
           )}
 
           {team.length > 0 && (
-            <section className="bg-cream-card rounded-2xl shadow-sh-2 border border-cream-line p-6 sm:p-8">
+            <section className="bg-cream-card rounded-2xl shadow-sh-2 border border-cream-line p-4 sm:p-6 lg:p-8">
               <h2 className="text-h2 font-display font-bold text-ink-900 mb-5">
                 Meet the Team
               </h2>
@@ -466,7 +466,7 @@ export default async function CenterDetailPage({ params }: PageProps) {
           )}
 
           {testimonials.length > 0 && (
-            <section className="bg-cream-card rounded-2xl shadow-sh-2 border border-cream-line p-6 sm:p-8">
+            <section className="bg-cream-card rounded-2xl shadow-sh-2 border border-cream-line p-4 sm:p-6 lg:p-8">
               <h2 className="text-h2 font-display font-bold text-ink-900 mb-5">
                 Patient Stories
               </h2>
@@ -513,7 +513,7 @@ export default async function CenterDetailPage({ params }: PageProps) {
           )}
 
           {hasFaqs && (
-            <section className="bg-cream-card rounded-2xl shadow-sh-2 border border-cream-line p-6 sm:p-8">
+            <section className="bg-cream-card rounded-2xl shadow-sh-2 border border-cream-line p-4 sm:p-6 lg:p-8">
               <h2 className="text-h2 font-display font-bold text-ink-900 mb-5">
                 FAQs
               </h2>

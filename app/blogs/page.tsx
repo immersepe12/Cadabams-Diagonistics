@@ -152,7 +152,7 @@ export default async function BlogsListingPage({ searchParams }: PageProps) {
           className="pointer-events-none absolute -bottom-40 -left-32 w-[28rem] h-[28rem] rounded-pill bg-coral-400/30 blur-3xl"
         />
 
-        <div className="relative mx-auto max-w-7xl px-gutter pt-6 pb-14 lg:pt-8 lg:pb-20">
+        <div className="relative mx-auto max-w-7xl px-gutter pt-5 pb-10 sm:pt-6 sm:pb-14 lg:pt-8 lg:pb-20">
           <nav
             aria-label="Breadcrumb"
             className="flex items-center gap-1.5 text-meta text-white/80 mb-6"
@@ -172,10 +172,10 @@ export default async function BlogsListingPage({ searchParams }: PageProps) {
             <p className="text-overline uppercase text-white/80 font-bold mb-3 tracking-overline">
               Cadabam&apos;s Diagnostics blog
             </p>
-            <h1 className="text-display-2 sm:text-display-1 lg:text-[52px] lg:leading-[1.05] font-display font-extrabold mb-4 tracking-tight">
+            <h1 className="text-h1 sm:text-display-2 lg:text-[52px] lg:leading-[1.05] font-display font-extrabold mb-4 tracking-tight">
               Health insights you can trust
             </h1>
-            <p className="text-body lg:text-h3 text-white/90 max-w-2xl leading-relaxed">
+            <p className="text-body-sm sm:text-body lg:text-h3 text-white/90 max-w-2xl leading-relaxed">
               {allBlogs.length}+ doctor-reviewed articles on lab tests, scans,
               preventive health and wellness — to help you make confident
               health decisions.
@@ -271,7 +271,7 @@ function FeaturedBlog({ blog }: { blog: Blog }) {
             className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
           />
         </div>
-        <div className="p-6 sm:p-8 lg:p-10 flex flex-col justify-center">
+        <div className="p-4 sm:p-6 lg:p-8 lg:p-10 flex flex-col justify-center">
           <span className="inline-flex items-center self-start rounded-pill bg-orange-50 border border-orange-100 text-orange-700 font-bold text-overline uppercase px-3 py-1 tracking-overline">
             {blog.categoryName}
           </span>
@@ -279,7 +279,7 @@ function FeaturedBlog({ blog }: { blog: Blog }) {
             {blog.title}
           </h2>
           {blog.seo?.description && (
-            <p className="mt-3 text-body lg:text-h3 text-ink-600 leading-relaxed line-clamp-3">
+            <p className="mt-3 text-body-sm sm:text-body lg:text-h3 text-ink-600 leading-relaxed line-clamp-3">
               {blog.seo.description}
             </p>
           )}

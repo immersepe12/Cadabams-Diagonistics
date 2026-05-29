@@ -183,7 +183,7 @@ export default async function LabTestDetailPage({ params }: PageProps) {
           className="pointer-events-none absolute -bottom-32 -left-10 w-96 h-96 rounded-pill bg-coral-300/20 blur-3xl"
         />
 
-        <div className="relative mx-auto max-w-7xl px-gutter pt-6 pb-10 lg:pt-8 lg:pb-14">
+        <div className="relative mx-auto max-w-7xl px-gutter pt-5 pb-8 sm:pt-6 sm:pb-10 lg:pt-8 lg:pb-14">
           <Breadcrumb>
             <BreadcrumbList>
               <BreadcrumbItem>
@@ -216,24 +216,24 @@ export default async function LabTestDetailPage({ params }: PageProps) {
             </BreadcrumbList>
           </Breadcrumb>
 
-          <div className="mt-6 lg:mt-8 grid gap-6 lg:gap-10 lg:grid-cols-[1fr_440px] items-start">
-            <div className="space-y-5">
+          <div className="mt-5 sm:mt-6 lg:mt-8 grid gap-5 sm:gap-6 lg:gap-10 lg:grid-cols-[1fr_440px] items-start min-w-0">
+            <div className="space-y-4 sm:space-y-5 min-w-0">
               {category && (
                 <Link
                   href={`/${CITY}/lab-test?category=${stripLeadingSlash(category.path)}`}
-                  className="inline-flex items-center gap-1.5 rounded-pill bg-cream-card border border-cream-line px-3 py-1 text-overline uppercase text-orange-700 font-bold hover:border-orange-200 transition-colors"
+                  className="inline-flex items-center gap-1.5 rounded-pill bg-cream-card border border-cream-line px-3 py-1 text-overline uppercase text-orange-700 font-bold hover:border-orange-200 transition-colors max-w-full"
                 >
-                  <FlaskConical className="w-3.5 h-3.5" />
-                  {category.name}
+                  <FlaskConical className="w-3.5 h-3.5 flex-shrink-0" />
+                  <span className="truncate">{category.name}</span>
                 </Link>
               )}
 
-              <h1 className="text-h1 sm:text-display-2 lg:text-display-1 font-display font-extrabold text-ink-900 leading-tight tracking-tight">
+              <h1 className="text-h2 sm:text-h1 lg:text-display-1 font-display font-extrabold text-ink-900 leading-tight tracking-tight break-words">
                 {test.testName}
               </h1>
 
               {test.basic_info.Identifies && (
-                <p className="text-body lg:text-h3 text-ink-700 leading-relaxed max-w-2xl">
+                <p className="text-body-sm sm:text-body lg:text-h3 text-ink-700 leading-relaxed max-w-2xl">
                   {test.basic_info.Identifies}
                 </p>
               )}
@@ -261,19 +261,19 @@ export default async function LabTestDetailPage({ params }: PageProps) {
                 )}
               </div>
 
-              <div className="flex flex-col sm:flex-row gap-3 pt-3">
+              <div className="flex flex-col sm:flex-row gap-2.5 sm:gap-3 pt-2 sm:pt-3">
                 <Link
                   href="/cart"
-                  className="inline-flex items-center justify-center gap-2 rounded-pill bg-orange-50 hover:bg-orange-100 text-orange-700 font-semibold px-6 py-3 text-body border-2 border-orange-200 hover:border-orange-300 transition-all duration-200 active:scale-[0.98] focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-orange-200"
+                  className="inline-flex items-center justify-center gap-2 rounded-pill bg-orange-50 hover:bg-orange-100 text-orange-700 font-semibold px-5 py-2.5 sm:px-6 sm:py-3 text-body-sm sm:text-body border-2 border-orange-200 hover:border-orange-300 transition-all duration-200 active:scale-[0.98]"
                 >
-                  <ShoppingCart className="w-4 h-4" />
+                  <ShoppingCart className="w-4 h-4 flex-shrink-0" />
                   Add to cart
                 </Link>
                 <Link
                   href="/cart"
-                  className="inline-flex items-center justify-center gap-2 rounded-pill bg-gradient-cta text-white font-bold px-6 py-3 text-body shadow-glow-orange ring-2 ring-orange-300/30 hover:brightness-110 hover:-translate-y-0.5 hover:ring-orange-400/50 active:scale-[0.98] transition-all duration-200 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-orange-300"
+                  className="inline-flex items-center justify-center gap-2 rounded-pill bg-gradient-cta text-white font-bold px-5 py-2.5 sm:px-6 sm:py-3 text-body-sm sm:text-body shadow-glow-orange ring-2 ring-orange-300/30 hover:brightness-110 active:scale-[0.98] transition-all duration-200"
                 >
-                  <Zap className="w-4 h-4 fill-white" />
+                  <Zap className="w-4 h-4 fill-white flex-shrink-0" />
                   Book now · ₹{finalPrice.toLocaleString("en-IN")}
                 </Link>
               </div>
@@ -330,7 +330,7 @@ export default async function LabTestDetailPage({ params }: PageProps) {
       <div className="mx-auto max-w-7xl px-gutter py-10 lg:py-14 grid gap-6 lg:gap-10 lg:grid-cols-3">
         <div className="lg:col-span-2 space-y-6">
           {(test.basic_info.Identifies || test.basic_info.measures) && (
-            <section className="bg-cream-card rounded-2xl shadow-sh-2 border border-cream-line p-6 sm:p-8">
+            <section className="bg-cream-card rounded-2xl shadow-sh-2 border border-cream-line p-4 sm:p-6 lg:p-8">
               <h2 className="text-h2 font-display font-bold text-ink-900 mb-5">
                 About The Test
               </h2>
@@ -362,7 +362,7 @@ export default async function LabTestDetailPage({ params }: PageProps) {
           {markdownSections.map((section, i) => (
             <section
               key={`md-section-${i}`}
-              className="bg-cream-card rounded-2xl shadow-sh-2 border border-cream-line p-6 sm:p-8"
+              className="bg-cream-card rounded-2xl shadow-sh-2 border border-cream-line p-4 sm:p-6 lg:p-8"
             >
               <h2 className="text-h2 font-display font-bold text-ink-900 mb-4">
                 {section.title}
@@ -372,7 +372,7 @@ export default async function LabTestDetailPage({ params }: PageProps) {
           ))}
 
           {hasInterpretations && (
-            <section className="bg-cream-card rounded-2xl shadow-sh-2 border border-cream-line p-6 sm:p-8">
+            <section className="bg-cream-card rounded-2xl shadow-sh-2 border border-cream-line p-4 sm:p-6 lg:p-8">
               <h2 className="text-h2 font-display font-bold text-ink-900 mb-4">
                 Test Results
               </h2>
@@ -418,7 +418,7 @@ export default async function LabTestDetailPage({ params }: PageProps) {
           )}
 
           {hasFaqs && (
-            <section className="bg-cream-card rounded-2xl shadow-sh-2 border border-cream-line p-6 sm:p-8">
+            <section className="bg-cream-card rounded-2xl shadow-sh-2 border border-cream-line p-4 sm:p-6 lg:p-8">
               <h2 className="text-h2 font-display font-bold text-ink-900 mb-5">
                 FAQs
               </h2>
