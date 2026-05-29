@@ -44,14 +44,14 @@ export function FeaturedTestsSlider({
   if (cards.length === 0) return null;
 
   return (
-    <section className="py-12 lg:py-16 bg-cream-soft">
+    <section className="py-8 sm:py-10 lg:py-16 bg-cream-soft">
       <div className="mx-auto max-w-7xl px-gutter">
-        <div className="mb-8 flex items-end justify-between gap-4">
+        <div className="mb-5 sm:mb-7 lg:mb-8 flex items-end justify-between gap-4">
           <div>
-            <p className="text-overline uppercase text-orange-600 font-bold mb-2">
+            <p className="text-overline uppercase text-orange-600 font-bold mb-1.5">
               Most booked
             </p>
-            <h2 className="text-h1 sm:text-display-2 text-ink-900 font-display">
+            <h2 className="text-h2 sm:text-h1 lg:text-display-2 text-ink-900 font-display">
               {title}
             </h2>
           </div>
@@ -64,7 +64,7 @@ export function FeaturedTestsSlider({
           </Link>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4 lg:gap-5">
           {cards.map((card) => {
             const showStrike =
               card.discountPct > 0 && card.price > card.discountedPrice;
@@ -72,25 +72,25 @@ export function FeaturedTestsSlider({
             return (
               <article
                 key={card.id}
-                className="group relative bg-cream-card rounded-xl shadow-sh-2 hover:shadow-sh-3 border border-cream-line hover:border-orange-200 transition-all duration-200 overflow-hidden hover:-translate-y-0.5"
+                className="group relative bg-cream-card rounded-xl shadow-sh-1 hover:shadow-sh-3 border border-cream-line hover:border-orange-200 transition-all duration-200 overflow-hidden hover:-translate-y-0.5 flex flex-col"
               >
                 <span
                   aria-hidden
-                  className="absolute top-0 left-0 right-0 h-1 bg-gradient-cta"
+                  className="absolute top-0 left-0 right-0 h-0.5 sm:h-1 bg-gradient-cta"
                 />
 
                 {card.discountPct > 0 && (
-                  <span className="absolute top-3.5 right-3.5 bg-orange-500 text-white text-meta font-bold rounded-pill px-2.5 py-1 shadow-glow-orange">
+                  <span className="absolute top-2 right-2 sm:top-3 sm:right-3 bg-orange-500 text-white text-caption sm:text-meta font-bold rounded-pill px-2 py-0.5 sm:px-2.5 sm:py-1 shadow-glow-orange">
                     {card.discountPct}% off
                   </span>
                 )}
 
-                <div className="p-6 pt-7">
-                  <div className="w-11 h-11 rounded-pill bg-orange-50 inline-flex items-center justify-center mb-4">
-                    <FlaskConical className="w-5 h-5 text-orange-600" />
+                <div className="p-3 sm:p-4 lg:p-5 pt-4 sm:pt-5 flex flex-col flex-1">
+                  <div className="w-8 h-8 sm:w-9 sm:h-9 rounded-pill bg-orange-50 inline-flex items-center justify-center mb-2.5 sm:mb-3">
+                    <FlaskConical className="w-4 h-4 sm:w-4.5 sm:h-4.5 text-orange-600" />
                   </div>
 
-                  <h3 className="text-h3 text-ink-900 font-bold leading-tight mb-3 line-clamp-2 min-h-[2.4em]">
+                  <h3 className="text-body sm:text-h3 text-ink-900 font-bold leading-snug mb-2 line-clamp-2">
                     <Link
                       href={card.href}
                       className="hover:text-orange-600 transition-colors focus-visible:outline-none focus-visible:underline"
@@ -99,9 +99,9 @@ export function FeaturedTestsSlider({
                     </Link>
                   </h3>
 
-                  <div className="flex flex-wrap items-center gap-2 text-meta mb-4">
-                    <span className="inline-flex items-center gap-1.5 text-ink-600">
-                      <Clock className="w-3.5 h-3.5 text-orange-500" />
+                  <div className="flex flex-wrap items-center gap-x-2 gap-y-0.5 text-caption sm:text-meta mb-3">
+                    <span className="inline-flex items-center gap-1 text-ink-600">
+                      <Clock className="w-3 h-3 sm:w-3.5 sm:h-3.5 text-orange-500" />
                       Reports in {report}
                     </span>
                     <span aria-hidden className="text-ink-300">
@@ -112,33 +112,33 @@ export function FeaturedTestsSlider({
                     </span>
                   </div>
 
-                  <div className="h-px bg-cream-line mb-4" />
+                  <div className="h-px bg-cream-line mb-3" />
 
-                  <div className="flex items-baseline gap-2 mb-5">
-                    <span className="text-display-2 font-extrabold text-orange-600 leading-none">
+                  <div className="flex items-baseline gap-2 mb-3 mt-auto">
+                    <span className="text-h2 sm:text-h1 lg:text-display-2 font-extrabold text-orange-600 leading-none">
                       ₹{card.discountedPrice.toLocaleString("en-IN")}
                     </span>
                     {showStrike && (
-                      <span className="text-body-sm text-ink-400 line-through">
+                      <span className="text-caption sm:text-body-sm text-ink-400 line-through">
                         ₹{card.price.toLocaleString("en-IN")}
                       </span>
                     )}
                   </div>
 
-                  <div className="flex items-center gap-4">
+                  <div className="flex items-center gap-2">
                     <Link
                       href="/cart"
-                      className="flex-1 inline-flex items-center justify-center gap-1.5 px-4 py-2.5 rounded-pill bg-orange-500 text-white font-semibold text-body-sm shadow-glow-orange hover:bg-orange-600 transition-all duration-200 active:scale-[0.97] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-500 focus-visible:ring-offset-2 focus-visible:ring-offset-cream-card"
+                      className="flex-1 inline-flex items-center justify-center gap-1 sm:gap-1.5 px-2 py-1.5 sm:px-3 sm:py-2 rounded-pill bg-orange-500 text-white font-semibold text-caption sm:text-body-sm shadow-glow-orange hover:bg-orange-600 transition-all duration-200 active:scale-[0.97]"
                     >
-                      <ShoppingCart className="w-4 h-4" />
+                      <ShoppingCart className="w-3 h-3 sm:w-3.5 sm:h-3.5" />
                       Add to cart
                     </Link>
                     <Link
                       href={card.href}
-                      className="inline-flex items-center gap-1 text-body-sm font-semibold text-orange-600 hover:text-orange-700 transition-colors focus-visible:outline-none focus-visible:underline group/link"
+                      className="inline-flex items-center gap-0.5 text-caption sm:text-body-sm font-semibold text-orange-600 hover:text-orange-700 transition-colors focus-visible:outline-none focus-visible:underline group/link"
                     >
-                      View details
-                      <ChevronRight className="w-4 h-4 group-hover/link:translate-x-0.5 transition-transform" />
+                      Details
+                      <ChevronRight className="w-3 h-3 sm:w-3.5 sm:h-3.5 group-hover/link:translate-x-0.5 transition-transform" />
                     </Link>
                   </div>
                 </div>

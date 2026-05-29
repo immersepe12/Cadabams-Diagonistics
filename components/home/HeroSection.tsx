@@ -51,7 +51,7 @@ export function HeroSection({ hero, features }: HeroSectionProps) {
         />
       </div>
 
-      <div className="relative mx-auto max-w-7xl w-full px-gutter pt-10 pb-12 sm:pt-14 sm:pb-16 lg:pt-20 lg:pb-24">
+      <div className="relative mx-auto max-w-7xl w-full px-gutter pt-8 pb-8 sm:pt-12 sm:pb-12 lg:pt-20 lg:pb-16">
         <div className="grid gap-10 lg:gap-14 lg:grid-cols-12 items-center">
           <div className="lg:col-span-7 space-y-6 text-center lg:text-left">
             <div className="inline-flex items-center gap-2 rounded-pill bg-white/15 backdrop-blur-md ring-1 ring-white/25 px-3.5 py-1.5 text-meta font-semibold uppercase tracking-wide">
@@ -185,7 +185,7 @@ export function HeroSection({ hero, features }: HeroSectionProps) {
         </div>
 
         {features.length > 0 && (
-          <div className="mt-12 lg:mt-16 pt-6 border-t border-white/20 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-3 gap-4 sm:gap-6">
+          <div className="mt-8 lg:mt-12 pt-5 border-t border-white/20 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-3 gap-4 sm:gap-6">
             {features.map((f) => (
               <div
                 key={f.id}
