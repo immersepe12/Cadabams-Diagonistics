@@ -76,14 +76,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const labTestEntries: MetadataRoute.Sitemap = getAllLabTests().map((t) => ({
     url: `${BASE}${labTestUrl(t)}`,
-    lastModified: parseDate(t.updatedAt, now),
+    lastModified: now,
     changeFrequency: "monthly",
     priority: 0.7,
   }));
 
   const scanEntries: MetadataRoute.Sitemap = getAllNonLabTests().map((t) => ({
     url: `${BASE}${nonLabTestUrl(t)}`,
-    lastModified: parseDate(t.updatedAt, now),
+    lastModified: now,
     changeFrequency: "monthly",
     priority: 0.7,
   }));
