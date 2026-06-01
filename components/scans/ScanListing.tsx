@@ -27,6 +27,10 @@ import {
 } from "@/lib/data/nonlabtests";
 import { nonLabTestUrl } from "@/lib/urls";
 import { TestCard } from "@/components/shared/TestCard";
+import {
+  ScanLocalFilter,
+  type ScanTestCardVM,
+} from "@/components/scans/ScanLocalFilter";
 import { MarkdownContent } from "@/components/shared/MarkdownContent";
 import { FaqList } from "@/components/shared/FaqList";
 import { LabStats } from "@/components/shared/LabStats";
@@ -34,6 +38,12 @@ import { LabStats } from "@/components/shared/LabStats";
 interface ScanListingProps {
   familyPath: string;
   searchParams?: { q?: string; page?: string };
+  /**
+   * When true, the listing is filtered entirely client-side with local state
+   * (no URL/query changes). When false (default), the sidebar links to other
+   * scan families and search/pagination are URL-driven.
+   */
+  localFilters?: boolean;
 }
 
 interface MarkdownSection {
@@ -160,7 +170,11 @@ const TRUST_POINTS = [
   { Icon: Beaker, label: "Advanced Imaging" },
 ] as const;
 
-export function ScanListing({ familyPath, searchParams }: ScanListingProps) {
+export function ScanListing({
+  familyPath,
+  searchParams,
+  localFilters = false,
+}: ScanListingProps) {
   const category = getNonLabTestCategoryBySlug(familyPath);
   if (!category) notFound();
 
@@ -213,6 +227,23 @@ export function ScanListing({ familyPath, searchParams }: ScanListingProps) {
       : undefined;
   const hasInterpretations =
     !!interpretations?.rows && interpretations.rows.length > 0;
+
+  // Serialisable card view-models for the client-side local filter mode.
+  const cardData: ScanTestCardVM[] = allTests.map((test) => {
+    const price = getNonLabPriceNumber(test);
+    const discounted = getNonLabDiscountedPriceNumber(test);
+    return {
+      id: test.id,
+      name: test.testName,
+      image: test.basic_info.imageSrc ?? category.image ?? null,
+      price: discounted || price,
+      originalPrice: discounted > 0 && discounted < price ? price : undefined,
+      reportTime: isMeaningfulText(test.basic_info.reportsWithin, 3)
+        ? test.basic_info.reportsWithin
+        : undefined,
+      href: nonLabTestUrl(test),
+    };
+  });
 
   const faqs = (category.allData?.faqs ?? []).filter(
     (f) =>
@@ -331,70 +362,74 @@ export function ScanListing({ familyPath, searchParams }: ScanListingProps) {
         id="scans"
         className="mx-auto max-w-7xl px-gutter py-10 lg:py-14"
       >
-        <div className="grid gap-6 lg:gap-8 lg:grid-cols-[280px_1fr]">
-          <FilterSidebar
-            scanFamilies={scanFamilies}
-            currentFamily={familyPath}
-            basePath={basePath}
-            searchQuery={searchQuery}
-          />
-
-          <div className="min-w-0">
-            <ResultsHeader
-              startIndex={startIndex}
-              endIndex={endIndex}
-              totalCount={filteredTests.length}
-              category={category}
-              searchQuery={searchQuery}
-              hasActiveFilters={hasActiveFilters}
+        {localFilters ? (
+          <ScanLocalFilter tests={cardData} familyName={category.name} />
+        ) : (
+          <div className="grid gap-6 lg:gap-8 lg:grid-cols-[280px_1fr]">
+            <FilterSidebar
+              scanFamilies={scanFamilies}
+              currentFamily={familyPath}
               basePath={basePath}
+              searchQuery={searchQuery}
             />
 
-            {filteredTests.length === 0 ? (
-              <EmptyState
+            <div className="min-w-0">
+              <ResultsHeader
+                startIndex={startIndex}
+                endIndex={endIndex}
+                totalCount={filteredTests.length}
+                category={category}
                 searchQuery={searchQuery}
                 hasActiveFilters={hasActiveFilters}
                 basePath={basePath}
               />
-            ) : (
-              <>
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-6">
-                  {visibleTests.map((test) => {
-                    const price = getNonLabPriceNumber(test);
-                    const discounted = getNonLabDiscountedPriceNumber(test);
-                    return (
-                      <TestCard
-                        key={test.id}
-                        id={test.id}
-                        kind="Radiology"
-                        name={test.testName}
-                        image={
-                          test.basic_info.imageSrc ?? category.image ?? null
-                        }
-                        price={discounted || price}
-                        originalPrice={
-                          discounted > 0 && discounted < price
-                            ? price
-                            : undefined
-                        }
-                        reportTime={isMeaningfulText(test.basic_info.reportsWithin, 3) ? test.basic_info.reportsWithin : undefined}
-                        href={nonLabTestUrl(test)}
-                      />
-                    );
-                  })}
-                </div>
-                {totalPages > 1 && (
-                  <Pagination
-                    currentPage={currentPage}
-                    totalPages={totalPages}
-                    basePath={basePath}
-                    searchQuery={searchQuery}
-                  />
-                )}
-              </>
-            )}
+
+              {filteredTests.length === 0 ? (
+                <EmptyState
+                  searchQuery={searchQuery}
+                  hasActiveFilters={hasActiveFilters}
+                  basePath={basePath}
+                />
+              ) : (
+                <>
+                  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-6">
+                    {visibleTests.map((test) => {
+                      const price = getNonLabPriceNumber(test);
+                      const discounted = getNonLabDiscountedPriceNumber(test);
+                      return (
+                        <TestCard
+                          key={test.id}
+                          id={test.id}
+                          kind="Radiology"
+                          name={test.testName}
+                          image={
+                            test.basic_info.imageSrc ?? category.image ?? null
+                          }
+                          price={discounted || price}
+                          originalPrice={
+                            discounted > 0 && discounted < price
+                              ? price
+                              : undefined
+                          }
+                          reportTime={isMeaningfulText(test.basic_info.reportsWithin, 3) ? test.basic_info.reportsWithin : undefined}
+                          href={nonLabTestUrl(test)}
+                        />
+                      );
+                    })}
+                  </div>
+                  {totalPages > 1 && (
+                    <Pagination
+                      currentPage={currentPage}
+                      totalPages={totalPages}
+                      basePath={basePath}
+                      searchQuery={searchQuery}
+                    />
+                  )}
+                </>
+              )}
+            </div>
           </div>
-        </div>
+        )}
       </section>
 
       <div className="mx-auto max-w-7xl px-gutter pb-12 lg:pb-16 space-y-6">
