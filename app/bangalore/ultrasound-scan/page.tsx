@@ -12,5 +12,7 @@ export default async function UltrasoundScanListingPage({
   searchParams,
 }: PageProps) {
   const sp = await searchParams;
-  return <ScanListing familyPath="ultrasound-scan" searchParams={sp} />;
+  return (
+    <ScanListing familyPath="ultrasound-scan" searchParams={sp} localFilters />
+  );
 }
