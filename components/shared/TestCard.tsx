@@ -1,7 +1,8 @@
 import Link from "next/link";
-import { Clock, Zap } from "lucide-react";
+import { Zap } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { AddToCartButton } from "@/components/shared/AddToCartButton";
+import { BookNowButton } from "@/components/shared/BookNowButton";
 
 export interface TestCardProps {
   /** Stable id of the test/scan, used as the cart key. */
@@ -29,17 +30,12 @@ export function TestCard({
   price,
   originalPrice,
   parameters,
-  reportTime,
   href,
   kind,
   className,
 }: TestCardProps) {
   const showOriginal =
     typeof originalPrice === "number" && originalPrice > price;
-  const discountPct =
-    showOriginal && originalPrice
-      ? Math.round(((originalPrice - price) / originalPrice) * 100)
-      : 0;
 
   return (
     <article
@@ -48,9 +44,9 @@ export function TestCard({
         className,
       )}
     >
-      <div className="p-4 sm:p-5 flex flex-col flex-1 min-w-0">
-        <div className="flex items-start justify-between gap-2">
-          <h3 className="text-body sm:text-h3 text-ink-900 font-bold leading-snug line-clamp-2 flex-1 min-w-0">
+      <div className="p-3.5 sm:p-4 flex flex-col flex-1 min-w-0">
+        <div className="flex items-start justify-between gap-3">
+          <h3 className="text-body-sm sm:text-body text-ink-900 font-bold leading-snug line-clamp-2 flex-1 min-w-0">
             <Link
               href={href}
               className="hover:text-orange-600 transition-colors focus-visible:outline-none focus-visible:underline"
@@ -58,54 +54,40 @@ export function TestCard({
               {name}
             </Link>
           </h3>
-          {discountPct > 0 && (
-            <span className="inline-flex items-center rounded-pill bg-coral-400 text-white text-caption font-bold px-2 py-0.5 sm:px-2.5 sm:py-1 shadow-sh-1 flex-shrink-0">
-              {discountPct}% OFF
-            </span>
-          )}
-        </div>
-
-        {(parameters !== undefined || reportTime) && (
-          <div className="mt-2 flex flex-wrap items-center gap-x-2.5 gap-y-1 text-caption sm:text-meta text-ink-500">
-            {parameters !== undefined && (
-              <span className="inline-flex items-center gap-1">
-                <span className="w-1 h-1 rounded-pill bg-ink-300" />
-                {parameters} parameters
-              </span>
-            )}
-            {reportTime && (
-              <span className="inline-flex items-center gap-1">
-                <Clock className="w-3 h-3 sm:w-3.5 sm:h-3.5 text-ink-400" />
-                {reportTime}
-              </span>
-            )}
-          </div>
-        )}
-
-        <div className="mt-auto pt-4 sm:pt-5 border-t border-cream-line-soft space-y-3">
-          <div className="flex items-baseline gap-2 flex-wrap">
-            <span className="text-h3 sm:text-h2 text-ink-900 font-extrabold leading-tight tracking-tight">
+          <div className="flex flex-col items-end flex-shrink-0 text-right">
+            <span className="text-h3 text-ink-900 font-extrabold leading-none tracking-tight">
               ₹{price.toLocaleString("en-IN")}
             </span>
             {showOriginal && (
-              <span className="text-caption text-ink-400 line-through leading-none">
+              <span className="mt-1 text-caption text-ink-400 line-through leading-none">
                 ₹{originalPrice.toLocaleString("en-IN")}
               </span>
             )}
           </div>
-          <div className="flex gap-2">
+        </div>
+
+        {parameters !== undefined && (
+          <div className="mt-1.5 flex flex-wrap items-center gap-x-2.5 gap-y-1 text-caption sm:text-meta text-ink-500">
+            <span className="inline-flex items-center gap-1">
+              <span className="w-1 h-1 rounded-pill bg-ink-300" />
+              {parameters} parameters
+            </span>
+          </div>
+        )}
+
+        <div className="mt-auto pt-3 border-t border-cream-line-soft">
+          <div className="flex flex-col gap-2">
+            <BookNowButton
+              item={{ id: id ?? href, name, price, originalPrice, href, kind }}
+              className="w-full inline-flex items-center justify-center gap-1.5 rounded-pill bg-gradient-cta text-white font-bold px-3 py-2.5 text-body-sm whitespace-nowrap shadow-glow-orange hover:brightness-110 active:scale-[0.98] transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-300"
+            >
+              <Zap className="w-3.5 h-3.5 fill-white flex-shrink-0" />
+              Book now
+            </BookNowButton>
             <AddToCartButton
               item={{ id: id ?? href, name, price, originalPrice, href, kind }}
-              className="flex-1 inline-flex items-center justify-center gap-1 sm:gap-1.5 rounded-pill bg-orange-50 hover:bg-orange-100 text-orange-700 font-semibold px-2 py-2 sm:px-3 sm:py-2.5 text-caption sm:text-body-sm border-2 border-orange-200 hover:border-orange-300 transition-all duration-200 active:scale-[0.98] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-300 [&_svg]:w-3 [&_svg]:h-3 sm:[&_svg]:w-3.5 sm:[&_svg]:h-3.5"
+              className="w-full inline-flex items-center justify-center gap-1.5 rounded-pill bg-cream-card hover:bg-orange-50 text-ink-900 hover:text-orange-700 font-semibold px-3 py-2.5 text-body-sm whitespace-nowrap border border-cream-line hover:border-orange-300 transition-all duration-200 active:scale-[0.98] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-200 [&_svg]:w-3.5 [&_svg]:h-3.5 [&_svg]:flex-shrink-0"
             />
-            <Link
-              href={href}
-              aria-label={`Book ${name}`}
-              className="flex-1 inline-flex items-center justify-center gap-1 sm:gap-1.5 rounded-pill bg-gradient-cta text-white font-bold px-2 py-2 sm:px-3 sm:py-2.5 text-caption sm:text-body-sm shadow-glow-orange hover:brightness-110 active:scale-[0.98] transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-300"
-            >
-              <Zap className="w-3 h-3 sm:w-3.5 sm:h-3.5 fill-white" />
-              Book now
-            </Link>
           </div>
         </div>
       </div>

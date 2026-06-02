@@ -46,7 +46,7 @@ export function BlogCard({ blog, className }: BlogCardProps) {
             src={blog.imageUrl}
             alt={blog.title}
             loading="lazy"
-            className="absolute inset-0 w-full h-full object-contain group-hover:scale-[1.02] transition-transform duration-300"
+            className="absolute inset-0 w-full h-full object-cover group-hover:scale-[1.02] transition-transform duration-300"
           />
           {blog.categoryName && (
             <span className="absolute top-2 left-2 sm:top-3 sm:left-3 inline-flex items-center rounded-pill bg-cream-card/95 backdrop-blur-sm text-orange-700 border border-orange-100 text-caption font-bold uppercase tracking-overline px-2 py-0.5 sm:px-2.5 sm:py-1 shadow-sh-1">

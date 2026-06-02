@@ -24,7 +24,7 @@ export function FaqSection({ items, id = "faq" }: FaqSectionProps) {
   return (
     <section
       id={id}
-      className="relative overflow-hidden py-16 lg:py-24 bg-cream-bg"
+      className="relative overflow-hidden py-10 lg:py-14 bg-cream-bg"
     >
       <div
         aria-hidden
@@ -35,8 +35,8 @@ export function FaqSection({ items, id = "faq" }: FaqSectionProps) {
         className="pointer-events-none absolute -bottom-32 -left-20 w-80 h-80 rounded-pill bg-gradient-to-tr from-pink-200/30 to-orange-200/10 blur-3xl"
       />
 
-      <div className="relative mx-auto max-w-7xl px-gutter grid gap-10 lg:grid-cols-[1fr_1.4fr] lg:gap-16">
-        <div className="lg:sticky lg:top-24 lg:self-start space-y-6">
+      <div className="relative mx-auto max-w-7xl px-gutter grid gap-8 lg:grid-cols-[1fr_1.4fr] lg:gap-10">
+        <div className="lg:sticky lg:top-24 lg:self-start space-y-4">
           <div className="inline-flex items-center gap-2 bg-orange-50 text-orange-700 rounded-pill px-3.5 py-1.5">
             <HelpCircle className="w-4 h-4" />
             <span className="text-meta font-bold uppercase tracking-[0.08em]">

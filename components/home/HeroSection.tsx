@@ -51,9 +51,9 @@ export function HeroSection({ hero, features }: HeroSectionProps) {
         />
       </div>
 
-      <div className="relative mx-auto max-w-7xl w-full px-gutter pt-8 pb-8 sm:pt-12 sm:pb-12 lg:pt-20 lg:pb-16">
-        <div className="grid gap-10 lg:gap-14 lg:grid-cols-12 items-center">
-          <div className="lg:col-span-7 space-y-6 text-center lg:text-left">
+      <div className="relative mx-auto max-w-7xl w-full px-gutter pt-5 pb-5 sm:pt-6 sm:pb-6 lg:pt-8 lg:pb-8">
+        <div className="grid gap-6 lg:gap-8 lg:grid-cols-12 items-center">
+          <div className="lg:col-span-7 space-y-5 text-center lg:text-left">
             <div className="inline-flex items-center gap-2 rounded-pill bg-white/15 backdrop-blur-md ring-1 ring-white/25 px-3.5 py-1.5 text-meta font-semibold uppercase tracking-wide">
               <span className="relative flex w-2 h-2">
                 <span className="absolute inline-flex w-full h-full rounded-pill bg-white/70 animate-ping" />
@@ -62,7 +62,7 @@ export function HeroSection({ hero, features }: HeroSectionProps) {
               <span>NABL Accredited · Trusted by 50,000+ patients</span>
             </div>
 
-            <h1 className="font-display font-extrabold tracking-tight text-display-1 sm:text-[44px] lg:text-[60px] lg:leading-[1.05]">
+            <h1 className="font-display font-extrabold tracking-tight text-h1 sm:text-display-2 lg:text-[46px] lg:leading-[1.08]">
               <span className="block">{hero.title}</span>
               <span className="relative inline-block mt-1">
                 <span className="relative z-10 text-cream-bg">
@@ -75,7 +75,7 @@ export function HeroSection({ hero, features }: HeroSectionProps) {
               </span>
             </h1>
 
-            <p className="max-w-xl mx-auto lg:mx-0 text-body sm:text-h3 text-white/85 font-medium leading-relaxed">
+            <p className="max-w-xl mx-auto lg:mx-0 text-body-sm sm:text-body text-white/85 font-medium leading-relaxed">
               Lab tests and scans delivered with hospital-grade accuracy —
               reports in just 6 hours, home collection across Bangalore.
             </p>
@@ -138,7 +138,7 @@ export function HeroSection({ hero, features }: HeroSectionProps) {
             </div>
           </div>
 
-          <div className="lg:col-span-5 relative mx-auto w-full max-w-md lg:max-w-none">
+          <div className="lg:col-span-5 relative mx-auto w-full max-w-[260px] sm:max-w-xs lg:max-w-sm">
             <div
               aria-hidden
               className="absolute inset-0 -m-6 rounded-full bg-gradient-glow"
@@ -185,7 +185,7 @@ export function HeroSection({ hero, features }: HeroSectionProps) {
         </div>
 
         {features.length > 0 && (
-          <div className="mt-8 lg:mt-12 pt-5 border-t border-white/20 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-3 gap-4 sm:gap-6">
+          <div className="mt-6 lg:mt-8 pt-4 border-t border-white/20 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-3 gap-4 sm:gap-6">
             {features.map((f) => (
               <div
                 key={f.id}

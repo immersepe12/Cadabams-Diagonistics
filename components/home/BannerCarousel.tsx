@@ -40,7 +40,7 @@ export function BannerCarousel({
   if (total === 0) return null;
 
   return (
-    <section className="py-10 lg:py-16">
+    <section className="py-8 lg:py-10">
       <div className="mx-auto max-w-7xl px-gutter">
         <div className="relative overflow-hidden rounded-2xl shadow-sh-3 bg-cream-card">
           <div

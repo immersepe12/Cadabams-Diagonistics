@@ -40,9 +40,9 @@ export function FeaturedTestsSlider({
   if (cards.length === 0) return null;
 
   return (
-    <section className="py-8 sm:py-10 lg:py-16 bg-cream-soft">
+    <section className="py-6 sm:py-8 lg:py-10 bg-cream-soft">
       <div className="mx-auto max-w-7xl px-gutter">
-        <div className="mb-5 sm:mb-7 lg:mb-8 flex items-end justify-between gap-4">
+        <div className="mb-4 lg:mb-5 flex items-end justify-between gap-4">
           <div>
             <p className="text-overline uppercase text-orange-600 font-bold mb-1.5">
               Most booked

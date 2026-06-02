@@ -41,7 +41,7 @@ export function MarkdownContent({ content, className }: MarkdownContentProps) {
   return (
     <div
       className={cn(
-        "text-body text-ink-700 leading-relaxed",
+        "text-body text-ink-600 leading-relaxed",
         "[&_h2]:text-h2 [&_h2]:font-display [&_h2]:font-bold [&_h2]:text-ink-900 [&_h2]:mt-8 [&_h2]:mb-3 [&_h2:first-child]:mt-0",
         "[&_h3]:text-h3 [&_h3]:font-bold [&_h3]:text-ink-900 [&_h3]:mt-6 [&_h3]:mb-2",
         "[&_h4]:text-body [&_h4]:font-bold [&_h4]:text-ink-900 [&_h4]:mt-4 [&_h4]:mb-2",

@@ -265,10 +265,10 @@ export function ScanListing({
           className="pointer-events-none absolute -bottom-40 -left-32 w-[28rem] h-[28rem] rounded-pill bg-coral-400/30 blur-3xl"
         />
 
-        <div className="relative mx-auto max-w-7xl px-gutter pt-5 pb-10 sm:pt-6 sm:pb-14 lg:pt-8 lg:pb-20">
+        <div className="relative mx-auto max-w-7xl px-gutter pt-4 pb-8 sm:pt-5 sm:pb-10 lg:pt-6 lg:pb-12">
           <nav
             aria-label="Breadcrumb"
-            className="flex items-center gap-1.5 text-meta text-white/80 mb-6"
+            className="flex items-center gap-1.5 text-meta text-white/80 mb-4"
           >
             <Link
               href="/"
@@ -288,12 +288,12 @@ export function ScanListing({
             <span className="text-white font-semibold">{category.name}</span>
           </nav>
 
-          <div className="grid gap-8 lg:gap-12 lg:grid-cols-[1fr_360px] items-center">
+          <div className="grid gap-5 lg:gap-8 lg:grid-cols-[1fr_320px] items-center">
             <div className="max-w-3xl">
-              <p className="text-overline uppercase text-white/80 font-bold mb-3 tracking-overline">
+              <p className="text-overline uppercase text-white/80 font-bold mb-2 tracking-overline">
                 {category.name} in Bangalore
               </p>
-              <h1 className="text-h1 sm:text-display-2 lg:text-[52px] lg:leading-[1.05] font-display font-extrabold mb-4 tracking-tight">
+              <h1 className="text-h1 sm:text-display-2 lg:text-[44px] lg:leading-[1.05] font-display font-extrabold mb-3 tracking-tight">
                 {category.name} Scans
               </h1>
               <p className="text-body-sm sm:text-body lg:text-h3 text-white/90 max-w-2xl leading-relaxed">
@@ -302,19 +302,13 @@ export function ScanListing({
                 10,000+ patients.
               </p>
 
-              <div className="mt-6 flex flex-wrap gap-3">
+              <div className="mt-5 flex flex-wrap gap-3">
                 <Link
                   href="#scans"
                   className="inline-flex items-center justify-center gap-2 rounded-pill bg-white text-orange-700 font-bold px-6 py-3 text-body shadow-sh-2 hover:brightness-95 active:scale-[0.98] transition-all"
                 >
                   <Sparkles className="w-4 h-4" />
                   Browse scans
-                </Link>
-                <Link
-                  href="/cart"
-                  className="inline-flex items-center justify-center gap-2 rounded-pill bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 text-body border border-white/30 transition-all"
-                >
-                  Book now
                 </Link>
               </div>
             </div>
@@ -354,13 +348,13 @@ export function ScanListing({
         </div>
       </section>
 
-      <div className="mx-auto max-w-7xl px-gutter pt-10 lg:pt-12">
+      <div className="mx-auto max-w-7xl px-gutter pt-6 lg:pt-8">
         <LabStats />
       </div>
 
       <section
         id="scans"
-        className="mx-auto max-w-7xl px-gutter py-10 lg:py-14"
+        className="mx-auto max-w-7xl px-gutter py-8 lg:py-10 scroll-mt-18"
       >
         {localFilters ? (
           <ScanLocalFilter tests={cardData} familyName={category.name} />
@@ -392,7 +386,7 @@ export function ScanListing({
                 />
               ) : (
                 <>
-                  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-6">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-5">
                     {visibleTests.map((test) => {
                       const price = getNonLabPriceNumber(test);
                       const discounted = getNonLabDiscountedPriceNumber(test);
@@ -432,7 +426,7 @@ export function ScanListing({
         )}
       </section>
 
-      <div className="mx-auto max-w-7xl px-gutter pb-12 lg:pb-16 space-y-6">
+      <div className="mx-auto max-w-7xl px-gutter pb-10 lg:pb-12 space-y-5">
         {markdownSections.map((section, i) => {
           const imageRight = i % 2 === 1;
           if (!section.image) {
@@ -560,7 +554,7 @@ function FilterSidebar({
   searchQuery: string;
 }) {
   return (
-    <aside className="lg:sticky lg:top-24 lg:self-start lg:max-h-[calc(100vh-7rem)] lg:overflow-y-auto scrollbar-hidden">
+    <aside className="lg:sticky lg:top-24 lg:self-start">
       <form
         action={basePath}
         method="get"
@@ -603,7 +597,7 @@ function FilterSidebar({
           {scanFamilies.map((c) => (
             <li key={c.id}>
               <FamilyItem
-                href={`/bangalore/${c.slug}`}
+                href={`/bangalore/${c.slug}#scans`}
                 active={c.slug === currentFamily}
                 label={c.name}
                 count={c.count}

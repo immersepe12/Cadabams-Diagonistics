@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useMemo, useRef, useState } from "react";
 import {
   type LucideIcon,
   Activity,
@@ -105,6 +105,7 @@ export function ScanLocalFilter({
   const [activeKey, setActiveKey] = useState("all");
   const [searchQuery, setSearchQuery] = useState("");
   const [page, setPage] = useState(1);
+  const resultsRef = useRef<HTMLDivElement>(null);
 
   // Precompute the upper-cased name once per test for matching/search.
   const indexed = useMemo(
@@ -150,6 +151,9 @@ export function ScanLocalFilter({
   function selectGroup(key: string) {
     setActiveKey(key);
     setPage(1);
+    // Bring the listing into view — on mobile the filters stack above the
+    // results, so the freshly filtered scans would otherwise be off-screen.
+    resultsRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
   }
 
   function clearSearch() {
@@ -170,7 +174,7 @@ export function ScanLocalFilter({
   return (
     <div className="grid gap-6 lg:gap-8 lg:grid-cols-[280px_1fr]">
       {/* ── Sidebar ─────────────────────────────────────────────── */}
-      <aside className="lg:sticky lg:top-24 lg:self-start lg:max-h-[calc(100vh-7rem)] lg:overflow-y-auto scrollbar-hidden">
+      <aside className="lg:sticky lg:top-24 lg:self-start">
         <div className="bg-cream-card rounded-2xl border border-cream-line shadow-sh-1 p-4 lg:p-5 mb-4 lg:mb-5">
           <label
             htmlFor="scan-search"
@@ -218,7 +222,7 @@ export function ScanLocalFilter({
       </aside>
 
       {/* ── Results ─────────────────────────────────────────────── */}
-      <div className="min-w-0">
+      <div ref={resultsRef} className="min-w-0 scroll-mt-18">
         <div className="mb-5 lg:mb-6">
           <div className="flex flex-wrap items-baseline justify-between gap-3 mb-3">
             <div>
@@ -279,7 +283,7 @@ export function ScanLocalFilter({
           />
         ) : (
           <>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-5">
               {visibleTests.map((test) => (
                 <TestCard
                   key={test.id}

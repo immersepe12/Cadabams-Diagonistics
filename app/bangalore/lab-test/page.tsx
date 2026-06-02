@@ -147,10 +147,10 @@ export default function LabTestsListPage() {
           className="pointer-events-none absolute -bottom-40 -left-32 w-[28rem] h-[28rem] rounded-pill bg-coral-400/30 blur-3xl"
         />
 
-        <div className="relative mx-auto max-w-7xl px-gutter pt-5 pb-10 sm:pt-6 sm:pb-14 lg:pt-8 lg:pb-20">
+        <div className="relative mx-auto max-w-7xl px-gutter pt-4 pb-8 sm:pt-5 sm:pb-10 lg:pt-6 lg:pb-12">
           <nav
             aria-label="Breadcrumb"
-            className="flex items-center gap-1.5 text-meta text-white/80 mb-6"
+            className="flex items-center gap-1.5 text-meta text-white/80 mb-4"
           >
             <Link
               href="/"
@@ -171,10 +171,10 @@ export default function LabTestsListPage() {
           </nav>
 
           <div className="max-w-3xl">
-            <p className="text-overline uppercase text-white/80 font-bold mb-3 tracking-overline">
+            <p className="text-overline uppercase text-white/80 font-bold mb-2 tracking-overline">
               Lab tests in Bangalore
             </p>
-            <h1 className="text-h1 sm:text-display-2 lg:text-[52px] lg:leading-[1.05] font-display font-extrabold mb-4 tracking-tight">
+            <h1 className="text-h1 sm:text-display-2 lg:text-[44px] lg:leading-[1.05] font-display font-extrabold mb-3 tracking-tight">
               Accurate lab tests at the best prices
             </h1>
             <p className="text-body-sm sm:text-body lg:text-h3 text-white/90 max-w-2xl leading-relaxed">
@@ -201,7 +201,7 @@ export default function LabTestsListPage() {
         </div>
       </section>
 
-      <section className="mx-auto max-w-7xl px-gutter py-10 lg:py-14">
+      <section className="mx-auto max-w-7xl px-gutter py-8 lg:py-10">
         <LabTestFilter
           tests={testCards}
           categories={categoryVMs}

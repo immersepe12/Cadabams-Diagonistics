@@ -50,7 +50,7 @@ export default function CartPage() {
   if (!hydrated) {
     return (
       <main className="bg-cream-bg min-h-screen">
-        <section className="mx-auto max-w-5xl px-gutter py-16 lg:py-24">
+        <section className="mx-auto max-w-5xl px-gutter py-10 lg:py-14">
           <div className="h-8 w-40 bg-cream-line rounded-pill animate-pulse" />
         </section>
       </main>
@@ -63,8 +63,8 @@ export default function CartPage() {
 
   return (
     <main className="bg-cream-bg min-h-screen">
-      <section className="mx-auto max-w-6xl px-gutter py-10 lg:py-14">
-        <div className="flex flex-wrap items-end justify-between gap-3 mb-6 lg:mb-8">
+      <section className="mx-auto max-w-6xl px-gutter py-8 lg:py-10">
+        <div className="flex flex-wrap items-end justify-between gap-3 mb-5 lg:mb-6">
           <div>
             <h1 className="text-h1 sm:text-display-2 font-display font-extrabold text-ink-900 tracking-tight">
               Your cart
@@ -241,7 +241,7 @@ export default function CartPage() {
 function EmptyCart() {
   return (
     <main className="bg-cream-bg min-h-screen">
-      <section className="mx-auto max-w-3xl px-gutter py-16 lg:py-24 text-center">
+      <section className="mx-auto max-w-3xl px-gutter py-10 lg:py-14 text-center">
         <div className="w-20 h-20 mx-auto rounded-pill bg-orange-50 inline-flex items-center justify-center mb-6">
           <ShoppingCart className="w-9 h-9 text-orange-600" />
         </div>

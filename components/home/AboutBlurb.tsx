@@ -12,7 +12,7 @@ export function AboutBlurb({
   if (paragraphs.length === 0) return null;
 
   return (
-    <section className="py-12 lg:py-16 bg-cream-bg">
+    <section className="py-8 lg:py-10 bg-cream-bg">
       <div className="mx-auto max-w-7xl px-gutter">
         <div className="mb-6 pb-4 border-b border-orange-300/60">
           <SectionOverline>About us</SectionOverline>

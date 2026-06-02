@@ -7,7 +7,6 @@ import {
   Clock,
   Mail,
   MapPin,
-  MessageCircle,
   Phone,
   Quote,
   Star,
@@ -15,6 +14,14 @@ import {
   Building2,
   Sparkles,
   Stethoscope,
+  FlaskConical,
+  ScanLine,
+  Activity,
+  Baby,
+  Bone,
+  Heart,
+  ArrowRight,
+  type LucideIcon,
 } from "lucide-react";
 import {
   getAllCenterSlugs,
@@ -40,6 +47,41 @@ import { FaqList } from "@/components/shared/FaqList";
 export const revalidate = 86400;
 
 const FALLBACK = "/shared/image-1727884059139-383535423.webp";
+
+/**
+ * Pick a meaningful icon for a service card based on its title. The source
+ * `service.icon` images are often generic stock photos, so a themed lucide
+ * icon keeps the cards clean and consistent.
+ */
+function serviceIcon(title: string): LucideIcon {
+  const t = title.toLowerCase();
+  if (/lab|blood|patholog|test|cbc|profile/.test(t)) return FlaskConical;
+  if (/ultrasound|sonograph|doppler/.test(t)) return Activity;
+  if (/pregnan|women|fetal|obstetric|maternal/.test(t)) return Baby;
+  if (/msk|bone|ortho|joint|spine/.test(t)) return Bone;
+  if (/heart|cardio|echo/.test(t)) return Heart;
+  if (/x-?ray|mri|ct|scan|radiolog|imaging/.test(t)) return ScanLine;
+  return Stethoscope;
+}
+
+/**
+ * Map a service to the relevant listing page so the card is clickable. Falls
+ * back to the lab-test hub when the title doesn't match a known scan family.
+ */
+function serviceHref(title: string): string {
+  const t = title.toLowerCase();
+  if (/x-?ray/.test(t)) return "/bangalore/xray-scan";
+  if (/ultrasound|sonograph|doppler/.test(t)) return "/bangalore/ultrasound-scan";
+  if (/mri/.test(t)) return "/bangalore/mri-scan";
+  if (/\bct\b|computed tomograph/.test(t)) return "/bangalore/ct-scan";
+  if (/msk|muscul|ortho|joint/.test(t)) return "/bangalore/msk-scan";
+  if (/pregnan|women|fetal|obstetric|maternal/.test(t))
+    return "/bangalore/pregnancy-scan";
+  if (/preventive|health check/.test(t))
+    return "/bangalore/preventive-health-checks";
+  if (/radiolog|imaging/.test(t)) return "/bangalore/ultrasound-scan";
+  return "/bangalore/lab-test";
+}
 
 interface MarkdownSection {
   title: string;
@@ -146,7 +188,6 @@ export default async function CenterDetailPage({ params }: PageProps) {
     .map((p) => p.trim())
     .filter((p) => p.length > 0);
   const primaryPhone = phones[0] ?? "";
-  const whatsapp = center.center_info.whatsapp?.replace(/[^\d+]/g, "");
   const heroImage =
     center.basic_info.center_image && center.basic_info.center_image.length > 0
       ? center.basic_info.center_image
@@ -163,6 +204,21 @@ export default async function CenterDetailPage({ params }: PageProps) {
   const services = center.services.filter(
     (s) => s.title && s.title.trim().length > 0,
   );
+  // All linked tests across every service, deduped — rendered once below the
+  // service cards rather than inside individual cards.
+  const centreTests = (() => {
+    const seen = new Set<string>();
+    return services
+      .flatMap((s) => s.tests)
+      .filter(
+        (t) =>
+          t.id &&
+          t.testName &&
+          t.testName.trim().length > 0 &&
+          !seen.has(t.id) &&
+          seen.add(t.id),
+      );
+  })();
   const testimonials = center.testimonials.filter(
     (t) =>
       t.content &&
@@ -211,7 +267,7 @@ export default async function CenterDetailPage({ params }: PageProps) {
           className="pointer-events-none absolute -bottom-32 -left-10 w-96 h-96 rounded-pill bg-coral-300/20 blur-3xl"
         />
 
-        <div className="relative mx-auto max-w-7xl px-gutter pt-5 pb-8 sm:pt-6 sm:pb-10 lg:pt-8 lg:pb-14">
+        <div className="relative mx-auto max-w-7xl px-gutter pt-4 pb-6 sm:pt-5 sm:pb-8 lg:pt-6 lg:pb-10">
           <Breadcrumb>
             <BreadcrumbList>
               <BreadcrumbItem>
@@ -230,7 +286,7 @@ export default async function CenterDetailPage({ params }: PageProps) {
             </BreadcrumbList>
           </Breadcrumb>
 
-          <div className="mt-5 sm:mt-6 lg:mt-8 grid gap-5 sm:gap-6 lg:gap-10 lg:grid-cols-[1fr_440px] items-start min-w-0">
+          <div className="mt-4 sm:mt-5 lg:mt-6 grid gap-5 sm:gap-6 lg:gap-8 lg:grid-cols-[1fr_380px] items-start min-w-0">
             <div className="space-y-5">
               <span className="inline-flex items-center gap-1.5 rounded-pill bg-cream-card border border-cream-line px-3 py-1 text-overline uppercase text-orange-700 font-bold">
                 <Building2 className="w-3.5 h-3.5" />
@@ -249,20 +305,20 @@ export default async function CenterDetailPage({ params }: PageProps) {
 
               <div className="flex flex-wrap items-center gap-2 pt-1">
                 {center.working_hours.weekdays && (
-                  <span className="inline-flex items-center gap-1.5 bg-cream-card rounded-pill px-3 py-1.5 text-meta font-semibold text-ink-700 shadow-sh-1 border border-cream-line">
+                  <span className="inline-flex items-center gap-2 bg-cream-card rounded-pill px-4 py-2 text-body-sm font-semibold text-ink-800 shadow-sh-1 border border-cream-line">
                     <Clock className="w-3.5 h-3.5 text-orange-600" />
                     Mon–Sat {center.working_hours.weekdays.start}–
                     {center.working_hours.weekdays.end}
                   </span>
                 )}
                 {center.working_hours.sunday && (
-                  <span className="inline-flex items-center gap-1.5 bg-cream-card rounded-pill px-3 py-1.5 text-meta font-semibold text-ink-700 shadow-sh-1 border border-cream-line">
+                  <span className="inline-flex items-center gap-2 bg-cream-card rounded-pill px-4 py-2 text-body-sm font-semibold text-ink-800 shadow-sh-1 border border-cream-line">
                     <Calendar className="w-3.5 h-3.5 text-orange-600" />
                     Sun {center.working_hours.sunday.start}–
                     {center.working_hours.sunday.end}
                   </span>
                 )}
-                <span className="inline-flex items-center gap-1.5 bg-cream-card rounded-pill px-3 py-1.5 text-meta font-semibold text-ink-700 shadow-sh-1 border border-cream-line">
+                <span className="inline-flex items-center gap-2 bg-cream-card rounded-pill px-4 py-2 text-body-sm font-semibold text-ink-800 shadow-sh-1 border border-cream-line">
                   <ShieldCheck className="w-3.5 h-3.5 text-orange-600" />
                   NABL Accredited
                 </span>
@@ -270,7 +326,7 @@ export default async function CenterDetailPage({ params }: PageProps) {
 
               <div className="flex flex-col sm:flex-row gap-3 pt-3">
                 <Link
-                  href="/cart"
+                  href="/bangalore/lab-test"
                   className="inline-flex items-center justify-center gap-2 rounded-pill bg-gradient-cta text-white font-bold px-6 py-3 text-body shadow-glow-orange ring-2 ring-orange-300/30 hover:brightness-110 hover:-translate-y-0.5 hover:ring-orange-400/50 active:scale-[0.98] transition-all duration-200 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-orange-300"
                 >
                   <Sparkles className="w-4 h-4 fill-white" />
@@ -335,7 +391,7 @@ export default async function CenterDetailPage({ params }: PageProps) {
         <LabStats />
       </div>
 
-      <div className="mx-auto max-w-7xl px-gutter py-10 lg:py-14 grid gap-6 lg:gap-10 lg:grid-cols-3">
+      <div className="mx-auto max-w-7xl px-gutter py-8 lg:py-10 grid gap-6 lg:gap-8 lg:grid-cols-3">
         <div className="lg:col-span-2 space-y-6">
           {markdownSections.map((section, i) => (
             <section
@@ -354,62 +410,75 @@ export default async function CenterDetailPage({ params }: PageProps) {
               <h2 className="text-h2 font-display font-bold text-ink-900 mb-5">
                 Services at this centre
               </h2>
-              <div className="grid sm:grid-cols-2 gap-4">
+              <div className="columns-1 sm:columns-2 gap-4">
                 {services.map((service) => {
-                  const linkedTests = service.tests.filter(
-                    (t) => t.id && t.testName && t.testName.trim().length > 0,
-                  );
+                  const Icon = serviceIcon(service.title);
+                  const descLines = (service.description ?? "")
+                    .split(/\n+/)
+                    .map((l) => l.trim())
+                    .filter(Boolean);
+                  const hasDescription = descLines.length > 0;
                   return (
-                    <article
+                    <Link
                       key={service.id}
-                      className="rounded-xl border border-cream-line bg-cream-soft p-5 hover:border-orange-200 transition-colors"
+                      href={serviceHref(service.title)}
+                      className="group block break-inside-avoid mb-4 rounded-xl border border-cream-line bg-cream-soft p-5 hover:border-orange-300 hover:shadow-sh-2 transition-all"
                     >
-                      <div className="flex items-start gap-3">
-                        {service.icon && service.icon.startsWith("/") ? (
-                          <div className="relative w-12 h-12 rounded-pill overflow-hidden bg-cream-card flex-shrink-0 shadow-sh-1">
-                            <Image
-                              src={service.icon}
-                              alt={service.title}
-                              fill
-                              className="object-cover"
-                              sizes="48px"
-                            />
-                          </div>
-                        ) : (
-                          <span className="w-12 h-12 inline-flex items-center justify-center rounded-pill bg-orange-50 text-orange-600 flex-shrink-0">
-                            <Stethoscope className="w-6 h-6" />
-                          </span>
-                        )}
+                      <div
+                        className={`flex gap-3 ${hasDescription ? "items-start" : "items-center"}`}
+                      >
+                        <span className="w-11 h-11 inline-flex items-center justify-center rounded-pill bg-orange-50 text-orange-600 flex-shrink-0">
+                          <Icon className="w-5 h-5" />
+                        </span>
                         <div className="min-w-0 flex-1">
-                          <h3 className="text-h3 font-bold text-ink-900 leading-tight">
+                          <h3 className="text-h3 font-bold text-ink-900 leading-tight group-hover:text-orange-700 transition-colors">
                             {service.title}
                           </h3>
-                          {service.description &&
-                            service.description.trim().length > 0 && (
-                              <p className="mt-2 text-body-sm text-ink-700 whitespace-pre-line leading-relaxed">
-                                {service.description}
+                          {hasDescription &&
+                            (descLines.length > 1 ? (
+                              <ul className="mt-2 space-y-1">
+                                {descLines.map((line, i) => (
+                                  <li
+                                    key={i}
+                                    className="flex gap-2 text-body-sm text-ink-700"
+                                  >
+                                    <span className="mt-[7px] w-1 h-1 rounded-pill bg-orange-400 flex-shrink-0" />
+                                    <span className="leading-snug">{line}</span>
+                                  </li>
+                                ))}
+                              </ul>
+                            ) : (
+                              <p className="mt-2 text-body-sm text-ink-700 leading-relaxed">
+                                {descLines[0]}
                               </p>
-                            )}
+                            ))}
                         </div>
+                        <ArrowRight className="w-4 h-4 text-ink-400 flex-shrink-0 mt-1 group-hover:text-orange-600 group-hover:translate-x-0.5 transition-all" />
                       </div>
-                      {linkedTests.length > 0 && (
-                        <ul className="mt-4 flex flex-wrap gap-2">
-                          {linkedTests.map((t) => (
-                            <li key={t.id}>
-                              <Link
-                                href={`/bangalore/lab-test${t.route}`}
-                                className="inline-flex items-center bg-cream-card text-meta text-ink-700 font-medium border border-cream-line rounded-pill px-3 py-1 hover:border-orange-300 hover:bg-orange-50 hover:text-orange-700 transition-colors"
-                              >
-                                {t.testName}
-                              </Link>
-                            </li>
-                          ))}
-                        </ul>
-                      )}
-                    </article>
+                    </Link>
                   );
                 })}
               </div>
+
+              {centreTests.length > 0 && (
+                <div className="mt-6 pt-6 border-t border-cream-line">
+                  <p className="text-meta font-bold text-ink-700 uppercase tracking-overline mb-3">
+                    Popular tests at this centre
+                  </p>
+                  <ul className="flex flex-wrap gap-2">
+                    {centreTests.map((t) => (
+                      <li key={t.id}>
+                        <Link
+                          href={`/bangalore/lab-test${t.route}`}
+                          className="inline-flex items-center bg-cream-soft text-meta text-ink-700 font-medium border border-cream-line rounded-pill px-3 py-1.5 hover:border-orange-300 hover:bg-orange-50 hover:text-orange-700 transition-colors"
+                        >
+                          {t.testName}
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
             </section>
           )}
 
@@ -588,23 +657,12 @@ export default async function CenterDetailPage({ params }: PageProps) {
 
             <div className="p-5 space-y-3">
               <Link
-                href="/cart"
+                href="/bangalore/lab-test"
                 className="w-full inline-flex items-center justify-center gap-2 rounded-pill bg-gradient-cta text-white font-bold px-6 py-3 text-body shadow-glow-orange ring-2 ring-orange-300/30 hover:brightness-110 active:scale-[0.98] transition-all"
               >
                 <Sparkles className="w-4 h-4 fill-white" />
                 Book a test
               </Link>
-              {whatsapp && whatsapp.length >= 10 && (
-                <ContactActionButton
-                  mode="whatsapp"
-                  whatsappNumber={whatsapp.replace(/^\+/, "")}
-                  context={center.basic_info.center_name}
-                  className="w-full inline-flex items-center justify-center gap-2 rounded-pill bg-[#25D366] hover:brightness-110 text-white font-semibold px-6 py-3 text-body shadow-sh-2 active:scale-[0.98] transition-all"
-                >
-                  <MessageCircle className="w-4 h-4" />
-                  WhatsApp us
-                </ContactActionButton>
-              )}
               {center.center_info.map_location && (
                 <a
                   href={center.center_info.map_location}

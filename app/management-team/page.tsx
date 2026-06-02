@@ -151,7 +151,7 @@ export default function ManagementTeamPage() {
           }}
         />
 
-        <div className="relative mx-auto max-w-7xl px-gutter pt-5 pb-14 sm:pt-6 sm:pb-16 lg:pt-8 lg:pb-24">
+        <div className="relative mx-auto max-w-7xl px-gutter pt-4 pb-8 sm:pt-5 sm:pb-10 lg:pt-6 lg:pb-14">
           <Breadcrumb>
             <BreadcrumbList className="text-white/80">
               <BreadcrumbItem>
@@ -211,7 +211,7 @@ export default function ManagementTeamPage() {
       </section>
 
       {/* Team */}
-      <section className="mx-auto max-w-7xl px-gutter py-12 sm:py-14 lg:py-20">
+      <section className="mx-auto max-w-7xl px-gutter py-8 sm:py-10 lg:py-12">
         <div className="mb-8 sm:mb-10 max-w-2xl">
           <p className="text-overline uppercase text-orange-700 font-bold mb-2 tracking-overline">
             Meet the leadership
@@ -284,7 +284,7 @@ export default function ManagementTeamPage() {
       </section>
 
       {/* Closing CTA */}
-      <section className="bg-cream-soft py-12 sm:py-14 lg:py-20 border-t border-cream-line">
+      <section className="bg-cream-soft py-8 sm:py-10 lg:py-12 border-t border-cream-line">
         <div className="mx-auto max-w-5xl px-gutter">
           <div className="relative overflow-hidden bg-gradient-hero text-white rounded-3xl shadow-sh-3 p-8 sm:p-10 lg:p-14">
             <div

@@ -143,7 +143,7 @@ export default function AboutUsPage() {
           }}
         />
 
-        <div className="relative mx-auto max-w-7xl px-gutter pt-5 pb-12 sm:pt-6 sm:pb-16 lg:pt-8 lg:pb-24">
+        <div className="relative mx-auto max-w-7xl px-gutter pt-4 pb-8 sm:pt-5 sm:pb-10 lg:pt-6 lg:pb-14">
           <Breadcrumb>
             <BreadcrumbList className="text-white/80">
               <BreadcrumbItem>
@@ -164,7 +164,7 @@ export default function AboutUsPage() {
             </BreadcrumbList>
           </Breadcrumb>
 
-          <div className="mt-6 sm:mt-8 grid gap-8 lg:gap-12 lg:grid-cols-[1.2fr_1fr] items-center">
+          <div className="mt-4 sm:mt-6 grid gap-6 lg:gap-8 lg:grid-cols-[1.2fr_1fr] items-center">
             <div className="max-w-3xl">
               <span className="inline-flex items-center gap-1.5 rounded-pill bg-white/15 backdrop-blur-md ring-1 ring-white/25 px-3 py-1 text-overline uppercase font-bold tracking-overline">
                 <Sparkles className="w-3.5 h-3.5" />
@@ -213,7 +213,7 @@ export default function AboutUsPage() {
       </div>
 
       {/* Our mission */}
-      <section className="mx-auto max-w-7xl px-gutter py-12 sm:py-14 lg:py-20">
+      <section className="mx-auto max-w-7xl px-gutter py-8 sm:py-10 lg:py-12">
         <div className="grid gap-8 lg:gap-14 lg:grid-cols-2 items-center">
           <div>
             <p className="text-overline uppercase text-orange-700 font-bold mb-3 tracking-overline">
@@ -275,7 +275,7 @@ export default function AboutUsPage() {
       </section>
 
       {/* Values */}
-      <section className="bg-cream-soft py-12 sm:py-14 lg:py-20 border-y border-cream-line">
+      <section className="bg-cream-soft py-8 sm:py-10 lg:py-12 border-y border-cream-line">
         <div className="mx-auto max-w-7xl px-gutter">
           <div className="text-center max-w-2xl mx-auto mb-10 sm:mb-12">
             <p className="text-overline uppercase text-orange-700 font-bold mb-3 tracking-overline">
@@ -307,7 +307,7 @@ export default function AboutUsPage() {
       </section>
 
       {/* Services */}
-      <section className="mx-auto max-w-7xl px-gutter py-12 sm:py-14 lg:py-20">
+      <section className="mx-auto max-w-7xl px-gutter py-8 sm:py-10 lg:py-12">
         <div className="mb-8 sm:mb-10 flex flex-wrap items-end justify-between gap-4">
           <div className="max-w-2xl">
             <p className="text-overline uppercase text-orange-700 font-bold mb-2 tracking-overline">
@@ -356,7 +356,7 @@ export default function AboutUsPage() {
       </section>
 
       {/* Timeline */}
-      <section className="bg-cream-soft py-12 sm:py-14 lg:py-20 border-y border-cream-line">
+      <section className="bg-cream-soft py-8 sm:py-10 lg:py-12 border-y border-cream-line">
         <div className="mx-auto max-w-7xl px-gutter">
           <div className="text-center max-w-2xl mx-auto mb-10 sm:mb-12">
             <p className="text-overline uppercase text-orange-700 font-bold mb-3 tracking-overline">
@@ -399,7 +399,7 @@ export default function AboutUsPage() {
       {/* Centres */}
       <section
         id="our-centres"
-        className="mx-auto max-w-7xl px-gutter py-12 sm:py-14 lg:py-20"
+        className="mx-auto max-w-7xl px-gutter py-8 sm:py-10 lg:py-12"
       >
         <div className="mb-8 sm:mb-10 max-w-2xl">
           <p className="text-overline uppercase text-orange-700 font-bold mb-2 tracking-overline">
@@ -453,7 +453,7 @@ export default function AboutUsPage() {
       </section>
 
       {/* Closing CTA */}
-      <section className="bg-cream-soft py-12 sm:py-14 lg:py-20 border-t border-cream-line">
+      <section className="bg-cream-soft py-8 sm:py-10 lg:py-12 border-t border-cream-line">
         <div className="mx-auto max-w-5xl px-gutter">
           <div className="relative overflow-hidden bg-gradient-hero text-white rounded-3xl shadow-sh-3 p-8 sm:p-10 lg:p-14">
             <div

@@ -1,5 +1,9 @@
 import { getNavbar } from "@/lib/data/navbars";
-import { getAllCenters, getCenterSlug } from "@/lib/data/centers";
+import {
+  getAllCenters,
+  getCenterSlug,
+  getCenterShortName,
+} from "@/lib/data/centers";
 import {
   getAllNonLabTestCategories,
   getNonLabCategorySlug,
@@ -11,7 +15,7 @@ export function Header() {
 
   const centers = getAllCenters()
     .map((c) => ({
-      name: c.basic_info.center_name,
+      name: getCenterShortName(c),
       slug: getCenterSlug(c),
     }))
     .filter((c) => c.name && c.slug);

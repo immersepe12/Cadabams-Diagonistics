@@ -74,9 +74,9 @@ export function ContactFormSection({
   });
 
   return (
-    <section id="contact" className="py-12 lg:py-20 bg-cream-bg scroll-mt-20">
-      <div className="mx-auto max-w-7xl px-gutter grid gap-10 lg:grid-cols-2 lg:items-center">
-        <div className="space-y-6 lg:order-2">
+    <section id="contact" className="py-8 lg:py-12 bg-cream-bg scroll-mt-20">
+      <div className="mx-auto max-w-7xl px-gutter grid gap-8 lg:grid-cols-2 lg:items-center">
+        <div className="space-y-4 lg:order-2">
           <p className="text-overline uppercase text-orange-600 font-bold">
             Talk to us
           </p>
@@ -129,7 +129,7 @@ export function ContactFormSection({
 
         <form
           onSubmit={onSubmit}
-          className="bg-cream-card rounded-2xl shadow-sh-3 border border-cream-line p-6 sm:p-8 space-y-5 lg:order-1"
+          className="bg-cream-card rounded-2xl shadow-sh-3 border border-cream-line p-5 sm:p-6 space-y-4 lg:order-1"
           noValidate
         >
           <div className="flex items-center justify-center mb-2">

@@ -22,6 +22,7 @@ import { MarkdownContent } from "@/components/shared/MarkdownContent";
 import { TestCard } from "@/components/shared/TestCard";
 import { TestBookingActions } from "@/components/shared/TestBookingActions";
 import { AddToCartButton } from "@/components/shared/AddToCartButton";
+import { BookNowButton } from "@/components/shared/BookNowButton";
 import { LabStats } from "@/components/shared/LabStats";
 import { CentersListCard } from "@/components/shared/CentersListCard";
 import { getAllCenters, getCenterSlug } from "@/lib/data/centers";
@@ -243,7 +244,7 @@ export function ScanDetail({ familyPath, slug }: ScanDetailProps) {
           className="pointer-events-none absolute -bottom-32 -left-10 w-96 h-96 rounded-pill bg-coral-300/20 blur-3xl"
         />
 
-        <div className="relative mx-auto max-w-7xl px-gutter pt-5 pb-8 sm:pt-6 sm:pb-10 lg:pt-8 lg:pb-14">
+        <div className="relative mx-auto max-w-7xl px-gutter pt-4 pb-6 sm:pt-5 sm:pb-8 lg:pt-6 lg:pb-10">
           <Breadcrumb>
             <BreadcrumbList>
               <BreadcrumbItem>
@@ -264,8 +265,8 @@ export function ScanDetail({ familyPath, slug }: ScanDetailProps) {
             </BreadcrumbList>
           </Breadcrumb>
 
-          <div className="mt-5 sm:mt-6 lg:mt-8 grid gap-5 sm:gap-6 lg:gap-10 lg:grid-cols-[1fr_440px] items-start min-w-0">
-            <div className="space-y-5">
+          <div className="mt-4 sm:mt-5 lg:mt-6 grid gap-5 sm:gap-6 lg:gap-8 lg:grid-cols-[1fr_380px] items-start min-w-0">
+            <div className="space-y-3 sm:space-y-4">
               <Link
                 href={`/${CITY}/${familyPath}`}
                 className="inline-flex items-center gap-1.5 rounded-pill bg-cream-card border border-cream-line px-3 py-1 text-overline uppercase text-orange-700 font-bold hover:border-orange-200 transition-colors"
@@ -274,7 +275,7 @@ export function ScanDetail({ familyPath, slug }: ScanDetailProps) {
                 {category.name}
               </Link>
 
-              <h1 className="text-h2 sm:text-h1 lg:text-display-1 font-display font-extrabold text-ink-900 leading-tight tracking-tight">
+              <h1 className="text-h2 sm:text-h1 lg:text-display-2 font-display font-extrabold text-ink-900 leading-tight tracking-tight">
                 {test.testName}
               </h1>
 
@@ -295,28 +296,42 @@ export function ScanDetail({ familyPath, slug }: ScanDetailProps) {
 
               <div className="flex flex-wrap items-center gap-2 pt-1">
                 {validReportsWithin && (
-                  <span className="inline-flex items-center gap-1.5 bg-cream-card rounded-pill px-3 py-1.5 text-meta font-semibold text-ink-700 shadow-sh-1 border border-cream-line">
+                  <span className="inline-flex items-center gap-2 bg-cream-card rounded-pill px-4 py-2 text-body-sm font-semibold text-ink-800 shadow-sh-1 border border-cream-line">
                     <Clock className="w-3.5 h-3.5 text-orange-600" />
                     Reports in {validReportsWithin}
                   </span>
                 )}
-                <span className="inline-flex items-center gap-1.5 bg-cream-card rounded-pill px-3 py-1.5 text-meta font-semibold text-ink-700 shadow-sh-1 border border-cream-line">
+                <span className="inline-flex items-center gap-2 bg-cream-card rounded-pill px-4 py-2 text-body-sm font-semibold text-ink-800 shadow-sh-1 border border-cream-line">
                   <Building2 className="w-3.5 h-3.5 text-orange-600" />
                   Centre visit
                 </span>
-                <span className="inline-flex items-center gap-1.5 bg-cream-card rounded-pill px-3 py-1.5 text-meta font-semibold text-ink-700 shadow-sh-1 border border-cream-line">
+                <span className="inline-flex items-center gap-2 bg-cream-card rounded-pill px-4 py-2 text-body-sm font-semibold text-ink-800 shadow-sh-1 border border-cream-line">
                   <ShieldCheck className="w-3.5 h-3.5 text-orange-600" />
                   Advanced equipment
                 </span>
                 {validTestId && (
-                  <span className="inline-flex items-center gap-1.5 bg-cream-card rounded-pill px-3 py-1.5 text-meta font-semibold text-ink-700 shadow-sh-1 border border-cream-line">
+                  <span className="inline-flex items-center gap-2 bg-cream-card rounded-pill px-4 py-2 text-body-sm font-semibold text-ink-800 shadow-sh-1 border border-cream-line">
                     <Tag className="w-3.5 h-3.5 text-orange-600" />
                     ID {validTestId}
                   </span>
                 )}
               </div>
 
-              <div className="flex flex-col sm:flex-row gap-3 pt-3">
+              <div className="flex flex-col sm:flex-row gap-3 pt-2 max-w-xl">
+                <BookNowButton
+                  item={{
+                    id: test.id,
+                    name: test.testName,
+                    price: finalPrice,
+                    originalPrice: showDiscount ? price : undefined,
+                    href: nonLabTestUrl(test),
+                    kind: "Radiology",
+                  }}
+                  className="flex-1 inline-flex items-center justify-center gap-2 rounded-pill bg-gradient-cta text-white font-bold px-6 py-3.5 text-body shadow-glow-orange hover:brightness-110 hover:-translate-y-0.5 active:scale-[0.98] transition-all duration-200 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-orange-300"
+                >
+                  <Zap className="w-4 h-4 fill-white" />
+                  Book now · ₹{finalPrice.toLocaleString("en-IN")}
+                </BookNowButton>
                 <AddToCartButton
                   item={{
                     id: test.id,
@@ -326,15 +341,8 @@ export function ScanDetail({ familyPath, slug }: ScanDetailProps) {
                     href: nonLabTestUrl(test),
                     kind: "Radiology",
                   }}
-                  className="inline-flex items-center justify-center gap-2 rounded-pill bg-orange-50 hover:bg-orange-100 text-orange-700 font-semibold px-6 py-3 text-body border-2 border-orange-200 hover:border-orange-300 transition-all duration-200 active:scale-[0.98] focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-orange-200"
+                  className="flex-1 inline-flex items-center justify-center gap-2 rounded-pill bg-cream-card hover:bg-orange-50 text-ink-900 hover:text-orange-700 font-semibold px-6 py-3.5 text-body border border-cream-line hover:border-orange-300 shadow-sh-1 transition-all duration-200 active:scale-[0.98] focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-orange-200"
                 />
-                <Link
-                  href="/cart"
-                  className="inline-flex items-center justify-center gap-2 rounded-pill bg-gradient-cta text-white font-bold px-6 py-3 text-body shadow-glow-orange ring-2 ring-orange-300/30 hover:brightness-110 hover:-translate-y-0.5 hover:ring-orange-400/50 active:scale-[0.98] transition-all duration-200 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-orange-300"
-                >
-                  <Zap className="w-4 h-4 fill-white" />
-                  Book now · ₹{finalPrice.toLocaleString("en-IN")}
-                </Link>
               </div>
             </div>
 
@@ -358,24 +366,14 @@ export function ScanDetail({ familyPath, slug }: ScanDetailProps) {
                     Save {discountPct}%
                   </span>
                 )}
-                <div className="absolute bottom-4 left-4 right-4 flex items-end justify-between gap-3">
-                  <div className="bg-cream-card/95 backdrop-blur-sm rounded-xl px-3 py-2 shadow-sh-2">
-                    <p className="text-caption text-ink-500 font-medium leading-none">
-                      Starting at
-                    </p>
-                    <p className="text-h3 font-extrabold text-orange-600 leading-tight mt-0.5">
-                      ₹{finalPrice.toLocaleString("en-IN")}
+                {validReportsWithin && (
+                  <div className="absolute bottom-4 right-4 bg-cream-card/95 backdrop-blur-sm rounded-xl px-3 py-2 shadow-sh-2 flex items-center gap-2">
+                    <Clock className="w-4 h-4 text-orange-600" />
+                    <p className="text-body-sm font-bold text-ink-900 leading-none">
+                      {validReportsWithin}
                     </p>
                   </div>
-                  {validReportsWithin && (
-                    <div className="bg-cream-card/95 backdrop-blur-sm rounded-xl px-3 py-2 shadow-sh-2 flex items-center gap-2">
-                      <Clock className="w-4 h-4 text-orange-600" />
-                      <p className="text-body-sm font-bold text-ink-900 leading-none">
-                        {validReportsWithin}
-                      </p>
-                    </div>
-                  )}
-                </div>
+                )}
               </div>
             </div>
           </div>

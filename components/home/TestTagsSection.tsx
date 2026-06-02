@@ -23,7 +23,7 @@ export function TestTagsSection({
   if (tags.length === 0) return null;
 
   return (
-    <section className={className ?? "py-12 lg:py-16 bg-cream-bg"}>
+    <section className={className ?? "py-8 lg:py-10 bg-cream-bg"}>
       <div className="mx-auto max-w-7xl px-gutter">
         <div className="mb-6 pb-4 border-b border-orange-300/60">
           {overline && <SectionOverline>{overline}</SectionOverline>}

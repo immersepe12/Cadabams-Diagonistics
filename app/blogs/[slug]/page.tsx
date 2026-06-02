@@ -154,7 +154,7 @@ export default async function BlogDetailPage({ params }: PageProps) {
 
           <div className="mt-6 max-w-4xl">
             <Link
-              href={`/blogs?category=${blog.blogCategoryId}`}
+              href="/blogs"
               className="inline-flex items-center rounded-pill bg-cream-card border border-orange-100 text-orange-700 font-bold text-overline uppercase px-3 py-1 tracking-overline hover:border-orange-200 transition-colors"
             >
               {blog.categoryName}
@@ -174,7 +174,7 @@ export default async function BlogDetailPage({ params }: PageProps) {
         </div>
       </section>
 
-      <div className="mx-auto max-w-7xl px-gutter py-10 lg:py-14 grid gap-6 lg:gap-10 lg:grid-cols-3">
+      <div className="mx-auto max-w-7xl px-gutter py-8 lg:py-10 grid gap-6 lg:gap-8 lg:grid-cols-3">
         <article className="lg:col-span-2 space-y-6">
           {hasImage && (
             <div className="rounded-2xl overflow-hidden shadow-sh-2 border border-cream-line bg-cream-soft">
@@ -209,7 +209,7 @@ export default async function BlogDetailPage({ params }: PageProps) {
       </div>
 
       {fallback.length > 0 && (
-        <section className="bg-cream-soft py-12 lg:py-16">
+        <section className="bg-cream-soft py-8 lg:py-10">
           <div className="mx-auto max-w-7xl px-gutter">
             <h2 className="text-h1 sm:text-display-2 font-display font-extrabold text-ink-900 mb-8 tracking-tight">
               Related articles

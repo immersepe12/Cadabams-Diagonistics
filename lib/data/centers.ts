@@ -79,6 +79,27 @@ export function getCenterSlug(center: Center): string {
   return slugifyLocation(center.basic_info.location);
 }
 
+/**
+ * Short, human-friendly centre name derived from its location/area — e.g.
+ * "Banashankari", "Kanakapura Road" — instead of the long marketing
+ * `center_name` ("Cadabam's Diagnostic Centre Banashankari"). Used in the
+ * header Centers menu where only the locality is wanted.
+ */
+export function getCenterShortName(center: Center): string {
+  const raw =
+    center.basic_info.location?.trim() ||
+    center.basic_info.area?.trim() ||
+    center.basic_info.center_name?.trim() ||
+    "";
+  return raw
+    .replace(/[-_]+/g, " ")
+    .replace(/\s+/g, " ")
+    .trim()
+    .split(" ")
+    .map((w) => w.charAt(0).toUpperCase() + w.slice(1).toLowerCase())
+    .join(" ");
+}
+
 export function getAllCenterSlugs(): string[] {
   return ALL_CENTERS.map(getCenterSlug);
 }
