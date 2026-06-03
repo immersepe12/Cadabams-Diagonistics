@@ -1,8 +1,9 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { ChevronLeft, ChevronRight, Clock, FlaskConical } from "lucide-react";
+import Autoplay from "embla-carousel-autoplay";
 import { AddToCartButton } from "@/components/shared/AddToCartButton";
 import {
   Carousel,
@@ -49,6 +50,9 @@ export function FeaturedTestsSlider({
   const [api, setApi] = useState<CarouselApi>();
   const [canPrev, setCanPrev] = useState(false);
   const [canNext, setCanNext] = useState(false);
+  const autoplay = useRef(
+    Autoplay({ delay: 3500, stopOnInteraction: false, stopOnMouseEnter: true }),
+  );
 
   useEffect(() => {
     if (!api) return;
@@ -109,7 +113,8 @@ export function FeaturedTestsSlider({
 
         <Carousel
           setApi={setApi}
-          opts={{ align: "start" }}
+          opts={{ align: "start", loop: true }}
+          plugins={[autoplay.current]}
           className="w-full"
         >
           <CarouselContent className="-ml-3 sm:-ml-4 lg:-ml-5">
