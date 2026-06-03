@@ -51,8 +51,10 @@ export function scanDetailMetadata(slug: string): Metadata {
       title: test.seo?.ogTitle || test.seo?.title || fallbackTitle,
       description:
         test.seo?.ogDescription || test.seo?.description || fallbackDesc,
-      images: test.seo?.ogImage ? [{ url: test.seo.ogImage }] : undefined,
       type: "article",
+      // Omit `images` when there's no custom SEO image so the generated
+      // per-route opengraph-image is used; a custom seo.ogImage still wins.
+      ...(test.seo?.ogImage ? { images: [{ url: test.seo.ogImage }] } : {}),
     },
   };
 }

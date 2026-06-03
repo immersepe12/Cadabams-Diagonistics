@@ -16,6 +16,9 @@ export const metadata: Metadata = {
     type: "website",
     siteName: "Cadabams Diagnostics",
   },
+  twitter: {
+    card: "summary_large_image",
+  },
   robots: { index: true, follow: true },
 };
 
