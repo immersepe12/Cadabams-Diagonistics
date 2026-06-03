@@ -102,8 +102,8 @@ export function Footer() {
   return (
     <footer className="bg-ink-900 text-ink-200 mt-12">
       <div className="mx-auto max-w-7xl px-gutter py-12 lg:py-16">
-        <div className="grid gap-10 lg:grid-cols-[1.4fr_repeat(5,1fr)] lg:gap-8">
-          <div className="space-y-4 max-w-xs">
+        <div className="grid grid-cols-2 gap-x-6 gap-y-8 sm:grid-cols-3 sm:gap-8 lg:grid-cols-[1.4fr_repeat(5,1fr)] lg:gap-8">
+          <div className="space-y-4 max-w-xs col-span-2 sm:col-span-3 lg:col-span-1">
             <Link
               href="/"
               aria-label="Cadabams Diagnostics home"
