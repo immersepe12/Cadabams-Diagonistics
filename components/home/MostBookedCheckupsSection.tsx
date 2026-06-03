@@ -44,8 +44,8 @@ export function MostBookedCheckupsSection({
         className="pointer-events-none absolute -bottom-40 -left-20 w-96 h-96 rounded-pill bg-gradient-to-tr from-pink-200/30 to-orange-200/10 blur-3xl"
       />
 
-      <div className="relative mx-auto max-w-7xl px-gutter grid gap-8 lg:grid-cols-[5fr_7fr] lg:gap-10 lg:items-start">
-        <div className="min-w-0 lg:sticky lg:top-24 space-y-4">
+      <div className="relative mx-auto max-w-7xl px-gutter grid gap-8 md:grid-cols-[5fr_7fr] md:gap-10 md:items-start">
+        <div className="min-w-0 md:sticky md:top-24 space-y-4">
           <SectionOverline>Radiology</SectionOverline>
 
           <h2 className="text-h1 sm:text-display-2 lg:text-display-1 text-ink-900 font-display leading-[1.1]">
