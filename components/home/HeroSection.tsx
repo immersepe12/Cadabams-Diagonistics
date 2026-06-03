@@ -185,11 +185,11 @@ export function HeroSection({ hero, features }: HeroSectionProps) {
         </div>
 
         {features.length > 0 && (
-          <div className="mt-6 lg:mt-8 pt-4 border-t border-white/20 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-3 gap-x-4 gap-y-2.5 sm:gap-6">
+          <div className="mt-6 lg:mt-8 pt-4 border-t border-white/20 grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-6">
             {features.map((f) => (
               <div
                 key={f.id}
-                className="flex items-center gap-3 justify-center lg:justify-start"
+                className="flex items-center gap-3 justify-start sm:justify-center lg:justify-start"
               >
                 <div className="relative w-9 h-9 lg:w-10 lg:h-10 flex-shrink-0 rounded-pill bg-white/15 ring-1 ring-white/25 p-1.5 backdrop-blur-sm">
                   <Image
