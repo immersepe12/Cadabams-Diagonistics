@@ -154,7 +154,7 @@ export function HeroSection({ hero, features }: HeroSectionProps) {
               />
             </div>
 
-            <div className="absolute -top-2 -left-3 sm:top-8 sm:left-0 bg-cream-card rounded-2xl shadow-sh-3 px-3 py-2 sm:px-4 sm:py-3 flex items-center gap-2 sm:gap-3 animate-in fade-in slide-in-from-left-4 duration-700">
+            <div className="absolute -top-2 -left-3 sm:top-6 sm:-left-6 lg:top-8 lg:left-0 bg-cream-card rounded-2xl shadow-sh-3 px-3 py-2 sm:px-4 sm:py-3 flex items-center gap-2 sm:gap-3 animate-in fade-in slide-in-from-left-4 duration-700">
               <span className="w-8 h-8 sm:w-10 sm:h-10 rounded-pill bg-orange-100 inline-flex items-center justify-center flex-shrink-0">
                 <Zap className="w-4 h-4 sm:w-5 sm:h-5 text-orange-600" />
               </span>
@@ -168,7 +168,7 @@ export function HeroSection({ hero, features }: HeroSectionProps) {
               </div>
             </div>
 
-            <div className="absolute bottom-4 -right-3 sm:bottom-10 sm:right-0 bg-cream-card rounded-2xl shadow-sh-3 px-3 py-2 sm:px-4 sm:py-3 flex items-center gap-2 sm:gap-3 animate-in fade-in slide-in-from-right-4 duration-700 delay-150">
+            <div className="absolute bottom-4 -right-3 sm:bottom-8 sm:-right-6 lg:bottom-10 lg:right-0 bg-cream-card rounded-2xl shadow-sh-3 px-3 py-2 sm:px-4 sm:py-3 flex items-center gap-2 sm:gap-3 animate-in fade-in slide-in-from-right-4 duration-700 delay-150">
               <span className="w-8 h-8 sm:w-10 sm:h-10 rounded-pill bg-tint-green inline-flex items-center justify-center flex-shrink-0">
                 <ShieldCheck className="w-4 h-4 sm:w-5 sm:h-5 text-tint-green-fg" />
               </span>
