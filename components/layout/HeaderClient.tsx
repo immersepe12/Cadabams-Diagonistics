@@ -91,7 +91,7 @@ export function HeaderClient({
     cn(navLinkClass, open && "text-orange-600 bg-orange-50");
 
   const dropdownPanelClass =
-    "absolute left-0 top-full mt-2 min-w-[220px] bg-cream-card rounded-lg shadow-sh-3 border border-cream-line py-2 z-50";
+    "absolute left-0 top-full mt-2 min-w-[220px] bg-cream-card rounded-md shadow-sh-3 border border-cream-line py-2 z-50";
 
   const dropdownItemClass =
     "block px-4 py-2.5 text-body-sm text-ink-700 hover:bg-orange-50 hover:text-orange-600 border-l-2 border-transparent hover:border-orange-500 transition-colors duration-150";
@@ -437,7 +437,7 @@ function MobileLink({
       onClick={onNavigate}
       aria-current={active ? "page" : undefined}
       className={cn(
-        "flex items-center gap-3 px-3 py-3 rounded-lg text-body font-semibold transition-colors duration-150",
+        "flex items-center gap-3 px-3 py-3 rounded-md text-body font-semibold transition-colors duration-150",
         active
           ? "bg-orange-50 text-orange-700"
           : "text-ink-900 hover:bg-cream-card",
@@ -484,7 +484,7 @@ function MobileGroup({
         onClick={() => setOpen((v) => !v)}
         aria-expanded={open}
         className={cn(
-          "w-full flex items-center gap-3 px-3 py-3 rounded-lg text-body font-semibold transition-colors duration-150",
+          "w-full flex items-center gap-3 px-3 py-3 rounded-md text-body font-semibold transition-colors duration-150",
           groupActive
             ? "bg-orange-50 text-orange-700"
             : "text-ink-900 hover:bg-cream-card",

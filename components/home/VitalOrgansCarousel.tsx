@@ -52,7 +52,7 @@ export function VitalOrgansCarousel({ items }: { items: VitalOrganItem[] }) {
         ref={trackRef}
         onMouseEnter={() => (pausedRef.current = true)}
         onMouseLeave={() => (pausedRef.current = false)}
-        className="flex gap-4 overflow-x-auto snap-x snap-mandatory scrollbar-hidden pb-2 -mx-1 px-1 lg:mx-0 lg:px-0 lg:grid lg:grid-cols-6 lg:overflow-visible"
+        className="flex gap-4 overflow-x-auto snap-x snap-mandatory scrollbar-hidden pt-2 pb-2 -mx-1 px-1 lg:mx-0 lg:px-0 lg:py-0 lg:grid lg:grid-cols-6 lg:overflow-visible"
       >
         {items.map((cat) => (
           <Link
@@ -67,7 +67,7 @@ export function VitalOrgansCarousel({ items }: { items: VitalOrganItem[] }) {
                 alt=""
                 width={56}
                 height={56}
-                className="object-contain"
+                className="object-contain w-14 h-14"
               />
             </div>
             <span className="text-body-sm font-semibold text-ink-900 group-hover:text-orange-600 transition-colors text-center">

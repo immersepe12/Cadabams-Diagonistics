@@ -13,7 +13,7 @@ export function PromoBanners({ banners }: PromoBannersProps) {
           {banners.map((src, i) => (
             <div
               key={src}
-              className="relative aspect-[16/9] rounded-lg overflow-hidden shadow-sh-2"
+              className="relative aspect-[16/9] rounded-md overflow-hidden shadow-sh-2"
             >
               <Image
                 src={src}

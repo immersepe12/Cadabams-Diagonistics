@@ -34,7 +34,7 @@ export function MostBookedCheckupsSection({
     href: resolveCheckupHref(c.href, c.catid),
   }));
   return (
-    <section className="relative overflow-hidden py-10 lg:py-14 bg-cream-bg">
+    <section className="relative overflow-hidden py-8 lg:py-12 bg-cream-bg">
       <div
         aria-hidden
         className="pointer-events-none absolute -top-40 right-1/3 w-[28rem] h-[28rem] rounded-pill bg-gradient-to-br from-orange-200/40 to-coral-300/10 blur-3xl"
@@ -45,7 +45,7 @@ export function MostBookedCheckupsSection({
       />
 
       <div className="relative mx-auto max-w-7xl px-gutter grid gap-8 lg:grid-cols-[5fr_7fr] lg:gap-10 lg:items-start">
-        <div className="lg:sticky lg:top-24 space-y-4">
+        <div className="min-w-0 lg:sticky lg:top-24 space-y-4">
           <SectionOverline>Radiology</SectionOverline>
 
           <h2 className="text-h1 sm:text-display-2 lg:text-display-1 text-ink-900 font-display leading-[1.1]">

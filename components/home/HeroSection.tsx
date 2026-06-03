@@ -138,7 +138,7 @@ export function HeroSection({ hero, features }: HeroSectionProps) {
             </div>
           </div>
 
-          <div className="lg:col-span-5 relative mx-auto w-full max-w-[260px] sm:max-w-xs lg:max-w-sm">
+          <div className="lg:col-span-5 relative mx-auto w-full max-w-[290px] sm:max-w-xs lg:max-w-sm">
             <div
               aria-hidden
               className="absolute inset-0 -m-6 rounded-full bg-gradient-glow"
@@ -154,9 +154,9 @@ export function HeroSection({ hero, features }: HeroSectionProps) {
               />
             </div>
 
-            <div className="absolute top-4 -left-2 sm:top-8 sm:left-0 bg-cream-card rounded-2xl shadow-sh-3 px-4 py-3 flex items-center gap-3 animate-in fade-in slide-in-from-left-4 duration-700">
-              <span className="w-10 h-10 rounded-pill bg-orange-100 inline-flex items-center justify-center">
-                <Zap className="w-5 h-5 text-orange-600" />
+            <div className="absolute -top-2 -left-3 sm:top-8 sm:left-0 bg-cream-card rounded-2xl shadow-sh-3 px-3 py-2 sm:px-4 sm:py-3 flex items-center gap-2 sm:gap-3 animate-in fade-in slide-in-from-left-4 duration-700">
+              <span className="w-8 h-8 sm:w-10 sm:h-10 rounded-pill bg-orange-100 inline-flex items-center justify-center flex-shrink-0">
+                <Zap className="w-4 h-4 sm:w-5 sm:h-5 text-orange-600" />
               </span>
               <div className="text-left">
                 <p className="text-caption text-ink-500 font-medium">
@@ -168,9 +168,9 @@ export function HeroSection({ hero, features }: HeroSectionProps) {
               </div>
             </div>
 
-            <div className="absolute bottom-6 -right-2 sm:bottom-10 sm:right-0 bg-cream-card rounded-2xl shadow-sh-3 px-4 py-3 flex items-center gap-3 animate-in fade-in slide-in-from-right-4 duration-700 delay-150">
-              <span className="w-10 h-10 rounded-pill bg-tint-green inline-flex items-center justify-center">
-                <ShieldCheck className="w-5 h-5 text-tint-green-fg" />
+            <div className="absolute bottom-4 -right-3 sm:bottom-10 sm:right-0 bg-cream-card rounded-2xl shadow-sh-3 px-3 py-2 sm:px-4 sm:py-3 flex items-center gap-2 sm:gap-3 animate-in fade-in slide-in-from-right-4 duration-700 delay-150">
+              <span className="w-8 h-8 sm:w-10 sm:h-10 rounded-pill bg-tint-green inline-flex items-center justify-center flex-shrink-0">
+                <ShieldCheck className="w-4 h-4 sm:w-5 sm:h-5 text-tint-green-fg" />
               </span>
               <div className="text-left">
                 <p className="text-caption text-ink-500 font-medium">
@@ -185,7 +185,7 @@ export function HeroSection({ hero, features }: HeroSectionProps) {
         </div>
 
         {features.length > 0 && (
-          <div className="mt-6 lg:mt-8 pt-4 border-t border-white/20 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-3 gap-4 sm:gap-6">
+          <div className="mt-6 lg:mt-8 pt-4 border-t border-white/20 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-3 gap-x-4 gap-y-2.5 sm:gap-6">
             {features.map((f) => (
               <div
                 key={f.id}

@@ -55,7 +55,7 @@ export function MarkdownContent({ content, className }: MarkdownContentProps) {
         "[&_table]:w-full [&_table]:border-collapse [&_table]:my-5 [&_table]:rounded-md [&_table]:overflow-hidden [&_table]:shadow-sh-1",
         "[&_th]:text-left [&_th]:font-semibold [&_th]:text-ink-900 [&_th]:bg-cream-soft [&_th]:px-3 [&_th]:py-2.5 [&_th]:border [&_th]:border-cream-line [&_th]:text-body-sm",
         "[&_td]:px-3 [&_td]:py-2.5 [&_td]:border [&_td]:border-cream-line [&_td]:text-body-sm",
-        "[&_img]:rounded-lg [&_img]:my-4 [&_img]:max-w-full [&_img]:h-auto",
+        "[&_img]:rounded-md [&_img]:my-4 [&_img]:max-w-full [&_img]:h-auto",
         "[&_blockquote]:border-l-4 [&_blockquote]:border-orange-500 [&_blockquote]:bg-orange-50 [&_blockquote]:pl-4 [&_blockquote]:pr-4 [&_blockquote]:py-3 [&_blockquote]:my-4 [&_blockquote]:rounded-r-md [&_blockquote]:italic [&_blockquote]:text-ink-700",
         "[&_code:not(pre_code)]:bg-orange-50 [&_code:not(pre_code)]:text-orange-700 [&_code:not(pre_code)]:px-1.5 [&_code:not(pre_code)]:py-0.5 [&_code:not(pre_code)]:rounded [&_code:not(pre_code)]:text-meta [&_code:not(pre_code)]:font-mono",
         "[&_pre]:bg-ink-900 [&_pre]:text-cream-bg [&_pre]:rounded-md [&_pre]:p-4 [&_pre]:overflow-x-auto [&_pre]:my-4 [&_pre]:text-meta",

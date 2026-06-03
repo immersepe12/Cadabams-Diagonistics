@@ -1,6 +1,15 @@
+"use client";
+
 import Link from "next/link";
-import { ChevronRight, Clock, FlaskConical } from "lucide-react";
+import { useEffect, useState } from "react";
+import { ChevronLeft, ChevronRight, Clock, FlaskConical } from "lucide-react";
 import { AddToCartButton } from "@/components/shared/AddToCartButton";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  type CarouselApi,
+} from "@/components/ui/carousel";
 
 export interface FeaturedTestCard {
   id: string;
@@ -37,6 +46,24 @@ export function FeaturedTestsSlider({
   title,
   cards,
 }: FeaturedTestsSliderProps) {
+  const [api, setApi] = useState<CarouselApi>();
+  const [canPrev, setCanPrev] = useState(false);
+  const [canNext, setCanNext] = useState(false);
+
+  useEffect(() => {
+    if (!api) return;
+    const update = () => {
+      setCanPrev(api.canScrollPrev());
+      setCanNext(api.canScrollNext());
+    };
+    update();
+    api.on("select", update);
+    api.on("reInit", update);
+    return () => {
+      api.off("select", update);
+    };
+  }, [api]);
+
   if (cards.length === 0) return null;
 
   return (
@@ -51,25 +78,53 @@ export function FeaturedTestsSlider({
               {title}
             </h2>
           </div>
-          <Link
-            href="/bangalore/lab-test"
-            className="hidden sm:inline-flex items-center gap-1 text-body-sm font-semibold text-orange-600 hover:text-orange-700 transition-colors"
-          >
-            See all tests
-            <ChevronRight className="w-4 h-4" />
-          </Link>
+          <div className="flex items-center gap-2 flex-shrink-0">
+            <Link
+              href="/bangalore/lab-test"
+              className="hidden sm:inline-flex items-center gap-1 text-body-sm font-semibold text-orange-600 hover:text-orange-700 transition-colors mr-1"
+            >
+              See all tests
+              <ChevronRight className="w-4 h-4" />
+            </Link>
+            <button
+              type="button"
+              onClick={() => api?.scrollPrev()}
+              disabled={!canPrev}
+              aria-label="Previous"
+              className="w-9 h-9 inline-flex items-center justify-center rounded-pill bg-cream-card text-orange-600 border border-cream-line shadow-sh-1 hover:shadow-sh-2 hover:border-orange-200 transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-500 disabled:opacity-40 disabled:cursor-not-allowed disabled:hover:shadow-sh-1 disabled:hover:border-cream-line"
+            >
+              <ChevronLeft className="w-4.5 h-4.5" />
+            </button>
+            <button
+              type="button"
+              onClick={() => api?.scrollNext()}
+              disabled={!canNext}
+              aria-label="Next"
+              className="w-9 h-9 inline-flex items-center justify-center rounded-pill bg-cream-card text-orange-600 border border-cream-line shadow-sh-1 hover:shadow-sh-2 hover:border-orange-200 transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-500 disabled:opacity-40 disabled:cursor-not-allowed disabled:hover:shadow-sh-1 disabled:hover:border-cream-line"
+            >
+              <ChevronRight className="w-4.5 h-4.5" />
+            </button>
+          </div>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4 lg:gap-5">
-          {cards.map((card) => {
-            const showStrike =
-              card.discountPct > 0 && card.price > card.discountedPrice;
-            const report = normaliseReportTime(card.reportsWithin);
-            return (
-              <article
-                key={card.id}
-                className="group relative bg-cream-card rounded-xl shadow-sh-1 hover:shadow-sh-3 border border-cream-line hover:border-orange-200 transition-all duration-200 overflow-hidden hover:-translate-y-0.5 flex flex-col"
-              >
+        <Carousel
+          setApi={setApi}
+          opts={{ align: "start" }}
+          className="w-full"
+        >
+          <CarouselContent className="-ml-3 sm:-ml-4 lg:-ml-5">
+            {cards.map((card) => {
+              const showStrike =
+                card.discountPct > 0 && card.price > card.discountedPrice;
+              const report = normaliseReportTime(card.reportsWithin);
+              return (
+                <CarouselItem
+                  key={card.id}
+                  className="pl-3 sm:pl-4 lg:pl-5 basis-[82%] sm:basis-1/2 lg:basis-1/4"
+                >
+                  <article
+                    className="group relative h-full bg-cream-card rounded-xl shadow-sh-1 hover:shadow-sh-3 border border-cream-line hover:border-orange-200 transition-all duration-200 overflow-hidden hover:-translate-y-0.5 flex flex-col"
+                  >
                 <span
                   aria-hidden
                   className="absolute top-0 left-0 right-0 h-0.5 sm:h-1 bg-gradient-cta"
@@ -145,10 +200,12 @@ export function FeaturedTestsSlider({
                     </Link>
                   </div>
                 </div>
-              </article>
-            );
-          })}
-        </div>
+                  </article>
+                </CarouselItem>
+              );
+            })}
+          </CarouselContent>
+        </Carousel>
       </div>
     </section>
   );

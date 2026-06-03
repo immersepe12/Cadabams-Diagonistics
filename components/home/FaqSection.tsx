@@ -24,7 +24,7 @@ export function FaqSection({ items, id = "faq" }: FaqSectionProps) {
   return (
     <section
       id={id}
-      className="relative overflow-hidden py-10 lg:py-14 bg-cream-bg"
+      className="relative overflow-hidden py-8 lg:py-12 bg-cream-bg"
     >
       <div
         aria-hidden

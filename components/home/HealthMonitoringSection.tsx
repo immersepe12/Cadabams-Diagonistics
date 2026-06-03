@@ -34,7 +34,7 @@ export function HealthMonitoringSection({
               <li key={item.id}>
                 <Link
                   href={href}
-                  className="group block bg-cream-card rounded-lg shadow-sh-2 hover:shadow-sh-3 transition-shadow duration-200 overflow-hidden h-full focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-500"
+                  className="group block bg-cream-card rounded-md shadow-sh-2 hover:shadow-sh-3 transition-shadow duration-200 overflow-hidden h-full focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-500"
                 >
                   <div className="relative aspect-[16/9]">
                     <Image

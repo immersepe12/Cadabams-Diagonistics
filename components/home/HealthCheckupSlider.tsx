@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { ChevronLeft, ChevronRight, Clock, ShieldCheck } from "lucide-react";
 import { AddToCartButton } from "@/components/shared/AddToCartButton";
 
@@ -34,6 +34,15 @@ export function HealthCheckupSlider({
 }: HealthCheckupSliderProps) {
   const trackRef = useRef<HTMLDivElement>(null);
   const pausedRef = useRef(false);
+  const [canPrev, setCanPrev] = useState(false);
+  const [canNext, setCanNext] = useState(false);
+
+  function updateScrollState() {
+    const el = trackRef.current;
+    if (!el) return;
+    setCanPrev(el.scrollLeft > 1);
+    setCanNext(el.scrollLeft + el.clientWidth < el.scrollWidth - 1);
+  }
 
   function scroll(dir: 1 | -1) {
     const el = trackRef.current;
@@ -42,6 +51,19 @@ export function HealthCheckupSlider({
     const step = card ? card.offsetWidth + 16 : el.clientWidth * 0.8;
     el.scrollBy({ left: step * dir, behavior: "smooth" });
   }
+
+  // Track scroll position so the arrows disable at the start/end.
+  useEffect(() => {
+    const el = trackRef.current;
+    if (!el) return;
+    updateScrollState();
+    el.addEventListener("scroll", updateScrollState, { passive: true });
+    window.addEventListener("resize", updateScrollState);
+    return () => {
+      el.removeEventListener("scroll", updateScrollState);
+      window.removeEventListener("resize", updateScrollState);
+    };
+  }, [cards.length]);
 
   // Auto-advance: nudge one card every few seconds, looping back to the start
   // at the end. Pauses while the user is hovering the track.
@@ -77,20 +99,22 @@ export function HealthCheckupSlider({
             </h2>
           </div>
           {cards.length > 1 && (
-            <div className="hidden sm:flex items-center gap-2 flex-shrink-0">
+            <div className="flex items-center gap-2 flex-shrink-0">
               <button
                 type="button"
                 onClick={() => scroll(-1)}
+                disabled={!canPrev}
                 aria-label="Previous"
-                className="w-10 h-10 inline-flex items-center justify-center rounded-pill bg-cream-card text-orange-600 border border-cream-line shadow-sh-1 hover:shadow-sh-2 hover:border-orange-200 transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-500"
+                className="w-9 h-9 sm:w-10 sm:h-10 inline-flex items-center justify-center rounded-pill bg-cream-card text-orange-600 border border-cream-line shadow-sh-1 hover:shadow-sh-2 hover:border-orange-200 transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-500 disabled:opacity-40 disabled:cursor-not-allowed disabled:hover:shadow-sh-1 disabled:hover:border-cream-line"
               >
                 <ChevronLeft className="w-5 h-5" />
               </button>
               <button
                 type="button"
                 onClick={() => scroll(1)}
+                disabled={!canNext}
                 aria-label="Next"
-                className="w-10 h-10 inline-flex items-center justify-center rounded-pill bg-cream-card text-orange-600 border border-cream-line shadow-sh-1 hover:shadow-sh-2 hover:border-orange-200 transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-500"
+                className="w-9 h-9 sm:w-10 sm:h-10 inline-flex items-center justify-center rounded-pill bg-cream-card text-orange-600 border border-cream-line shadow-sh-1 hover:shadow-sh-2 hover:border-orange-200 transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-500 disabled:opacity-40 disabled:cursor-not-allowed disabled:hover:shadow-sh-1 disabled:hover:border-cream-line"
               >
                 <ChevronRight className="w-5 h-5" />
               </button>
@@ -117,12 +141,12 @@ export function HealthCheckupSlider({
               <article
                 key={card.id}
                 data-card
-                className="snap-start flex-shrink-0 w-[270px] sm:w-[300px] bg-cream-card rounded-2xl border border-cream-line shadow-sh-1 hover:shadow-sh-3 transition-all duration-200 flex flex-col overflow-hidden group"
+                className="snap-start flex-shrink-0 w-[190px] sm:w-[230px] bg-cream-card rounded-2xl border border-cream-line shadow-sh-1 hover:shadow-sh-3 transition-all duration-200 flex flex-col overflow-hidden group"
               >
                 <Link
                   href={card.detailHref}
                   aria-label={card.title}
-                  className="relative aspect-[4/3] block bg-cream-soft overflow-hidden"
+                  className="relative aspect-[16/10] block bg-cream-soft overflow-hidden"
                 >
                   <Image
                     src={src}
@@ -138,8 +162,8 @@ export function HealthCheckupSlider({
                   )}
                 </Link>
 
-                <div className="p-4 flex flex-col flex-1">
-                  <h3 className="text-body font-bold text-ink-900 leading-snug line-clamp-2">
+                <div className="p-3 flex flex-col flex-1">
+                  <h3 className="text-body-sm font-bold text-ink-900 leading-snug line-clamp-2">
                     <Link
                       href={card.detailHref}
                       className="hover:text-orange-600 transition-colors"
@@ -148,7 +172,7 @@ export function HealthCheckupSlider({
                     </Link>
                   </h3>
 
-                  <div className="mt-2.5 flex flex-wrap gap-1.5">
+                  <div className="mt-2 flex flex-wrap gap-1.5">
                     {card.reportsWithin && (
                       <span className="inline-flex items-center gap-1 rounded-pill bg-cream-soft border border-cream-line text-caption font-medium text-ink-600 px-2 py-0.5">
                         <Clock className="w-3 h-3 text-orange-600" />
@@ -163,8 +187,8 @@ export function HealthCheckupSlider({
                     )}
                   </div>
 
-                  <div className="mt-auto pt-3">
-                    <div className="flex items-baseline gap-2 mb-2.5">
+                  <div className="mt-auto pt-2.5">
+                    <div className="flex items-baseline gap-2 mb-2">
                       <span className="text-h3 font-extrabold text-ink-900 leading-none tracking-tight">
                         ₹{card.discountedPrice.toLocaleString("en-IN")}
                       </span>
@@ -174,7 +198,7 @@ export function HealthCheckupSlider({
                         </span>
                       )}
                     </div>
-                    <div className="flex flex-col gap-2">
+                    <div className="flex flex-col gap-1.5">
                       <AddToCartButton
                         item={{
                           id: card.id,
@@ -185,11 +209,11 @@ export function HealthCheckupSlider({
                           kind: "Lab Test",
                         }}
                         label="Add to cart"
-                        className="w-full inline-flex items-center justify-center gap-1.5 rounded-pill bg-gradient-cta text-white font-bold px-3 py-2.5 text-body-sm whitespace-nowrap shadow-glow-orange hover:brightness-110 active:scale-[0.98] transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-300 [&_svg]:w-3.5 [&_svg]:h-3.5 [&_svg]:flex-shrink-0"
+                        className="w-full inline-flex items-center justify-center gap-1.5 rounded-pill bg-gradient-cta text-white font-bold px-3 py-2 text-body-sm whitespace-nowrap shadow-glow-orange hover:brightness-110 active:scale-[0.98] transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-300 [&_svg]:w-3.5 [&_svg]:h-3.5 [&_svg]:flex-shrink-0"
                       />
                       <Link
                         href={card.detailHref}
-                        className="w-full inline-flex items-center justify-center rounded-pill bg-cream-card hover:bg-orange-50 text-ink-900 hover:text-orange-700 font-semibold px-3 py-2.5 text-body-sm border border-cream-line hover:border-orange-300 transition-all duration-200"
+                        className="w-full inline-flex items-center justify-center rounded-pill bg-cream-card hover:bg-orange-50 text-ink-900 hover:text-orange-700 font-semibold px-3 py-2 text-body-sm border border-cream-line hover:border-orange-300 transition-all duration-200"
                       >
                         View details
                       </Link>
