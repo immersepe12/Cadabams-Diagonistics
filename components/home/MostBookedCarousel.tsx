@@ -60,7 +60,7 @@ export function MostBookedCarousel({ items }: { items: MostBookedItem[] }) {
             return (
               <CarouselItem
                 key={c.id}
-                className="pl-4 basis-1/2 sm:basis-1/3 lg:basis-1/3"
+                className="pl-4 basis-1/2 lg:basis-1/3"
               >
                 <Link
                   href={c.href}
