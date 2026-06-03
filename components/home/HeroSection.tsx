@@ -185,7 +185,7 @@ export function HeroSection({ hero, features }: HeroSectionProps) {
         </div>
 
         {features.length > 0 && (
-          <div className="mt-6 lg:mt-8 pt-4 border-t border-white/20 grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-6">
+          <div className="mt-6 lg:mt-8 pt-4 border-t border-white/20 grid grid-cols-2 sm:grid-cols-3 gap-x-4 gap-y-3 sm:gap-6">
             {features.map((f) => (
               <div
                 key={f.id}
