@@ -1,6 +1,8 @@
 import Link from "next/link";
-import { ChevronRight, Sparkles } from "lucide-react";
+import { ArrowRight, ChevronRight, Sparkles } from "lucide-react";
 import { SectionOverline } from "@/components/shared/SectionOverline";
+import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
 import { getNonLabTestById } from "@/lib/data/nonlabtests";
 import {
   nonLabCategoryUrl,
@@ -13,6 +15,13 @@ import { MostBookedCarousel } from "@/components/home/MostBookedCarousel";
 interface MostBookedCheckupsSectionProps {
   block: HomeMostBookedCheckups;
 }
+
+/**
+ * "View all radiology" has no dedicated landing page in the app, and the
+ * stored href (`/non-labtest`) is not a real route — so the CTA used to lead
+ * nowhere. Point it at the existing MRI scan hub, our flagship radiology page.
+ */
+const RADIOLOGY_HUB_HREF = "/bangalore/mri-scan";
 
 function resolveCheckupHref(
   checkupHref: string,
@@ -65,31 +74,44 @@ export function MostBookedCheckupsSection({
             </p>
           )}
 
-          {block.viewAllCheckup && (
-            <div className="pt-1">
-              <Link
-                href={normalizeInternalHref(block.viewAllCheckup)}
-                className="inline-flex items-center gap-2 bg-orange-500 hover:bg-orange-600 text-white font-semibold rounded-pill px-6 py-3 shadow-glow-orange transition-all duration-200 active:scale-[0.97] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-500 focus-visible:ring-offset-2 focus-visible:ring-offset-cream-bg"
-              >
+          <div className="pt-1">
+            <Button
+              asChild
+              size="lg"
+              className="group h-auto w-full sm:w-auto rounded-pill bg-orange-500 px-6 py-3 text-body font-semibold text-white shadow-glow-orange transition-all duration-200 hover:-translate-y-0.5 hover:bg-orange-600 focus-visible:ring-orange-500/50"
+            >
+              <Link href={RADIOLOGY_HUB_HREF}>
                 View all radiology
-                <ChevronRight className="w-4 h-4" />
+                <ArrowRight className="h-4 w-4 transition-transform duration-200 group-hover:translate-x-1" />
               </Link>
-            </div>
-          )}
+            </Button>
+          </div>
 
-          <div className="flex items-start gap-3 bg-cream-card rounded-2xl border border-cream-line shadow-sh-2 p-4 max-w-md mt-2">
-            <span className="w-11 h-11 rounded-pill bg-gradient-cta text-white inline-flex items-center justify-center flex-shrink-0">
-              <Sparkles className="w-5 h-5" />
+          <Link
+            href={RADIOLOGY_HUB_HREF}
+            className="group mt-2 flex max-w-md items-center gap-3 rounded-2xl border border-cream-line bg-cream-card p-4 shadow-sh-2 transition-all duration-200 hover:-translate-y-0.5 hover:border-orange-200 hover:shadow-sh-3 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-500 focus-visible:ring-offset-2 focus-visible:ring-offset-cream-bg"
+          >
+            <span className="inline-flex h-11 w-11 flex-shrink-0 items-center justify-center rounded-pill bg-gradient-cta text-white">
+              <Sparkles className="h-5 w-5" />
             </span>
-            <div className="min-w-0">
-              <p className="text-body-sm font-bold text-ink-900 leading-snug">
-                Bangalore&apos;s most advanced machines
-              </p>
-              <p className="text-meta text-ink-600 mt-0.5">
+            <div className="min-w-0 flex-1">
+              <div className="flex items-center gap-2">
+                <p className="text-body-sm font-bold leading-snug text-ink-900">
+                  Bangalore&apos;s most advanced machines
+                </p>
+                <Badge
+                  variant="secondary"
+                  className="flex-shrink-0 bg-tint-green text-tint-green-fg"
+                >
+                  NABL
+                </Badge>
+              </div>
+              <p className="mt-0.5 text-meta text-ink-600">
                 3T MRI, multi-slice CT, 3D/4D fetal imaging.
               </p>
             </div>
-          </div>
+            <ChevronRight className="h-5 w-5 flex-shrink-0 text-ink-400 transition-transform duration-200 group-hover:translate-x-1 group-hover:text-orange-600" />
+          </Link>
         </div>
 
         <MostBookedCarousel items={items} />

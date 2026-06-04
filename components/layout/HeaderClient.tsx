@@ -43,8 +43,10 @@ export function HeaderClient({
   const [mobileOpen, setMobileOpen] = useState(false);
   const [radioOpen, setRadioOpen] = useState(false);
   const [centerOpen, setCenterOpen] = useState(false);
+  const [searchOpen, setSearchOpen] = useState(false);
   const radioRef = useRef<HTMLDivElement>(null);
   const centerRef = useRef<HTMLDivElement>(null);
+  const searchInputRef = useRef<HTMLInputElement>(null);
 
   // Close any open menus/dropdowns whenever the route changes. This is an
   // intentional sync with the router (an external system); the synchronous
@@ -54,7 +56,13 @@ export function HeaderClient({
     setMobileOpen(false);
     setRadioOpen(false);
     setCenterOpen(false);
+    setSearchOpen(false);
   }, [pathname]);
+
+  // Focus the mobile search input when it is revealed.
+  useEffect(() => {
+    if (searchOpen) searchInputRef.current?.focus();
+  }, [searchOpen]);
 
   useEffect(() => {
     const onClick = (e: MouseEvent) => {
@@ -258,11 +266,26 @@ export function HeaderClient({
 
             <button
               type="button"
+              aria-label={searchOpen ? "Close search" : "Open search"}
+              aria-expanded={searchOpen}
+              aria-controls="mobile-search"
+              onClick={() => setSearchOpen((v) => !v)}
+              className="lg:hidden ml-auto inline-flex items-center justify-center w-10 h-10 rounded-md text-ink-900 hover:bg-cream-soft transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-500"
+            >
+              {searchOpen ? (
+                <X className="w-6 h-6" />
+              ) : (
+                <Search className="w-6 h-6" />
+              )}
+            </button>
+
+            <button
+              type="button"
               aria-label={mobileOpen ? "Close menu" : "Open menu"}
               aria-expanded={mobileOpen}
               aria-controls="mobile-menu-drawer"
               onClick={() => setMobileOpen((v) => !v)}
-              className="lg:hidden ml-auto inline-flex items-center justify-center w-10 h-10 rounded-md text-ink-900 hover:bg-cream-soft transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-500"
+              className="lg:hidden inline-flex items-center justify-center w-10 h-10 rounded-md text-ink-900 hover:bg-cream-soft transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-500"
             >
               {mobileOpen ? (
                 <X className="w-6 h-6" />
@@ -272,19 +295,25 @@ export function HeaderClient({
             </button>
           </div>
 
-          <form
-            action="/search"
-            method="get"
-            className="lg:hidden pb-3 relative"
-          >
-            <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-ink-500 pointer-events-none" />
-            <input
-              type="search"
-              name="q"
-              placeholder="Search tests or scans..."
-              className="w-full bg-cream-soft text-ink-900 rounded-md pl-10 pr-4 py-2.5 text-body-sm border border-transparent focus:border-orange-500 focus:bg-cream-card focus:outline-none focus:ring-4 focus:ring-orange-100 transition-all duration-200 placeholder:text-ink-400"
-            />
-          </form>
+          {searchOpen && (
+            <form
+              id="mobile-search"
+              action="/search"
+              method="get"
+              className="lg:hidden pb-3 animate-in fade-in slide-in-from-top-1 duration-200"
+            >
+              <div className="relative">
+                <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-ink-500 pointer-events-none" />
+                <input
+                  ref={searchInputRef}
+                  type="search"
+                  name="q"
+                  placeholder="Search tests or scans..."
+                  className="w-full bg-cream-soft text-ink-900 rounded-md pl-10 pr-4 py-2.5 text-body-sm border border-transparent focus:border-orange-500 focus:bg-cream-card focus:outline-none focus:ring-4 focus:ring-orange-100 transition-all duration-200 placeholder:text-ink-400"
+                />
+              </div>
+            </form>
+          )}
         </div>
       </header>
 

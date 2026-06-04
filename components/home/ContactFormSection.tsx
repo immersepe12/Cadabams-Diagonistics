@@ -32,6 +32,7 @@ export function ContactFormSection({
     mobile: "",
     email: "",
     address: "",
+    message: "",
   });
   const [status, setStatus] = useState<Status>("idle");
 
@@ -47,6 +48,7 @@ export function ContactFormSection({
       body.append("contact[mobile_number]", form.mobile);
       body.append("contact[email]", form.email);
       body.append("contact[address]", form.address);
+      body.append("contact[message]", form.message);
       body.append("entity_type", "2");
       body.append("asset_key", FRESHSALES_KEY);
 
@@ -60,6 +62,7 @@ export function ContactFormSection({
         mobile: "",
         email: "",
         address: "",
+        message: "",
       });
     } catch {
       setStatus("error");
@@ -132,22 +135,11 @@ export function ContactFormSection({
           className="bg-cream-card rounded-2xl shadow-sh-3 border border-cream-line p-5 sm:p-6 space-y-4 lg:order-1"
           noValidate
         >
-          <div className="flex items-center justify-center mb-2">
-            <Image
-              src={logo}
-              alt="Cadabams Diagnostics"
-              width={120}
-              height={48}
-              className="h-12 w-auto"
-            />
-          </div>
 
           <h3 className="text-h2 font-bold text-ink-900 text-center">
             Contact us
           </h3>
-          <p className="text-body-sm text-ink-500 text-center -mt-3">
-            Please share your details.
-          </p>
+          
 
           <div className="grid sm:grid-cols-2 gap-4">
             <Field id="firstName" label="First name">
@@ -200,6 +192,20 @@ export function ContactFormSection({
               id="address"
               placeholder="Enter your address"
               className={fieldInputClass}
+            />
+          </Field>
+
+          <Field id="message" label="Message">
+            <textarea
+              name="message"
+              value={form.message}
+              onChange={(e) =>
+                setForm((p) => ({ ...p, message: e.target.value }))
+              }
+              id="message"
+              rows={4}
+              placeholder="How can we help you?"
+              className={cn(fieldInputClass, "min-h-24 resize-y")}
             />
           </Field>
 

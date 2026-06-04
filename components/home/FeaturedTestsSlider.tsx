@@ -2,9 +2,9 @@
 
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
-import { ChevronLeft, ChevronRight, Clock, FlaskConical } from "lucide-react";
+import { ChevronLeft, ChevronRight, Clock, FlaskConical, Zap } from "lucide-react";
 import Autoplay from "embla-carousel-autoplay";
-import { AddToCartButton } from "@/components/shared/AddToCartButton";
+import { BookNowButton } from "@/components/shared/BookNowButton";
 import {
   Carousel,
   CarouselContent,
@@ -135,15 +135,28 @@ export function FeaturedTestsSlider({
                   className="absolute top-0 left-0 right-0 h-0.5 sm:h-1 bg-gradient-cta"
                 />
 
-                {card.discountPct > 0 && (
-                  <span className="absolute top-2 right-2 sm:top-3 sm:right-3 bg-orange-500 text-white text-caption sm:text-meta font-bold rounded-pill px-2 py-0.5 sm:px-2.5 sm:py-1 shadow-glow-orange">
-                    {card.discountPct}% off
-                  </span>
-                )}
-
                 <div className="p-3 sm:p-4 lg:p-5 pt-4 sm:pt-5 flex flex-col flex-1">
-                  <div className="w-8 h-8 sm:w-9 sm:h-9 rounded-pill bg-orange-50 inline-flex items-center justify-center mb-2.5 sm:mb-3">
-                    <FlaskConical className="w-4 h-4 sm:w-4.5 sm:h-4.5 text-orange-600" />
+                  <div className="flex items-start justify-between gap-2 mb-2.5 sm:mb-3">
+                    <div className="w-8 h-8 sm:w-9 sm:h-9 rounded-pill bg-orange-50 inline-flex items-center justify-center flex-shrink-0">
+                      <FlaskConical className="w-4 h-4 sm:w-4.5 sm:h-4.5 text-orange-600" />
+                    </div>
+                    <div className="flex flex-col items-end text-right flex-shrink-0">
+                      <span className="text-h2 sm:text-h1 font-extrabold text-orange-600 leading-none">
+                        ₹{card.discountedPrice.toLocaleString("en-IN")}
+                      </span>
+                      {showStrike && (
+                        <span className="mt-1 inline-flex items-center gap-1.5 leading-none">
+                          <span className="text-caption sm:text-body-sm text-ink-400 line-through">
+                            ₹{card.price.toLocaleString("en-IN")}
+                          </span>
+                          {card.discountPct > 0 && (
+                            <span className="text-caption font-bold text-orange-600">
+                              {card.discountPct}% off
+                            </span>
+                          )}
+                        </span>
+                      )}
+                    </div>
                   </div>
 
                   <h3 className="text-body sm:text-h3 text-ink-900 font-bold leading-snug mb-2 line-clamp-2">
@@ -168,21 +181,10 @@ export function FeaturedTestsSlider({
                     </span>
                   </div>
 
-                  <div className="h-px bg-cream-line mb-3" />
-
-                  <div className="flex items-baseline gap-2 mb-3 mt-auto">
-                    <span className="text-h2 sm:text-h1 lg:text-display-2 font-extrabold text-orange-600 leading-none">
-                      ₹{card.discountedPrice.toLocaleString("en-IN")}
-                    </span>
-                    {showStrike && (
-                      <span className="text-caption sm:text-body-sm text-ink-400 line-through">
-                        ₹{card.price.toLocaleString("en-IN")}
-                      </span>
-                    )}
-                  </div>
+                  <div className="h-px bg-cream-line mb-3 mt-auto" />
 
                   <div className="flex items-center gap-2">
-                    <AddToCartButton
+                    <BookNowButton
                       item={{
                         id: card.id,
                         name: card.name,
@@ -194,8 +196,11 @@ export function FeaturedTestsSlider({
                         href: card.href,
                         kind: card.kind,
                       }}
-                      className="flex-1 inline-flex items-center justify-center gap-1 sm:gap-1.5 px-2 py-1.5 sm:px-3 sm:py-2 rounded-pill bg-orange-500 text-white font-semibold text-caption sm:text-body-sm shadow-glow-orange hover:bg-orange-600 transition-all duration-200 active:scale-[0.97] [&_svg]:w-3 [&_svg]:h-3 sm:[&_svg]:w-3.5 sm:[&_svg]:h-3.5"
-                    />
+                      className="flex-1 inline-flex items-center justify-center gap-1 sm:gap-1.5 px-2 py-1.5 sm:px-3 sm:py-2 rounded-pill bg-orange-500 text-white font-semibold text-caption sm:text-body-sm shadow-glow-orange hover:bg-orange-600 transition-all duration-200 active:scale-[0.97]"
+                    >
+                      <Zap className="w-3 h-3 sm:w-3.5 sm:h-3.5 fill-white flex-shrink-0" />
+                      Book now
+                    </BookNowButton>
                     <Link
                       href={card.href}
                       className="inline-flex items-center gap-0.5 text-caption sm:text-body-sm font-semibold text-orange-600 hover:text-orange-700 transition-colors focus-visible:outline-none focus-visible:underline group/link"

@@ -3,12 +3,11 @@ import Link from "next/link";
 import {
   Activity,
   FlaskConical,
-  Search,
   ShieldCheck,
-  Zap,
   ArrowRight,
   type LucideIcon,
 } from "lucide-react";
+import { Button } from "@/components/ui/button";
 import type { Homepage } from "@/lib/data/homepages";
 import { normalizeInternalHref } from "@/lib/urls";
 
@@ -51,9 +50,9 @@ export function HeroSection({ hero, features }: HeroSectionProps) {
         />
       </div>
 
-      <div className="relative mx-auto max-w-7xl w-full px-gutter pt-5 pb-5 sm:pt-6 sm:pb-6 lg:pt-8 lg:pb-8">
-        <div className="grid gap-6 lg:gap-8 lg:grid-cols-12 items-center">
-          <div className="lg:col-span-7 space-y-5 text-center lg:text-left">
+      <div className="relative mx-auto max-w-7xl w-full px-gutter pt-3 pb-4 sm:pt-4 sm:pb-5 lg:pt-5 lg:pb-6">
+        <div className="grid gap-5 lg:gap-6 lg:grid-cols-12 items-center">
+          <div className="lg:col-span-7 space-y-4 text-center lg:text-left">
             <div className="inline-flex items-center gap-2 rounded-pill bg-white/15 backdrop-blur-md ring-1 ring-white/25 px-3.5 py-1.5 text-meta font-semibold uppercase tracking-wide">
               <span className="relative flex w-2 h-2">
                 <span className="absolute inline-flex w-full h-full rounded-pill bg-white/70 animate-ping" />
@@ -70,7 +69,7 @@ export function HeroSection({ hero, features }: HeroSectionProps) {
                 </span>
                 <span
                   aria-hidden
-                  className="absolute left-0 right-0 bottom-1 h-3 bg-white/25 rounded-sm -z-0"
+                  className="absolute left-0 right-0 bottom-1 h-3 bg-white/25 rounded-sm z-0"
                 />
               </span>
             </h1>
@@ -80,59 +79,44 @@ export function HeroSection({ hero, features }: HeroSectionProps) {
               reports in just 6 hours, home collection across Bangalore.
             </p>
 
-            <form
-              action="/search"
-              method="get"
-              className="relative max-w-xl mx-auto lg:mx-0"
-            >
-              <div className="flex items-center gap-2 rounded-pill bg-white p-1.5 shadow-sh-3 ring-1 ring-white/40">
-                <div className="flex items-center flex-1 min-w-0 pl-4">
-                  <Search className="w-5 h-5 text-ink-400 flex-shrink-0" />
-                  <input
-                    type="text"
-                    name="q"
-                    placeholder="Search for tests, scans, or checkups"
-                    className="w-full bg-transparent text-ink-900 placeholder:text-ink-400 focus:outline-none px-3 py-2.5 text-body"
-                  />
-                </div>
-                <button
-                  type="submit"
-                  className="inline-flex items-center gap-1.5 rounded-pill bg-gradient-cta hover:brightness-110 text-white font-semibold px-5 py-2.5 text-body-sm shadow-glow-orange transition-all duration-200 active:scale-[0.97]"
-                >
-                  Search
-                  <ArrowRight className="w-4 h-4" />
-                </button>
-              </div>
-            </form>
-
-            <div className="flex flex-wrap justify-center lg:justify-start gap-3 pt-1">
+            <div className="flex flex-col sm:flex-row sm:flex-wrap justify-center lg:justify-start gap-3 pt-1 max-w-xs sm:max-w-none mx-auto lg:mx-0">
               {primaryBtn && (
-                <Link
-                  href={normalizeInternalHref(primaryBtn.href)}
-                  className="group inline-flex items-center gap-2 bg-white text-orange-700 font-semibold rounded-pill px-6 py-3 text-body shadow-sh-3 hover:shadow-glow-soft hover:-translate-y-0.5 transition-all duration-200 active:scale-[0.97] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-orange-500"
+                <Button
+                  asChild
+                  variant="secondary"
+                  size="lg"
+                  className="group h-auto w-full sm:w-auto justify-start gap-2.5 rounded-pill bg-white py-2.5 pr-5 pl-3 text-body font-bold text-ink-900 shadow-sh-2 transition-all duration-200 hover:-translate-y-0.5 hover:bg-cream-soft focus-visible:ring-white/70"
                 >
-                  <span className="w-7 h-7 inline-flex items-center justify-center rounded-pill bg-orange-100 text-orange-600">
-                    {(() => {
-                      const { Icon } = buttonMeta(primaryBtn.text);
-                      return <Icon className="w-4 h-4" />;
-                    })()}
-                  </span>
-                  {buttonMeta(primaryBtn.text).label}
-                </Link>
+                  <Link href={normalizeInternalHref(primaryBtn.href)}>
+                    <span className="inline-flex h-8 w-8 items-center justify-center rounded-pill bg-orange-100 text-orange-600">
+                      {(() => {
+                        const { Icon } = buttonMeta(primaryBtn.text);
+                        return <Icon className="h-4 w-4" />;
+                      })()}
+                    </span>
+                    {buttonMeta(primaryBtn.text).label}
+                    <ArrowRight className="h-4 w-4 ml-auto sm:ml-0 transition-transform duration-200 group-hover:translate-x-1" />
+                  </Link>
+                </Button>
               )}
               {secondaryBtns.map((btn) => {
                 const { label, Icon } = buttonMeta(btn.text);
                 return (
-                  <Link
+                  <Button
                     key={btn.id}
-                    href={normalizeInternalHref(btn.href)}
-                    className="group inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 backdrop-blur-md text-white font-semibold rounded-pill px-6 py-3 text-body ring-1 ring-white/30 transition-all duration-200 active:scale-[0.97] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
+                    asChild
+                    variant="secondary"
+                    size="lg"
+                    className="group h-auto w-full sm:w-auto justify-start gap-2.5 rounded-pill bg-white py-2.5 pr-5 pl-3 text-body font-bold text-ink-900 shadow-sh-2 transition-all duration-200 hover:-translate-y-0.5 hover:bg-cream-soft focus-visible:ring-white/70"
                   >
-                    <span className="w-7 h-7 inline-flex items-center justify-center rounded-pill bg-white/15">
-                      <Icon className="w-4 h-4" />
-                    </span>
-                    {label}
-                  </Link>
+                    <Link href={normalizeInternalHref(btn.href)}>
+                      <span className="inline-flex h-8 w-8 items-center justify-center rounded-pill bg-tint-green text-tint-green-fg">
+                        <Icon className="h-4 w-4" />
+                      </span>
+                      {label}
+                      <ArrowRight className="h-4 w-4 ml-auto sm:ml-0 transition-transform duration-200 group-hover:translate-x-1" />
+                    </Link>
+                  </Button>
                 );
               })}
             </div>
@@ -149,23 +133,9 @@ export function HeroSection({ hero, features }: HeroSectionProps) {
                 alt={hero.title}
                 fill
                 priority
-                className="object-contain drop-shadow-2xl"
+                className="object-contain object-bottom drop-shadow-2xl"
                 sizes="(max-width: 1024px) 80vw, 40vw"
               />
-            </div>
-
-            <div className="absolute -top-2 -left-3 sm:top-6 sm:-left-6 lg:top-8 lg:left-0 bg-cream-card rounded-2xl shadow-sh-3 px-3 py-2 sm:px-4 sm:py-3 flex items-center gap-2 sm:gap-3 animate-in fade-in slide-in-from-left-4 duration-700">
-              <span className="w-8 h-8 sm:w-10 sm:h-10 rounded-pill bg-orange-100 inline-flex items-center justify-center flex-shrink-0">
-                <Zap className="w-4 h-4 sm:w-5 sm:h-5 text-orange-600" />
-              </span>
-              <div className="text-left">
-                <p className="text-caption text-ink-500 font-medium">
-                  Reports in
-                </p>
-                <p className="text-body font-extrabold text-ink-900 leading-tight">
-                  6 hours
-                </p>
-              </div>
             </div>
 
             <div className="absolute bottom-4 -right-3 sm:bottom-8 sm:-right-6 lg:bottom-10 lg:right-0 bg-cream-card rounded-2xl shadow-sh-3 px-3 py-2 sm:px-4 sm:py-3 flex items-center gap-2 sm:gap-3 animate-in fade-in slide-in-from-right-4 duration-700 delay-150">
@@ -185,7 +155,7 @@ export function HeroSection({ hero, features }: HeroSectionProps) {
         </div>
 
         {features.length > 0 && (
-          <div className="mt-6 lg:mt-8 pt-4 border-t border-white/20 grid grid-cols-2 sm:grid-cols-3 gap-x-4 gap-y-3 sm:gap-6">
+          <div className="mt-5 lg:mt-6 pt-4 border-t border-white/20 grid grid-cols-2 sm:grid-cols-3 gap-x-4 gap-y-3 sm:gap-6">
             {features.map((f) => (
               <div
                 key={f.id}

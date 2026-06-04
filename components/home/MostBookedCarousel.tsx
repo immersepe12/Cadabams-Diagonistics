@@ -20,11 +20,18 @@ export interface MostBookedItem {
   href: string;
 }
 
-/** Three tile-background variations cycled across the tiles for warm depth. */
+/**
+ * Distinct per-tile colour themes, cycled across the cards so each scan
+ * category reads as its own thing. Drawn from the design-system tint hues
+ * (orange, purple, blue, green, pink, peach) for variety with on-brand warmth.
+ */
 const TILE_TONES = [
-  "bg-gradient-to-br from-orange-500 via-orange-500 to-orange-600",
-  "bg-gradient-to-br from-coral-400 via-coral-400 to-orange-500",
-  "bg-gradient-to-br from-orange-600 via-orange-700 to-ink-800",
+  "bg-gradient-to-br from-orange-500 to-orange-700",
+  "bg-gradient-to-br from-[#7C6CF0] to-tint-purple-fg",
+  "bg-gradient-to-br from-[#4F97F0] to-tint-blue-fg",
+  "bg-gradient-to-br from-[#2BB673] to-tint-green-fg",
+  "bg-gradient-to-br from-pink-400 to-tint-pink-fg",
+  "bg-gradient-to-br from-coral-400 to-tint-peach-fg",
 ];
 
 export function MostBookedCarousel({ items }: { items: MostBookedItem[] }) {
@@ -70,7 +77,7 @@ export function MostBookedCarousel({ items }: { items: MostBookedItem[] }) {
                 <Link
                   href={c.href}
                   className={cn(
-                    "group relative block h-44 sm:h-48 lg:h-56 rounded-2xl overflow-hidden text-white shadow-sh-2 hover:shadow-glow-orange hover:-translate-y-1 transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-500 focus-visible:ring-offset-2 focus-visible:ring-offset-cream-bg",
+                    "group relative block h-44 sm:h-48 lg:h-56 rounded-2xl overflow-hidden text-white shadow-sh-2 hover:shadow-sh-3 hover:-translate-y-1 motion-reduce:hover:translate-y-0 transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-cream-bg",
                     tone,
                   )}
                 >

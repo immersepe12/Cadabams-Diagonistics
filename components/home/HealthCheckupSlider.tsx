@@ -3,8 +3,16 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
-import { ChevronLeft, ChevronRight, Clock, ShieldCheck } from "lucide-react";
+import { ChevronLeft, ChevronRight, Clock, Users } from "lucide-react";
+import Autoplay from "embla-carousel-autoplay";
 import { AddToCartButton } from "@/components/shared/AddToCartButton";
+import { Badge } from "@/components/ui/badge";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  type CarouselApi,
+} from "@/components/ui/carousel";
 
 export interface HealthCheckupCard {
   id: string;
@@ -32,64 +40,33 @@ export function HealthCheckupSlider({
   overline = "Premium checkups",
   cards,
 }: HealthCheckupSliderProps) {
-  const trackRef = useRef<HTMLDivElement>(null);
-  const pausedRef = useRef(false);
+  const [api, setApi] = useState<CarouselApi>();
   const [canPrev, setCanPrev] = useState(false);
   const [canNext, setCanNext] = useState(false);
+  const autoplay = useRef(
+    Autoplay({ delay: 3500, stopOnInteraction: false, stopOnMouseEnter: true }),
+  );
 
-  function updateScrollState() {
-    const el = trackRef.current;
-    if (!el) return;
-    setCanPrev(el.scrollLeft > 1);
-    setCanNext(el.scrollLeft + el.clientWidth < el.scrollWidth - 1);
-  }
-
-  function scroll(dir: 1 | -1) {
-    const el = trackRef.current;
-    if (!el) return;
-    const card = el.querySelector<HTMLElement>("[data-card]");
-    const step = card ? card.offsetWidth + 16 : el.clientWidth * 0.8;
-    el.scrollBy({ left: step * dir, behavior: "smooth" });
-  }
-
-  // Track scroll position so the arrows disable at the start/end.
   useEffect(() => {
-    const el = trackRef.current;
-    if (!el) return;
-    updateScrollState();
-    el.addEventListener("scroll", updateScrollState, { passive: true });
-    window.addEventListener("resize", updateScrollState);
-    return () => {
-      el.removeEventListener("scroll", updateScrollState);
-      window.removeEventListener("resize", updateScrollState);
+    if (!api) return;
+    const update = () => {
+      setCanPrev(api.canScrollPrev());
+      setCanNext(api.canScrollNext());
     };
-  }, [cards.length]);
-
-  // Auto-advance: nudge one card every few seconds, looping back to the start
-  // at the end. Pauses while the user is hovering the track.
-  useEffect(() => {
-    if (cards.length <= 1) return;
-    const el = trackRef.current;
-    if (!el) return;
-    const id = window.setInterval(() => {
-      if (pausedRef.current) return;
-      const card = el.querySelector<HTMLElement>("[data-card]");
-      const step = card ? card.offsetWidth + 16 : el.clientWidth * 0.8;
-      if (el.scrollLeft + el.clientWidth >= el.scrollWidth - 8) {
-        el.scrollTo({ left: 0, behavior: "smooth" });
-      } else {
-        el.scrollBy({ left: step, behavior: "smooth" });
-      }
-    }, 3500);
-    return () => window.clearInterval(id);
-  }, [cards.length]);
+    update();
+    api.on("select", update);
+    api.on("reInit", update);
+    return () => {
+      api.off("select", update);
+    };
+  }, [api]);
 
   if (cards.length === 0) return null;
 
   return (
-    <section className="py-8 lg:py-12 bg-cream-bg">
+    <section className="py-6 sm:py-8 lg:py-10 bg-cream-bg">
       <div className="mx-auto max-w-7xl px-gutter">
-        <div className="flex items-end justify-between gap-4 mb-6">
+        <div className="flex items-end justify-between gap-4 mb-4 lg:mb-5">
           <div>
             <p className="text-overline uppercase text-orange-600 font-bold tracking-overline">
               {overline}
@@ -102,7 +79,7 @@ export function HealthCheckupSlider({
             <div className="flex items-center gap-2 flex-shrink-0">
               <button
                 type="button"
-                onClick={() => scroll(-1)}
+                onClick={() => api?.scrollPrev()}
                 disabled={!canPrev}
                 aria-label="Previous"
                 className="w-9 h-9 sm:w-10 sm:h-10 inline-flex items-center justify-center rounded-pill bg-cream-card text-orange-600 border border-cream-line shadow-sh-1 hover:shadow-sh-2 hover:border-orange-200 transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-500 disabled:opacity-40 disabled:cursor-not-allowed disabled:hover:shadow-sh-1 disabled:hover:border-cream-line"
@@ -111,7 +88,7 @@ export function HealthCheckupSlider({
               </button>
               <button
                 type="button"
-                onClick={() => scroll(1)}
+                onClick={() => api?.scrollNext()}
                 disabled={!canNext}
                 aria-label="Next"
                 className="w-9 h-9 sm:w-10 sm:h-10 inline-flex items-center justify-center rounded-pill bg-cream-card text-orange-600 border border-cream-line shadow-sh-1 hover:shadow-sh-2 hover:border-orange-200 transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-500 disabled:opacity-40 disabled:cursor-not-allowed disabled:hover:shadow-sh-1 disabled:hover:border-cream-line"
@@ -122,108 +99,110 @@ export function HealthCheckupSlider({
           )}
         </div>
 
-        <div
-          ref={trackRef}
-          onMouseEnter={() => (pausedRef.current = true)}
-          onMouseLeave={() => (pausedRef.current = false)}
-          className="flex gap-4 overflow-x-auto snap-x snap-mandatory scrollbar-hidden pb-2 -mx-1 px-1"
+        <Carousel
+          setApi={setApi}
+          opts={{ align: "start", loop: true }}
+          plugins={[autoplay.current]}
+          className="w-full"
         >
-          {cards.map((card) => {
-            const showStrike =
-              card.price > 0 &&
-              card.discountedPrice > 0 &&
-              card.price > card.discountedPrice;
-            const src =
-              card.imageSrc && card.imageSrc.length > 0
-                ? card.imageSrc
-                : FALLBACK;
-            return (
-              <article
-                key={card.id}
-                data-card
-                className="snap-start flex-shrink-0 w-[190px] sm:w-[230px] bg-cream-card rounded-2xl border border-cream-line shadow-sh-1 hover:shadow-sh-3 transition-all duration-200 flex flex-col overflow-hidden group"
-              >
-                <Link
-                  href={card.detailHref}
-                  aria-label={card.title}
-                  className="relative aspect-[16/10] block bg-cream-soft overflow-hidden"
+          <CarouselContent className="-ml-3 sm:-ml-4">
+            {cards.map((card) => {
+              const showStrike =
+                card.price > 0 &&
+                card.discountedPrice > 0 &&
+                card.price > card.discountedPrice;
+              const src =
+                card.imageSrc && card.imageSrc.length > 0
+                  ? card.imageSrc
+                  : FALLBACK;
+              return (
+                <CarouselItem
+                  key={card.id}
+                  className="pl-3 sm:pl-4 basis-1/2 sm:basis-1/3 lg:basis-1/5"
                 >
-                  <Image
-                    src={src}
-                    alt={card.title}
-                    fill
-                    className="object-cover group-hover:scale-[1.03] transition-transform duration-300"
-                    sizes="300px"
-                  />
-                  {card.discountPct > 0 && (
-                    <span className="absolute top-3 left-3 inline-flex items-center rounded-pill bg-coral-400 text-white text-caption font-bold px-2.5 py-1 shadow-sh-1">
-                      {card.discountPct}% OFF
-                    </span>
-                  )}
-                </Link>
-
-                <div className="p-3 flex flex-col flex-1">
-                  <h3 className="text-body-sm font-bold text-ink-900 leading-snug line-clamp-2">
+                  <article className="group h-full bg-cream-card rounded-2xl border border-cream-line shadow-sh-1 hover:shadow-sh-3 hover:-translate-y-0.5 transition-all duration-200 flex flex-col overflow-hidden">
                     <Link
                       href={card.detailHref}
-                      className="hover:text-orange-600 transition-colors"
+                      aria-label={card.title}
+                      className="relative aspect-[4/3] block bg-cream-soft overflow-hidden focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-500 focus-visible:ring-inset"
                     >
-                      {card.title}
-                    </Link>
-                  </h3>
-
-                  <div className="mt-2 flex flex-wrap gap-1.5">
-                    {card.reportsWithin && (
-                      <span className="inline-flex items-center gap-1 rounded-pill bg-cream-soft border border-cream-line text-caption font-medium text-ink-600 px-2 py-0.5">
-                        <Clock className="w-3 h-3 text-orange-600" />
-                        {card.reportsWithin}
-                      </span>
-                    )}
-                    {card.trustedBy && (
-                      <span className="inline-flex items-center gap-1 rounded-pill bg-cream-soft border border-cream-line text-caption font-medium text-ink-600 px-2 py-0.5">
-                        <ShieldCheck className="w-3 h-3 text-orange-600" />
-                        {card.trustedBy}
-                      </span>
-                    )}
-                  </div>
-
-                  <div className="mt-auto pt-2.5">
-                    <div className="flex items-baseline gap-2 mb-2">
-                      <span className="text-h3 font-extrabold text-ink-900 leading-none tracking-tight">
-                        ₹{card.discountedPrice.toLocaleString("en-IN")}
-                      </span>
-                      {showStrike && (
-                        <span className="text-caption text-ink-400 line-through">
-                          ₹{card.price.toLocaleString("en-IN")}
-                        </span>
-                      )}
-                    </div>
-                    <div className="flex flex-col gap-1.5">
-                      <AddToCartButton
-                        item={{
-                          id: card.id,
-                          name: card.title,
-                          price: card.discountedPrice,
-                          originalPrice: showStrike ? card.price : undefined,
-                          href: card.detailHref,
-                          kind: "Lab Test",
-                        }}
-                        label="Add to cart"
-                        className="w-full inline-flex items-center justify-center gap-1.5 rounded-pill bg-gradient-cta text-white font-bold px-3 py-2 text-body-sm whitespace-nowrap shadow-glow-orange hover:brightness-110 active:scale-[0.98] transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-300 [&_svg]:w-3.5 [&_svg]:h-3.5 [&_svg]:flex-shrink-0"
+                      <Image
+                        src={src}
+                        alt={card.title}
+                        fill
+                        className="object-cover object-center group-hover:scale-105 transition-transform duration-300"
+                        sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 20vw"
                       />
-                      <Link
-                        href={card.detailHref}
-                        className="w-full inline-flex items-center justify-center rounded-pill bg-cream-card hover:bg-orange-50 text-ink-900 hover:text-orange-700 font-semibold px-3 py-2 text-body-sm border border-cream-line hover:border-orange-300 transition-all duration-200"
-                      >
-                        View details
-                      </Link>
+                      {card.discountPct > 0 && (
+                        <Badge className="absolute top-2.5 left-2.5 bg-coral-400 text-white shadow-sh-1">
+                          {card.discountPct}% OFF
+                        </Badge>
+                      )}
+                    </Link>
+
+                    <div className="p-3 flex flex-col flex-1">
+                      <div className="flex items-start justify-between gap-2">
+                        <h3 className="flex-1 min-w-0 text-body-sm font-bold text-ink-900 leading-snug line-clamp-2">
+                          <Link
+                            href={card.detailHref}
+                            className="hover:text-orange-600 transition-colors focus-visible:outline-none focus-visible:underline"
+                          >
+                            {card.title}
+                          </Link>
+                        </h3>
+                        <div className="flex flex-col items-end text-right flex-shrink-0">
+                          <span className="text-h3 font-extrabold text-ink-900 leading-none tracking-tight">
+                            ₹{card.discountedPrice.toLocaleString("en-IN")}
+                          </span>
+                          {showStrike && (
+                            <span className="mt-0.5 text-caption text-ink-400 line-through leading-none">
+                              ₹{card.price.toLocaleString("en-IN")}
+                            </span>
+                          )}
+                        </div>
+                      </div>
+
+                      <div className="mt-1.5 flex flex-wrap items-center gap-x-2 gap-y-0.5 text-caption text-ink-500">
+                        {card.reportsWithin && (
+                          <span className="inline-flex items-center gap-1">
+                            <Clock className="w-3 h-3 text-orange-500" />
+                            {card.reportsWithin}
+                          </span>
+                        )}
+                        {card.reportsWithin && card.trustedBy && (
+                          <span aria-hidden className="text-ink-300">
+                            ·
+                          </span>
+                        )}
+                        {card.trustedBy && (
+                          <span className="inline-flex items-center gap-1">
+                            <Users className="w-3 h-3 text-orange-500" />
+                            {card.trustedBy}
+                          </span>
+                        )}
+                      </div>
+
+                      <div className="mt-auto pt-2.5">
+                        <AddToCartButton
+                          item={{
+                            id: card.id,
+                            name: card.title,
+                            price: card.discountedPrice,
+                            originalPrice: showStrike ? card.price : undefined,
+                            href: card.detailHref,
+                            kind: "Lab Test",
+                          }}
+                          label="Add to cart"
+                          className="w-full inline-flex items-center justify-center gap-1.5 rounded-pill bg-gradient-cta text-white font-bold px-3 py-2 text-body-sm whitespace-nowrap shadow-glow-orange hover:brightness-110 active:scale-[0.98] transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-300 [&_svg]:w-3.5 [&_svg]:h-3.5 [&_svg]:flex-shrink-0"
+                        />
+                      </div>
                     </div>
-                  </div>
-                </div>
-              </article>
-            );
-          })}
-        </div>
+                  </article>
+                </CarouselItem>
+              );
+            })}
+          </CarouselContent>
+        </Carousel>
       </div>
     </section>
   );
