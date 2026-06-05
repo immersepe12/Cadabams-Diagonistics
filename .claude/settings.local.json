@@ -5,7 +5,8 @@
       "Bash(pip install *)",
       "Bash(python scripts/convert_db_to_md.py)",
       "Bash(python *)",
-      "Bash(findstr next *)"
+      "Bash(findstr next *)",
+      "Bash(npx tsc *)"
     ]
   }
 }

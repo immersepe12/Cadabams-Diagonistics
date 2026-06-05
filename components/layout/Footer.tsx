@@ -130,31 +130,25 @@ export function Footer() {
       </div>
 
       <div className="border-t border-ink-800">
-        <div className="mx-auto max-w-7xl px-gutter py-4 flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between text-meta text-ink-400">
-          <p>© {year} Cadabams Health Care Pvt. Ltd. All rights reserved.</p>
-          <ul className="flex flex-wrap gap-x-4 gap-y-1">
+        <div className="mx-auto max-w-7xl px-gutter pt-6 pb-10 sm:py-6 flex flex-col items-center gap-3 text-center text-meta text-ink-400 sm:flex-row sm:justify-between sm:gap-4 sm:text-left">
+          <ul className="flex flex-wrap items-center justify-center gap-x-3 gap-y-1">
             {LEGAL_LINKS.map((l, i) => (
-              <li key={l.href} className="flex items-center gap-x-4">
+              <li key={l.href} className="flex items-center gap-x-3">
+                {i > 0 && (
+                  <span aria-hidden className="text-ink-700">
+                    |
+                  </span>
+                )}
                 <Link
                   href={l.href}
                   className="hover:text-orange-400 transition-colors"
                 >
                   {l.label}
                 </Link>
-                {i < LEGAL_LINKS.length - 1 && (
-                  <span aria-hidden className="text-ink-700">
-                    |
-                  </span>
-                )}
               </li>
             ))}
           </ul>
-        </div>
-      </div>
-
-      <div className="border-t border-ink-800 bg-ink-800">
-        <div className="mx-auto max-w-7xl px-gutter py-3 text-center text-meta text-ink-400">
-          © {year} Cadabam&apos;s Diagnostics Labs. All rights reserved.
+          <p>© {year} Cadabam&apos;s Diagnostics Labs. All rights reserved.</p>
         </div>
       </div>
     </footer>

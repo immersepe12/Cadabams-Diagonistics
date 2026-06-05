@@ -159,29 +159,31 @@ export function FeaturedTestsSlider({
                     </div>
                   </div>
 
-                  <h3 className="text-body sm:text-h3 text-ink-900 font-bold leading-snug mb-2 line-clamp-2">
-                    <Link
-                      href={card.href}
-                      className="hover:text-orange-600 transition-colors focus-visible:outline-none focus-visible:underline"
-                    >
-                      {card.name}
-                    </Link>
-                  </h3>
+                  <div className="flex flex-1 flex-col justify-center">
+                    <h3 className="text-body sm:text-h3 text-ink-900 font-bold leading-snug mb-2 line-clamp-2">
+                      <Link
+                        href={card.href}
+                        className="hover:text-orange-600 transition-colors focus-visible:outline-none focus-visible:underline"
+                      >
+                        {card.name}
+                      </Link>
+                    </h3>
 
-                  <div className="flex flex-wrap items-center gap-x-2 gap-y-0.5 text-caption sm:text-meta mb-3">
-                    <span className="inline-flex items-center gap-1 text-ink-600">
-                      <Clock className="w-3 h-3 sm:w-3.5 sm:h-3.5 text-orange-500" />
-                      Reports in {report}
-                    </span>
-                    <span aria-hidden className="text-ink-300">
-                      ·
-                    </span>
-                    <span className="font-semibold text-orange-700">
-                      {card.kind}
-                    </span>
+                    <div className="flex flex-wrap items-center gap-x-2 gap-y-0.5 text-caption sm:text-meta">
+                      <span className="inline-flex items-center gap-1 text-ink-600">
+                        <Clock className="w-3 h-3 sm:w-3.5 sm:h-3.5 text-orange-500" />
+                        Reports in {report}
+                      </span>
+                      <span aria-hidden className="text-ink-300">
+                        ·
+                      </span>
+                      <span className="font-semibold text-orange-700">
+                        {card.kind}
+                      </span>
+                    </div>
                   </div>
 
-                  <div className="h-px bg-cream-line mb-3 mt-auto" />
+                  <div className="h-px bg-cream-line mb-3 mt-3" />
 
                   <div className="flex items-center gap-2">
                     <BookNowButton

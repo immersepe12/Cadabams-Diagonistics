@@ -10,6 +10,7 @@ import {
 import { Button } from "@/components/ui/button";
 import type { Homepage } from "@/lib/data/homepages";
 import { normalizeInternalHref } from "@/lib/urls";
+import { HeroFeatures } from "@/components/home/HeroFeatures";
 
 interface HeroSectionProps {
   hero: Homepage["hero"];
@@ -18,7 +19,7 @@ interface HeroSectionProps {
 
 function buttonMeta(raw: string): { label: string; Icon: LucideIcon } {
   const k = raw.toLowerCase().replace(/[\s_-]/g, "");
-  if (k.includes("lab")) return { label: "Lab Tests", Icon: FlaskConical };
+  if (k.includes("lab")) return { label: "Book Lab Tests", Icon: FlaskConical };
   if (
     k.includes("radiology") ||
     k.includes("scan") ||
@@ -26,7 +27,7 @@ function buttonMeta(raw: string): { label: string; Icon: LucideIcon } {
     k.includes("ct") ||
     k.includes("xray")
   ) {
-    return { label: "Radiology Scans", Icon: Activity };
+    return { label: "Book Radiology Scans", Icon: Activity };
   }
   return { label: raw, Icon: FlaskConical };
 }
@@ -54,10 +55,6 @@ export function HeroSection({ hero, features }: HeroSectionProps) {
         <div className="grid gap-5 lg:gap-6 lg:grid-cols-12 items-center">
           <div className="lg:col-span-7 space-y-4 text-center lg:text-left">
             <div className="inline-flex items-center gap-2 rounded-pill bg-white/15 backdrop-blur-md ring-1 ring-white/25 px-3.5 py-1.5 text-meta font-semibold uppercase tracking-wide">
-              <span className="relative flex w-2 h-2">
-                <span className="absolute inline-flex w-full h-full rounded-pill bg-white/70 animate-ping" />
-                <span className="relative inline-flex w-2 h-2 rounded-pill bg-white" />
-              </span>
               <span>NABL Accredited · Trusted by 50,000+ patients</span>
             </div>
 
@@ -67,10 +64,6 @@ export function HeroSection({ hero, features }: HeroSectionProps) {
                 <span className="relative z-10 text-cream-bg">
                   {hero.subtitle}
                 </span>
-                <span
-                  aria-hidden
-                  className="absolute left-0 right-0 bottom-1 h-3 bg-white/25 rounded-sm z-0"
-                />
               </span>
             </h1>
 
@@ -154,27 +147,7 @@ export function HeroSection({ hero, features }: HeroSectionProps) {
           </div>
         </div>
 
-        {features.length > 0 && (
-          <div className="mt-5 lg:mt-6 pt-4 border-t border-white/20 grid grid-cols-2 sm:grid-cols-3 gap-x-4 gap-y-3 sm:gap-6">
-            {features.map((f) => (
-              <div
-                key={f.id}
-                className="flex items-center gap-3 justify-start sm:justify-center lg:justify-start"
-              >
-                <div className="relative w-9 h-9 lg:w-10 lg:h-10 flex-shrink-0 rounded-pill bg-white/15 ring-1 ring-white/25 p-1.5 backdrop-blur-sm">
-                  <Image
-                    src={f.icon}
-                    alt=""
-                    fill
-                    className="object-contain p-1.5"
-                    sizes="40px"
-                  />
-                </div>
-                <p className="text-body font-semibold text-white">{f.title}</p>
-              </div>
-            ))}
-          </div>
-        )}
+        <HeroFeatures features={features} />
       </div>
     </section>
   );

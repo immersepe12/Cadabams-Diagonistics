@@ -8,11 +8,10 @@ import {
   Mail,
   Send,
   Loader2,
-  MapPin,
-  Navigation,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { ContactActionButton } from "@/components/shared/ContactActionButton";
+import { CentersListCard } from "@/components/shared/CentersListCard";
 import {
   Card,
   CardContent,
@@ -166,49 +165,21 @@ export function ContactFormSection({
             </ul>
           )}
 
-          {/* Visit us — compact centre cards, name + directions only */}
+          {/* Visit us — centre list (name + chevron) */}
           {centers.length > 0 && (
-            <div className="pt-2 space-y-3">
-              <p className="text-meta font-bold text-ink-700 uppercase tracking-wide">
-                Visit us
-              </p>
-              <ul className="grid grid-cols-2 sm:grid-cols-3 gap-2.5">
-                {centers.map((c) => (
-                  <li key={c.href}>
-                    <div className="h-full flex flex-col gap-2 rounded-xl border border-cream-line bg-cream-card p-3 shadow-sh-1 transition-colors hover:border-orange-200">
-                      <div className="flex items-center gap-2 min-w-0">
-                        <span className="w-7 h-7 rounded-pill bg-orange-50 text-orange-600 inline-flex items-center justify-center flex-shrink-0">
-                          <MapPin className="w-3.5 h-3.5" />
-                        </span>
-                        <Link
-                          href={c.href}
-                          className="text-body-sm font-semibold text-ink-900 hover:text-orange-600 transition-colors leading-tight line-clamp-2"
-                        >
-                          {c.name}
-                        </Link>
-                      </div>
-                      {c.mapUrl && (
-                        <a
-                          href={c.mapUrl}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="mt-auto inline-flex items-center justify-center gap-1 rounded-pill border border-orange-200 bg-orange-50 px-2 py-1 text-caption font-semibold text-orange-600 hover:bg-orange-100 transition-colors"
-                        >
-                          <Navigation className="w-3 h-3" />
-                          Directions
-                        </a>
-                      )}
-                    </div>
-                  </li>
-                ))}
-              </ul>
-            </div>
+            <CentersListCard
+              heading="Visit us"
+              centers={centers.map((c) => ({
+                name: c.name,
+                slug: c.href.split("/").filter(Boolean).pop() ?? c.href,
+              }))}
+            />
           )}
         </div>
 
         {/* Form card */}
         <Card className="lg:order-1 gap-0 py-0 border-cream-line shadow-sh-3 overflow-hidden">
-          <CardHeader className="gap-1 bg-cream-soft border-b border-cream-line px-6 py-5">
+          <CardHeader className="gap-1 bg-cream-soft px-6 py-5">
             <CardTitle className="text-h2 font-bold text-ink-900">
               Contact us
             </CardTitle>
@@ -294,7 +265,7 @@ export function ContactFormSection({
                 type="submit"
                 disabled={disabled}
                 className={cn(
-                  "w-full h-12 rounded-pill text-body font-semibold shadow-glow-orange transition-all active:scale-[0.98]",
+                  "w-full h-12 rounded-pill text-body font-semibold transition-all active:scale-[0.98]",
                   status === "submitted"
                     ? "bg-success text-white hover:bg-success"
                     : "bg-orange-500 text-white hover:bg-orange-600",
