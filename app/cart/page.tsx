@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { useEffect, useState } from "react";
 import {
   ShoppingCart,
   Phone,
@@ -17,6 +18,7 @@ import {
   useCartStore,
   useCartHydrated,
   selectSubtotal,
+  type CartItem,
 } from "@/lib/cart/store";
 
 export default function CartPage() {
@@ -24,8 +26,33 @@ export default function CartPage() {
   const items = useCartStore((s) => s.items);
   const setQuantity = useCartStore((s) => s.setQuantity);
   const removeItem = useCartStore((s) => s.removeItem);
-  const clear = useCartStore((s) => s.clear);
   const subtotal = useCartStore(selectSubtotal);
+
+  // Item pending removal confirmation (set when decrementing the last unit).
+  const [pendingRemove, setPendingRemove] = useState<CartItem | null>(null);
+
+  function decrement(item: CartItem) {
+    if (item.quantity <= 1) {
+      setPendingRemove(item);
+    } else {
+      setQuantity(item.id, item.quantity - 1);
+    }
+  }
+
+  function confirmRemove() {
+    if (pendingRemove) removeItem(pendingRemove.id);
+    setPendingRemove(null);
+  }
+
+  // Close the confirmation dialog on Escape.
+  useEffect(() => {
+    if (!pendingRemove) return;
+    function onKey(e: KeyboardEvent) {
+      if (e.key === "Escape") setPendingRemove(null);
+    }
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [pendingRemove]);
 
   function bookOnWhatsApp() {
     const lines = [
@@ -64,23 +91,13 @@ export default function CartPage() {
   return (
     <main className="bg-cream-bg min-h-screen">
       <section className="mx-auto max-w-6xl px-gutter py-8 lg:py-10">
-        <div className="flex flex-wrap items-end justify-between gap-3 mb-5 lg:mb-6">
-          <div>
-            <h1 className="text-h1 sm:text-display-2 font-display font-extrabold text-ink-900 tracking-tight">
-              Your cart
-            </h1>
-            <p className="text-body-sm text-ink-500 mt-1">
-              {items.length} {items.length === 1 ? "item" : "items"} ready to
-              book
-            </p>
-          </div>
-          <button
-            type="button"
-            onClick={clear}
-            className="text-meta font-semibold text-ink-500 hover:text-orange-700 underline underline-offset-2 transition-colors"
-          >
-            Clear cart
-          </button>
+        <div className="mb-5 lg:mb-6">
+          <h1 className="text-h1 sm:text-display-2 font-display font-extrabold text-ink-900 tracking-tight">
+            Your cart
+          </h1>
+          <p className="text-body-sm text-ink-500 mt-1">
+            {items.length} {items.length === 1 ? "item" : "items"} ready to book
+          </p>
         </div>
 
         <div className="grid gap-6 lg:gap-8 lg:grid-cols-[1fr_360px] items-start">
@@ -141,9 +158,7 @@ export default function CartPage() {
                     <div className="inline-flex items-center rounded-pill border border-cream-line bg-cream-bg">
                       <button
                         type="button"
-                        onClick={() =>
-                          setQuantity(item.id, item.quantity - 1)
-                        }
+                        onClick={() => decrement(item)}
                         aria-label="Decrease quantity"
                         className="w-8 h-8 inline-flex items-center justify-center rounded-pill text-ink-700 hover:text-orange-600 transition-colors"
                       >
@@ -234,6 +249,56 @@ export default function CartPage() {
           </aside>
         </div>
       </section>
+
+      {pendingRemove && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center px-4">
+          <div
+            aria-hidden
+            onClick={() => setPendingRemove(null)}
+            className="absolute inset-0 bg-ink-900/55 backdrop-blur-[2px] animate-in fade-in duration-150"
+          />
+          <div
+            role="alertdialog"
+            aria-modal="true"
+            aria-labelledby="remove-title"
+            aria-describedby="remove-desc"
+            className="relative w-full max-w-sm bg-cream-card rounded-2xl shadow-sh-3 border border-cream-line p-6 animate-in fade-in zoom-in-95 duration-150"
+          >
+            <div className="w-12 h-12 rounded-pill bg-coral-400/10 text-coral-400 inline-flex items-center justify-center">
+              <Trash2 className="w-5 h-5" />
+            </div>
+            <h2
+              id="remove-title"
+              className="mt-4 text-h3 font-bold text-ink-900"
+            >
+              Remove this item?
+            </h2>
+            <p id="remove-desc" className="mt-2 text-body-sm text-ink-600">
+              <span className="font-semibold text-ink-900">
+                {pendingRemove.name}
+              </span>{" "}
+              will be removed from your cart.
+            </p>
+            <div className="mt-6 flex gap-3">
+              <button
+                type="button"
+                onClick={() => setPendingRemove(null)}
+                className="flex-1 inline-flex items-center justify-center rounded-pill border border-cream-line bg-cream-card text-ink-900 font-semibold px-4 py-2.5 text-body-sm hover:bg-cream-soft transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-200"
+              >
+                Cancel
+              </button>
+              <button
+                type="button"
+                onClick={confirmRemove}
+                className="flex-1 inline-flex items-center justify-center gap-1.5 rounded-pill bg-coral-400 text-white font-semibold px-4 py-2.5 text-body-sm hover:brightness-110 active:scale-[0.98] transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-coral-300"
+              >
+                <Trash2 className="w-4 h-4" />
+                Remove
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </main>
   );
 }

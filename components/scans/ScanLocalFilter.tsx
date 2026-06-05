@@ -175,7 +175,7 @@ export function ScanLocalFilter({
     <div className="grid gap-6 lg:gap-8 lg:grid-cols-[280px_1fr]">
       {/* ── Sidebar ─────────────────────────────────────────────── */}
       <aside className="lg:sticky lg:top-24 lg:self-start">
-        <div className="bg-cream-card rounded-2xl border border-cream-line shadow-sh-1 p-4 lg:p-5 mb-4 lg:mb-5">
+        <div className="bg-cream-card rounded-2xl border border-cream-line shadow-sh-1 p-4 lg:p-5">
           <label
             htmlFor="scan-search"
             className="block text-meta font-bold text-ink-700 uppercase tracking-overline mb-2"
@@ -196,9 +196,9 @@ export function ScanLocalFilter({
               className="w-full bg-cream-bg text-ink-900 placeholder:text-ink-400 rounded-pill border border-cream-line pl-9 pr-3 py-2.5 text-body-sm focus:outline-none focus:border-orange-500 focus:ring-4 focus:ring-orange-100 transition-all"
             />
           </div>
-        </div>
 
-        <div className="bg-cream-card rounded-2xl border border-cream-line shadow-sh-1 p-4 lg:p-5">
+          <div className="my-4 lg:my-5 border-t border-cream-line" />
+
           <div className="flex items-center gap-2 mb-3">
             <SlidersHorizontal className="w-4 h-4 text-orange-600" />
             <h3 className="text-meta font-bold text-ink-700 uppercase tracking-overline">
@@ -438,7 +438,7 @@ function Pagination({
   return (
     <nav
       aria-label="Pagination"
-      className="mt-8 lg:mt-10 flex flex-wrap items-center justify-center gap-2"
+      className="mt-8 lg:mt-10 flex items-center justify-center gap-2"
     >
       <button
         type="button"
@@ -447,32 +447,43 @@ function Pagination({
         aria-label="Previous page"
         className={cn(navItem, isFirst ? disabled : idle)}
       >
-        <ChevronLeft className="w-4 h-4 mr-1" />
-        Prev
+        <ChevronLeft className="w-4 h-4 sm:mr-1" />
+        <span className="hidden sm:inline">Prev</span>
       </button>
 
-      {pages.map((p, i) =>
-        p === null ? (
-          <span
-            key={`gap-${i}`}
-            className="inline-flex items-center justify-center min-w-10 h-10 text-ink-400 select-none"
-            aria-hidden
-          >
-            …
-          </span>
-        ) : (
-          <button
-            key={p}
-            type="button"
-            onClick={() => onGoToPage(p)}
-            aria-label={`Go to page ${p}`}
-            aria-current={p === currentPage ? "page" : undefined}
-            className={cn(navItem, p === currentPage ? active : idle)}
-          >
-            {p}
-          </button>
-        ),
-      )}
+      {/* Compact current/total indicator — small screens only */}
+      <span
+        className="sm:hidden inline-flex items-center justify-center h-10 px-4 rounded-pill border border-cream-line bg-cream-card text-body-sm font-semibold text-ink-700"
+        aria-current="page"
+      >
+        {currentPage} / {totalPages}
+      </span>
+
+      {/* Full numbered window — sm and up */}
+      <div className="hidden sm:flex items-center gap-2">
+        {pages.map((p, i) =>
+          p === null ? (
+            <span
+              key={`gap-${i}`}
+              className="inline-flex items-center justify-center min-w-10 h-10 text-ink-400 select-none"
+              aria-hidden
+            >
+              …
+            </span>
+          ) : (
+            <button
+              key={p}
+              type="button"
+              onClick={() => onGoToPage(p)}
+              aria-label={`Go to page ${p}`}
+              aria-current={p === currentPage ? "page" : undefined}
+              className={cn(navItem, p === currentPage ? active : idle)}
+            >
+              {p}
+            </button>
+          ),
+        )}
+      </div>
 
       <button
         type="button"
@@ -481,8 +492,8 @@ function Pagination({
         aria-label="Next page"
         className={cn(navItem, isLast ? disabled : idle)}
       >
-        Next
-        <ChevronRight className="w-4 h-4 ml-1" />
+        <span className="hidden sm:inline">Next</span>
+        <ChevronRight className="w-4 h-4 sm:ml-1" />
       </button>
     </nav>
   );

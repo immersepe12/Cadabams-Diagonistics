@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import { useRouter } from "next/navigation";
 import { Check, ShoppingCart } from "lucide-react";
 import { useCartStore, type CartItem } from "@/lib/cart/store";
 import { cn } from "@/lib/utils";
@@ -17,6 +18,7 @@ export function AddToCartButton({
   className,
   label = "Add to cart",
 }: AddToCartButtonProps) {
+  const router = useRouter();
   const addItem = useCartStore((s) => s.addItem);
   const inCart = useCartStore((s) => s.items.some((i) => i.id === item.id));
   const [justAdded, setJustAdded] = useState(false);
@@ -30,6 +32,11 @@ export function AddToCartButton({
   );
 
   function handleClick() {
+    // Once the item is in the cart, the button becomes a shortcut to /cart.
+    if (inCart) {
+      router.push("/cart");
+      return;
+    }
     addItem(item);
     setJustAdded(true);
     if (timer.current) clearTimeout(timer.current);
@@ -40,7 +47,7 @@ export function AddToCartButton({
     <button
       type="button"
       onClick={handleClick}
-      aria-label={`Add ${item.name} to cart`}
+      aria-label={inCart ? "Go to cart" : `Add ${item.name} to cart`}
       className={cn(className, (justAdded || inCart) && "is-added")}
     >
       {justAdded ? (
@@ -48,10 +55,15 @@ export function AddToCartButton({
           <Check className="w-4 h-4" />
           Added
         </>
+      ) : inCart ? (
+        <>
+          <ShoppingCart className="w-4 h-4" />
+          Go to cart
+        </>
       ) : (
         <>
           <ShoppingCart className="w-4 h-4" />
-          {inCart ? "Added to cart" : label}
+          {label}
         </>
       )}
     </button>

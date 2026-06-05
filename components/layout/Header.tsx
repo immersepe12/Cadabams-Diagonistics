@@ -8,6 +8,11 @@ import {
   getAllNonLabTestCategories,
   getNonLabCategorySlug,
 } from "@/lib/data/nonlabtests";
+import {
+  getAllLabTestCategories,
+  getCategorySlug,
+  getLabTestsByCategoryId,
+} from "@/lib/data/labtests";
 import { HeaderClient } from "./HeaderClient";
 
 export function Header() {
@@ -27,11 +32,22 @@ export function Header() {
     }))
     .filter((c) => c.name.trim().length > 0 && c.slug.length > 0);
 
+  const labTestCategories = getAllLabTestCategories()
+    // Only categories that actually have tests (mirrors the lab-test page,
+    // which hides empty categories like "Gut Health").
+    .filter((c) => getLabTestsByCategoryId(c.id).length > 0)
+    .map((c) => ({
+      name: c.name,
+      slug: getCategorySlug(c),
+    }))
+    .filter((c) => c.name.trim().length > 0 && c.slug.length > 0);
+
   return (
     <HeaderClient
       logo={navbar.content.logo}
       centers={centers}
       radiologyCategories={radiologyCategories}
+      labTestCategories={labTestCategories}
     />
   );
 }

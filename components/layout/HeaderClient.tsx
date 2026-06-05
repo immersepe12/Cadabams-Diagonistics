@@ -29,12 +29,14 @@ interface HeaderClientProps {
   logo: string;
   centers: NavItem[];
   radiologyCategories: NavItem[];
+  labTestCategories: NavItem[];
 }
 
 export function HeaderClient({
   logo,
   centers,
   radiologyCategories,
+  labTestCategories,
 }: HeaderClientProps) {
   const pathname = usePathname();
   const cartHydrated = useCartHydrated();
@@ -370,11 +372,17 @@ export function HeaderClient({
           className="flex-1 overflow-y-auto overscroll-contain px-3 py-3"
           aria-label="Mobile"
         >
-          <MobileLink
-            href="/bangalore/lab-test"
-            icon={<FlaskConical className="w-5 h-5" />}
+          <MobileGroup
             label="Lab Tests"
-            active={isActive("/bangalore/lab-test")}
+            icon={<FlaskConical className="w-5 h-5" />}
+            items={[
+              { name: "All lab tests", href: "/bangalore/lab-test" },
+              ...labTestCategories.map((c) => ({
+                name: c.name,
+                href: `/bangalore/lab-test?category=${c.slug}`,
+              })),
+            ]}
+            pathname={pathname}
             onNavigate={() => setMobileOpen(false)}
           />
           <MobileGroup

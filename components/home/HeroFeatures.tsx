@@ -12,7 +12,7 @@ import type { HomeFeature } from "@/lib/data/homepages";
 
 function FeatureBadge({ feature }: { feature: HomeFeature }) {
   return (
-    <div className="flex items-center gap-3 justify-start sm:justify-center lg:justify-start">
+    <div className="flex items-center gap-1.5 justify-center lg:justify-start">
       <div className="relative w-9 h-9 lg:w-10 lg:h-10 flex-shrink-0">
         <Image
           src={feature.icon}
@@ -50,7 +50,7 @@ export function HeroFeatures({ features }: { features: HomeFeature[] }) {
       >
         <CarouselContent className="-ml-4">
           {features.map((f) => (
-            <CarouselItem key={f.id} className="basis-1/2 pl-4">
+            <CarouselItem key={f.id} className="basis-full pl-4">
               <FeatureBadge feature={f} />
             </CarouselItem>
           ))}

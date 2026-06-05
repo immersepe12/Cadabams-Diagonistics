@@ -76,17 +76,17 @@ export function TestCard({
         )}
 
         <div className="mt-auto pt-3 border-t border-cream-line-soft">
-          <div className="flex flex-col gap-2">
+          <div className="flex items-center gap-2">
             <BookNowButton
               item={{ id: id ?? href, name, price, originalPrice, href, kind }}
-              className="w-full inline-flex items-center justify-center gap-1.5 rounded-pill bg-gradient-cta text-white font-bold px-3 py-2.5 text-body-sm whitespace-nowrap shadow-glow-orange hover:brightness-110 active:scale-[0.98] transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-300"
+              className="flex-1 min-w-0 inline-flex items-center justify-center gap-1.5 rounded-pill bg-gradient-cta text-white font-bold px-2.5 py-2.5 text-body-sm whitespace-nowrap shadow-glow-orange hover:brightness-110 active:scale-[0.98] transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-300"
             >
               <Zap className="w-3.5 h-3.5 fill-white flex-shrink-0" />
               Book now
             </BookNowButton>
             <AddToCartButton
               item={{ id: id ?? href, name, price, originalPrice, href, kind }}
-              className="w-full inline-flex items-center justify-center gap-1.5 rounded-pill bg-cream-card hover:bg-orange-50 text-ink-900 hover:text-orange-700 font-semibold px-3 py-2.5 text-body-sm whitespace-nowrap border border-cream-line hover:border-orange-300 transition-all duration-200 active:scale-[0.98] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-200 [&_svg]:w-3.5 [&_svg]:h-3.5 [&_svg]:flex-shrink-0"
+              className="flex-1 min-w-0 inline-flex items-center justify-center gap-1.5 rounded-pill bg-cream-card hover:bg-orange-50 text-ink-900 hover:text-orange-700 font-semibold px-2.5 py-2.5 text-body-sm whitespace-nowrap border border-cream-line hover:border-orange-300 transition-all duration-200 active:scale-[0.98] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-200 [&_svg]:w-3.5 [&_svg]:h-3.5 [&_svg]:flex-shrink-0"
             />
           </div>
         </div>

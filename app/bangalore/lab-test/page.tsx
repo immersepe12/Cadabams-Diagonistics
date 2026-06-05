@@ -30,6 +30,7 @@ import {
   type HealthCheckupCard,
 } from "@/components/home/HealthCheckupSlider";
 import { BannerCarousel } from "@/components/home/BannerCarousel";
+import { TrustBadges } from "@/components/shared/TrustBadges";
 
 export const revalidate = 3600;
 
@@ -187,18 +188,12 @@ export default function LabTestsListPage() {
       </section>
 
       <section className="relative -mt-6 lg:-mt-8 mx-auto max-w-7xl px-gutter">
-        <div className="bg-cream-card rounded-2xl shadow-sh-3 border border-cream-line p-4 lg:p-5 grid grid-cols-2 lg:grid-cols-4 gap-3 lg:gap-6">
-          {TRUST_POINTS.map(({ Icon, label }) => (
-            <div key={label} className="flex items-center gap-3 min-w-0">
-              <span className="w-10 h-10 inline-flex items-center justify-center rounded-pill bg-orange-50 text-orange-600 flex-shrink-0">
-                <Icon className="w-5 h-5" />
-              </span>
-              <span className="text-body-sm font-semibold text-ink-900 truncate">
-                {label}
-              </span>
-            </div>
-          ))}
-        </div>
+        <TrustBadges
+          items={TRUST_POINTS.map(({ Icon, label }) => ({
+            icon: <Icon className="w-5 h-5" />,
+            label,
+          }))}
+        />
       </section>
 
       <section className="mx-auto max-w-7xl px-gutter py-8 lg:py-10">

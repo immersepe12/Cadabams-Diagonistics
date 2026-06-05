@@ -34,6 +34,7 @@ import {
 import { MarkdownContent } from "@/components/shared/MarkdownContent";
 import { FaqList } from "@/components/shared/FaqList";
 import { LabStats } from "@/components/shared/LabStats";
+import { TrustBadges } from "@/components/shared/TrustBadges";
 
 interface ScanListingProps {
   familyPath: string;
@@ -334,18 +335,12 @@ export function ScanListing({
       </section>
 
       <section className="relative -mt-6 lg:-mt-8 mx-auto max-w-7xl px-gutter">
-        <div className="bg-cream-card rounded-2xl shadow-sh-3 border border-cream-line p-4 lg:p-5 grid grid-cols-2 lg:grid-cols-4 gap-3 lg:gap-6">
-          {TRUST_POINTS.map(({ Icon, label }) => (
-            <div key={label} className="flex items-center gap-3 min-w-0">
-              <span className="w-10 h-10 inline-flex items-center justify-center rounded-pill bg-orange-50 text-orange-600 flex-shrink-0">
-                <Icon className="w-5 h-5" />
-              </span>
-              <span className="text-body-sm font-semibold text-ink-900 truncate">
-                {label}
-              </span>
-            </div>
-          ))}
-        </div>
+        <TrustBadges
+          items={TRUST_POINTS.map(({ Icon, label }) => ({
+            icon: <Icon className="w-5 h-5" />,
+            label,
+          }))}
+        />
       </section>
 
       <div className="mx-auto max-w-7xl px-gutter pt-6 lg:pt-8">
@@ -555,38 +550,36 @@ function FilterSidebar({
 }) {
   return (
     <aside className="lg:sticky lg:top-24 lg:self-start">
-      <form
-        action={basePath}
-        method="get"
-        className="bg-cream-card rounded-2xl border border-cream-line shadow-sh-1 p-4 lg:p-5 mb-4 lg:mb-5"
-      >
-        <label
-          htmlFor="scan-search"
-          className="block text-meta font-bold text-ink-700 uppercase tracking-overline mb-2"
-        >
-          Search
-        </label>
-        <div className="relative">
-          <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-ink-400 pointer-events-none" />
-          <input
-            id="scan-search"
-            type="search"
-            name="q"
-            defaultValue={searchQuery}
-            placeholder="Search scans…"
-            className="w-full bg-cream-bg text-ink-900 placeholder:text-ink-400 rounded-pill border border-cream-line pl-9 pr-3 py-2.5 text-body-sm focus:outline-none focus:border-orange-500 focus:ring-4 focus:ring-orange-100 transition-all"
-          />
-        </div>
-        <button
-          type="submit"
-          className="mt-3 w-full inline-flex items-center justify-center gap-1.5 rounded-pill bg-gradient-cta text-white font-semibold py-2 text-body-sm shadow-glow-soft hover:brightness-110 active:scale-[0.98] transition-all"
-        >
-          <Search className="w-3.5 h-3.5" />
-          Search
-        </button>
-      </form>
-
       <div className="bg-cream-card rounded-2xl border border-cream-line shadow-sh-1 p-4 lg:p-5">
+        <form action={basePath} method="get">
+          <label
+            htmlFor="scan-search"
+            className="block text-meta font-bold text-ink-700 uppercase tracking-overline mb-2"
+          >
+            Search
+          </label>
+          <div className="relative">
+            <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-ink-400 pointer-events-none" />
+            <input
+              id="scan-search"
+              type="search"
+              name="q"
+              defaultValue={searchQuery}
+              placeholder="Search scans…"
+              className="w-full bg-cream-bg text-ink-900 placeholder:text-ink-400 rounded-pill border border-cream-line pl-9 pr-3 py-2.5 text-body-sm focus:outline-none focus:border-orange-500 focus:ring-4 focus:ring-orange-100 transition-all"
+            />
+          </div>
+          <button
+            type="submit"
+            className="mt-3 w-full inline-flex items-center justify-center gap-1.5 rounded-pill bg-gradient-cta text-white font-semibold py-2 text-body-sm shadow-glow-soft hover:brightness-110 active:scale-[0.98] transition-all"
+          >
+            <Search className="w-3.5 h-3.5" />
+            Search
+          </button>
+        </form>
+
+        <div className="my-4 lg:my-5 border-t border-cream-line" />
+
         <div className="flex items-center gap-2 mb-3">
           <SlidersHorizontal className="w-4 h-4 text-orange-600" />
           <h3 className="text-meta font-bold text-ink-700 uppercase tracking-overline">
@@ -793,12 +786,12 @@ function Pagination({
   return (
     <nav
       aria-label="Pagination"
-      className="mt-8 lg:mt-10 flex flex-wrap items-center justify-center gap-2"
+      className="mt-8 lg:mt-10 flex items-center justify-center gap-2"
     >
       {isFirst ? (
         <span className={cn(navItem, disabled)} aria-disabled="true">
-          <ChevronLeft className="w-4 h-4 mr-1" />
-          Prev
+          <ChevronLeft className="w-4 h-4 sm:mr-1" />
+          <span className="hidden sm:inline">Prev</span>
         </span>
       ) : (
         <Link
@@ -807,37 +800,48 @@ function Pagination({
           aria-label="Previous page"
           className={cn(navItem, idle)}
         >
-          <ChevronLeft className="w-4 h-4 mr-1" />
-          Prev
+          <ChevronLeft className="w-4 h-4 sm:mr-1" />
+          <span className="hidden sm:inline">Prev</span>
         </Link>
       )}
 
-      {pages.map((p, i) =>
-        p === null ? (
-          <span
-            key={`gap-${i}`}
-            className="inline-flex items-center justify-center min-w-10 h-10 text-ink-400 select-none"
-            aria-hidden
-          >
-            …
-          </span>
-        ) : (
-          <Link
-            key={p}
-            href={linkFor(p)}
-            aria-label={`Go to page ${p}`}
-            aria-current={p === currentPage ? "page" : undefined}
-            className={cn(navItem, p === currentPage ? active : idle)}
-          >
-            {p}
-          </Link>
-        ),
-      )}
+      {/* Compact current/total indicator — small screens only */}
+      <span
+        className="sm:hidden inline-flex items-center justify-center h-10 px-4 rounded-pill border border-cream-line bg-cream-card text-body-sm font-semibold text-ink-700"
+        aria-current="page"
+      >
+        {currentPage} / {totalPages}
+      </span>
+
+      {/* Full numbered window — sm and up */}
+      <div className="hidden sm:flex items-center gap-2">
+        {pages.map((p, i) =>
+          p === null ? (
+            <span
+              key={`gap-${i}`}
+              className="inline-flex items-center justify-center min-w-10 h-10 text-ink-400 select-none"
+              aria-hidden
+            >
+              …
+            </span>
+          ) : (
+            <Link
+              key={p}
+              href={linkFor(p)}
+              aria-label={`Go to page ${p}`}
+              aria-current={p === currentPage ? "page" : undefined}
+              className={cn(navItem, p === currentPage ? active : idle)}
+            >
+              {p}
+            </Link>
+          ),
+        )}
+      </div>
 
       {isLast ? (
         <span className={cn(navItem, disabled)} aria-disabled="true">
-          Next
-          <ChevronRight className="w-4 h-4 ml-1" />
+          <span className="hidden sm:inline">Next</span>
+          <ChevronRight className="w-4 h-4 sm:ml-1" />
         </span>
       ) : (
         <Link
@@ -846,8 +850,8 @@ function Pagination({
           aria-label="Next page"
           className={cn(navItem, idle)}
         >
-          Next
-          <ChevronRight className="w-4 h-4 ml-1" />
+          <span className="hidden sm:inline">Next</span>
+          <ChevronRight className="w-4 h-4 sm:ml-1" />
         </Link>
       )}
     </nav>
