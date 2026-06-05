@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { notFound } from "next/navigation";
 import {
+  type LucideIcon,
   ChevronRight,
   ChevronLeft,
   Home,
@@ -13,6 +14,13 @@ import {
   Search,
   X,
   SlidersHorizontal,
+  Activity,
+  Baby,
+  Bone,
+  Brain,
+  Layers,
+  Scan,
+  ScanLine,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import {
@@ -40,11 +48,13 @@ interface ScanListingProps {
   familyPath: string;
   searchParams?: { q?: string; page?: string };
   /**
-   * When true, the listing is filtered entirely client-side with local state
-   * (no URL/query changes). When false (default), the sidebar links to other
-   * scan families and search/pagination are URL-driven.
+   * When true, the listing is filtered client-side, with the active group
+   * reflected in the URL path. When false (default), the sidebar links to
+   * other scan families and search/pagination are URL-driven.
    */
   localFilters?: boolean;
+  /** Active local-filter group from the route (e.g. .../ultrasound-scan/pregnancy). */
+  initialFilterKey?: string;
 }
 
 interface MarkdownSection {
@@ -175,6 +185,7 @@ export function ScanListing({
   familyPath,
   searchParams,
   localFilters = false,
+  initialFilterKey,
 }: ScanListingProps) {
   const category = getNonLabTestCategoryBySlug(familyPath);
   if (!category) notFound();
@@ -352,7 +363,12 @@ export function ScanListing({
         className="mx-auto max-w-7xl px-gutter py-8 lg:py-10 scroll-mt-18"
       >
         {localFilters ? (
-          <ScanLocalFilter tests={cardData} familyName={category.name} />
+          <ScanLocalFilter
+            tests={cardData}
+            familyName={category.name}
+            basePath={basePath}
+            initialFilterKey={initialFilterKey}
+          />
         ) : (
           <div className="grid gap-6 lg:gap-8 lg:grid-cols-[280px_1fr]">
             <FilterSidebar
@@ -537,6 +553,18 @@ export function ScanListing({
   );
 }
 
+/** Icon per scan family, keyed by its slug. */
+const FAMILY_ICONS: Record<string, LucideIcon> = {
+  "preventive-health-checks": ShieldCheck,
+  "msk-scan": Bone,
+  "ultrasound-scan": Activity,
+  "xray-scan": ScanLine,
+  "mri-scan": Brain,
+  "ct-scan": Layers,
+  "pregnancy-scan": Baby,
+};
+const DEFAULT_FAMILY_ICON = Scan;
+
 function FilterSidebar({
   scanFamilies,
   currentFamily,
@@ -590,7 +618,8 @@ function FilterSidebar({
           {scanFamilies.map((c) => (
             <li key={c.id}>
               <FamilyItem
-                href={`/bangalore/${c.slug}#scans`}
+                Icon={FAMILY_ICONS[c.slug] ?? DEFAULT_FAMILY_ICON}
+                href={`/bangalore/${c.slug}`}
                 active={c.slug === currentFamily}
                 label={c.name}
                 count={c.count}
@@ -604,11 +633,13 @@ function FilterSidebar({
 }
 
 function FamilyItem({
+  Icon,
   href,
   active,
   label,
   count,
 }: {
+  Icon: LucideIcon;
   href: string;
   active: boolean;
   label: string;
@@ -625,7 +656,15 @@ function FamilyItem({
           : "text-ink-700 hover:bg-cream-soft hover:text-orange-700",
       )}
     >
-      <span className="truncate">{label}</span>
+      <span className="flex items-center gap-2 min-w-0">
+        <Icon
+          className={cn(
+            "w-4 h-4 flex-shrink-0",
+            active ? "text-orange-600" : "text-ink-400",
+          )}
+        />
+        <span className="truncate">{label}</span>
+      </span>
       <span
         className={cn(
           "inline-flex items-center justify-center min-w-[1.75rem] h-5 px-1.5 rounded-pill text-caption font-bold flex-shrink-0",

@@ -11,14 +11,17 @@ import {
   Zap,
 } from "lucide-react";
 import {
+  getAllLabTestCategorySlugs,
   getAllLabTestSlugs,
   getDiscountedPriceNumber,
   getLabTestBySlug,
   getLabTestCategoryById,
+  getLabTestCategoryBySlug,
   getLabTestsByIds,
   getPriceNumber,
 } from "@/lib/data/labtests";
 import { labTestUrl } from "@/lib/urls";
+import { LabTestListing } from "@/components/labtests/LabTestListing";
 import { stripLeadingSlash } from "@/lib/data/types";
 import { MarkdownContent } from "@/components/shared/MarkdownContent";
 import { TestCard } from "@/components/shared/TestCard";
@@ -79,7 +82,10 @@ function splitMarkdownByH2(markdown: string): MarkdownSection[] {
 }
 
 export async function generateStaticParams() {
-  return getAllLabTestSlugs().map((slug) => ({ slug }));
+  // Individual test detail pages + category listing pages share this segment.
+  return [...getAllLabTestSlugs(), ...getAllLabTestCategorySlugs()].map(
+    (slug) => ({ slug }),
+  );
 }
 
 interface PageProps {
@@ -90,6 +96,21 @@ export async function generateMetadata({
   params,
 }: PageProps): Promise<Metadata> {
   const { slug } = await params;
+
+  // Category listing page (e.g. /bangalore/lab-test/blood-tests).
+  const category = getLabTestCategoryBySlug(slug);
+  if (category && !getLabTestBySlug(slug)) {
+    const title = `${category.name} in Bangalore | Cadabam's Diagnostics`;
+    return {
+      title,
+      description: `Book ${category.name.toLowerCase()} in Bangalore with home sample collection and reports in 6 hours.`,
+      alternates: {
+        canonical: `https://cadabamsdiagnostics.com/bangalore/lab-test/${slug}`,
+      },
+      openGraph: { title, url: `/bangalore/lab-test/${slug}`, type: "website" },
+    };
+  }
+
   const test = getLabTestBySlug(slug);
   if (!test) return {};
 
@@ -118,6 +139,13 @@ export async function generateMetadata({
 
 export default async function LabTestDetailPage({ params }: PageProps) {
   const { slug } = await params;
+
+  // If the slug is a category (and not a test), render the filtered listing.
+  const listingCategory = getLabTestCategoryBySlug(slug);
+  if (listingCategory && !getLabTestBySlug(slug)) {
+    return <LabTestListing initialCategorySlug={slug} />;
+  }
+
   const test = getLabTestBySlug(slug);
   if (!test) notFound();
 
@@ -227,7 +255,7 @@ export default async function LabTestDetailPage({ params }: PageProps) {
                   <BreadcrumbSeparator />
                   <BreadcrumbItem>
                     <BreadcrumbLink
-                      href={`/${CITY}/lab-test?category=${stripLeadingSlash(category.path)}`}
+                      href={`/${CITY}/lab-test/${stripLeadingSlash(category.path)}`}
                     >
                       {category.name}
                     </BreadcrumbLink>
@@ -247,7 +275,7 @@ export default async function LabTestDetailPage({ params }: PageProps) {
             <div className="space-y-3 sm:space-y-4 min-w-0">
               {category && (
                 <Link
-                  href={`/${CITY}/lab-test?category=${stripLeadingSlash(category.path)}`}
+                  href={`/${CITY}/lab-test/${stripLeadingSlash(category.path)}`}
                   className="inline-flex items-center gap-1.5 rounded-pill bg-cream-card border border-cream-line px-3 py-1 text-overline uppercase text-orange-700 font-bold hover:border-orange-200 transition-colors max-w-full"
                 >
                   <FlaskConical className="w-3.5 h-3.5 flex-shrink-0" />

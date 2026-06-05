@@ -1,6 +1,8 @@
 "use client";
 
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useMemo, useRef, useState } from "react";
+import Link from "next/link";
+import { useRouter } from "next/navigation";
 import {
   type LucideIcon,
   Activity,
@@ -24,6 +26,9 @@ import { cn } from "@/lib/utils";
 import { TestCard } from "@/components/shared/TestCard";
 
 const PAGE_SIZE = 18;
+const BASE_PATH = "/bangalore/lab-test";
+const categoryHref = (slug: string | null) =>
+  slug ? `${BASE_PATH}/${slug}` : BASE_PATH;
 
 /** Semantically relevant icon per category, keyed by its slug. */
 const CATEGORY_ICONS: Record<string, LucideIcon> = {
@@ -63,6 +68,8 @@ interface LabTestFilterProps {
   tests: LabTestCardVM[];
   categories: LabTestCategoryVM[];
   totalCount: number;
+  /** Category slug to pre-select on first render (from the route). */
+  initialCategorySlug?: string | null;
 }
 
 function buildPageWindow(current: number, total: number): (number | null)[] {
@@ -83,22 +90,30 @@ export function LabTestFilter({
   tests,
   categories,
   totalCount,
+  initialCategorySlug = null,
 }: LabTestFilterProps) {
-  // Local UI state. The active category can also be seeded once from a
-  // `?category=<slug>` query param (e.g. when arriving from the nav menu).
-  const [activeSlug, setActiveSlug] = useState<string | null>(null);
+  // Local UI state. The active category is seeded from the route (e.g.
+  // /bangalore/lab-test/blood-tests) so the listing opens pre-filtered.
+  const seededSlug =
+    initialCategorySlug &&
+    categories.some((c) => c.slug === initialCategorySlug)
+      ? initialCategorySlug
+      : null;
+  const router = useRouter();
+  const [activeSlug, setActiveSlug] = useState<string | null>(seededSlug);
   const [searchQuery, setSearchQuery] = useState("");
   const [page, setPage] = useState(1);
+  const [prevSeed, setPrevSeed] = useState(seededSlug);
   const resultsRef = useRef<HTMLDivElement>(null);
 
-  // Seed the active category from the URL on mount (kept out of the initial
-  // render to avoid a hydration mismatch).
-  useEffect(() => {
-    const slug = new URLSearchParams(window.location.search).get("category");
-    if (slug && categories.some((c) => c.slug === slug)) {
-      setActiveSlug(slug);
-    }
-  }, [categories]);
+  // The active category is driven by the route. When it changes (navigating
+  // between category URLs), sync local state during render — React's
+  // recommended alternative to an effect.
+  if (prevSeed !== seededSlug) {
+    setPrevSeed(seededSlug);
+    setActiveSlug(seededSlug);
+    setPage(1);
+  }
 
   const activeCategory = activeSlug
     ? categories.find((c) => c.slug === activeSlug) ?? null
@@ -122,12 +137,16 @@ export function LabTestFilter({
 
   const hasActiveFilters = Boolean(activeSlug) || trimmedQuery.length > 0;
 
-  function selectCategory(slug: string | null) {
-    setActiveSlug(slug);
-    setPage(1);
+  function onCategoryNavigate() {
     // Bring the listing into view — on mobile the filters stack above the
     // results, so the freshly filtered tests would otherwise be off-screen.
     resultsRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+
+  function clearCategory() {
+    setActiveSlug(null);
+    setPage(1);
+    router.push(BASE_PATH);
   }
 
   function clearSearch() {
@@ -137,8 +156,7 @@ export function LabTestFilter({
 
   function clearAll() {
     setSearchQuery("");
-    setActiveSlug(null);
-    setPage(1);
+    clearCategory();
   }
 
   function goToPage(p: number) {
@@ -186,7 +204,8 @@ export function LabTestFilter({
                 active={activeSlug === null}
                 label="All tests"
                 count={totalCount}
-                onSelect={() => selectCategory(null)}
+                href={categoryHref(null)}
+                onNavigate={onCategoryNavigate}
               />
             </li>
             {categories.map((c) => (
@@ -196,7 +215,8 @@ export function LabTestFilter({
                   active={activeSlug === c.slug}
                   label={c.name}
                   count={c.count}
-                  onSelect={() => selectCategory(c.slug)}
+                  href={categoryHref(c.slug)}
+                  onNavigate={onCategoryNavigate}
                 />
               </li>
             ))}
@@ -242,10 +262,7 @@ export function LabTestFilter({
                 />
               )}
               {activeCategory && (
-                <FilterChip
-                  label={activeCategory.name}
-                  onRemove={() => selectCategory(null)}
-                />
+                <FilterChip label={activeCategory.name} onRemove={clearCategory} />
               )}
               <button
                 type="button"
@@ -300,18 +317,20 @@ function CategoryItem({
   active,
   label,
   count,
-  onSelect,
+  href,
+  onNavigate,
 }: {
   Icon: LucideIcon;
   active: boolean;
   label: string;
   count: number;
-  onSelect: () => void;
+  href: string;
+  onNavigate?: () => void;
 }) {
   return (
-    <button
-      type="button"
-      onClick={onSelect}
+    <Link
+      href={href}
+      onClick={onNavigate}
       aria-current={active ? "page" : undefined}
       className={cn(
         "w-full flex items-center justify-between gap-2 rounded-md px-3 py-2 text-body-sm font-semibold transition-colors text-left",
@@ -337,7 +356,7 @@ function CategoryItem({
       >
         {count}
       </span>
-    </button>
+    </Link>
   );
 }
 

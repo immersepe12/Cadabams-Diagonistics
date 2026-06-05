@@ -20,7 +20,7 @@ export interface TrustBadgeItem {
  * centered auto-advancing carousel; on desktop they sit in a static 4-up grid.
  */
 export function TrustBadges({ items }: { items: TrustBadgeItem[] }) {
-  const autoplay = React.useRef(
+  const [autoplay] = React.useState(() =>
     Autoplay({ delay: 2000, stopOnInteraction: false, stopOnMouseEnter: true }),
   );
 
@@ -31,7 +31,7 @@ export function TrustBadges({ items }: { items: TrustBadgeItem[] }) {
       {/* Mobile: one badge per slide, horizontally centered */}
       <Carousel
         opts={{ loop: true, align: "start" }}
-        plugins={[autoplay.current]}
+        plugins={[autoplay]}
         className="lg:hidden"
       >
         <CarouselContent>

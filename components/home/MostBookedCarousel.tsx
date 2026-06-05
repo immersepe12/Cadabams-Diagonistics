@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 import { ChevronLeft, ChevronRight, Stethoscope } from "lucide-react";
 import Autoplay from "embla-carousel-autoplay";
 import { cn } from "@/lib/utils";
@@ -38,7 +38,7 @@ export function MostBookedCarousel({ items }: { items: MostBookedItem[] }) {
   const [api, setApi] = useState<CarouselApi>();
   const [canPrev, setCanPrev] = useState(false);
   const [canNext, setCanNext] = useState(false);
-  const autoplay = useRef(
+  const [autoplay] = useState(() =>
     Autoplay({ delay: 3500, stopOnInteraction: false, stopOnMouseEnter: true }),
   );
 
@@ -63,7 +63,7 @@ export function MostBookedCarousel({ items }: { items: MostBookedItem[] }) {
       <Carousel
         setApi={setApi}
         opts={{ align: "start", loop: true }}
-        plugins={[autoplay.current]}
+        plugins={[autoplay]}
         className="w-full"
       >
         <CarouselContent className="-ml-4">

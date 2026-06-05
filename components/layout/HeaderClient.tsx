@@ -379,7 +379,7 @@ export function HeaderClient({
               { name: "All lab tests", href: "/bangalore/lab-test" },
               ...labTestCategories.map((c) => ({
                 name: c.name,
-                href: `/bangalore/lab-test?category=${c.slug}`,
+                href: `/bangalore/lab-test/${c.slug}`,
               })),
             ]}
             pathname={pathname}

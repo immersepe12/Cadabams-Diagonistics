@@ -1,7 +1,9 @@
 "use client";
 
+import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
-import { Phone, X } from "lucide-react";
+import { Phone, ShoppingCart, X } from "lucide-react";
+import { useCartStore, useCartHydrated, selectCount } from "@/lib/cart/store";
 
 const PHONE_NUMBER = "+919900664696";
 const WHATSAPP_NUMBER = "919538593355";
@@ -28,6 +30,10 @@ export function FloatingContactCTA() {
   const [message, setMessage] = useState("");
   const panelRef = useRef<HTMLDivElement>(null);
   const firstFieldRef = useRef<HTMLInputElement>(null);
+
+  const cartHydrated = useCartHydrated();
+  const cartCount = useCartStore(selectCount);
+  const showCart = cartHydrated && cartCount > 0;
 
   const isOpen = mode !== null;
 
@@ -220,6 +226,19 @@ export function FloatingContactCTA() {
             </p>
           </form>
         </div>
+      )}
+
+      {showCart && (
+        <Link
+          href="/cart"
+          aria-label={`View cart, ${cartCount} ${cartCount === 1 ? "item" : "items"}`}
+          className="relative inline-flex items-center justify-center w-11 h-11 sm:w-14 sm:h-14 rounded-pill bg-ink-900 text-white shadow-sh-3 ring-2 ring-white hover:brightness-110 active:scale-95 transition-[filter,transform] duration-150 animate-in fade-in zoom-in-90"
+        >
+          <ShoppingCart className="w-5 h-5 sm:w-6 sm:h-6" />
+          <span className="absolute -top-1.5 -right-1.5 min-w-[1.25rem] h-5 px-1 inline-flex items-center justify-center rounded-pill bg-orange-500 text-white text-[11px] font-bold leading-none ring-2 ring-white tabular-nums">
+            {cartCount > 99 ? "99+" : cartCount}
+          </span>
+        </Link>
       )}
 
       <button

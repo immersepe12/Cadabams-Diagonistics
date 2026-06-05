@@ -30,7 +30,7 @@ function FeatureBadge({ feature }: { feature: HomeFeature }) {
 }
 
 export function HeroFeatures({ features }: { features: HomeFeature[] }) {
-  const autoplay = React.useRef(
+  const [autoplay] = React.useState(() =>
     Autoplay({
       delay: 2000,
       stopOnInteraction: false,
@@ -45,7 +45,7 @@ export function HeroFeatures({ features }: { features: HomeFeature[] }) {
       {/* Mobile: infinite moving carousel */}
       <Carousel
         opts={{ loop: true, align: "start", dragFree: true }}
-        plugins={[autoplay.current]}
+        plugins={[autoplay]}
         className="sm:hidden"
       >
         <CarouselContent className="-ml-4">

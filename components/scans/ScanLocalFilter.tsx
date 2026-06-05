@@ -1,24 +1,18 @@
 "use client";
 
 import { useMemo, useRef, useState } from "react";
+import { useRouter } from "next/navigation";
 import {
   type LucideIcon,
-  Activity,
-  Baby,
   ChevronLeft,
   ChevronRight,
-  Crosshair,
-  Heart,
-  Layers,
-  Ribbon,
-  Scan,
   Search,
   SlidersHorizontal,
-  Stethoscope,
   X,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { TestCard } from "@/components/shared/TestCard";
+import { SCAN_FILTER_GROUPS as FILTER_GROUPS } from "@/components/scans/scanFilterGroups";
 
 const PAGE_SIZE = 18;
 
@@ -31,54 +25,6 @@ export interface ScanTestCardVM {
   reportTime?: string;
   href: string;
 }
-
-interface FilterGroup {
-  key: string;
-  label: string;
-  Icon: LucideIcon;
-  /** Matches against the UPPER-cased test name. `null` = matches everything. */
-  match: RegExp | null;
-}
-
-/**
- * Local, keyword-derived filter groups for the ultrasound listing. Membership
- * is computed from the test name — a scan can belong to more than one group.
- */
-const FILTER_GROUPS: FilterGroup[] = [
-  { key: "all", label: "All scans", Icon: Layers, match: null },
-  {
-    key: "pregnancy",
-    label: "Pregnancy & Obstetric",
-    Icon: Baby,
-    match: /PREGNAN|OBSTETRIC|FETAL|TIFFA|ANOMALY|NT SCAN|DATING|FOLLICULAR|BPP|GROWTH/,
-  },
-  { key: "doppler", label: "Doppler", Icon: Activity, match: /DOPPLER/ },
-  { key: "breast", label: "Breast", Icon: Ribbon, match: /BREAST/ },
-  {
-    key: "abdomen",
-    label: "Abdomen & Pelvis",
-    Icon: Scan,
-    match: /ABDOMEN|PELVIS/,
-  },
-  {
-    key: "thyroid",
-    label: "Thyroid & Neck",
-    Icon: Stethoscope,
-    match: /THYROID|NECK/,
-  },
-  {
-    key: "cardiac",
-    label: "Cardiac",
-    Icon: Heart,
-    match: /ECHOCARDIOGRAM|TREADMILL|CARDIAC|\bHEART\b/,
-  },
-  {
-    key: "guided",
-    label: "Guided Procedures",
-    Icon: Crosshair,
-    match: /GUIDED|BIOPSY|FNAC/,
-  },
-];
 
 function buildPageWindow(current: number, total: number): (number | null)[] {
   if (total <= 7) return Array.from({ length: total }, (_, i) => i + 1);
@@ -97,15 +43,37 @@ function buildPageWindow(current: number, total: number): (number | null)[] {
 export function ScanLocalFilter({
   tests,
   familyName,
+  basePath,
+  initialFilterKey,
 }: {
   tests: ScanTestCardVM[];
   familyName: string;
+  /** Family listing base path, e.g. /bangalore/ultrasound-scan. */
+  basePath: string;
+  /** Group key from the route (e.g. /bangalore/ultrasound-scan/pregnancy). */
+  initialFilterKey?: string;
 }) {
-  // Purely local UI state — no URL/query interaction whatsoever.
-  const [activeKey, setActiveKey] = useState("all");
+  const router = useRouter();
+
+  // The active group is part of the URL path so the filtered view is
+  // shareable and the address bar updates on every click.
+  const seededKey =
+    initialFilterKey && FILTER_GROUPS.some((g) => g.key === initialFilterKey)
+      ? initialFilterKey
+      : "all";
+  const [activeKey, setActiveKey] = useState(seededKey);
   const [searchQuery, setSearchQuery] = useState("");
   const [page, setPage] = useState(1);
+  const [prevSeed, setPrevSeed] = useState(seededKey);
   const resultsRef = useRef<HTMLDivElement>(null);
+
+  // Sync state when navigating between group URLs — during render rather than
+  // in an effect (React's recommended pattern).
+  if (prevSeed !== seededKey) {
+    setPrevSeed(seededKey);
+    setActiveKey(seededKey);
+    setPage(1);
+  }
 
   // Precompute the upper-cased name once per test for matching/search.
   const indexed = useMemo(
@@ -151,6 +119,9 @@ export function ScanLocalFilter({
   function selectGroup(key: string) {
     setActiveKey(key);
     setPage(1);
+    router.push(key === "all" ? basePath : `${basePath}/${key}`, {
+      scroll: false,
+    });
     // Bring the listing into view — on mobile the filters stack above the
     // results, so the freshly filtered scans would otherwise be off-screen.
     resultsRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
@@ -163,8 +134,7 @@ export function ScanLocalFilter({
 
   function clearAll() {
     setSearchQuery("");
-    setActiveKey("all");
-    setPage(1);
+    selectGroup("all");
   }
 
   function goToPage(p: number) {

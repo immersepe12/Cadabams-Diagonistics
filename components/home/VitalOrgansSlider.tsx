@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import Autoplay from "embla-carousel-autoplay";
 import {
@@ -15,7 +15,7 @@ export function VitalOrgansSlider({ items }: { items: VitalOrganItem[] }) {
   const [api, setApi] = useState<CarouselApi>();
   const [canPrev, setCanPrev] = useState(false);
   const [canNext, setCanNext] = useState(false);
-  const autoplay = useRef(
+  const [autoplay] = useState(() =>
     Autoplay({ delay: 3000, stopOnInteraction: false, stopOnMouseEnter: true }),
   );
 
@@ -40,7 +40,7 @@ export function VitalOrgansSlider({ items }: { items: VitalOrganItem[] }) {
       <Carousel
         setApi={setApi}
         opts={{ align: "start", loop: true }}
-        plugins={[autoplay.current]}
+        plugins={[autoplay]}
         className="w-full"
       >
         <CarouselContent className="-ml-3 sm:-ml-4">
