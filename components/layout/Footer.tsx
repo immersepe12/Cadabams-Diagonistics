@@ -173,7 +173,7 @@ function FooterColumnBlock({ column }: { column: FooterColumn }) {
           <li key={l.label + l.href}>
             <Link
               href={l.href}
-              className="text-body-sm text-ink-300 hover:text-white transition-colors duration-150 focus-visible:outline-none focus-visible:underline"
+              className="text-body-sm text-ink-300 hover:text-orange-400 transition-colors duration-150 focus-visible:outline-none focus-visible:text-orange-400 focus-visible:underline"
             >
               {l.label}
             </Link>

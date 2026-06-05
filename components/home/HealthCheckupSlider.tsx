@@ -3,9 +3,9 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
-import { ChevronLeft, ChevronRight, Clock, Users } from "lucide-react";
+import { ChevronLeft, ChevronRight, Clock, Users, ArrowRight } from "lucide-react";
 import Autoplay from "embla-carousel-autoplay";
-import { AddToCartButton } from "@/components/shared/AddToCartButton";
+import { BookNowButton } from "@/components/shared/BookNowButton";
 import { Badge } from "@/components/ui/badge";
 import {
   Carousel,
@@ -183,7 +183,7 @@ export function HealthCheckupSlider({
                       </div>
 
                       <div className="mt-auto pt-2.5">
-                        <AddToCartButton
+                        <BookNowButton
                           item={{
                             id: card.id,
                             name: card.title,
@@ -192,9 +192,11 @@ export function HealthCheckupSlider({
                             href: card.detailHref,
                             kind: "Lab Test",
                           }}
-                          label="Add to cart"
                           className="w-full inline-flex items-center justify-center gap-1.5 rounded-pill bg-gradient-cta text-white font-bold px-3 py-2 text-body-sm whitespace-nowrap shadow-glow-orange hover:brightness-110 active:scale-[0.98] transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-300 [&_svg]:w-3.5 [&_svg]:h-3.5 [&_svg]:flex-shrink-0"
-                        />
+                        >
+                          Buy now
+                          <ArrowRight className="w-4 h-4" />
+                        </BookNowButton>
                       </div>
                     </div>
                   </article>

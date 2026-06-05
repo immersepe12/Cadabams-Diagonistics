@@ -32,24 +32,33 @@ export function SiteFooterArea() {
     href: centerUrl(c),
   }));
 
+  const tagSections = [
+    {
+      key: "lab-tests",
+      overline: "Discover more",
+      title: "Related lab tests",
+      tags: labTestTags,
+    },
+    {
+      key: "scans",
+      overline: "Imaging",
+      title: "Popular radiology scans",
+      tags: scanTags,
+      className: "py-5 lg:py-6 bg-cream-soft",
+    },
+    {
+      key: "centres",
+      overline: "Locations",
+      title: "Our top diagnostic centres",
+      tags: centreTags,
+    },
+  ];
+
   return (
     <>
-      <TestTagsSection
-        overline="Discover more"
-        title="Related lab tests"
-        tags={labTestTags}
-      />
-      <TestTagsSection
-        overline="Imaging"
-        title="Popular radiology scans"
-        tags={scanTags}
-        className="py-12 lg:py-16 bg-cream-soft"
-      />
-      <TestTagsSection
-        overline="Locations"
-        title="Our top diagnostic centres"
-        tags={centreTags}
-      />
+      {tagSections.map(({ key, ...section }) => (
+        <TestTagsSection key={key} variant="column" {...section} />
+      ))}
       <AboutBlurb paragraphs={ABOUT_PARAGRAPHS} />
       <Footer />
     </>

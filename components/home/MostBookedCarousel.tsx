@@ -72,12 +72,12 @@ export function MostBookedCarousel({ items }: { items: MostBookedItem[] }) {
             return (
               <CarouselItem
                 key={c.id}
-                className="pl-4 basis-1/2 lg:basis-1/3"
+                className="pl-4 basis-1/2 lg:basis-1/4"
               >
                 <Link
                   href={c.href}
                   className={cn(
-                    "group relative block h-44 sm:h-48 lg:h-56 rounded-2xl overflow-hidden text-white shadow-sh-2 hover:shadow-sh-3 hover:-translate-y-1 motion-reduce:hover:translate-y-0 transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-cream-bg",
+                    "group relative block h-[124px] sm:h-[140px] lg:h-[156px] rounded-2xl overflow-hidden text-white shadow-sh-2 hover:shadow-sh-3 hover:-translate-y-1 motion-reduce:hover:translate-y-0 transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-cream-bg",
                     tone,
                   )}
                 >
@@ -90,26 +90,26 @@ export function MostBookedCarousel({ items }: { items: MostBookedItem[] }) {
                     className="absolute -bottom-16 -left-10 w-28 h-28 rounded-pill bg-white/5 group-hover:scale-110 transition-transform duration-500"
                   />
 
-                  <div className="relative h-full p-4 sm:p-5 flex flex-col justify-between">
-                    <div className="w-11 h-11 sm:w-14 sm:h-14 rounded-xl sm:rounded-2xl bg-cream-card shadow-sh-2 inline-flex items-center justify-center overflow-hidden">
+                  <div className="relative h-full p-4 flex flex-col gap-3">
+                    <div className="w-11 h-11 sm:w-12 sm:h-12 rounded-xl bg-cream-card shadow-sh-2 inline-flex items-center justify-center overflow-hidden">
                       {c.icon && c.icon.length > 0 ? (
                         <Image
                           src={c.icon}
                           alt=""
                           width={36}
                           height={36}
-                          className="object-contain w-7 h-7 sm:w-9 sm:h-9"
+                          className="object-contain w-7 h-7 sm:w-8 sm:h-8"
                         />
                       ) : (
                         <Stethoscope className="w-6 h-6 sm:w-7 sm:h-7 text-orange-600" />
                       )}
                     </div>
 
-                    <div>
-                      <h3 className="text-body-sm sm:text-h2 font-bold leading-tight">
+                    <div className="mt-auto">
+                      <h3 className="text-body-sm sm:text-h3 font-bold leading-tight">
                         {c.title}
                       </h3>
-                      <span className="mt-2 sm:mt-3 inline-flex items-center gap-1.5 text-caption sm:text-meta font-semibold text-white/90 group-hover:text-white">
+                      <span className="mt-1.5 inline-flex items-center gap-1.5 text-caption sm:text-meta font-semibold text-white/90 group-hover:text-white">
                         Explore
                         <ChevronRight className="w-3.5 h-3.5 transition-transform duration-200 group-hover:translate-x-1" />
                       </span>

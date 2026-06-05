@@ -10,9 +10,9 @@ import {
   getAllNonLabTestCategories,
   getNonLabTestCategoryById,
 } from "@/lib/data/nonlabtests";
-import { getAllCenters } from "@/lib/data/centers";
+import { getAllCenters, getCenterShortName } from "@/lib/data/centers";
 import { getNavbar } from "@/lib/data/navbars";
-import { labTestUrl } from "@/lib/urls";
+import { centerUrl, labTestUrl } from "@/lib/urls";
 
 import { HeroSection } from "@/components/home/HeroSection";
 import {
@@ -70,7 +70,14 @@ const FAQS: FaqItem[] = [
 export default function HomePage() {
   const home = getHomepage();
   const navbar = getNavbar();
-  const primaryCenter = getAllCenters()[0];
+  const allCenters = getAllCenters();
+  const primaryCenter = allCenters[0];
+  const visitCenters = allCenters.map((c) => ({
+    name: getCenterShortName(c),
+    address: c.center_info.address.replace(/\s+/g, " ").trim(),
+    href: centerUrl(c),
+    mapUrl: c.center_info.map_location,
+  }));
 
   const featuredCards: FeaturedTestCard[] = getLabTestsByIds(
     home.test_card.tests,
@@ -170,7 +177,7 @@ export default function HomePage() {
         logo={navbar.content.logo}
         phone={primaryCenter?.center_info.phone.split(",")[0]?.trim()}
         email={primaryCenter?.center_info.email}
-        address={primaryCenter?.center_info.address}
+        centers={visitCenters}
       />
     </main>
   );
