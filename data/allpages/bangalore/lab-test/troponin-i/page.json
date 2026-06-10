@@ -104,307 +104,51 @@
   "category": {
     "id": "671b5104ad9bf8d210384d2a",
     "name": "Heart",
-    "tests": [
-      "6790d12cc75a5739655a84ce",
-      "67938894c75a5739655ac8d1",
-      "67938b5ec75a5739655ac994",
-      "681da88916444f3c11590288"
-    ],
     "image": "/lab-tests/image-1729664060898-855644468.webp",
-    "path": "/heart-tests",
-    "createdAt": "2024-10-23T06:14:56.868Z",
-    "updatedAt": "2024-10-23T06:14:56.868Z",
-    "markdown": "Heart Tests"
+    "path": "/heart-tests"
   },
   "relatedTests": [
     {
       "id": "6790d12cc75a5739655a84ce",
-      "templateName": "labtest",
       "testName": "CHOLESTEROL TOTAL",
       "route": "/cholestrol-total-test-ctt",
       "basic_info": {
         "name": "CHOLESTEROL TOTAL",
-        "route": "/cholestrol-total-test-ctt",
         "categoryId": "671b5104ad9bf8d210384d2a",
-        "testId": 7766189,
+        "price": 150,
         "discount": "5",
         "discountedPrice": "142.50",
         "reportsWithin": "3 hrs",
-        "Identifies": "Total cholesterol levels in the blood ",
-        "measures": "The amount of cholesterol in the blood, including low density lipoprotein plus high density lipoprotein.",
-        "price": 150,
         "testCategory": "Biochemistry"
-      },
-      "requisites": [
-        {
-          "value": "9 to 12 hours fasting, and no exercising or smoking prior to the test. "
-        }
-      ],
-      "packages": [],
-      "faqs": [
-        {
-          "question": "What is the difference between LDL and HDL cholesterol? ",
-          "answer": "LDL cholesterol is harmful to your health as it accumulates within your arteries. HDL (“good” cholesterol) does the opposite by removing cholesterol from your arteries."
-        },
-        {
-          "question": "How often should I take the Cholesterol Total test?  ",
-          "answer": "This test is based on your personally identified risk factors along with your medical profile. Your doctor will provide a schedule that works for you."
-        },
-        {
-          "question": " Is it fine to eat before taking the Cholesterol Total test?  ",
-          "answer": "No. You must abstain from eating for 9-12 hours before the test for it to have accurate results."
-        }
-      ],
-      "interpretations": {
-        "title": "The results table for the Total Cholesterol Test will include the necessary calculations, as well as records for clinical symptoms and vital signs.   Some normal results and descriptions are provided below: ",
-        "cols": [
-          "Condition/Findings ",
-          "Description ",
-          "Interpretation "
-        ],
-        "rows": [
-          [
-            "High Total Cholesterol ",
-            "Total cholesterol levels above 200 mg/dL ",
-            "High risk of heart disease and stroke. "
-          ],
-          [
-            "High LDL Cholesterol ",
-            "LDL cholesterol levels above 100 mg/dL ",
-            "High risk of heart disease and stroke. "
-          ],
-          [
-            "Low HDL Cholesterol",
-            "HDL cholesterol levels below 40 mg/dL ",
-            "High risk of heart disease and stroke. "
-          ],
-          [
-            "High Triglycerides ",
-            "Triglyceride levels above 150 mg/dL ",
-            "High risk of pancreatitis and cardiovascular disease. "
-          ]
-        ]
-      },
-      "relative_test": {
-        "title": "Heart",
-        "categoryId": "671b5104ad9bf8d210384d2a",
-        "tests": []
-      },
-      "seo": {
-        "title": "Cholesterol Total Test  in  Bangalore  | Cadabams Diagnostics",
-        "description": "\" Book Cholesterol Total Test  in  Bangalore with Cadabams Diagnostics to Measure\nThe amount of cholesterol in the blood and Identifie\nTotal cholesterol levels \"",
-        "keywords": "",
-        "canonicalUrl": "",
-        "ogTitle": "",
-        "ogDescription": "",
-        "ogImage": "",
-        "schemaMarkup": "",
-        "robotsMeta": ""
-      },
-      "markdown": "## What Is a Cholesterol Total Test and Why Is It Important?\n\nCholesterol plays a major role regarding your overall health. It needs to be monitored constantly and effectively. A Cholesterol Total test is a straightforward blood test that checks the cholesterol level in your body. If your cholesterol level is too high, it can lead to heart disease and stroke which makes this test necessary. The main reason as to why this test is performed is to identify the risk of drugs treatment (if there is any).\n\nThe Cholesterol Total test makes use of a technological advancement termed as Spectrophotometry, which quantifies cholesterol levels in blood. It consists of drawing out blood that's sent to the lab.\n\nFrom the blood sample, a spectrum is visible along with distinct spectrums for different components of blood. This process allows for the calculation of all cholesterol present inclusive of LDL as well as HDL cholesterol.\n\n## What Does the Test Measure?\n\nThe Cholesterol Total test assesses the cholesterol levels in the bloodstream by measuring:\n\n- Low Density Lipoprotein (LDL) or commonly referred to as “bad cholesterol”\n- High Density Lipoprotein (HDL) or known as the “good cholesterol”\n- Very Low-Density Lipoprotein (VLDL) Cholesterol\n\n## When Is the Test Taken Mostly?\n\nTypically, the cholesterol total test is taken:\n\n- During a routine examination as part of cardiovascular risk assessment.\n- To check if a case of a high cholesterol treatment is effective.\n- For diagnosis and follow up of hypercholesterolemia, particularly familial types.\n\n## Are There Risks or Limitations to Be Considered with the Test?\n\nThe Cholesterol Total test poses no major risks. However, some limitations include:\n\n- If fasting was not adhered to prior to the test, this can affect the results.\n- Certain medical conditions especially liver or kidney disease may limit the suitability of the test.\n- There are some disorders associated with cholesterol that will not be picked up by the test.\n\n## What Are the Parameters Evaluated Under the Test?\n\nThe following parameters are evaluated from the Cholesterol Total test:\n\n- Total Cholesterol level\n- LDL Cholesterol level\n- HDL Cholesterol level\n- VLDL Cholesterol level\n- Triglyceride Level\n\n## Who Should Consider Taking the Cholesterol Total Test?\n\nYour cholesterol total test should be Cholesterol Total if you:\n\n- Are over 20 years old\n- Have a family history of high cholesterol or heart disease\n- Are overweight or obese\n- Smoke or are ex-smokers\n- Suffer from diabetes or hypertension\n\n## The Advantages of the Cholesterol Total Test for Your Health\n\nThe Cholesterol Total test aids in:\n\n- Determining the presence of high cholesterol levels that may heighten your chances of heart illness or experiencing a stroke\n- Checking how effective treatment for high cholesterol is working\n- Diagnosing and keeping track of familial hypercholesterolemia\n- Instigating measures to promote a healthier lifestyle for reduced cardiovascular complications\n\n## What Conditions Can the Cholesterol Total Test Diagnose?\n\n- High cholesterol\n- Familial hypercholesterolemia\n- Hyperlipidaemia\n- Cardiovascular disease\n\n## Preparing for Your Cholesterol Total Test\n\nFor preparations for your Cholesterol Total test:\n\n- Fast for 9-12 hours before the test\n- Avoid exercise or smoking before the test\n- Inform your healthcare provider of any medications or supplements you are taking\n\n**Prerequisites**: None\n\n**Eligibility**: Anyone can take the test, but it is usually recommended for adults over 20 years old\n\n**Procedure for Taking the Test**: A healthcare professional will take a sample of your blood from a vein in your arm\n\n**Caution Before the Test**: Inform your healthcare provider if you have any bleeding disorders or are taking any medications that may affect the test results"
+      }
     },
     {
       "id": "67938894c75a5739655ac8d1",
-      "templateName": "labtest",
       "testName": "HDL CHOLESTEROL",
       "route": "/hdl-cholestrol-test-hdlct",
       "basic_info": {
         "name": "HDL CHOLESTEROL",
-        "route": "/hdl-cholestrol-test-hdlct",
         "categoryId": "671b5104ad9bf8d210384d2a",
-        "testId": 7766114,
+        "price": 385,
         "discount": "0",
         "discountedPrice": "385.00",
         "reportsWithin": "3 hrs",
-        "Identifies": "Blood level of HDL cholesterol ",
-        "measures": "Concentration of HDL cholesterol in milligrams per decilitre (mg/dL) ",
-        "price": 385,
         "testCategory": "Biochemistry"
-      },
-      "requisites": [
-        {
-          "value": "9 to 12 hours fasting is critical for this test. "
-        }
-      ],
-      "packages": [],
-      "faqs": [
-        {
-          "question": "What does the HDL cholesterol test measure? ",
-          "answer": "This test assesses your HDL cholesterol levels. HDL is the cholesterol that helps clear other cholesterols from the blood."
-        },
-        {
-          "question": "How long do I have to fast before the test? ",
-          "answer": "You must fast for 9-12 hours before the test to achieve the best results."
-        },
-        {
-          "question": " What will the results of my HDL Cholesterol test mean? ",
-          "answer": "These results will provide information about your HDL cholesterol which helps define your risk for heart disease."
-        }
-      ],
-      "interpretations": {
-        "title": "Results Regarding the Results of HDL Cholesterol Test ",
-        "cols": [
-          "Condition/Findings ",
-          "Description ",
-          "Interpretation "
-        ],
-        "rows": [
-          [
-            "HDL cholesterol (mg/dL) ",
-            "60 mg/dL or higher ",
-            "High HDL cholesterol - desirable range "
-          ],
-          [
-            "",
-            "50-59 mg/dL ",
-            "Normal HDL cholesterol - considered acceptable "
-          ],
-          [
-            "",
-            "Less than 50 mg/dL ",
-            "Low HDL cholesterol - increased risk of heart disease "
-          ],
-          [
-            "HDL Lower than LDL ",
-            "",
-            "Indicates normal conditions "
-          ]
-        ]
-      },
-      "relative_test": {
-        "title": "Heart",
-        "categoryId": "671b5104ad9bf8d210384d2a",
-        "tests": [
-          {
-            "id": "6790d12cc75a5739655a84ce",
-            "testName": "CHOLESTEROL TOTAL",
-            "route": "/cholestrol-total-test-ctt"
-          },
-          {
-            "id": "67938b5ec75a5739655ac994",
-            "testName": "LDL CHOLESTEROL",
-            "route": "/ldl-cholestrol-test-ldlct"
-          }
-        ]
-      },
-      "seo": {
-        "title": "HDL Cholesterol Test in Bangalore | Heart Health Check",
-        "description": "Check your heart health with an HDL cholesterol test in Bangalore. Get fast and reliable reports today.",
-        "keywords": "",
-        "canonicalUrl": "",
-        "ogTitle": "",
-        "ogDescription": "",
-        "ogImage": "",
-        "schemaMarkup": "",
-        "robotsMeta": ""
-      },
-      "markdown": "## HDL Cholesterol Test: What Is It and Why is it Important?\n\nHDL cholesterol test assesses what percentage of someone's blood is composed of high-density lipoprotein cholesterol (HDL). As does other types of cholesterol, HDL cholesterol also exists in the blood and HDL is referred to as \"good\" cholesterol because it helps get rid of other forms of cholesterol present in the bloodstream. This is important as the HDL Mol will determine what listing of heart disease that you’re susceptible to.\n\nThe preservation of blood components is done by determination of the amount of HDL cholesterol contained in it by means of the spectrophotometry. This is achieved by illuminating a sample of the blood with light of specified wavelengths, which ultimately measures the amounts of HDL's cholesterol are in the sample. Knowing one's HDL cholesterol levels can prove vital. Your healthcare provider can formulate a test for cardiovascular system heart disease if ascertaining your information would reveal the answer is yes.\n\n## What Does the HDL Cholesterol Test Measure?\n\nThe HDL Cholesterol Test calculates how much HDL Cholesterol is in your blood. It is measured in milligrams per decilitre (mg/dL). This measure indicates the level of good cholesterol present which hinders other forms of cholesterol from accumulating in the blood.\n\n## When is the HDL Cholesterol Test Usually Taken?\n\nThe HDL Cholesterol test is often taken with some other tests as a part of a routine medical examination. It may also be taken:\n\n- Along with the lipid profile to confirm the presence of hyperlipidaemia.\n- To monitor the patients on cholesterol lowering drugs.\n- For preventive assessment of cardiovascular diseases in individuals with known family history of heart conditions.\n\n## Are There Any Risks or Limitations to the HDL Cholesterol Test?\n\nAny risks linked to this test are minor however discomfort or bruises can be experienced at the area where the blood is drawn from.\n\n**Disadvantages:**\n\n- Malnutrition and liver disease can limit the efficacy of the HDL cholesterol tests results.\n- It may be necessary to conduct other investigations like the LDL cholesterol tests to comprehensively assess your cholesterol status.\n\n## What are the components in the HDL cholesterol test?\n\nAs with other parameters, the HDL cholesterol test is comprised of:\n\n- HDL cholesterol level those over 20 old who are men or 35 years old if female, done in mg/dL.\n- Additional age, sex and medical history need to be considered when assessing heart disease risk.\n- Some conditions like diabetes may result in increased desirable HDL cholesterol levels.\n- Evaluate the progress related to the cholesterol Reducing medications.\n- Recommend better lifestyle changes to raise the levels of HDL cholesterol.\n\n## Who Should Consider Taking the LDL Cholesterol Test?\n\nThe LDL cholesterol test is recommended for:\n\n- Adults aged 20-75 years, as part of a routine lipid profile.\n- Individuals with heart disease risks such as high BP, diabetes, or a family history with heart problems.\n- Persons with a personal history of heart diseases and or strokes.\n- Women who are pregnant or planning to become pregnant.\n\n## The Advantages of the LDL Cholesterol Test for Your Wellbeing\n\nHealthcare professionals use the healthcare diagnostic parameters gathered from the LDL test to:\n\n- Determine who has the greatest risk of coronary heart disease.\n- Create specific plans to lower health risks.\n- Ensure that the patients who are helping lower cholesterol effectively do respond to treatment.\n- Suggestions for change sum up day to day diet and exercise.\n\n## What Diseases Are Able to Be Confirmed by the HDL Cholesterol Test?\n\nSome health issues that the HDL cholesterol test can confirm are:\n\n- HDL cholesterol deficiency\n- Cholesterol excess\n- Heart ailment\n- Issues relating to the heart and blood vessels\n\n## How To Do Preparations for the HDL Cholesterol Test\n\nBefore the test is done, you must do the following:\n\n- Abstain from eating or drinking anything for a period of 9-12 hours.\n- Discuss with your physician any current medications you are taking.\n\n**Prerequisites:** Fasting is required.\n\n**Eligibility:** It is recommended for everyone after 20 years of age.\n\n**Procedure of doing the test:** Blood is drawn with a needle from any vein in the arm.\n\n**Caution Before the Test:** The patient should not eat within 9-12 hours before the test as this will make the results inaccurate."
+      }
     },
     {
       "id": "67938b5ec75a5739655ac994",
-      "templateName": "labtest",
       "testName": "LDL CHOLESTEROL",
       "route": "/ldl-cholestrol-test-ldlct",
       "basic_info": {
         "name": "LDL CHOLESTEROL",
-        "route": "/ldl-cholestrol-test-ldlct",
         "categoryId": "671b5104ad9bf8d210384d2a",
-        "testId": 7766190,
+        "price": 350,
         "discount": "0",
         "discountedPrice": "350.00",
         "reportsWithin": "3 hrs",
-        "Identifies": "Measures the density of the low-density lipoprotein (LDL) within the bloodstream. ",
-        "measures": "LDL cholesterol concentration in blood serum: in mg/dL (milligrams per decilitre) ",
-        "price": 350,
         "testCategory": "Biochemistry"
-      },
-      "requisites": [
-        {
-          "value": "Blood sample, and a prescription or recommendation from a healthcare professional. "
-        }
-      ],
-      "packages": [],
-      "faqs": [
-        {
-          "question": "What is the difference between LDL and HDL cholesterol? ",
-          "answer": "LDL is referred to as “bad” cholesterol. HDL cholesterol is considered “good” cholesterol."
-        },
-        {
-          "question": "Can I eat before the test? ",
-          "answer": "No. Fasting is required for 9-12 hours before the test."
-        },
-        {
-          "question": "How long does the test take? ",
-          "answer": "It takes a few minutes for the test and a few days for the results."
-        },
-        {
-          "question": "What if my LDL cholesterol level is high? ",
-          "answer": "Your health care practitioner may suggest changes in nutrition, increasing exercise, or may give you medication for cholesterol control."
-        }
-      ],
-      "interpretations": {
-        "title": "Understanding the LDL Cholesterol Test Result ",
-        "cols": [
-          "Condition/Findings ",
-          "Description ",
-          "Interpretation "
-        ],
-        "rows": [
-          [
-            "Normal ",
-            "LDL cholesterol < 100 mg/dL ",
-            "Indicates low risk of heart disease "
-          ],
-          [
-            "Near Optimal ",
-            "LDL cholesterol 100-129 mg/dL ",
-            "Indicates moderate risk of heart disease "
-          ],
-          [
-            "Borderline High ",
-            "LDL cholesterol 130-159 mg/dL ",
-            "Indicates higher risk of heart disease "
-          ],
-          [
-            "High ",
-            "LDL cholesterol ≥ 160 mg/dL ",
-            "Indicates high risk of heart disease "
-          ],
-          [
-            "Very High ",
-            "LDL cholesterol ≥ 190 mg/dL ",
-            "Indicates extremely high risk of heart disease "
-          ]
-        ]
-      },
-      "relative_test": {
-        "title": "Heart",
-        "categoryId": "671b5104ad9bf8d210384d2a",
-        "tests": [
-          {
-            "id": "6790d12cc75a5739655a84ce",
-            "testName": "CHOLESTEROL TOTAL",
-            "route": "/cholestrol-total-test-ctt"
-          },
-          {
-            "id": "67938894c75a5739655ac8d1",
-            "testName": "HDL CHOLESTEROL",
-            "route": "/hdl-cholestrol-test-hdlct"
-          }
-        ]
-      },
-      "seo": {
-        "title": "LDL Cholesterol Test in Bangalore | Monitor Bad Cholesterol",
-        "description": "Get an LDL cholesterol test in Bangalore to monitor heart health and prevent heart disease. Book today.",
-        "keywords": "",
-        "canonicalUrl": "",
-        "ogTitle": "",
-        "ogDescription": "",
-        "ogImage": "",
-        "schemaMarkup": "",
-        "robotsMeta": ""
-      },
-      "markdown": "## What Is the LDL Cholesterol Test and Why Is It Important?\n\nThe test that determines the LDL cholesterol levels is a component of the lipid profile. The Lipid profile is a blood test that determines the concentrations of triglycerides, total cholesterol, LDL cholesterol and HDL cholesterol levels in the cholesterol. It is referred to as ‘bad cholesterol’ because an abundance of it can cause severe heart ailments such as coronary artery disease, heart attacks, and strokes. This test is particularly important for determining cardiovascular risk and monitoring treatment plans.\n\nThe procedure is quite straightforward. A qualified nurse or doctor collects a blood specimen from your arm and sends it to a lab for thorough examination. There, the different blood-based components including LDL cholesterol are filtered out from the blood via centrifuges and other special devices. The level of LDL cholesterol is quantitatively determined by means of a special method of enzymatic colorimetry.\n\n## What Does the LDL Cholesterol Analysis Test Measure?\n\nThe test quantifies the amount of LDL in milligrams per decilitre. This unit of measurement assists healthcare providers to understand the risk of heart diseases within an individual and the appropriate course of action to take.\n\n## When Is the LDL Cholesterol Test Done?\n\nAn LDL cholesterol test is performed as a component of a lipid profile that encompasses total cholesterol, triglycerides, HDL, and LDL cholesterol levels. The test may be suggested by a healthcare professional to be undertaken:\n\n- For adults with no risk factors, every 4-6 years.\n- For adults having the below risk factors annually:\n- Hypertensive\n- Diabetic\n- Cardiac family history\n- Smoker\n- As part of a life insurance medical check-up or pre-employment medicals.\n- For evaluation of the effectiveness of cholesterol-lowering medications.\n\n## What are The Risks or Limitations of The LDL Cholesterol Test?\n\nThere are various risks and limitations to the LDL cholesterol test which you might want to pay attention to:\n\n- Risks:\n- Infection and/or bruising in the area where the blood was drawn.\n- Feeling faint.\n- Experiencing nausea or vomiting.\n- Limitations:\n- Testing can only quantify LDL cholesterol but no other cardiovascular risk factors.\n- It contains the potential to underestimate certain individuals' cardiovascular risks. For example, individuals with a strong family history of coronary heart disease.\n\nThe myriads of factors like variations in lipid levels and even the test itself can alter the resultant findings.\n\n## What Parameters Are Done for The LDL Cholesterol Test?\n\nThe LDL cholesterol test evaluates the following parameters:\n\n- The LDL cholesterol level in mg/dL?\n- The size of the LDL particle (Presence of small, dense LDL particles is associated with higher cardiovascular risks)\n- The number of LDL particles (Larger numbers are associated with elevated cardiovascular risks)\n\nAre these relevant factors correct when performing the LDL cholesterol test? Healthcare specialists check all of this and may also include additional questions such as gender, age, family history as well as pre-existing and current medical conditions to judge the overall risk.\n\n## Who Should Consider Taking the LDL Cholesterol Test?\n\nThe LDL cholesterol test is recommended for:\n\n- Adults aged 20-75 years, as part of a routine lipid profile.\n- Individuals with heart disease risks such as high BP, diabetes, or a family history with heart problems.\n- Persons with a personal history of heart diseases and or strokes.\n- Women who are pregnant or planning to become pregnant.\n\n## The Advantages of the LDL Cholesterol Test for Your Wellbeing\n\nHealthcare professionals use the healthcare diagnostic parameters gathered from the LDL test to:\n\n- Determine who has the greatest risk of coronary heart disease.\n- Create specific plans to lower health risks.\n- Ensure that the patients who are helping lower cholesterol effectively do respond to treatment.\n- Suggestions for change sum up day to day diet and exercise.\n\n## What Conditions Can the LDL Cholesterol Test Diagnose?\n\nThe LDL cholesterol test can help diagnose:\n\n- Hypercholesterolemia\n- Coronary artery disease\n- Cerebrovascular disease\n- Peripheral artery disease (PAD)\n\n## Preparing For Your LDL Cholesterol Test: Guidelines to Follow\n\nTo prepare for the LDL cholesterol test:\n\n**Prerequisites:** NONE\n\n**Eligibility** All adults between ages 20 to 75, or per a doctor’s recommendation.\n\n**Procedure for Taking the Test:**\n\n1. 9 to 12 hours fasting prior to taking the test – no food or drink other than water.\n2. 24 hours prior to the test, refrain from high cholesterol food and drinks.\n3. Discuss all medications and supplements you have been taking with your health care professional.\n\n**Caution Before the Test:**\n\n- If you have a bleeding problem or are on anticoagulant medication, let your doctor know before the test.\n- You will be under a physician’s care if you have a severe infection that leaves you in physical or emotional stress."
+      }
     }
   ]
 }

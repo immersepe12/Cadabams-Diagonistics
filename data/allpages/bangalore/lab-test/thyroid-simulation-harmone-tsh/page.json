@@ -100,133 +100,23 @@
   "category": {
     "id": "671b5104ad9bf8d210384d25",
     "name": "Hormones",
-    "tests": [
-      "6720b480b61a968f2fc615c6",
-      "67862540c75a57396559b106",
-      "678a052ac75a57396559fb2d",
-      "679261c4c75a5739655aa2a1",
-      "681c817416444f3c1158d40b",
-      "681cd8dd16444f3c1158e092",
-      "681cdc1e16444f3c1158e0e1",
-      "681da0bb16444f3c1158ffb2",
-      "68233fdc16444f3c1159a1fe"
-    ],
     "image": "/lab-tests/image-1729663593893-39132885.webp",
-    "path": "/hormones-tests",
-    "createdAt": "2024-10-23T06:07:26.664Z",
-    "updatedAt": "2024-10-23T06:07:26.665Z",
-    "markdown": "Hormones Tests"
+    "path": "/hormones-tests"
   },
   "relatedTests": [
     {
       "id": "671c7d88c8a77735c8e44120",
-      "templateName": "labtest",
       "testName": "THYROID PROFILE (T3,T4,TSH)",
       "route": "/thyroid-profile-t3-t4-tsh",
       "basic_info": {
         "name": "THYROID PROFILE (T3,T4,TSH)",
-        "route": "/thyroid-profile-t3-t4-tsh",
         "categoryId": "671b5104ad9bf8d210384d25",
         "price": 660,
         "discount": "0",
         "discountedPrice": "660.00",
         "reportsWithin": "60mins",
-        "Identifies": "Malfunctions of the thyroid gland ",
-        "measures": " The level of hormones including T3, T4, and TSH ",
-        "testId": 7766040,
         "testCategory": "Biochemistry"
-      },
-      "requisites": [
-        {
-          "value": " No need to abstain from food, inform about peaceful medical history"
-        }
-      ],
-      "packages": [],
-      "faqs": [
-        {
-          "question": "When do the test results become available? ",
-          "answer": "It takes about 24-48 hours in order to have the results available."
-        },
-        {
-          "question": "How long does a thyroid profile blood test take? ",
-          "answer": "It’s as simple as getting the blood sample to conduct the test and the minor discomfort that might occur is nothing to be worried about."
-        },
-        {
-          "question": "Do I need to stop eating before the test? ",
-          "answer": "No special fasting or changes to diet are required before this test."
-        },
-        {
-          "question": "Can my medications interfere with the examination? ",
-          "answer": "Yes some medicines may alter the levels of thyroid hormones in the body. Please bring to the attention of the physician any medications that you use on regular basis."
-        },
-        {
-          "question": "What is the recommended frequency of this test? ",
-          "answer": "The responses vary with the health of the patient and the physician's advice on the matter, especially in chronic thyroid diseases or routine monitoring."
-        }
-      ],
-      "interpretations": {
-        "title": "",
-        "cols": [
-          "Hormone Level\t",
-          "Normal Range\t",
-          "Indication of Abnormal Results"
-        ],
-        "rows": [
-          [
-            "T3\t",
-            "100-200 ng/dL\t",
-            "Low Levels: Hypothyroidism, pituitary disorders"
-          ],
-          [
-            "",
-            "",
-            "High Levels: Hyperthyroidism, iodine surplus"
-          ],
-          [
-            "T4\t",
-            "4.6-11.2 mcg/dL\t",
-            "Low Levels: Hypothyroidism, pituitary issues"
-          ],
-          [
-            "",
-            "",
-            "High Levels: Hyperthyroidism, thyroiditis"
-          ],
-          [
-            "TSH\t",
-            "0.4-4.0 mIU/L\t",
-            "High TSH: Primary hypothyroidism"
-          ],
-          [
-            "",
-            "",
-            "Low TSH: Hyperthyroidism, excessive thyroid therapy"
-          ]
-        ]
-      },
-      "relative_test": {
-        "title": "",
-        "categoryId": "671b5104ad9bf8d210384d24",
-        "tests": [
-          {
-            "id": "671c7d2fc8a77735c8e44117",
-            "testName": "Thyroid Stimulating Hormone Test",
-            "route": "/thyroid-simulation-harmone-tsh"
-          }
-        ]
-      },
-      "seo": {
-        "title": "Thyroid Profile Test in Bangalore | Thyroid Test Package in Bangalore",
-        "description": "Monitor thyroid health with a complete thyroid profile test in Bangalore. Quick results and reliable labs.",
-        "keywords": "",
-        "canonicalUrl": "",
-        "ogTitle": "",
-        "ogDescription": "",
-        "ogImage": "",
-        "schemaMarkup": "",
-        "robotsMeta": ""
-      },
-      "markdown": "## What Is the Thyroid Profile Test and Why It Has to Be Done?\n\nThe Thyroid Profile test which involves testing for T3, T4, and TSH hormone levels enables clinicians to gauge the functioning of the thyroid gland. Since the thyroid gland plays an important role in metabolism, energy generation and mood, it is crucial for overall health. This test is useful in diagnosing or managing thyroid related conditions like hypo or hyperthyroidism by measuring circulating levels of thyroid hormones and their master regulator, TSH.\n\n## Thyroid Gland Hormones Test Measure\n\nThe thyroid profile measures the amount of three important hormones found in the blood, such as Triiodothyronine (T3) and Thyroxine (T4) and Thyroid Stimulating Hormone (TSH). Triiodothyronine and Thyroxine hormones are produced in the thyroid gland and are responsible for metabolism. In turn, TSH is produced by the pituitary gland and acts on the thyroid gland to stimulate the production of T3 and T4. With the aid of these hormones, the normal functioning of the thyroid gland can be assessed and any disturbances or malfunctions can be identified.\n\n## Thyroid Profile Test when is It Usually Taken?\n\nThe thyroid profile is usually ordered in cases where the patient presents certain symptoms that might indicate dysfunctions of the thyroid such as unexplained weight loss or increase, tiredness, emotional outbursts, loss of hair, heart rate changes and so on. Among the additional tests that are carried out, the thyroid profile may be done periodically, particularly among those persons with a family predisposition to thyroid disease or those who are elderly or have a history of underlying conditions that put them at risk.\n\n## Are There Any Risks or Restrictions Involved In Conducting The Thyroid Profile Test?\n\nThe threats involved with the Thyroid Profile test are quite rare and also the effect of blood letting could involve causing minor bruises or pain in the site of the specific blood vessel that was punctured. Drawbacks consist of temporary changes in hormone levels that may influence the outcomes of the test and certain drugs or conditions can modify hormone levels thereby requiring prudent assessment by a physician.\n\n## What Parameters Are Evaluated in the Thyroid Profile Test?\n\nThe following parameters are evaluated in this test.\n\n- **T3 (Triiodothyronine):** It is believed that excessive levels could indicate hyperthyroidism, whereas diminished levels could suggest hypothyroidism.\n- **T4 (Thyroxine):** This is crucial as well in ascertaining the presence of either hypo- or hyper-thyroidism based on its levels.\n- **TSH (Thyroid-Stimulating Hormone):** Generally a high level of TSH is indicative of the presence of hypothyroidism, and when it’s low indicates hyperthyroidism.\n\n## Thyroid Profile Test: Who Should Get It Done?\n\nPeople who have symptoms of thyroid disorders like weight gain or loss, energy fluctuations, and mood swings should most definitely opt for this test. It is also advisable for those who have a family history of thyroids, women above the age of sixty, those who have autoimmune conditions or are on medication which may affect the functioning of the thyroid.\n\n## Thyroid Profile Test: How Can It Be Beneficial for You?\n\nThe thyroid profile test is important as it helps detect any thyroid related disorder at an early stage which makes it easy for treatment. This test also is helpful in ascertaining how well the current treatment is being taken by a patient and helps in assessment of metabolism which plays an important role in energy levels and other body functionality.\n\n## What Conditions Can the Thyroid Profile Test Diagnose?\n\nThe following conditions can be diagnosed with the help of the thyroid profile test:\n\n- **Hypothyroidism:** Production of hormones in lesser amounts than normal.\n- **Hyperthyroidism:** Production of excess amounts of hormones.\n- **Thyroiditis:** A disorder where the thyroid glands become inflamed.\n- **Goiter:** A condition where the thyroid gland is larger than its normal size.\n- **Thyroid nodules:** Abnormal lumps which form within the thyroid gland.\n\n## Preparing for Your Thyroid Profile Test\n\n**Requirements:** There is no need for fasting. Please remember to tell your doctor if you take any medications or supplements as they might change the amount of your thyroid hormones.\n\n**Who Can Avail This Test:** This test is for the patients with a thyroid dysfunction who are working up the thyroid or for a patient who is monitoring the already existing thyroid conditions.\n\n**Steps Involved In Undertaking The Test:** A health care professional will collect a small blood sample from a vein, usually located in your arm. This procedure will take a few minutes and is quite simple and fast.\n\n**Important:** Please try not to stress too much as this could impact the results and make sure all your conditions are reported as this could also impact the hormone levels."
+      }
     }
   ]
 }

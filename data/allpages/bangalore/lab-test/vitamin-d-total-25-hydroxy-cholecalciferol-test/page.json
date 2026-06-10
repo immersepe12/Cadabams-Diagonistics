@@ -105,119 +105,23 @@
   "category": {
     "id": "671b5104ad9bf8d210384d26",
     "name": "Vitamin",
-    "tests": [
-      "672c76d53994101252b041ea",
-      "672dfb384280ae87a405c31f",
-      "672dfe584280ae87a405c330",
-      "673d968b534c72d341052ace",
-      "682d7cb016444f3c115b0620"
-    ],
     "image": "/lab-tests/image-1729663694014-979628105.webp",
-    "path": "/vitamin-tests",
-    "createdAt": "2024-10-23T06:09:05.284Z",
-    "updatedAt": "2024-10-23T06:09:05.284Z",
-    "markdown": "Vitamin Tests"
+    "path": "/vitamin-tests"
   },
   "relatedTests": [
     {
       "id": "672dfe584280ae87a405c330",
-      "templateName": "labtest",
       "testName": "Vitamin B12 (Cyanocobalamin)",
       "route": "/vitamin-b-12-cyanocobalamin-test",
       "basic_info": {
         "name": "Vitamin B12 (Cyanocobalamin)",
-        "route": "/vitamin-b-12-cyanocobalamin-test",
         "categoryId": "671b5104ad9bf8d210384d26",
         "price": 1300,
         "discount": "0",
         "discountedPrice": "1300.00",
         "reportsWithin": "3hrs",
-        "Identifies": " Vitamin B12 deficiency, Anemia, etc ",
-        "measures": "Amount of Vitamin B12 In Blood",
-        "testId": 7766177,
         "testCategory": "Biochemistry"
-      },
-      "requisites": [
-        {
-          "value": "Need to fast or do not take b12 supplements"
-        }
-      ],
-      "packages": [],
-      "faqs": [
-        {
-          "question": "When will results be available? ",
-          "answer": "Most times the samples has the feedback in one to two days."
-        },
-        {
-          "question": "What can I expect regarding the pain associated with this test? ",
-          "answer": "There is some pain caused by inserting a needle into the blood vessels to draw blood, but it is quite tolerable for most people."
-        },
-        {
-          "question": "How do I prepare for the test? Do I need to stop eating? ",
-          "answer": "Yes there should be fasting overnight prior to the test in order to attain accurate outcomes."
-        },
-        {
-          "question": "Are there any prior health considerations that I should take on board before the test or any effects from medication that can alter the results? ",
-          "answer": "Yes, there are medications that can alter B12 levels. There are medications a person is currently using, it is essential to inform the doctor."
-        },
-        {
-          "question": " How often would you recommend that I take a test? ",
-          "answer": "It depends on his health status and risk factors, so he should ask his health care provider."
-        }
-      ],
-      "interpretations": {
-        "title": "Understanding Your Results In Vitamin B12 Test ",
-        "cols": [
-          "Range",
-          "Level",
-          "Interpretation"
-        ],
-        "rows": [
-          [
-            "200-900 pg/mL",
-            "Normal Range",
-            "Indicates normal Vitamin B12 levels"
-          ],
-          [
-            "200-300 pg/mL",
-            "Borderline Low",
-            "Further testing may be needed"
-          ],
-          [
-            "Less than 200 pg/mL",
-            "Deficiency",
-            "Indicates a deficiency of Vitamin B12"
-          ],
-          [
-            "Greater than 900 pg/mL",
-            "High",
-            "May indicate liver disease or excessive intake of supplements"
-          ]
-        ]
-      },
-      "relative_test": {
-        "title": "",
-        "categoryId": "671b5104ad9bf8d210384d26",
-        "tests": [
-          {
-            "id": "672dfb384280ae87a405c31f",
-            "testName": "VITAMIN D- TOTAL (25 HYDROXY CHOLECALCIFEROL) ",
-            "route": "/vitamin-d-total-25-hydroxy-cholecalciferol-test"
-          }
-        ]
-      },
-      "seo": {
-        "title": "Vitamin B12 Test in Bangalore | Cadabam's Diagnostics",
-        "description": "Book Vitamin B12 tests in Bangalore to monitor deficiency. Trusted labs for quick and accurate results.",
-        "keywords": "",
-        "canonicalUrl": "",
-        "ogTitle": "",
-        "ogDescription": "",
-        "ogImage": "",
-        "schemaMarkup": "",
-        "robotsMeta": ""
-      },
-      "markdown": "## What Is the Vitamin B12 (Cyanocobalamin) Test and Why Is It Worth A Great Attention?\n\nThe Vitamin B12 test is a blood test that assesses the level of b12 in the body while this test is helpful in the formulation of other diagnosis of b12 related conditions like b12 anemia deficiency. It is helpful in diagnosing conditions where there sleeps impairments such as anemia or issues because of lack of vitamin B12. Early detection is important for treating various health issues and ensuring better health management.\n\n## What Are the Cyanocobalamin Levels in Blood Test Meant to Show?\n\nThis test assesses the amount of vitamin B12 available in the blood. The vitamin B12 is one of the utmost important vitamins that are responsible for proper form and functioning of red blood cells as well as maintaining healthy nerve cells along with essential processes in the body that is linked with DNA. This test helps clinicians in establishing the diagnosis of adequacy of B12 levels in the body and whether a deficit of this vitamin is causing symptoms or clinical disorders.\n\n## When Is It Needed to Make The Vitamin B12 (Cyanocobalamin) Test?\n\nIn conditions where a person feels fatigue, and weakness, has some memory related or some neurological associated symptoms like tingling or numbness in hands and feet, the Vitamin B12 test is done. Apart from this it is also done in patients where B12 deficiency can be suspected due to conditions like pernicious anemia, gastrointestinal problems, or in individuals who consume strict vegetarian diet which may low in B12.\n\n## Are There Any Risks or Limitations to the Vitamin B12 (Cyanocobalamin) Test?\n\nThere are minimal risks related to the Vitamin B12 test as it is reasonably safe. The main hazard is minor bruising or discomfort around the site where blood was drawn. But there are also restrictions to the test, for instance the inability to measure direct absorption of B12 or identifying functional deficiency of B12 which occurs when the level of B12 in the blood is normal but in tissues it is low. However, false negatives in diagnosis may arise ,often among individual patients with early deficiency stages of the B12 vitamin.\n\n## What Parameters Are Evaluated in the Vitamin B12 (Cyanocobalamin) Test?\n\nThe serum B12 test is most expressed in terms of the serum level of vitamin B12 in pg per ml i.e. picograms per milliliter. B12 vitamin sufficiency in the individual can also be determined. Based on the measured concentration of vitamin B12 which is in the normal range, or using these parameters per se, evaluations concerning pernicious anemia, dietary deficiencies or even malabsorption syndromes could be made.\n\n## Who Should in Fact Take the Vitamin B12 (Cyanocobalamin) Test?\n\nThis test may be of relevance to individuals who have symptoms of B12 deficiency or an increased risk of developing it such as fatigue, weakness or any neurological disorder. This includes older adults, those with a vegetarian or vegan diet and patients with a digestive disorder that would predispose to B12 deficiency. Moreover, metformin treated diabetics and those on proton pump inhibitor drugs may also require such vigilance.\n\n## The Advantages of the Vitamin B12 (Cyanocobalamin) Test for Your Health\n\nThe Vitamin B12 test should be performed often as it brings about many health benefits. More importantly, it allows for the identification of vitamin B12 deficiency before it leads to nerve damage that cannot be reversed. This test is also useful in the condition of changing food habits or food supplements. Such patients can also effectively manage their absorption problem by regularly monitoring their B12 level.\n\n## What Conditions Can the Vitamin B12 (Cyanocobalamin) Test Diagnose?\n\nConditions such as vitamin B12 deficiency and pernicious anemia are starting to be identifiable with the assistance of the Vitamin B12 test. It may also assist in determining the possible factor that is causing macrocytic anemia and in finding out some neurological conditions which result from low B12 levels.\n\n## How to Prepare Yourself for the Vitamin B12 (Cyanocobalamin) Test\n\n**Prerequisites:** This is why patients are advised to fast the night before the test, also refraining from the intake of B12 supplements for a prescribed period is recommended for accurate results.\n\n**Eligibility:** This test should be taken by every individual who is either showing symptoms of deficiency or is at risk because of their eating or medical history.\n\n**Test Process:** Taking the test is easy and a few minutes of a blood test is all that it requires. The blood is drawn usually from the arm vein by a healthcare professional at a clinic or laboratory. The process is quick and takes just a few minutes.\n\n**Caution on the test:** Any medications that could alter the test results ought to be disclosed to the healthcare provider. Results are Fake if the directions relating to the diet are not followed."
+      }
     }
   ]
 }

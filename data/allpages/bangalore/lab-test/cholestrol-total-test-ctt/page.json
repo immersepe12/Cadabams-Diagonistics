@@ -91,17 +91,8 @@
   "category": {
     "id": "671b5104ad9bf8d210384d2a",
     "name": "Heart",
-    "tests": [
-      "6790d12cc75a5739655a84ce",
-      "67938894c75a5739655ac8d1",
-      "67938b5ec75a5739655ac994",
-      "681da88916444f3c11590288"
-    ],
     "image": "/lab-tests/image-1729664060898-855644468.webp",
-    "path": "/heart-tests",
-    "createdAt": "2024-10-23T06:14:56.868Z",
-    "updatedAt": "2024-10-23T06:14:56.868Z",
-    "markdown": "Heart Tests"
+    "path": "/heart-tests"
   },
   "relatedTests": []
 }

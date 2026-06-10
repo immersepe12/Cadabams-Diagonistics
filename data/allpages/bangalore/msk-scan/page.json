@@ -128,113 +128,18 @@
   "tests": [
     {
       "id": "6735c72a03598b92c151c6fd",
-      "templateName": "non-labtest",
       "testName": "MUSCULOSKELETAL ULTRASOUND",
       "route": "/musculoskeletal-ultrasound-msk",
       "basic_info": {
         "name": "MUSCULOSKELETAL ULTRASOUND",
-        "route": "/musculoskeletal-ultrasound-msk",
         "categoryId": "671b5102ad9bf8d210384d1f",
         "price": 2600,
-        "alsoKnownAs": "",
         "discount": "0",
         "discountedPrice": "2600.00",
         "reportsWithin": "3hrs",
-        "Identifies": "",
-        "measures": "",
-        "testId": 7770126,
         "testCategory": "Ultrasonography",
         "imageSrc": "/scans/image-1745482855611-886318515.webp"
-      },
-      "requisites": [
-        {
-          "value": "Тhe general requirement for MSK ultrasound is that specific preparations are not required. All you have to do is put on some comfortable clothes that allow easy exposure of the area that will be scanned. Your medical officer may request you to refrain from applying lotion or ointment on the skin close to the area being examined to facilitate better images. "
-        }
-      ],
-      "interpretations": {
-        "title": "Results and Interpretations ",
-        "cols": [
-          "Finding / Observation",
-          "Description ",
-          "General Interpretation / Significance"
-        ],
-        "rows": [
-          [
-            "Normal tendon fibrillar pattern",
-            "Uniform echogenic lines",
-            "Intact tendon, no tear"
-          ],
-          [
-            "Partial tendon tear",
-            "Focal hypoechoic gap in tendon fibers",
-            "Incomplete rupture, may heal with rest"
-          ],
-          [
-            "Joint effusion >5 mm",
-            "Anechoic (black) area in joint space",
-            "Inflammation or injury present"
-          ],
-          [
-            "Synovial hypertrophy",
-            "Thickened, irregular synovial lining",
-            "Suggests chronic inflammation"
-          ],
-          [
-            "Doppler hyperemia",
-            "Increased color signals",
-            "Active inflammation with blood-flow"
-          ]
-        ]
-      },
-      "faqs": [
-        {
-          "question": "Is musculoskeletal ultrasound painful?",
-          "answer": "No, the scan is painless. Light pressure from the probe is all you feel."
-        },
-        {
-          "question": "How long does the exam take?",
-          "answer": "Usually 15–30 minutes, depending on the number of areas scanned."
-        },
-        {
-          "question": "Do I need to fast?",
-          "answer": "No fasting or special diet is required."
-        },
-        {
-          "question": "Can I drive after the scan?",
-          "answer": "Yes, you can resume normal activities immediately."
-        },
-        {
-          "question": "When will I get my report?",
-          "answer": "Reports are ready within 30 minutes at Cadabams Diagnostics."
-        },
-        {
-          "question": "Is it safe during pregnancy?",
-          "answer": "Absolutely—ultrasound uses sound waves, not radiation."
-        }
-      ],
-      "relative_test": {
-        "title": "",
-        "categoryId": "671b5102ad9bf8d210384d1f",
-        "tests": [
-          {
-            "id": "672c89e7e3e3df57799179de",
-            "testName": "Msk Scan",
-            "route": "/msk-scan"
-          }
-        ]
-      },
-      "seo": {
-        "title": "Musculoskeletal Ultrasound: Fast, Safe, Precise Imaging",
-        "description": "Discover how MUSCULOSKELETAL ULTRASOUND at Cadabams Diagnostics reveals joint, muscle, ligament & tendon issues in real-time. Book today for same-day results.",
-        "keywords": "",
-        "canonicalUrl": "",
-        "ogTitle": "",
-        "ogDescription": "",
-        "ogImage": "",
-        "schemaMarkup": "",
-        "robotsMeta": ""
-      },
-      "markdown": "## Musculoskeletal Ultrasound Overview\n\n### What This Imaging Test Can Reveal About Joints, Muscles, Ligaments, and Tendons\n- \\*\\*Tears\\*\\* in tendons and ligaments\n- \\*\\*Inflammation\\*\\* in joints or bursae\n- \\*\\*Fluid build-up\\*\\* (effusion)\n- \\*\\*Nerve compression\\*\\* like carpal tunnel syndrome\n- \\*\\*Cysts\\*\\* or abnormal growths\n### Why Cadabams Diagnostics Is the Trusted Choice\n- Same-day appointments and reports\n- Advanced machines with Doppler for blood-flow studies\n- Warm, patient-first environment\n- Direct digital sharing with your referring doctor\n## What Is Musculoskeletal Ultrasound?\n### Definition and Technology: High-Frequency Sound Waves for Real-Time Imaging\nMUSCULOSKELETAL ULTRASOUND uses sound waves above the range of human hearing. A small handheld probe (transducer) glides over the skin, sending echoes that create live pictures on the screen.\n### Difference Between Ultrasound and Other Musculoskeletal Imaging\n| Modality | Ionizing Radiation | Real-Time View | Bone Detail | Typical Cost |\n|----------|--------------------|----------------|-------------|--------------|\n| Ultrasound | None | Yes | Limited | Low |\n| X-ray | Yes | No | Excellent | Low |\n| MRI | No | No | Very good | High |\n| CT | Yes | No | Excellent | Moderate |\n## Types of Musculoskeletal Ultrasound\n- \\*\\*Static imaging\\*\\*: Still pictures for baseline measurements\n- \\*\\*Dynamic (real-time movement) scans\\*\\*: Watch tendons glide or joints open/close\n- \\*\\*Doppler ultrasound\\*\\*: Highlights blood-flow changes in inflammation\n- \\*\\*Ultrasound-guided injections or aspirations\\*\\*: Pinpoint medication delivery or fluid removal.\n\n## When and Who Needs to Take a Musculoskeletal Ultrasound?\n\n### Common Symptoms Prompting Referral\n- Persistent \\*\\*pain\\*\\* or \\*\\*tenderness\\*\\*\n- Visible \\*\\*swelling\\*\\* or \\*\\*bruising\\*\\*\n- Reduced \\*\\*range of motion\\*\\*\n- Instability or “giving way” sensations\n### Athletes, Arthritis Patients, Post-Injury Evaluations\n- Weekend warriors checking for \\*\\*rotator-cuff tears\\*\\*\n- Rheumatoid-arthritis patients monitoring \\*\\*synovial thickening\\*\\*\n- Post-injury athletes assessing \\*\\*ligament integrity\\*\\*\n\n## Risks & Limitations of the Musculoskeletal Ultrasound\n\n- \\*\\*Zero ionizing radiation\\*\\*—safe for all ages and pregnancy\n- \\*\\*Minimal risk profile\\*\\*; no contrast dye complications\n### Limitations\n- \\*\\*Depth penetration\\*\\* drops in very large limbs\n- \\*\\*Operator dependency\\*\\*—choose accredited centres like Cadabams Diagnostics\n- \\*\\*Difficult bone visualization\\*\\*—MRI may be needed for deep bone marrow issues\n\n## List of Parameters Considered During the Musculoskeletal Ultrasound\n\n- Tendon thickness and echogenicity\n- Joint effusion volume\n- Muscle fiber integrity\n- Ligament continuity\n- Synovial hypertrophy\n- Bursal distension\n\n## Reasons for Taking a Musculoskeletal Ultrasound\n\n- \\*\\*Rapid diagnosis\\*\\* of acute sports injuries\n- \\*\\*Monitor chronic conditions\\*\\* like rheumatoid arthritis or gout\n- \\*\\*Guide minimally invasive procedures\\*\\* such as steroid injections\n\n## Benefits of Taking the Musculoskeletal Ultrasound\n\n- \\*\\*Non-invasive & painless\\*\\*—no needles unless you choose guided injection\n- \\*\\*No radiation\\*\\*—ideal for children and expectant mothers\n- \\*\\*Real-time imaging during movement\\*\\*—catch problems static scans miss\n- \\*\\*Cost-effective\\*\\* alternative to MRI\n- \\*\\*Immediate results\\*\\*—start treatment the same day\n\n## Illnesses Diagnosed with Musculoskeletal Ultrasound\n\n- Tendon tears (rotator cuff, Achilles)\n- Ligament sprains (ankle, knee)\n- Muscle strains and hematomas\n- Joint synovitis and effusions\n- Carpal tunnel syndrome\n- Ganglion cysts\n\n## Preparing for Musculoskeletal Ultrasound\n\n- Wear \\*\\*loose garments\\*\\* that expose the joint or limb easily\n- Remove \\*\\*jewellery, watches or braces\\*\\* from the scan area\n- \\*\\*No fasting\\*\\*—eat and drink normally\n## Pre-requisites Musculoskeletal Ultrasound\n- Valid \\*\\*doctor’s referral\\*\\* or prescription\n- Bring \\*\\*previous imaging reports\\*\\* (X-ray, MRI) if available\n- Inform the sonographer of \\*\\*allergies\\*\\* or \\*\\*skin conditions\\*\\*\n## Best Time to Take the Musculoskeletal Ultrasound\n- \\*\\*Book within 48 hours\\*\\* of acute injury for earliest swelling assessment\n- \\*\\*Early morning slots\\*\\* often have shorter wait times\n- Avoid \\*\\*heavy workouts\\*\\* just before the scan to prevent muscle swelling artefacts\n## Eligibility\n- \\*\\*All age groups\\*\\*—from newborn hips to geriatric shoulders\n- \\*\\*Pregnancy-safe\\*\\*—no radiation risk\n## Procedure for Taking a Musculoskeletal Ultrasound\n1. \\*\\*Check-in & verification\\*\\* at Cadabams Diagnostics front desk\n2. \\*\\*Positioning\\*\\* on a comfortable examination couch\n3. \\*\\*Application of ultrasound gel\\*\\*—water-soluble, easily wiped off\n4. \\*\\*Transducer scanning\\*\\* with gentle pressure; you may be asked to move the joint\n5. \\*\\*Image review\\*\\* on screen with preliminary explanation\n6. \\*\\*Receive report\\*\\* within 30 minutes, emailed to your doctor if requested\n## Caution Before Taking the Test\n- Alert staff to \\*\\*open wounds\\*\\* or \\*\\*skin infections\\*\\*—probe cover or alternative imaging may be used\n- Pause \\*\\*topical creams\\*\\* on the scan area to reduce image artefacts"
+      }
     }
   ]
 }

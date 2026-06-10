@@ -105,119 +105,23 @@
   "category": {
     "id": "671b5104ad9bf8d210384d26",
     "name": "Vitamin",
-    "tests": [
-      "672c76d53994101252b041ea",
-      "672dfb384280ae87a405c31f",
-      "672dfe584280ae87a405c330",
-      "673d968b534c72d341052ace",
-      "682d7cb016444f3c115b0620"
-    ],
     "image": "/lab-tests/image-1729663694014-979628105.webp",
-    "path": "/vitamin-tests",
-    "createdAt": "2024-10-23T06:09:05.284Z",
-    "updatedAt": "2024-10-23T06:09:05.284Z",
-    "markdown": "Vitamin Tests"
+    "path": "/vitamin-tests"
   },
   "relatedTests": [
     {
       "id": "672dfb384280ae87a405c31f",
-      "templateName": "labtest",
       "testName": "VITAMIN D- TOTAL (25 HYDROXY CHOLECALCIFEROL)",
       "route": "/vitamin-d-total-25-hydroxy-cholecalciferol-test",
       "basic_info": {
         "name": "VITAMIN D- TOTAL (25 HYDROXY CHOLECALCIFEROL)",
-        "route": "/vitamin-d-total-25-hydroxy-cholecalciferol-test",
         "categoryId": "671b5104ad9bf8d210384d26",
         "price": 1900,
         "discount": "0",
         "discountedPrice": "1900.00",
         "reportsWithin": "6hrs",
-        "Identifies": "Vitamin D deficiency status ",
-        "measures": "25-hydroxyvitamin D level",
-        "testId": 7766170,
         "testCategory": "Biochemistry"
-      },
-      "requisites": [
-        {
-          "value": "This test may require a person to fast. "
-        }
-      ],
-      "packages": [],
-      "faqs": [
-        {
-          "question": " How long does it take to get results? ",
-          "answer": "Results are typically available within a few days."
-        },
-        {
-          "question": "Is the test painful? ",
-          "answer": "The procedure is minimally painful, similar to a regular blood draw."
-        },
-        {
-          "question": "Do I need to stop eating before the test? ",
-          "answer": "Fasting may be recommended; confirm with your healthcare provider."
-        },
-        {
-          "question": "How often should my vitamin D levels be checked? ",
-          "answer": "It depends on individual health needs; consult with your doctor to determine frequency."
-        },
-        {
-          "question": "Can I take supplements before the test?",
-          "answer": "Avoid extra supplementation unless specifically advised by your healthcare provider before testing."
-        }
-      ],
-      "interpretations": {
-        "title": " Interpreting the Results of Your Vitamin D - Total 25 Hydroxy Cholecalciferol Test ",
-        "cols": [
-          "Level (ng/mL)",
-          "Interpretation",
-          "Follow-Up Action Step"
-        ],
-        "rows": [
-          [
-            "Below 20 ng/mL",
-            "Deficiency",
-            "Consider discussing with a doctor about supplements"
-          ],
-          [
-            "20-29 ng/mL",
-            "Insufficiency",
-            "Recommend increased dietary intake and sun exposure"
-          ],
-          [
-            "30-50 ng/mL",
-            "Optimal",
-            "Maintain current caloric intake level and activity"
-          ],
-          [
-            "Above 50 ng/mL",
-            "Potential Overdose",
-            "Review vitamin D intake with a physician"
-          ]
-        ]
-      },
-      "relative_test": {
-        "title": "",
-        "categoryId": "671b5104ad9bf8d210384d26",
-        "tests": [
-          {
-            "id": "672dfe584280ae87a405c330",
-            "testName": "Vitamin B12 (Cyanocobalamin) Test",
-            "route": "/vitamin-b-12-cyanocobalamin-test"
-          }
-        ]
-      },
-      "seo": {
-        "title": "Vitamin D Test in Bangalore | 25-Hydroxy Vitamin D Test ",
-        "description": "Book Vitamin D tests in Bangalore to check deficiency. Trusted labs with accurate and timely reports.",
-        "keywords": "",
-        "canonicalUrl": "",
-        "ogTitle": "",
-        "ogDescription": "",
-        "ogImage": "",
-        "schemaMarkup": "",
-        "robotsMeta": ""
-      },
-      "markdown": "## What Is the Vitamin D - Total (25 Hydroxy Cholecalciferal) Test and Why Is It Important?\n\nVitamin D – Total (25 Hydroxy Cholecalciferol) test checks the amount of vitamin D in the blood. Vitamin D is very important for the bones and body to function optimally. This blood test also assesses for any vitamin D deficiency or vitamin D excess in relation to bone disorders, muscle weakness, immune deficiency and other body functions. Rickets, osteomalacia and osteoporosis are just a few of the many conditions that anyone can be exposed to with insufficient vitamin D levels.\n\n## What Does The Test Measure?\n\nThe Vitamin D - Total test determines the vitamin D status of an individual by measuring the 25-hydroxyvitamin D level in the bloodstream since it is the predominant vitamin D metabolite These include both vitamin D2 (ergocalciferol) and D3 (cholecalciferol) and thus gives a global picture of patient's vitamin D aspects. Add more This test is indicated in the diagnosis and treatment of bone diseases, treatment monitoring of vitamin D deficiency, and other tests to check if vitamin D levels are sufficient for good health.\n\n## When Is The Vitamin D - Total (25 Hydroxy Cholecalciferol) Test Normally Taken?\n\nThis test is quite often advised if you have muscle fatigue, bone pain, or recurrent infections which can be due to lack of vitamin D. It’s also a common test taken in normal health check ups especially among the high risk population like elderly people, people with very low sun exposure, people with dark skin and people with some specific diseases.\n\n## Are There Any Risks or Limitations to the Vitamin D - Total (25 Hydroxy Cholecalciferol) Test?\n\nThe Vitamin D – Total test requires the patient to go through a simple blood drawing procedure and the risks associated with it are very less just like any other blood test which include pain or bruises on the needle insertion site. Limitations include the risk that individuals may obtain different readings for the reason of lab inconsistencies or varying seasonal levels of vitamin D. Furthermore, while a test result may indicate vitamin D status for the subject, it does not indicate vitamin D source(s). Hence, dietary recall may also be needed.\n\n## What Parameters Are Evaluated in the Vitamin D - Total (25 Hydroxy Cholecalciferol) Test?\n\nA clinical test for vitamin D deficiency includes measuring serum concentration of 25 hydroxy vitamin D (25 (OH) D). This biomarker helps to determine the amount of vitamin D present in the body which aids in calcium metabolism, bone structure, immune responses, and neuromuscular activities. Depending on what levels are measured, it can results as adequate, insufficient, or deficient levels.\n\n## Who Is the Vitamin D - Total (25 Hydroxy Cholecalciferol) Test Recommended To?\n\nThis test is recommended for those who are exhibiting signs of vitamin D deficiency, those suffering from osteoporosis, inflammatory bowel disease, history of gastric bypass surgery or aged individuals due to decreased capacity of synthesis of vitamin D with increased age. It is also helpful for the patients on long term steroids and for people suffering from conditions that decrease fat absorption such as cystic fibrosis.\n\n## The Vitamin D – Total (25 Hydroxy Cholecalciferol) Test Benefits for Your Health\n\nThe Vitamin D – Total test ensures that vitamin D insufficiency is diagnosed in its early stages which then makes it easier to implement the various interventions required timely to avoid bone and other associated complications. Frequent testing is important for the effective management and alteration of supplementation and treatment approaches. Having appropriate levels of vitamin D helps maintain overall good health, strengthening bones, optimizing immune response and improving muscle functionality pertaining to well being.\n\n## Which Conditions Are Identifiable By Vitamin D Specific Soluble Sera 25 Hydroxy Cholecalciferol Test?\n\nThis vitamin D test plays an important role in the assessment of bone health areas such as:\n\n- Osteoporosis\n- Osteomalacia\n- Rickets\n- Some autoimmune diseases\n- A possible risk factor for chronic diseases such as cardiovascular disease\n\n## Vitamin D - Total (25 Hydroxy Cholecalciferol) Test Do's And Don’ts.\n\n**Pre-requisites:** Fasting is not recommended but may be needed for the accurate interpretation of the results considering other blood investigations to be performed.\n\n**Eligibility:** Most individuals will qualify; however, please tell your healthcare professional if you take any prescription or over-the-counter drugs or supplements in order for corrections to be made if necessary.\n\n**The way the test is taken:** Simple blood sample collection most often through the arm which lasting no more than few minutes is all that is required to perform the test.\n\n**Caution Before the Test:** Unless directed by your healthcare adviser, n excess of over the counter vitamins specifically vitamin D should be avoided because it may affect the outcome of the test."
+      }
     }
   ]
 }

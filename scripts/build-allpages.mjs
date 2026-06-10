@@ -115,6 +115,35 @@ const centerShortName = (c) =>
     .join(" ");
 const labTestUrl = (t) => `/${CITY}/lab-test/${stripLeadingSlash(t.route)}`;
 
+/**
+ * Slim "card" view of a test — only the fields the listing grids, related-test
+ * carousels and search read. Drops markdown/faqs/interpretations/requisites/seo
+ * so listing and related arrays don't embed multi-KB bodies per item (which
+ * previously bloated some detail pages to 3+ MB each).
+ */
+const cardOf = (t) => ({
+  id: t.id,
+  testName: t.testName,
+  route: t.route,
+  basic_info: {
+    name: t.basic_info?.name,
+    categoryId: t.basic_info?.categoryId,
+    price: t.basic_info?.price,
+    discount: t.basic_info?.discount,
+    discountedPrice: t.basic_info?.discountedPrice,
+    reportsWithin: t.basic_info?.reportsWithin,
+    testCategory: t.basic_info?.testCategory,
+    imageSrc: t.basic_info?.imageSrc,
+  },
+});
+
+/** Slim category for detail pages (which only use name/image/path). */
+const slimCategory = (c) =>
+  c ? { id: c.id, name: c.name, image: c.image, path: c.path } : null;
+
+/** Max related tests embedded per detail page (carousel never needs more). */
+const MAX_RELATED = 12;
+
 // FAQ copy shown on the home page (kept here so the page file is the source).
 const HOME_FAQS = [
   {
@@ -143,9 +172,9 @@ const track = (route, type) => manifest.push({ route, type });
 for (const cat of nonLabCategories) {
   const family = nonLabCatSlug(cat);
   if (!family) continue;
-  const tests = nonLabTests.filter(
-    (t) => t.basic_info?.categoryId === cat.id && t.testName?.trim(),
-  );
+  const tests = nonLabTests
+    .filter((t) => t.basic_info?.categoryId === cat.id && t.testName?.trim())
+    .map(cardOf);
   const route = `/${CITY}/${family}`;
   writePage([CITY, family], {
     type: "scan-listing",
@@ -165,7 +194,9 @@ for (const test of nonLabTests) {
   const family = cat ? nonLabCatSlug(cat) : "scan";
   const relatedTests = (test.relative_test?.tests || [])
     .map((r) => nonLabTestById.get(r.id))
-    .filter((t) => t && t.id !== test.id && t.testName?.trim());
+    .filter((t) => t && t.id !== test.id && t.testName?.trim())
+    .slice(0, MAX_RELATED)
+    .map(cardOf);
   const route = `/${CITY}/${family}/${slug}`;
   writePage([CITY, family, slug], {
     type: "scan-detail",
@@ -173,7 +204,7 @@ for (const test of nonLabTests) {
     familyPath: family,
     slug,
     test,
-    category: cat || null,
+    category: slimCategory(cat),
     relatedTests,
   });
   track(route, "scan-detail");
@@ -184,16 +215,16 @@ writePage([CITY, "lab-test"], {
   type: "labtest-listing",
   route: `/${CITY}/lab-test`,
   categories: labCategories,
-  tests: labTests.filter((t) => t.testName?.trim()),
+  tests: labTests.filter((t) => t.testName?.trim()).map(cardOf),
 });
 track(`/${CITY}/lab-test`, "labtest-listing");
 
 for (const cat of labCategories) {
   const slug = labCatSlug(cat);
   if (!slug) continue;
-  const tests = labTests.filter(
-    (t) => t.basic_info?.categoryId === cat.id && t.testName?.trim(),
-  );
+  const tests = labTests
+    .filter((t) => t.basic_info?.categoryId === cat.id && t.testName?.trim())
+    .map(cardOf);
   const route = `/${CITY}/lab-test/${slug}`;
   writePage([CITY, "lab-test", slug], {
     type: "labtest-category-listing",
@@ -212,14 +243,16 @@ for (const test of labTests) {
   const cat = labCatById.get(test.basic_info?.categoryId) || null;
   const relatedTests = (test.relative_test?.tests || [])
     .map((r) => labTestById.get(r.id))
-    .filter((t) => t && t.id !== test.id && t.testName?.trim());
+    .filter((t) => t && t.id !== test.id && t.testName?.trim())
+    .slice(0, MAX_RELATED)
+    .map(cardOf);
   const route = `/${CITY}/lab-test/${slug}`;
   writePage([CITY, "lab-test", slug], {
     type: "labtest-detail",
     route,
     slug,
     test,
-    category: cat,
+    category: slimCategory(cat),
     relatedTests,
   });
   track(route, "labtest-detail");
@@ -540,10 +573,11 @@ for (const [slug, policy] of Object.entries(STATIC.policies)) {
   const resolvedOrganCats = (vitalOrgansBlock?.all_test_categories || [])
     .map((id) => nonLabCatById.get(id))
     .filter((c) => c && c.name?.trim());
-  const organCategories =
+  const organCategories = (
     resolvedOrganCats.length > 0
       ? resolvedOrganCats
-      : nonLabCategories.filter((c) => c.name?.trim());
+      : nonLabCategories.filter((c) => c.name?.trim())
+  ).map(slimCategory);
 
   const visitCenters = centers.map((c) => ({
     name: centerShortName(c),

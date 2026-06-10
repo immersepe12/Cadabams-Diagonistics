@@ -93,16 +93,8 @@
   "category": {
     "id": "671b5104ad9bf8d210384d28",
     "name": "Liver",
-    "tests": [
-      "671c7c5ec8a77735c8e44105",
-      "6790af3ec75a5739655a815a",
-      "682d87da16444f3c115b08fb"
-    ],
     "image": "/lab-tests/image-1729663912354-955200116.webp",
-    "path": "/liver-tests",
-    "createdAt": "2024-10-23T06:12:18.229Z",
-    "updatedAt": "2024-10-23T06:12:18.229Z",
-    "markdown": "Liver Tests"
+    "path": "/liver-tests"
   },
   "relatedTests": []
 }

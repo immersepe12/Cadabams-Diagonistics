@@ -98,17 +98,8 @@
   "category": {
     "id": "671b5104ad9bf8d210384d29",
     "name": "Kidney",
-    "tests": [
-      "672df7bc4280ae87a405c2a9",
-      "673711a9996e7737b6f4dc9c",
-      "679385c8c75a5739655ac869",
-      "681c725916444f3c1158d291"
-    ],
     "image": "/lab-tests/image-1729663959118-621550631.webp",
-    "path": "/kidney-tests",
-    "createdAt": "2024-10-23T06:13:08.734Z",
-    "updatedAt": "2024-10-23T06:13:08.734Z",
-    "markdown": "Kidney Tests"
+    "path": "/kidney-tests"
   },
   "relatedTests": []
 }

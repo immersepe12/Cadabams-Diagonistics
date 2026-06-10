@@ -160,1239 +160,136 @@
   "category": {
     "id": "671b5102ad9bf8d210384d1c",
     "name": "Ultrasound",
-    "tests": [
-      "6735c72a03598b92c151c6fd",
-      "6735cb2f03598b92c151c782",
-      "6735e71803598b92c151c9f2",
-      "6736ed7d03598b92c151ce21",
-      "6736f1c103598b92c151ce6f",
-      "6736f48703598b92c151cf12",
-      "6736fdc303598b92c151d13e",
-      "673712ef996e7737b6f4dd40",
-      "673724eb996e7737b6f4dfbc",
-      "673729fa996e7737b6f4e0f3",
-      "67373672996e7737b6f4e274",
-      "673c56c5effae454707dfe68",
-      "673c8097effae454707e01a3",
-      "673dbe26534c72d341052d51",
-      "6799e782bf2a88a244a69719",
-      "679b3aecbf2a88a244a6b50a",
-      "679b3cd2bf2a88a244a6b525",
-      "679b4c54bf2a88a244a6b708",
-      "679c74afbf2a88a244a6ed60",
-      "679c86b9bf2a88a244a6f03a",
-      "67a0bafcbf2a88a244a77549",
-      "67a1b8d727567f98e56d25af",
-      "67a1bbb227567f98e56d2679",
-      "67a1ca5f27567f98e56d2be6",
-      "67a1d39b27567f98e56d2cac",
-      "67a1d50627567f98e56d2cc7",
-      "67a9acd8a45909fb1bd0f97d",
-      "67a9b364a45909fb1bd0fa5d",
-      "67ac7bbba45909fb1bd13977",
-      "67ac8481a45909fb1bd13c0b",
-      "67ac8549a45909fb1bd13c27",
-      "67ad9898a45909fb1bd15570",
-      "67af2565a45909fb1bd1843d",
-      "67af28aca45909fb1bd184fd",
-      "67b2f5b4a45909fb1bd1de00",
-      "67b4727da45909fb1bd20f21",
-      "67b8383fa45909fb1bd280e9",
-      "67bde09a16444f3c114dbe00",
-      "67bde36416444f3c114dbe1f",
-      "67c02bb116444f3c114df7ca",
-      "67e681b516444f3c11523ebd",
-      "67e683d116444f3c11523f51",
-      "67e6860a16444f3c11523fba",
-      "67e687e216444f3c11523fea",
-      "67e68a0b16444f3c1152404b",
-      "67e68c2616444f3c11524084",
-      "67ec0ec816444f3c1152e4c9",
-      "67ec11d316444f3c1152e589",
-      "67ec146216444f3c1152e5c4",
-      "67ec16d516444f3c1152e5e9",
-      "67edff4416444f3c115312af",
-      "67ee037416444f3c115312ee",
-      "67f3e8de16444f3c1153ae09",
-      "680b8c9416444f3c11568f64",
-      "680b9df916444f3c115691a7",
-      "680ba19b16444f3c11569206",
-      "680ba4d516444f3c11569288",
-      "680f3e8f16444f3c1156f68a",
-      "6841615116444f3c115dc079",
-      "684a89e316444f3c115f11be",
-      "684a8ed016444f3c115f141c",
-      "684a90b016444f3c115f1460",
-      "684bd88c16444f3c115f5307",
-      "684be57b16444f3c115f597a",
-      "6851284a16444f3c11607d4c"
-    ],
     "image": "/scans/image-1730261906886-257915264.webp",
-    "path": "ultrasound-scan",
-    "createdAt": "2024-10-17T19:23:49.627Z",
-    "updatedAt": "2024-10-17T19:23:49.627Z",
-    "allData": {
-      "categoryId": "671b5102ad9bf8d210384d1c",
-      "requisites": [
-        {
-          "value": ""
-        }
-      ],
-      "interpretations": {
-        "title": "Results and Interpretations ",
-        "cols": [
-          "Scan Parameter ",
-          "Normal Range ",
-          "Abnormal Range ",
-          "Interpretation "
-        ],
-        "rows": [
-          [
-            "Organ Size ",
-            "Normal organ size ",
-            "Enlarged or reduced organ size ",
-            "Enlarged organs may indicate disease (e.g., liver disease, heart issues), while reduced size can suggest atrophy or other health concerns. "
-          ],
-          [
-            "Presence of Masses ",
-            "No masses or lumps detected ",
-            "Solid or cystic masses detected",
-            "Solid masses could indicate tumours or cancer, while cystic masses are often benign but "
-          ],
-          [
-            "Blood Flow (Doppler) ",
-            "Normal blood flow ",
-            "Restricted or abnormal flow ",
-            "Abnormal blood flow might signal issues like blood clots, artery blockages, or vascular disease. "
-          ],
-          [
-            "Fetal Development ",
-            "Fetus growing according to gestational age ",
-            "Abnormal fetal size or structure ",
-            "Abnormalities in fetal size or development can indicate growth restrictions, developmental delays, or other prenatal health concerns. "
-          ]
-        ]
-      },
-      "faqs": [
-        {
-          "question": "When is an Ultrasound advisable to be done? ",
-          "answer": "If there is a requirement for an abdominal ultrasound, fasting must be done in order to create clean images where only the internal organs are captured. Rest instructions and procedures can be sought from a physician."
-        },
-        {
-          "question": "Can we find any ultrasound-related services in Bangalore? ",
-          "answer": "We are proud to inform the readers now that Cadabam’s Diagnostics in Bangalore provides ultrasound services to facilitate identifying and monitoring medical conditions."
-        },
-        {
-          "question": "What Is a Normal Ultrasound Result? ",
-          "answer": "A normal ultrasound result states that the internal organs and soft tissues reasonably work there is no presence of any abnormalities such as masses, fluid accumulation, or structural changes among other factors. However, it is worth remembering that “normal” does differ slightly from one person to another due to their age, gender or even health. This doesn't mean however that someone should cease to consult their healthcare official."
-        },
-        {
-          "question": "Who Performs an Ultrasound Scan? ",
-          "answer": "Sonographers are trained professionals who operate ultrasound machines and target specific areas of the body with the equipment in order to create usable photographs of the location for diagnosis."
-        },
-        {
-          "question": "How Safe Is an Ultrasound Scan? ",
-          "answer": "Ultrasound scans are safe since they use sound waves instead of radiation. They do not breach the skin in any way or form. There also are no potential dangers that are known in existence. This makes ultrasounds guess-free scans for pregnant women and for other clinics."
-        }
-      ],
-      "relative_test": {
-        "title": "",
-        "categoryId": "671b5102ad9bf8d210384d1c",
-        "tests": [
-          {
-            "id": "6735c72a03598b92c151c6fd",
-            "testName": "USM MUSCULOSKELETAL",
-            "route": "/musculoskeletal-ultrasound-msk"
-          },
-          {
-            "id": "6735cb2f03598b92c151c782",
-            "testName": "US PREGNCANY FETAL FACE 3D",
-            "route": "/fetal-ultrasound"
-          },
-          {
-            "id": "6735e71803598b92c151c9f2",
-            "testName": "US GUIDED BREAST BIOPSY",
-            "route": "/breast-biopsy-scan"
-          },
-          {
-            "id": "6736ed7d03598b92c151ce21",
-            "testName": "PENILE DOPPLER",
-            "route": "/penile-doppler-ultrasound-scan"
-          },
-          {
-            "id": "6736f1c103598b92c151ce6f",
-            "testName": "US SONOMAMMOGRAM",
-            "route": "/sonomammography-ultrasound-scan"
-          },
-          {
-            "id": "6736f48703598b92c151cf12",
-            "testName": "US THYROID ELASTOGRAPHY",
-            "route": "/thyroid-scan"
-          },
-          {
-            "id": "6736fdc303598b92c151d13e",
-            "testName": "ECHO",
-            "route": "/echocardiogram-testing"
-          },
-          {
-            "id": "673712ef996e7737b6f4dd40",
-            "testName": " Elastography Test ",
-            "route": "/elastography-ultrasound-test"
-          },
-          {
-            "id": "673724eb996e7737b6f4dfbc",
-            "testName": " Testis Ultrasound Scan",
-            "route": "/testis-ultrasound-scan"
-          },
-          {
-            "id": "673729fa996e7737b6f4e0f3",
-            "testName": "US PELVIS (TVS)",
-            "route": "/ultrasound-of-transvaginal-scan-tvs"
-          },
-          {
-            "id": "67373672996e7737b6f4e274",
-            "testName": "US ABDOMEN - PELVIS",
-            "route": "/abdomen-and-pelvis-ultrasound-scans"
-          },
-          {
-            "id": "673c56c5effae454707dfe68",
-            "testName": "Abdominal Ultrasound ",
-            "route": "/abdominal-ultrasound"
-          },
-          {
-            "id": "673c8097effae454707e01a3",
-            "testName": "US PELVIS",
-            "route": "/pelvis-ultrasound"
-          }
-        ]
-      },
-      "seo": {
-        "title": "",
-        "description": "Book ultrasound scans near you for precise imaging and quick results at trusted diagnostic centers committed to accuracy, care, and timely health reports."
-      }
-    },
-    "markdown": "a non-invasive imaging technique that uses high-frequency sound waves to create pictures of the inside of the body\n\n## Ultrasound Overview\n\n![Ultrasound Overview](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731735946889-414492423.jpg)\n\nUltrasound, sonography or ultrasonography as it is also called, is a painless diagnostic imaging technique that uses ultrasound waves to create moving images of the internal organs including soft parts of the body. It can be used for a wide range of scanning ranging from monitoring pregnancies to diagnosing diseases.\n\nIts imaging capabilities allow doctors to see through your body without making the cut and it does not employ radiation as X-ray machines do.\n\n### What is An Ultrasound Scan?\n\nUltrasound essentially involves the use of sound waves with a frequency higher than 20kHz to analyze or get images of internal organs of a human body. It is a powerful tool which helps doctors detect abnormalities in tissues and organs. The ultrasound is made up of a device known as a transducer which produces and receives sound waves and indirectly forms images.\n\n## Types of Ultrasounds\n\nThere are different types of ultrasound scans that are used for various conditions and parts of the body. Among these, some of the most common types of ultrasounds are: -\n\n**Abdominal Ultrasound:** This is an ultrasound done to look for blood vessels and organs in your lower abdominal region and to check for conditions like gallbladder stones, kidney stones, and liver problems.\n\n**Pelvic Ultrasound:** Pelvic Ultrasound is probably the most popular type of ultrasound, as every woman have had this type of ultrasound at least once in their life. This is most used to diagnose pregnancy, to assess if a fetus is developing properly, to look for the presence of abdominal organs in females like the uterus and ovaries and in males the bladder and many more.\n\n**Musculoskeletal Ultrasound:** Musculoskeletal Ultrasound is very helpful in detecting troubles with tendons, ligaments or muscles.\n\n**Doppler Ultrasound:** It is a special type of ultrasound scan in which the blood flow through arteries and veins is used to be tested for the presence of vascular disorders such as blood clots.\n\n**Fetal Ultrasound:** Fetal Ultrasound is used in pregnancy to keep track of baby development and baby’s health. It helps in tracking the growth of the fetus, checking if there are any abnormalities, and measuring the amount of amniotic fluid.\n\n## Risks & Limitations of the Ultrasound Test\n\n![Risks & Limitations of the Ultrasound Test](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731735954619-142663100.png)\n\nIn terms of the dangers involved with getting an ultrasound test, these are largely negligible as it employs no radiation whilst producing images, thus, it is regarded as one of the best and least hazardous diagnostic procedures.\n\nOne of the important issues regarding the applicability of ultrasound scanning is that, it may not be suitable for those regions of the body that lie within gas cavities e.g. the intestines, or the bones cover them up. Also, other factors such as obesity may affect the ultrasound’s accuracy.\n\n## List of Parameters Considered During the Scan\n\n![List of Parameters Considered During the Scan](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731735965281-669880283.png)\n\nIt is important to understand that the parameters may vary depending on the type of ultrasound and the purpose of the scan. However, here are a few common parameters that are measured during an ultrasound scan:\n\n- Any change regarding the size, form or dilatation of organs or tissues\n- When Doppler ultrasound is performed, evaluation of blood circulation and the states of vascular system\n- Obstruction of organs which might include cysts or tumours or any other formations\n- For prenatal scanning – amniotic fluid level measurement and checking growth parameters of the fetus (for example: biparietal diameter)\n\n## Reasons for Taking the Ultrasound\n\n![Reasons for Taking the Ultrasound](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731735971667-920239951.png)\n\nThere are multiple reasons that your doctor may suggest you take an ultrasound scan, some of them include: -\n\n**Diagnosing Abnormalities**: In a variety of instances, an ultrasound is used to help diagnose the cyst, tumor or even other surrounding organs’ abnormalities.\n\n**Pregnancy Care:** The ultrasound allows doctors to examine the fetus, while also gauging its state of health.\n\n**Investigating Pain or Swelling**: When there is swelling, pain or other symptoms that are hard to explain, this is where the ultrasound scanning technique comes in.\n\n**Evaluating Organ Function:** Conditions that involve gall bladder disease, kidney stones or cirrhosis of the liver can be evaluated through ultrasound imaging.\n\n### When and Who Needs to Take an Ultrasound Scan?\n\nUltrasounds are recommended to patients for a variety of reasons, some of them include: -\n\n- If your doctor suspects issues with your internal organs such as the liver, kidney, or heart.\n- Pregnant women for evaluating the conditions of the fetuses.\n- Athletes identify musculoskeletal injuries like tendon ruptures or sprains.\n- Patients with no result of visceral massage and other techniques with swelling, pain, or complications of the visceral organs.\n- People with heart disease.\n- Patients with gallstones suspect suffering from kidney stones or some other organ related disorders.\n\n## Benefits of Taking the Ultrasound\n\n![Benefits of Taking the Ultrasound](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731735980742-820179332.png)\n\nUltrasound scan offers a range of benefits and due to this, it is widely used to assess the variety of diseases and monitor a fetus. Some of the benefits include: -\n\n**Non-Invasive:** There is no requirement of any needles or incisions to perform an ultrasound. Such procedures are needed for biopsies and surgeries.\n\n**No Radiation:** This is a feature that helps to protect pregnant mothers and others who must undergo so many scans.\n\n**Real-Time Imaging**: The real time imaging of an ultrasound scan enables medical professionals to fully fathom the insides of a person’s organs and be able to diagnose any abnormalities instantly.\n\n## Illnesses Diagnosed with Ultrasound\n\n![Illnesses Diagnosed with Ultrasound](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731735986278-403634312.png)\n\nUltrasound scan is one of the modalities which is helpful in diagnosing, and which may include all the following but not limited to: -\n\n- Kidney Stones\n- Gall Stones\n- Liver Cirrhosis or Fatty Liver\n- Blood Thrombosis\n- Specific Cases in Pregnancy Targeting Placenta Accreta\n- Thyroid Gland Disorders Such as Nodules and Goitres\n- Heart Failure Due to Hypertrophy and Valvular Defect\n- Inflammation Of the Pancreas\n- Abdominal Aortic Aneurism\n- Cysts And Fibroids Affecting the Structures of the Female Reproductive System\n- Injuries Affecting Muscles Tendons or Ligaments\n- Abscess Formation and Cellulitis\n\n## Preparing for Ultrasound Scan\n\n![Preparing for Ultrasound Scan](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731735992802-68116460.png)\n\nThere are different types of ultrasounds and there are also different indications for which the scan needs to be carried out, thus comparison here i think should not be done. However, below are broad principles, which may be useful in helping you obtain the ultrasound scan in a better way.\n\n### Prerequisites\n\nTo obtain clear results, the image formed on the abdominal scans might tilt or get worse as they cannot have any accumbent solids. On the other hand, the image scans on the Pelvic Region Ultrasound require a considerable amount of water consumption prior to its execution.\n\n### The Most Appropriate Time to Execute the Scan\n\nUltrasounds have numerous purposes; therefore, timing of the scan differs depending on the surgical or diagnostic requirement. For instance, after breakfast falls the time for abdominal ultrasound while Pelvic, MSK, and Doppler ultrasounds can occur in the afternoons too.\n\n### Who is Eligible for an Ultrasound Scan Examination?\n\nMost people, including children, pregnant women, and the elderly can undergo ultrasound procedures without feeling anxious about radiation exposure.\n\n### Procedure for Taking Ultrasound Scan\n\nYour sonographer is a trained ultrasound technician. To avoid friction, ultrasound gel is applied to your skin, after which the sonographer rubs an ultrasound transducer on your skin. Everything else is as easy as changing into a hospital gown.\n\nFor those who don’t know, a transducer is an ultrasound tool that is placed on skin to deliver sound waves to our body and receives echoes that are converted into images.\n\nIf the condition under examination is complex, or the area of the scan is, then the time required for the whole process may be longer than the average time frame of 15 – 45 minutes.\n\n### Caution Before Taking the Scan\n\nUltrasound scans are non-invasive and painless tests that most never require precautionary measures; however, recent surgeries or impediments should be conveyed to the healthcare provider. It is recommended that food consumption is avoided prior to undergoing an abdominal ultrasound, as this may aid in providing better results."
+    "path": "ultrasound-scan"
   },
   "relatedTests": [
     {
       "id": "6735c72a03598b92c151c6fd",
-      "templateName": "non-labtest",
       "testName": "MUSCULOSKELETAL ULTRASOUND",
       "route": "/musculoskeletal-ultrasound-msk",
       "basic_info": {
         "name": "MUSCULOSKELETAL ULTRASOUND",
-        "route": "/musculoskeletal-ultrasound-msk",
         "categoryId": "671b5102ad9bf8d210384d1f",
         "price": 2600,
-        "alsoKnownAs": "",
         "discount": "0",
         "discountedPrice": "2600.00",
         "reportsWithin": "3hrs",
-        "Identifies": "",
-        "measures": "",
-        "testId": 7770126,
         "testCategory": "Ultrasonography",
         "imageSrc": "/scans/image-1745482855611-886318515.webp"
-      },
-      "requisites": [
-        {
-          "value": "Тhe general requirement for MSK ultrasound is that specific preparations are not required. All you have to do is put on some comfortable clothes that allow easy exposure of the area that will be scanned. Your medical officer may request you to refrain from applying lotion or ointment on the skin close to the area being examined to facilitate better images. "
-        }
-      ],
-      "interpretations": {
-        "title": "Results and Interpretations ",
-        "cols": [
-          "Finding / Observation",
-          "Description ",
-          "General Interpretation / Significance"
-        ],
-        "rows": [
-          [
-            "Normal tendon fibrillar pattern",
-            "Uniform echogenic lines",
-            "Intact tendon, no tear"
-          ],
-          [
-            "Partial tendon tear",
-            "Focal hypoechoic gap in tendon fibers",
-            "Incomplete rupture, may heal with rest"
-          ],
-          [
-            "Joint effusion >5 mm",
-            "Anechoic (black) area in joint space",
-            "Inflammation or injury present"
-          ],
-          [
-            "Synovial hypertrophy",
-            "Thickened, irregular synovial lining",
-            "Suggests chronic inflammation"
-          ],
-          [
-            "Doppler hyperemia",
-            "Increased color signals",
-            "Active inflammation with blood-flow"
-          ]
-        ]
-      },
-      "faqs": [
-        {
-          "question": "Is musculoskeletal ultrasound painful?",
-          "answer": "No, the scan is painless. Light pressure from the probe is all you feel."
-        },
-        {
-          "question": "How long does the exam take?",
-          "answer": "Usually 15–30 minutes, depending on the number of areas scanned."
-        },
-        {
-          "question": "Do I need to fast?",
-          "answer": "No fasting or special diet is required."
-        },
-        {
-          "question": "Can I drive after the scan?",
-          "answer": "Yes, you can resume normal activities immediately."
-        },
-        {
-          "question": "When will I get my report?",
-          "answer": "Reports are ready within 30 minutes at Cadabams Diagnostics."
-        },
-        {
-          "question": "Is it safe during pregnancy?",
-          "answer": "Absolutely—ultrasound uses sound waves, not radiation."
-        }
-      ],
-      "relative_test": {
-        "title": "",
-        "categoryId": "671b5102ad9bf8d210384d1f",
-        "tests": [
-          {
-            "id": "672c89e7e3e3df57799179de",
-            "testName": "Msk Scan",
-            "route": "/msk-scan"
-          }
-        ]
-      },
-      "seo": {
-        "title": "Musculoskeletal Ultrasound: Fast, Safe, Precise Imaging",
-        "description": "Discover how MUSCULOSKELETAL ULTRASOUND at Cadabams Diagnostics reveals joint, muscle, ligament & tendon issues in real-time. Book today for same-day results.",
-        "keywords": "",
-        "canonicalUrl": "",
-        "ogTitle": "",
-        "ogDescription": "",
-        "ogImage": "",
-        "schemaMarkup": "",
-        "robotsMeta": ""
-      },
-      "markdown": "## Musculoskeletal Ultrasound Overview\n\n### What This Imaging Test Can Reveal About Joints, Muscles, Ligaments, and Tendons\n- \\*\\*Tears\\*\\* in tendons and ligaments\n- \\*\\*Inflammation\\*\\* in joints or bursae\n- \\*\\*Fluid build-up\\*\\* (effusion)\n- \\*\\*Nerve compression\\*\\* like carpal tunnel syndrome\n- \\*\\*Cysts\\*\\* or abnormal growths\n### Why Cadabams Diagnostics Is the Trusted Choice\n- Same-day appointments and reports\n- Advanced machines with Doppler for blood-flow studies\n- Warm, patient-first environment\n- Direct digital sharing with your referring doctor\n## What Is Musculoskeletal Ultrasound?\n### Definition and Technology: High-Frequency Sound Waves for Real-Time Imaging\nMUSCULOSKELETAL ULTRASOUND uses sound waves above the range of human hearing. A small handheld probe (transducer) glides over the skin, sending echoes that create live pictures on the screen.\n### Difference Between Ultrasound and Other Musculoskeletal Imaging\n| Modality | Ionizing Radiation | Real-Time View | Bone Detail | Typical Cost |\n|----------|--------------------|----------------|-------------|--------------|\n| Ultrasound | None | Yes | Limited | Low |\n| X-ray | Yes | No | Excellent | Low |\n| MRI | No | No | Very good | High |\n| CT | Yes | No | Excellent | Moderate |\n## Types of Musculoskeletal Ultrasound\n- \\*\\*Static imaging\\*\\*: Still pictures for baseline measurements\n- \\*\\*Dynamic (real-time movement) scans\\*\\*: Watch tendons glide or joints open/close\n- \\*\\*Doppler ultrasound\\*\\*: Highlights blood-flow changes in inflammation\n- \\*\\*Ultrasound-guided injections or aspirations\\*\\*: Pinpoint medication delivery or fluid removal.\n\n## When and Who Needs to Take a Musculoskeletal Ultrasound?\n\n### Common Symptoms Prompting Referral\n- Persistent \\*\\*pain\\*\\* or \\*\\*tenderness\\*\\*\n- Visible \\*\\*swelling\\*\\* or \\*\\*bruising\\*\\*\n- Reduced \\*\\*range of motion\\*\\*\n- Instability or “giving way” sensations\n### Athletes, Arthritis Patients, Post-Injury Evaluations\n- Weekend warriors checking for \\*\\*rotator-cuff tears\\*\\*\n- Rheumatoid-arthritis patients monitoring \\*\\*synovial thickening\\*\\*\n- Post-injury athletes assessing \\*\\*ligament integrity\\*\\*\n\n## Risks & Limitations of the Musculoskeletal Ultrasound\n\n- \\*\\*Zero ionizing radiation\\*\\*—safe for all ages and pregnancy\n- \\*\\*Minimal risk profile\\*\\*; no contrast dye complications\n### Limitations\n- \\*\\*Depth penetration\\*\\* drops in very large limbs\n- \\*\\*Operator dependency\\*\\*—choose accredited centres like Cadabams Diagnostics\n- \\*\\*Difficult bone visualization\\*\\*—MRI may be needed for deep bone marrow issues\n\n## List of Parameters Considered During the Musculoskeletal Ultrasound\n\n- Tendon thickness and echogenicity\n- Joint effusion volume\n- Muscle fiber integrity\n- Ligament continuity\n- Synovial hypertrophy\n- Bursal distension\n\n## Reasons for Taking a Musculoskeletal Ultrasound\n\n- \\*\\*Rapid diagnosis\\*\\* of acute sports injuries\n- \\*\\*Monitor chronic conditions\\*\\* like rheumatoid arthritis or gout\n- \\*\\*Guide minimally invasive procedures\\*\\* such as steroid injections\n\n## Benefits of Taking the Musculoskeletal Ultrasound\n\n- \\*\\*Non-invasive & painless\\*\\*—no needles unless you choose guided injection\n- \\*\\*No radiation\\*\\*—ideal for children and expectant mothers\n- \\*\\*Real-time imaging during movement\\*\\*—catch problems static scans miss\n- \\*\\*Cost-effective\\*\\* alternative to MRI\n- \\*\\*Immediate results\\*\\*—start treatment the same day\n\n## Illnesses Diagnosed with Musculoskeletal Ultrasound\n\n- Tendon tears (rotator cuff, Achilles)\n- Ligament sprains (ankle, knee)\n- Muscle strains and hematomas\n- Joint synovitis and effusions\n- Carpal tunnel syndrome\n- Ganglion cysts\n\n## Preparing for Musculoskeletal Ultrasound\n\n- Wear \\*\\*loose garments\\*\\* that expose the joint or limb easily\n- Remove \\*\\*jewellery, watches or braces\\*\\* from the scan area\n- \\*\\*No fasting\\*\\*—eat and drink normally\n## Pre-requisites Musculoskeletal Ultrasound\n- Valid \\*\\*doctor’s referral\\*\\* or prescription\n- Bring \\*\\*previous imaging reports\\*\\* (X-ray, MRI) if available\n- Inform the sonographer of \\*\\*allergies\\*\\* or \\*\\*skin conditions\\*\\*\n## Best Time to Take the Musculoskeletal Ultrasound\n- \\*\\*Book within 48 hours\\*\\* of acute injury for earliest swelling assessment\n- \\*\\*Early morning slots\\*\\* often have shorter wait times\n- Avoid \\*\\*heavy workouts\\*\\* just before the scan to prevent muscle swelling artefacts\n## Eligibility\n- \\*\\*All age groups\\*\\*—from newborn hips to geriatric shoulders\n- \\*\\*Pregnancy-safe\\*\\*—no radiation risk\n## Procedure for Taking a Musculoskeletal Ultrasound\n1. \\*\\*Check-in & verification\\*\\* at Cadabams Diagnostics front desk\n2. \\*\\*Positioning\\*\\* on a comfortable examination couch\n3. \\*\\*Application of ultrasound gel\\*\\*—water-soluble, easily wiped off\n4. \\*\\*Transducer scanning\\*\\* with gentle pressure; you may be asked to move the joint\n5. \\*\\*Image review\\*\\* on screen with preliminary explanation\n6. \\*\\*Receive report\\*\\* within 30 minutes, emailed to your doctor if requested\n## Caution Before Taking the Test\n- Alert staff to \\*\\*open wounds\\*\\* or \\*\\*skin infections\\*\\*—probe cover or alternative imaging may be used\n- Pause \\*\\*topical creams\\*\\* on the scan area to reduce image artefacts"
+      }
     },
     {
       "id": "6735cb2f03598b92c151c782",
-      "templateName": "non-labtest",
       "testName": "Pregnancy Fetal Ultrasound Scan",
       "route": "/fetal-ultrasound",
       "basic_info": {
         "name": "Pregnancy Fetal Ultrasound Scan",
-        "route": "/fetal-ultrasound",
         "categoryId": "671b5102ad9bf8d210384d1c",
         "price": 3500,
-        "alsoKnownAs": "",
         "discount": "0",
         "discountedPrice": "3500.00",
         "reportsWithin": "6hrs",
-        "Identifies": "",
-        "measures": "",
-        "testId": 7770109,
         "testCategory": "Ultrasonography"
-      },
-      "requisites": [
-        {
-          "value": "During fetal ultrasound, there is no preparation required for patients. However, your doctor might direct you to drink a lot of water in order to fill your bladder which eventually improves the quality of the ultrasound image. "
-        }
-      ],
-      "interpretations": {
-        "title": "Results and Interpretations ",
-        "cols": [
-          "Results and Interpretations ",
-          "Interpretation ",
-          "Further Action ",
-          ""
-        ],
-        "rows": [
-          [
-            "Normal ",
-            "Indicates no issues with the growth and development of the baby were found.       ",
-            "No additional action is typically required.       ",
-            ""
-          ],
-          [
-            "Abnormal       ",
-            "Something uncommon was noticed in the baby’s growth or development.       ",
-            "Additional scans or diagnostic tests may be recommended to further investigate the condition.       ",
-            ""
-          ],
-          [
-            "Incomplete Images       ",
-            "Difficulty in capturing images of all structures due to baby’s position or movement.       ",
-            "A repeat scan may be ordered to obtain clearer images.  ",
-            ""
-          ]
-        ]
-      },
-      "faqs": [
-        {
-          "question": "Is it an extensive process to have a fetal ultrasound scan? ",
-          "answer": "A fetal ultrasound scan typically lasts approximately twenty minutes and forty five minutes in additional circumstances but the phase of pregnancy and the significance of the images to the doctor come into play. Some other detailed scans may last for more than forty five minutes if more photos or measurements are required to be taken."
-        },
-        {
-          "question": "Is it possible to detect every single imperfection by fetal ultrasound? ",
-          "answer": "Fetal Ultrasound is one of the most popular ways of scanning the body and while the procedure is simple, it does not always detect every single irregularity that may potentially be present.\n\nSome conditions may not be apparent with the ultrasound or may come to light later in the pregnancy and hence require further tests to be certain."
-        },
-        {
-          "question": "Can I get a fetal ultrasound scan at Cadabam's Diagnostics in Bangalore? ",
-          "answer": "Yes, Cadabam’s Diagnostics in Bangalore does offer fetal ultrasound scans. Our center has the latest imaging procedures to enable proper fetal monitoring and care throughout the course of pregnancy so as to make sure that both mother and child are properly taken care of."
-        },
-        {
-          "question": "Are there any known consequences or risks that increase by having numerous fetal ultrasounds in one pregnancy? ",
-          "answer": "No risks and side effects are known with having many fetal ultrasounds. Especially the ultrasound is quite safe and involves no radiation exposure of the fetus and thus is ideal during pregnancy routine follow ups."
-        },
-        {
-          "question": "When you are about to go in for a fetal scan ultrasound, can you have a meal? ",
-          "answer": "Yes, you can eat food before having a fetal ultrasound, but drink’more lots of water. You’re encouraged to drink so that you can do better imaging on a bluffed bladder through ultrasound."
-        }
-      ],
-      "relative_test": {
-        "title": "",
-        "categoryId": "",
-        "tests": []
-      },
-      "seo": {
-        "title": "Fetal Ultrasound in Bangalore | Cadabam's Diagnostics",
-        "description": "Ensure your baby's health with detailed fetal ultrasound scans in Bangalore. Trusted labs and experts.",
-        "keywords": "",
-        "canonicalUrl": "",
-        "ogTitle": "",
-        "ogDescription": "",
-        "ogImage": "",
-        "schemaMarkup": "",
-        "robotsMeta": ""
-      },
-      "markdown": "## What is a Fetal Ultrasound Scan?\n\nA fetal ultrasound scan this also known as a fetal ultrasound, is a non-invasive imaging technique that is safe to do for the patient and their fetus. This technique employs the use of sound waves to create two-dimensional pictures of the fetus. This will aid your doctor in determining the size of the fetus and its movement shape and position among others.\n\nFetal ultrasound scan: This examination proves useful as it can also aid in evaluation of the fetal heartbeat. This scan can help in determining fetus growth and development, the levels of placenta and amniotic fluid, as well as any physical deformities present in the fetus.\n\n## Risks & Limitations of the Fetal Ultrasound Scan\n\nConsequently, in the majority of circumstances, fetal ultrasound is regarded as effective and safe. Nevertheless, certain factors can influence its effectiveness. Here are some of the elements that can affect its limitations: -\n\n- When the fetus is positioned awkwardly, obtaining clear images may be fairly difficult.\n- Maternal obesity is another factor that may impair image quality of the scan and subsequently reduce its effectiveness.\n- It is true that due to the early stage of the pregnancy ultrasound not all fetal abnormalities may be easily discovered as some fetal features may not have developed.\n\n## List of Parameters Considered During the Fetal Ultrasound Scan\n\nDuring the fetal ultrasound the features/characteristics that were assessed by your doctor/physician together with the overall development of the fetus are a variety of the following parameters. Some of the main parameters include: -\n\n- Measurements of fetal body size and growth\n- Fetal heartbeat changes in rhythm\n- How much amniotic fluid is there?\n- Placement of and health of the placenta\n- Head, spine, limbs of the fetus\n- Structure of umbilical cord\n\n## Reasons for Taking the Fetal Ultrasound Test\n\nA fetal ultrasound scan is one of the examinations that you ought to have had during the time you sought prenatal care and there are varieties of reasons your doctor would want you to have one such reasons include: -\n\n- Confirmation of pregnancy and fetal viability\n- Monitoring fetal growth and development\n- Assessing placental function and amniotic fluid levels\n- Detecting structural abnormalities or birth defects\n- Evaluating the fetus's position before delivery\n\n## Benefits of Taking a Fetal Ultrasound Scan\n\nThe fetal ultrasound scan has many benefits, the following are some of the reasons it is considered beneficial: A fetal ultrasound scan shows many advantages as both a diagnostic and a treatment technique:\n\n- Assisting with fertility treatments\n- It helps doctors make medical decisions during pregnancy\n- Monitoring of high-risk pregnancies\n- Feeling the Position of a fetus\n- Further Evaluation of The Ultrasound Scan\n\n## Preparing for the Fetal Ultrasound Scan\n\nA fetal ultrasound scan is exactly what I require. Even though there is distortion in images taken, it is possible to capture mucous consisting of considerable content without complete dissolution with undissolved residue by conducting the image scan with a full bladder. It is common to water one hour before the scan. Your stomach won’t be able to adjusted as needed when fasting for the Fetal scan. If necessary, menstrual abdominal imaging can wait until the end of the fasting duration.\n\n### Key aspects of fetal ultrasound scans\n\nThe image scan can be carried out depending on how early or late you are into your pregnancy. For females who are further along their pregnancy journey, growth monitoring can be done at 28-32 weeks, which is considered the most optimal time. Furthermore, 18-20 week ultrasound anatomy scans can also be taken as well with 6-9 week fetal scans.\n\n### Guidelines about Fetal ultrasound scans\n\nFetal ultrasounds essentially belong to the basic fetal care kit according to the medical practitioners which means any one with a normal health condition and not considered high risk is eligible to get these scans. Test results only reflect skeletal condition making pregnant women wondering does weight affect hormonal genitalia during the early 9 weeks of pregnancy who have had a miscarriage. Close monitoring is needed in women possessing high risk pregnancies which would require additional scans throughout their pregnancy.\n\n### What to expect during the process of a fetal ultrasound scan?\n\nPersonnel and sonographers will routinely become limited when pregnant and require one to recline on the bed upon commencement of the scan. This helps air gap interference as the gel on the abdomen will be rubbing off making it easy to transmit sound waves throughout. However, men looking to displace their belly should consider gorging on snacks.\n\nThe next step is to use a transducer to capture time images of the fetus by moving it across the patient’s abdomen. If needed, the technician may request you to change the position to have a better view of the fetus. This whole process usually takes about 20-45 minutes.\n\n### Scan Must Be Taken With Caution\n\nIn terms of foods that one should refrain from consuming there are no particular recommendations that need to be taken. However, you have to ensure that your bladder is full also that will assist in capturing clear images. Informing the healthcare practitioner about conditions or allergies prior to the scan is also advisable."
+      }
     },
     {
       "id": "6735e71803598b92c151c9f2",
-      "templateName": "non-labtest",
       "testName": "GUIDED BREAST BIOPSY ULTRASOUND",
       "route": "/breast-biopsy-scan",
       "basic_info": {
         "name": "GUIDED BREAST BIOPSY ULTRASOUND",
-        "route": "/breast-biopsy-scan",
         "categoryId": "671b5102ad9bf8d210384d1c",
         "price": 8500,
-        "alsoKnownAs": "",
         "discount": "0",
         "discountedPrice": "8500.00",
         "reportsWithin": "",
-        "Identifies": "",
-        "measures": "",
-        "testId": 7770111,
         "testCategory": "Ultrasonography"
-      },
-      "requisites": [],
-      "interpretations": {
-        "title": "Results and Interpretations ",
-        "cols": [
-          "Finding / Observation",
-          "\tDescription",
-          "General Interpretation / Significance "
-        ],
-        "rows": [
-          [
-            "Benign fibroadenoma",
-            "Tight clusters of uniform cells",
-            "Routine follow-up in 6–12 months"
-          ],
-          [
-            "DCIS",
-            "Cancer cells inside duct, no invasion",
-            "Discuss lumpectomy + radiation"
-          ],
-          [
-            "IDC",
-            "Invasive cells beyond ducts",
-            "Staging and treatment plan needed"
-          ],
-          [
-            "Atypical ductal hyperplasia",
-            "Pre-cancerous changes",
-            "Surgical excision recommended"
-          ],
-          [
-            "Insufficient sample",
-            "<5 cores or extensive necrosis",
-            "Repeat biopsy or consider VAB"
-          ]
-        ]
-      },
-      "faqs": [
-        {
-          "question": "How long does the procedure take?",
-          "answer": "30–45 minutes, including preparation and post-care instructions."
-        },
-        {
-          "question": "Is it painful?",
-          "answer": "Most women feel pressure, not pain, thanks to local anesthesia."
-        },
-        {
-          "question": "When can I resume normal activities?",
-          "answer": "Same day; avoid heavy lifting or strenuous exercise for 24 hours."
-        },
-        {
-          "question": "What if results are inconclusive?",
-          "answer": "Your physician may recommend a repeat **guided breast biopsy ultrasound** with VAB or proceed to surgical excision."
-        },
-        {
-          "question": "Does insurance cover the test?",
-          "answer": "Yes—most policies cover medically indicated breast biopsies. Our billing team will verify coverage before your appointment."
-        }
-      ],
-      "relative_test": {
-        "title": "",
-        "categoryId": "671b5102ad9bf8d210384d1c",
-        "tests": [
-          {
-            "id": "6735cb2f03598b92c151c782",
-            "testName": "Fetal Ultrasound ",
-            "route": "/fetal-ultrasound"
-          }
-        ]
-      },
-      "seo": {
-        "title": "Guided Breast Biopsy Ultrasound | Cadabams Diagnostics",
-        "description": "Learn how a guided breast biopsy ultrasound at Cadabams Diagnostics provides precise, minimally invasive answers about breast lumps with same-day recovery.",
-        "keywords": "",
-        "canonicalUrl": "",
-        "ogTitle": "",
-        "ogDescription": "",
-        "ogImage": "",
-        "schemaMarkup": "",
-        "robotsMeta": ""
-      },
-      "markdown": "## Guided Breast Biopsy Ultrasound Overview\n\n- \\*\\*What it is:\\*\\* A quick, outpatient test using ultrasound to steer a needle to a breast lesion for tissue sampling.\n- \\*\\*Why Cadabams Diagnostics:\\*\\*\n• Over 30 years of breast-imaging expertise\n• On-site pathologists for 24–48-hour turnaround\n• Dedicated women’s-health suites designed for privacy and calm\n• Patient navigators who explain each step in everyday language\n---\n## What Is Guided Breast Biopsy Ultrasound?\n### Definition\nA \\*\\*guided breast biopsy ultrasound\\*\\* combines high-frequency sound waves with a hollow needle to obtain tiny tissue samples from a breast lump or abnormality. The radiologist watches the needle in real time on an ultrasound monitor, ensuring pinpoint accuracy without radiation.\n### How It Differs From Other Techniques\n| Technique | Guidance | Best For | Radiation? |\n|-----------|----------|----------|------------|\n| \\*\\*Ultrasound-guided\\*\\* | Sound waves | Cysts, solid masses | No |\n| \\*\\*Stereotactic\\*\\* | Mammogram X-ray | Micro-calcifications | Yes |\n| \\*\\*MRI-guided\\*\\* | Magnetic resonance | Dense breasts, implants | No |\n---\n## Types of Guided Breast Biopsy Ultrasound\n1. \\*\\*Fine-Needle Aspiration (FNA)\\*\\* – 23–25 gauge needle; quick fluid or cell sampling\n2. \\*\\*Core Needle Biopsy (CNB)\\*\\* – 14–16 gauge spring-loaded needle; retrieves 3–6 cylindrical cores for detailed pathology\n3. \\*\\*Vacuum-Assisted Biopsy (VAB)\\*\\* – Larger 9–11 gauge probe; collects multiple contiguous samples in one pass, ideal for small lesions\n---\n\n## When and Who Needs a Guided Breast Biopsy Ultrasound?\n\n\\*\\*Indications\\*\\*\n- Suspicious finding on screening mammogram or breast ultrasound\n- New palpable lump felt during self-exam\n- Follow-up of abnormal MRI findings\n- Persistent breast pain localized to one spot\n\\*\\*Risk-Factor Considerations\\*\\*\n- Ages 30–65 with dense breast tissue\n- Family history of breast cancer\n- Prior inconclusive core biopsy\n- Pregnancy-safe alternative to stereotactic biopsy\n---\n\n## Risks & Limitations\n\n### Minimal Risks\n- Small bruise or hematoma (1–2 %)\n- Skin infection (<0.5 %)\n- Rare false-negative result (2–3 %)\n### Limitations\n- Cannot access deep calcifications that don’t cast an ultrasound shadow\n- Success depends on radiologist skill and lesion visibility\n- Lesions smaller than 5 mm may be challenging to target\n---\n\n## Parameters Considered During the Procedure\n\nRadiologists evaluate:\n- \\*\\*Lesion size and shape\\*\\*\n- \\*\\*Margins\\*\\* (smooth vs. irregular)\n- \\*\\*Vascularity\\*\\* on color Doppler\n- \\*\\*Echogenicity\\*\\* (hypoechoic, isoechoic, hyperechoic)\n- \\*\\*Posterior acoustic features\\*\\* (shadowing or enhancement)\n---\n\n## Reasons for Taking a Guided Breast Biopsy Ultrasound\n\n- \\*\\*Confirm or rule out breast cancer\\*\\*\n- \\*\\*Determine hormone-receptor status\\*\\* (ER, PR, HER2) to tailor treatment\n- \\*\\*Guide surgical planning\\*\\* (lumpectomy vs. mastectomy)\n- \\*\\*Assess response\\*\\* to neoadjuvant therapy\n---\n\n## Benefits\n\n- \\*\\*Real-time targeting\\*\\*—no guesswork, minimal healthy tissue removal\n- \\*\\*Zero radiation\\*\\*—safe during pregnancy and for repeat procedures\n- \\*\\*Outpatient convenience\\*\\*—arrive, biopsy, and go home within 2 hours\n- \\*\\*Same-day recovery\\*\\*—resume normal life quickly with simple after-care instructions\n---\n\n## Illnesses Diagnosed\n\n| Condition | Typical Ultrasound Appearance |\n|-----------|------------------------------|\n| Invasive ductal carcinoma | Irregular, hypoechoic mass with spiculated margins |\n| DCIS | Ductal wall thickening, microcalcifications may be absent |\n| Fibroadenoma | Oval, well-circumscribed, “pushing” margins |\n| Intraductal papilloma | Intraductal mass with vascular stalk |\n| Mastitis/abscess | Hypoechoic collection with surrounding hyperemia |\n---\n\n## Preparing for Guided Breast Biopsy Ultrasound\n\n- \\*\\*Pause blood thinners\\*\\* (aspirin, clopidogrel, warfarin) \\*\\*only if your doctor okays it\\*\\*\n- \\*\\*No fasting\\*\\* required—eat a light meal to avoid dizziness\n- \\*\\*Wear a front-opening top\\*\\* and avoid deodorant or talc on the day\n- Bring prior imaging reports on a CD or QR code for comparison\n---\n## Prerequisites\n- Recent mammogram or breast ultrasound images (within 6 months)\n- Coagulation profile (PT/INR, platelet count) if you take anticoagulants\n- Completed consent form and allergy list\n---\n## Best Time to Take the Test\n- Schedule between \\*\\*day 7–10 of the menstrual cycle\\*\\* when breasts are least tender\n- Avoid scheduling during an \\*\\*active breast infection\\*\\* or within 4 weeks of giving birth\n---\n## Eligibility\n- \\*\\*All women\\*\\* with palpable or non-palpable breast lesions visible on ultrasound\n- \\*\\*Pregnant women\\*\\*—procedure is radiation-free and safe in any trimester\n- \\*\\*Men\\*\\* with suspicious breast lumps (rare but possible)\n---\n## Step-by-Step Procedure\n1. \\*\\*Positioning\\*\\* – Lie on your back or turned slightly to the side; arm above head\n2. \\*\\*Skin prep\\*\\* – Antiseptic cleansing and sterile drapes\n3. \\*\\*Local anesthesia\\*\\* – 1–2 cc lidocaine; you stay awake and comfortable\n4. \\*\\*Needle insertion\\*\\* – Real-time ultrasound guides the needle; 3–6 samples taken\n5. \\*\\*Post-procedure\\*\\* – Adhesive dressing and light compression; 15-minute observation\n---\n## Caution Before the Test\n- \\*\\*Disclose metal allergies\\*\\* to nickel if vacuum-assisted device is planned\n- \\*\\*Inform about pacemaker or implantable devices\\*\\* (rare contraindication for cautery)\n- \\*\\*Stop herbal supplements\\*\\* (ginkgo, garlic) that thin blood—ask your physician first\n---"
+      }
     },
     {
       "id": "6736ed7d03598b92c151ce21",
-      "templateName": "non-labtest",
       "testName": "PENILE DOPPLER WITH TABLET/INJECTION ULTRASOUND SCAN",
       "route": "/penile-doppler-ultrasound-scan",
       "basic_info": {
         "name": "PENILE DOPPLER WITH TABLET/INJECTION ULTRASOUND SCAN",
-        "route": "/penile-doppler-ultrasound-scan",
         "categoryId": "671b5102ad9bf8d210384d1c",
         "price": 5900,
-        "alsoKnownAs": "",
         "discount": "0",
         "discountedPrice": "5900.00",
         "reportsWithin": "",
-        "Identifies": "",
-        "measures": "",
-        "testId": 7770128,
         "testCategory": "Ultrasonography"
-      },
-      "requisites": [],
-      "interpretations": {
-        "title": "Results and Interpretations ",
-        "cols": [
-          "Finding / Observation",
-          "Description",
-          "General Interpretation / Significance"
-        ],
-        "rows": [
-          [
-            "PSV 15 cm/s",
-            "Reduced arterial inflow",
-            "Likely arteriogenic ED"
-          ],
-          [
-            "EDV 10 cm/s",
-            "High diastolic flow",
-            "Venous leak present"
-          ],
-          [
-            "RI 0.6",
-            "Low resistive index",
-            "Mixed vascular issue"
-          ],
-          [
-            "Normal PSV ≥35 cm/s",
-            "Excellent inflow",
-            "Psychogenic or neurogenic ED more likely"
-          ]
-        ]
-      },
-      "faqs": [
-        {
-          "question": "Is the injection painful?",
-          "answer": "Most men report a **quick sting** similar to an insulin shot; numbing spray is available."
-        },
-        {
-          "question": "How long do results take?",
-          "answer": "**30 minutes** after the scan ends."
-        },
-        {
-          "question": "Can I resume sexual activity the same day?",
-          "answer": "Yes, once any erection fully subsides—usually within 1–2 hours."
-        },
-        {
-          "question": "Are repeat scans ever needed?",
-          "answer": "Occasionally, **3–6 months** later to monitor stent or medication response."
-        },
-        {
-          "question": "What if no arterial flow is detected?",
-          "answer": "Your doctor may refer for **angiography** or discuss **penile prosthesis** as next step."
-        }
-      ],
-      "relative_test": {
-        "title": "",
-        "categoryId": "671b5102ad9bf8d210384d1c",
-        "tests": [
-          {
-            "id": "6735c72a03598b92c151c6fd",
-            "testName": "USM MUSCULOSKELETAL",
-            "route": "/musculoskeletal-ultrasound-msk"
-          },
-          {
-            "id": "6735cb2f03598b92c151c782",
-            "testName": "US PREGNCANY FETAL FACE 3D",
-            "route": "/fetal-ultrasound"
-          },
-          {
-            "id": "6735e71803598b92c151c9f2",
-            "testName": "US GUIDED BREAST BIOPSY",
-            "route": "/breast-biopsy-scan"
-          }
-        ]
-      },
-      "seo": {
-        "title": "Penile Doppler Scan at Cadabams | Erectile Health ",
-        "description": "Cadabams Diagnostics offers a painless penile Doppler scan with tablet or injection to detect causes of erectile dysfunction and guide treatment.",
-        "keywords": "",
-        "canonicalUrl": "",
-        "ogTitle": "",
-        "ogDescription": "",
-        "ogImage": "",
-        "schemaMarkup": "",
-        "robotsMeta": ""
-      },
-      "markdown": "## Penile Doppler with Tablet/Injection Ultrasound Scan Overview\n\n### What this scan checks and why it matters\n- \\*\\*Blood flow velocity\\*\\* in the penile arteries\n- \\*\\*Venous leak\\*\\* that prevents sustained erections\n- \\*\\*Plaque or scarring\\*\\* (Peyronie’s) that may block circulation\n### How Cadabams Diagnostics simplifies the process\n- Same-day appointments\n- Private, sound-proof rooms\n- Immediate digital report emailed to you and your doctor\n---\n## What is Penile Doppler with Tablet/Injection Ultrasound Scan?\n### Definition and technology behind Doppler ultrasound\nA \\*\\*high-frequency sound-wave probe\\*\\* measures how fast blood moves through the cavernosal arteries—no X-rays, no radiation.\n### Role of tablet or injection (vasodilator)\n- \\*\\*Tablet option\\*\\*: dissolve sildenafil under the tongue to encourage natural erection\n- \\*\\*Injection option\\*\\*: a tiny dose of prostaglandin E1 is delivered with an insulin-type needle for faster, reliable results\n### Difference between standard ultrasound and penile Doppler\nStandard imaging shows shape; \\*\\*Doppler adds motion\\*\\*, revealing \\*\\*direction and speed\\*\\* of blood flow critical for diagnosing vascular ED.\n---\n## Types of Penile Doppler Scans\n- \\*\\*Color Doppler ultrasound scan\\*\\* – maps arteries in red/blue\n- \\*\\*Spectral Doppler waveform analysis\\*\\* – graphs velocity curves\n- \\*\\*Dynamic infusion pharmacocavernosometry\\*\\* – optional stress test for venous leak\n---\n\n## When and Who Needs to Take a Penile Doppler Ultrasound?\n\n### Symptoms that prompt referral\n- Erections too weak for penetration\n- Loss of erection quickly despite stimulation\n- Delayed onset (>10 min) after arousal\n### Age groups commonly screened\n- \\*\\*25–40 yrs\\*\\*: early vascular disease or trauma\n- \\*\\*40–60 yrs\\*\\*: most common, often linked to diabetes or hypertension\n- \\*\\*60+ yrs\\*\\*: pre-surgical assessment before implants\n### Distinguishing vascular vs. psychogenic erectile dysfunction\nA \\*\\*normal Doppler\\*\\* with rapid erection suggests \\*\\*psychological causes\\*\\*; \\*\\*reduced flow\\*\\* confirms \\*\\*arterial or venous issues\\*\\*.\n---\n\n## Risks & Limitations of the Penile Doppler Ultrasound\n\n- \\*\\*Minimal risk\\*\\*: ultrasound is radiation-free\n- \\*\\*Injection side-effects\\*\\*: mild pain, bruising, or priapism (<1 %)\n- \\*\\*Limitations\\*\\*: very obese patients or severe arterial calcification can obscure readings\n---\n\n## List of Parameters Considered During the Scan\n\n| Parameter | Normal Range | Clinical Meaning |\n|-----------|--------------|------------------|\n| Peak Systolic Velocity (PSV) | ≥30 cm/s | Healthy inflow |\n| End-Diastolic Velocity (EDV) | ≤5 cm/s | Efficient venous trapping |\n| Resistive Index (RI) | ≥0.9 | Low venous leak |\n| Arterial diameter | ≥0.7 mm increase after vasodilator | Responsive vessels |\n---\n\n## Reasons for Taking a Penile Doppler Ultrasound\n\n- \\*\\*Persistent ED\\*\\* after lifestyle changes\n- \\*\\*Pre-surgical planning\\*\\* (penile implant, vascular bypass)\n- \\*\\*Post-trauma evaluation\\*\\* (fracture or pelvic injury)\n- \\*\\*Peyronie’s disease\\*\\* with suspected vascular compromise\n---\n\n## Benefits of Taking the Penile Doppler Ultrasound\n\n- \\*\\*Non-invasive\\*\\* with real-time imaging\n- \\*\\*Guides targeted treatment\\*\\* (medication, stent, or implant)\n- \\*\\*Reduces trial-and-error\\*\\* of oral drugs\n- \\*\\*Restores confidence\\*\\* with objective data\n---\n\n## Illnesses Diagnosed with Penile Doppler Ultrasound\n\n- \\*\\*Arteriogenic erectile dysfunction\\*\\* – clogged penile arteries\n- \\*\\*Venous leak\\*\\* – blood escapes too quickly\n- \\*\\*Peyronie’s plaque\\*\\* with vascular compression\n- \\*\\*Post-traumatic arterial insufficiency\\*\\*\n---\n\n## Preparing for Penile Doppler Ultrasound\n\n- \\*\\*No overnight fasting\\*\\* required\n- \\*\\*Shave or trim\\*\\* pubic hair for probe contact\n- \\*\\*List current medications\\*\\*, especially nitrates or anticoagulants\n- \\*\\*Bring ID\\*\\* and any prior lab reports\n---\n## Pre-requisites & Best Time to Take the Scan\n- \\*\\*Stable BP and pulse\\*\\* (<140/90 mmHg, HR 60–100)\n- \\*\\*Morning slots\\*\\* reduce stress and caffeine levels\n- \\*\\*Avoid smoking\\*\\* and \\*\\*coffee 4–6 hrs\\*\\* before test\n---\n## Eligibility\n### Ideal candidates\n- Adult males ≥18 yrs with suspected vascular ED\n### Contra-indications\n- Severe unstable angina or MI within 3 months\n- Known hypersensitivity to alprostadil or sildenafil\n---\n## Procedure for Taking a Penile Doppler Ultrasound\n1. \\*\\*Privacy assured\\*\\*: supine on cushioned exam table with drapes.\n2. \\*\\*Baseline scan\\*\\*: grayscale imaging of corpora cavernosa.\n3. \\*\\*Stimulation\\*\\*: tablet under tongue OR micro-injection at base.\n4. \\*\\*Monitoring\\*\\*: continuous Doppler for 20–30 min; technician captures waveforms at 5-min intervals.\n5. \\*\\*Documentation\\*\\*: color snapshots and PSV/EDV readings stored on cloud portal.\n---\n## Caution Before Taking the Test\n- Inform staff if on \\*\\*warfarin, DOACs\\*\\*, or antiplatelets.\n- Report \\*\\*history of priapism\\*\\* (>4 hrs).\n- Arrange \\*\\*ride home\\*\\* if choosing injection option (rare dizziness).\n---"
+      }
     },
     {
       "id": "6736f1c103598b92c151ce6f",
-      "templateName": "non-labtest",
       "testName": "Breast Ultrasound Scan",
       "route": "/sonomammography-ultrasound-scan",
       "basic_info": {
         "name": "Breast Ultrasound Scan",
-        "route": "/sonomammography-ultrasound-scan",
         "categoryId": "671b5102ad9bf8d210384d1c",
         "price": 1500,
-        "alsoKnownAs": "",
         "discount": "0",
         "discountedPrice": "1500.00",
         "reportsWithin": "6 hrs",
-        "Identifies": "",
-        "measures": "",
-        "testId": 7770116,
         "testCategory": "Ultrasonography"
-      },
-      "requisites": [],
-      "interpretations": {
-        "title": "Results and Interpretations ",
-        "cols": [
-          "Condition/Findings\t",
-          "\tDescription",
-          "Interpretation"
-        ],
-        "rows": [
-          [
-            "Benign Cyst",
-            "Fluid-filled sac.\t",
-            "Non-malignant; treatment is unlikely, but regular monitoring is recommended."
-          ],
-          [
-            "Fibroadenoma\t",
-            "Movable, smooth, and solid lump.\t",
-            "Typically non-cancerous but requires regular consultations to monitor."
-          ],
-          [
-            "Malignant Tumor\t",
-            "Undefined borders with varied texture in tissues.\t",
-            "Indicates potential cancer; biopsy needed for confirmation."
-          ],
-          [
-            "Calcifications\t",
-            "Tiny calcium deposits.\t",
-            "Could indicate cancer or be harmless; requires further investigation."
-          ]
-        ]
-      },
-      "faqs": [
-        {
-          "question": "Is sonomammography safe? ",
-          "answer": "Sonomammography does not harm an individual in any manner; therefore one can consider this procedure safe."
-        },
-        {
-          "question": "Do I need a referral for a sonomammography? ",
-          "answer": "In general a doctor’s referral will be obligatory to confirm that this procedure is suitable for the respective case."
-        },
-        {
-          "question": "What should I do if my results are abnormal? ",
-          "answer": "It is recommended that you stick to your doctor’s order which could mean undergoing further examinations, including tests like a biopsy to see the precise nature of the case."
-        },
-        {
-          "question": "Are there any recommended specific intervals for sonomammography? ",
-          "answer": "While the expert guidelines recommend it every two years, breast screening should be determined on a case-by-case basis taking into account the patient’s age, medical history, and current status. Other healthcare professionals can also recommend screening to patients from their current age and continuous checkups on a quarterly/half yearly basis based on history and any problems encountered."
-        }
-      ],
-      "relative_test": {
-        "title": "",
-        "categoryId": "671b5102ad9bf8d210384d1c",
-        "tests": [
-          {
-            "id": "6735c72a03598b92c151c6fd",
-            "testName": "USM MUSCULOSKELETAL",
-            "route": "/musculoskeletal-ultrasound-msk"
-          },
-          {
-            "id": "6735cb2f03598b92c151c782",
-            "testName": "US PREGNCANY FETAL FACE 3D",
-            "route": "/fetal-ultrasound"
-          },
-          {
-            "id": "6735e71803598b92c151c9f2",
-            "testName": "US GUIDED BREAST BIOPSY",
-            "route": "/breast-biopsy-scan"
-          },
-          {
-            "id": "6736ed7d03598b92c151ce21",
-            "testName": "US PENILE DOPPLER WITH TABLET/INJECTION",
-            "route": "/penile-doppler-ultrasound-scan"
-          }
-        ]
-      },
-      "seo": {
-        "title": "Sonomammography Ultrasound: Breast Health Assessment",
-        "description": "Sonomammography helps detect early signs of breast cancer. Learn more about the scan and its importance for breast health.",
-        "keywords": "",
-        "canonicalUrl": "",
-        "ogTitle": "",
-        "ogDescription": "",
-        "ogImage": "",
-        "schemaMarkup": "",
-        "robotsMeta": ""
-      },
-      "markdown": "## Sonomammography Scan Overview\n\nOn the other hand, sonomammography – or breast ultrasound – is a sort of a medical scan that women seeking diagnosis get. The best part about this move is it eliminates the exposure to radiation which is a drawback point while getting mammograms done. Breast ultrasound scans are applicable for women who are either pregnant or young and have thicker breast tissues. And it’s all thanks to the high – frequency sound waves which also makes breast and the internal parts clearer than all the previous technologies.\n\nThey also include simple preparations on the patient’s end such as skipping lotion, deodorants and powders on the day of the ultrasound scan as these can contaminate the ultrasound images. However, there is generally no food or medication guidance required.\n\n### **What is Sonomammography?**\n\nTo use sound waves, sonomammography is the best method as it doesn’t involve ionizing radiation. It uses high frequency ultrasound thus making it safer for women who are pregnant or older bearing thick breast tissues. High – frequented ultrasound shows clearer images of the brzeasts along with the internal tissues than its predecessors. Generally, patients getting a breast ultrasound performed do not normally have only breast ultrasound as the procedure is rarely done alone. The procedure can be done overnight without disturbing any family members so covering them off is not a challenge.\n\n### **Types of Sonomammography**\n\nThough the general principle of sound wave application does not alter, sonomammography sometimes varies in its application:\n\n- **Standard breast ultrasound:** This is used when there are certain changes in the breast and need to be followed up on.\n- **3D ultrasound (automated breast ultrasound):** This provides a 3-dimensional view and is employed in the evaluation of more complex cases.\n\n## Risks & Limitations of the Sonomammography\n\nThere is no radiation exposure risk and as a result a sonomammography is a risk free procedure. However, it does have some downsides:\n\n- **Diagnostic accuracy:** sonomammography is able to help in the identification of cysts as well as solid tumors but it is not as effective and accurate in identifying breast cancer, especially small calcification tendencies.\n- **Operator dependency:** The level of precision and reliability of the scan is dependent on the skills and experience of the technician.\n- **Limited by tissue penetration:** In some cases, the walls of the abdomen, for example, might simply be too thick for ultrasound to penetrate sufficiently to view the deeper tissue.\n\n## List of Parameters Considered During the Sonomammography\n\nThere are many such parameters which are evaluated by sonomammographers during the procedure.\n\n- **Mass characteristics:** Mass size, shape, or any alteration in orientation.\n- **Echogenicity:** This is the ability of the lesions to reflect ultrasound waves, thereby revealing the general characteristic of the mass that is, whether it is solid or cystic in nature.\n- **Doppler evaluation:** Blood within and around a lesion to determine whether the lesion is malignant.\n\nIn addition, alterations during the procedure may also be performed due to variables specific to the patient, for instance their age and breast density.\n\n## Reasons for Taking a Sonomammography\n\nAt Cadabam’s Diagnostics, we prioritize accuracy, precision, and patient comfort. Our dedicated team of experienced radiologists and technicians utilizes state-of-the-art equipment and advanced imaging technology to perform sonomammography scans. They interpret the obtained images meticulously, ensuring reliable and comprehensive results.\n\nWe understand the significance of early detection in breast health. Breast health issues are a sensitive matter, and we are committed to providing a supportive and compassionate environment throughout the entire process. Our team is here to address any concerns, answer your questions, and provide personalized care, ensuring that you feel at ease during your sonomammography scan.\n\nWhen you choose us for your sonomammography scan, you can trust that you are receiving the highest quality of diagnostic services from a reliable center. We are dedicated to contributing to your breast health by providing accurate and comprehensive evaluations through advanced sonomammography scans.\n\n### **Wait No More, Undergo Testing Today!**\n\nSchedule an appointment with Cadabam’s Diagnostics today and experience our commitment to excellence in diagnostic services. Let us help you prioritize your breast health by offering reliable and advanced sonomammography scans in a patient-centric environment.\n\n### **When and Who Should Undergo A Sonomammography?**\n\nSonomammography is prescribed by the Healthcare providers due to a variety of factors as it is mostly done along with Mammography to have an elaborate totality in understanding the breast health registries. Certain medical situations, where one might require a sonomammography, include:\n\n- **Palpable lumps:** If any patient has a concern of lump formation in the breasts during the self-examination or during clinical examination.\n- **Breast pain:** pain located in the breast and is not going away or can’t be defined has to be paid attention to.\n- **Abnormal mammogram:** Anything which is noticed abnormal in a mammogram can get better clarification through sonomammography.\n- **Dense breast tissue:** women who are young, under 40 years of age especially with bigger breast growth, use sonomammography since normal mammograms are of limited use.\n\nFor specific cases, clinical presentation varies on a spectrum for a woman with high breast cancer genetic risk factors or one going through a protocol based screening schedule.\n\n## Benefits of Taking the Test\n\nSome of the important benefits of this technology are:\n\n- **Not painful or non-invasive:** There is no need for any stitches or needles.\n- **Radiation free:** This is safe in pregnant women and can be used repeatedly over periods.\n- **Results can be obtained instantly:** It helps in seeing the pictures and assessing them by the health care workers at the same time.\n\n## Illnesses Diagnosed with Sonomammography\n\nSome of the common disorders or problems detected and/or subjected to examination by sonomammography include the following:\n\n- Breast lumps that are not cancerous (fibroadenomas)\n- Cysts in the breast\n- Breast infections or other types of abscesses\n- Cancers in the breast.\n\n## Preparing for Sonomammography\n\nCorrect preparation should lower the probability of complications appearing as well as increase the effectiveness of the test:\n\n- Avoid putting on lotions, powder, or even deodorants around the breast region.\n- Put on loose clothes that can come off effortlessly especially from the top part of the body because you will be required to undress from the waist upwards towards the examination.\n\n### **Pre-requisites**\n\nBefore the examination, make sure to inform your doctor any hormonal therapies, breast implants which can affect the imaging outcome.\n\n### **What is the Best Time for a Sonomammography?**\n\nMost of the time, sonomammography can be carried out at any point in time. However, in case the possibility exists, it is advisable to have the scan done during the first two weeks of your menses as this might cause less discomfort and make it easier to get accurate images due to less breast tenderness and swelling.\n\n### **Who is Eligible to do a Sonomammography?**\n\nThere is no age restriction regarding a person getting a sonomammogram, it is however highly recommended for women who have some conditions such as:\n\n- Existing disease of the breast\n- Women with dense breast tissue\n- Women with genetic predisposition to breast cancer\n\n**How to Take a Sonomammography?**\n\nIt is a fast and straightforward process which takes about ten to fifteen minutes:\n\n1. A request might be made for you to recline on your back on the examining bed.\n2. A Transparent Gel will be put over the breast in order to support the transducer in being in contact with the skin.\n3. The transducer is then moved over the breast region for image capturing.\n4. Usually, the entire undertaking takes an estimated amount of fifteen to thirty minutes in total.\n\nMost activities will most certainly be permitted immediately after the test.\n\n### **What to notify a Sonomammography Technician or Radiologist?**\n\nPrior mentioning the procedures or surgerical reminders, tell the technician if any kind of alteration has occured to your breast. On the other hand, if this pregnancy or suspicion regarding the situation arises, one might consider discussing whether the scan is beneficial."
+      }
     },
     {
       "id": "6736f48703598b92c151cf12",
-      "templateName": "non-labtest",
       "testName": "Thyroid Elastography Ultrasound Scan",
       "route": "/thyroid-scan",
       "basic_info": {
         "name": "Thyroid Elastography Ultrasound Scan",
-        "route": "/thyroid-scan",
         "categoryId": "671b5102ad9bf8d210384d1c",
         "price": 3000,
-        "alsoKnownAs": "",
         "discount": "0",
         "discountedPrice": "3000.00",
         "reportsWithin": "3hrs",
-        "Identifies": "",
-        "measures": "",
-        "testId": 7770122,
         "testCategory": "Ultrasonography"
-      },
-      "requisites": [],
-      "interpretations": {
-        "title": "Results and Interpretations ",
-        "cols": [
-          "Condition/Findings",
-          "Description\t",
-          "Interpretation"
-        ],
-        "rows": [
-          [
-            "Hot Spot\t",
-            "Increased uptake of radioactive material.",
-            "May indicate a hyperactive thyroid nodule or thyroiditis."
-          ],
-          [
-            "Cold Spot\t",
-            "Decreased radioactive uptake.",
-            "May suggest a thyroid cyst, nodule, or a malignant condition."
-          ],
-          [
-            "Diffuse Increased Uptake\t",
-            "Increased absorption of radioactive material throughout the thyroid gland.",
-            "Possibly indicative of Graves’ disease."
-          ],
-          [
-            "No Abnormal Uptake\t",
-            "Radioactive tracer is evenly distributed.",
-            "Indicates that thyroid function is within normal limits."
-          ]
-        ]
-      },
-      "faqs": [
-        {
-          "question": "Is the thyroid scan painful? ",
-          "answer": "No, it is an outpatient procedure that is painless. A minor discomfort may be felt during the needle prick or swallowing the tracer."
-        },
-        {
-          "question": "How safe is the radioactive material? ",
-          "answer": "The dose of radiation one has to be exposed to is fairly low though one has to take precautions and the risk factors are much lower than having to take a standard checkup x-ray."
-        },
-        {
-          "question": "What should I do if I am allergic to iodine?",
-          "answer": "Let your doctor know since iodine is not the only option available; they may use technetium instead."
-        },
-        {
-          "question": "Are there any side effects after the scan? ",
-          "answer": "Side effects are uncommon, but some patients develop minor allergy or altered thyroid activity."
-        },
-        {
-          "question": "When can I expect these results? ",
-          "answer": "The only delay there would possibly be is a few days, in order for a radiologist to interpret the scan."
-        }
-      ],
-      "relative_test": {
-        "title": "",
-        "categoryId": "671b5102ad9bf8d210384d1c",
-        "tests": [
-          {
-            "id": "6735c72a03598b92c151c6fd",
-            "testName": "Musculoskeletal Ultrasound (MSK) ",
-            "route": "/musculoskeletal-ultrasound-msk"
-          },
-          {
-            "id": "6735cb2f03598b92c151c782",
-            "testName": "Fetal Ultrasound ",
-            "route": "/fetal-ultrasound"
-          },
-          {
-            "id": "6735e71803598b92c151c9f2",
-            "testName": " Breast Biopsy Scan",
-            "route": "/breast-biopsy-scan"
-          },
-          {
-            "id": "6736ed7d03598b92c151ce21",
-            "testName": "Penile Doppler Scan",
-            "route": "/penile-doppler-scan"
-          },
-          {
-            "id": "6736f1c103598b92c151ce6f",
-            "testName": "Sonomammography Scans",
-            "route": "/sonomammography-scans"
-          }
-        ]
-      },
-      "seo": {
-        "title": "Thyroid Ultrasound Scan: Diagnose Thyroid Disorders",
-        "description": "Thyroid ultrasound helps detect issues such as goiters or thyroid cancer. Book a scan for an accurate diagnosis.",
-        "keywords": "",
-        "canonicalUrl": "",
-        "ogTitle": "",
-        "ogDescription": "",
-        "ogImage": "",
-        "schemaMarkup": "",
-        "robotsMeta": ""
-      },
-      "markdown": "## Thyroid Scan Overview\n\nThyroid scans are somewhat similar to x rays in their usage but unlike x rays, they are more advanced, enter into the nuclear medicine sphere. Activities of the thyroid that exist in most cases as a result of an enlarged thyroid or goiter will necessitate the use of iodine scanning which entails the absorption of traces of iodine that will eventually diffuse through the neck and into the thyroid area. A thyroid scan uses the combination of a photo and a film to create a more vivid picture of the thyroid in case it requires close monitoring.\n\nIn instances where a squeezable plastic syringe is set to pump when pulled, a pulmonologist will inject a thyoid scan tracer underneath the patients skin.\n\nBefore having a scan done, certain iodine-rich foods need to be avoided such as dietary supplements as well as some medications which may inhibit the performance of certain scans.\n\n### **What is a Thyroid Scan?**\n\nThyroid scans utilize nuclear medicine technology to perform a scan of the thyroid and take pictures using gamma cameras that focus on identifying abnormalities in the neck area. Also, clues on features of possible cancerous areas due to physiologic dysfunction could be detected. It is often the case that iodine 123 or technetium 99m are the areas that have the highest concentration during a thyroid scan as they are believed to be capable of delivering the best results.\n\nThyroid scanning employs specialized imaging technology distinct from other forms of nuclear medicine such that this type of thyroid imaging does not require any harm to be inflicted on the person who is being scanned.\n\n### **Types of Thyroid Scans**\n\nThyroid scans are broadly classified into two categories depending on the radioactive material utilized for the scans:\n\n- **Iodine-123 scan:** It is employed in the assessment of thyroid homeostasis particularly for ‘uptake’ studies because the thyroid assimilates iodine.\n- **Technetium-99 Scan:** Offers rapid imaging however, it is useful where iodine uptake cannot be performed.\n\n## Risks & Limitations of the Thyroid Scan\n\nA thyroid scan is an easy procedure. However, these are some risks and limitations to behold:\n\n- **Dangers of transitioning to “breast” material while being tired:** All expectant and nursing mothers unless there are strong reasons against it during pregnancy suffer minimal risk from radiation exposure.\n- **Reactions Occurring as a Result of Tracer Allergies\\_Most:\\_Rare:** Taking side effects of sanctioning drugs for surveillance it must be said that threatening allergic reactions are indeed quite rare still a valid consideration.\n- **Concentration of benign and malignant lumps may go undetected\\_Morphology:** Such lumps may require more extensive testing including sonography or necropsy to determine the potent risk.\n\n## List of Parameters Considered During the Thyroid Scan\n\nThere are multiple parameters that are followed by relevant health care professionals when performing thyroid scan in a patient including:\n\n- **Thyroid uptake percentage:** Used to determine the amount of radioactive material that is absorbed or used by thyroid gland.\n- **Nodular scan:** The measurement of the structure in relation to nodules that may be present.\n- **Pictures of blood arteries:** To detect hot spots or cold spots in order to confirm whether the activity is more or less in the tissue.\n\nTweaks may be done depending on the age of the patient, use of medicines and other ailments that a patient may have.\n\n## Reasons for Taking a Thyroid Scan\n\nThyroid scan is one of the scans which aids in various cases, some of them are:\n\n- **Hyperthyroid condition identification:** Gathers an image of the sites of hyper active thyroid tissue .\n- **Thyroid gland changes assessment:** Looking through nodule of thyroid target tissue and its activity.\n- **Thyroid carcinoma assessment:** Analyzes any remaining thyroid tissue that has not been targeted by surgery, treatment or follow-up.\n- **Intervention via imaging:** Assesses whether medication for a thyroid illness has been effective.\n\n## Benefits of Taking the Test\n\nA thyroid scan has a great number of advantages:\n\n- **Non invasive procedure:** Accurate images are obtained without requiring any operations or invasive procedures.\n- **Useful diagnostic aid:** This imaging scans assists in conducting accurate evaluations and diagnoses of any pathological changes related to thyro glands.\n- **Functional assessment:** This study evaluates the functional capability of the thyroid gland over a period of time.\n\n## Illnesses Diagnosed with Thyroid Scan\n\nGraves' disease as well as thyroid scans are diagnosed and treated together. A thyroid scan is used to help in determining the following conditions;\n\n- **Thyroid goiter:** Which is a growth of the thyroid and excess secretions of thyroid hormones.\n- **Thyroid inflammation nodules:** To help assess the levels of excess hormone production by the nodules that contain thyroid tissue.\n- **Thyroiditis:** Elevates above the normal range with a greater sense of thyroid tissue inflammation.\n- **Cancerous growths on the thyroid:** Assists in the detection of the presence of malignancies in them.\n\n## Preparing for a Thyroid Scan\n\nWithin the theatre though and gown up patients should follow certain guidelines during a thyroid scan which include;\n\n- **Dietary restrictions:** No sea food or items with dairy should be consumed for at least a week preceding the scan.\n- **Medication intake changes:** The patient should be instructed and informed by the medical practitioner to stop taking thyroid medicine.\n\n### **Pre-requisites**\n\n- **Fasting protocol:** Ordinarily, fasting is not a must, but different places may have different rules.\n- **Absence of iodine supplements:** Patients may need to refrain from iodine tablets and certain medications which contain iodine.\n\n### **Optimal Timing for Taking the Thyroid Scan**\n\nThere are no time constraints for taking a scan, however, it is essential to factor in when the medications were taken or how the diet has been adjusted. It would be advisable to stick to the time period recommended by the treating doctor.\n\n### **Qualifications**\n\n- **Recommended for:** Anyone displaying symptoms of thyroid defect/abnormality or status of a previous thyroid patient.\n- **Contraindications:** Not safe for consumption by a sex None for lactating and pregnant women unless pros outweigh cons.\n\n### **Preparations to be Done Before Admission for Thyroid Scan**\n\n1. **Radioactive tracer intake:** Depending on the isotope, the patient can swallow, inject, or inhale the tracer.\n2. **Waiting Period:** This is done to allow for absorption of the tracer by the thyroid.\n3. **Gamma camera imaging:** The person undergoing the procedure is asked to lie on the examination table with a gamma camera above him capturing images of the thyroid area.\n4. **Scan Duration:** Usually the scan lasts between half an hour to an hour.\n\n### **Things to Know Prior to the Test**\n\nPatients should:\n\n- **Notify technician** all the allergies, medications and even health concerns currently being dealt with.\n- **Bring up a possible pregnancy** or breastfeeding with the practitioner."
+      }
     },
     {
       "id": "6736fdc303598b92c151d13e",
-      "templateName": "non-labtest",
       "testName": "Echocardiogram (Heart) Ultrasound Scan",
       "route": "/echocardiogram-testing",
       "basic_info": {
         "name": "Echocardiogram (Heart) Ultrasound Scan",
-        "route": "/echocardiogram-testing",
         "categoryId": "671b5102ad9bf8d210384d1c",
         "price": 1850,
-        "alsoKnownAs": "",
         "discount": "0",
         "discountedPrice": "1850.00",
         "reportsWithin": "3hrs",
-        "Identifies": "",
-        "measures": "",
-        "testId": 7769092,
         "testCategory": "Ultrasonography"
-      },
-      "requisites": [],
-      "interpretations": {
-        "title": "Results and Interpretations ",
-        "cols": [
-          "Condition/Findings",
-          "Description",
-          "Interpretation"
-        ],
-        "rows": [
-          [
-            "Heart Chamber Enlargement",
-            "Chambers are dilated.",
-            "May indicate signs of heart failure or cardiomyopathy."
-          ],
-          [
-            "Valve Abnormalities\t",
-            "Regurgitation or stenosis at any level is noted.",
-            "May decrease the heart's ability to pump blood or cause pump failure."
-          ],
-          [
-            "Ejection Fraction\t",
-            "Volume of blood pumped out of the heart during a contraction.",
-            "Normal (> 55%), Borderline (45%–55%), Reduced (≤ 45%)."
-          ],
-          [
-            "Presence of Thrombi",
-            "Clots formed inside the heart cavities.",
-            "High risk of stroke; may require anticoagulants."
-          ],
-          [
-            "Pericardial Effusion",
-            "Accumulation of fluid in the pericardium.",
-            "An exudate may suggest infection, injury, or pericarditis."
-          ]
-        ]
-      },
-      "faqs": [
-        {
-          "question": "Is echocardiography safe?  ",
-          "answer": "It’s a safe and painless procedure that does not expose you to any risk more than minimal."
-        },
-        {
-          "question": " How should I prepare for a TEE specifically?  ",
-          "answer": "First, do not eat or drink any food for six hours before the test. Prepare for a drive back as the sedative administered may alter your driving capabilities."
-        },
-        {
-          "question": "How long does it take to get results?  ",
-          "answer": "As a rule of thumb, the doctors will usually have the results in a couple of days unless it is an emergency in which case it will be interpretable on site."
-        },
-        {
-          "question": "Can pregnancy affect an echocardiogram? ",
-          "answer": "Pregnant mothers and embryos face no risks while undergoing echocardiography."
-        },
-        {
-          "question": "Are there any particular side effects? ",
-          "answer": "In general, TTE has no side effects. Throat discomfort, associated with swallow or pressure, can be observed in TEE procedures."
-        }
-      ],
-      "relative_test": {
-        "title": "",
-        "categoryId": "",
-        "tests": []
-      },
-      "seo": {
-        "title": "Echocardiogram Ultrasound: Heart Health Monitoring",
-        "description": "An echocardiogram ultrasound scan checks for heart conditions like valve diseases and heart failure. Get a heart scan now.",
-        "keywords": "",
-        "canonicalUrl": "",
-        "ogTitle": "",
-        "ogDescription": "",
-        "ogImage": "",
-        "schemaMarkup": "",
-        "robotsMeta": ""
-      },
-      "markdown": "## Echocardiography Overview\n\nEchocardiography is a non-invasive technique that employs ultrasound imaging techniques it provides similar images, and weighs ultrasound as one of the components. Sometimes called an “echo,” this ultrasound imaging of the heart makes it possible to assess cardiac anatomy, function, valve motion, and blood flow between the heart chambers and the great vessels; and screening for cardiac muscle motion anomalies. It is an essential technique for diagnosing and treating cardiac problems in a large number of patients and many circumstances.\n\nThe preparation an individual will have to do for an echocardiogram will depend on the kind of echocardiogram that is to be performed. Standard combination transthoracic echocardiogram (TTE) does not require any special diet however, stress echo or transesophageal echocardiogram (TEE) may have requirements such as nil by mouth before the procedure or fail to take medications.\n\n### **What is an echocardiogram?**\n\nEchocardiogram is a live image of a heart which is captured with the aid of high frequency sound waves, ultrasound, which are aimed at the heart with the help of a small device, transducer, placed on the surface of the chest. With the echoes formed as the sound waves strike the internal structures of the heart, a computer processes these echoes into images.\n\n**Technology and Method:**\n\n1. Visualizes the heart using ultrasonic technology.\n\n- Electronic echocardiographic transducers induce ultrasound waves which reflect different structures in the heart.\n- These echo signals are digitally captured by a computer, the transmitted signals called radio frequencies are used to make a three dimensional real time image of the heart organ.\n\n### **How It Works:**\n\n1. Most often the patient lies down on his back or slightly on the side.\n2. The technician moves the transducer crosswise on the chest to get images of different regions of the heart.\n3. Applying gel on the chest enhances the conduction of the sound waves and ensures clear images of the heart.\n\n### **Types of Echocardiography**\n\nThere is a variety of echocardiograms, it varies by the urgency and the requirement for the diagnosis:\n\n**Transthoracic Echocardiogram (TTE):**\n\n1. The most commonly performed echocardiogram would be the TTE. It is noninvasive and conducted through the chest wall.\n\n**Transesophageal Echocardiogram (TEE):**\n\n1. In order to get better postimages of the heart, a probe is placed through the Esophagus into the heart that allows for a better view of the structures.\n\n**Stress Echocardiogram:**\n\n- Stress tests are performed either physically by the patient or by providing medication that stimulates the heart for observation purposes.\n\n**Doppler Echocardiogram:**\n\n- A Doppler echocardiogram evaluates the pressure and blood flow alteration across the valves of the heart.\n\n## Risks & Limitations of Echocardiography\n\nWhile Echocardiography is a screening tool that is effective and often safe, there are some risks and limitations that must be kept in mind:\n\n### **Risks:**\n\n- Data suggests that the risk of td echocardiography is very low, and only occasionally do patients complain of mild skin irritation caused by gel or mild discomfort from the use of a transducer.\n- During a TEE examination, increased risk factors must be acknowledged since a tranquilizer is necessary in order to place a probe down the food pipe, which may result in pain in the throat.\n\n### **Limitations:**\n\n- Due to lung disease and obesity’s effect on the body, a patient’s image quality may suffer.\n- Other instances may require the use of additional imaging techniques such as MRI or CT in order to diagnose more thoroughly.\n\n## List of Parameters Considered During Echocardiography\n\nSo as to perform an optimal echo, several parameters are taken into consideration –\n\n**Heart Chambers Sizes & Function:**\n\n- It is the measurement of the size and wall motion of the heart chambers.\n\n**Valve Function:**\n\n- This involves observing the functioning of the valves and the presence of stenosis or regurgitation.\n\n**Ejection Fraction:**\n\n- Fraction evaluation of blood which is emptied from the ventricles after every beat.\n\n**Adjacent Heart Structures:**\n\n- Structures along the major blood vessel like the aorta and inferior vena-caval sites are evaluated.\n\nDepending on age or any previous heart ailments, there might be a need for changing parameters in the image capturing process.\n\n## Reasons for Taking an Echocardiography\n\nAn echocardiogram may be prescribed by the doctors for diagnosis in a range of conditions or symptoms for example:\n\n**Cardiac Symptoms:**\n\n- It is the case of difficulty in breathing coupled with chest pain, or tiredness without an explanation.\n\n**Suspected Heart Disease:**\n\n- This can include heart murmurs or arrhythmias.\n\n**Monitoring:**\n\n- This can include follow-up in heart failure or post-cardiac surgery.\n\n## Benefits of Taking the Test\n\nEchocardiography is associated with more than a couple of benefits:\n\n- **Non-invasive and Painless:**\n- In most cases, patients are not required to be sedated or exposed to radiation during any of the transformation.\n- **Real-time Imaging:**\n- It enables to observe the heart and what it does, at that very instant.\n- **Diagnosis and Treatment Follow-up:**\n- It is helpful in the diagnosis of heart pathologies, to monitor the results of surgical treatment and, when necessary, to plan future surgeries.\n\n## Illnesses Diagnosed with Echocardiography\n\nEchocardiography is useful in the evaluation of a number of heart diseases including:\n\n- Cardiomyopathy\n- Heart Valve Diseases (Stenosis, Regurgitation)\n- Congenital Heart Defects\n- Pericardial Disease\n- Pulmonary Hypertension\n- Aortic Dissection\n\n## Preparing for Echocardiography\n\nDepending on the particular echocardiogram, special imaging instructions may be necessary:\n\n**TTE:**\n\n- No special preparation needed.\n- Recommended to wear comfortable clothes to the procedure.\n\n**TEE or Stress Echo:**\n\n- Some tests may last several hours necessitating some fasting.\n- The patient is Expected to Avoid caffeine and other specific heart medications for a day before going through the procedure.\n\n### **Pre-requisites**\n\nA number of patients may require further preparation before undergoing some forms of echocardiograms such as TEE:\n\n- **Fasting:**\n- Some procedures may require the patient to abstain from food for approximately 6-8 hours prior to the scans.\n- **Medication Adjustments:**\n- Some patients may need to stop taking their medications for heart issues as prescribed by physicians during the imaging tests.\n\n### **Best Time to Have the Echocardiography**\n\nWith regard to their urgency and regard for the patient, echo tests can be conducted at any hour. No circadian variations test performance throughout these tests.\n\n### **Eligibility**\n\nMost, if not all, patients exhibiting signs or having cardiac related problems can be recommended for an echocardiogram. An exception might be those with esophageal conditions impacting TEE eligibility and alternative arrangements are needed.\n\n### **Taking an Echocardiography Procedure**\n\nThis is the general procedure for carrying out an echocardiogram on a patient.\n\n**Preparation:**\n\n1. The patient is made to change into a hospital gown.\n2. Gel is placed on the chest in order to enhance the transmission of sound waves.\n\n**SLD Execution:**\n\n1. The transducer is placed on the different views of the heart on the patients chest.\n2. The patient will sometimes be asked to move her position so the heart can be seen from different angles, which at times might lead to the patient having holding the breath for brief periods.\n\n**Duration:**\n\n1. The average time taken for an entire test spans from thirty to sixty minutes.\n\n### **Warnings Before the Test**\n\n**Discuss Health Concerns:**\n\n- Tell your physician about swallowing issues that you may have which could make TEE difficult.\n\n**Obey Rules:**\n\n- If there are fasting or medications that must be taken prior to the test then those must be followed."
+      }
     },
     {
       "id": "673712ef996e7737b6f4dd40",
-      "templateName": "non-labtest",
       "testName": "Elastography Ultrasound Scan",
       "route": "/elastography-ultrasound-test",
       "basic_info": {
         "name": "Elastography Ultrasound Scan",
-        "route": "/elastography-ultrasound-test",
         "categoryId": "671b5102ad9bf8d210384d1c",
         "price": 3200,
-        "alsoKnownAs": "",
         "discount": "0",
         "discountedPrice": "3200.00",
         "reportsWithin": "6 hrs",
-        "Identifies": "",
-        "measures": "",
-        "testId": 7770120,
         "testCategory": "Ultrasonography"
-      },
-      "requisites": [],
-      "interpretations": {
-        "title": "Results and Interpretations ",
-        "cols": [
-          "Finding / Observation",
-          "Description",
-          "General Interpretation / Significance"
-        ],
-        "rows": [
-          [
-            "≤7 kPa",
-            "Normal liver stiffness",
-            "No significant fibrosis"
-          ],
-          [
-            "7–9.5 kPa",
-            "Mild increase",
-            "Early (F1) fibrosis"
-          ],
-          [
-            "9.5–12.5 kPa",
-            "Moderate increase",
-            "Moderate (F2–F3) fibrosis"
-          ],
-          [
-            ">12.5 kPa",
-            "Marked increase",
-            "Advanced fibrosis / cirrhosis (F4)"
-          ],
-          [
-            "",
-            "",
-            ""
-          ],
-          [
-            "",
-            "",
-            ""
-          ],
-          [
-            "",
-            "",
-            ""
-          ],
-          [
-            "",
-            "",
-            ""
-          ],
-          [
-            "",
-            "",
-            ""
-          ],
-          [
-            "",
-            "",
-            ""
-          ]
-        ]
-      },
-      "faqs": [
-        {
-          "question": "Is elastography painful?",
-          "answer": "No, it’s completely painless—just gentle probe pressure."
-        },
-        {
-          "question": "How accurate is it for liver fibrosis?",
-          "answer": "Over 90 % correlation with liver biopsy in published studies."
-        },
-        {
-          "question": "Can I eat after the scan?",
-          "answer": "Yes, you may eat and drink immediately."
-        },
-        {
-          "question": "When will I get results?",
-          "answer": "Within 30 minutes of completing the scan."
-        },
-        {
-          "question": "Is insurance covered?",
-          "answer": "Most policies cover liver fibrosis screening—check with your provider."
-        }
-      ],
-      "relative_test": {
-        "title": "",
-        "categoryId": "671b5102ad9bf8d210384d1c",
-        "tests": [
-          {
-            "id": "6735c72a03598b92c151c6fd",
-            "testName": "USM MUSCULOSKELETAL",
-            "route": "/musculoskeletal-ultrasound-msk"
-          },
-          {
-            "id": "6735cb2f03598b92c151c782",
-            "testName": "US PREGNCANY FETAL FACE 3D",
-            "route": "/fetal-ultrasound"
-          },
-          {
-            "id": "6735e71803598b92c151c9f2",
-            "testName": "US GUIDED BREAST BIOPSY",
-            "route": "/breast-biopsy-scan"
-          },
-          {
-            "id": "6736ed7d03598b92c151ce21",
-            "testName": "US PENILE DOPPLER WITH TABLET/INJECTION",
-            "route": "/penile-doppler-ultrasound-scan"
-          },
-          {
-            "id": "6736f1c103598b92c151ce6f",
-            "testName": "US BREAST",
-            "route": "/sonomammography-ultrasound-scan"
-          },
-          {
-            "id": "6736f48703598b92c151cf12",
-            "testName": "US THYROID ELASTOGRAPHY",
-            "route": "/thyroid-scan"
-          },
-          {
-            "id": "6736fdc303598b92c151d13e",
-            "testName": "ECHO",
-            "route": "/echocardiogram-testing"
-          }
-        ]
-      },
-      "seo": {
-        "title": "Book Elastography Ultrasound Scan | Cadabams Diagnostics",
-        "description": "Book a painless 15-minute Elastography Ultrasound Scan at Cadabams Diagnostics—no radiation, instant report, same-day results. Detect liver fibrosis early.",
-        "keywords": "",
-        "canonicalUrl": "",
-        "ogTitle": "",
-        "ogDescription": "",
-        "ogImage": "",
-        "schemaMarkup": "",
-        "robotsMeta": ""
-      },
-      "markdown": "## Elastography Ultrasound Scan Overview\n\n- \\*\\*Quick 15-minute scan\\*\\* at Cadabams Diagnostics\n- \\*\\*Detects liver fibrosis & organ stiffness\\*\\* without biopsy\n- \\*\\*No radiation, no injection, minimal prep\\*\\*—just a short fast\n---\n## What is Elastography Ultrasound Scan?\n### Definition\nAn \\*\\*Elastography Ultrasound Scan\\*\\* uses \\*\\*high-frequency sound waves\\*\\* to measure how stiff or soft your liver tissue is. Stiffer tissue often means fibrosis or scarring.\n### Standard Ultrasound vs Elastography\n- \\*\\*Ultrasound alone\\*\\* shows shape and size.\n- \\*\\*Elastography Ultrasound Scan\\*\\* adds \\*\\*quantitative stiffness values\\*\\*, uncovering early fibrosis invisible on regular scans.\n### Types of Elastography\n| Type | How It Works | Best For |\n|---|---|---|\n| \\*\\*Shear-Wave Elastography (SWE)\\*\\* | Sends gentle pulses; reads wave speed | Liver fibrosis staging |\n| \\*\\*Strain Elastography\\*\\* | Manual compression; measures strain | Small lesions, thyroid, breast |\nCadabams Diagnostics offers both, so your radiologist can choose the most accurate method for you.\n---\n## Types of Elastography Ultrasound Scan Offered at Cadabams Diagnostics\n| Feature | 2-D Shear-Wave Elastography (SWE) | Strain Elastography |\n|---|---|---|\n| Accuracy | >90 % vs biopsy | 80–85 % |\n| Cost | Moderate | Lower |\n| Use Cases | Liver fibrosis staging | Nodules, breast, thyroid |\n| Scan Time | 10–15 min | 10 min |\n---\n\n## When and Who Needs an Elastography Ultrasound Scan?\n\nYou may benefit if you:\n- Have \\*\\*fatty liver disease\\*\\*, \\*\\*hepatitis B/C\\*\\*, or unexplained elevated liver enzymes\n- Need \\*\\*monitoring\\*\\* of fibrosis progression or treatment response\n- Require \\*\\*pre-surgical liver assessment\\*\\* before transplant or resection\n---\n\n## Risks & Limitations of the Elastography Ultrasound Scan\n\n- \\*\\*No radiation risk\\*\\*—safe for repeat scans\n- \\*\\*Limitations\\*\\*: Accuracy drops in \\*\\*BMI >40 kg/m²\\*\\* or if you have \\*\\*severe ascites\\*\\*\n- \\*\\*May need MRI follow-up\\*\\* if results are borderline or technically limited\n---\n\n## List of Parameters Considered During the Elastography Ultrasound Scan\n\n- \\*\\*Liver stiffness value (kPa)\\*\\* – main fibrosis marker\n- \\*\\*CAP score\\*\\* – grades fat content (steatosis)\n- \\*\\*Shear-wave velocity\\*\\* – confirms measurement quality\n---\n\n## Reasons for Taking an Elastography Ultrasound Scan\n\n- \\*\\*Stage fibrosis non-invasively\\*\\*—avoid painful biopsy\n- \\*\\*Track treatment success\\*\\* in chronic liver disease\n- \\*\\*Guide medication changes\\*\\* early, before damage becomes irreversible\n---\n\n## Benefits of Taking the Elastography Ultrasound Scan\n\n- \\*\\*Instant digital report\\*\\*—no waiting\n- \\*\\*Painless and needle-free\\*\\*\n- \\*\\*Cost-effective\\*\\* compared to MRI elastography\n- \\*\\*Same-day results\\*\\* within 30 minutes\n---\n\n## Illnesses Diagnosed with Elastography Ultrasound Scan\n\n- \\*\\*Liver fibrosis & cirrhosis\\*\\*\n- \\*\\*Non-alcoholic fatty liver disease (NAFLD)\\*\\*\n- \\*\\*Hepatitis B/C fibrosis staging\\*\\*\n---\n\n## Preparing for Elastography Ultrasound Scan\n\n- \\*\\*Fast 3–4 hours\\*\\* before your appointment\n- \\*\\*Skip caffeine & heavy meals\\*\\* the night before\n- \\*\\*Bring previous liver reports\\*\\* (LFT, imaging, biopsy if any) for comparison\n---\n## Pre-requisites Elastography Ultrasound Scan\n- Valid \\*\\*doctor’s prescription\\*\\*\n- Recent \\*\\*LFT results\\*\\* (helpful but not mandatory)\n- Wear \\*\\*comfortable, loose clothing\\*\\*\n---\n## Best Time to Take the Elastography Ultrasound Scan\n- \\*\\*Morning slots\\*\\* make fasting easier\n- \\*\\*Early-stage diagnosis\\*\\* right after abnormal blood tests prevents delays\n---\n## Eligibility\n- \\*\\*Adults 18+\\*\\* with suspected liver disease\n- \\*\\*Not recommended during pregnancy\\*\\* (precautionary)\n- \\*\\*BMI <40 kg/m²\\*\\* for best accuracy (higher BMIs can still be scanned with a disclaimer)\n---\n## Procedure for Taking an Elastography Ultrasound Scan\n1. \\*\\*Arrival & Registration\\*\\* – 5 min\n2. \\*\\*Consent & History Form\\*\\* – 5 min\n3. \\*\\*Scan\\*\\* – 10 min: gel applied, probe on right upper abdomen, gentle still breathing\n4. \\*\\*Real-time Review\\*\\* by radiologist\n5. \\*\\*Printed & digital report\\*\\* handed over immediately\n---\n## Caution Before Taking the Test\n- \\*\\*Inform staff\\*\\* if you have \\*\\*ascites\\*\\*, \\*\\*pacemaker\\*\\*, or \\*\\*surgical implants\\*\\* in the abdomen\n- \\*\\*Avoid carbonated drinks\\*\\* 24 hours prior—gas can blur images\n---"
+      }
     },
     {
       "id": "67373672996e7737b6f4e274",
-      "templateName": "non-labtest",
       "testName": "ABDOMEN - PELVIS ULTRASOUND SCAN",
       "route": "/abdomen-and-pelvis-ultrasound-scans",
       "basic_info": {
         "name": "ABDOMEN - PELVIS ULTRASOUND SCAN",
-        "route": "/abdomen-and-pelvis-ultrasound-scans",
         "categoryId": "671b5102ad9bf8d210384d1c",
         "price": 1200,
-        "alsoKnownAs": "",
         "discount": "0",
         "discountedPrice": "1200.00",
         "reportsWithin": "",
-        "Identifies": "",
-        "measures": "",
-        "testId": 7769093,
         "testCategory": "Ultrasonography"
-      },
-      "requisites": [],
-      "interpretations": {
-        "title": "Results and Interpretations",
-        "cols": [
-          "Finding / Observation",
-          "Description\t",
-          "General Interpretation / Significance"
-        ],
-        "rows": [
-          [
-            "Gallstones",
-            "Bright echo with shadow",
-            "May need diet change or surgery"
-          ],
-          [
-            "Kidney cyst",
-            "Anechoic round structure",
-            "Often benign; monitor size"
-          ],
-          [
-            "Enlarged uterus",
-            "Thickened lining",
-            "Could indicate fibroids or hormonal issue"
-          ],
-          [
-            "Free fluid (ascites)",
-            "Dark area around organs",
-            "May require further tests"
-          ],
-          [
-            "Normal study",
-            "All organs appear typical",
-            "Continue routine health checks"
-          ]
-        ]
-      },
-      "faqs": [
-        {
-          "question": "Is the scan painful?",
-          "answer": "No. You may feel slight pressure when the probe moves."
-        },
-        {
-          "question": "Can I eat before the scan?",
-          "answer": "Avoid food 6–8 hours before the abdominal portion. Water for pelvic imaging is encouraged."
-        },
-        {
-          "question": "When will I receive results?",
-          "answer": "Reports are ready within 30 minutes; you can collect them or access them online."
-        },
-        {
-          "question": "Is it safe during pregnancy?",
-          "answer": "Yes. Ultrasound uses sound waves, not radiation."
-        },
-        {
-          "question": "Do I need a full bladder?",
-          "answer": "Yes—for the pelvic view. You may empty it after abdominal images are taken."
-        }
-      ],
-      "relative_test": {
-        "title": "",
-        "categoryId": "671b5102ad9bf8d210384d1c",
-        "tests": [
-          {
-            "id": "6735c72a03598b92c151c6fd",
-            "testName": "USM MUSCULOSKELETAL",
-            "route": "/musculoskeletal-ultrasound-msk"
-          },
-          {
-            "id": "6735cb2f03598b92c151c782",
-            "testName": "US PREGNCANY FETAL FACE 3D",
-            "route": "/fetal-ultrasound"
-          },
-          {
-            "id": "6735e71803598b92c151c9f2",
-            "testName": "US GUIDED BREAST BIOPSY",
-            "route": "/breast-biopsy-scan"
-          },
-          {
-            "id": "6736ed7d03598b92c151ce21",
-            "testName": "US PENILE DOPPLER WITH TABLET/INJECTION",
-            "route": "/penile-doppler-ultrasound-scan"
-          },
-          {
-            "id": "6736f1c103598b92c151ce6f",
-            "testName": "US BREAST",
-            "route": "/sonomammography-ultrasound-scan"
-          },
-          {
-            "id": "6736f48703598b92c151cf12",
-            "testName": "US THYROID ELASTOGRAPHY",
-            "route": "/thyroid-scan"
-          },
-          {
-            "id": "673712ef996e7737b6f4dd40",
-            "testName": "US ELASTOGRAPHY",
-            "route": "/elastography-ultrasound-test"
-          },
-          {
-            "id": "673724eb996e7737b6f4dfbc",
-            "testName": "US SCROTUM ",
-            "route": "/testis-ultrasound-scan"
-          }
-        ]
-      },
-      "seo": {
-        "title": "Abdomen-Pelvis Ultrasound Scan at Cadabams Diagnostics | Safe & Precise Imaging",
-        "description": "Get a painless, radiation-free Abdomen-Pelvis Ultrasound Scan at Cadabams Diagnostics. 20–30 min procedure, same-day results. Book today.",
-        "keywords": "",
-        "canonicalUrl": "",
-        "ogTitle": "",
-        "ogDescription": "",
-        "ogImage": "",
-        "schemaMarkup": "",
-        "robotsMeta": ""
-      },
-      "markdown": "## Abdomen-Pelvis Ultrasound Scan Overview\n\n### What this combined scan examines\n- Liver, gallbladder, pancreas, spleen, kidneys\n- Bladder, uterus, ovaries, prostate (if applicable)\n- Major blood vessels feeding these organs\n### Importance in early diagnosis\nSpotting gallstones, cysts, tumors, or fluid collections early prevents complications and reduces treatment costs.\n---\n## What is Abdomen-Pelvis Ultrasound Scan?\n### Definition and purpose\nAn \\*\\*Abdomen-Pelvis Ultrasound Scan\\*\\* uses high-frequency sound waves to create real-time images of both the upper abdomen and lower pelvis in one session.\n### Difference from separate abdominal or pelvic scans\n- \\*\\*Single appointment\\*\\* instead of two\n- \\*\\*Unified report\\*\\* for faster treatment planning\n- \\*\\*Reduced cost\\*\\* compared to booking tests separately\n---\n## Types of Abdomen-Pelvis Ultrasound Scan\n### Transabdominal approach\n- Probe moves across the skin of the abdomen and lower pelvis\n- Requires a full bladder for pelvic images\n### Transvaginal or transrectal add-ons when needed\n- \\*\\*Transvaginal:\\*\\* Clearer uterine/ovarian images in women\n- \\*\\*Transrectal:\\*\\* Detailed prostate assessment in men\n---\n\n## When and Who Needs to Take an Abdomen-Pelvis Ultrasound Scan?\n\n### Symptoms that warrant the scan\n- Persistent pain or bloating\n- Unexplained weight loss\n- Irregular or heavy periods\n- Blood in urine\n- Frequent urination\n### Routine screening vs diagnostic cases\n- \\*\\*Screening:\\*\\* Annual health checks, especially for women over 35\n- \\*\\*Diagnostic:\\*\\* When symptoms appear or follow-up of abnormal blood tests is required\n---\n\n## Risks & Limitations of the Abdomen-Pelvis Ultrasound Scan\n\n### Safety profile (no radiation)\n- Uses sound waves—safe for children, adults, and pregnant women.\n- No known side effects.\n### Factors affecting image quality\n- Excess intestinal gas\n- Obesity\n- Incomplete bladder filling (for pelvic view)\n---\n\n## List of Parameters Considered During the Abdomen-Pelvis Ultrasound Scan\n\n| Organ | What We Check For |\n|--------------|--------------------------------------------|\n| \\*\\*Liver\\*\\* | Size, fat infiltration, masses |\n| \\*\\*Gallbladder\\*\\*| Stones, wall thickness, polyps |\n| \\*\\*Kidneys\\*\\* | Stones, cysts, hydronephrosis |\n| \\*\\*Pancreas\\*\\* | Inflammation, tumors |\n| \\*\\*Spleen\\*\\* | Size, lesions |\n| \\*\\*Uterus\\*\\* | Fibroids, lining thickness |\n| \\*\\*Ovaries\\*\\* | Cysts, torsion |\n| \\*\\*Bladder\\*\\* | Wall thickness, stones, residual urine |\n| \\*\\*Prostate\\*\\* | Enlargement, nodules (men only) |\n---\n\n## Reasons for Taking an Abdomen-Pelvis Ultrasound Scan\n\n- \\*\\*Unexplained pain or bloating\\*\\*\n- \\*\\*Menstrual irregularities\\*\\* or severe cramps\n- \\*\\*Urinary issues\\*\\* such as urgency or incontinence\n- \\*\\*Follow-up\\*\\* after CT/MRI shows unclear findings\n---\n\n## Benefits of Taking the Abdomen-Pelvis Ultrasound Scan\n\n- \\*\\*Non-invasive and painless\\*\\*—no needles or incisions\n- \\*\\*Real-time imaging\\*\\*—see organs in motion\n- \\*\\*No radiation exposure\\*\\*—safe for repeated use\n- \\*\\*Quick results\\*\\*—report ready in 30 minutes at Cadabams Diagnostics\n---\n\n## Illnesses Diagnosed with Abdomen-Pelvis Ultrasound Scan\n\n- \\*\\*Gallstones\\*\\* or sludge in the gallbladder\n- \\*\\*Kidney stones\\*\\* or obstruction\n- \\*\\*Ovarian cysts\\*\\* and uterine \\*\\*fibroids\\*\\*\n- \\*\\*Enlarged prostate\\*\\* (BPH)\n- \\*\\*Ascites\\*\\* (fluid in the abdomen) and \\*\\*tumors\\*\\*\n---\n\n## Preparing for Abdomen-Pelvis Ultrasound Scan\n\n- \\*\\*Fasting:\\*\\* Nothing to eat or drink 6–8 hours before the scan; clear fluids until 2 hours prior\n- \\*\\*Bladder filling:\\*\\* Drink 4–5 glasses of water 1 hour before the appointment; do \\*\\*not\\*\\* empty until instructed\n- \\*\\*Clothing:\\*\\* Wear loose, two-piece outfit; remove jewelry\n- \\*\\*What to bring:\\*\\* Doctor’s prescription, old reports, ID proof\n---\n## Pre-requisites Abdomen-Pelvis Ultrasound Scan\n- Recent blood or urine test reports (if any)\n- Continue regular medicines with sips of water; diabetic patients may take light breakfast\n- Inform technician if you are or might be pregnant\n---\n## Best Time to Take the Abdomen-Pelvis Ultrasound Scan\n- \\*\\*For women:\\*\\* Day 5–10 of menstrual cycle for clearer gynaecological images\n- \\*\\*Emergency cases:\\*\\* Any time—walk-ins accepted at Cadabams Diagnostics\n---\n## Eligibility\n- \\*\\*All adults and children\\*\\* (guardian consent required for minors)\n- \\*\\*Pregnant women\\*\\* (safe throughout all trimesters)\n---\n## Procedure for Taking an Abdomen-Pelvis Ultrasound Scan\n1. \\*\\*Check-in:\\*\\* Reception verifies ID and prescription\n2. \\*\\*Positioning:\\*\\* Lie comfortably on the scan table\n3. \\*\\*Gel application:\\*\\* Warm gel improves sound conduction\n4. \\*\\*Probe movement:\\*\\* Technician guides the probe over abdomen and pelvis\n5. \\*\\*Duration:\\*\\* 20–30 minutes total\n---\n## Caution Before Taking the Test\n- Inform staff about \\*\\*latex or gel allergies\\*\\*\n- Mention any \\*\\*surgical implants\\*\\* (e.g., mesh, stents)\n- Disclose \\*\\*recent surgeries\\*\\* or biopsies\n---"
+      }
     }
   ]
 }

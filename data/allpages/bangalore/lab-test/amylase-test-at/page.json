@@ -101,375 +101,37 @@
   "category": {
     "id": "671b5104ad9bf8d210384d23",
     "name": "Blood",
-    "tests": [
-      "671b5105ad9bf8d210384d2f",
-      "671b5105ad9bf8d210384d30",
-      "671c7cc7c8a77735c8e4410e",
-      "671c7dd9c8a77735c8e44129",
-      "6720b1f4b61a968f2fc61587",
-      "672bab2e21cadfab64a6f854",
-      "672badc221cadfab64a6f870",
-      "672bafa721cadfab64a6f879",
-      "672bb18821cadfab64a6f88b",
-      "672de64ff06b4489abc3ead2",
-      "672df2d84280ae87a405c16e",
-      "6731ae1d03598b92c151a2fd",
-      "6736dda903598b92c151cd8f",
-      "673add2deffae454707dce63",
-      "673ae94aeffae454707dd4cb",
-      "673aed5beffae454707dd650",
-      "673b02ddeffae454707ddc3e",
-      "673b0850effae454707dde45",
-      "674378945c1d2938425e3826",
-      "677e3f1fc75a57396559117b",
-      "677e4c7ac75a57396559144f",
-      "677e558dc75a573965591506",
-      "677f5bbbc75a573965592981",
-      "677f63fec75a573965592a8a",
-      "677f6dd7c75a573965592e66",
-      "6780aa92c75a573965594b9e",
-      "6780b008c75a573965594cd0",
-      "6780b51bc75a573965594e62",
-      "6780e0c9c75a573965595b62",
-      "6784b0b5c75a5739655993aa",
-      "6784b479c75a5739655994d6",
-      "6784bd4ac75a57396559962b",
-      "6784c79ac75a573965599843",
-      "6785f4f4c75a57396559adb5",
-      "67862a19c75a57396559b1aa",
-      "678742d7c75a57396559bb99",
-      "67875312c75a57396559bcfe",
-      "678756fbc75a57396559bd18",
-      "67878c5ac75a57396559c3fe",
-      "6788b8f1c75a57396559dc1b",
-      "6788c194c75a57396559dcff",
-      "6788c4c5c75a57396559dd1c",
-      "6788c72ec75a57396559dd64",
-      "6788c905c75a57396559ddbc",
-      "6788e11fc75a57396559e223",
-      "6788e538c75a57396559e2f9",
-      "6788e968c75a57396559e320",
-      "6789f884c75a57396559f93d",
-      "6789ff1fc75a57396559fa11",
-      "678a14b9c75a5739655a0061",
-      "678a27dac75a5739655a03ba",
-      "678a2aacc75a5739655a0414",
-      "678a352dc75a5739655a04cc",
-      "678f4d28c75a5739655a64fe",
-      "678f5026c75a5739655a651f",
-      "678f5325c75a5739655a656a",
-      "678f56c1c75a5739655a65d1",
-      "6790b2bfc75a5739655a81a6",
-      "6790d4c6c75a5739655a8561",
-      "6790d79fc75a5739655a8575",
-      "6791e394c75a5739655a9665",
-      "6791e9a3c75a5739655a9760",
-      "679269cbc75a5739655aa38d",
-      "67933b23c75a5739655ab936",
-      "67933e64c75a5739655aba12",
-      "67938377c75a5739655ac780",
-      "681c5aa016444f3c1158cdea",
-      "681c5f7b16444f3c1158cf21",
-      "681c62fc16444f3c1158d13f",
-      "681c6f5a16444f3c1158d281",
-      "681c753a16444f3c1158d2af",
-      "681c787716444f3c1158d2fd",
-      "681c7b2e16444f3c1158d37b",
-      "681c7f4f16444f3c1158d3f4",
-      "681c843316444f3c1158d4b8",
-      "681c882b16444f3c1158d501",
-      "681c8b7816444f3c1158d68b",
-      "681c8d8f16444f3c1158d6d9",
-      "681c93ec16444f3c1158d7ed",
-      "681cd1a016444f3c1158dffa",
-      "681cd56516444f3c1158e06c",
-      "681cdeb116444f3c1158e0f4",
-      "681da2f116444f3c11590072",
-      "681daafe16444f3c1159033c",
-      "68233a4f16444f3c1159a0c1",
-      "68233d5116444f3c1159a115",
-      "682342c516444f3c1159a324",
-      "682345df16444f3c1159a424",
-      "682348d916444f3c1159a4af",
-      "682361d216444f3c1159a778",
-      "6823654a16444f3c1159a858",
-      "6823680916444f3c1159a8ce",
-      "68236ae016444f3c1159a8ed",
-      "68236e0816444f3c1159a96b",
-      "6823711816444f3c1159aa44",
-      "68246ae716444f3c1159cb20",
-      "6826d34116444f3c115a2103",
-      "682764af16444f3c115a4520",
-      "68276e9216444f3c115a4570",
-      "6828531316444f3c115a5ae8",
-      "68285d5116444f3c115a5c03",
-      "6829e19016444f3c115a8766",
-      "682a035816444f3c115a8bea",
-      "682ad43f16444f3c115aa27f",
-      "682afafc16444f3c115aafc9",
-      "682b0c3916444f3c115ab408",
-      "682c17e016444f3c115ad688",
-      "682c20be16444f3c115ad8d6",
-      "682c273216444f3c115adb6c",
-      "682c307c16444f3c115adeda",
-      "682c38c916444f3c115ae0bb",
-      "682c402016444f3c115ae18c",
-      "682c5add16444f3c115ae472",
-      "682c612d16444f3c115ae4ff",
-      "682c6a8216444f3c115ae6ea",
-      "682c6e5516444f3c115ae75e",
-      "682c728d16444f3c115ae801",
-      "682c7d2a16444f3c115aea3c",
-      "682c81a416444f3c115aeaad",
-      "682c9ea116444f3c115aee10",
-      "682ca79a16444f3c115aef47",
-      "682d155a16444f3c115af60c",
-      "682d49e716444f3c115afca2",
-      "682d67cb16444f3c115affdf",
-      "682d6cbc16444f3c115b0144",
-      "682d6f4016444f3c115b01c0",
-      "682d72e416444f3c115b045a",
-      "682d755b16444f3c115b047c",
-      "682d795516444f3c115b058e",
-      "682d870316444f3c115b08e6",
-      "682d8bb816444f3c115b09e7",
-      "682d8eff16444f3c115b0a2c",
-      "682d925716444f3c115b0a4f",
-      "682db90c16444f3c115b154f",
-      "682dbd7716444f3c115b176b",
-      "682dbfa616444f3c115b17c3",
-      "682dc1d316444f3c115b17e8",
-      "682dc48f16444f3c115b18dc",
-      "682dc6c616444f3c115b1a3d",
-      "682dc91c16444f3c115b1a7a",
-      "682dcb8916444f3c115b1b3b",
-      "682dcc1916444f3c115b1b82",
-      "682dce3416444f3c115b1c2b",
-      "682dd3fc16444f3c115b1dcd",
-      "682dd68c16444f3c115b1e6c",
-      "682dda9316444f3c115b1ff3",
-      "682df4d416444f3c115b2479",
-      "682df79a16444f3c115b24d9",
-      "682dfa1c16444f3c115b24ff",
-      "682dfc9c16444f3c115b2647",
-      "682ed34816444f3c115b3c0a",
-      "682ed75116444f3c115b3c7d",
-      "682edbef16444f3c115b3d48",
-      "682ee8da16444f3c115b4135",
-      "682eebe116444f3c115b41c6",
-      "682eeef716444f3c115b41ea"
-    ],
     "image": "/lab-tests/image-1729663337220-267264710.webp",
-    "path": "/blood-tests",
-    "createdAt": "2024-10-23T06:02:45.534Z",
-    "updatedAt": "2024-10-23T06:02:45.534Z",
-    "markdown": "Blood test"
+    "path": "/blood-tests"
   },
   "relatedTests": [
     {
       "id": "671c7d2fc8a77735c8e44117",
-      "templateName": "labtest",
       "testName": "Thyroid Stimulating Hormone (TSH)",
       "route": "/thyroid-simulation-harmone-tsh",
       "basic_info": {
         "name": "Thyroid Stimulating Hormone (TSH)",
-        "route": "/thyroid-simulation-harmone-tsh",
         "categoryId": "671b5104ad9bf8d210384d25",
         "price": 285,
         "discount": "0",
         "discountedPrice": "285.00",
         "reportsWithin": "60mins",
-        "Identifies": "Disorders of function of the thyroid gland",
-        "measures": "Thyroid stimulating hormone levels ",
-        "testId": 7766197,
         "testCategory": "Biochemistry"
-      },
-      "requisites": [
-        {
-          "value": " Consultation with a physician for fasting requirements would be necessary "
-        }
-      ],
-      "packages": [],
-      "faqs": [
-        {
-          "question": "What is an expected turnaround time for the results? ",
-          "answer": "The turnaround varies from a few days to a week depending on how busy the lab is and how much work they have."
-        },
-        {
-          "question": "Is it a painful test? ",
-          "answer": "Roughly no, a small amount of blood is drawn and so there may be minor discomfort."
-        },
-        {
-          "question": "Is there any need to stop eating before the test? ",
-          "answer": "The test is not likely to require fasting, but this is up to the physician."
-        },
-        {
-          "question": "Can a change in my medications affect my TSH levels? ",
-          "answer": "Yes, you should always check with your doctor all medications as some could modify the outcomes."
-        },
-        {
-          "question": "How long should be the intervals between a test for TSH? ",
-          "answer": "Intervals depend on the status of the thyroid and the care provided. Intervals can be between every year or at times recommended by the physician."
-        }
-      ],
-      "interpretations": {
-        "title": "Interpreting the Results of Your Thyroid Stimulating Hormone Test ",
-        "cols": [
-          "TSH Level Range",
-          "Condition\t",
-          "Indication"
-        ],
-        "rows": [
-          [
-            "Normal (0.4 - 4.0 mIU/L)\t",
-            "None\t",
-            "TSH levels within the normal range"
-          ],
-          [
-            "High TSH Levels\t",
-            "Hypothyroidism\t",
-            "Underactive thyroid, may require treatment"
-          ],
-          [
-            "Low TSH Levels\t",
-            "Hypothyroidism\t",
-            "Overactive thyroid, needs evaluation and potential treatment"
-          ]
-        ]
-      },
-      "relative_test": {
-        "title": "",
-        "categoryId": "671b5104ad9bf8d210384d24",
-        "tests": [
-          {
-            "id": "671c7d88c8a77735c8e44120",
-            "testName": "Thyroid Profile (T3, T4, TSH)",
-            "route": "/thyroid-profile-t3-t4-tsh"
-          }
-        ]
-      },
-      "seo": {
-        "title": "Thyroid TSH Test in Bangalore | Affordable Pricing",
-        "description": "Book TSH tests online in Bangalore for early thyroid disorder detection with reliable lab results, timely reports, and trusted diagnostic services.",
-        "keywords": "",
-        "canonicalUrl": "",
-        "ogTitle": "",
-        "ogDescription": "",
-        "ogImage": "",
-        "schemaMarkup": "",
-        "robotsMeta": ""
-      },
-      "markdown": "## What Is the Thyroid Stimulating Hormone Test and Why Is It Important?\n\nThe Thyroid Stimulating Hormone (TSH) Test is a highly important blood test that aims to assess the functioning of the thyroid gland. This test is conducted to determine the level of TSH which is released from the pituitary gland and tells the thyroid to release its hormones which are essential for metabolic rate, heart rate, and many other important processes in the body. The TSH test is also employed to identify patients with thyroid diseases, such as hypothyroidism and hyperthyroidism, as well as the effectiveness of the treatments for such diseases.\n\n## What is assessed in the Test for Thyroid Stimulating Hormone?\n\nThe TSH test on the other hand measures the thyroid stimulating hormone or TSH in blood specifically. When thyroid is underactive as is the case with hypothyroidism, TSH levels increase. In contrast, when overproduction of thyroid gland hormones occurs due to hyperthyroidism, TSH levels drop. Measurable amounts of TSH are needed to determine thyroid health status as well as treatment possibilities.\n\n## When Is the Thyroid Stimulating Hormone Test Usually Taken?\n\nThe tests for TSH are conducted on patients seeking relief from their hypothyroid symptoms. Among these elderly patients, the most common symptoms of hypothyroidism included fatigue, weight gain, feeling cold, and feeling depressed. People are subject to weigh loss, rapid heartbeat, sweating, and sometimes nervousness, a result of hyperthyroidism. Apart from these, patients with a family history of such disorders, those who are pregnant and undergoing thyroid treatment, regularly perform TSH tests so that their condition can be assessed on a regular basis.\n\n## Are There Any Risks or Limitations to the Thyroid Stimulating Hormone Test?\n\nThe TSH test involves the collection of blood specimens which might cause slight pain and bruising or subsequent infection surrounding the involvement site. The TSH levels may also be altered temporarily by some factors like intake of certain medications and acute illnesses which may reduce the accuracy of the test. Moreover, the TSH levels tend to exhibit variations due to factors like the time of day or emotional stress and will need follow up tests to verify the thyroid status.\n\n## What Parameters Are Evaluated in the Thyroid Stimulating Hormone Test?\n\nThe TSH test has one main parameter which is the concentration of TSH in the blood’s circulation System, it is important to measure this to determine whether the patient's thyroid gland is working adequately or assess any likely thyroid disease. The result is then compared with the result given which is normally within the set reference range by the laboratory and the discrepancies which are noted point to disorders that are associated with the thyroid glands.\n\n## Who Requires Performing the Thyroid Stimulating Hormone Test?\n\nRemember TSH test for any symptoms indicating hormonal imbalance of the thyroid, be it unexplained weight changes, sudden mood shifts, or any energy-related imbalance. Moreover, this test is advised to be taken by those with thyroid affected family members, women who are planning to get pregnant, and elderly people since thyroid disease is common in these age groups. Patients who are currently being treated for thyroid disorders must take this test so that the effectiveness of the therapy can be assessed.\n\n## The Advantages of the Taking the Thyroid Stimulating Hormone Test\n\nhe early indication of thyroid disorders which enhances implementation of treatment and other management strategies is one of the advantages of the TSH test. If not, adjusting treatment by regular follow-ups would boost general wellness through optimal functionality of the thyroid. This understanding is vital, as it would avert the risk of developing avoidable complications linked to untreated thyroid problems such as heart diseases, infertility, and even bone health issues.\n\n## What Conditions Can the Thyroid Stimulating Hormone Test Diagnose?\n\nSome thyroid related problems for which the TSH test is of great importance for diagnosing include thyroid associated retinol binding protein:\n\n**Hypothyroidism:** High my TSH level is one sign with which a practitioner is able to diagnose me.\n\n**Hyperthyroidism:** Low TSH levels are one of the indicators of hyperthyroidism.\n\n**Hashimoto's thyroiditis:** An autoimmune disease caused by the immune system's attack on the thyroid gland, leading to hypothyroidism.\n\n**Graves' disease:** Hyperthyroidism is caused by this autoimmune ailment.\n\n**Thyroid cancer:** a few instances manifest with abnormal TSH levels and other markers.\n\n## Guidance to Preparing for a Thyroid Stimulating Hormone Test\n\n**Prerequisites:** It is not generally necessary to fast, however, adhere to your physician's instructions regarding medication intake before the examination.\n\n**Eligibility:** The test is useful for people with symptoms involving the thyroid gland, history of sinister thyroid disorder, or treatment.\n\n**Instructions on how to perform the test:** To perform the TSH test, blood is drawn from a vein in the arm. It lasts for a couple of minutes and the sample is then forwarded to the laboratory for tests.\n\n**Caution Prior to the Test:** Let the medical professional, who carries out the test and prescribes medications, know what drugs you'll be taking before the test as it may alter the TSH levels."
+      }
     },
     {
       "id": "671c7d88c8a77735c8e44120",
-      "templateName": "labtest",
       "testName": "THYROID PROFILE (T3,T4,TSH)",
       "route": "/thyroid-profile-t3-t4-tsh",
       "basic_info": {
         "name": "THYROID PROFILE (T3,T4,TSH)",
-        "route": "/thyroid-profile-t3-t4-tsh",
         "categoryId": "671b5104ad9bf8d210384d25",
         "price": 660,
         "discount": "0",
         "discountedPrice": "660.00",
         "reportsWithin": "60mins",
-        "Identifies": "Malfunctions of the thyroid gland ",
-        "measures": " The level of hormones including T3, T4, and TSH ",
-        "testId": 7766040,
         "testCategory": "Biochemistry"
-      },
-      "requisites": [
-        {
-          "value": " No need to abstain from food, inform about peaceful medical history"
-        }
-      ],
-      "packages": [],
-      "faqs": [
-        {
-          "question": "When do the test results become available? ",
-          "answer": "It takes about 24-48 hours in order to have the results available."
-        },
-        {
-          "question": "How long does a thyroid profile blood test take? ",
-          "answer": "It’s as simple as getting the blood sample to conduct the test and the minor discomfort that might occur is nothing to be worried about."
-        },
-        {
-          "question": "Do I need to stop eating before the test? ",
-          "answer": "No special fasting or changes to diet are required before this test."
-        },
-        {
-          "question": "Can my medications interfere with the examination? ",
-          "answer": "Yes some medicines may alter the levels of thyroid hormones in the body. Please bring to the attention of the physician any medications that you use on regular basis."
-        },
-        {
-          "question": "What is the recommended frequency of this test? ",
-          "answer": "The responses vary with the health of the patient and the physician's advice on the matter, especially in chronic thyroid diseases or routine monitoring."
-        }
-      ],
-      "interpretations": {
-        "title": "",
-        "cols": [
-          "Hormone Level\t",
-          "Normal Range\t",
-          "Indication of Abnormal Results"
-        ],
-        "rows": [
-          [
-            "T3\t",
-            "100-200 ng/dL\t",
-            "Low Levels: Hypothyroidism, pituitary disorders"
-          ],
-          [
-            "",
-            "",
-            "High Levels: Hyperthyroidism, iodine surplus"
-          ],
-          [
-            "T4\t",
-            "4.6-11.2 mcg/dL\t",
-            "Low Levels: Hypothyroidism, pituitary issues"
-          ],
-          [
-            "",
-            "",
-            "High Levels: Hyperthyroidism, thyroiditis"
-          ],
-          [
-            "TSH\t",
-            "0.4-4.0 mIU/L\t",
-            "High TSH: Primary hypothyroidism"
-          ],
-          [
-            "",
-            "",
-            "Low TSH: Hyperthyroidism, excessive thyroid therapy"
-          ]
-        ]
-      },
-      "relative_test": {
-        "title": "",
-        "categoryId": "671b5104ad9bf8d210384d24",
-        "tests": [
-          {
-            "id": "671c7d2fc8a77735c8e44117",
-            "testName": "Thyroid Stimulating Hormone Test",
-            "route": "/thyroid-simulation-harmone-tsh"
-          }
-        ]
-      },
-      "seo": {
-        "title": "Thyroid Profile Test in Bangalore | Thyroid Test Package in Bangalore",
-        "description": "Monitor thyroid health with a complete thyroid profile test in Bangalore. Quick results and reliable labs.",
-        "keywords": "",
-        "canonicalUrl": "",
-        "ogTitle": "",
-        "ogDescription": "",
-        "ogImage": "",
-        "schemaMarkup": "",
-        "robotsMeta": ""
-      },
-      "markdown": "## What Is the Thyroid Profile Test and Why It Has to Be Done?\n\nThe Thyroid Profile test which involves testing for T3, T4, and TSH hormone levels enables clinicians to gauge the functioning of the thyroid gland. Since the thyroid gland plays an important role in metabolism, energy generation and mood, it is crucial for overall health. This test is useful in diagnosing or managing thyroid related conditions like hypo or hyperthyroidism by measuring circulating levels of thyroid hormones and their master regulator, TSH.\n\n## Thyroid Gland Hormones Test Measure\n\nThe thyroid profile measures the amount of three important hormones found in the blood, such as Triiodothyronine (T3) and Thyroxine (T4) and Thyroid Stimulating Hormone (TSH). Triiodothyronine and Thyroxine hormones are produced in the thyroid gland and are responsible for metabolism. In turn, TSH is produced by the pituitary gland and acts on the thyroid gland to stimulate the production of T3 and T4. With the aid of these hormones, the normal functioning of the thyroid gland can be assessed and any disturbances or malfunctions can be identified.\n\n## Thyroid Profile Test when is It Usually Taken?\n\nThe thyroid profile is usually ordered in cases where the patient presents certain symptoms that might indicate dysfunctions of the thyroid such as unexplained weight loss or increase, tiredness, emotional outbursts, loss of hair, heart rate changes and so on. Among the additional tests that are carried out, the thyroid profile may be done periodically, particularly among those persons with a family predisposition to thyroid disease or those who are elderly or have a history of underlying conditions that put them at risk.\n\n## Are There Any Risks or Restrictions Involved In Conducting The Thyroid Profile Test?\n\nThe threats involved with the Thyroid Profile test are quite rare and also the effect of blood letting could involve causing minor bruises or pain in the site of the specific blood vessel that was punctured. Drawbacks consist of temporary changes in hormone levels that may influence the outcomes of the test and certain drugs or conditions can modify hormone levels thereby requiring prudent assessment by a physician.\n\n## What Parameters Are Evaluated in the Thyroid Profile Test?\n\nThe following parameters are evaluated in this test.\n\n- **T3 (Triiodothyronine):** It is believed that excessive levels could indicate hyperthyroidism, whereas diminished levels could suggest hypothyroidism.\n- **T4 (Thyroxine):** This is crucial as well in ascertaining the presence of either hypo- or hyper-thyroidism based on its levels.\n- **TSH (Thyroid-Stimulating Hormone):** Generally a high level of TSH is indicative of the presence of hypothyroidism, and when it’s low indicates hyperthyroidism.\n\n## Thyroid Profile Test: Who Should Get It Done?\n\nPeople who have symptoms of thyroid disorders like weight gain or loss, energy fluctuations, and mood swings should most definitely opt for this test. It is also advisable for those who have a family history of thyroids, women above the age of sixty, those who have autoimmune conditions or are on medication which may affect the functioning of the thyroid.\n\n## Thyroid Profile Test: How Can It Be Beneficial for You?\n\nThe thyroid profile test is important as it helps detect any thyroid related disorder at an early stage which makes it easy for treatment. This test also is helpful in ascertaining how well the current treatment is being taken by a patient and helps in assessment of metabolism which plays an important role in energy levels and other body functionality.\n\n## What Conditions Can the Thyroid Profile Test Diagnose?\n\nThe following conditions can be diagnosed with the help of the thyroid profile test:\n\n- **Hypothyroidism:** Production of hormones in lesser amounts than normal.\n- **Hyperthyroidism:** Production of excess amounts of hormones.\n- **Thyroiditis:** A disorder where the thyroid glands become inflamed.\n- **Goiter:** A condition where the thyroid gland is larger than its normal size.\n- **Thyroid nodules:** Abnormal lumps which form within the thyroid gland.\n\n## Preparing for Your Thyroid Profile Test\n\n**Requirements:** There is no need for fasting. Please remember to tell your doctor if you take any medications or supplements as they might change the amount of your thyroid hormones.\n\n**Who Can Avail This Test:** This test is for the patients with a thyroid dysfunction who are working up the thyroid or for a patient who is monitoring the already existing thyroid conditions.\n\n**Steps Involved In Undertaking The Test:** A health care professional will collect a small blood sample from a vein, usually located in your arm. This procedure will take a few minutes and is quite simple and fast.\n\n**Important:** Please try not to stress too much as this could impact the results and make sure all your conditions are reported as this could also impact the hormone levels."
+      }
     }
   ]
 }

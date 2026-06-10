@@ -86,22 +86,8 @@
   "category": {
     "id": "671b5104ad9bf8d210384d25",
     "name": "Hormones",
-    "tests": [
-      "6720b480b61a968f2fc615c6",
-      "67862540c75a57396559b106",
-      "678a052ac75a57396559fb2d",
-      "679261c4c75a5739655aa2a1",
-      "681c817416444f3c1158d40b",
-      "681cd8dd16444f3c1158e092",
-      "681cdc1e16444f3c1158e0e1",
-      "681da0bb16444f3c1158ffb2",
-      "68233fdc16444f3c1159a1fe"
-    ],
     "image": "/lab-tests/image-1729663593893-39132885.webp",
-    "path": "/hormones-tests",
-    "createdAt": "2024-10-23T06:07:26.664Z",
-    "updatedAt": "2024-10-23T06:07:26.665Z",
-    "markdown": "Hormones Tests"
+    "path": "/hormones-tests"
   },
   "relatedTests": []
 }

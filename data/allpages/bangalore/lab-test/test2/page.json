@@ -49,14 +49,8 @@
   "category": {
     "id": "671b5104ad9bf8d210384d22",
     "name": "Reproductive Organs",
-    "tests": [
-      "67438fff5c1d2938425e3956"
-    ],
     "image": "/lab-tests/image-1727443716105-440878237.webp",
-    "path": "/reproductive-organs-chekup-test",
-    "createdAt": "2024-10-23T06:00:25.066Z",
-    "updatedAt": "2024-10-23T06:00:25.068Z",
-    "markdown": "Reproductive Organs checkup test"
+    "path": "/reproductive-organs-chekup-test"
   },
   "relatedTests": []
 }

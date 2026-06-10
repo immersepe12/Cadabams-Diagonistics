@@ -88,18 +88,8 @@
   "category": {
     "id": "671b5104ad9bf8d210384d26",
     "name": "Vitamin",
-    "tests": [
-      "672c76d53994101252b041ea",
-      "672dfb384280ae87a405c31f",
-      "672dfe584280ae87a405c330",
-      "673d968b534c72d341052ace",
-      "682d7cb016444f3c115b0620"
-    ],
     "image": "/lab-tests/image-1729663694014-979628105.webp",
-    "path": "/vitamin-tests",
-    "createdAt": "2024-10-23T06:09:05.284Z",
-    "updatedAt": "2024-10-23T06:09:05.284Z",
-    "markdown": "Vitamin Tests"
+    "path": "/vitamin-tests"
   },
   "relatedTests": []
 }

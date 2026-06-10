@@ -109,128 +109,23 @@
   "category": {
     "id": "671b5104ad9bf8d210384d29",
     "name": "Kidney",
-    "tests": [
-      "672df7bc4280ae87a405c2a9",
-      "673711a9996e7737b6f4dc9c",
-      "679385c8c75a5739655ac869",
-      "681c725916444f3c1158d291"
-    ],
     "image": "/lab-tests/image-1729663959118-621550631.webp",
-    "path": "/kidney-tests",
-    "createdAt": "2024-10-23T06:13:08.734Z",
-    "updatedAt": "2024-10-23T06:13:08.734Z",
-    "markdown": "Kidney Tests"
+    "path": "/kidney-tests"
   },
   "relatedTests": [
     {
       "id": "672df7bc4280ae87a405c2a9",
-      "templateName": "labtest",
       "testName": "CREATININE",
       "route": "/creatinine-test-ct",
       "basic_info": {
         "name": "CREATININE",
-        "route": "/creatinine-test-ct",
         "categoryId": "671b5104ad9bf8d210384d29",
         "price": 125,
         "discount": "0",
         "discountedPrice": 125,
         "reportsWithin": "6 hrs",
-        "Identifies": "Kidney function and health ",
-        "measures": "Creatinine levels in blood",
-        "testId": 7766187,
         "testCategory": "Biochemistry"
-      },
-      "requisites": [
-        {
-          "value": "Apple juice diet may be required, maintained hydration record"
-        }
-      ],
-      "packages": [],
-      "faqs": [
-        {
-          "question": "How long does it take to get the results? ",
-          "answer": "The results are usually available within 1-2 days."
-        },
-        {
-          "question": "Is the test painful in any way?",
-          "answer": "There is a slight pinch when the needle is put into the skin bay normally it is not painful."
-        },
-        {
-          "question": "Is it necessary to refrain from eating before the test? ",
-          "answer": "Some short fasting may be required, but again that is based on what the doctor prescribes."
-        },
-        {
-          "question": "So, can the test be influenced by the intake of food? ",
-          "answer": "Yes, too much protein intake may lead to raised levels of creatine for a short while."
-        },
-        {
-          "question": "How often should the test be taken? ",
-          "answer": "The recommended frequency of the test varies with different personal health conditions, so it’s better to talk to your healthcare provider."
-        }
-      ],
-      "interpretations": {
-        "title": " Interpreting the Results of Your Creatinine Test ",
-        "cols": [
-          "Category\t",
-          "Result Range\t",
-          "Interpretation"
-        ],
-        "rows": [
-          [
-            "Normal Range ",
-            "",
-            ""
-          ],
-          [
-            "Adult males\t",
-            "0.74 to 1.35 mg/dL",
-            "Normal creatinine level for adult males"
-          ],
-          [
-            "Adult females",
-            "0.59 to 1.07 mg/dL",
-            "Normal creatinine level for adult females"
-          ],
-          [
-            "Abnormal Results",
-            "",
-            ""
-          ],
-          [
-            "High Creatinine Levels",
-            "Above normal range",
-            "May indicate kidney poisoning, kidney deterioration, lack of water, effect of drugs, or muscle disorders"
-          ],
-          [
-            "Low Creatinine Levels",
-            "Below normal range",
-            "Rare but may indicate disuse atrophy of muscles or liver dysfunction"
-          ]
-        ]
-      },
-      "relative_test": {
-        "title": "",
-        "categoryId": "671b5104ad9bf8d210384d29",
-        "tests": [
-          {
-            "id": "673711a9996e7737b6f4dc9c",
-            "testName": "Kidney Blood Test ",
-            "route": "/kidney-function-test-kft"
-          }
-        ]
-      },
-      "seo": {
-        "title": "Creatinine Test in Bangalore | Cadabam's Diagnostics",
-        "description": "Book creatinine tests in Bangalore to assess kidney function. Reliable labs with quick reports.",
-        "keywords": "",
-        "canonicalUrl": "",
-        "ogTitle": "",
-        "ogDescription": "",
-        "ogImage": "",
-        "schemaMarkup": "",
-        "robotsMeta": ""
-      },
-      "markdown": "## What Is the Creatinine Test and Why It Is Important?\n\nThe creatinine test is one of the important diagnostic tests to assess the functioning of kidney. Creatinine is a product of protein and muscle metabolism, and it is mainly excreted through the kidneys. Your physician will monitor the amount of creatinine in the blood, as this plays an important role in evaluating kidney function. This test is essential for the diagnosis of several kidney diseases, evaluation of the health status of kidneys, and even more importantly to diagnose the abnormalities in the kidneys at a much early stage before significant complications occur.\n\n## What Do We Learn from the Creatinine Test?\n\nThe creatinine test is able to specifically determine the concentration of creatinine in a blood sample. High values of creatinine indicate kidney dysfunction because it means the kidneys are unable to filter out waste efficiently. This marker is useful in diagnosing kidney disorders and in assessing the kidney’s filtering efficiency regarding metabolic waste material in circulation.\n\n## In what period does the testing of creatinine usually take place?\n\nA creatinine test is usually recommended when the patient has some sign of kidney diseased states such as swelling, hypertension, fatigue or some alteration in urinary habits. This test is also routinely performed for assessment of patients suffering from chronic kidney disease, diabetes mellitus, hypertension or some other diseases affecting the renal system. Also, it is frequently performed as a part of the comprehensive metabolic panel during annual health examinations.\n\n## Is there any risk or limitation associated with creatinine test?\n\nThe creatinine test is a very simple and safe procedure with no harm or risk involved. Such risks are often related to the phlebotomy itself, and these are such as mild pain, bruising and infection on the site of needle insertion. Limitations are temporary elevations and depressions of levels of creatinine which are muscle mass, level of protein in the diet, the degree of hydration, usage of certain drugs, which can affect the results of the evaluation of the renal function.\n\n## What Are the Parameters Evaluated in The Creatinine Test?\n\nAs a focus and primary parameter evaluated in the Creatinine Test serum creatine concentration. For example, they may indicate an impairment of the function of one or more of the kidneys, protein disease, or a number of other problems, as low levels, however, are rare and do not usually have any clinical relevance. Moreover, healthcare practitioners also try to assess the degree of glomerular filtration through creatinine levels in order to have a broad understanding and assessment of the kidneys' health.\n\n## Who is Recommended to Take the Creatinine Test?\n\nThe patient is advised to take the adverse level for those who are at risk of developing kidney problems, for example diabetic patients, hypertensive individuals, and people with a family history of kidney issues. It is equally true for patients with derived kidney disorder evidence. Also, some healthcare professionals may recommend this test to patients who take or will take drugs that affect the kidney system, or to patients who are about to have procedures that involve the use of contrast media.\n\n## The Advantages of the Creatinine Test for Your Health\n\nTaking the Creatinine Test has a lot of benefits that revolve around kidney including risk factors for kidney disorders assessment, chronic kidney disease stage tracking, and formulation and alteration of treatment strategies for patients with kidney failure. It adds tremendous value with respect to kidney wellbeing in that it allows actions to be taken before further damage to the kidneys occurs which improves life expectancy and quality.\n\n## What Conditions Will the Creatinine Test Help Diagnose?\n\nThe Creatinine Test also helps in assessing many clinical conditions that include but are not limited to chronic renal disease, acute renal failure, glomerulonephritis, urinary obstruction, rhabdomyolysis, and any disease affecting the kidney. It is also good in determining the success of the dialysis treatment.\n\n## How to Prepare for Your Creatinine Test\n\n**Prerequisites:** It is wise to drink water and, in some cases, fast for a few hours, as directed by your provider, prior to commencing the test.\n\n**Eligibility:** This test is usually done for anyone but is mainly directed towards patients who show signs and symptoms or have risk factors for kidney disease.\n\n**Procedure for Taking the Test:** A physician will take a small sample of your blood, typically from a vein in your arm, during the exam you may only need a few minutes for this process.\n\n**Caution Before the Test:** Refrain from engaging in vigorous workouts and eating too much meat 24 hours before the procedure since these factors might increase creatinine levels annoyingly high."
+      }
     }
   ]
 }
