@@ -1,0 +1,411 @@
+{
+  "type": "labtest-detail",
+  "route": "/bangalore/lab-test/luteinizing-hormone",
+  "slug": "luteinizing-hormone",
+  "test": {
+    "id": "681c817416444f3c1158d40b",
+    "templateName": "labtest",
+    "testName": "LEUTINIZING HORMONE- LH",
+    "route": "/luteinizing-hormone",
+    "basic_info": {
+      "name": "LEUTINIZING HORMONE- LH",
+      "route": "/luteinizing-hormone",
+      "categoryId": "671b5104ad9bf8d210384d25",
+      "testId": 7766100,
+      "discount": "",
+      "discountedPrice": 660,
+      "reportsWithin": "3hr",
+      "Identifies": " LH is a hormone produced by the pituitary gland that centres on the reproductive system.  ",
+      "measures": "The quantity of LH in the bloodstream and some fertility and health conditions. ",
+      "price": 660,
+      "testCategory": "Biochemistry"
+    },
+    "requisites": [
+      {
+        "value": "A blood sample to measure LH."
+      }
+    ],
+    "packages": [],
+    "faqs": [
+      {
+        "question": "What is the effect of high LH level on fertility?  ",
+        "answer": "High levels of LH in women indicates having an ovarium functioning problem like PCOS which can make it difficult for women to get pregnant. For men, high LH levels could also mean that there is an issue with the sperm being produced, or the testosterone level is low."
+      },
+      {
+        "question": "What days should the LH test should be done on?  ",
+        "answer": "It is advised to have an LH test done on day 14 of your cycle since it falls within the ovulation period. A specific recommendation will be given by your doctor based on your unique cycle."
+      },
+      {
+        "question": "Does stress have an impact on LH levels?  ",
+        "answer": "Stress does have an impact on LH levels and causes it to be lower than normal."
+      }
+    ],
+    "interpretations": {
+      "title": "Interpreting the Results of Your Luteinizing Hormone (LH) Test ",
+      "cols": [
+        "Condition/Findings ",
+        "Description ",
+        "Interpretation "
+      ],
+      "rows": [
+        [
+          "Elevated LH levels in women ",
+          "High levels of LH can be found in women with PCOS, primary ovarian insufficiency, or menopause. ",
+          "May indicate an ovulatory disorder, hormonal imbalance, or ovarian dysfunction. "
+        ],
+        [
+          "Low LH levels ",
+          "Low LH levels may occur in individuals with hypopituitarism, hypothalamic amenorrhea, or during extreme weight loss or stress. ",
+          "Often points to a problem with the pituitary or hypothalamus, or lifestyle factors like excessive exercise or poor nutrition. "
+        ],
+        [
+          "Normal LH levels in women ",
+          "Normal levels are typically seen during ovulation and in healthy reproductive function. ",
+          "Indicates that ovulation is occurring regularly. "
+        ],
+        [
+          "High LH levels in men ",
+          "Elevated LH levels can be associated with primary testicular failure or infertility. ",
+          "Suggests that the testes are not responding to the normal hormonal signals from the pituitary gland. "
+        ]
+      ]
+    },
+    "relative_test": {
+      "title": "",
+      "categoryId": "671b5104ad9bf8d210384d25",
+      "tests": [
+        {
+          "id": "67862540c75a57396559b106",
+          "testName": "TESTOSTERONE-TOTAL",
+          "route": "/total-testosterone-tt"
+        },
+        {
+          "id": "678a052ac75a57396559fb2d",
+          "testName": "FREE THYROXINE-FREE T4",
+          "route": "/free-thyroxine-free-t4-test-ftft4t"
+        },
+        {
+          "id": "679261c4c75a5739655aa2a1",
+          "testName": "FREE TRIIODO THYRONINE-FREE T3",
+          "route": "/free-triiodo-thyronine-free-test-fttft"
+        }
+      ]
+    },
+    "seo": {
+      "title": "Luteinizing Hormone (LH) Test – Function & Normal Levels",
+      "description": "Learn about luteinizing hormone (LH) function, normal levels in males & females, test purpose, and what high or low LH levels may indicate in health screenings.",
+      "keywords": "",
+      "canonicalUrl": "",
+      "ogTitle": "",
+      "ogDescription": "",
+      "ogImage": "",
+      "schemaMarkup": "",
+      "robotsMeta": ""
+    },
+    "markdown": "## What Is the Luteinizing Hormone (LH) Test, And Why Is It Important?\n\nThe Luteinizing Hormone (LH) test determines the concentration of LH in the blood. LH is a hormone produced by anterior pituitary gland and is responsible for multiple activities in the body. With respect to women, it manages the menstrual cycle as well as ovulation, while for men, it enables the production of testosterone.\n\nThe test is used to:\n\n- Identify issues with fertility in females and males.\n- Evaluate ovulation in females, particularly those with an irregular menstrual cycle.\n- Diagnose disorders regarding reproduction and disorders involving hormone imbalance.\n- Track progress of treatments associated with fertility, for instance, ovulation induction and hormone replacement therapy.\n\n## What the LH Test Measures\n\nThe LH test evaluates the levels of Luteinizing Hormone in the patient's bloodstream. This hormone has different functions in women and men:\n\n- In women, LH plays a key role in the regulation of ovulation, assisting in Follicle Stimulating Hormone (FSH) release.\n- In men, LH activates the Leigey'd cells of the testes to secrete testosterone, a principal androgen essential for spermatozoon creation and masculine body functions.\n\n## When Is the Luteinizing Hormone Test Needed?\n\nThe **LH test** is commonly taken in the following situations:\n\n- For evaluating fertility: If a couple is having trouble conceiving, the LH test can help determine the source of the issue.\n- To track ovulation: Women planning for pregnancy can use this test to determine their ovulation period.\n- Irregular menstrual cycles*:* In the case of women with non-cyclical menses, the LH test can rule out or confirm an ovulation issue.\n- In reproductive disorders diagnosis: Conditions like Polycystic Ovary Syndrome (PCOS), hypothalamic dysfunction, or pituitary disorders may affect LH levels.\n- **To check their hormone levels in a certain timeframe:** Patients receiving fertility services such as **in vitro fertilization (IVF)** may routinely require this assay to track their hormonal progress for successful ovulation.\n\n## Risks and Limitations of the Luteinizing Hormone Test\n\n- Risks:\n- The LH blood test requires a sample of blood and may result in mild soreness or bruising where it is drawn.\n- Minimal risks: Pretty much, all other risks associated with blood draws are the only risks present. There are no considerable risks beyond that.\n- Limitations:\n- Changes in LH levels: Test might have to be timed to specific days to provide meaningful results due to natural hormonal fluctuations LH levels have during the menstrual cycle in females.\n- One test might not present complete information: This test is not sufficiently comprehensive on its own and needs to be supplemented with other assessments; other tests like FSH or oestradiol tests are required to provide a complete picture of reproductive health.\n- Provide inaccurate results: If not examined with relevant context, LH levels which are impacted by age, some medication, and certain illnesses can produce LH results that are not truthful.\n\n## Parameters Evaluated in the LH Test\n\nThe **LH test** checks for:\n\n- **Blood LH Levels:** The concentration of LH within blood, as the primary measure, is checked.\n- **Luteal Phase Assessment:** LH is used to evaluate ovulation and the functioning of luteal phases in women’s menstrual cycles.\n- **Testosterone Secretion:** In males, responding LH levels are used to assess testosterone production stimulated by the pituitary gland.\n- **Relationality With FSH:** Typically, an LH test is done with **Follicle Stimulating Hormone (FSH)** to evaluate ovarian activity in women or to study pituitary activity in men and women.\n\n## Who Should Take the Luteinizing Hormone Test?\n\nThe LH test is commonly recommended for the:\n\n- Women with irregular menstrual cycles: Those with skipped cycles may need LH testing to determine their fertility and ovulation.\n- Women trying to conceive: This group may use LH testing as part of the ovulation calendar to time intercourse.\n- Men with infertility issues: LH testing can aid in evaluating male fertility with hypothalamic hypogonadism or in men with difficulties in testosterone or sperm production.\n- People with PCOS: Polycystic Ovary Syndrome (PCOS) is associated with increased LH levels, which this test can measure.\n- General population undergoing fertility procedures: Patients undergoing IVF or ovulation induction procedures may require monitoring of hormone levels through LH testing.\n- Patients with suspected pituitary diseases: In pituitary dysfunction, an LH test can assist in determining problems related to hormone release.\n\n## Benefits of the Luteinizing Hormone Test\n\n- Helps establish fertility-related concerns: LH tests are vital for assessing fertility on both sides. They give an accurate picture of ovulation and the functioning of reproductive hormones.\n- Aids in ovulation measurement: Women trying to conceive can use these tests as an aid to pinpoint their most fertile days.\n- Tracks outcomes of pharmacologic therapy: LH tests are routinely used to measure the effectiveness of fertility treatments such as clomiphene citrate or gonadotropin therapy.\n- Identifies hormonal imbalances: The test assists in showing the disturbance in the reproductive hormones which may result in PCOS, hypothalamic amenorrhea, or pituitary gland disorders.\n- Guides personalized treatment: Through measuring LH levels, the doctor can customize fertility treatments and reproductive healthcare strategies accordingly.\n- Primary ovarian insufficiency: A malfunction of the ovaries that occurs before a woman reaches 40 years of age, often displaying irregularities in LH levels.\n\n## Preparing for Your Luteinizing Hormone (LH) Test\n\n- In most cases, there are no specific instructions for an LH test other than those given by your healthcare practitioner.\n- For female patients, the physician may request to perform the test at a specific day of the menstrual cycle, usually around the mid-cycle to evaluate for ovulation.\n- **Fasting is not required**: You can take the test without fast unless stated otherwise by your medical provider.\n\nPre-Requisites for the Luteinizing Hormone Test\n\nA blood sample collected from a vein in the patient’s arm.\n\nEligibility for the Luteinizing Hormone Test\n\nThe test is appropriate for any person suffering from signs and symptoms of reproductive or fertility related health problems.\n\nProcedure for Taking the Luteinizing Hormone Test\n\nA blood sample will be taken and sent to the lab to check for LH levels.\n\nCaution Before the Luteinizing Hormone Test\n\n- Report any ongoing medication and fertility treatments to your healthcare provider, as some treatments might lower LH levels.\n- If you are a woman, pay attention to your menstrual cycle in relation to testing dates to guarantee precision with results."
+  },
+  "category": {
+    "id": "671b5104ad9bf8d210384d25",
+    "name": "Hormones",
+    "tests": [
+      "6720b480b61a968f2fc615c6",
+      "67862540c75a57396559b106",
+      "678a052ac75a57396559fb2d",
+      "679261c4c75a5739655aa2a1",
+      "681c817416444f3c1158d40b",
+      "681cd8dd16444f3c1158e092",
+      "681cdc1e16444f3c1158e0e1",
+      "681da0bb16444f3c1158ffb2",
+      "68233fdc16444f3c1159a1fe"
+    ],
+    "image": "/lab-tests/image-1729663593893-39132885.webp",
+    "path": "/hormones-tests",
+    "createdAt": "2024-10-23T06:07:26.664Z",
+    "updatedAt": "2024-10-23T06:07:26.665Z",
+    "markdown": "Hormones Tests"
+  },
+  "relatedTests": [
+    {
+      "id": "67862540c75a57396559b106",
+      "templateName": "labtest",
+      "testName": "TESTOSTERONE-TOTAL",
+      "route": "/total-testosterone-tt",
+      "basic_info": {
+        "name": "TESTOSTERONE-TOTAL",
+        "route": "/total-testosterone-tt",
+        "categoryId": "671b5104ad9bf8d210384d25",
+        "testId": "7766181",
+        "discount": "5",
+        "discountedPrice": "1045.00",
+        "reportsWithin": "3hr",
+        "Identifies": "Levels of testosterone in the blood ",
+        "measures": "The total testosterone present both as free and bound forms in blood.",
+        "price": 1100,
+        "testCategory": "Biochemistry"
+      },
+      "requisites": [
+        {
+          "value": "A 12-hour fasting period is not mandatory; however, it is better to have this test done in the morning when levels of testosterone are usually at their highest. "
+        }
+      ],
+      "packages": [],
+      "faqs": [
+        {
+          "question": "Is the test painful? ",
+          "answer": "No, it is not very painful because a small sample of blood is taken."
+        },
+        {
+          "question": "Are there any side effects related to the procedure? ",
+          "answer": "Some of these mild risks include but not limited to pain, swelling, redness at the blood draw site and hematoma might develop on this site."
+        },
+        {
+          "question": "How long will it take me to receive my results? ",
+          "answer": "Normally, within just a few days."
+        }
+      ],
+      "interpretations": {
+        "title": "Interpretating Testosterone-Total Test Results ",
+        "cols": [
+          "Condition/Findings ",
+          "Description ",
+          "Interpretation "
+        ],
+        "rows": [
+          [
+            "Low Testosterone ",
+            "Less than 300 ng/dL ",
+            "Indicates possible hypogonadism in males. Further evaluation may be necessary. "
+          ],
+          [
+            "High Testosterone ",
+            "More than 80 ng/dL ",
+            "Indicates possible hyperandrogenism in females. Further evaluation may be necessary. "
+          ],
+          [
+            "Normal Testosterone ",
+            "300–1000 ng/dL ",
+            "Indicates normal testosterone levels. No further action is typically required unless symptoms persist. "
+          ]
+        ]
+      },
+      "relative_test": {
+        "title": "",
+        "categoryId": "671b5104ad9bf8d210384d25",
+        "tests": []
+      },
+      "seo": {
+        "title": "Testosterone-Total Test in  Bangalore | Cadabams Diagnostics",
+        "description": "Get Total Testosterone tests at Cadabams Diagnostics in Bangalore. Trusted hormonal assessment services at reasonable prices.",
+        "keywords": "",
+        "canonicalUrl": "",
+        "ogTitle": "",
+        "ogDescription": "",
+        "ogImage": "",
+        "schemaMarkup": "",
+        "robotsMeta": ""
+      },
+      "markdown": "## What Is the Testosterone-Total Test and Why Is It Important?\n\nThe Testosterone-Total test measures how much testosterone there is in your blood. It’s a hormone made by the ovaries (in women) and testes (in men) that helps control male reproductive organs development, strengthens bones and builds muscles. In women, it controls periods so that they occur regularly and maintains bone mass. This test helps diagnose hypogonadism (low testosterone levels in males) and hyperandrogenism (high testosterone levels in females).\n\n## What Does the Testosterone-Total Test Measure?\n\nIt measures the total amount of testosterone in the blood which includes free and bound testosterone. Free testosterone is the active form of the hormone whereas bound testosterone is attached to proteins in the blood. Total testosterone measurement gives a general view of testosterone levels within a person’s body.\n\n## What is the usual time to draw a testosterone total test?\n\nThe test is usually taken under these conditions:\n\n1. Evaluation of low testosterone levels in males (hypogonadism)\n\n2. Evaluation of high testosterone levels in females (hyperandrogenism)\n\n3. Diagnosis of polycystic ovary syndrome (PCOS)\n\n4. Monitoring of testosterone replacement therapy\n\n5. Investigation of infertility in both males and females.\n\n## Are There Any Risks or Limitations to the Testosterone Total Test?\n\n**Some risks associated with this test include:**\n\n1. Pain, swelling, or redness at the site where blood is drawn\n\n2. Hematoma – a pool or collection of blood under the skin\n\n**Limitations on the test include:**\n\n1. Certain medical conditions like hyperthyroidism can give false results. Also, certain medications like anticonvulsants can give false results.\n\n2. It cannot differentiate between free and bound testosterone leading to wrong interpretation of testosterone level.\n\n## Testosterone-Total Test: What the Parameters are\n\n**The following parameters are evaluated:**\n\n1. Total testosterone level (ng/dL or nmol/L)\n\n**Medical practitioners look for the following:**\n\n2. Low testosterone levels (less than 300 ng/dL) in males, which may indicate hypogonadism\n\n3. High testosterone levels (more than 80 ng/dL) in females, which may indicate hyperandrogenism\n\n## Who Might Need to Do the Testosterone-Total Test?\n\nPeople should do this test if they have any of the following:\n\n1. Symptoms of low testosterone in males like decreased libido, fatigue, and erectile dysfunction.\n\n2. Acne, excessive hair growth or male pattern baldness as symptoms of high testosterone in women.\n\n## Health Benefits of a Total Testosterone Test\n\nThere are many things that can be done through taking the test such as:\n\n1. Diagnosing and treating hypogonadism or hyperandrogenism.\n\n2. Evaluating how effective is your replacement therapy for testosterone.\n\n3. Exploring infertility.\n\n4. Monitoring and managing some medical conditions including PCOS.\n\n## Conditions that Can Be Diagnosed using a Total Serum Testosterone Assay\n\nThe test can diagnose or help diagnose the following conditions:\n\n1. Hypogonadism (low testosterone levels in males)\n\n2. Hyperandrogenism (high testosterone levels in females)\n\n3. Polycystic ovary syndrome (PCOS)\n\n4. Infertility in both males and females\n\n## Preparing for Your Testosterone-Total Test.\n\nThere is no preparation necessary, but it would be best if you do the test in the morning because that’s when your testosterone levels are usually high.\n\n**Prerequisites**: None.\n\n**Eligibility**: Both males and females can use this test, but normal testosterone reference ranges might differ between sexes.\n\n**Procedure for Taking the Test**: A needle inserted into the vein of your arm ordinarily through which blood sample is drawn using a syringe\n\n**Caution Before the Test**: Inform your healthcare provider in case you are under any medication including vitamins and supplements."
+    },
+    {
+      "id": "678a052ac75a57396559fb2d",
+      "templateName": "labtest",
+      "testName": "FREE THYROXINE-FREE T4",
+      "route": "/free-thyroxine-free-t4-test-ftft4t",
+      "basic_info": {
+        "name": "FREE THYROXINE-FREE T4",
+        "route": "/free-thyroxine-free-t4-test-ftft4t",
+        "categoryId": "671b5104ad9bf8d210384d25",
+        "testId": 7769036,
+        "discount": "5",
+        "discountedPrice": "522.50",
+        "reportsWithin": "3 hrs",
+        "Identifies": "The Thyroid Function and disorders ",
+        "measures": "Amount of free thyroxine (T4) in the blood ",
+        "price": 550,
+        "testCategory": "Biochemistry"
+      },
+      "requisites": [
+        {
+          "value": "Blood sample taken from a vein in the arm "
+        }
+      ],
+      "packages": [],
+      "faqs": [
+        {
+          "question": " What do you intend to achieve using the Free T4 test? ",
+          "answer": "The Free T4 test assesses thyroid function and aids in diagnosis of thyroid related disorders."
+        },
+        {
+          "question": "What is the average time it takes to complete the test? ",
+          "answer": "Usually, the test can be performed within a few minutes."
+        },
+        {
+          "question": "Is there any possible danger that comes with taking this test? ",
+          "answer": "Like any other test, there are risks involved in this test as well. Some of the risks include a blood draw, infection at the injection site, and coughing."
+        },
+        {
+          "question": "How would you rate the test in terms of accuracy and reliability? ",
+          "answer": "While the tests are fairly reliable, people suffering from liver or kidney issues or taking specific medications might not receive the same results."
+        },
+        {
+          "question": "What do you consider to be the normal range values for the Free T4 test? ",
+          "answer": "The normal values for the Free T4 test differ by test measuring and the T4 level but imports range between 0.8 to 1.8 pg/dL."
+        }
+      ],
+      "interpretations": {
+        "title": "Free T4 Test Results Analysis ",
+        "cols": [
+          "Condition/Findings ",
+          "Description ",
+          "Interpretation "
+        ],
+        "rows": [
+          [
+            "High Free T4 Level ",
+            "Elevated free T4 levels may indicate hyperthyroidism or thyroid hormone replacement therapy overdose ",
+            "Hyperthyroidism, thyroid hormone replacement therapy overdose "
+          ],
+          [
+            "Low Free T4 Level ",
+            "Decreased free T4 levels may indicate hypothyroidism or thyroid hormone replacement therapy underdose ",
+            "Hypothyroidism, thyroid hormone replacement therapy underdose "
+          ],
+          [
+            "Normal Free T4 Level ",
+            "Normal free T4 levels indicate normal thyroid function ",
+            "Euthyroidism (normal thyroid function) "
+          ]
+        ]
+      },
+      "relative_test": {
+        "title": "Haromonal test",
+        "categoryId": "671b5104ad9bf8d210384d25",
+        "tests": [
+          {
+            "id": "67862540c75a57396559b106",
+            "testName": "TESTOSTERONE-TOTAL",
+            "route": "/total-testosterone-tt"
+          }
+        ]
+      },
+      "seo": {
+        "title": "",
+        "description": "Get a Free Thyroxine (Free T4) test in Bangalore at Cadabams Diagnostics. Measure your active thyroid hormone levels for accurate thyroid assessment.",
+        "keywords": "",
+        "canonicalUrl": "",
+        "ogTitle": "",
+        "ogDescription": "",
+        "ogImage": "",
+        "schemaMarkup": "",
+        "robotsMeta": ""
+      },
+      "markdown": "## What Is the Free T4 Test and Why Is It Important?\n\nThe Free T4 test is one of the laboratory tests which determine the amount of free thyroxine (T4) that is circulating in the blood. T4 is one of the hormones that is produced and secreted by the thyroid tissue which is gland shaped like a butterfly in the neck region. The thyroid glands have a crucial role in body metabolism as well as in the growth and development of the body. For this purpose, Free T4 test is used in evaluating thyroid function and diagnosing potential thyroid ailments.\n\nThis test applies a laboratory method known as immunoassay, which determines the quantity of free T4 found in a person’s blood. The test is as uncomplicated as it is promising, pain-free, and commonplace.\n\n## What Exactly is Measured by the Free T4 Test?\n\nA Free T4 test measures the amount of thyroxine (T4) that’s not bound to proteins in the bloodstream. Free T4 is a form of T4 that is bioactive. The test result is given in concentration of free T4, for example, a level of free T4 is measured in pg/dL.\n\n## When is the Free T4 test performed?\n\nGenerally, Free T4 tests are performed:\n\n- To check on the functioning of the thyroid gland for hyperthyroid (highly active thyroid) or hypothyroid (less active thyroid) symptoms.\n- For regular checks for individuals with a history of thyroid disorders or thyroid cancer.\n- To screen and detect any possible thyroid diseases like Graves’ disease or Hashimoto’s thyroiditis.\n- After thyroid hormone replacement therapy to check if treatment was effective.\n\n## Does The Free T4 Test carry risks or lacks accuracy in some aspects?\n\n**Risks:**\n\n- Pain, bleeding and bruising at the needle site while blood is drawn.\n- There is a chance of infection occurring at the site where the needle was inserted.\n\n**Limitations:**\n\n- The test might fail to accurately identify the presence of a thyroid disease for a person suffering from liver or kidney ailments.\n- Results may also not be accurate for patients using specific drugs such corticosteroids or phenytoin.\n- Patients with thyroid nodules or cancer might also find the test inappropriate.\n\n## What Are the Components in the Free T4 Test?\n\nThe Free T4 test involves evaluating the following parameters:\n\n- Free T4 Level (pg/dl)\n- Optional: Thyroid Stimulating Hormone (TSH) Level\n- Optional: Thyroid Hormone Levels\n\n## Who is the Target Population for the Free T4 Test?\n\nSome of the people who may benefit from the Free T4 test include:\n\n- People who have symptoms of hyperthyroidism or hypothyroidism, which might show up as weight changes, fatigue, or even mood fluctuations\n- People who have a history of thyroid disorders or even thyroid cancer\n- People having a genetic predisposition to thyroid disorders\n- People who are on medication that need them to take thyroid hormone replacement therapy\n\n## Positive Outcomes of the Free T4 Test on Your Health.\n\n- To identify cases of abnormal clinical function of the thyroid gland like hyperthyroidism or hypothyroidism\n- To follow the activity of the gland as well as revise treatment protocols\n- To check the effectiveness of the medication administered in patients receiving thyroid hormone replacement therapy\n- To screen a population for individuals who may suffer from these disorders in the future.\n\n## Which Diseases May Be Detected Using the Free T4 Test?\n\nThose diagnosed with the following conditions can benefit from using the Free T4 test:\n\n- An overactive thyroid gland is termed Hyperthyroidism\n- An underactive thyroid gland is termed Hypothyroidism\n- Graves' disease\n- Hashimoto's thyroiditis\n- Thyroid nodules or even thyroid cancer**.**\n\n## Steps To Follow Before You Take the Free T4 Test\n\n**Fasting:** Not required\n\n**Prerequisites**: None\n\n**Eligibility:**All ages are eligible\n\n**Test Procedure:** A venipuncture blood draw will be performed.\n\n**Caution before taking the test:** Notify your healthcare professional if you are on medication and have any medical issues."
+    },
+    {
+      "id": "679261c4c75a5739655aa2a1",
+      "templateName": "labtest",
+      "testName": "FREE TRIIODO THYRONINE-FREE T3",
+      "route": "/free-triiodo-thyronine-free-test-fttft",
+      "basic_info": {
+        "name": "FREE TRIIODO THYRONINE-FREE T3",
+        "route": "/free-triiodo-thyronine-free-test-fttft",
+        "categoryId": "671b5104ad9bf8d210384d25",
+        "testId": 7766046,
+        "discount": "5",
+        "discountedPrice": "522.50",
+        "reportsWithin": "3 hrs",
+        "Identifies": "Levels of Triiodothyronine in the blood ",
+        "measures": "Amount of free triiodothyronine in the blood ",
+        "price": 550,
+        "testCategory": "Biochemistry"
+      },
+      "requisites": [
+        {
+          "value": "Blood sample "
+        }
+      ],
+      "packages": [],
+      "faqs": [
+        {
+          "question": "What are the associated dangers with undergoing the Free T3 test?  ",
+          "answer": "Generally safe but may be accompanied by discomfort or light bleeding around the perforated area."
+        },
+        {
+          "question": "Is the Free T3 test applicable during pregnancy? ",
+          "answer": "Pregnancy does not prevent you from taking the test, but you must tell your doctor that you are pregnant."
+        },
+        {
+          "question": "When can I expect to receive results after test completion? ",
+          "answer": "Generally, you should expect results to come in after 24-48 hours."
+        },
+        {
+          "question": "If the Free T3 level is not within the normal range, what could be the reason?  ",
+          "answer": "Free T3 level outside of the normal range could be suggestive of a thyroid problem. Your healthcare provider will go over the abnormalities with you and proceed to give advice on additional tests or treatments that you may need."
+        }
+      ],
+      "interpretations": {
+        "title": "Understanding the Outcomes of Your Free T3 Test ",
+        "cols": [
+          "Condition/Findings ",
+          "Description ",
+          "Interpretation "
+        ],
+        "rows": [
+          [
+            "Hyperthyroidism ",
+            "Elevated free T3 levels (>4.2 pg/mL) ",
+            "Indicates an overactive thyroid gland; may cause weight loss, anxiety, and palpitations "
+          ],
+          [
+            "Hypothyroidism ",
+            "Low free T3 levels (<2.3 pg/mL) ",
+            "Indicates an underactive thyroid gland; may cause weight gain, fatigue, and cold intolerance "
+          ],
+          [
+            "Normal ",
+            "Free T3 levels within the normal range (2.3-4.2 pg/mL) ",
+            "Indicates a healthy thyroid gland "
+          ],
+          [
+            "Subclinical Hyperthyroidism ",
+            "Slightly elevated free T3 levels (4.2-5.0 pg/mL) ",
+            "May indicate an overactive thyroid gland, but without symptoms "
+          ],
+          [
+            "Subclinical Hypothyroidism ",
+            "Slightly low free T3 levels (2.0-2.3 pg/mL) ",
+            "May indicate an underactive thyroid gland, but without symptoms "
+          ]
+        ]
+      },
+      "relative_test": {
+        "title": "Haromonal test",
+        "categoryId": "671b5104ad9bf8d210384d25",
+        "tests": [
+          {
+            "id": "67862540c75a57396559b106",
+            "testName": "TESTOSTERONE-TOTAL",
+            "route": "/total-testosterone-tt"
+          },
+          {
+            "id": "678a052ac75a57396559fb2d",
+            "testName": "FREE THYROXINE-FREE T4",
+            "route": "/free-thyroxine-free-t4-test-ftft4t"
+          }
+        ]
+      },
+      "seo": {
+        "title": " Free Triiodothyronine (Free T3) Test  in Bangalore ",
+        "description": " Book  Free Triiodothyronine (Free T3) Test  in Bangalore  with with Cadabams Diagnostics to Measure the Amount of free triiodothyronine in the blood",
+        "keywords": "",
+        "canonicalUrl": "",
+        "ogTitle": "",
+        "ogDescription": "",
+        "ogImage": "",
+        "schemaMarkup": "",
+        "robotsMeta": ""
+      },
+      "markdown": "## What Is the Free Triiodothyronine (Free T3) Test and Why Is It Important?\n\nThe test determines the free T3 level in the blood. Free T3 is produced in the thyroid gland and is required for growth, development, and maintaining metabolism and energy in the body. It helps identify disorders of the thyroid gland like hyperthyroidism, hypothyroidism, and it can help measure how effective the treatments are.\n\nThis test is done using radioimmunoassay (RIA) or chemiluminescent immunoassay (CLIA) technology. In these methods, the blood sample is combined with certain antibodies that attach to the free T3 in the blood. After the sample is processed, the amount of T3 bound to antibodies is counted. The results are then used to ascertain if the levels of free T3 is too high or too low.\n\n## What Does the Free T3 Test Measure?\n\nThe test quantifies the level of free triiodothyronine in the bloodstream. The Free T3 is the active form of the hormone – meaning it exists independently of any protein molecules in the blood. Therefore, it can freely move into cells.\n\n## When Is the Free T3 Test Usually Taken?\n\nIt is to determine:\n\n- Disorders of the Thyroid gland like hyper and hypothyroidism.\n- To assess the effectiveness of any hormonal replacement therapy.\n- To assess the thyroid gland in symptomatic patients including weight changes, fatigue and hair fall.\n\n## Are There Any Risks or Limitations to the Free T3 Test?\n\n**Risks**\n\n- The procedure of taking samples of blood may lead to slight pain and bruises.\n- Certain medications like Hormone replacement therapy would compromise the results of the test.\n\n**Limitation**\n\n- May not be able to provide an accurate assessment of thyroid disorders for patients with preexisting conditions like kidneys or liver issues.\n- It might overlook some cases of slightly imbalanced thyroid activity.\n\n## What Parameters Are Done for the Free T3 Test\n\nFree T3 test involves looking at the following parameters:\n\n- Free T3 levels: 2.3-4.2 pg/mL (depends on which laboratory performs the tests).\n- Further medical treatment may be necessary for patients with kidney or liver problems, or who are on drugs.\n\n## Who Should Consider Taking the Free T3 Test?\n\nThe people that qualify for the Free T3 test include:\n\n- Patients that have symptoms of thyroid disease like weight changes, hair loss, and fatigue.\n- Patients that have a family history of thyroid problems.\n- Patients that are undergoing thyroid hormone replacement therapy.\n\n## Advantages of the Free T3 Test to Patient’s Health\n\nThe Free T3 test can:\n\n- Provide a difference in the diagnosis of thyroid disorders which positions the patient for proper treatment.\n- Determine the effectiveness of the thyroid hormone replacement therapy of the patient.\n- Determine those with a possibility of developing thyroid disease.\n\n## What the Free T3 Test Can Diagnose.\n\nThe Free T3 test can identify:\n\n- Hyperthyroidism (as seen with free T3 excess)\n- Hypothyroidism (as seen with low free T3)\n- Thyroid Cancers or Nodules (Free T3 abnormality)\n\n## How to Get Ready for Your Free T3 Test\n\nIn preparation for the Free T3 test, the patient must:\n\n- Refrain from eating for 8-12 hours prior to the test.\n- Avoid taking any interfering medications for the duration of the fasting.\n- Tell your doctor about any health issues and medications you take.\n\n**Prerequisites:** none.\n\n**Eligibility:** Anyone can get the test done, no matter what their age is.\n\n**Procedure for Taking the Test:** A blood sample is collected from a vein in the arm.\n\n**Caution Before the Test:** Share with your health provider if you have a bleeding condition or are on anticoagulant medication."
+    }
+  ]
+}

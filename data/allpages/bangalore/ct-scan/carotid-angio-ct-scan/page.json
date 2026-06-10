@@ -1,0 +1,310 @@
+{
+  "type": "scan-detail",
+  "route": "/bangalore/ct-scan/carotid-angio-ct-scan",
+  "familyPath": "ct-scan",
+  "slug": "carotid-angio-ct-scan",
+  "test": {
+    "id": "67bec71b16444f3c114dd552",
+    "templateName": "non-labtest",
+    "testName": "CT CAROTID ANGIO",
+    "route": "/carotid-angio-ct-scan",
+    "basic_info": {
+      "name": "CT CAROTID ANGIO",
+      "route": "/carotid-angio-ct-scan",
+      "categoryId": "671b5102ad9bf8d210384d1b",
+      "testId": 9896034,
+      "alsoKnownAs": "",
+      "discount": "",
+      "discountedPrice": 11000,
+      "reportsWithin": "6hrs",
+      "Identifies": "",
+      "measures": "",
+      "price": 11000,
+      "testCategory": "-"
+    },
+    "requisites": [],
+    "interpretations": {
+      "title": "Results and Interpretations ",
+      "cols": [
+        "Finding / Observation",
+        "Description ",
+        "General Interpretation / Significance"
+      ],
+      "rows": [
+        [
+          "0–49 % ",
+          " Mild narrowing ",
+          "Lifestyle changes & medicines"
+        ],
+        [
+          " 50–69 %",
+          "Moderate stenosis ",
+          "Cardiology consult for possible stenting"
+        ],
+        [
+          "≥70 %",
+          "Severe stenosis",
+          "Urgent vascular surgery planning"
+        ],
+        [
+          "Complete Occlusion",
+          "An artery is 100% blocked, and no blood is flowing through it.",
+          "A serious finding. The brain may be getting blood from other vessels; requires urgent medical evaluation."
+        ],
+        [
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    "faqs": [
+      {
+        "question": "How long does the CT Carotid Angio take?",
+        "answer": " From check-in to report collection, expect 45–60 minutes.\n"
+      },
+      {
+        "question": " Is the contrast dye safe for kidneys?",
+        "answer": " Yes, we use low-osmolar iodinated dye and pre-check kidney function.\n"
+      },
+      {
+        "question": " Can I drive home after the scan?",
+        "answer": " Absolutely. You will feel normal immediately after the 15-minute observation.\n"
+      },
+      {
+        "question": " Will insurance cover the test?",
+        "answer": " Most policies cover it under “diagnostic radiology.” Our team assists with cashless paperwork.\n"
+      },
+      {
+        "question": " How much does a CTA neck vessels cost?",
+        "answer": "The cost can vary based on your location and insurance plan. For a precise price quote and to discuss insurance coverage, please contact **Cadabams Diagnostics** directly. Our staff will be happy to assist you.\n"
+      }
+    ],
+    "relative_test": {
+      "title": "",
+      "categoryId": "",
+      "tests": []
+    },
+    "seo": {
+      "title": "CT Carotid Angio at Cadabams Diagnostics: Safe Artery Imaging",
+      "description": "Learn how CT Carotid Angio at Cadabams Diagnostics detects blockages early, guides treatment, and protects you from stroke. Book your scan today.\n",
+      "keywords": "",
+      "canonicalUrl": "",
+      "ogTitle": "",
+      "ogDescription": "",
+      "ogImage": "",
+      "schemaMarkup": "",
+      "robotsMeta": ""
+    },
+    "markdown": "## What is a CT Carotid Angio?\n\nA \\*\\*CT Carotid Angio\\*\\* is a quick, low-dose scan that maps the blood vessels in your neck. At Cadabams Diagnostics, we use the latest 128-slice CT to spot narrowing or clots before they trigger a stroke. The test is painless, takes under 10 minutes, and gives your doctor a crystal-clear 3-D roadmap of your carotid arteries.\n---\n## What is Carotid Angiography?\nCarotid angiography is an imaging test that shows how blood flows through the carotid arteries—two major vessels on each side of your neck that supply the brain.\n- \\*\\*CT Carotid Angio\\*\\* combines X-rays and computer technology after a small contrast dye injection.\n- It highlights blockages, bulges (aneurysms), or tears (dissections) in high-resolution detail.\n- Unlike older catheter methods, this scan is \\*\\*non-invasive\\*\\* and needs no overnight stay.\n---\n## When and Who Needs to Take a Carotid Angiography?\nYou may be advised to book a CT Carotid Angio if you have:\n- Sudden weakness or numbness on one side of the body (TIA symptoms).\n- A bruit (whooshing sound) heard by your doctor through a stethoscope.\n- High blood pressure, diabetes, or high cholesterol that raises stroke risk.\n- A history of smoking or heart disease.\nAge is not a barrier; adults from 30 to 80+ years undergo the scan safely at Cadabams Diagnostics.\n\n## List of Parameters Considered During the CT Carotid Angio\n\nDuring analysis, our radiologists measure:\n- \\*\\*Degree of stenosis\\*\\* – % of vessel narrowing\n- \\*\\*Plaque type\\*\\* – calcified vs. soft lipid-rich\n- \\*\\*Arterial wall thickness\\*\\* (IMT)\n- \\*\\*Blood flow velocity\\*\\* (derived from CT)\n- \\*\\*Presence of ulceration or thrombus\\*\\*\n\n## Risks & Limitations of CT Carotid Angiography (CTA)\n\n| Risk | Frequency | How Cadabams Mitigates It |\n|---|---|---|\n| Mild contrast allergy | <1 % | Pre-scan questionnaire & anti-allergic cover |\n| Temporary warm flush | 5–10 % | Lasts seconds; nurse stays with you |\n| Kidney strain (rare) | <0.5 % | Kidney function blood test before scan |\n| Radiation exposure | Low-dose protocol | ALARA principle & pediatric settings for all ages |\nThe scan cannot image very tiny vessels (<1 mm) and may be limited in severe calcification.\n\n## List of Parameters Considered During CT Carotid Angiography (CTA)\n\nDuring analysis, our radiologists measure:\n- \\*\\*Degree of stenosis\\*\\* – % of vessel narrowing\n- \\*\\*Plaque type\\*\\* – calcified vs. soft lipid-rich\n- \\*\\*Arterial wall thickness\\*\\* (IMT)\n- \\*\\*Blood flow velocity\\*\\* (derived from CT)\n- \\*\\*Presence of ulceration or thrombus\\*\\*\n\n## Reasons for Taking a CT Carotid Angiography (CTA)\n\n1. Evaluate stroke or TIA cause.\n2. Plan carotid stenting or endarterectomy.\n3. Follow-up after surgery.\n4. Screen high-risk but silent patients.\n5. Assess trauma-related neck vessel injury.\n\n## Benefits of Taking the Test\n\n- \\*\\*Early detection\\*\\* of blockages before symptoms appear.\n- \\*\\*Accurate planning\\*\\* for minimally invasive surgery.\n- \\*\\*Peace of mind\\*\\* if results are normal.\n- \\*\\*One-stop\\*\\* process: scan, report, and cardiologist consult on the same day at Cadabams Diagnostics.\n\n## Illnesses Diagnosed with CT Carotid Angiography (CTA)\n\n- Carotid artery stenosis\n- Carotid artery aneurysm\n- Carotid artery dissection\n- Vasculitis (artery inflammation)\n- Fibromuscular dysplasia\n- Atherosclerotic plaque ulceration\n\n## Preparing for CT Carotid Angiography (CTA)\n\n### 24 Hours Before\n- Drink plenty of water to hydrate kidneys.\n- Avoid caffeine and smoking to keep heart rate stable.\n### 4 Hours Before\n- Fast (no solid food) to reduce nausea from contrast.\n- Continue most medicines; bring a list to the centre.\n### What to Bring\n- Doctor’s prescription\n- Previous scan films or CDs\n- ID proof and insurance card\n---\n## Pre-requisites\n- Recent serum creatinine report (within 4 weeks).\n- List of allergies.\n- Diabetic? Inform us if you take metformin; we adjust timing.\n---\n## Best Time to Take the Carotid Angiography\n- \\*\\*Morning slots\\*\\* are preferred for diabetic patients after overnight fasting.\n- \\*\\*Emergency cases\\*\\* are accepted 24/7 at Cadabams Diagnostics.\n- Routine follow-ups can be scheduled at your convenience; no seasonal restriction.\n---\n## Eligibility\n| Eligible | Not Eligible |\n|---|---|\n| Adults ≥18 years with symptoms or risk factors | Pregnant women (radiation risk) |\n| Children in trauma cases (with pediatric dose) | Severe kidney failure (eGFR <30) |\n| Patients with pacemakers (CT safe) | Recent severe contrast reaction |\n---\n## Procedure for Taking a CT Carotid Angio\n1. \\*\\*Check-in\\*\\* at Cadabams Diagnostics front desk.\n2. \\*\\*Consent form\\*\\* & vitals taken by nurse.\n3. \\*\\*IV line\\*\\* inserted in the arm for contrast.\n4. \\*\\*Lie on CT table\\*\\*; head rests in a soft holder.\n5. \\*\\*Contrast injection\\*\\* begins; you may feel warm—this is normal.\n6. \\*\\*Scan lasts 5–10 seconds\\*\\*; hold your breath as instructed.\n7. \\*\\*Post-scan observation\\*\\* for 15 minutes.\n8. \\*\\*Digital report\\*\\* and films ready within 30 minutes.\n---\n## Caution Before Taking the Test\n- Inform staff of \\*\\*pregnancy possibility\\*\\*.\n- Remove \\*\\*metallic jewellery\\*\\* and hairpins near the neck.\n- \\*\\*No makeup\\*\\* on neck area; it may contain metallic particles that cause artifacts."
+  },
+  "category": {
+    "id": "671b5102ad9bf8d210384d1b",
+    "name": "CT Scan",
+    "tests": [
+      "6735d37103598b92c151c90e",
+      "673c6274effae454707e008c",
+      "673dd4e85ab244ca239d04bd",
+      "673de40d5ab244ca239d05bb",
+      "67a1d0e627567f98e56d2c57",
+      "67b84429a45909fb1bd2851c",
+      "67bd9d4f16444f3c114db42b",
+      "67bdc19116444f3c114db97d",
+      "67bdde2516444f3c114dbdbe",
+      "67bebe5a16444f3c114dd2fc",
+      "67bec1ed16444f3c114dd34d",
+      "67bec22316444f3c114dd35a",
+      "67bec49a16444f3c114dd3e5",
+      "67bec71b16444f3c114dd552",
+      "67bec97a16444f3c114dd568",
+      "67becba716444f3c114dd5ba",
+      "67becdc316444f3c114dd649",
+      "67c02f3116444f3c114df87c",
+      "67c0324616444f3c114df89c",
+      "67c190e416444f3c114e2011",
+      "67c193db16444f3c114e20c8",
+      "67c197c616444f3c114e2153",
+      "67c19a1316444f3c114e21a1",
+      "67c19e3e16444f3c114e2236",
+      "67c1a31116444f3c114e230d",
+      "67c1a5de16444f3c114e2371",
+      "67c1a83216444f3c114e2528",
+      "67c1aa9a16444f3c114e25bf",
+      "67cfafe816444f3c114f87a4",
+      "67cfb3f416444f3c114f87ff",
+      "67cfb60116444f3c114f883d",
+      "67cfeba816444f3c114f912a",
+      "67cfee3e16444f3c114f9237",
+      "67cff04316444f3c114f92e9",
+      "67cff3d316444f3c114f93f3",
+      "67cff78816444f3c114f9474",
+      "67d2bfc016444f3c114fe055",
+      "67d2c02d16444f3c114fe076",
+      "67d2c14916444f3c114fe097",
+      "67d2c19316444f3c114fe0ae",
+      "67d2c1d416444f3c114fe0c5",
+      "67d2c27316444f3c114fe0e9",
+      "67d2c50f16444f3c114fe10a",
+      "67d2c75116444f3c114fe129",
+      "67d2c78d16444f3c114fe141",
+      "67d2cab116444f3c114fe1fd",
+      "67d3d34e16444f3c11500427",
+      "67d3d54916444f3c115004cc",
+      "67d3d79516444f3c115005cc",
+      "67d3de2616444f3c11500769",
+      "67d3e07316444f3c115008d8",
+      "67d3e38a16444f3c115009d5",
+      "67d3f54916444f3c11500fde",
+      "67d7d26c16444f3c11507fa5",
+      "67d7d36916444f3c11508011",
+      "67f3b5c316444f3c1153a6b8",
+      "67f3f6ad16444f3c1153af9e",
+      "67f9012416444f3c1154445d",
+      "67f903da16444f3c115444d0",
+      "67f906b116444f3c115444e3",
+      "67f9090416444f3c115445e6",
+      "67f91c3216444f3c11544b36",
+      "67f91e7316444f3c11544b5a",
+      "67f9206216444f3c11544bc6",
+      "67f9225d16444f3c11544bd4",
+      "67f925e616444f3c11544c14",
+      "67f927c716444f3c11544c54",
+      "67fa03a816444f3c11545ce3",
+      "67fa059116444f3c11545d52",
+      "67fa08f016444f3c11545e37",
+      "67fa0a9216444f3c11545e46",
+      "67fa101216444f3c11545f29",
+      "67fa11f516444f3c11545f68",
+      "67fa142d16444f3c11545fd8",
+      "67fa172716444f3c11546092",
+      "67fa193516444f3c11546103",
+      "67fe49a816444f3c1154cc46",
+      "67fe4a2916444f3c1154cc50",
+      "67fe4a5416444f3c1154cc5b",
+      "6853f53916444f3c11613d0a",
+      "6854449016444f3c1161474a",
+      "685503c016444f3c116178b3",
+      "685507cc16444f3c11617a8e",
+      "68550a3a16444f3c11617b90"
+    ],
+    "image": "/scans/image-1730262100461-13722521.webp",
+    "path": "ct-scan",
+    "createdAt": "2024-10-17T19:22:12.564Z",
+    "updatedAt": "2024-10-17T19:22:12.564Z",
+    "allData": {
+      "categoryId": "671b5102ad9bf8d210384d1b",
+      "requisites": [
+        {
+          "value": ""
+        }
+      ],
+      "interpretations": {
+        "title": "Results and Interpretations ",
+        "cols": [
+          "Parameter ",
+          "Normal Result ",
+          "Abnormal Result ",
+          "Possible Interpretation of Abnormal Result "
+        ],
+        "rows": [
+          [
+            "Bone Density ",
+            "Normal bone structure ",
+            "Fractures, bone loss, or lesions ",
+            "Osteoporosis, bone fracture, bone cancer "
+          ],
+          [
+            "Lung Tissue ",
+            "Clear, healthy lung appearance ",
+            "Masses, nodules, or fluid buildup ",
+            "Lung cancer, pneumonia, pulmonary embolism "
+          ],
+          [
+            "Abdominal Organs ",
+            "Normal size, shape, and position ",
+            "Enlarged or abnormal organs, presence of tumours ",
+            "Liver cirrhosis, pancreatitis, abdominal tumour, or cysts "
+          ],
+          [
+            "Blood Vessels ",
+            "Normal blood flow, clear vessel structure ",
+            "Blockages, narrowing, or aneurysms ",
+            "Atherosclerosis, aneurysm, blood clot "
+          ],
+          [
+            "Kidney Structure ",
+            "Normal size and function ",
+            "Abnormal growths, kidney stones, or damage ",
+            "Kidney stones, tumours, cysts, kidney failure "
+          ],
+          [
+            "Brain Scan ",
+            "Normal brain structure and no signs of swelling ",
+            "Haemorrhage, tumours, or abnormal tissue ",
+            "Stroke, brain tumour, traumatic brain injury "
+          ]
+        ]
+      },
+      "faqs": [
+        {
+          "question": "Are CT scans dangerous? ",
+          "answer": "CT (Computed Tomography) scans are not considered dangerous however they do involve exposure to Ionizing Radiation that exposes the patient to certain risks."
+        },
+        {
+          "question": "What can a patient expect after getting CT Scans? ",
+          "answer": "The length of a CT scan relates to the specific purposes of the scan and the body parts under investigation; following are the details:\n\n**Time to get ready:** 10 minutes to 30 minutes: The time taken to fill out forms, put on a hospital gown, or receive a contrast dye.\n\n**The scanning process:** 10 minutes to 30 minutes: It is a normal procedure to complete the entire scanning process between 10 to 20 minutes.\n\n**Overall Procedure:** Patients should expect to be in the imaging centre for a maximum of 60 minutes beginning from registration up to the completion of all the procedures."
+        },
+        {
+          "question": "What side effects can a CT scan have? ",
+          "answer": "The majority of the patients who undergo CT scans do not report serious side effects. There are however some minor side effects reported which include:\n\nIonizing radiation exposure is a significant risk as it is one of the causes of increased lifetime cancer risk especially in patients who are made to undergo a large number of scans. If the patient is administered contrast dye, then nausea, vomiting and mild rashes are commonly occurring.\n\n**Moderate Reactions:** severe rash, hives and major swelling.\n\n**Severe Reactions:** Symptoms of anaphylactic shock (A severe allergic reaction), problems with swallowing and constricted throat area. These cases cannot be treated without visiting a physician.\n\n**Kidney Effects:** Due to the presence of preexisting kidney diseases, i.e., hypertension, patients’ kidney function can be altered when injecting contrast dye. Suffice it to say it is necessary to drink enough fluids and notify your doctor of any issues with your kidneys before undergoing the procedure."
+        },
+        {
+          "question": " how much does a CT scan cost? ",
+          "answer": "CT Scan prices have the potential of varying because of factors such as scan type, whether or not the dye is used, the center where it is done, the area where the center is located. For information regarding CT scans feel free to contact Cadabam’s."
+        }
+      ],
+      "relative_test": {
+        "title": "xzz",
+        "categoryId": "671b5102ad9bf8d210384d1b",
+        "tests": [
+          {
+            "id": "6735d37103598b92c151c90e",
+            "testName": "CT ABDOMEN ",
+            "route": "/abdomen-ct-scan"
+          },
+          {
+            "id": "673c6274effae454707e008c",
+            "testName": "CT CHEST / THORAX ",
+            "route": "/chest-ct-scans"
+          },
+          {
+            "id": "673dd4e85ab244ca239d04bd",
+            "testName": "CT SCAN OF LOWER ABDOMEN (INCLUDING PELVIS) WITH CONTRAST",
+            "route": "/ct-abdomen-and-pelvis-plain"
+          },
+          {
+            "id": "673de40d5ab244ca239d05bb",
+            "testName": "CT BRAIN WITH ANGIOGRAPHY",
+            "route": "/brain-and-angiography-ct-scan"
+          }
+        ]
+      },
+      "seo": {
+        "title": "",
+        "description": ""
+      }
+    },
+    "markdown": "a medical imaging procedure that uses X-rays to create cross-sectional images of the body\n\n## What is a CT Scan?\n\n![What is a CT Scan?](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731735151863-271039395.png)\n\nA CT scan combines [X-ray](https://cadabamsdiagnostics.com/ultrasound-scan-bangalore/) images from different angles and uses computer processing to create cross-sectional images of your body's bones, blood vessels, and soft tissues. These detailed images provide more information than standard X-rays.\n\n### When and Who Needs to Take a CT Scan\n\nA CT scan is comprehensively recommended apart from x-ray when the requirement is to obtain clearer views or pictures of the structure or internal parts of the body. It is generally recommended for individuals who have unexplained conditions and have trauma to the internal organs or need to examine a specific internal condition like a tumor, infection, or a vascular disease.\n\n## Common Types of CT Scans\n\nComputed tomography or more commonly termed CT scans, cover every conceivable organ system one cares to imagine.\n\nThe following are types of CT scans that patients might come across:\n\n### CT Angiography\n\n**Purpose:** Utilizes a contrasting dye to focus on blood vessels by highlighting vascular structures.\n\nTypical Uses are detecting aneurysms, visualizing the blockages or narrowing of the blood vessels, diagnosis of atherosclerosis, and determining the need for or noninvasive stent placement.\n\n### CT Abdomen Scan\n\n**Purpose:** Enables visualization of the organs in the abdominal cavity and organs in the pelvis whom the liver, left, and right kidneys, stomach, pancreas and organs of the reproductive system.\n\n**Typical Uses:** Recognizing tumors and the assessment of the factors that cause abdominal pain such as appendicitis or kidney stones, and the evaluation of bowels such as Crohn's illness and diverticulitis, assessment of injuries of organs located within the abdominal cavity.\n\n### CT Bone Scan\n\n**Aims:** The CT bone scan aims at obtaining images that show clear pictures of bones enabling the doctor to detect fractures, infections, tumors and other abnormal bone formations.\n\n**Typical Uses:** Diagnosis of bone fracture, osteomyelitis, tumor description, and guidance of biopsies or bone surgery.\n\n### CT Scan Chest\n\n**Purpose:** The chest CT aims at obtaining images showing the lung, heart and blood vessels with a view to providing detailed anatomy of the structures within the thorax.\n\n**Typical Uses Include:** The CT scan of the chest aids in diagnosing lung pathologies like lung cancer, pneumonia, and tuberculosis, as well as heart diseases, pulmonary embolism, and evaluation of chest injuries.\n\n### CT Pelvic Scan\n\n**Purpose:** In urology, the pelvic CT is primarily performed for the purpose of obtaining images for diagnostic and more advanced imaging evaluation of the pelvis.\n\n**Typical Uses:** The seizure CT of the pelvis aids in the identification of pelvic fractures, tumor, and infection, and evaluation of pathological disorders of the organs in reproductive system, the bladder and lymph nodes.\n\n### Cardiac CT\n\n**The function:** This one is focused solely within the heart region as well as its associated blood vessels in order to view any cardiac abnormalities.\n\n**Common applications:** Evaluating heart’s coronary arteries’ health, devising plans for heart surgeries, and checking heart muscle and valves’ structure.\n\n### CT KIDNEY SCAN\n\n**The function:** Uses CT imaging to generate images of the kidneys to help in diagnosing and evaluating different kidney conditions.\n\n**Common applications:** Evaluation of kidneys’ stones, tumours and infections as well as other forms of incongruities in the kidney structure.\n\n## Risks & Limitations Associated with a CT Scan\n\n![Risks & Limitations Associated with a CT Scan](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731735161424-689442942.png)\n\nCT (Computed Tomography) scans are great tools for diagnosis, however for all medical procedures it does come with risk factors of its own.\n\nBeing aware of such risk factors helps the patient, so that they know which decisions to take in terms of concern and action with relation to the specialist physician.\n\nThese are the main risk factors pertaining to CT scans:\n\n### Radiation Exposure\n\n**Increased Radiation Exposure:** X-ray technology is employed in imaging during CT scans which increases the radiation dose greater than X-ray. This risk is generally low for a one time scanning however risk of cancer contracted from measurement increases as the number of scanning increases.\n\n**Risk of Cancer:** It is a possibility that radiation can put a person at greater risk of contracting a cancer with every single exposure throughout his life which is a cause of concern especially for young adults and children as they are more prone to the effects of radiation.\n\n### Allergic Reactions to Contrast Media\n\n**Moderate Allergic Reactions:** Mild signs of allergic reactions to contrast media are noted such as nausea, vomiting, rashes or even itching in some patients subsequently worsening individuals feeling breathless, swollen or having anaphylaxis.\n\n**Severe Allergic Reactions:** With the signals mentioned above it is important to follow the pre-medication guidelines and supervised dosages which limit the severity of the signs. Otherwise actors including difficulty in breathing, swelling and anaphylaxis can occur.\n\n### Kidney Damage:\n\n**Contrast-Induced Nephropathy (CIN):** Repercussions such as kidney damage and failure arise from the use of contrast when imaging patients who suffer from severe levels of kidney failure of even during calmness. The usage of adequate hydration helps counter the effects.\n\n**Monitoring Kidney Function:** Kids with diabetes or any other issues related to contrast dyes such as allergies are stabbed with blood tests to monitor their functioning kidneys.\n\n## List of Parameters Considered During a CT Scan\n\n![List of Parameters Considered During a CT Scan](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731735167758-495064615.png)\n\nIn a CT imaging system, there are fundamental arrangements usually set as follows:\n\n**Slice Thickness:** The thickness of the scanned slice is defined and controlled to regulate images resolution of each scan’s images.\n\n**Tube Voltage (kV):** Controls the energy used in the scan; the thicker tissue on the flesh requires high kV settings.\n\n**Field of View (FOV):** It is used to outline the target area or region. A larger field of view genuinely captures a lot of anatomy at one time, however the details are probably not as good as when a smaller FOV (that is when the target of interest is exclusive) is used as this helps to focus the specific area and thus improves clarity of the images.\n\n**Pitch:** The measure of the speed of the CT table during scanning. A higher pitch means shorter time to complete the scan although the images captured may be of poorer resolution, Lowering the pitch on the other hand takes longer to make the scan however the images captured are clearer.\n\n**Contrast Agent Dose:** The proper dosage evaluation in administering the contrast agent is very important as it aids in highlighting findings and avoiding complications.\n\n## Why is a CT Scan Performed?\n\n![Why is a CT Scan Performed?](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731735174485-905008287.png)\n\nThis scan is being routinely used for specialized medical diagnosis and procedures. They are somewhat utilized for diagnostic purposes, however, the scopes are much wider – evaluation of injuries, assistance in treatment, monitoring, exploration of complaint and even vascular system diseases to name a few.\n\n## Benefits of Taking a CT Scan\n\n![Benefits of Taking a CT Scan](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731735179060-806695515.png)\n\nCT scans are of great benefit as they allow for proper, accurate diagnosis, treatment planning as well as monitoring of the patient. They assist the doctor in identifying fractures, tumors, internal injuries, and vascular diseases, hence promoting better care.\n\n###\n\n## Illnesses Diagnosed with CT Scan\n\n![Illnesses Diagnosed with CT Scan](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731735183488-375166672.png)\n\nCT scans help doctors detect various injuries and diseases, including:\n\n- Certain types of cancer and benign (noncancerous) tumors.\n- Fractures (broken bones).\n- Heart disease\n- Blood clots\n- Bowel disorders (appendicitis, diverticulitis, blockages, Crohn’s disease).\n- Kidney stones\n- Brain injuries\n- Spinal cord injuries\n- Internal bleeding\n\n## How to Prepare for a CT Scan\n\n![How to Prepare for a CT Scan](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731735188262-176481996.png)\n\nPatients who are using contrast should refrain from eating and drinking for some time before undergoing the procedure. Take off all metallic pieces and ensure you put on loose clothing. Be sure to communicate any medication you are taking or any allergies you have. Here are the details on how to prepare for a CT scan.\n\n### Need to know\n\nPatients should inform the doctor if they are allergic to contrast agents as well as their medical history, for example kidney disease. Patients may be asked to fast in case there is a use of contrast dye, also avoid metallic pieces during the scan.\n\n### Best time to take the scan\n\nYou have to undergo CT depending on your condition, but some patients have to fast before scans. It’s advisable to have appointments in the morning as this can help relieve discomfort after fasting. In critical or urgent cases, a scan can be done immediately.\n\n### Precautions before the scan\n\nLet your doctor know if you’re pregnant or have any issues with contrast iodine dyes or kidney dysfunction.\n\nTo obtain reliable results and avoid issues during the examination, be sure to follow any guidelines provided such as fasting."
+  },
+  "relatedTests": []
+}

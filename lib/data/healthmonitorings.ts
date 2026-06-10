@@ -1,4 +1,4 @@
-import healthMonitoringsData from "@/data/md+json/healthmonitorings.json";
+import healthMonitoringsData from "@/data/allpages/_shared/healthmonitorings.json";
 
 export interface HealthMonitoringHealthData {
   type: "checkup" | "labtest" | string;

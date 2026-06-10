@@ -70,6 +70,20 @@ export const useCartStore = create<CartState>()(
   ),
 );
 
+/**
+ * Keep the cart in sync across browser tabs/windows. Zustand's persist
+ * middleware writes to localStorage but does not listen for changes made by
+ * other tabs, so without this an item added in one tab wouldn't appear in
+ * another until reload. The `storage` event fires only in *other* tabs.
+ */
+if (typeof window !== "undefined") {
+  window.addEventListener("storage", (e) => {
+    if (e.key === "cadabams_cart_v1") {
+      useCartStore.persist.rehydrate();
+    }
+  });
+}
+
 /** Total number of units across all line items. */
 export const selectCount = (s: CartState) =>
   s.items.reduce((n, i) => n + i.quantity, 0);

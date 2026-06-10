@@ -1,0 +1,283 @@
+{
+  "type": "scan-detail",
+  "route": "/bangalore/msk-scan/musculoskeletal-ultrasound-msk",
+  "familyPath": "msk-scan",
+  "slug": "musculoskeletal-ultrasound-msk",
+  "test": {
+    "id": "6735c72a03598b92c151c6fd",
+    "templateName": "non-labtest",
+    "testName": "MUSCULOSKELETAL ULTRASOUND",
+    "route": "/musculoskeletal-ultrasound-msk",
+    "basic_info": {
+      "name": "MUSCULOSKELETAL ULTRASOUND",
+      "route": "/musculoskeletal-ultrasound-msk",
+      "categoryId": "671b5102ad9bf8d210384d1f",
+      "price": 2600,
+      "alsoKnownAs": "",
+      "discount": "0",
+      "discountedPrice": "2600.00",
+      "reportsWithin": "3hrs",
+      "Identifies": "",
+      "measures": "",
+      "testId": 7770126,
+      "testCategory": "Ultrasonography",
+      "imageSrc": "/scans/image-1745482855611-886318515.webp"
+    },
+    "requisites": [
+      {
+        "value": "Тhe general requirement for MSK ultrasound is that specific preparations are not required. All you have to do is put on some comfortable clothes that allow easy exposure of the area that will be scanned. Your medical officer may request you to refrain from applying lotion or ointment on the skin close to the area being examined to facilitate better images. "
+      }
+    ],
+    "interpretations": {
+      "title": "Results and Interpretations ",
+      "cols": [
+        "Finding / Observation",
+        "Description ",
+        "General Interpretation / Significance"
+      ],
+      "rows": [
+        [
+          "Normal tendon fibrillar pattern",
+          "Uniform echogenic lines",
+          "Intact tendon, no tear"
+        ],
+        [
+          "Partial tendon tear",
+          "Focal hypoechoic gap in tendon fibers",
+          "Incomplete rupture, may heal with rest"
+        ],
+        [
+          "Joint effusion >5 mm",
+          "Anechoic (black) area in joint space",
+          "Inflammation or injury present"
+        ],
+        [
+          "Synovial hypertrophy",
+          "Thickened, irregular synovial lining",
+          "Suggests chronic inflammation"
+        ],
+        [
+          "Doppler hyperemia",
+          "Increased color signals",
+          "Active inflammation with blood-flow"
+        ]
+      ]
+    },
+    "faqs": [
+      {
+        "question": "Is musculoskeletal ultrasound painful?",
+        "answer": "No, the scan is painless. Light pressure from the probe is all you feel."
+      },
+      {
+        "question": "How long does the exam take?",
+        "answer": "Usually 15–30 minutes, depending on the number of areas scanned."
+      },
+      {
+        "question": "Do I need to fast?",
+        "answer": "No fasting or special diet is required."
+      },
+      {
+        "question": "Can I drive after the scan?",
+        "answer": "Yes, you can resume normal activities immediately."
+      },
+      {
+        "question": "When will I get my report?",
+        "answer": "Reports are ready within 30 minutes at Cadabams Diagnostics."
+      },
+      {
+        "question": "Is it safe during pregnancy?",
+        "answer": "Absolutely—ultrasound uses sound waves, not radiation."
+      }
+    ],
+    "relative_test": {
+      "title": "",
+      "categoryId": "671b5102ad9bf8d210384d1f",
+      "tests": [
+        {
+          "id": "672c89e7e3e3df57799179de",
+          "testName": "Msk Scan",
+          "route": "/msk-scan"
+        }
+      ]
+    },
+    "seo": {
+      "title": "Musculoskeletal Ultrasound: Fast, Safe, Precise Imaging",
+      "description": "Discover how MUSCULOSKELETAL ULTRASOUND at Cadabams Diagnostics reveals joint, muscle, ligament & tendon issues in real-time. Book today for same-day results.",
+      "keywords": "",
+      "canonicalUrl": "",
+      "ogTitle": "",
+      "ogDescription": "",
+      "ogImage": "",
+      "schemaMarkup": "",
+      "robotsMeta": ""
+    },
+    "markdown": "## Musculoskeletal Ultrasound Overview\n\n### What This Imaging Test Can Reveal About Joints, Muscles, Ligaments, and Tendons\n- \\*\\*Tears\\*\\* in tendons and ligaments\n- \\*\\*Inflammation\\*\\* in joints or bursae\n- \\*\\*Fluid build-up\\*\\* (effusion)\n- \\*\\*Nerve compression\\*\\* like carpal tunnel syndrome\n- \\*\\*Cysts\\*\\* or abnormal growths\n### Why Cadabams Diagnostics Is the Trusted Choice\n- Same-day appointments and reports\n- Advanced machines with Doppler for blood-flow studies\n- Warm, patient-first environment\n- Direct digital sharing with your referring doctor\n## What Is Musculoskeletal Ultrasound?\n### Definition and Technology: High-Frequency Sound Waves for Real-Time Imaging\nMUSCULOSKELETAL ULTRASOUND uses sound waves above the range of human hearing. A small handheld probe (transducer) glides over the skin, sending echoes that create live pictures on the screen.\n### Difference Between Ultrasound and Other Musculoskeletal Imaging\n| Modality | Ionizing Radiation | Real-Time View | Bone Detail | Typical Cost |\n|----------|--------------------|----------------|-------------|--------------|\n| Ultrasound | None | Yes | Limited | Low |\n| X-ray | Yes | No | Excellent | Low |\n| MRI | No | No | Very good | High |\n| CT | Yes | No | Excellent | Moderate |\n## Types of Musculoskeletal Ultrasound\n- \\*\\*Static imaging\\*\\*: Still pictures for baseline measurements\n- \\*\\*Dynamic (real-time movement) scans\\*\\*: Watch tendons glide or joints open/close\n- \\*\\*Doppler ultrasound\\*\\*: Highlights blood-flow changes in inflammation\n- \\*\\*Ultrasound-guided injections or aspirations\\*\\*: Pinpoint medication delivery or fluid removal.\n\n## When and Who Needs to Take a Musculoskeletal Ultrasound?\n\n### Common Symptoms Prompting Referral\n- Persistent \\*\\*pain\\*\\* or \\*\\*tenderness\\*\\*\n- Visible \\*\\*swelling\\*\\* or \\*\\*bruising\\*\\*\n- Reduced \\*\\*range of motion\\*\\*\n- Instability or “giving way” sensations\n### Athletes, Arthritis Patients, Post-Injury Evaluations\n- Weekend warriors checking for \\*\\*rotator-cuff tears\\*\\*\n- Rheumatoid-arthritis patients monitoring \\*\\*synovial thickening\\*\\*\n- Post-injury athletes assessing \\*\\*ligament integrity\\*\\*\n\n## Risks & Limitations of the Musculoskeletal Ultrasound\n\n- \\*\\*Zero ionizing radiation\\*\\*—safe for all ages and pregnancy\n- \\*\\*Minimal risk profile\\*\\*; no contrast dye complications\n### Limitations\n- \\*\\*Depth penetration\\*\\* drops in very large limbs\n- \\*\\*Operator dependency\\*\\*—choose accredited centres like Cadabams Diagnostics\n- \\*\\*Difficult bone visualization\\*\\*—MRI may be needed for deep bone marrow issues\n\n## List of Parameters Considered During the Musculoskeletal Ultrasound\n\n- Tendon thickness and echogenicity\n- Joint effusion volume\n- Muscle fiber integrity\n- Ligament continuity\n- Synovial hypertrophy\n- Bursal distension\n\n## Reasons for Taking a Musculoskeletal Ultrasound\n\n- \\*\\*Rapid diagnosis\\*\\* of acute sports injuries\n- \\*\\*Monitor chronic conditions\\*\\* like rheumatoid arthritis or gout\n- \\*\\*Guide minimally invasive procedures\\*\\* such as steroid injections\n\n## Benefits of Taking the Musculoskeletal Ultrasound\n\n- \\*\\*Non-invasive & painless\\*\\*—no needles unless you choose guided injection\n- \\*\\*No radiation\\*\\*—ideal for children and expectant mothers\n- \\*\\*Real-time imaging during movement\\*\\*—catch problems static scans miss\n- \\*\\*Cost-effective\\*\\* alternative to MRI\n- \\*\\*Immediate results\\*\\*—start treatment the same day\n\n## Illnesses Diagnosed with Musculoskeletal Ultrasound\n\n- Tendon tears (rotator cuff, Achilles)\n- Ligament sprains (ankle, knee)\n- Muscle strains and hematomas\n- Joint synovitis and effusions\n- Carpal tunnel syndrome\n- Ganglion cysts\n\n## Preparing for Musculoskeletal Ultrasound\n\n- Wear \\*\\*loose garments\\*\\* that expose the joint or limb easily\n- Remove \\*\\*jewellery, watches or braces\\*\\* from the scan area\n- \\*\\*No fasting\\*\\*—eat and drink normally\n## Pre-requisites Musculoskeletal Ultrasound\n- Valid \\*\\*doctor’s referral\\*\\* or prescription\n- Bring \\*\\*previous imaging reports\\*\\* (X-ray, MRI) if available\n- Inform the sonographer of \\*\\*allergies\\*\\* or \\*\\*skin conditions\\*\\*\n## Best Time to Take the Musculoskeletal Ultrasound\n- \\*\\*Book within 48 hours\\*\\* of acute injury for earliest swelling assessment\n- \\*\\*Early morning slots\\*\\* often have shorter wait times\n- Avoid \\*\\*heavy workouts\\*\\* just before the scan to prevent muscle swelling artefacts\n## Eligibility\n- \\*\\*All age groups\\*\\*—from newborn hips to geriatric shoulders\n- \\*\\*Pregnancy-safe\\*\\*—no radiation risk\n## Procedure for Taking a Musculoskeletal Ultrasound\n1. \\*\\*Check-in & verification\\*\\* at Cadabams Diagnostics front desk\n2. \\*\\*Positioning\\*\\* on a comfortable examination couch\n3. \\*\\*Application of ultrasound gel\\*\\*—water-soluble, easily wiped off\n4. \\*\\*Transducer scanning\\*\\* with gentle pressure; you may be asked to move the joint\n5. \\*\\*Image review\\*\\* on screen with preliminary explanation\n6. \\*\\*Receive report\\*\\* within 30 minutes, emailed to your doctor if requested\n## Caution Before Taking the Test\n- Alert staff to \\*\\*open wounds\\*\\* or \\*\\*skin infections\\*\\*—probe cover or alternative imaging may be used\n- Pause \\*\\*topical creams\\*\\* on the scan area to reduce image artefacts"
+  },
+  "category": {
+    "id": "671b5102ad9bf8d210384d1f",
+    "name": "MSK Scans",
+    "tests": [
+      "672c89e7e3e3df57799179de"
+    ],
+    "image": "/scans/image-1730262383136-945225978.webp",
+    "path": "msk-scan",
+    "createdAt": "2024-10-17T19:32:12.456Z",
+    "updatedAt": "2024-10-17T19:32:12.456Z",
+    "allData": {
+      "categoryId": "671b5102ad9bf8d210384d1f",
+      "requisites": [],
+      "interpretations": {
+        "title": "Test Interpretations ",
+        "cols": [
+          "Condition/Findings",
+          "Description",
+          "Interpretation"
+        ],
+        "rows": [
+          [
+            "Tendinitis",
+            "Tenderness, swelling, or inflammation of the tendons",
+            "Tendon degeneration or inflammation"
+          ],
+          [
+            "",
+            "Thickening of the tendons on images",
+            ""
+          ],
+          [
+            "Osteochondritis Dissecans",
+            "Irregularities or loose cartilage in the joint",
+            "Cartilage or bone defect"
+          ],
+          [
+            "",
+            "Changes in the underlying bone",
+            ""
+          ],
+          [
+            "Bone Marrow Edema\t",
+            "Increased signal intensity within the bone",
+            "Bone inflammation or edema"
+          ],
+          [
+            "",
+            "Swelling or inflammation within the bone",
+            ""
+          ],
+          [
+            "Ligament Sprain",
+            "Thickening or irregularities of the ligament",
+            "Ligament sprain or strain"
+          ],
+          [
+            "",
+            "Increased signal intensity within the ligament",
+            ""
+          ],
+          [
+            "Musculotendinous Strains",
+            "Thickening or irregularities of the muscle or tendon",
+            "Muscle or tendon strain"
+          ],
+          [
+            "",
+            "Increased signal intensity within the muscle or tendon",
+            ""
+          ],
+          [
+            "Osteoarthritis",
+            "Joint space narrowing or loss of cartilage",
+            "Degenerative joint disease"
+          ],
+          [
+            "",
+            "Bone spurs or cysts",
+            ""
+          ]
+        ]
+      },
+      "faqs": [
+        {
+          "question": " Is an MSK MRI scan safe?",
+          "answer": "Yes, it does not use ionizing radiation and is considered safe for patients."
+        },
+        {
+          "question": "How long does the scan take?",
+          "answer": "Typically, 15-60 minutes, depending on the specific protocol and body part being scanned."
+        },
+        {
+          "question": " Will I need contrast media?",
+          "answer": "Not always, but contrast media may be used to enhance image quality or distinguish between different tissues."
+        },
+        {
+          "question": "Can I move during the scan?",
+          "answer": "No, remaining still is essential for clear images. Mild sedation may be used for patients who have trouble staying still."
+        },
+        {
+          "question": " What happens after the scan?",
+          "answer": "You can resume normal activities immediately, and your doctor will discuss the results with you within a few days."
+        }
+      ],
+      "relative_test": {
+        "title": "cZXCc",
+        "categoryId": "671b5102ad9bf8d210384d1f",
+        "tests": [
+          {
+            "id": "672c89e7e3e3df57799179de",
+            "testName": "Msk Scan",
+            "route": "/msk-scan"
+          }
+        ]
+      },
+      "seo": {
+        "title": "",
+        "description": "Book diagnostic scans near you with trusted centers offering quick results, accurate imaging, and dependable diagnostic support for better health outcomes."
+      }
+    },
+    "markdown": " a non-invasive imaging procedure that uses high-frequency sound waves to create detailed pictures of the body's muscles, joints, tendons, ligaments, nerves, and cartilage\n\n## About the Test\n\n![About the Test](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731735322327-808425878.jpg)\n\nMagnetic Resonance Imaging (MRI) for Musculoskeletal (MSK) scans uses a combination of strong magnetic fields and radio waves to capture detailed images of the internal structures of the body, specifically focusing on the muscles, bones, joints, tendons, and ligaments.\n\n### How it Works\n\nDuring an MSK MRI scan, the patient is placed inside a large cylindrical magnet, which generates a strong magnetic field. Hydrogen atoms in the body, found mostly in water molecules, respond to this field by aligning either parallel or anti-parallel to the magnetic field. Radio waves are then applied, disturbing the alignment. As the atoms return to their original positions, they emit signals that are used to create detailed images of the body's internal structures.\n\n## Types of Tests\n\nThere are various types of MSK MRI tests, including:\n\n**Standard MRI:** The most common type, uses a fixed magnetic field and radio waves to generate images.\n\n**Functional MRI (fMRI):** Measures changes in blood flow related to neural activity.\n\n**Arthrography:** Involves injecting a contrast medium into the joint space for enhanced imaging.\n\n**Whole-Body MRI:** Scans the entire body, often used for conditions like cancer or multi-system disorders.\n\n## Risks and Limitations\n\n![Risks and Limitations](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731735330233-29837026.jpg)\n\n### Risks associated with MSK MRI scans include:\n\nClaustrophobia: Anxiety or panic due to the enclosed space\n\nNoise: Loud knocking or tapping sounds during the scan\n\nMagnetic fields: Potential interactions with metal implants or pacemakers\n\n### Limitations include:\n\nDiagnostic accuracy: May not be accurate for certain conditions, such as bone fractures\n\nImage quality: Can be degraded by patient movement or metal artifacts\n\nAlternative tests: Other tests, such as CT or ultrasound, may be preferred in certain situations\n\n## List of Parameters\n\n![List of Parameters](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731735336602-510207377.jpg)\n\nWhen evaluating MSK MRI scans, medical professionals look for:\n\n- Tendinitis/Tendinosis: Inflammation or degeneration of tendons\n- Ligament sprains: Stretched or torn ligaments\n- Muscle strains: Torn or stretched muscles\n- Osteochondral lesions: Cartilage or bone defects in joints\n- Bone marrow edema: Inflammation within bones\n- Subchondral cysts: Fluid-filled cavities beneath the cartilage in joints\n- Joints effusions: Fluid accumulation in joints\n\nAdjustments may be needed based on patient factors, such as:\n\n- Age: Younger patients may require sedation or modified scan protocols\n- Metal implants: Patients with pacemakers, prosthetics, or other implants may require special precautions\n- Claustrophobia: Patients may require open-bore or upright MRI machines\n\n## Why This Test\n\n![Why This Test](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731735342516-946964047.jpg)\n\nMSK MRI scans are typically recommended for:\n\n- Persistent joint pain: Pain that lasts more than a few weeks\n- Traumatic injuries: Recent injuries or suspected fractures\n- Muscle weakness: Unexplained weakness or numbness\n- Inília conditions: Such as Osteoarthritis, Rheumatoid Arthritis, or Tendinitis\n\nSpecific patient demographics that typically require this test include:\n\n- Athletes: Those who engage in regular sports or high-impact activities\n- Older adults: Those over 50 with persistent joint pain or gradual degeneration\n- Pediatric patients: Those under 18 with joint pain, deformities, or growth plate disorders\n\n## Benefits\n\n![Benefits](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731735349881-832563892.jpg)\n\nMSK MRI scans offer:\n\n- High diagnostic accuracy: Can diagnose a wide range of musculoskeletal conditions\n- Non-invasive: Does not require surgical incisions or contrast media injections\n- Radiation-free: Does not expose patients to ionizing radiation\n\n## Diseases Diagnosed\n\n![Diseases Diagnosed](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731735355466-839217124.jpg)\n\nMSK MRI scans are used to diagnose:\n\n- Osteochondritis Dissecans: A joint condition that affects cartilage and bone\n- Rheumatoid Arthritis: An autoimmune disease that causes joint inflammation\n- Tendinitis: Inflammation of the tendons\n- Ganglion cysts: Non-cancerous lumps that develop near joints\n\n## Preparing for the Test\n\n![Preparing for the Test](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731735361571-289856545.jpg)\n\nBefore an MSK MRI scan:\n\n- Arrive early: Plan to arrive at least 30 minutes before the scheduled appointment time\n- Wear comfortable clothing: Remove any metal objects, such as jewelry or glasses\n- Disclose medical history: Inform your doctor about any medical conditions, implants, or allergies\n- Follow instructions: Follow any instructions provided by the MRI technologist"
+  },
+  "relatedTests": [
+    {
+      "id": "672c89e7e3e3df57799179de",
+      "templateName": "non-labtest",
+      "testName": "Msk Scan",
+      "route": "/msk-scan",
+      "basic_info": {
+        "name": "Msk Scan",
+        "route": "/msk-scan",
+        "categoryId": "671b5102ad9bf8d210384d1d",
+        "price": "500",
+        "alsoKnownAs": "msk",
+        "discount": "0",
+        "discountedPrice": "500.00",
+        "reportsWithin": "2 hours",
+        "Identifies": "das",
+        "measures": "SAD",
+        "testId": ""
+      },
+      "requisites": [],
+      "interpretations": {
+        "title": "",
+        "cols": [],
+        "rows": []
+      },
+      "faqs": [],
+      "relative_test": {
+        "title": "",
+        "categoryId": "",
+        "tests": []
+      },
+      "seo": {
+        "title": "",
+        "description": "Book diagnostic scans in Bangalore with trusted centers offering quick results, accurate imaging, and dependable reporting for all your healthcare needs.",
+        "keywords": "",
+        "canonicalUrl": "",
+        "ogTitle": "",
+        "ogDescription": "",
+        "ogImage": "",
+        "schemaMarkup": "",
+        "robotsMeta": ""
+      }
+    }
+  ]
+}

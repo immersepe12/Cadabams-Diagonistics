@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { notFound } from "next/navigation";
 import { AuthShell } from "@/components/auth/AuthShell";
 import { LoginForm } from "@/components/auth/LoginForm";
+import { getAuthPage } from "@/lib/data/allpages";
 
 export const metadata: Metadata = {
   title: "Sign in",
@@ -12,19 +14,21 @@ export const metadata: Metadata = {
 };
 
 export default function LoginPage() {
+  const data = getAuthPage("login");
+  if (!data) notFound();
   return (
     <AuthShell
-      overline="Welcome back"
-      heading="Sign in to your account"
-      subheading="View reports, track home collections, and manage your bookings from one place."
+      overline={data.overline}
+      heading={data.heading}
+      subheading={data.subheading}
       footer={
         <>
-          New to Cadabam&apos;s?{" "}
+          {data.footerText}{" "}
           <Link
-            href="/signup"
+            href={data.footerLinkHref}
             className="font-bold text-orange-600 hover:text-orange-700 transition-colors"
           >
-            Create an account
+            {data.footerLinkLabel}
           </Link>
         </>
       }

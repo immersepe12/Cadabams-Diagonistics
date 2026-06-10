@@ -1,0 +1,30 @@
+{
+  "type": "blog-detail",
+  "route": "/blogs/some-important-faqs-on-fetal-surgery",
+  "slug": "some-important-faqs-on-fetal-surgery",
+  "blog": {
+    "id": "67288c42420d63f500549f21",
+    "title": "Fetal Surgery: Expert FAQs and Insights",
+    "route": "/some-important-faqs-on-fetal-surgery",
+    "categoryName": "Health",
+    "blogCategoryId": "671b5106ad9bf8d210384d33",
+    "verifiedBy": "Doctor A",
+    "imageUrl": "/blogs/image-1730710594353-979283699.webp",
+    "pageState": "publish",
+    "createdAt": "2024-11-04T08:56:34.435Z",
+    "updatedAt": "2024-11-04T08:56:34.435Z",
+    "seo": {
+      "title": "Fetal Surgery: Important FAQs on Procedures Risks & Recovery",
+      "description": "Get answers to important FAQs on fetal surgery. Learn about procedures, risks, benefits, recovery, and candidacy for in-utero surgical interventions.",
+      "keywords": "",
+      "canonicalUrl": "",
+      "ogTitle": "",
+      "ogDescription": "",
+      "ogImage": "",
+      "schemaMarkup": "",
+      "robotsMeta": ""
+    },
+    "faqs": [],
+    "markdown": "Fetal surgery is a specialized medical procedure performed on a developing fetus within the uterus. It involves using various techniques to address congenital disorders or life-threatening conditions and improve outcomes for the fetus before birth. Let us discuss some important questions that may come to your mind about fetal surgery:\n\n## **When is Fetal Surgery Necessary?**\n\nFetal surgery becomes necessary when certain congenital anomalies or birth defects pose a risk to the developing fetus. For instance, a sizable lung malformation can exert pressure on the fetal heart, potentially resulting in heart failure and fatality. While certain conditions may not pose an immediate threat to the fetus’s life, they can lead to disabilities after birth. Typically, such conditions are treated by surgeons after delivery. However, opting for treatment before birth can enhance the long-term outcomes for the fetus.\n\n## **Who Performs Fetal Surgery?**\n\n- Skilled pediatric surgeons who perform operations in-utero would otherwise do them after birth. They specialize in opening and closing the uterus and caring the fetus and the patient\n- Fetal cardiologists\n- Maternal and pediatric anesthesiologists\n- [Fetal imaging](/blogs/understanding-importance-of-tiffa-scan) specialists\n- Maternal-fetal medicine specialists\n- Other surgeons who specialize in fetal surgical needs\n\n## **What are the Conditions that Can be Treated Using Fetal Surgery?**\n\nThe conditions which can be treated with the help of fetal surgery include:\n\n- Monochorionic twin complications\n- Congenital (present at birth) lung malformations\n- Spina bifida (myelomeningocele)\n- Lower urinary tract obstruction\n- Congenital diaphragmatic hernia\n- Mediastinal or pericardial teratoma\n- Sacrococcygeal teratoma\n- Congenital high airway obstruction syndrome\n- Amniotic band syndrome\n- Large neck masses that cause airway compression (teratoma or lymphatic malformation)\n\n## **At What Stage Can Fetal Surgery be Performed?**\n\nThe timing of fetal surgery depends on the particular condition affecting the fetus. Some minimally invasive procedures can be performed as early as 16 weeks of pregnancy. However, for more complex procedures, the optimal time frame falls between 22 and 26 weeks of [fetal development](/blogs/understanding-fetal-doppler-scans).\n\n## **How is Fetal Surgery Performed?**\n\nFetal surgery uses various techniques depending on the specific condition being treated. For less invasive procedures, fetal surgeons utilize ultrasound imaging and fetoscopy to visualize the fetus. They then guide surgical instruments through small incisions or holes. In more complex cases, open surgery is employed, which requires meticulous attention to preserve the amniotic environment during the operation. Special staplers are utilized to prevent leakage, and continuous infusions are administered to replenish any lost amniotic fluid.\n\nSome specific fetal interventions include:\n\n**Open maternal-fetal surgery**: This procedure is performed to repair spina bifida, which is a neural tube defect.\n\n**Fetoscopic laser ablation**: This is used for complications in monochorionic twin pregnancies, such as twin-to-twin transfusion syndrome, where blood is shared between twins.\n\n**Fetoscopic endoluminal tracheal occlusion (FETO):** Employed for the treatment of congenital diaphragmatic hernia where a balloon is inserted into the fetal trachea to aid in lung development.\n\n**Shunt placement**: Used to address fluid collections in the chest (pleural effusions) and obstructions in the urinary tract.\n\n**Resection of teratomas and large lung lesions**: Surgical removal of tumors or abnormal growths in the fetus’s body, including teratomas and significant lung lesions.\n\n**EXIT procedure**: Performed to address airway obstructions or other conditions that may impact the breathing or circulation of the fetus during delivery.\n\n## **Are There Any Risks of Fetal Surgery?**\n\n**Medication-related side effects**: There is a risk of experiencing side effects from medications like low blood pressure and respiratory depression, which can result in slow or shallow breathing.\n\n**Blood loss:** Fetal surgery may involve blood loss, necessitating a blood transfusion to replenish the lost blood volume.\n\n**Uterine scar complications**: The surgical procedure on the uterus can lead to scar thinning or reopening (dehiscence), increasing the risk of future pregnancies.\n\n**Requirement for C-section delivery**: Fetal surgery may result in the need for cesarean section (C-section) delivery for current or future pregnancies.\n\nWe here at [Cadabam's Diagnostics](/) are a Fetal and Maternal unit performing NT and anomaly scans to detect any defects in the fetus so the right measures can be taken. We also perform amniocentesis, chorionic villous sampling and send the tissues/ fluid for testing to confirm any genetic associations."
+  }
+}

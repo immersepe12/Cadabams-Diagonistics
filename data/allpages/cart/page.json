@@ -1,0 +1,40 @@
+{
+  "type": "cart",
+  "route": "/cart",
+  "title": "Your cart",
+  "whatsappNumber": "919538593355",
+  "helpPhone": "+91 99006 64696",
+  "summary": {
+    "title": "Order summary",
+    "proceedLabel": "Proceed to book",
+    "trust": [
+      {
+        "icon": "Clock",
+        "text": "Reports in 6 hours on most tests"
+      },
+      {
+        "icon": "HeartPulse",
+        "text": "Free home sample collection"
+      },
+      {
+        "icon": "ShieldCheck",
+        "text": "NABL Accredited labs"
+      }
+    ]
+  },
+  "empty": {
+    "title": "Your cart is empty",
+    "description": "Browse our lab tests or radiology scans to add a test to your cart, or call us directly and we'll book it for you.",
+    "buttons": [
+      {
+        "label": "Browse lab tests",
+        "href": "/bangalore/lab-test"
+      },
+      {
+        "label": "Browse radiology",
+        "href": "/bangalore/xray-scan"
+      }
+    ],
+    "helpText": "Prefer to talk to a person?"
+  }
+}

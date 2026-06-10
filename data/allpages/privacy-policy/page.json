@@ -1,0 +1,50 @@
+{
+  "type": "policy",
+  "route": "/privacy-policy",
+  "kind": "privacy",
+  "title": "Privacy Policy",
+  "summary": "Your health information is sensitive. Here's exactly what we collect, why, how we protect it, and the controls you have over it.",
+  "lastUpdated": "2026-05-29",
+  "sections": [
+    {
+      "id": "what-we-collect",
+      "title": "What we collect",
+      "body": "We collect only what we need to deliver safe diagnostic care:\n\n- **Identifying details** you provide — name, age, gender, phone number, email, and address used for sample collection and report delivery.\n- **Booking data** — tests and scans you book, centre and time chosen, payment receipts, and prescriptions you upload.\n- **Clinical information** generated during your tests — sample readings, images, and physician interpretations that make up your report.\n- **Site usage** — anonymised analytics such as pages viewed, device type, and approximate location, used to improve the site experience."
+    },
+    {
+      "id": "how-we-use",
+      "title": "How we use your information",
+      "body": "We use your information to:\n\n- Schedule appointments, coordinate home sample collection, and run your tests.\n- Deliver reports to you via app, email, or WhatsApp and notify you when results are ready.\n- Contact you about your bookings — confirmations, reminders, rescheduling, or post-test follow-ups.\n- Improve our services and content, troubleshoot issues, and detect fraud or misuse.\n- Meet legal, regulatory, and accreditation obligations (including NABL audit requirements).\n\n**We do not sell your personal or health data** to advertisers or data brokers."
+    },
+    {
+      "id": "sharing",
+      "title": "Who we share it with",
+      "body": "Your data is shared only when necessary, and only with:\n\n- **Your referring physician**, if you have asked us to send the report to them.\n- **Our clinical and operations teams**, on a role-based, need-to-know basis to complete your booking.\n- **Trusted service providers** — payment gateways, sample logistics, secure cloud hosting, and SMS / email delivery partners — under contract to protect your data and use it only for the service we engage them for.\n- **Regulators or courts**, if we are legally required to disclose specific information."
+    },
+    {
+      "id": "protection",
+      "title": "How we protect it",
+      "body": "We use industry-standard safeguards designed for health data:\n\n- Encryption in transit (TLS) and at rest.\n- Role-based access for our clinical team, with the minimum privileges needed for each role.\n- Audit logs on every record access, reviewed regularly.\n- Physical reports stored in secure, access-controlled rooms at our centres.\n- Periodic security reviews, vulnerability scans, and staff training on data handling.\n\nNo system is perfectly secure. If we ever become aware of a breach that affects your data, we will notify you promptly in line with applicable law."
+    },
+    {
+      "id": "retention",
+      "title": "How long we keep it",
+      "body": "Clinical records are retained for the periods required under applicable medical-records regulations (typically several years after the last interaction). Non-clinical data, such as marketing preferences, is kept only while it is needed for the purpose we collected it. You can ask us to delete or anonymise data we are not required to keep."
+    },
+    {
+      "id": "your-rights",
+      "title": "Your rights",
+      "body": "At any time you can:\n\n- Request a copy of the records we hold about you.\n- Correct inaccurate or outdated details.\n- Withdraw consent for non-clinical communication such as marketing emails or wellness tips.\n- Ask us to delete data we are not legally required to keep.\n\nEmail [info@cadabamsdiagnostics.com](mailto:info@cadabamsdiagnostics.com) with the subject line \"Privacy request\" and we will respond within 30 days."
+    },
+    {
+      "id": "children",
+      "title": "Children's information",
+      "body": "If a child is the patient, we collect their clinical details under the consent of a parent or legal guardian. We do not market our services to children directly."
+    },
+    {
+      "id": "changes",
+      "title": "Changes to this policy",
+      "body": "We will update this policy when our practices change or when required by law. The \"Last updated\" date at the top of the page reflects the most recent revision. Material changes will be highlighted at the top."
+    }
+  ]
+}

@@ -1,0 +1,678 @@
+{
+  "type": "blog-listing",
+  "route": "/blogs",
+  "blogs": [
+    {
+      "id": "67288699420d63f500549ef6",
+      "title": "Trusted Pregnancy and Maternity Tests at Cadabam’s",
+      "route": "/select-the-best-maternity-and-pregnancy-test-packages-for-healthy-and-safe-motherhood",
+      "categoryName": "Health",
+      "imageUrl": "/blogs/image-1730709145208-590679181.webp",
+      "updatedAt": "2024-11-04T08:32:25.414Z"
+    },
+    {
+      "id": "6728887a420d63f500549f11",
+      "title": "Chorionic Villus Sampling: Early Genetic Testing Explained",
+      "route": "/chorionic-villus-sampling-cvs-prenatal-fetal-invasive-diagnostic-test",
+      "categoryName": "Health",
+      "imageUrl": "/blogs/image-1730709626227-484529823.webp",
+      "updatedAt": "2024-11-04T08:40:26.325Z"
+    },
+    {
+      "id": "67288c42420d63f500549f21",
+      "title": "Fetal Surgery: Expert FAQs and Insights",
+      "route": "/some-important-faqs-on-fetal-surgery",
+      "categoryName": "Health",
+      "imageUrl": "/blogs/image-1730710594353-979283699.webp",
+      "updatedAt": "2024-11-04T08:56:34.435Z"
+    },
+    {
+      "id": "672cfc3a7a962391869c9ba8",
+      "title": "Blood Sugar: Tests, Levels, and Management Tips",
+      "route": "/understanding-random-blood-sugar-rbs-level-ranges",
+      "categoryName": "Health",
+      "imageUrl": "",
+      "updatedAt": "2024-11-07T17:43:22.895Z"
+    },
+    {
+      "id": "672cfc627a962391869c9bad",
+      "title": "TIFFA Scan: Key to Safe Pregnancy & Fetal Health",
+      "route": "/understanding-importance-of-tiffa-scan",
+      "categoryName": "Health",
+      "imageUrl": "",
+      "updatedAt": "2024-11-07T17:44:02.268Z"
+    },
+    {
+      "id": "672cfcd57a962391869c9bb7",
+      "title": "What is an NT Scan during Pregnancy?",
+      "route": "/understanding-nuchal-translucency-scan-during-pregnancy",
+      "categoryName": "Health",
+      "imageUrl": "",
+      "updatedAt": "2024-11-07T17:45:57.038Z"
+    },
+    {
+      "id": "672208958d2754793aac9ca7",
+      "title": "Liver Function Test: An Overview",
+      "route": "/liver-function-test-an-overview",
+      "categoryName": "Health",
+      "imageUrl": "/blogs/image-1730283669052-397345402.webp",
+      "updatedAt": "2024-10-30T10:21:09.183Z"
+    },
+    {
+      "id": "67288fbb420d63f500549f7b",
+      "title": "MRI vs X-Ray Scans: Differences and Similarities",
+      "route": "/difference-between-mri-and-xray",
+      "categoryName": "Health",
+      "imageUrl": "/blogs/image-1730711483039-113296971.webp",
+      "updatedAt": "2024-11-04T09:11:23.099Z"
+    },
+    {
+      "id": "672cf3e5b170f62e3660eef0",
+      "title": "Penile Doppler Ultrasound: A Key to Male Health",
+      "route": "/penile-doppler-ultrasound-technique-and-interpretation",
+      "categoryName": "Health",
+      "imageUrl": "/blogs/image-1730999269313-859097485.webp",
+      "updatedAt": "2024-11-07T17:07:49.391Z"
+    },
+    {
+      "id": "672cf5efb170f62e3660ef04",
+      "title": "Cadabam's Guide to Managing Diabetes with the Right Foods",
+      "route": "/top-foods-to-include-in-your-diet-to-manage-diabetes-and-lower-blood-sugar",
+      "categoryName": "Health",
+      "imageUrl": "",
+      "updatedAt": "2024-11-07T17:16:31.453Z"
+    },
+    {
+      "id": "672cfa307a962391869c9b74",
+      "title": "Hyperglycemia Symptoms, Risks, and Control Strategies",
+      "route": "/understanding-hyperglycemia-high-blood-sugar",
+      "categoryName": "Health",
+      "imageUrl": "",
+      "updatedAt": "2024-11-07T17:34:40.313Z"
+    },
+    {
+      "id": "67288e61420d63f500549f2b",
+      "title": "CBC Report Explained: Unlock Your Blood Test Insights",
+      "route": "/deciphering-health-understanding-your-complete-blood-count-cbc-report",
+      "categoryName": "Health",
+      "imageUrl": "/blogs/image-1730711137033-125494960.webp",
+      "updatedAt": "2024-11-04T09:05:37.101Z"
+    },
+    {
+      "id": "67289a20420d63f50054a0df",
+      "title": "Scrotal Doppler Ultrasound: Diagnosis and Benefits",
+      "route": "/how-scrotal-doppler-ultrasound-works-and-its-applications",
+      "categoryName": "Health",
+      "imageUrl": "/blogs/image-1730714144197-707395736.webp",
+      "updatedAt": "2024-11-04T09:55:44.277Z"
+    },
+    {
+      "id": "672cf56cb170f62e3660eefa",
+      "title": "Understanding Liver Disease: Risk Factors and Testing Guide",
+      "route": "/the-risk-factors-that-mean-you-need-a-test-for-liver-disease",
+      "categoryName": "Health",
+      "imageUrl": "/blogs/image-1730999660738-405470579.webp",
+      "updatedAt": "2024-11-07T17:14:20.830Z"
+    },
+    {
+      "id": "672cf722b170f62e3660ef3d",
+      "title": "A Guide to Breast Cancer Biopsy and Its Results",
+      "route": "/understanding-breast-cancer-biopsy-process-results-and-more",
+      "categoryName": "Health",
+      "imageUrl": "/blogs/image-1731000098669-657957195.webp",
+      "updatedAt": "2024-11-07T17:21:38.721Z"
+    },
+    {
+      "id": "672cfbab7a962391869c9b8d",
+      "title": "Low Blood Sugar (Hypoglycemia): Causes, Symptoms, and Tips",
+      "route": "/understanding-hypoglycemia-low-blood-sugar",
+      "categoryName": "Health",
+      "imageUrl": "",
+      "updatedAt": "2024-11-07T17:40:59.848Z"
+    },
+    {
+      "id": "6721c6ea1a1dc1603e53e7f9",
+      "title": "CBC Test Explained: What It Measures and Why It's Essential",
+      "route": "/complete-blood-count-test-what-is-it-and-why-do-you-need-it",
+      "categoryName": "Health",
+      "imageUrl": "/blogs/image-1730266858115-536093354.webp",
+      "updatedAt": "2024-10-30T05:40:58.290Z"
+    },
+    {
+      "id": "67220fdc8d2754793aac9cca",
+      "title": "Understanding Liver Function: Key Tests and Their Purpose",
+      "route": "/comprehensive-insights-into-liver-function-assessments-importance-methodology-and-result-analysis",
+      "categoryName": "Health",
+      "imageUrl": "/blogs/image-1730285532714-987363125.webp",
+      "updatedAt": "2024-10-30T10:52:12.807Z"
+    },
+    {
+      "id": "67288d01420d63f500549f27",
+      "title": "Everything You Need to Know About Thyroid Scans: Steps and Interpretations",
+      "route": "/all-you-need-to-know-about-thyroid-scan",
+      "categoryName": "Health",
+      "imageUrl": "/blogs/image-1730710785773-865972323.webp",
+      "updatedAt": "2024-11-04T08:59:45.839Z"
+    },
+    {
+      "id": "67289af1420d63f50054a0eb",
+      "title": "What to Know About Transabdominal Pelvic Ultrasound",
+      "route": "/pelvic-ultrasound-transabdominal-method",
+      "categoryName": "Health",
+      "imageUrl": "/blogs/image-1730714353758-938155096.webp",
+      "updatedAt": "2024-11-04T09:59:13.825Z"
+    },
+    {
+      "id": "672cf48ab170f62e3660eef5",
+      "title": "Unlocking Health Secrets: 5 Diseases Found in Urine",
+      "route": "/the-power-of-pee-diseases-detectable-through-urine-tests",
+      "categoryName": "Health",
+      "imageUrl": "/blogs/image-1730999434452-5563108.webp",
+      "updatedAt": "2024-11-07T17:10:34.538Z"
+    },
+    {
+      "id": "672cf679b170f62e3660ef38",
+      "title": "Scrotum Ultrasound: Diagnostic Uses and Procedure",
+      "route": "/ultrasound-of-scrotum",
+      "categoryName": "Health",
+      "imageUrl": "/blogs/image-1730999928927-197227279.webp",
+      "updatedAt": "2024-11-07T17:18:49.029Z"
+    },
+    {
+      "id": "672cf8e77a962391869c9b6a",
+      "title": "Understanding Thyroid Function Tests",
+      "route": "/types-of-thyroid-function-tests",
+      "categoryName": "Health",
+      "imageUrl": "",
+      "updatedAt": "2024-11-07T17:29:11.207Z"
+    },
+    {
+      "id": "672cf99f7a962391869c9b6f",
+      "title": "Guide to Ultrasound Imaging: Types and Key Uses",
+      "route": "/types-of-ultrasounds",
+      "categoryName": "Health",
+      "imageUrl": "",
+      "updatedAt": "2024-11-07T17:32:15.413Z"
+    },
+    {
+      "id": "672cfc0a7a962391869c9ba4",
+      "title": "Postprandial Blood Sugar: Key Facts and Management Tips",
+      "route": "/understanding-postprandial-blood-sugar-ppbs",
+      "categoryName": "Health",
+      "imageUrl": "",
+      "updatedAt": "2024-11-07T17:42:34.553Z"
+    },
+    {
+      "id": "672cfca77a962391869c9bb2",
+      "title": "Understanding the Quadruple Marker Test in Pregnancy",
+      "route": "/importance-of-quadruple-marker-test-during-pregnancy",
+      "categoryName": "Health",
+      "imageUrl": "",
+      "updatedAt": "2024-11-07T17:45:11.857Z"
+    },
+    {
+      "id": "672cfd1d7a962391869c9bc1",
+      "title": "Understanding the Role of Anomaly Scans in Pregnancy",
+      "route": "/understanding-anomaly-scan-during-pregnancy",
+      "categoryName": "Health",
+      "imageUrl": "",
+      "updatedAt": "2024-11-07T17:47:09.417Z"
+    },
+    {
+      "id": "673b1e0ceffae454707de47c",
+      "title": "Difference Between Ultrasound & CT Scan",
+      "route": "/difference-between-ultrasound-and-ct-scan",
+      "categoryName": "Health",
+      "imageUrl": "",
+      "updatedAt": "2024-11-18T10:59:24.499Z"
+    },
+    {
+      "id": "67e27ce116444f3c1151bac5",
+      "title": "Understanding Vitamin K: Key Functions, Food Sources, and Deficiency Signs",
+      "route": "/understanding-vitamin-k",
+      "categoryName": "Health",
+      "imageUrl": "",
+      "updatedAt": "2025-03-25T10:17:58.820Z"
+    },
+    {
+      "id": "67ebebe316444f3c1152e02b",
+      "title": "Platelet Count: Low vs. Normal vs. High Range in Humans",
+      "route": "/understanding-platelet-count",
+      "categoryName": "Health",
+      "imageUrl": "",
+      "updatedAt": "2025-04-02T13:33:44.403Z"
+    },
+    {
+      "id": "6810cd4016444f3c1157405e",
+      "title": "Types of Malaria: A Detailed Guide to Parasites, Symptoms, Diagnosis, and Prevention",
+      "route": "/everything-you-need-to-know-about-malaria",
+      "categoryName": "Health",
+      "imageUrl": "",
+      "updatedAt": "2025-05-06T07:40:02.441Z"
+    },
+    {
+      "id": "6819bbb116444f3c11586ea2",
+      "title": "WBC Count: Understanding Normal Ranges and Identifying Abnormal Levels",
+      "route": "/white-blood-cell-count-high-low-range",
+      "categoryName": "Health",
+      "imageUrl": "",
+      "updatedAt": "2025-05-06T07:42:39.420Z"
+    },
+    {
+      "id": "6835a1e816444f3c115c1e37",
+      "title": "What Is Jaundice? Symptoms, Types, and Treatment Explained ",
+      "route": "/understanding-jaundice-symptoms-types-and-treatment",
+      "categoryName": "Health",
+      "imageUrl": "",
+      "updatedAt": "2025-05-27T11:44:36.832Z"
+    },
+    {
+      "id": "6756ea28c154f13ad51b7f4f",
+      "title": "Understanding Normal Blood Sugar for Diabetes Control",
+      "route": "/understanding-normal-blood-sugar-levels",
+      "categoryName": "Health",
+      "imageUrl": "/blogs/image-1733749288213-141358464.webp",
+      "updatedAt": "2024-12-09T13:01:28.377Z"
+    },
+    {
+      "id": "6759510162bdf2b10d11ab21",
+      "title": "PET Scan vs. CT Scan: Unveiling the Differences",
+      "route": "/difference-between-pet-scans-and-ct-scans",
+      "categoryName": "Health",
+      "imageUrl": "/blogs/image-1733906689560-547352666.webp",
+      "updatedAt": "2024-12-11T08:44:49.726Z"
+    },
+    {
+      "id": "67c6964b16444f3c114e9fe9",
+      "title": "Typhoid Fever: Comprehensive Insights for Better Recovery",
+      "route": "/typhoid-fever-comprehensive-insights",
+      "categoryName": "Health",
+      "imageUrl": "",
+      "updatedAt": "2025-03-04T10:38:00.028Z"
+    },
+    {
+      "id": "67cae70116444f3c114f1569",
+      "title": "RBC Count Normal Range: Causes, Symptoms, and Health Tips",
+      "route": "/understanding-rbc-normal-range",
+      "categoryName": "Health",
+      "imageUrl": "",
+      "updatedAt": "2025-03-11T04:48:27.833Z"
+    },
+    {
+      "id": "67f4ebea16444f3c1153cf4c",
+      "title": "Understanding MCH Levels: Implications of Low and High Mean Corpuscular Hemoglobin in Blood Tests",
+      "route": "/understanding-mch-levels",
+      "categoryName": "Health",
+      "imageUrl": "",
+      "updatedAt": "2025-04-08T09:27:27.580Z"
+    },
+    {
+      "id": "67fe050b16444f3c1154bf49",
+      "title": "Eosinophilia: Understanding Its Causes, Diagnosis, Treatment, and Ranges",
+      "route": "/guide-to-eosinophilia",
+      "categoryName": "Health",
+      "imageUrl": "",
+      "updatedAt": "2025-04-22T11:22:45.615Z"
+    },
+    {
+      "id": "68077b2c16444f3c1155df0d",
+      "title": "A Comprehensive Guide to Types of Blood Tests for Cold and Cough",
+      "route": "/guide-to-blood-tests-for-cold-and-cough",
+      "categoryName": "Health",
+      "imageUrl": "",
+      "updatedAt": "2025-04-22T11:22:54.719Z"
+    },
+    {
+      "id": "6822dbd716444f3c11598ed1",
+      "title": "Dengue Fever Explained: Symptoms, Treatment, and When It’s Time to Worry",
+      "route": "/understanding-dengue-fever",
+      "categoryName": "Health",
+      "imageUrl": "",
+      "updatedAt": "2025-05-13T06:20:48.276Z"
+    },
+    {
+      "id": "682db4e416444f3c115b141a",
+      "title": "Understanding Diffusion-Weighted Imaging (DWI MRI): A Comprehensive Guide",
+      "route": "/understanding-diffusion-weighted-imaging",
+      "categoryName": "Health",
+      "imageUrl": "",
+      "updatedAt": "2025-05-27T11:22:37.384Z"
+    },
+    {
+      "id": "6847e7d416444f3c115ea38d",
+      "title": "Low Blood Pressure: Causes, Symptoms, and Treatment Options ",
+      "route": "/understanding-low-blood-pressure",
+      "categoryName": "Health",
+      "imageUrl": "",
+      "updatedAt": "2025-06-16T12:15:06.846Z"
+    },
+    {
+      "id": "6870b1e942f5d300303b0e3b",
+      "title": "What level of GGT is Dangerous? A Guide to GGT Levels ",
+      "route": "/guide-to-gamma-glutamyl-transferase-ggt",
+      "categoryName": "Health",
+      "imageUrl": "",
+      "updatedAt": "2025-07-23T08:52:50.884Z"
+    },
+    {
+      "id": "673ecf7b5ab244ca239d0973",
+      "title": "ECG vs. Echocardiogram: A Guide to Heart Diagnostics\t\t",
+      "route": "/difference-between-ecg-test-and-echo-test",
+      "categoryName": "Health",
+      "imageUrl": "/blogs/image-1732169595639-303870720.webp",
+      "updatedAt": "2024-11-21T06:13:15.787Z"
+    },
+    {
+      "id": "679222fdc75a5739655a9c8b",
+      "title": "Understanding Lung Cancer CT Scans and Biopsies: Everything You Need to Know",
+      "route": "/ct-scan-and-biopsy-for-lung-cancer",
+      "categoryName": "Health",
+      "imageUrl": "",
+      "updatedAt": "2025-01-23T11:07:41.949Z"
+    },
+    {
+      "id": "67beec0216444f3c114ddbe7",
+      "title": "Urine Culture: Procedure, Results, and Normal Ranges",
+      "route": "/urine-culture-test-guide",
+      "categoryName": "Health",
+      "imageUrl": "",
+      "updatedAt": "2025-02-26T10:42:25.835Z"
+    },
+    {
+      "id": "683ed57d16444f3c115d6366",
+      "title": "The Ultimate Guide to Understanding Blood Pressure: Normal Ranges and Key Differences ",
+      "route": "/guide-to-understanding-blood-pressure",
+      "categoryName": "Health",
+      "imageUrl": "",
+      "updatedAt": "2025-06-16T12:15:02.609Z"
+    },
+    {
+      "id": "685a4cad16444f3c1162534e",
+      "title": "Why Full Body Checkup Is Essential When You Turn 40 ",
+      "route": "/guide-to-full-body-health-checkup",
+      "categoryName": "Health",
+      "imageUrl": "",
+      "updatedAt": "2025-06-25T07:07:40.012Z"
+    },
+    {
+      "id": "6875eb72fa3f8a1045f2f76b",
+      "title": "Jaundice Diet Plan: Foods to Eat, Avoid, and Recovery Tips ",
+      "route": "/understanding-jaundice-and-its-dietary-importance",
+      "categoryName": "Health",
+      "imageUrl": "",
+      "updatedAt": "2025-07-23T08:52:56.338Z"
+    },
+    {
+      "id": "6880b752fa3f8a1045f3de7b",
+      "title": "Top Foods to Control High Blood Pressure ",
+      "route": "/diet-food-to-control-high-blood-pressure",
+      "categoryName": "Health",
+      "imageUrl": "",
+      "updatedAt": "2025-07-23T11:59:41.548Z"
+    },
+    {
+      "id": "672cfcf87a962391869c9bbc",
+      "title": "All About Fetal Doppler Scans",
+      "route": "/understanding-fetal-doppler-scans",
+      "categoryName": "Health",
+      "imageUrl": "",
+      "updatedAt": "2024-11-07T17:46:32.542Z"
+    },
+    {
+      "id": "673587d003598b92c151b846",
+      "title": "Thyroid Health: Understanding TSH Levels and Tests",
+      "route": "/understanding-thyroid-stimulating-hormone-tsh-levels",
+      "categoryName": "Health",
+      "imageUrl": "/blogs/image-1731561424286-327634340.webp",
+      "updatedAt": "2024-11-14T05:17:04.400Z"
+    },
+    {
+      "id": "6789d6b9c75a57396559f013",
+      "title": "Liver Function Test Results: A Comprehensive Guide",
+      "route": "/understanding-results-of-liver-function-test",
+      "categoryName": "Health",
+      "imageUrl": "",
+      "updatedAt": "2025-01-17T04:04:09.488Z"
+    },
+    {
+      "id": "6863adce16444f3c1164056a",
+      "title": "Effective Strategies for Managing Uric Acid Levels",
+      "route": "/understanding-effective-strategies-for-managing-uric-acid-levels",
+      "categoryName": "Health",
+      "imageUrl": "",
+      "updatedAt": "2025-07-01T11:14:12.752Z"
+    },
+    {
+      "id": "688865b6ce2ad680f7c938fe",
+      "title": "15 Foods to Avoid with High Blood Pressure ",
+      "route": "/diet-foods-to-avoid-high-blood-pressure",
+      "categoryName": "Health",
+      "imageUrl": "",
+      "updatedAt": "2025-08-05T12:22:51.686Z"
+    },
+    {
+      "id": "68a70ef3ce2ad680f7ccff64",
+      "title": "Fatty Liver Grade 2: Causes, Symptoms, Treatment, and Prevention ",
+      "route": "/understanding-fatty-liver-grades",
+      "categoryName": "Health",
+      "imageUrl": "",
+      "updatedAt": "2025-08-21T12:39:30.784Z"
+    },
+    {
+      "id": "68b67c2908ac1465984970c0",
+      "title": "Is Jaundice Contagious? Causes, Symptoms & Prevention Explained ",
+      "route": "/understanding-jaundice-causes-symptoms-and-prevention",
+      "categoryName": "Health",
+      "imageUrl": "",
+      "updatedAt": "2025-09-02T05:27:15.388Z"
+    },
+    {
+      "id": "68c1502cce2ad680f7d0781f",
+      "title": "What is Fatty Liver Disease? ",
+      "route": "/guide-to-fatty-liver",
+      "categoryName": "Health",
+      "imageUrl": "",
+      "updatedAt": "2025-09-24T10:06:15.364Z"
+    },
+    {
+      "id": "68ca93b208ac1465984c7e16",
+      "title": "Understanding Breast Cancer: Key Symptoms and Common Causes ",
+      "route": "/breast-cancer-key-symptoms-and-common-causes",
+      "categoryName": "Health",
+      "imageUrl": "",
+      "updatedAt": "2025-09-25T04:45:52.399Z"
+    },
+    {
+      "id": "68df771108ac1465984f49de",
+      "title": "High ESR in Women: What It Means and Why It Happens ",
+      "route": "/high-esr-in-women",
+      "categoryName": "Health",
+      "imageUrl": "",
+      "updatedAt": "2025-10-03T07:11:36.055Z"
+    },
+    {
+      "id": "68e628e508ac146598504239",
+      "title": "Total Leucocyte Count (TLC) Test – Range, Process, All Details ",
+      "route": "/total-leucocyte-count-tlc-test",
+      "categoryName": "Health",
+      "imageUrl": "",
+      "updatedAt": "2025-10-08T09:27:52.145Z"
+    },
+    {
+      "id": "68e7808ace2ad680f7d6028e",
+      "title": "H3N2 Flu Cases On Rise: A Comprehensive Guide to Symptoms, Treatment, and Prevention",
+      "route": "/influenza-a-virus-h3n2",
+      "categoryName": "Health",
+      "imageUrl": "",
+      "updatedAt": "2025-10-09T09:30:30.014Z"
+    },
+    {
+      "id": "68ef6e4e08ac14659851b959",
+      "title": "Blood Cancer – Symptoms, Types, Causes, and Treatment ",
+      "route": "/understanding-blood-cancer",
+      "categoryName": "Health",
+      "imageUrl": "",
+      "updatedAt": "2025-10-15T09:50:32.241Z"
+    },
+    {
+      "id": "69030275ce2ad680f7d9e814",
+      "title": "Chest X-ray Showing Pneumonia - Diagnosis & Interpretation Guide ",
+      "route": "/chest-x-ray-showing-pneumonia",
+      "categoryName": "Health",
+      "imageUrl": "",
+      "updatedAt": "2025-10-30T09:59:15.196Z"
+    },
+    {
+      "id": "6915af1a08ac146598574bfc",
+      "title": "A Comprehensive Guide to Hyperthyroidism Treatment: From Diagnosis to Long-Term Management",
+      "route": "/guide-to-hyperthyroidism-treatment",
+      "categoryName": "Health",
+      "imageUrl": "",
+      "updatedAt": "2025-11-13T10:13:10.605Z"
+    },
+    {
+      "id": "691dae22ce2ad680f7de0bff",
+      "title": "A Step-by-Step Guide to Understanding the IVF Process",
+      "route": "/guide-to-ivf-understanding-the-process-costs-and-success-rates",
+      "categoryName": "Health",
+      "imageUrl": "",
+      "updatedAt": "2025-11-19T11:47:30.883Z"
+    },
+    {
+      "id": "6925991b08ac14659859e911",
+      "title": "A Comprehensive Guide to the Types, Symptoms, and Causes of High Blood Pressure",
+      "route": "/guide-to-high-blood-pressure",
+      "categoryName": "Health",
+      "imageUrl": "",
+      "updatedAt": "2025-11-26T11:28:52.295Z"
+    },
+    {
+      "id": "692d4069ce2ad680f7e0c68b",
+      "title": "Understanding Gestational Diabetes: Your Guide to Causes, Diagnosis, and Management",
+      "route": "/gestational-diabetes",
+      "categoryName": "Health",
+      "imageUrl": "",
+      "updatedAt": "2025-12-01T07:14:49.251Z"
+    },
+    {
+      "id": "69afe4f0801aa901b1439dcf",
+      "title": "High Blood Pressure Types Symptoms Causes Management and Diagnosis: Essential Guide for Better Health",
+      "route": "/high-blood-pressure-types-symptoms-causes-management-and-diagnosis",
+      "categoryName": "Life Style",
+      "imageUrl": "",
+      "updatedAt": "2026-03-10T09:31:28.800Z"
+    },
+    {
+      "id": "69b3b5f9bbc9421e635dccfc",
+      "title": "GESTATIONAL DIABETES CAUSES TREATMENT AND MORE",
+      "route": "/gestational-diabetes--causes-treatment",
+      "categoryName": "Life Style",
+      "imageUrl": "",
+      "updatedAt": "2026-03-13T07:00:09.282Z"
+    },
+    {
+      "id": "69c28815bbc9421e63622d46",
+      "title": "ALERT INCREASING RISK OF HYPERTENSION BP IN YOUNGSTERS",
+      "route": "/alert-increasing-risk-hypertension-bp-in-youngsters",
+      "categoryName": "Life Style",
+      "imageUrl": "",
+      "updatedAt": "2026-03-24T12:48:21.824Z"
+    },
+    {
+      "id": "69c52c07801aa901b149fc9f",
+      "title": "ACTIVE AND PASSIVE IMMUNITY WHATS THE DIFFERENCE",
+      "route": "/active-passive-immunity-whats-the-difference",
+      "categoryName": "Life Style",
+      "imageUrl": "",
+      "updatedAt": "2026-03-26T12:52:23.598Z"
+    },
+    {
+      "id": "69ccd765bbc9421e6365325e",
+      "title": "HOW TO INCREASE VITAMIN D LEVELS QUICKLY",
+      "route": "/how-to-increase-vitamin-d-levels-quickly",
+      "categoryName": "Life Style",
+      "imageUrl": "",
+      "updatedAt": "2026-04-01T08:29:25.667Z"
+    },
+    {
+      "id": "69ce0ffcbbc9421e63658d69",
+      "title": "HOW MUCH HEMOGLOBIN SHOULD BE PRESENT IN THE HUMAN BODY",
+      "route": "/how-much-hemoglobin-should-be-present-in-human-body",
+      "categoryName": "Life Style",
+      "imageUrl": "",
+      "updatedAt": "2026-04-02T06:43:08.052Z"
+    },
+    {
+      "id": "69cf67aabbc9421e6365fa37",
+      "title": "HOW TO REDUCE CREATININE LEVELS",
+      "route": "/how-to-reduce-creatinine-levels",
+      "categoryName": "Life Style",
+      "imageUrl": "",
+      "updatedAt": "2026-04-03T07:09:30.096Z"
+    },
+    {
+      "id": "69d3b37dde627e43bc39d7f4",
+      "title": "HOW TO REDUCE HIGH ESR LEVELS IN BLOOD",
+      "route": "/how-to-reduce-high-esr-levels-in-blood",
+      "categoryName": "Life Style",
+      "imageUrl": "",
+      "updatedAt": "2026-04-06T13:22:05.372Z"
+    },
+    {
+      "id": "69df3e62781fefdc2e37987c",
+      "title": "Ovulation Calculator: Your Guide to Finding Fertile Days",
+      "route": "/ovulation-calculator",
+      "categoryName": "Life Style",
+      "imageUrl": "",
+      "updatedAt": "2026-04-15T07:29:38.730Z"
+    },
+    {
+      "id": "69e0870e4b6bade53ac0731d",
+      "title": "HOW TO LOWER YOUR C REACTIVE PROTEIN CRP LEVELS",
+      "route": "/how-to-lower-your-c-reactive-protien-crp-levels",
+      "categoryName": "Nutration",
+      "imageUrl": "",
+      "updatedAt": "2026-04-16T06:51:58.698Z"
+    },
+    {
+      "id": "69e20c14781fefdc2e387889",
+      "title": "HOW TO INCREASE HEMOGLOBIN: Your Guide to Better Blood Health",
+      "route": "/how-to-increase-hemoglobin",
+      "categoryName": "Nutration",
+      "imageUrl": "",
+      "updatedAt": "2026-04-17T10:31:48.173Z"
+    },
+    {
+      "id": "69fc336a781fefdc2e41133b",
+      "title": "WHAT IS FATTY LIVER CAUSES SYMPTOMS AND TREATMENT",
+      "route": "/what-is-fatty-liver-causes-symptoms-and-treatment",
+      "categoryName": "Health",
+      "imageUrl": "",
+      "updatedAt": "2026-05-07T06:38:34.867Z"
+    },
+    {
+      "id": "6a0ef0e94b6bade53acedc3a",
+      "title": "FOODS TO EAT AND AVOID FOR PEOPLE WITH FATTY LIVER DISEASE",
+      "route": "/foods-to-eat-and-avoid-for-people-with-fatty-liver",
+      "categoryName": "Life Style",
+      "imageUrl": "",
+      "updatedAt": "2026-05-21T11:47:53.705Z"
+    },
+    {
+      "id": "6a104648781fefdc2e46d4db",
+      "title": "FOOD FOR HEALTHY LIVER ENHANCE LIVER PERFORMANCE",
+      "route": "/food-for-healthy-liver-enhance-liver-performance",
+      "categoryName": "Nutration",
+      "imageUrl": "",
+      "updatedAt": "2026-05-22T12:04:24.075Z"
+    },
+    {
+      "id": "6a141e7c781fefdc2e47c27b",
+      "title": "FATTY LIVER DISEASE THE VITAMIN THAT COULD POTENTIALLY TREAT AN ADVANCED FORM OF THE CONDITION",
+      "route": "/fatty-liver-disease-the-vitamin-that-could-potentially-treat-an-advance-form-of-the-condition",
+      "categoryName": "Nutration",
+      "imageUrl": "",
+      "updatedAt": "2026-05-25T10:03:40.019Z"
+    }
+  ]
+}

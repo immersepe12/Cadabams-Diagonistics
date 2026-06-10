@@ -1,5 +1,5 @@
-import blogsData from "@/data/md+json/blogs.json";
-import blogCategoriesData from "@/data/md+json/blogcategories.json";
+import blogsData from "@/data/allpages/_shared/blogs.json";
+import blogCategoriesData from "@/data/allpages/_shared/blogcategories.json";
 import { FAQ, SEO, stripLeadingSlash } from "./types";
 
 export interface Blog {

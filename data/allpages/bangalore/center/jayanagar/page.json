@@ -1,0 +1,107 @@
+{
+  "type": "center",
+  "route": "/bangalore/center/jayanagar",
+  "slug": "jayanagar",
+  "center": {
+    "id": "672e507303598b92c1519899",
+    "templateName": "center",
+    "basic_info": {
+      "center_name": "Cadabam's Diagnostic Centre Jayanagar",
+      "center_image": "/centers/image-1738141247373-140458408.webp",
+      "center_sub_title": "Experience Precision and Compassionate Care in Jayanagar",
+      "location": "Jayanagar",
+      "city": "bangalore",
+      "area": "jayanagar"
+    },
+    "center_info": {
+      "address": "NO 7/2, 14th Cross, 2nd block, Jayanagar, Bangaluru - 560011",
+      "phone": "+91 8861821122, +91  90362 09176",
+      "whatsapp": "N/A",
+      "email": "info@cadabamsdiagnostics.com",
+      "map_location": "https://g.co/kgs/FKx3a2c"
+    },
+    "working_hours": {
+      "weekdays": {
+        "start": "07:00",
+        "end": "21:00",
+        "id": "672e507303598b92c151989a"
+      },
+      "sunday": {
+        "start": "07:00",
+        "end": "15:00",
+        "id": "672e507303598b92c151989b"
+      }
+    },
+    "services": [
+      {
+        "icon": "",
+        "title": "X-ray",
+        "description": "Hand X-ray\nAbdomen X-Ray",
+        "tests": [
+          {
+            "id": "",
+            "testName": "",
+            "route": ""
+          }
+        ],
+        "id": "672e507303598b92c151989c"
+      },
+      {
+        "icon": "",
+        "title": "Ultrasound",
+        "description": "Fetal Ultrasound\nPelvis Ultrasound",
+        "tests": [],
+        "id": "674da0065c1d2938425e7bad"
+      },
+      {
+        "icon": "",
+        "title": "MRI",
+        "description": "Brain MRI\nAbdominal MRI",
+        "tests": [],
+        "id": "674da0065c1d2938425e7bae"
+      }
+    ],
+    "testimonials": [
+      {
+        "name": "Priya Sharma",
+        "content": "The centre has advanced equipments for scanning and provide the patients an accurate report. The staffs are so kind and treat with utmost care. Premises is clean and neat. ",
+        "location": "Jaynagar",
+        "rating": 5,
+        "date": "2024-11-08T00:00:00.000Z",
+        "id": "672e507303598b92c151989d"
+      }
+    ],
+    "team": [
+      {
+        "name": "Dr S Pradeep",
+        "designation": "Consultant specialist in Radiology and Fetal Medicine",
+        "experience": "25+ Years",
+        "qualification": "MBBS, MD , DNB Radiodiagnosis",
+        "image": "/centers/image-1731994970761-322900504.webp",
+        "id": "673c29cbeffae454707df5db"
+      },
+      {
+        "name": "Dr Shreyas Cadabam",
+        "designation": "Radiodiagnosis Consultant specialist in Radiology and Interventional Musculoskeletal imaging",
+        "experience": "15+ Years",
+        "qualification": "MBBS , MD ",
+        "image": "/centers/image-1731994945511-219527766.webp",
+        "id": "673c29cbeffae454707df5dc"
+      },
+      {
+        "name": "Dr Divya Cadabam",
+        "designation": " Radiodiagnosis Consultant specialist in Radiology and Fetal Medicine",
+        "experience": "15+ Years",
+        "qualification": "MBBS , MD ",
+        "image": "/centers/image-1733139952678-551773302.webp",
+        "id": "674da0065c1d2938425e7bb2"
+      }
+    ],
+    "faqs": [],
+    "seo": {
+      "title": "Top Diagnostic Centre in Jaynagar | Cadabams Diagnostics",
+      "description": "Our diagnostic center in Jaynagar is renowned for its superior diagnostic services across a wide range of medical conditions and tests."
+    },
+    "markdown": "We’re thrilled to introduce your go-to destination for all your diagnostic requirements! Cadabams Diagnostics Jayanagar. Our center in Jayanagar offers precise and effective diagnostic services, helping detect and treat a wide range of medical issues.\n\nWe take immense pride in offering a complete suite of diagnostic tests which include laboratory assessments, radiology, and imaging procedures. Advanced technology and a team of experienced professionals ensure that we offer accurate and reliable diagnostic results every single time.\n\nOur goal? Well, we aim to give you complete diagnostic solutions that help in the early detection and effective treatment of all your health concerns. Our dedication to giving you the most accurate results is something that we hold sacrosanct.\n\nEquipped with the latest in diagnostic technology, our diagnostic center in Jayanagar stands ready to deliver superior diagnostic services for any health issue you may face. At Cadabams Diagnostics, we are committed to uncovering the underlying causes of your health concerns and supporting your path to recovery and wellness."
+  }
+}

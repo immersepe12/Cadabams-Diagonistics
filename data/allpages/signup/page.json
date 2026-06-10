@@ -1,0 +1,10 @@
+{
+  "type": "auth",
+  "route": "/signup",
+  "overline": "Get started",
+  "heading": "Create your account",
+  "subheading": "Book tests, get reports in hours, and keep your family's health records in one secure place.",
+  "footerText": "Already have an account?",
+  "footerLinkLabel": "Sign in instead",
+  "footerLinkHref": "/login"
+}

@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "data:allpages": "node scripts/build-allpages.mjs",
     "build": "next build",
     "start": "next start",
     "lint": "eslint"

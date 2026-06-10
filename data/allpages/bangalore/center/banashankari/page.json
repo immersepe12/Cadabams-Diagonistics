@@ -1,0 +1,115 @@
+{
+  "type": "center",
+  "route": "/bangalore/center/banashankari",
+  "slug": "banashankari",
+  "center": {
+    "id": "672e500a03598b92c1519887",
+    "templateName": "center",
+    "basic_info": {
+      "center_name": "Cadabam's Diagnostic Centre Banashankari",
+      "center_image": "/centers/image-1731905681968-88542235.webp",
+      "center_sub_title": "Experience Precision and Compassionate Care in Banashankari",
+      "location": "banashankari",
+      "city": "bangalore",
+      "area": "banashankari"
+    },
+    "center_info": {
+      "address": "No. 1/A, 1st Block, Bhavani  HBCS, Banashankari 3rd Stage, Near Devegowda petrol Bunk, Bangalore -  560070",
+      "phone": "+91 99006 64696",
+      "whatsapp": "+91 95385 93355",
+      "email": "info@cadabamsdiagnostics.com",
+      "map_location": "https://g.co/kgs/hd9okgn"
+    },
+    "working_hours": {
+      "weekdays": {
+        "start": "07:00",
+        "end": "20:30",
+        "id": "672e500a03598b92c1519888"
+      },
+      "sunday": {
+        "start": "07:00",
+        "end": "13:00",
+        "id": "672e500a03598b92c1519889"
+      }
+    },
+    "services": [
+      {
+        "icon": "/centers/image-1731995791936-156603718.webp",
+        "title": "X-Ray",
+        "description": "",
+        "tests": [],
+        "id": "673c2219effae454707dee91"
+      },
+      {
+        "icon": "",
+        "title": "Ultrasound",
+        "description": "",
+        "tests": [
+          {
+            "id": "",
+            "testName": "",
+            "route": ""
+          }
+        ],
+        "id": "673c2219effae454707dee92"
+      },
+      {
+        "icon": "",
+        "title": "MRI",
+        "description": "",
+        "tests": [],
+        "id": "673c2219effae454707dee93"
+      }
+    ],
+    "testimonials": [
+      {
+        "name": "Yathindra Dharmendra",
+        "content": "Cadabams staff made both my partner and me feel welcome and comfortable from the moment we walked in. The quality of the images was amazing, and seeing our baby for the first time was an unforgettable experience. The care and attention to detail were top-notch, and it truly felt like they cared about our growing family. I highly recommend this center for any expectant parents!\"",
+        "location": "Banashankari",
+        "rating": 5,
+        "date": "2024-10-19T00:00:00.000Z",
+        "id": "672e500a03598b92c151988b"
+      },
+      {
+        "name": "Vanishree Ramachandran",
+        "content": "The centre has advanced equipments for scanning and provide the patients an accurate report. The staffs are so kind and treat with utmost care. Premises is clean and neat. Overall experience is appreciable.Could be improved in sending the hard and soft copy of the reports when requested as only one of the copies is sent and wait time of the patients must be streamlined.",
+        "location": "Banashankari",
+        "rating": 4,
+        "date": "2024-10-15T00:00:00.000Z",
+        "id": "673c2219effae454707dee95"
+      }
+    ],
+    "team": [
+      {
+        "name": "Dr S Pradeep",
+        "designation": "Consultant specialist in Radiology and Fetal Medicine",
+        "experience": "25+ Years ",
+        "qualification": "MBBS, MD , DNB Radiodiagnosis",
+        "image": "/centers/image-1731992821079-356936202.webp",
+        "id": "673c2219effae454707dee96"
+      },
+      {
+        "name": "Dr Divya Cadabam",
+        "designation": "Consultant specialist in Radiology and Fetal Medicine",
+        "experience": "15+ Years",
+        "qualification": "MBBS , MD Radiodiagnosis",
+        "image": "/centers/image-1731992880062-58437075.webp",
+        "id": "673c2219effae454707dee97"
+      },
+      {
+        "name": "Dr Shreyas Cadabam",
+        "designation": "Consultant specialist in Radiology and Interventional Musculoskeletal imaging",
+        "experience": "15+ Years",
+        "qualification": "MBBS , MD Radiodiagnosis",
+        "image": "/centers/image-1731996905577-993628054.webp",
+        "id": "673c2219effae454707dee98"
+      }
+    ],
+    "faqs": [],
+    "seo": {
+      "title": "Top Diagnostic Centre in Banashankari | Cadabams Diagnostics",
+      "description": "Our diagnostic center in Banashankari is renowned for its superior diagnostic services across a wide range of medical conditions and tests."
+    },
+    "markdown": "We’re thrilled to introduce your go-to destination for all your diagnostic requirements! Cadabams Diagnostics Banashankari. Our center in Banashankari offers precise and effective diagnostic services, helping detect and treat a wide range of medical issues.\n\nWe take immense pride in offering a complete suite of diagnostic tests which include laboratory assessments, radiology, and imaging procedures. Advanced technology and a team of experienced professionals ensure that we offer accurate and reliable diagnostic results every single time.\n\nOur goal? Well, we aim to give you complete diagnostic solutions that help in the early detection and effective treatment of all your health concerns. Our dedication to giving you the most accurate results is something that we hold sacrosanct.\n\nEquipped with the latest in diagnostic technology, our diagnostic center in Banashankari stands ready to deliver superior diagnostic services for any health issue you may face. At Cadabams Diagnostics, we are committed to uncovering the underlying causes of your health concerns and supporting your path to recovery and wellness."
+  }
+}

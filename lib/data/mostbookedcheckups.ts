@@ -1,4 +1,4 @@
-import mostBookedCheckupsData from "@/data/md+json/mostbookedcheckups.json";
+import mostBookedCheckupsData from "@/data/allpages/_shared/mostbookedcheckups.json";
 
 export interface MostBookedCheckupItem {
   title: string;

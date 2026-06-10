@@ -1,0 +1,110 @@
+{
+  "type": "management-team",
+  "route": "/management-team",
+  "hero": {
+    "badge": "Leadership & Vision",
+    "title": "Our management team.",
+    "description": "Meet the visionaries leading Cadabam's towards excellence in healthcare — with 30+ years of combined experience steering quality, growth, and patient-first care."
+  },
+  "stats": [
+    {
+      "icon": "Calendar",
+      "value": "30+",
+      "label": "Years of Excellence"
+    },
+    {
+      "icon": "Users",
+      "value": "100+",
+      "label": "Team Members"
+    },
+    {
+      "icon": "Star",
+      "value": "95%",
+      "label": "Patient Satisfaction"
+    },
+    {
+      "icon": "Target",
+      "value": "5",
+      "label": "Specialized Departments"
+    }
+  ],
+  "section": {
+    "overline": "Meet the leadership",
+    "title": "The visionaries behind Cadabam's."
+  },
+  "members": [
+    {
+      "name": "Cadabam M Ramesh",
+      "role": "Chairman, Cadabam's Group",
+      "image": "/management/cadabam-m-ramesh.webp",
+      "description": "Mr. Cadabam M. Ramesh, the nucleus of the organization, envisioned Cadabams as a place for treatment and solace for every kind of healthcare concern. Founded with a vision of delivering excellence to patients, he has driven unparalleled service and new outcomes across the Cadabam's Group.",
+      "achievements": [
+        "Steering board priorities",
+        "Focus on infrastructure development",
+        "Emphasis on quality healthcare",
+        "Creating a nurturing work environment"
+      ]
+    },
+    {
+      "name": "Sudha R. Cadabam",
+      "role": "Vice Chairperson, Cadabam's Group",
+      "image": "/management/sudha-r-cadabam.webp",
+      "description": "Mrs. Sudha R. Cadabam oversees the Cadabam's Group's growth and sustainability. With 20 years of expertise, she shapes, structures, and enables smooth, ideal functioning across the organization.",
+      "achievements": [
+        "20+ years of healthcare expertise",
+        "Focus on organizational growth",
+        "Patient care enhancement",
+        "Staff development initiatives"
+      ]
+    },
+    {
+      "name": "M.K. Saraswathi",
+      "role": "Vice Chairperson, Cadabam's Group",
+      "image": "/management/mk-saraswathi.webp",
+      "description": "Ms. M. K. Saraswathi has made an immense contribution to Cadabam's with over two decades of expertise in psychology. With her administrative skills and strategies, she designed the healthcare system to structure operational efficiency.",
+      "achievements": [
+        "20+ years in psychology",
+        "Healthcare system design",
+        "Operational efficiency",
+        "Department supervision"
+      ]
+    },
+    {
+      "name": "Sandesh Cadabam",
+      "role": "Director",
+      "image": "/management/sandesh-cadabam.webp",
+      "description": "Mr. Sandesh R. Cadabam, a promising entrepreneur within the organization, is passionate about providing healthcare to international standards. With an MSc. in International Business & Management from Manchester Business School, UK, he brings innovative strategic methods and modern thinking to the organization.",
+      "achievements": [
+        "International healthcare expertise",
+        "Strategic innovation",
+        "Team development",
+        "Quality healthcare focus"
+      ]
+    },
+    {
+      "name": "Neha S. Cadabam",
+      "role": "Executive Director & Psychologist",
+      "image": "/management/neha-s-cadabam.webp",
+      "description": "Neha Cadabam is a Psychologist at Cadabam's with over 11 years of experience in mental health. She specializes in preventive and promotive mental healthcare, helping individuals improve their well-being and adopt healthier lifestyle changes.",
+      "achievements": [
+        "11+ years in mental health",
+        "Certified NLP Practitioner",
+        "Multi-lingual expertise",
+        "Specialized counseling approaches"
+      ]
+    }
+  ],
+  "cta": {
+    "overline": "Get in touch with our management",
+    "title": "Want to learn more about our leadership?",
+    "description": "For partnerships, press, or governance enquiries, our team is one message away.",
+    "primary": {
+      "label": "Contact us",
+      "href": "/contact-us"
+    },
+    "call": {
+      "label": "Talk to us",
+      "phone": "+91 99006 64696"
+    }
+  }
+}

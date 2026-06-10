@@ -1,0 +1,19 @@
+{
+  "type": "labtest-category-listing",
+  "route": "/bangalore/lab-test/gut-health-tests",
+  "categorySlug": "gut-health-tests",
+  "category": {
+    "id": "671b5104ad9bf8d210384d24",
+    "name": "Gut Health",
+    "tests": [
+      "671c7d2fc8a77735c8e44117",
+      "671c7d88c8a77735c8e44120"
+    ],
+    "image": "/lab-tests/image-1729663515554-900138803.webp",
+    "path": "/gut-health-tests",
+    "createdAt": "2024-10-23T06:06:00.845Z",
+    "updatedAt": "2024-10-23T06:06:00.845Z",
+    "markdown": "Gut Health Tests"
+  },
+  "tests": []
+}

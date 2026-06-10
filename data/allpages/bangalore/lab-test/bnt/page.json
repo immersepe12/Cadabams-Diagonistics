@@ -1,0 +1,61 @@
+{
+  "type": "labtest-detail",
+  "route": "/bangalore/lab-test/bnt",
+  "slug": "bnt",
+  "test": {
+    "id": "6720b1f4b61a968f2fc61587",
+    "templateName": "labtest",
+    "testName": "Bone Narrow test",
+    "route": "/bnt",
+    "basic_info": {
+      "name": "Bone Narrow test",
+      "route": "/bnt",
+      "categoryId": "671b5104ad9bf8d210384d27",
+      "price": "455",
+      "discount": "0",
+      "discountedPrice": "455.00",
+      "reportsWithin": "",
+      "Identifies": "",
+      "measures": "",
+      "testId": ""
+    },
+    "requisites": [],
+    "packages": [],
+    "faqs": [],
+    "interpretations": {
+      "title": "",
+      "cols": [],
+      "rows": []
+    },
+    "relative_test": {
+      "title": "",
+      "categoryId": "",
+      "tests": []
+    },
+    "seo": {
+      "title": "",
+      "description": "",
+      "keywords": "",
+      "canonicalUrl": "",
+      "ogTitle": "",
+      "ogDescription": "",
+      "ogImage": "",
+      "schemaMarkup": "",
+      "robotsMeta": ""
+    }
+  },
+  "category": {
+    "id": "671b5104ad9bf8d210384d27",
+    "name": "Bones",
+    "tests": [
+      "6823771216444f3c1159aac8",
+      "682d189c16444f3c115af6c1"
+    ],
+    "image": "/lab-tests/image-1729663772933-817668696.webp",
+    "path": "/bones-tests",
+    "createdAt": "2024-10-23T06:10:29.944Z",
+    "updatedAt": "2024-10-23T06:10:29.945Z",
+    "markdown": "Bones Tests"
+  },
+  "relatedTests": []
+}

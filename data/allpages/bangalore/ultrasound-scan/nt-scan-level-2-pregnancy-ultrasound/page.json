@@ -1,0 +1,1846 @@
+{
+  "type": "scan-detail",
+  "route": "/bangalore/ultrasound-scan/nt-scan-level-2-pregnancy-ultrasound",
+  "familyPath": "ultrasound-scan",
+  "slug": "nt-scan-level-2-pregnancy-ultrasound",
+  "test": {
+    "id": "673daea5534c72d341052c0a",
+    "templateName": "non-labtest",
+    "testName": "PREGNANCY NT SCAN (LEVEL 2 ) ULTRASOUND SCAN",
+    "route": "/nt-scan-level-2-pregnancy-ultrasound",
+    "basic_info": {
+      "name": "PREGNANCY NT SCAN (LEVEL 2 ) ULTRASOUND SCAN",
+      "route": "/nt-scan-level-2-pregnancy-ultrasound",
+      "categoryId": "671b5102ad9bf8d210384d1c",
+      "price": 1950,
+      "alsoKnownAs": "",
+      "discount": "0",
+      "discountedPrice": "1950.00",
+      "reportsWithin": "3hrs",
+      "Identifies": "",
+      "measures": "",
+      "testId": 7770107,
+      "testCategory": "Ultrasonography"
+    },
+    "requisites": [],
+    "interpretations": {
+      "title": "Results and Interpretations  ",
+      "cols": [
+        "Report",
+        "Description",
+        ""
+      ],
+      "rows": [
+        [
+          "Same-day report",
+          "Delivered via secure email or printed copy.",
+          ""
+        ],
+        [
+          "Risk score",
+          "Expressed as 1 in X (e.g., 1 in 1,000).",
+          ""
+        ],
+        [
+          "Next steps",
+          "Low-risk: routine follow-up; High-risk: genetic counseling and optional invasive testing.",
+          ""
+        ],
+        [
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    "faqs": [
+      {
+        "question": "Is the NT scan painful?",
+        "answer": "No. You may feel slight pressure on your abdomen or mild discomfort with a trans-vaginal probe, but it is quick and generally pain-free."
+      },
+      {
+        "question": "Can I eat before the scan?",
+        "answer": "Yes. A light meal is fine. A comfortably full bladder is more important than an empty stomach."
+      },
+      {
+        "question": "What if my NT measurement is high?",
+        "answer": "A measurement >3 mm triggers a referral to our genetic counselor. Additional non-invasive prenatal testing (NIPT) or chorionic villus sampling (CVS) may be offered."
+      },
+      {
+        "question": "How soon will I get results?",
+        "answer": "Preliminary findings are shared the same day. The full report, including risk calculation, is emailed within 6 hours."
+      },
+      {
+        "question": "Does a normal NT scan rule out all abnormalities?",
+        "answer": "No test is perfect. A normal NT greatly lowers the risk but does not eliminate it; later anomaly scans and optional NIPT still have value."
+      }
+    ],
+    "relative_test": {
+      "title": "",
+      "categoryId": "671b5102ad9bf8d210384d1e",
+      "tests": [
+        {
+          "id": "6736e08403598b92c151cd9b",
+          "testName": "MRI FETAL",
+          "route": "/fetal-imaging"
+        },
+        {
+          "id": "6736e2f403598b92c151cdc2",
+          "testName": "US PREGNANCY FETAL ECHO",
+          "route": "/fetal-interventional-ultrasound-echo"
+        },
+        {
+          "id": "67371c29996e7737b6f4de55",
+          "testName": "Pregnancy Ultrasound",
+          "route": "/pregnancy-ultrasound"
+        },
+        {
+          "id": "673d8cfdeffae454707e0dab",
+          "testName": "US PREGNANCY TIFFA SCAN / ANOMALY SCAN (LEVEL2)",
+          "route": "/pregnancy-tiffa-anomaly-scan-level-2-ultrasound"
+        },
+        {
+          "id": "673d98ac534c72d341052ae0",
+          "testName": "US PREGNANCY INTERVAL GROWTH SCAN WITH BPP AND DOPPLER",
+          "route": "/pregnancy-interval-growth-scan-with-bpp-and-doppler-ultrasound"
+        },
+        {
+          "id": "673da0cf534c72d341052bb7",
+          "testName": "US PREGNANCY DATING SCAN",
+          "route": "/pregnancy-dating-scan-ultrasound"
+        }
+      ]
+    },
+    "seo": {
+      "title": "Pregnancy NT Scan (Level 2) Ultrasound Scan at Cadabams",
+      "description": "Learn everything about the Pregnancy NT Scan (Level 2) Ultrasound Scan—timing, procedure, benefits, and results—brought to you by Cadabams Diagnostics.",
+      "keywords": "",
+      "canonicalUrl": "",
+      "ogTitle": "",
+      "ogDescription": "",
+      "ogImage": "",
+      "schemaMarkup": "",
+      "robotsMeta": ""
+    },
+    "markdown": "## Pregnancy NT Scan (Level 2) Overview\n\n### What Makes the Level 2 NT Scan Unique\n- \\*\\*Higher detail\\*\\*: Uses advanced transducers and settings for clearer images of tiny fetal structures.\n- \\*\\*More parameters\\*\\*: Adds nasal bone, heart valves, and blood-flow studies beyond routine scans.\n- \\*\\*Risk calculation\\*\\*: Feeds findings into software that pairs ultrasound data with blood tests for precise risk scores.\n### How It Differs From Basic Ultrasound\n| Basic Ultrasound | Level 2 NT Scan |\n|------------------|-----------------|\n| Checks heartbeat & position | Measures nuchal translucency thickness |\n| Single image planes | Multiple standardized planes |\n| General reassurance | Detailed chromosomal & structural screening |\n## What Is Pregnancy NT Scan (Level 2) Ultrasound Scan?\n### Definition and Purpose\nA \\*\\*non-invasive, low-risk ultrasound\\*\\* performed between 11 and 14 weeks to:\n- Evaluate the risk of Down syndrome (Trisomy 21), Edwards syndrome (Trisomy 18), and Patau syndrome (Trisomy 13).\n- Screen for early signs of congenital heart defects and skeletal issues.\n- Confirm gestational age and viability.\n### Role of Nuchal Translucency Measurement\n- \\*\\*Normal range\\*\\*: <3 mm at 11–14 weeks.\n- \\*\\*Increased thickness\\*\\*: May indicate higher chromosomal or cardiac risk, prompting further tests like NIPT or CVS.\n## Types of Pregnancy NT Scan (Level 2) Ultrasound Scan\n### Trans-Abdominal Approach\n- \\*\\*Most common\\*\\*: Probe moved across the abdomen.\n- \\*\\*Prep\\*\\*: Drink 500 ml water 45 min before; full bladder lifts uterus for clearer view.\n### Trans-Vaginal Approach (If Indicated)\n- \\*\\*When needed\\*\\*: Maternal obesity, retroverted uterus, or early gestation.\n- \\*\\*Benefits\\*\\*: Higher-resolution images closer to the fetus.\n\n## When and Who Needs to Take a Pregnancy NT Scan (Level 2) Ultrasound Scan?\n\n### Ideal Gestational Age\n- \\*\\*Window\\*\\*: 11 weeks 0 days – 13 weeks 6 days.\n- \\*\\*Crown-rump length (CRL)\\*\\*: 45–84 mm for standardized results.\n### High-Risk Indications & Universal Screening\n- All pregnant women—regardless of age—benefit.\n- Especially advised for:\n- Maternal age ≥ 30 years.\n- Family history of chromosomal disorders.\n- Previous pregnancy with anomalies.\n- Assisted reproductive technology (IVF) pregnancies.\n\n## Risks & Limitations of the Pregnancy NT Scan (Level 2) Ultrasound Scan\n\n### Safety Profile of Ultrasound\n- \\*\\*Zero radiation\\*\\*: Uses high-frequency sound waves—safe for mother and baby.\n- \\*\\*Decades of data\\*\\*: No evidence of harm in clinical studies.\n### False-Positive & False-Negative Rates\n- \\*\\*False-positive\\*\\*: 5 %. A high NT does not always mean an affected baby.\n- \\*\\*False-negative\\*\\*: Up to 15 %. Normal NT lowers but doesn’t eliminate risk.\n\n## List of Parameters Considered During the Pregnancy NT Scan (Level 2) Ultrasound Scan\n\n- \\*\\*Nuchal translucency thickness\\*\\* – primary marker for chromosomal risk.\n- \\*\\*Nasal bone presence\\*\\* – absence linked to Down syndrome.\n- \\*\\*Crown-rump length (CRL)\\*\\* – confirms exact gestational age.\n- \\*\\*Ductus venosus flow\\*\\* – abnormal waveforms suggest cardiac stress.\n- \\*\\*Tricuspid regurgitation\\*\\* – leaky heart valve may indicate aneuploidy.\n\n## Reasons for Taking a Pregnancy NT Scan (Level 2) Ultrasound Scan\n\n- \\*\\*Early detection\\*\\* of Down syndrome, Edwards syndrome, Patau syndrome.\n- \\*\\*Structural anomaly screening\\*\\* – early hints of heart, brain, or limb defects.\n- \\*\\*Multiple pregnancy assessment\\*\\* – confirms chorionicity in twins or triplets.\n\n## Benefits of Taking the Pregnancy NT Scan (Level 2) Ultrasound Scan\n\n- \\*\\*Non-invasive screening\\*\\* – no needles, no risk of miscarriage.\n- \\*\\*Early reassurance\\*\\* – 85 % of women get low-risk results and peace of mind.\n- \\*\\*Guides further diagnostic testing\\*\\* – CVS or amniocentesis offered only when necessary.\n\n## Illnesses Diagnosed with Pregnancy NT Scan (Level 2) Ultrasound Scan\n\n- \\*\\*Chromosomal abnormalities\\*\\* – Trisomies 21, 18, 13.\n- \\*\\*Congenital heart defects\\*\\* – septal defects, valve anomalies.\n- \\*\\*Skeletal dysplasia indicators\\*\\* – shortened long bones or abnormal skull shape.\n\n## Preparing for Pregnancy NT Scan (Level 2) Ultrasound Scan\n\n- \\*\\*Hydration\\*\\*: Sip water steadily; stop 30 min before to achieve a comfortably full bladder.\n- \\*\\*Clothing\\*\\*: Two-piece outfit for easy abdomen access.\n- \\*\\*Fasting\\*\\*: Not required—enjoy your breakfast!\n## Pre-requisites Pregnancy NT Scan (Level 2) Ultrasound Scan\n- \\*\\*Doctor’s requisition\\*\\* or direct self-referral accepted at Cadabams Diagnostics.\n- \\*\\*LMP date\\*\\* or printed early dating scan report for accurate scheduling.\n## Best Time to Take the Pregnancy NT Scan (Level 2) Ultrasound Scan\n- \\*\\*Perfect window\\*\\*: 11 weeks 0 days – 13 weeks 6 days.\n- \\*\\*Too early\\*\\*: CRL <45 mm, repeat scan needed.\n- \\*\\*Too late\\*\\*: Over 14 weeks, nuchal translucency is no longer reliable.\n## Eligibility\n- \\*\\*All pregnant women\\*\\* within the gestational window.\n- \\*\\*Special consent\\*\\*: Guardian form required for mothers <18 years.\n## Procedure for Taking a Pregnancy NT Scan (Level 2) Ultrasound Scan\n1. \\*\\*Check-in & history review\\*\\* – verify dates, allergies, previous pregnancies.\n2. \\*\\*Scan duration\\*\\* – 15–30 minutes.\n3. \\*\\*Image acquisition sequence\\*\\* – standardized planes captured for audit and reporting.\n4. \\*\\*Instant preliminary discussion\\*\\* – sonographer explains key findings before you leave.\n## Caution Before Taking the Test\n- \\*\\*Full bladder vs. empty bladder\\*\\* – follow SMS instructions from Cadabams.\n- \\*\\*Report symptoms\\*\\* – inform staff of any vaginal bleeding or pelvic pain immediately."
+  },
+  "category": {
+    "id": "671b5102ad9bf8d210384d1c",
+    "name": "Ultrasound",
+    "tests": [
+      "6735c72a03598b92c151c6fd",
+      "6735cb2f03598b92c151c782",
+      "6735e71803598b92c151c9f2",
+      "6736ed7d03598b92c151ce21",
+      "6736f1c103598b92c151ce6f",
+      "6736f48703598b92c151cf12",
+      "6736fdc303598b92c151d13e",
+      "673712ef996e7737b6f4dd40",
+      "673724eb996e7737b6f4dfbc",
+      "673729fa996e7737b6f4e0f3",
+      "67373672996e7737b6f4e274",
+      "673c56c5effae454707dfe68",
+      "673c8097effae454707e01a3",
+      "673dbe26534c72d341052d51",
+      "6799e782bf2a88a244a69719",
+      "679b3aecbf2a88a244a6b50a",
+      "679b3cd2bf2a88a244a6b525",
+      "679b4c54bf2a88a244a6b708",
+      "679c74afbf2a88a244a6ed60",
+      "679c86b9bf2a88a244a6f03a",
+      "67a0bafcbf2a88a244a77549",
+      "67a1b8d727567f98e56d25af",
+      "67a1bbb227567f98e56d2679",
+      "67a1ca5f27567f98e56d2be6",
+      "67a1d39b27567f98e56d2cac",
+      "67a1d50627567f98e56d2cc7",
+      "67a9acd8a45909fb1bd0f97d",
+      "67a9b364a45909fb1bd0fa5d",
+      "67ac7bbba45909fb1bd13977",
+      "67ac8481a45909fb1bd13c0b",
+      "67ac8549a45909fb1bd13c27",
+      "67ad9898a45909fb1bd15570",
+      "67af2565a45909fb1bd1843d",
+      "67af28aca45909fb1bd184fd",
+      "67b2f5b4a45909fb1bd1de00",
+      "67b4727da45909fb1bd20f21",
+      "67b8383fa45909fb1bd280e9",
+      "67bde09a16444f3c114dbe00",
+      "67bde36416444f3c114dbe1f",
+      "67c02bb116444f3c114df7ca",
+      "67e681b516444f3c11523ebd",
+      "67e683d116444f3c11523f51",
+      "67e6860a16444f3c11523fba",
+      "67e687e216444f3c11523fea",
+      "67e68a0b16444f3c1152404b",
+      "67e68c2616444f3c11524084",
+      "67ec0ec816444f3c1152e4c9",
+      "67ec11d316444f3c1152e589",
+      "67ec146216444f3c1152e5c4",
+      "67ec16d516444f3c1152e5e9",
+      "67edff4416444f3c115312af",
+      "67ee037416444f3c115312ee",
+      "67f3e8de16444f3c1153ae09",
+      "680b8c9416444f3c11568f64",
+      "680b9df916444f3c115691a7",
+      "680ba19b16444f3c11569206",
+      "680ba4d516444f3c11569288",
+      "680f3e8f16444f3c1156f68a",
+      "6841615116444f3c115dc079",
+      "684a89e316444f3c115f11be",
+      "684a8ed016444f3c115f141c",
+      "684a90b016444f3c115f1460",
+      "684bd88c16444f3c115f5307",
+      "684be57b16444f3c115f597a",
+      "6851284a16444f3c11607d4c"
+    ],
+    "image": "/scans/image-1730261906886-257915264.webp",
+    "path": "ultrasound-scan",
+    "createdAt": "2024-10-17T19:23:49.627Z",
+    "updatedAt": "2024-10-17T19:23:49.627Z",
+    "allData": {
+      "categoryId": "671b5102ad9bf8d210384d1c",
+      "requisites": [
+        {
+          "value": ""
+        }
+      ],
+      "interpretations": {
+        "title": "Results and Interpretations ",
+        "cols": [
+          "Scan Parameter ",
+          "Normal Range ",
+          "Abnormal Range ",
+          "Interpretation "
+        ],
+        "rows": [
+          [
+            "Organ Size ",
+            "Normal organ size ",
+            "Enlarged or reduced organ size ",
+            "Enlarged organs may indicate disease (e.g., liver disease, heart issues), while reduced size can suggest atrophy or other health concerns. "
+          ],
+          [
+            "Presence of Masses ",
+            "No masses or lumps detected ",
+            "Solid or cystic masses detected",
+            "Solid masses could indicate tumours or cancer, while cystic masses are often benign but "
+          ],
+          [
+            "Blood Flow (Doppler) ",
+            "Normal blood flow ",
+            "Restricted or abnormal flow ",
+            "Abnormal blood flow might signal issues like blood clots, artery blockages, or vascular disease. "
+          ],
+          [
+            "Fetal Development ",
+            "Fetus growing according to gestational age ",
+            "Abnormal fetal size or structure ",
+            "Abnormalities in fetal size or development can indicate growth restrictions, developmental delays, or other prenatal health concerns. "
+          ]
+        ]
+      },
+      "faqs": [
+        {
+          "question": "When is an Ultrasound advisable to be done? ",
+          "answer": "If there is a requirement for an abdominal ultrasound, fasting must be done in order to create clean images where only the internal organs are captured. Rest instructions and procedures can be sought from a physician."
+        },
+        {
+          "question": "Can we find any ultrasound-related services in Bangalore? ",
+          "answer": "We are proud to inform the readers now that Cadabam’s Diagnostics in Bangalore provides ultrasound services to facilitate identifying and monitoring medical conditions."
+        },
+        {
+          "question": "What Is a Normal Ultrasound Result? ",
+          "answer": "A normal ultrasound result states that the internal organs and soft tissues reasonably work there is no presence of any abnormalities such as masses, fluid accumulation, or structural changes among other factors. However, it is worth remembering that “normal” does differ slightly from one person to another due to their age, gender or even health. This doesn't mean however that someone should cease to consult their healthcare official."
+        },
+        {
+          "question": "Who Performs an Ultrasound Scan? ",
+          "answer": "Sonographers are trained professionals who operate ultrasound machines and target specific areas of the body with the equipment in order to create usable photographs of the location for diagnosis."
+        },
+        {
+          "question": "How Safe Is an Ultrasound Scan? ",
+          "answer": "Ultrasound scans are safe since they use sound waves instead of radiation. They do not breach the skin in any way or form. There also are no potential dangers that are known in existence. This makes ultrasounds guess-free scans for pregnant women and for other clinics."
+        }
+      ],
+      "relative_test": {
+        "title": "",
+        "categoryId": "671b5102ad9bf8d210384d1c",
+        "tests": [
+          {
+            "id": "6735c72a03598b92c151c6fd",
+            "testName": "USM MUSCULOSKELETAL",
+            "route": "/musculoskeletal-ultrasound-msk"
+          },
+          {
+            "id": "6735cb2f03598b92c151c782",
+            "testName": "US PREGNCANY FETAL FACE 3D",
+            "route": "/fetal-ultrasound"
+          },
+          {
+            "id": "6735e71803598b92c151c9f2",
+            "testName": "US GUIDED BREAST BIOPSY",
+            "route": "/breast-biopsy-scan"
+          },
+          {
+            "id": "6736ed7d03598b92c151ce21",
+            "testName": "PENILE DOPPLER",
+            "route": "/penile-doppler-ultrasound-scan"
+          },
+          {
+            "id": "6736f1c103598b92c151ce6f",
+            "testName": "US SONOMAMMOGRAM",
+            "route": "/sonomammography-ultrasound-scan"
+          },
+          {
+            "id": "6736f48703598b92c151cf12",
+            "testName": "US THYROID ELASTOGRAPHY",
+            "route": "/thyroid-scan"
+          },
+          {
+            "id": "6736fdc303598b92c151d13e",
+            "testName": "ECHO",
+            "route": "/echocardiogram-testing"
+          },
+          {
+            "id": "673712ef996e7737b6f4dd40",
+            "testName": " Elastography Test ",
+            "route": "/elastography-ultrasound-test"
+          },
+          {
+            "id": "673724eb996e7737b6f4dfbc",
+            "testName": " Testis Ultrasound Scan",
+            "route": "/testis-ultrasound-scan"
+          },
+          {
+            "id": "673729fa996e7737b6f4e0f3",
+            "testName": "US PELVIS (TVS)",
+            "route": "/ultrasound-of-transvaginal-scan-tvs"
+          },
+          {
+            "id": "67373672996e7737b6f4e274",
+            "testName": "US ABDOMEN - PELVIS",
+            "route": "/abdomen-and-pelvis-ultrasound-scans"
+          },
+          {
+            "id": "673c56c5effae454707dfe68",
+            "testName": "Abdominal Ultrasound ",
+            "route": "/abdominal-ultrasound"
+          },
+          {
+            "id": "673c8097effae454707e01a3",
+            "testName": "US PELVIS",
+            "route": "/pelvis-ultrasound"
+          }
+        ]
+      },
+      "seo": {
+        "title": "",
+        "description": "Book ultrasound scans near you for precise imaging and quick results at trusted diagnostic centers committed to accuracy, care, and timely health reports."
+      }
+    },
+    "markdown": "a non-invasive imaging technique that uses high-frequency sound waves to create pictures of the inside of the body\n\n## Ultrasound Overview\n\n![Ultrasound Overview](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731735946889-414492423.jpg)\n\nUltrasound, sonography or ultrasonography as it is also called, is a painless diagnostic imaging technique that uses ultrasound waves to create moving images of the internal organs including soft parts of the body. It can be used for a wide range of scanning ranging from monitoring pregnancies to diagnosing diseases.\n\nIts imaging capabilities allow doctors to see through your body without making the cut and it does not employ radiation as X-ray machines do.\n\n### What is An Ultrasound Scan?\n\nUltrasound essentially involves the use of sound waves with a frequency higher than 20kHz to analyze or get images of internal organs of a human body. It is a powerful tool which helps doctors detect abnormalities in tissues and organs. The ultrasound is made up of a device known as a transducer which produces and receives sound waves and indirectly forms images.\n\n## Types of Ultrasounds\n\nThere are different types of ultrasound scans that are used for various conditions and parts of the body. Among these, some of the most common types of ultrasounds are: -\n\n**Abdominal Ultrasound:** This is an ultrasound done to look for blood vessels and organs in your lower abdominal region and to check for conditions like gallbladder stones, kidney stones, and liver problems.\n\n**Pelvic Ultrasound:** Pelvic Ultrasound is probably the most popular type of ultrasound, as every woman have had this type of ultrasound at least once in their life. This is most used to diagnose pregnancy, to assess if a fetus is developing properly, to look for the presence of abdominal organs in females like the uterus and ovaries and in males the bladder and many more.\n\n**Musculoskeletal Ultrasound:** Musculoskeletal Ultrasound is very helpful in detecting troubles with tendons, ligaments or muscles.\n\n**Doppler Ultrasound:** It is a special type of ultrasound scan in which the blood flow through arteries and veins is used to be tested for the presence of vascular disorders such as blood clots.\n\n**Fetal Ultrasound:** Fetal Ultrasound is used in pregnancy to keep track of baby development and baby’s health. It helps in tracking the growth of the fetus, checking if there are any abnormalities, and measuring the amount of amniotic fluid.\n\n## Risks & Limitations of the Ultrasound Test\n\n![Risks & Limitations of the Ultrasound Test](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731735954619-142663100.png)\n\nIn terms of the dangers involved with getting an ultrasound test, these are largely negligible as it employs no radiation whilst producing images, thus, it is regarded as one of the best and least hazardous diagnostic procedures.\n\nOne of the important issues regarding the applicability of ultrasound scanning is that, it may not be suitable for those regions of the body that lie within gas cavities e.g. the intestines, or the bones cover them up. Also, other factors such as obesity may affect the ultrasound’s accuracy.\n\n## List of Parameters Considered During the Scan\n\n![List of Parameters Considered During the Scan](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731735965281-669880283.png)\n\nIt is important to understand that the parameters may vary depending on the type of ultrasound and the purpose of the scan. However, here are a few common parameters that are measured during an ultrasound scan:\n\n- Any change regarding the size, form or dilatation of organs or tissues\n- When Doppler ultrasound is performed, evaluation of blood circulation and the states of vascular system\n- Obstruction of organs which might include cysts or tumours or any other formations\n- For prenatal scanning – amniotic fluid level measurement and checking growth parameters of the fetus (for example: biparietal diameter)\n\n## Reasons for Taking the Ultrasound\n\n![Reasons for Taking the Ultrasound](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731735971667-920239951.png)\n\nThere are multiple reasons that your doctor may suggest you take an ultrasound scan, some of them include: -\n\n**Diagnosing Abnormalities**: In a variety of instances, an ultrasound is used to help diagnose the cyst, tumor or even other surrounding organs’ abnormalities.\n\n**Pregnancy Care:** The ultrasound allows doctors to examine the fetus, while also gauging its state of health.\n\n**Investigating Pain or Swelling**: When there is swelling, pain or other symptoms that are hard to explain, this is where the ultrasound scanning technique comes in.\n\n**Evaluating Organ Function:** Conditions that involve gall bladder disease, kidney stones or cirrhosis of the liver can be evaluated through ultrasound imaging.\n\n### When and Who Needs to Take an Ultrasound Scan?\n\nUltrasounds are recommended to patients for a variety of reasons, some of them include: -\n\n- If your doctor suspects issues with your internal organs such as the liver, kidney, or heart.\n- Pregnant women for evaluating the conditions of the fetuses.\n- Athletes identify musculoskeletal injuries like tendon ruptures or sprains.\n- Patients with no result of visceral massage and other techniques with swelling, pain, or complications of the visceral organs.\n- People with heart disease.\n- Patients with gallstones suspect suffering from kidney stones or some other organ related disorders.\n\n## Benefits of Taking the Ultrasound\n\n![Benefits of Taking the Ultrasound](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731735980742-820179332.png)\n\nUltrasound scan offers a range of benefits and due to this, it is widely used to assess the variety of diseases and monitor a fetus. Some of the benefits include: -\n\n**Non-Invasive:** There is no requirement of any needles or incisions to perform an ultrasound. Such procedures are needed for biopsies and surgeries.\n\n**No Radiation:** This is a feature that helps to protect pregnant mothers and others who must undergo so many scans.\n\n**Real-Time Imaging**: The real time imaging of an ultrasound scan enables medical professionals to fully fathom the insides of a person’s organs and be able to diagnose any abnormalities instantly.\n\n## Illnesses Diagnosed with Ultrasound\n\n![Illnesses Diagnosed with Ultrasound](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731735986278-403634312.png)\n\nUltrasound scan is one of the modalities which is helpful in diagnosing, and which may include all the following but not limited to: -\n\n- Kidney Stones\n- Gall Stones\n- Liver Cirrhosis or Fatty Liver\n- Blood Thrombosis\n- Specific Cases in Pregnancy Targeting Placenta Accreta\n- Thyroid Gland Disorders Such as Nodules and Goitres\n- Heart Failure Due to Hypertrophy and Valvular Defect\n- Inflammation Of the Pancreas\n- Abdominal Aortic Aneurism\n- Cysts And Fibroids Affecting the Structures of the Female Reproductive System\n- Injuries Affecting Muscles Tendons or Ligaments\n- Abscess Formation and Cellulitis\n\n## Preparing for Ultrasound Scan\n\n![Preparing for Ultrasound Scan](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731735992802-68116460.png)\n\nThere are different types of ultrasounds and there are also different indications for which the scan needs to be carried out, thus comparison here i think should not be done. However, below are broad principles, which may be useful in helping you obtain the ultrasound scan in a better way.\n\n### Prerequisites\n\nTo obtain clear results, the image formed on the abdominal scans might tilt or get worse as they cannot have any accumbent solids. On the other hand, the image scans on the Pelvic Region Ultrasound require a considerable amount of water consumption prior to its execution.\n\n### The Most Appropriate Time to Execute the Scan\n\nUltrasounds have numerous purposes; therefore, timing of the scan differs depending on the surgical or diagnostic requirement. For instance, after breakfast falls the time for abdominal ultrasound while Pelvic, MSK, and Doppler ultrasounds can occur in the afternoons too.\n\n### Who is Eligible for an Ultrasound Scan Examination?\n\nMost people, including children, pregnant women, and the elderly can undergo ultrasound procedures without feeling anxious about radiation exposure.\n\n### Procedure for Taking Ultrasound Scan\n\nYour sonographer is a trained ultrasound technician. To avoid friction, ultrasound gel is applied to your skin, after which the sonographer rubs an ultrasound transducer on your skin. Everything else is as easy as changing into a hospital gown.\n\nFor those who don’t know, a transducer is an ultrasound tool that is placed on skin to deliver sound waves to our body and receives echoes that are converted into images.\n\nIf the condition under examination is complex, or the area of the scan is, then the time required for the whole process may be longer than the average time frame of 15 – 45 minutes.\n\n### Caution Before Taking the Scan\n\nUltrasound scans are non-invasive and painless tests that most never require precautionary measures; however, recent surgeries or impediments should be conveyed to the healthcare provider. It is recommended that food consumption is avoided prior to undergoing an abdominal ultrasound, as this may aid in providing better results."
+  },
+  "relatedTests": [
+    {
+      "id": "6736e08403598b92c151cd9b",
+      "templateName": "non-labtest",
+      "testName": "MRI FETAL",
+      "route": "/fetal-imaging",
+      "basic_info": {
+        "name": "MRI FETAL",
+        "route": "/fetal-imaging",
+        "categoryId": "671b5102ad9bf8d210384d1e",
+        "price": 12000,
+        "alsoKnownAs": "",
+        "discount": "0",
+        "discountedPrice": "12000.00",
+        "reportsWithin": "",
+        "Identifies": "",
+        "measures": "",
+        "testId": 9896215,
+        "testCategory": "-"
+      },
+      "requisites": [],
+      "interpretations": {
+        "title": "Findings and Results",
+        "cols": [
+          "Finding / Observation",
+          "Description\t",
+          "General Interpretation / Significance"
+        ],
+        "rows": [
+          [
+            "Ventricular width 12 mm",
+            "Slightly enlarged",
+            "May indicate mild ventriculomegaly; follow-up advised"
+          ],
+          [
+            "Ventricular Size",
+            "Measurement of lateral ventricles in the fetal brain.",
+            "Normal or varying degrees of dilation: Mild, Moderate, Severe. Significant dilation (ventriculomegaly/hydrocephalus) may indicate underlying brain abnormalities and potential developmental issues."
+          ],
+          [
+            "Corpus Callosum",
+            "Presence, size, and morphology of the corpus callosum (connects brain hemispheres).",
+            "Normal, partially absent (dysgenesis), or completely absent (agenesis). Absence or malformation can affect brain connectivity, often linked to neurodevelopmental delays."
+          ],
+          [
+            "Cortical Development",
+            "Assessment of brain surface folds (gyri) and grooves (sulci) appropriate for gestational age.",
+            "Normal gyration, or malformations such as lissencephaly (smooth brain) or polymicrogyria (excessive small folds). Such malformations can impair cognitive and motor function."
+          ],
+          [
+            "Spine gap at L4–L5",
+            "Visible defect",
+            "Consistent with spina bifida; pediatric neurosurgery consult"
+          ],
+          [
+            "Spinal Canal Integrity",
+            "Evaluation for open neural tube defects (e.g., myelomeningocele) or tethered cord syndrome.",
+            "Normal, or presence of defect. Open defects require specialized care due to risk of neurological impairments."
+          ],
+          [
+            "Heart 4-chamber view normal",
+            "All valves seen",
+            "Reassuring; low risk of major CHD"
+          ],
+          [
+            "Estimated Lung Volume / Lung-to-Head Ratio",
+            "Quantitative or qualitative measurement of lung size, critical in conditions like Congenital Diaphragmatic Hernia (CDH).",
+            "Normal or reduced (pulmonary hypoplasia). Lung size predicts respiratory function and viability after birth."
+          ],
+          [
+            "Lung Parenchyma",
+            "Appearance of lung tissue, checking for cystic or solid lesions (e.g., congenital pulmonary airway malformation - CPAM).",
+            "Normal or presence of lesions. The lesion type and extent guide prognosis and treatment planning."
+          ],
+          [
+            "Other Specific Anomaly Noted:",
+            "Description of any structural abnormality in other fetal organs (e.g., renal agenesis, duodenal atresia, limb deformities).",
+            "Details the anomaly and its implications, which vary widely; some require immediate or long-term pediatric interventions."
+          ]
+        ]
+      },
+      "faqs": [
+        {
+          "question": "Is MRI FETAL safe for my baby?",
+          "answer": "Yes. Extensive research shows no harmful effects from magnetic fields used in MRI FETAL.\n"
+        },
+        {
+          "question": "When is the best time for MRI FETAL?",
+          "answer": "Most scans are done between 20–32 weeks, depending on the organ.\n"
+        },
+        {
+          "question": "How long does the scan take?",
+          "answer": "20–45 minutes, depending on fetal position and type of study.\n"
+        },
+        {
+          "question": "Do I need a full bladder?",
+          "answer": "Usually not; a partly filled bladder is enough for comfort.\n"
+        },
+        {
+          "question": "Will I get results the same day?",
+          "answer": "Preliminary findings are shared the same day; full report within 24 hours.\n"
+        },
+        {
+          "question": "What is the approximate cost of a Fetal MRI scan at Cadabams Diagnostics?",
+          "answer": "The \"**cost of fetal mri scan**\" can vary based on the specifics of the examination and your insurance coverage. For detailed information on pricing and insurance, please contact our billing department at Cadabams Diagnostics directly or visit our [Link to: Pricing/Insurance Information Page]. They can provide you with an estimate based on your specific needs."
+        },
+        {
+          "question": "Can a Fetal MRI provide information about future developmental outcomes?",
+          "answer": " A **Fetal MRI** primarily identifies structural abnormalities or differences in the developing baby. Some of these structural findings, particularly those affecting the brain, *may be associated* with an increased likelihood of future developmental challenges, such as **developmental delay**, learning difficulties, or conditions on the **neurodiversity** spectrum. While a **Fetal MRI** cannot definitively predict these outcomes, it can provide crucial information that helps doctors and parents anticipate potential needs. This allows for early planning, monitoring, and timely access to interventions like **pediatric therapy** or **sensory integration** support services after birth, which can significantly improve long-term outcomes."
+        }
+      ],
+      "relative_test": {
+        "title": "",
+        "categoryId": "671b5102ad9bf8d210384d1a",
+        "tests": [
+          {
+            "id": "6735d7ca03598b92c151c932",
+            "testName": "MRI BRAIN ",
+            "route": "/brain-mri"
+          },
+          {
+            "id": "673719ce996e7737b6f4de3a",
+            "testName": "Perianal Imaging",
+            "route": "/perianal-imaging-center"
+          },
+          {
+            "id": "673c712beffae454707e0135",
+            "testName": "MRI ABDOMEN ",
+            "route": "/abdominal-mri"
+          },
+          {
+            "id": "673db6af534c72d341052c2f",
+            "testName": "MRI LUMAR SPINE",
+            "route": "/lumbar-spine-mri"
+          },
+          {
+            "id": "673dc0a75ab244ca239d0228",
+            "testName": "MRI RENAL ANGIOGRAPHY",
+            "route": "/renal-angiography-mri"
+          },
+          {
+            "id": "673ddaf55ab244ca239d0547",
+            "testName": "MRI BRAIN+SPECTROSCOPY",
+            "route": "/brain-with-spectroscopy-mri"
+          },
+          {
+            "id": "673edbf25ab244ca239d0c46",
+            "testName": "MRI L S SPINE WITH CONTRAST",
+            "route": "/musculoskeletal-mri"
+          },
+          {
+            "id": "679a2112bf2a88a244a6a08e",
+            "testName": "MRI SPINE SCREENING WITHOUT CONTRAST",
+            "route": "/spine-screening-without-contrast-mri-scan"
+          },
+          {
+            "id": "679c74fdbf2a88a244a6ed73",
+            "testName": "MRI KNEE WITHOUT CONTRAST",
+            "route": "/knee-without-contrast-mri"
+          },
+          {
+            "id": "679c8c25bf2a88a244a6f131",
+            "testName": "MRI CERVICAL / CERVICO-DORSAL SPINE WITH CONTRAST",
+            "route": "/cervical-cervico-dorsal-spine-mri"
+          },
+          {
+            "id": "679c912cbf2a88a244a6f1be",
+            "testName": "MRI BRAIN PLAIN",
+            "route": "/brain-plain-mri"
+          },
+          {
+            "id": "67a0725dbf2a88a244a765c0",
+            "testName": "MRI SHOULDER WITHOUT CONTRAST",
+            "route": "/shoulder-without-contrast-mri-scan"
+          },
+          {
+            "id": "67af22e3a45909fb1bd183e6",
+            "testName": "MRI LUMBAR / LUMBOSACRAL SPINE WITHOUT CONTRAST",
+            "route": "/lumbar-lumbosacral-spine-without-contrast-mri-scan"
+          },
+          {
+            "id": "67bda0fb16444f3c114db46a",
+            "testName": "MRI DORSAL / DORSO-LUMBAR SPINE WITHOUT CONTRAST",
+            "route": "/dorsal-dorso-lumbar-spine-without-contrast-mri-scan"
+          },
+          {
+            "id": "67bda4ae16444f3c114db4be",
+            "testName": "MRI BRAIN WITH ANGIOGRAPHY WITHOUT CONTRAST",
+            "route": "/brain-with-angiography-without-contrast-mri-scan"
+          },
+          {
+            "id": "67d3e65416444f3c11500b89",
+            "testName": "MRI BRAIN WITH SPECTROSCOPY",
+            "route": "/brain-with-spectroscopy-mri-scan"
+          },
+          {
+            "id": "67d3ea0c16444f3c11500ca5",
+            "testName": "MRI BRAIN WITH EPILEPSY PROTOCOL",
+            "route": "/brain-with-epilepsy-protocol-mri-scan"
+          },
+          {
+            "id": "67d3ecc716444f3c11500d30",
+            "testName": "MRI BRAIN+ANGIOGRAM",
+            "route": "/brain-and-angiogram-mri-scan"
+          },
+          {
+            "id": "67d7d30d16444f3c11507fe9",
+            "testName": "MRI HIP JOINTS",
+            "route": "/hip-joints-mri-scan"
+          },
+          {
+            "id": "67d7d3ad16444f3c1150802a",
+            "testName": "MRI CERVICAL SPINE",
+            "route": "/cervical-spine-mri-scan"
+          },
+          {
+            "id": "67e12dbb16444f3c115186b2",
+            "testName": "MRI THORACO LUMBER SPINE",
+            "route": "/thoraco-lumbar-spine-mri-scan"
+          },
+          {
+            "id": "67e12e1d16444f3c11518719",
+            "testName": "MRI ABDOMEN & PELVIS",
+            "route": "/abdomen-and-pelvis-mri-scan"
+          },
+          {
+            "id": "67e12e9316444f3c11518732",
+            "testName": "MRI ANGIOGRAM/ VENOGRAM (MRA/MRV)",
+            "route": "/magnetic-resonance-angiogram-venogram-mri-scan"
+          },
+          {
+            "id": "67e1403d16444f3c11518c04",
+            "testName": "MRI BRACHIAL PLEXUS",
+            "route": "/brachial-plexus-mri-scan"
+          },
+          {
+            "id": "67e249fb16444f3c1151adaa",
+            "testName": "MRI ANKLE",
+            "route": "/ankle-mri-scan"
+          },
+          {
+            "id": "67e280ab16444f3c1151bb60",
+            "testName": "MRI BRAIN + ORBITS",
+            "route": "/brain-and-orbits-mri-scan"
+          },
+          {
+            "id": "67e2842c16444f3c1151bd97",
+            "testName": "MRI BRAIN + PNS",
+            "route": "/brain-and-peripheral-nervous-system-pns-mri-scan"
+          },
+          {
+            "id": "67e2869c16444f3c1151be44",
+            "testName": "MRI BRAIN + VENOGRAM",
+            "route": "/brain-and-venogram-mri-scan"
+          },
+          {
+            "id": "67e2892c16444f3c1151bf5f",
+            "testName": "MRI CAROTID ANGIO",
+            "route": "/carotid-angio-mri-scan"
+          },
+          {
+            "id": "67e3b81b16444f3c1151e7fe",
+            "testName": "MRI DORSAL LUMBER SPINE",
+            "route": "/dorsal-lumbar-spine-mri-scan"
+          },
+          {
+            "id": "67e3ba2b16444f3c1151e879",
+            "testName": "MRI DORSAL SPINE",
+            "route": "/dorsal-spine-mri-scan"
+          },
+          {
+            "id": "67e3bce516444f3c1151e93d",
+            "testName": "MRI ELBOW JOINT",
+            "route": "/elbow-joint-mri-scan"
+          },
+          {
+            "id": "67e3beb716444f3c1151e966",
+            "testName": "MRI EXTREMITIES",
+            "route": "/extremities-mri-scan"
+          },
+          {
+            "id": "67e3c23916444f3c1151eab8",
+            "testName": "MRI FOOT",
+            "route": "/foot-mri-scan"
+          },
+          {
+            "id": "67e3c5c616444f3c1151ed81",
+            "testName": "MRI FOREARM",
+            "route": "/forearm-mri-scan"
+          },
+          {
+            "id": "67e3c91316444f3c1151ede8",
+            "testName": "MRI HAND",
+            "route": "/hand-mri-scan"
+          },
+          {
+            "id": "67e3cb6016444f3c1151eeab",
+            "testName": "MRI SHOULDER",
+            "route": "/shoulder-mri-scan"
+          },
+          {
+            "id": "67e3cdc316444f3c1151ef37",
+            "testName": "MRI KNEE JOINT",
+            "route": "/knee-joint-mri-scan"
+          },
+          {
+            "id": "67e6684816444f3c11523765",
+            "testName": "MRI WRIST JOINT",
+            "route": "/wrist-joint-mri-scan"
+          },
+          {
+            "id": "67e66a3516444f3c11523786",
+            "testName": "MRI NECK ANGIO (TOF)",
+            "route": "/neck-angiography-mri-scan"
+          },
+          {
+            "id": "67e66e4b16444f3c115238a5",
+            "testName": "MRI ONE REGION",
+            "route": "/one-region-disc-mri-scan"
+          },
+          {
+            "id": "67e6711616444f3c11523a07",
+            "testName": "MRI ORBIT ",
+            "route": "/orbit-mri-scan"
+          },
+          {
+            "id": "67e6738516444f3c11523af8",
+            "testName": "MRI PELVIS",
+            "route": "/pelvis-mri-scan"
+          },
+          {
+            "id": "67e674e816444f3c11523b1b",
+            "testName": "MRI PELVIS WITH BOTH HIP JOINTS (BONES)",
+            "route": "/pelvis-with-both-hip-joints-mri-scan"
+          },
+          {
+            "id": "67e679fc16444f3c11523c7f",
+            "testName": "MRI PITUITARY /SELLA",
+            "route": "/pituitary-gland-and-sella-mri-scan"
+          },
+          {
+            "id": "67e67c2e16444f3c11523ca0",
+            "testName": "MRI SCREENING",
+            "route": "/mri-screening"
+          },
+          {
+            "id": "67e67f0d16444f3c11523dab",
+            "testName": "MRI WHOLE SPINE",
+            "route": "/whole-spine-mri-scan"
+          },
+          {
+            "id": "67edf5c516444f3c11531198",
+            "testName": "MRI SACROILIAC JOINTS",
+            "route": "/sacroiliac-joints-mri-scan"
+          },
+          {
+            "id": "67edf89216444f3c115311e7",
+            "testName": "MRI + CT TEMPORAL BONES",
+            "route": "/ct-temporal-bones-mri-scan"
+          },
+          {
+            "id": "67edfb0416444f3c11531235",
+            "testName": "MRI BOTH SHOULDERS",
+            "route": "/both-shoulders-mri-scan"
+          },
+          {
+            "id": "67edfd5f16444f3c11531284",
+            "testName": "MRI BOTH KNEES",
+            "route": "/both-knees-mri-scan"
+          },
+          {
+            "id": "67f3b80b16444f3c1153a6e9",
+            "testName": "MRI HIP WITHOUT CONTRAST",
+            "route": "/hip-without-contrast-mri-scan"
+          },
+          {
+            "id": "67f3ba6d16444f3c1153a748",
+            "testName": "MRI BRAIN WITH SEIZURE PROTOCOL",
+            "route": "/brain-with-seizure-protocol-mri-scan"
+          },
+          {
+            "id": "67f3bdf716444f3c1153a802",
+            "testName": "MRI CHEST WITHOUT CONTRAST",
+            "route": "/chest-without-contrast-mri-scan"
+          },
+          {
+            "id": "67f3c35416444f3c1153a914",
+            "testName": "MRI DORSAL / DORSO-LUMBAR SPINE WITH CONTRAST",
+            "route": "/dorsal-and-dorso-lumbar-spine-with-contrast-mri-scan"
+          },
+          {
+            "id": "67f3dbca16444f3c1153ac65",
+            "testName": "MRI BRAIN WITH CONTRAST",
+            "route": "/brain-with-contrast-mri-scan"
+          },
+          {
+            "id": "67f3e65e16444f3c1153ad7a",
+            "testName": "MRI CERVICAL / CERVICO-DORSAL SPINE WITHOUT CONTRAST",
+            "route": "/cervical-and-cervico-dorsal-spine-without-contrast-mri-scan"
+          },
+          {
+            "id": "67f3ec8316444f3c1153ae66",
+            "testName": "MRI CONTRAST",
+            "route": "/contrast-mri-scan"
+          },
+          {
+            "id": "6805d9c516444f3c11559dea",
+            "testName": "MRI NECK WITH CONTRAST",
+            "route": "/neck-with-contrast-mri-scan"
+          },
+          {
+            "id": "6805dcd616444f3c11559ede",
+            "testName": "MRI ORBITS - WITHOUT CONTRAST",
+            "route": "/orbits-without-contrast-mri-scan"
+          },
+          {
+            "id": "6805decd16444f3c11559f21",
+            "testName": "MRI SCREENING OF JOINTS",
+            "route": "/screening-of-bones-and-joints-mri-scan"
+          },
+          {
+            "id": "6805e21b16444f3c11559f81",
+            "testName": "MRI NECK WITHOUT CONTRAST",
+            "route": "/neck-without-contrast-mri-scan"
+          },
+          {
+            "id": "6805e3ed16444f3c1155a02b",
+            "testName": "MRI BREAST WITH CONTRAST",
+            "route": "/breast-with-contrast-mri-scan"
+          },
+          {
+            "id": "6805ee3d16444f3c1155a227",
+            "testName": "MRI DEFECOGRAPHY",
+            "route": "/defecography-mri-scan"
+          },
+          {
+            "id": "6805f0aa16444f3c1155a266",
+            "testName": "MRI ARM",
+            "route": "/arm-mri-scan"
+          },
+          {
+            "id": "6805f28016444f3c1155a361",
+            "testName": "MRI CHEST",
+            "route": "/chest-mri-scan"
+          },
+          {
+            "id": "6805f51e16444f3c1155a499",
+            "testName": "MRI COCCYX",
+            "route": "/coccyx-mri-scan"
+          },
+          {
+            "id": "6805f85a16444f3c1155a56b",
+            "testName": "MRI CV JUNCTION",
+            "route": "/craniovertebral-cv-junction-mri-scan"
+          },
+          {
+            "id": "6805fbad16444f3c1155a5f0",
+            "testName": "MRI LIMITED",
+            "route": "/limited-mri-scan"
+          },
+          {
+            "id": "6805fe5216444f3c1155a6c0",
+            "testName": "MRI FACE",
+            "route": "/face-mri-scan"
+          },
+          {
+            "id": "6806002216444f3c1155a734",
+            "testName": "MRI FISTULOGRAM",
+            "route": "/fistulogram-mri-scan"
+          },
+          {
+            "id": "6806073816444f3c1155a831",
+            "testName": "MRI KUB",
+            "route": "/kub-mri-scan"
+          },
+          {
+            "id": "68060a1516444f3c1155a85f",
+            "testName": "MRI THIGH",
+            "route": "/thigh-mri-scan"
+          },
+          {
+            "id": "68060f0316444f3c1155a8e3",
+            "testName": "MRI - BOTH LEGS ",
+            "route": "/both-legs-mri-scan"
+          },
+          {
+            "id": "6806108f16444f3c1155a92e",
+            "testName": "MRI AORTIC ANGIOGRAPHY",
+            "route": "/aortic-angiography-mri-scan"
+          },
+          {
+            "id": "680612fe16444f3c1155aa7b",
+            "testName": "MRI BRAIN CSF FLOW STUDY",
+            "route": "/csf-flow-study-mri-scan"
+          },
+          {
+            "id": "680614e216444f3c1155aaf1",
+            "testName": "MRI BRAIN NAVIGATION PROTOCOL",
+            "route": "/brain-navigation-protocol-mri-scan"
+          },
+          {
+            "id": "680616d016444f3c1155ab65",
+            "testName": "MRI M R C P",
+            "route": "/magnetic-resonance-cholangiopancreatography-mri-scan"
+          },
+          {
+            "id": "680618aa16444f3c1155ab95",
+            "testName": "MRI MAMMOGRAM+CONTRAST",
+            "route": "/mammogram-with-contrast-mri-scan"
+          },
+          {
+            "id": "68061a7516444f3c1155acc2",
+            "testName": "MRI PNS",
+            "route": "/pns-mri-scan"
+          },
+          {
+            "id": "68061c9616444f3c1155ad7c",
+            "testName": "MRI NECK",
+            "route": "/neck-mri-scan"
+          },
+          {
+            "id": "680b2f0a16444f3c115675e7",
+            "testName": "MRI PROSTATE",
+            "route": "/prostate-mri-scan"
+          },
+          {
+            "id": "680b31ae16444f3c115676d3",
+            "testName": "MRI SCAN OF TOUNGE",
+            "route": "/tongue-mri-scan"
+          },
+          {
+            "id": "680b34d016444f3c115676f9",
+            "testName": "MRI SCROTUM",
+            "route": "/scrotum-mri-scan"
+          },
+          {
+            "id": "680b43ef16444f3c115679aa",
+            "testName": "MRI STERNO CLAVICULAR JOINT",
+            "route": "/sterno-clavicular-joint-mri-scan"
+          },
+          {
+            "id": "680b4aec16444f3c11567afd",
+            "testName": "MRI TEMPORAL BONES",
+            "route": "/temporal-bones-mri-scan"
+          },
+          {
+            "id": "680b4d7116444f3c11567b66",
+            "testName": "MRI TEMPOROMANDIBULAR JOINTS",
+            "route": "/temporomandibular-joint-mri-scan"
+          },
+          {
+            "id": "680b4f9b16444f3c11567bb7",
+            "testName": "MRI THUMB",
+            "route": "/thumb-mri-scan"
+          },
+          {
+            "id": "680b528116444f3c11567c9e",
+            "testName": "MRI WHOLE BODY",
+            "route": "/whole-body-mri-scan"
+          },
+          {
+            "id": "680b5fa416444f3c11567fc2",
+            "testName": "MRI ARTHOGRAM",
+            "route": "/arthrogram-mri-scan"
+          },
+          {
+            "id": "680b897016444f3c11568f33",
+            "testName": "MRI PERIPHERAL ANGIO",
+            "route": "/peripheral-angiography-mri-scan"
+          },
+          {
+            "id": "6830334b16444f3c115b6db1",
+            "testName": "MRI EXTREMITIS WITHOUT CONTRAST",
+            "route": "/extremities-without-mri-scan"
+          },
+          {
+            "id": "6830617716444f3c115b7533",
+            "testName": "MRI BILATERAL TEMPORAL BONE / INNEAR EAR WITHOUT CONTRAST",
+            "route": "/bilateral-temporal-bone-innear-without-contrast"
+          },
+          {
+            "id": "68319d5116444f3c115b9aea",
+            "testName": "MRI LEG",
+            "route": "/leg-mri-scan"
+          },
+          {
+            "id": "68413f7b16444f3c115db6da",
+            "testName": "MRI PELVIS WITHOUT CONTRAST",
+            "route": "/pelvis-without-contrast-mri-scan"
+          },
+          {
+            "id": "68415f0616444f3c115dbfba",
+            "testName": "FIBRONOGEN DEGRADATION PRODUCTS (FDP)",
+            "route": "/testpage123"
+          },
+          {
+            "id": "6841732216444f3c115dc4ea",
+            "testName": "MRI LUMBAR / LUMBOSACRAL SPINE WITH CONTRAST",
+            "route": "/lumbar-lumbosacral-spine-with-contrast-mri-scan"
+          }
+        ]
+      },
+      "seo": {
+        "title": "MRI FETAL at Cadabams Diagnostics | Safe & Accurate",
+        "description": "Expecting parents can book a safe, high-resolution MRI FETAL scan at Cadabams Diagnostics. Learn when it’s needed, benefits, and how to prepare—all in one guide.\n",
+        "keywords": "",
+        "canonicalUrl": "",
+        "ogTitle": "",
+        "ogDescription": "",
+        "ogImage": "",
+        "schemaMarkup": "",
+        "robotsMeta": ""
+      },
+      "markdown": "## Overview of Fetal Ultrasound\n\n\\*\\*What is MRI FETAL?\\*\\*\nMRI FETAL (Magnetic Resonance Imaging for the fetus) is a painless scan that uses strong magnets and radio waves to create high-resolution images of your unborn baby. Unlike ultrasound, it can reveal fine details of the brain, spine, heart, and other organs.\n\n## Risks & Limitations of the Fetal Ultrasound\n\n- \\*\\*No radiation\\*\\*—proven safe in clinical studies\n- May not be suitable if you have certain metal implants\n- Images can be affected by large maternal body habitus or excessive fetal movement\n\n## List of Parameters Considered During the Fetal Ultrasound:\n\nTechnologists and radiologists at Cadabams Diagnostics review:\n- Brain structure\n- Spine and spinal cord\n- Heart and great vessels\n- Lungs and diaphragm\n- Abdominal organs (liver, kidneys, bowel)\n- Limb development\nEach parameter is measured against gestational-age norms to spot any deviation early.\n\n## Reasons for Taking a Fetal Ultrasound:\n\n- \\*\\*Suspected brain anomalies\\*\\* (e.g., ventriculomegaly)\n- \\*\\*Spine defects\\*\\* (spina bifida)\n- \\*\\*Chest or abdominal masses\\*\\*\n- \\*\\*Placental issues\\*\\* (placenta accreta spectrum, vasa previa)\nEarly detection guides timely delivery planning and neonatal care.\n\n## Benefits of Taking the Test\n\n- \\*\\*High-resolution images\\*\\*—see structures as small as 1 mm\n- \\*\\*No radiation exposure\\*\\*—safe for mother and baby\n- \\*\\*Early detection of anomalies\\*\\*—plan interventions before birth\n- \\*\\*Better planning for delivery\\*\\*—decide on hospital level and neonatal team\n\n## Illnesses Diagnosed with Fetal Ultrasound\n\nCadabams Diagnostics regularly identifies:\n- Neural tube defects\n- Hydrocephalus\n- Congenital heart disease\n- Cleft lip/palate\nTimely diagnosis improves outcomes and helps families prepare emotionally and logistically.\n\n## Preparing for Fetal Ultrasound\n\n### Pre-requisites\n- Recent ultrasound report\n- Fasting 2–4 hours before (if contrast is needed—rarely)\n### Best Time to Take the MRI FETAL\n- \\*\\*Brain or spine:\\*\\* 20–24 weeks\n- \\*\\*Chest or abdomen:\\*\\* 24–32 weeks\n- \\*\\*Late check-up:\\*\\* up to 38 weeks\n### Eligibility\nAny pregnant woman after 18 weeks unless contraindicated by metal implants or claustrophobia.\n### Procedure for Taking a MRI FETAL\n1. Change into MRI-safe gown.\n2. Lie on left side for comfort.\n3. Coil placed over the belly; scan lasts 20–45 minutes.\n4. Mother can listen to music; baby’s heartbeat monitored if needed.\n### Caution Before Taking the Test\nInform staff about:\n- Pacemakers or orthopedic implants\n- Tattoos with metallic ink\n- Kidney issues (if contrast considered)"
+    },
+    {
+      "id": "6736e2f403598b92c151cdc2",
+      "templateName": "non-labtest",
+      "testName": "PREGNANCY FETAL ECHO ULTRASOUND SCAN",
+      "route": "/fetal-interventional-ultrasound-echo",
+      "basic_info": {
+        "name": "PREGNANCY FETAL ECHO ULTRASOUND SCAN",
+        "route": "/fetal-interventional-ultrasound-echo",
+        "categoryId": "671b5102ad9bf8d210384d1e",
+        "price": 3300,
+        "alsoKnownAs": "",
+        "discount": "0",
+        "discountedPrice": "3300.00",
+        "reportsWithin": "",
+        "Identifies": "",
+        "measures": "",
+        "testId": 7770127,
+        "testCategory": "Ultrasonography"
+      },
+      "requisites": [],
+      "interpretations": {
+        "title": "Results and Interpretations ",
+        "cols": [
+          "Finding / Observation",
+          "Description",
+          "General Interpretation / Significance"
+        ],
+        "rows": [
+          [
+            "Normal 4-chamber view",
+            "Balanced heart size",
+            "Low risk for major CH"
+          ],
+          [
+            "Small VSD",
+            "Hole between ventricles",
+            "Often closes before birth; follow-up needed"
+          ],
+          [
+            "Valve stenosis",
+            "Narrowed valve opening",
+            "May need post-delivery intervention"
+          ],
+          [
+            "Irregular rhythm",
+            "Skipped beats",
+            "Usually benign; further monitoring advised"
+          ]
+        ]
+      },
+      "faqs": [
+        {
+          "question": "How long does the scan take?",
+          "answer": "20–45 minutes."
+        },
+        {
+          "question": "Is fetal echo safe for my baby?",
+          "answer": "Yes, ultrasound uses harmless sound waves."
+        },
+        {
+          "question": "When will I get results?",
+          "answer": "Same-day preliminary report; full report within 24 hrs."
+        },
+        {
+          "question": "What if a defect is found?",
+          "answer": "Referral to pediatric cardiologist for management plan."
+        },
+        {
+          "question": "Do I need a full bladder?",
+          "answer": "Moderately full bladder improves image quality."
+        },
+        {
+          "question": "Can I eat before the scan?",
+          "answer": "Yes, no fasting required."
+        }
+      ],
+      "relative_test": {
+        "title": "",
+        "categoryId": "671b5102ad9bf8d210384d1e",
+        "tests": [
+          {
+            "id": "673d8cfdeffae454707e0dab",
+            "testName": "US PREGNANCY TIFFA SCAN / ANOMALY SCAN (LEVEL2)",
+            "route": "/pregnancy-tiffa-anomaly-scan-level-2-ultrasound"
+          },
+          {
+            "id": "673d98ac534c72d341052ae0",
+            "testName": "US PREGNANCY INTERVAL GROWTH SCAN WITH BPP AND DOPPLER",
+            "route": "/pregnancy-interval-growth-scan-with-bpp-and-doppler-ultrasound"
+          },
+          {
+            "id": "673da0cf534c72d341052bb7",
+            "testName": "US PREGNANCY DATING SCAN",
+            "route": "/pregnancy-dating-scan-ultrasound"
+          },
+          {
+            "id": "673daea5534c72d341052c0a",
+            "testName": "US PREGNANCY NT SCAN ( LEVEL 2)",
+            "route": "/nt-scan-level-2-pregnancy-ultrasound"
+          }
+        ]
+      },
+      "seo": {
+        "title": "Pregnancy Fetal Echo Ultrasound: Safe & Accurate",
+        "description": "PREGNANCY FETAL ECHO ULTRASOUND SCAN: Safe, expert-led cardiac screening for your baby at Cadabams. Understand the why, when, and how of the scan.",
+        "keywords": "",
+        "canonicalUrl": "",
+        "ogTitle": "",
+        "ogDescription": "",
+        "ogImage": "",
+        "schemaMarkup": "",
+        "robotsMeta": ""
+      },
+      "markdown": "## Pregnancy Fetal Echo Ultrasound Scan Overview\n\n### Quick snapshot: what the scan checks\n- Size, shape, and structure of the fetal heart\n- Valve motion and blood-flow patterns\n- Heart rhythm and rate for arrhythmias\n### Why Cadabams Diagnostics is trusted for fetal echo\n- \\*\\*Accredited\\*\\* sonographers specialized in fetal cardiology\n- \\*\\*3-D/4-D\\*\\* and \\*\\*Doppler\\*\\* technology for razor-sharp images\n- \\*\\*Same-day preliminary report\\*\\* to reduce waiting stress\n---\n## What is Pregnancy Fetal Echo Ultrasound Scan?\n### Definition & technology used\nA \\*\\*Pregnancy Fetal Echo Ultrasound Scan\\*\\* uses high-frequency sound waves—\\*\\*no radiation\\*\\*—to create real-time pictures of your baby’s heart. The scan is performed \\*\\*trans-abdominally\\*\\*, just like a routine ultrasound.\n### Difference between regular ultrasound and fetal echo\n| Regular Ultrasound | Fetal Echo |\n|--------------------|------------|\n| General anatomy check | \\*\\*Detailed cardiac focus\\*\\* |\n| 15–20 minutes | \\*\\*20–45 minutes\\*\\* |\n| Basic 2-D images | \\*\\*2-D, 3-D/4-D, and Doppler\\*\\* |\n---\n## Types of Pregnancy Fetal Echo Ultrasound Scan\n1. \\*\\*2-D fetal echo\\*\\* – Standard grayscale imaging\n2. \\*\\*3-D/4-D fetal echo\\*\\* – Adds depth and live motion\n3. \\*\\*Doppler fetal echocardiography\\*\\* – Measures blood-flow velocity and direction\n---\n\n## When and Who Needs to Take a Pregnancy Fetal Echo Ultrasound Scan?\n\n- \\*\\*Ideal gestational age:\\*\\* 18–24 weeks\n- \\*\\*High-risk mothers:\\*\\*\n- Pre-existing diabetes\n- Family history of congenital heart disease (CHD)\n- \\*\\*Abnormal routine scan findings\\*\\* that flag possible cardiac issues\n---\n\n## Risks & Limitations of the Pregnancy Fetal Echo Ultrasound Scan\n\n### No radiation, minimal risk\nUltrasound is \\*\\*non-invasive\\*\\* and \\*\\*harmless\\*\\* for both mother and baby.\n### Limitations:\n- \\*\\*Maternal obesity\\*\\* may reduce image clarity\n- \\*\\*Fetal position\\*\\* can obscure certain views\n- \\*\\*Follow-up scans\\*\\* sometimes needed for optimal assessment\n---\n\n## List of Parameters Considered During the Scan\n\n- \\*\\*Heart chambers:\\*\\* size & symmetry\n- \\*\\*Valves:\\*\\* structure & function\n- \\*\\*Blood-flow patterns:\\*\\* direction & velocity\n- \\*\\*Heart rhythm & rate:\\*\\* early arrhythmia detection\n---\n\n## Reasons for Taking a Pregnancy Fetal Echo Ultrasound Scan\n\n- \\*\\*Screen for congenital heart defects\\*\\*\n- \\*\\*Monitor known cardiac anomalies\\*\\*\n- \\*\\*Reassurance for at-risk pregnancies\\*\\*\n---\n\n## Benefits of Taking the Scan\n\n- \\*\\*Early detection\\*\\* enables \\*\\*treatment planning\\*\\* before birth\n- \\*\\*Reduces anxiety\\*\\* with clear, real-time images\n- \\*\\*Guides delivery & neonatal care decisions\\*\\*, including hospital selection and pediatric cardiologist involvement\n---\n\n## Illnesses Diagnosed with Pregnancy Fetal Echo Ultrasound Scan\n\n- \\*\\*Septal defects\\*\\* – ASD, VSD\n- \\*\\*Valve stenosis or atresia\\*\\*\n- \\*\\*Tetralogy of Fallot\\*\\*\n- \\*\\*Arrhythmias\\*\\* – bradycardia, tachycardia, ectopic beats\n---\n\n## Preparing for Pregnancy Fetal Echo Ultrasound Scan\n\n- \\*\\*Wear loose two-piece clothing\\*\\* for easy abdominal access\n- \\*\\*Moderately full bladder\\*\\* improves image quality\n- \\*\\*Bring previous scan reports\\*\\* for comparison\n---\n## Pre-requisites\n- \\*\\*Doctor’s prescription\\*\\* (mandatory)\n- \\*\\*Valid ID & medical records\\*\\*\n- \\*\\*Fasting not required\\*\\* – eat normally\n---\n## Best Time to Take the Scan\n- \\*\\*Optimal window:\\*\\* 18–24 weeks gestation\n- \\*\\*Earlier or later scans\\*\\* ordered if clinically indicated\n---\n## Eligibility\n- \\*\\*Pregnant women at 18+ weeks\\*\\*\n- \\*\\*High-risk cases referred by OB/GYN\\*\\*\n- \\*\\*No upper gestational cut-off\\*\\* for emergency scan\n---\n## Procedure for Taking a Pregnancy Fetal Echo Ultrasound Scan\n1. \\*\\*Step 1:\\*\\* Check-in & ID verification\n2. \\*\\*Step 2:\\*\\* Lie back; gel applied to abdomen\n3. \\*\\*Step 3:\\*\\* 20–45 min of detailed imaging\n4. \\*\\*Step 4:\\*\\* Immediate preliminary feedback from sonographer\n---\n## Caution Before Taking the Test\n- \\*\\*Inform sonographer\\*\\* of allergies to ultrasound gel\n- \\*\\*Mention twin or multiple pregnancies\\*\\* for adjusted protocol\n- \\*\\*Avoid caffeine 2 hrs prior\\*\\* to keep baby calm for clearer images\n---"
+    },
+    {
+      "id": "67371c29996e7737b6f4de55",
+      "templateName": "non-labtest",
+      "testName": "Pregnancy Ultrasound",
+      "route": "/pregnancy-ultrasound",
+      "basic_info": {
+        "name": "Pregnancy Ultrasound",
+        "route": "/pregnancy-ultrasound",
+        "categoryId": "671b5102ad9bf8d210384d1e",
+        "price": "3000",
+        "alsoKnownAs": "",
+        "discount": "0",
+        "discountedPrice": "3000.00",
+        "reportsWithin": "2hrs",
+        "Identifies": "",
+        "measures": "",
+        "testId": ""
+      },
+      "requisites": [],
+      "interpretations": {
+        "title": "Results and Interpretations ",
+        "cols": [
+          " Condition/Findings",
+          "Description",
+          "Interpretation"
+        ],
+        "rows": [
+          [
+            "Normal Findings",
+            "",
+            ""
+          ],
+          [
+            "Fetal heart rate",
+            "100-160 beats per minute",
+            "Normal fetal heart rate"
+          ],
+          [
+            "Fetal movement",
+            "Active movement observed",
+            "Normal fetal movement"
+          ],
+          [
+            "Placental function",
+            "Normal blood flow and thickness",
+            "Normal placental function"
+          ],
+          [
+            "Abnormal Findings",
+            "",
+            ""
+          ],
+          [
+            "Fetal heart rate",
+            "Less than 100 beats per minute",
+            "Abnormal fetal heart rate"
+          ],
+          [
+            "Fetal movement",
+            "Decreased or absent movement",
+            "Abnormal fetal movement"
+          ],
+          [
+            "Placental function",
+            "Abnormal blood flow or thickness",
+            "Abnormal placental function"
+          ]
+        ]
+      },
+      "faqs": [
+        {
+          "question": "Is pregnancy ultrasound safe? ",
+          "answer": "Yes, pregnancy ultrasound is generally safe, although there are some minor risks and limitations."
+        },
+        {
+          "question": "Can pregnancy ultrasound detect all fetal abnormalities? ",
+          "answer": "No, pregnancy ultrasound may not detect all fetal abnormalities, although it can detect many common conditions."
+        },
+        {
+          "question": "Do I need to prepare for the test? ",
+          "answer": "Yes, patients should arrive with a full bladder and wear loose, comfortable clothing."
+        },
+        {
+          "question": "What if I have a multiple pregnancy? ",
+          "answer": "Pregnancy ultrasound can detect multiple pregnancies and assess the growth and development of each fetus."
+        },
+        {
+          "question": "Can I have a pregnancy ultrasound if I have a medical condition? ",
+          "answer": "Yes, although patients with certain medical conditions may need to take precautions or inform their healthcare provider before the test."
+        }
+      ],
+      "relative_test": {
+        "title": "",
+        "categoryId": "671b5102ad9bf8d210384d1e",
+        "tests": [
+          {
+            "id": "6736e08403598b92c151cd9b",
+            "testName": "MRI FETAL",
+            "route": "/fetal-imaging"
+          },
+          {
+            "id": "6736e2f403598b92c151cdc2",
+            "testName": "US PREGNANCY FETAL ECHO",
+            "route": "/fetal-interventional-ultrasound-echo"
+          },
+          {
+            "id": "673d8cfdeffae454707e0dab",
+            "testName": "US PREGNANCY TIFFA SCAN / ANOMALY SCAN (LEVEL2)",
+            "route": "/pregnancy-tiffa-anomaly-scan-level-2-ultrasound"
+          },
+          {
+            "id": "673d98ac534c72d341052ae0",
+            "testName": "US PREGNANCY INTERVAL GROWTH SCAN WITH BPP AND DOPPLER",
+            "route": "/pregnancy-interval-growth-scan-with-bpp-and-doppler-ultrasound"
+          },
+          {
+            "id": "673da0cf534c72d341052bb7",
+            "testName": "US PREGNANCY DATING SCAN",
+            "route": "/pregnancy-dating-scan-ultrasound"
+          },
+          {
+            "id": "673daea5534c72d341052c0a",
+            "testName": "US PREGNANCY NT SCAN ( LEVEL 2)",
+            "route": "/nt-scan-level-2-pregnancy-ultrasound"
+          }
+        ]
+      },
+      "seo": {
+        "title": "Pregnancy Ultrasound in Bangalore | Accurate Pregnancy Scans",
+        "description": "Get reliable pregnancy ultrasounds in Bangalore for tracking fetal health, development, and well-being. Book your scan with expert care today!",
+        "keywords": "",
+        "canonicalUrl": "",
+        "ogTitle": "",
+        "ogDescription": "",
+        "ogImage": "",
+        "schemaMarkup": "",
+        "robotsMeta": ""
+      },
+      "markdown": "## Pregnancy Ultrasound Overview\n\nPregnancy ultrasound, also known as obstetric ultrasound, is a non-invasive medical imaging technique used to visualize the fetus and placenta during pregnancy. This test uses high-frequency sound waves to create images of the internal structures of the uterus and fetus, providing valuable information about fetal development, growth, and overall health. In this page, we will guide you through the basics of pregnancy ultrasound, its uses, risks, and what to expect during the test.\n\n### What is Pregnancy Ultrasound?\n\nPregnancy ultrasound uses a probe called a transducer that sends high-frequency sound waves into the uterus. These sound waves bounce off the internal structures and return to the transducer as echoes, which are then converted into images. This technique allows healthcare professionals to visualize the fetus, placenta, and other internal structures, monitoring fetal growth, development, and detecting any potential issues.\n\n### Types of Pregnancy Ultrasound\n\nThere are several types of pregnancy ultrasound:\n\n**Transvaginal ultrasound:** uses a probe inserted into the vagina to visualize the cervix and lower uterus\n\n**Abdominal ultrasound:** uses a probe placed on the abdomen to visualize the uterus and fetus\n\n**3D and 4D ultrasound:** uses advanced technology to create three-dimensional images and video of the fetus\n\n**Fetal echocardiogram:** uses ultrasound to visualize the fetal heart and detect any cardiac abnormalities\n\n## Risks & Limitations of Pregnancy Ultrasound\n\nWhile pregnancy ultrasound is generally safe, there are some risks and limitations to be aware of:\n\n### Risks:\n\nMild discomfort or pressure during the test\n\nSlight risk of miscarriage or preterm labor (rare)\n\nPotential for false positive or false negative results\n\n### Limitations:\n\nDiagnostic accuracy may vary depending on the gestational age and fetal position\n\nMay not detect all fetal abnormalities or complications\n\n## List of Parameters Considered During Pregnancy Ultrasound\n\nDuring pregnancy ultrasound, healthcare professionals look for:\n\n- Fetal growth and development\n- Fetal movement and activity\n- Placental function and blood flow\n- Amniotic fluid levels\n- Uterine and cervical abnormalities\n\n## Reasons for Taking a Pregnancy Ultrasound\n\nPregnancy ultrasound is typically prescribed to:\n\n- Confirm pregnancy and determine the due date\n- Detect fetal abnormalities or complications\n- Monitor fetal growth and development\n- Detect placental or uterine abnormalities\n- Guide procedures such as amniocentesis or chorionic villus sampling\n\n## Benefits of Taking the Test\n\nThe benefits of pregnancy ultrasound include:\n\n- Accurate determination of gestational age and due date\n- Detection of fetal abnormalities or complications\n- Monitoring of fetal growth and development\n- Reduced risk of complications and improved pregnancy outcomes\n\n## Illnesses Diagnosed with Pregnancy Ultrasound\n\nPregnancy ultrasound can diagnose a range of conditions, including:\n\n- Fetal abnormalities (e.g., heart defects, neural tube defects)\n- Placental abnormalities (e.g., placenta previa, placental abruption)\n- Uterine abnormalities (e.g., fibroids, uterine anomalies)\n- Amniotic fluid abnormalities (e.g., oligohydramnios, polyhydramnios)\n\n## Preparing for Pregnancy Ultrasound\n\nBefore the test, patients should:\n\n- Arrive with a full bladder (for abdominal ultrasound)\n- Wear loose, comfortable clothing\n- Remove any abdominal piercings or jewelry\n- Bring any relevant medical records or test results\n\n### Pre-requisites\n\nThere are no specific pre-requisites for pregnancy ultrasound, although patients may be asked to:\n\n- Avoid eating a large meal before the test\n- Avoid smoking or caffeine before the test\n\n### Best Time to Take the Pregnancy Ultrasound\n\nPregnancy ultrasound can be performed at any time during pregnancy, although the optimal time may vary depending on the specific indication.\n\n### Eligibility\n\nPregnancy ultrasound is generally recommended for all pregnant women, although some women may not need the test if they have a low-risk pregnancy.\n\n### Procedure for Taking a Pregnancy Ultrasound\n\nThe test typically takes 30-60 minutes and involves the following steps:\n\n**1. Preparation:** the patient is positioned on an examination table and a gel is applied to the abdomen (for abdominal ultrasound)\n\n**2. Probe placement:** the transducer is placed on the abdomen or inserted into the vagina (for transvaginal ultrasound)\n\n**3. Image acquisition:** the transducer sends sound waves into the uterus and captures images of the fetus and internal structures\n\n**4. Image analysis:** the healthcare professional analyzes the images and makes any necessary measurements\n\n### Caution Before Taking the Test\n\nPatients should inform their healthcare provider if they have any medical conditions, such as:\n\n- Fever or infection\n- Vaginal bleeding or spotting\n- Abdominal pain or discomfort\n- History of miscarriage or preterm labor"
+    },
+    {
+      "id": "673d8cfdeffae454707e0dab",
+      "templateName": "non-labtest",
+      "testName": "PREGNANCY TIFFA/ANOMALY (LEVEL 2) ULTRASOUND SCAN",
+      "route": "/pregnancy-tiffa-anomaly-scan-level-2-ultrasound",
+      "basic_info": {
+        "name": "PREGNANCY TIFFA/ANOMALY (LEVEL 2) ULTRASOUND SCAN",
+        "route": "/pregnancy-tiffa-anomaly-scan-level-2-ultrasound",
+        "categoryId": "671b5102ad9bf8d210384d1c",
+        "price": 3100,
+        "alsoKnownAs": "",
+        "discount": "0",
+        "discountedPrice": "3100.00",
+        "reportsWithin": "3hrs",
+        "Identifies": "",
+        "measures": "",
+        "testId": 7770108,
+        "testCategory": "Ultrasonography"
+      },
+      "requisites": [],
+      "interpretations": {
+        "title": "Results and Interpretation ",
+        "cols": [
+          "Finding / Observation",
+          "Description ",
+          "General Interpretation / Significance"
+        ],
+        "rows": [
+          [
+            "Normal 4-chamber heart",
+            "All chambers equal size, valves opening",
+            "Rules out major congenital heart defects"
+          ],
+          [
+            "Choroid plexus cyst",
+            "Small fluid-filled spaces in brain",
+            "Usually resolves; follow-up advised"
+          ],
+          [
+            "Low-lying placenta",
+            "Placenta edge < 2 cm from cervix",
+            "Often migrates upward; repeat scan at 32 weeks"
+          ],
+          [
+            "Short femur length",
+            "Below 5th percentile for gestation",
+            "May indicate growth restriction or skeletal dysplasia"
+          ],
+          [
+            "",
+            "",
+            ""
+          ]
+        ]
+      },
+      "faqs": [
+        {
+          "question": "Is the TIFFA scan painful?",
+          "answer": "No, it’s non-invasive and painless."
+        },
+        {
+          "question": "Do I need to fast?",
+          "answer": "Fasting is not required; feel free to have a light meal."
+        },
+        {
+          "question": "Can the scan detect all birth defects?",
+          "answer": "It detects most major structural anomalies; subtle issues may need additional tests."
+        },
+        {
+          "question": "What if my baby is in a bad position?",
+          "answer": "The sonographer may ask you to walk, sip juice, or return another day."
+        },
+        {
+          "question": "Is 3D/4D better than 2D for anomalies?",
+          "answer": "2D remains the gold standard; 3D/4D improves parental bonding views."
+        },
+        {
+          "question": "Cost range and insurance coverage?",
+          "answer": "Cadabams offers competitive pricing; many insurers cover the scan—check with our front desk for cashless approval."
+        }
+      ],
+      "relative_test": {
+        "title": "",
+        "categoryId": "671b5102ad9bf8d210384d1e",
+        "tests": [
+          {
+            "id": "6736e08403598b92c151cd9b",
+            "testName": "Fetal Imaging",
+            "route": "/fetal-imaging"
+          },
+          {
+            "id": "6736e2f403598b92c151cdc2",
+            "testName": " Fetal Interventional Services ",
+            "route": "/fetal-interventional"
+          },
+          {
+            "id": "67371c29996e7737b6f4de55",
+            "testName": "Pregnancy Ultrasound",
+            "route": "/pregnancy-ultrasound"
+          }
+        ]
+      },
+      "seo": {
+        "title": "Pregnancy TIFFA/Anomaly (Level 2) Ultrasound at Cadabams",
+        "description": "The TIFFA scan at 18–22 weeks helps detect fetal anomalies early for safer pregnancy care. Book your Level 2 ultrasound at Cadabams Diagnostics.",
+        "keywords": "",
+        "canonicalUrl": "",
+        "ogTitle": "",
+        "ogDescription": "",
+        "ogImage": "",
+        "schemaMarkup": "",
+        "robotsMeta": ""
+      },
+      "markdown": "## Pregnancy TIFFA/Anomaly (Level 2) Ultrasound Scan Overview\n\n### Why this scan is a crucial milestone in pregnancy\n- Detects up to 80 % of major structural birth defects.\n- Offers the clearest view of your baby’s brain, heart, spine, and limbs.\n- Helps your obstetrician plan any special care you or your baby may need.\n### Quick facts and key takeaways\n- \\*\\*When\\*\\*: 18–22 weeks (best at 20 weeks).\n- \\*\\*Duration\\*\\*: 30–45 minutes.\n- \\*\\*Safety\\*\\*: No radiation; no known risks.\n- \\*\\*Results\\*\\*: Same-day digital report and images.\n## What is Pregnancy TIFFA/Anomaly (Level 2) Ultrasound Scan?\n### TIFFA acronym explained: Targeted Imaging for Fetal Anomalies\nTIFFA isn’t just another scan—it’s a \\*\\*targeted, head-to-toe survey\\*\\* of every organ system to rule out or confirm anomalies.\n### Difference between level 1 and level 2 ultrasound\n| Level 1 (Basic) | Level 2 (TIFFA) |\n|-----------------|-----------------|\n| Growth, heartbeat, position | Detailed anatomy of brain, heart, limbs, spine |\n| 15–20 minutes | 30–45 minutes |\n| Routine screening | In-depth anomaly detection |\n### How 2D, 3D and color Doppler enhance the scan\n- \\*\\*2D\\*\\*: Gold-standard diagnostic images.\n- \\*\\*3D/4D\\*\\*: Surface rendering for clearer facial views and parental bonding.\n- \\*\\*Color Doppler\\*\\*: Evaluates blood flow in umbilical cord, heart, and brain.\n## Types of Pregnancy TIFFA/Anomaly (Level 2) Ultrasound Scan\n### Transabdominal standard TIFFA\nMost common approach; gel on the belly, painless probe movements.\n### Transvaginal TIFFA (if better resolution required)\nOccasionally used for very detailed brain or cervical assessment—always with consent.\n### 3D/4D add-on enhancements\nOptional yet popular; ideal for family keepsake images without compromising diagnostic accuracy.\n\n## When and Who Needs to Take a Pregnancy TIFFA/Anomaly (Level 2) Ultrasound Scan?\n\n### Ideal gestational age: 18–22 weeks (optimal 20 weeks)\nAt this stage, your baby is large enough for detail but still surrounded by enough fluid for clear views.\n### High-risk maternal or family history indications\n- Advanced maternal age (≥ 35 years).\n- Family history of congenital anomalies.\n- Pre-existing diabetes or hypertension.\n### Multiple pregnancy considerations\nTwins or triplets require extra time and expertise; Cadabams’ sonographers are specially trained for multi-fetal scans.\n\n## Risks & Limitations of the Pregnancy TIFFA/Anomaly (Level 2) Ultrasound Scan\n\n### No known harm: ultrasound safety profile\nExtensive research shows \\*\\*no harmful effects\\*\\* to mother or baby.\n### Limitations\n- \\*\\*Maternal obesity\\*\\* can reduce image clarity.\n- \\*\\*Fetal position\\*\\* may hide certain structures.\n- \\*\\*Equipment quality\\*\\* matters—Cadabams uses high-resolution machines to minimise these issues.\n### When additional genetic tests may still be needed\nSoft markers or inconclusive findings may prompt \\*\\*NIPT, amniocentesis, or repeat imaging\\*\\*.\n\n## List of Parameters Considered During the Scan\n\n- \\*\\*Brain\\*\\*: ventricles, posterior fossa, corpus callosum\n- \\*\\*Face\\*\\*: lips, palate, nasal bone\n- \\*\\*Heart\\*\\*: 4-chamber view, outflow tracts, septa\n- \\*\\*Spine\\*\\*: integrity and curvature\n- \\*\\*Abdomen\\*\\*: stomach, kidneys, bladder, cord insertion\n- \\*\\*Limbs\\*\\*: long bones, digits\n- \\*\\*Placenta\\*\\*: position, maturity, Doppler flows\n- \\*\\*Amniotic fluid volume assessment\\*\\*\n\n## Reasons for Taking a Pregnancy TIFFA/Anomaly (Level 2) Ultrasound Scan\n\n- Identify structural birth defects early.\n- Check fetal growth against gestational age.\n- Guide further invasive or non-invasive testing decisions.\n\n## Benefits of Taking the Scan\n\n- \\*\\*Early reassurance\\*\\* or timely intervention if needed.\n- \\*\\*Birth planning\\*\\* for specialized delivery or neonatal care.\n- \\*\\*Parental psychological preparedness\\*\\*—knowing what to expect.\n\n## Illnesses Diagnosed with the Scan\n\n- Neural tube defects (spina bifida, anencephaly)\n- Congenital heart disease\n- Cleft lip/palate\n- Renal agenesis or obstruction\n- Skeletal dysplasias\n\n## Preparing for Pregnancy TIFFA/Anomaly (Level 2) Ultrasound Scan\n\n- \\*\\*Hydration\\*\\*: Drink 500 ml water 30 minutes prior (full bladder may be required).\n- \\*\\*Clothing\\*\\*: Wear a loose 2-piece outfit for easy abdomen access.\n- \\*\\*Carry\\*\\*: Previous scan reports and obstetric notes.\n## Prerequisites\n- Referral from obstetrician.\n- Confirmed gestational age via earlier dating scan.\n## Best Time to Take the Scan\n- Window \\*\\*18–22 weeks\\*\\* for highest diagnostic accuracy.\n- Avoid after 24 weeks—structures become less visible due to ossification.\n## Eligibility\n- \\*\\*All pregnant women\\*\\* as routine antenatal care.\n- Higher priority for AMA (>35 yrs), diabetes, previous anomaly.\n## Procedure at Cadabams Diagnostics\n1. \\*\\*Check-in & verification\\*\\* of identity.\n2. Lie on scan couch, gel applied to abdomen.\n3. \\*\\*Duration\\*\\*: 30–45 minutes depending on fetal cooperation.\n4. \\*\\*Real-time discussion\\*\\* of findings with radiologist.\n## Caution Before Taking the Test\n- Inform sonographer of any implanted devices or scars.\n- Report vaginal bleeding or pain immediately."
+    },
+    {
+      "id": "673d98ac534c72d341052ae0",
+      "templateName": "non-labtest",
+      "testName": "PREGNANCY INTERVAL GROWTH SCAN WITH BPP & DOPPLER ULTRASOUND SCAN ",
+      "route": "/pregnancy-interval-growth-scan-with-bpp-and-doppler-ultrasound",
+      "basic_info": {
+        "name": "PREGNANCY INTERVAL GROWTH SCAN WITH BPP & DOPPLER ULTRASOUND SCAN ",
+        "route": "/pregnancy-interval-growth-scan-with-bpp-and-doppler-ultrasound",
+        "categoryId": "671b5102ad9bf8d210384d1c",
+        "price": 1900,
+        "alsoKnownAs": "",
+        "discount": "0",
+        "discountedPrice": "1900.00",
+        "reportsWithin": "6 hrs",
+        "Identifies": "",
+        "measures": "",
+        "testId": 7770106,
+        "testCategory": "Ultrasonography"
+      },
+      "requisites": [],
+      "interpretations": {
+        "title": "Results and Interpretations ",
+        "cols": [
+          "Finding / Observation",
+          "Description",
+          "General Interpretation / Significance"
+        ],
+        "rows": [
+          [
+            "BPP Score 8–10",
+            "All parameters normal",
+            "Reassuring fetal well-being"
+          ],
+          [
+            "BPP Score 6",
+            "One parameter borderline",
+            "Repeat within 24 hours or deliver if ≥37 weeks"
+          ],
+          [
+            "Umbilical artery PI >95th centile",
+            "High resistance",
+            "Possible placental insufficiency"
+          ],
+          [
+            "MCA PI <5th centile",
+            "Brain-sparing effect",
+            "Sign of fetal compromise"
+          ],
+          [
+            "AFI <5 cm",
+            "Oligohydramnios",
+            "Consider further investigation or delivery"
+          ]
+        ]
+      },
+      "faqs": [
+        {
+          "question": "How long does the scan take?",
+          "answer": "~45 minutes including report discussion."
+        },
+        {
+          "question": "Is fasting required",
+          "answer": "No, eat normally; a light snack helps fetal activity."
+        },
+        {
+          "question": "When will I get the report?",
+          "answer": "Immediately after the scan; digital copy also available."
+        },
+        {
+          "question": "Can I bring a companion?",
+          "answer": "Yes, one adult family member is welcome."
+        },
+        {
+          "question": "Does insurance cover the scan",
+          "answer": "Most maternity packages include this test—verify at Cadabams front desk."
+        }
+      ],
+      "relative_test": {
+        "title": "",
+        "categoryId": "671b5102ad9bf8d210384d1c",
+        "tests": [
+          {
+            "id": "6735e71803598b92c151c9f2",
+            "testName": "US GUIDED BREAST BIOPSY",
+            "route": "/breast-biopsy-scan"
+          },
+          {
+            "id": "6736ed7d03598b92c151ce21",
+            "testName": "US PENILE DOPPLER WITH TABLET/INJECTION",
+            "route": "/penile-doppler-ultrasound-scan"
+          },
+          {
+            "id": "6736f1c103598b92c151ce6f",
+            "testName": "US BREAST",
+            "route": "/sonomammography-ultrasound-scan"
+          },
+          {
+            "id": "6736f48703598b92c151cf12",
+            "testName": "US THYROID ELASTOGRAPHY",
+            "route": "/thyroid-scan"
+          },
+          {
+            "id": "6736fdc303598b92c151d13e",
+            "testName": "ECHO",
+            "route": "/echocardiogram-testing"
+          },
+          {
+            "id": "673712ef996e7737b6f4dd40",
+            "testName": "US ELASTOGRAPHY",
+            "route": "/elastography-ultrasound-test"
+          },
+          {
+            "id": "673724eb996e7737b6f4dfbc",
+            "testName": "US SCROTUM ",
+            "route": "/testis-ultrasound-scan"
+          },
+          {
+            "id": "673729fa996e7737b6f4e0f3",
+            "testName": "US PELVIS (TVS)",
+            "route": "/ultrasound-of-transvaginal-scan-tvs"
+          },
+          {
+            "id": "67373672996e7737b6f4e274",
+            "testName": "US ABDOMEN - PELVIS",
+            "route": "/abdomen-and-pelvis-ultrasound-scans"
+          },
+          {
+            "id": "673c56c5effae454707dfe68",
+            "testName": "US ABDOMEN -PELVIS TVS",
+            "route": "/abdominal-ultrasound"
+          },
+          {
+            "id": "673c8097effae454707e01a3",
+            "testName": "US PELVIS",
+            "route": "/pelvis-ultrasound"
+          },
+          {
+            "id": "6799e782bf2a88a244a69719",
+            "testName": "US SONOFISTULOGRAM",
+            "route": "/sonofistulogram-ultrasound-scan"
+          },
+          {
+            "id": "679b3aecbf2a88a244a6b50a",
+            "testName": "VENOUS DOPPLER STUDY OF BILATERAL LOWER LIMB",
+            "route": "/venous-doppler-study-ultrasound-scan"
+          },
+          {
+            "id": "679b3cd2bf2a88a244a6b525",
+            "testName": "US PREGNANCY GROWTH SCAN WITH BPP DOPPLER*",
+            "route": "/pregnancy-growth-scan-ultrasound-scan"
+          },
+          {
+            "id": "679b4c54bf2a88a244a6b708",
+            "testName": "TMT",
+            "route": "/treadmill-ultrasound-scan"
+          },
+          {
+            "id": "679c74afbf2a88a244a6ed60",
+            "testName": "ULTRASOUND OF NECK",
+            "route": "/neck-ultrasound-scan"
+          },
+          {
+            "id": "679c86b9bf2a88a244a6f03a",
+            "testName": "ULTRASOUND GROWTH SCAN",
+            "route": "/growth-scan-ultrasound"
+          },
+          {
+            "id": "67a0bafcbf2a88a244a77549",
+            "testName": "ULTRASOUND OF EARLY PREGNANCY SCAN",
+            "route": "/early-pregnancy-ultrasound-scan"
+          },
+          {
+            "id": "67a1b8d727567f98e56d25af",
+            "testName": "US DOPPLER VENOUS LOWER LIMB - LEFT",
+            "route": "/doppler-venous-left-lower-limb-ultrasound"
+          },
+          {
+            "id": "67a1bbb227567f98e56d2679",
+            "testName": "US THYROID/NECK",
+            "route": "/thyroid-neck-ultrasound-scan"
+          },
+          {
+            "id": "67a1ca5f27567f98e56d2be6",
+            "testName": "VENOUS COLOUR DOPPLER",
+            "route": "/venous-colour-doppler-ultrasound-scan"
+          },
+          {
+            "id": "67a1d39b27567f98e56d2cac",
+            "testName": "US SOFT TISSUE SCAN ",
+            "route": "/soft-tissue-ultrasound-scan"
+          },
+          {
+            "id": "67a1d50627567f98e56d2cc7",
+            "testName": "ARTERIAL COLOUR DOPPLER",
+            "route": "/arterial-colour-doppler-ultrasound-scan"
+          },
+          {
+            "id": "67a9acd8a45909fb1bd0f97d",
+            "testName": "FOLLICULAR STUDY",
+            "route": "/follicular-study-ultrasound-scan"
+          },
+          {
+            "id": "67a9b364a45909fb1bd0fa5d",
+            "testName": "US SMALL PARTS",
+            "route": "/small-parts-ultrasound-scan"
+          },
+          {
+            "id": "67ac7bbba45909fb1bd13977",
+            "testName": "US PREGNANCY INTERVAL GROWTH SCAN - TWINS",
+            "route": "/pregnancy-intereval-growth-ultrasound-scan"
+          },
+          {
+            "id": "67ac8481a45909fb1bd13c0b",
+            "testName": "TRANSRECTAL ULTRASONOGRAPHY (TRUSS)",
+            "route": "/transrectal-ultrasound-scan"
+          },
+          {
+            "id": "67ac8549a45909fb1bd13c27",
+            "testName": "US GUIDED FNAC",
+            "route": "/guided-fnac-ultrasound-scan"
+          },
+          {
+            "id": "67ad9898a45909fb1bd15570",
+            "testName": "US DOPPLER VENOUS LOWER LIMB - BOTH",
+            "route": "/doppler-venous-lower-limb-ultrasound-scan"
+          },
+          {
+            "id": "67af2565a45909fb1bd1843d",
+            "testName": "CAROTID DOPPLER",
+            "route": "/carotid-doppler-ultrasound-scan"
+          },
+          {
+            "id": "67af28aca45909fb1bd184fd",
+            "testName": "US DOPPLER - CAROTID & VERTEBRAL ",
+            "route": "/doppler-carotid-and-vertebral-ultrasound-scan"
+          },
+          {
+            "id": "67b2f5b4a45909fb1bd1de00",
+            "testName": "US PELVIS SPECIAL STUDY",
+            "route": "/pelvis-special-study-ultrasound-scan"
+          },
+          {
+            "id": "67b4727da45909fb1bd20f21",
+            "testName": "COLOUR DOPPLER RENAL ARTERIES / ANY OTHER ORGAN",
+            "route": "/colour-doppler-renal-arteries-ultrasound-scan"
+          },
+          {
+            "id": "67b8383fa45909fb1bd280e9",
+            "testName": "OBSTETRIC SCAN FOR BIOPHYSICAL PROFILE (BPP)",
+            "route": "/obstetric-biophysical-profile-ultrasound-scan"
+          },
+          {
+            "id": "67bde09a16444f3c114dbe00",
+            "testName": "US DOPPLER ARTERIAL LOWER LIMB - LEFT",
+            "route": "/doppler-arterial-lower-limb-left-ultrasound-scan"
+          },
+          {
+            "id": "67bde36416444f3c114dbe1f",
+            "testName": "US DOPPLER AVF",
+            "route": "/doppler-avf-ultrasound-scan"
+          },
+          {
+            "id": "67c02bb116444f3c114df7ca",
+            "testName": "DOPPLER STUDY OF SCROTUM",
+            "route": "/doppler-study-of-scrotum-ultrasound-scan"
+          },
+          {
+            "id": "67e681b516444f3c11523ebd",
+            "testName": "US FOLLICULAR FOLLOWUP",
+            "route": "/follicular-follow-up-ultrasound-scan"
+          },
+          {
+            "id": "67e683d116444f3c11523f51",
+            "testName": "US DATING TVS SCAN",
+            "route": "/dating-transvaginal-scanning-tvs-ultrasound-scan"
+          },
+          {
+            "id": "67e6860a16444f3c11523fba",
+            "testName": "ULTRASOUND OF BOTH BREASTS",
+            "route": "/both-breasts-ultrasound-scan"
+          },
+          {
+            "id": "67e687e216444f3c11523fea",
+            "testName": "US SHORT SCAN",
+            "route": "/short-ultrasound-scan"
+          },
+          {
+            "id": "67e68a0b16444f3c1152404b",
+            "testName": "OBSTETRIC FETAL DOPPLER",
+            "route": "/obstetric-foetal-doppler-ultrasound-scan"
+          },
+          {
+            "id": "67e68c2616444f3c11524084",
+            "testName": "US PELVIS 3D ",
+            "route": "/pelvis-3d-ultrasound-scan"
+          },
+          {
+            "id": "67ec0ec816444f3c1152e4c9",
+            "testName": "US DOPPLER VENOUS LOWER LIMB - RIGHT",
+            "route": "/doppler-venous-right-lower-limb-ultrasound-scan"
+          },
+          {
+            "id": "67ec11d316444f3c1152e589",
+            "testName": "US PREGNANCY NT SCAN - TWINS",
+            "route": "/pregnancy-nt-scan-twins-ultrasound-scan"
+          },
+          {
+            "id": "67ec146216444f3c1152e5c4",
+            "testName": "US DOPPLER VENOUS UPPER LIMB - BOTH",
+            "route": "/doppler-venous-upper-limb-ultrasound-scan"
+          },
+          {
+            "id": "67ec16d516444f3c1152e5e9",
+            "testName": "US BREAST SINGLE ",
+            "route": "/single-breast-ultrasound-scan"
+          },
+          {
+            "id": "67edff4416444f3c115312af",
+            "testName": "US TVS - ADDITIONAL CHARGES",
+            "route": "/tvs-additional-charges-ultrasound-scan"
+          },
+          {
+            "id": "67ee037416444f3c115312ee",
+            "testName": "US DOPPLER ABDOMEN",
+            "route": "/abdomen-doppler-ultrasound-scan"
+          },
+          {
+            "id": "67f3e8de16444f3c1153ae09",
+            "testName": "US DOPPLER ARTERIAL LOWER LIMB - RIGHT",
+            "route": "/doppler-arterial-lower-limb-right-ultrasound-scan"
+          },
+          {
+            "id": "680b8c9416444f3c11568f64",
+            "testName": "US RENAL DOPPLER",
+            "route": "/renal-doppler-ultrasound-scan"
+          },
+          {
+            "id": "680b9df916444f3c115691a7",
+            "testName": "US NEURO SONOGRAM",
+            "route": "/nuero-sonogram-ultrasound-scan"
+          },
+          {
+            "id": "680ba19b16444f3c11569206",
+            "testName": "US PREGNANCY TIFFA SCAN - TWINS - LEVEL 2",
+            "route": "/pregnancy-tiffa-twin-ultrasound-scan"
+          },
+          {
+            "id": "680ba4d516444f3c11569288",
+            "testName": "US GUIDED BIOPSY",
+            "route": "/guided-biopsy-ultrasound-scan"
+          },
+          {
+            "id": "680f3e8f16444f3c1156f68a",
+            "testName": "US PREGNANCY AMNIOCENTESIS",
+            "route": "/pregnanacy-amniocentesis-ultrasound-scan"
+          },
+          {
+            "id": "6841615116444f3c115dc079",
+            "testName": "ULTRASOUND OF TRANSVAGINAL SCAN (TVS)",
+            "route": "/ttsound"
+          },
+          {
+            "id": "684a89e316444f3c115f11be",
+            "testName": "ULTRASOUND OF CHEST",
+            "route": "/chest-ultrasound-scan"
+          },
+          {
+            "id": "684a8ed016444f3c115f141c",
+            "testName": "USG MSK GUIDED INJECTION 1",
+            "route": "/musculoskeletal-guided-injection-1-ultrasound-scan"
+          }
+        ]
+      },
+      "seo": {
+        "title": "Pregnancy Interval Growth Scan with BPP & Doppler at Cadabams",
+        "description": "Pregnancy Growth Scan (with BPP & Doppler): Vital for monitoring fetal growth, procedure details, and benefits explained. Expert care at Cadabams.",
+        "keywords": "",
+        "canonicalUrl": "",
+        "ogTitle": "",
+        "ogDescription": "",
+        "ogImage": "",
+        "schemaMarkup": "",
+        "robotsMeta": ""
+      },
+      "markdown": "## Pregnancy Interval Growth Scan with BPP & Doppler Ultrasound Scan Overview\n\n### Purpose of the Scan\nThe \\*\\*Pregnancy Interval Growth Scan with BPP & Doppler Ultrasound Scan\\*\\* is a specialised third-trimester ultrasound that tracks your baby’s growth velocity, checks the placenta’s efficiency, and evaluates blood flow to and from the baby.\n### Key Benefits for Mother and Baby\n\\* Confirms adequate fetal oxygenation and nutrient supply\n\\* Detects early signs of growth restriction or placental insufficiency\n\\* Guides timely medical intervention to lower stillbirth risk\n\\* Provides reassurance to expectant parents with detailed visual feedback\n---\n## What Is Pregnancy Interval Growth Scan with BPP & Doppler Ultrasound Scan?\n### Understanding the Biophysical Profile (BPP)\nThe \\*\\*Biophysical Profile\\*\\* is a 30-minute, non-invasive test that scores five vital fetal behaviours:\n| Parameter | Points | Normal Range |\n|---------------------------|--------|--------------|\n| Breathing movements | 0–2 | ≥1 episode ≥30 sec |\n| Gross body movements | 0–2 | ≥3 discrete movements |\n| Fetal tone | 0–2 | ≥1 extension-flexion |\n| Amniotic fluid index (AFI)| 0–2 | ≥8 cm |\n| Non-stress test (NST)\\* | 0–2 | Reactive |\n\\*Added if clinically required.\n### Role of Doppler Ultrasound in Pregnancy\nDoppler \\*\\*measures blood-flow velocity\\*\\* in the umbilical artery and, when needed, the \\*\\*middle cerebral artery (MCA)\\*\\*. This reveals whether the baby is compensating for reduced placental function by redistributing blood flow.\n### Difference Between Routine Growth Scan and BPP+Doppler\n- \\*\\*Routine growth scan\\*\\*: Assesses size, weight, and amniotic fluid only.\n- \\*\\*Pregnancy interval growth scan with BPP & Doppler ultrasound scan\\*\\*: Adds functional evaluation of placental efficiency and fetal oxygenation.\n---\n## Types of Scans Available at Cadabams Diagnostics\n| Type | Technology Highlights | When to Choose |\n|----------------------|------------------------------------|----------------|\n| Standard 2D BPP & Doppler | Reliable, quick, insurance-covered | Routine care |\n| 3D/4D BPP Doppler add-on | Real-time 3D fetal face & body | Extra bonding & souvenir images\\* |\n\\*Optional add-on, additional charge applies.\n---\n\n## When and Who Needs the Scan?\n\n### Recommended Gestational Weeks\n- \\*\\*28–40 weeks\\*\\*: Standard interval scan every 3–4 weeks.\n- \\*\\*Weekly or bi-weekly\\*\\*: If intrauterine growth restriction (IUGR) or placental issues are suspected.\n### High-Risk Pregnancy Indicators\n\\* Diabetes, hypertension, or pre-eclampsia\n\\* Previous IUGR or stillbirth\n\\* Decreased fetal movements\n\\* Abnormal fundal height curve\n\\* Twin or multiple pregnancy\n### Doctor Referral Criteria\nAny consultant obstetrician or gynaecologist can refer. Bring your pregnancy notes and any previous scan reports.\n---\n\n## Risks & Limitations\n\n- \\*\\*Safety\\*\\*: Ultrasound uses \\*\\*no radiation\\*\\*; hundred-thousand-plus scans show no harmful effects.\n- \\*\\*Limitations\\*\\*:\n\\* Maternal obesity may reduce image clarity.\n\\* Severe oligohydramnios can obscure some views.\n---\n\n## Parameters Assessed During the Scan\n\n- \\*\\*Fetal breathing movements\\*\\*\n- \\*\\*Gross body movements\\*\\*\n- \\*\\*Fetal tone\\*\\*\n- \\*\\*Amniotic Fluid Index (AFI)\\*\\*\n- \\*\\*Umbilical Artery Doppler\\*\\*\n- \\*\\*Middle Cerebral Artery Doppler (if clinically indicated)\\*\\*\n---\n\n## Reasons for Taking the Scan\n\n- Monitor \\*\\*fetal growth velocity\\*\\*\n- Evaluate \\*\\*placental function\\*\\*\n- Assess \\*\\*fetal oxygenation status\\*\\*\n---\n\n## Benefits of Taking the Scan\n\n- \\*\\*Early detection\\*\\* of IUGR\n- \\*\\*Timely intervention\\*\\* (e.g., delivery planning, steroid administration)\n- \\*\\*Reassurance\\*\\* when results are normal\n---\n\n## Illnesses Diagnosed\n\n| Illness/Observation | Significance |\n|----------------------------------|--------------|\n| Intrauterine Growth Restriction (IUGR) | Fails to meet growth potential |\n| Placental insufficiency | Inadequate nutrient/oxygen transfer |\n| Oligohydramnios / Polyhydramnios | Abnormal fluid volume |\n| Abnormal fetal blood flow | Indicates fetal compromise |\n---\n\n## Preparing for Your Visit\n\n- \\*\\*Wear loose clothing\\*\\* for easy abdominal access.\n- \\*\\*Bring prior scan reports\\*\\* for comparison.\n- \\*\\*Have a light snack or juice\\*\\* 20 min before to encourage fetal activity.\n---\n## Prerequisites\n- Signed referral from your obstetrician\n- Valid pregnancy notes or maternity booklet\n---\n## Best Time to Schedule\n- \\*\\*Optimal\\*\\*: 28–36 weeks for interval growth pattern.\n- \\*\\*Follow-up\\*\\*: Weekly or bi-weekly if IUGR suspected.\n---\n## Eligibility\n- All pregnant women \\*\\*≥28 weeks gestation\\*\\*\n- Especially recommended for \\*\\*high-risk pregnancies\\*\\*\n---\n## Step-by-Step Procedure\n1. \\*\\*Check-in & ID verification\\*\\* at Cadabams Diagnostics reception\n2. \\*\\*Ultrasound gel\\*\\* applied to abdomen\n3. \\*\\*BPP scoring\\*\\* over ~30 minutes\n4. \\*\\*Doppler measurements\\*\\* (umbilical & MCA) in 10–15 minutes\n5. \\*\\*Report printed\\*\\* and explained by the sonographer; digital copy sent via email/SMS\n---\n## Caution Before the Scan\n- Inform your sonographer of \\*\\*latex allergy\\*\\*\n- Report any \\*\\*vaginal bleeding or ruptured membranes\\*\\*\n---"
+    },
+    {
+      "id": "673da0cf534c72d341052bb7",
+      "templateName": "non-labtest",
+      "testName": "PREGNANCY DATING ULTRASOUND SCAN",
+      "route": "/pregnancy-dating-scan-ultrasound",
+      "basic_info": {
+        "name": "PREGNANCY DATING ULTRASOUND SCAN",
+        "route": "/pregnancy-dating-scan-ultrasound",
+        "categoryId": "671b5102ad9bf8d210384d1e",
+        "price": 1250,
+        "alsoKnownAs": "",
+        "discount": "0",
+        "discountedPrice": "1250.00",
+        "reportsWithin": "3hrs",
+        "Identifies": "",
+        "measures": "",
+        "testId": 7770115,
+        "testCategory": "Ultrasonography"
+      },
+      "requisites": [],
+      "interpretations": {
+        "title": "Results and Interpretations ",
+        "cols": [
+          "Finding / Observation",
+          "Description",
+          "General Interpretation / Significance"
+        ],
+        "rows": [
+          [
+            "CRL 10 mm",
+            "Crown-rump length measured",
+            "7 weeks 0 days gestation – normal"
+          ],
+          [
+            "Gestational sac 25 mm",
+            "Intrauterine circular sac visible",
+            "Consistent with 7 weeks"
+          ],
+          [
+            "Yolk sac 3 mm",
+            "Small circle inside sac",
+            "Healthy early pregnancy"
+          ],
+          [
+            "Heart rate 110 bpm",
+            "Flickering seen on screen",
+            "Normal for 6–7 weeks"
+          ],
+          [
+            "Empty sac ≥25 mm",
+            "No embryo or yolk sac",
+            "Possible miscarriage—follow-up scan advised"
+          ]
+        ]
+      },
+      "faqs": [
+        {
+          "question": "Is the scan painful?",
+          "answer": "Most women feel only mild pressure; transvaginal scans are quick and well-tolerated."
+        },
+        {
+          "question": "Can I bring my partner?",
+          "answer": "Absolutely—our ultrasound suites accommodate two guests comfortably."
+        },
+        {
+          "question": "What if no heartbeat is seen?",
+          "answer": "It may simply be too early. A repeat scan in one week is usually recommended."
+        },
+        {
+          "question": "How accurate is the estimated due date?",
+          "answer": "With CRL measurement at 6–9 weeks, accuracy is ±3–5 days."
+        },
+        {
+          "question": "Do I need a full bladder?",
+          "answer": "Only for abdominal scans. We’ll text you clear instructions the day before."
+        }
+      ],
+      "relative_test": {
+        "title": "",
+        "categoryId": "671b5102ad9bf8d210384d1e",
+        "tests": [
+          {
+            "id": "6736e08403598b92c151cd9b",
+            "testName": "Fetal Imaging",
+            "route": "/fetal-imaging"
+          },
+          {
+            "id": "6736e2f403598b92c151cdc2",
+            "testName": " Fetal Interventional Services ",
+            "route": "/fetal-interventional"
+          },
+          {
+            "id": "67371c29996e7737b6f4de55",
+            "testName": "Pregnancy Ultrasound",
+            "route": "/pregnancy-ultrasound"
+          },
+          {
+            "id": "673d8cfdeffae454707e0dab",
+            "testName": "Ultrasound Pregnancy TIFFA Anomaly Scan (Level 2) ",
+            "route": "/ultrasound-pregnancy-tiffa-anomaly-scan-level-2"
+          },
+          {
+            "id": "673d98ac534c72d341052ae0",
+            "testName": "Ultrasound Pregnancy Interval Growth Scan with BPP and Doppler ",
+            "route": "/ultrasound-pregnancy-interval-growth-scan-with-bpp-and-doppler"
+          }
+        ]
+      },
+      "seo": {
+        "title": "Pregnancy Dating Ultrasound Scan at Cadabams Diagnostics | Book Today",
+        "description": "A dating scan at 6–9 weeks ensures accurate due dates and early reassurance for safer care. Book your pregnancy ultrasound at Cadabams Diagnostics.",
+        "keywords": "",
+        "canonicalUrl": "",
+        "ogTitle": "",
+        "ogDescription": "",
+        "ogImage": "",
+        "schemaMarkup": "",
+        "robotsMeta": ""
+      },
+      "markdown": "## Pregnancy Dating Ultrasound Scan Overview\n\n- \\*\\*Purpose:\\*\\* Measure gestational age and establish a reliable due date\n- \\*\\*Timing:\\*\\* Most accurate at \\*\\*6–9 weeks\\*\\* after your last menstrual period (LMP)\n- \\*\\*Impact:\\*\\* Provides the baseline for every future prenatal test, screening, and appointment\n## What is Pregnancy Dating Ultrasound Scan?\nA \\*\\*pregnancy dating ultrasound scan\\*\\* is a painless imaging test that uses high-frequency sound waves to capture real-time images of your uterus and embryo. Unlike later \\*\\*anatomy scans\\*\\* that check organ formation, this early scan focuses on size, location, and heartbeat to pinpoint gestational age.\n## Types of Pregnancy Dating Ultrasound Scan\n| Method | When Used | Pros |\n|---|---|---|\n| \\*\\*Transvaginal\\*\\* | 5–9 weeks | Higher-resolution images, earlier detection |\n| \\*\\*Transabdominal\\*\\* | After 9 weeks | Comfortable, no internal probe |\nYour sonographer will choose the approach that gives the clearest view for your stage of pregnancy.\n\n## When and Who Needs to Take a Pregnancy Dating Ultrasound Scan?\n\n- \\*\\*Ideal window:\\*\\* 6–9 weeks from LMP\n- \\*\\*Must-have if you:\\*\\*\n• Have irregular periods\n• Are unsure of your LMP date\n• Have conceived via assisted reproduction\n- \\*\\*Not needed if you already have an accurate dating scan from another provider\\*\\*\n\n## Risks & Limitations of the Pregnancy Dating Ultrasound Scan\n\n- \\*\\*Safety:\\*\\*\n• Zero radiation—only harmless sound waves\n• No known side-effects for mother or baby\n- \\*\\*Limitations:\\*\\*\n• Heartbeat may not yet be visible before \\*\\*5.5 weeks\\*\\*\n• Too-early scans can lead to inconclusive results\n\n## List of Parameters Considered During the Pregnancy Dating Ultrasound Scan\n\n- \\*\\*Crown-rump length (CRL)\\*\\* – most accurate dating metric\n- \\*\\*Gestational sac diameter\\*\\* – confirms intrauterine pregnancy\n- \\*\\*Yolk sac presence & size\\*\\* – indicates healthy early placenta formation\n- \\*\\*Fetal heartbeat rate\\*\\* – should be 90–110 bpm at 6 weeks and rise steadily\n\n## Reasons for Taking a Pregnancy Dating Ultrasound Scan\n\n1. \\*\\*Accurate due date\\*\\* – avoids induction or premature delivery\n2. \\*\\*Confirm intrauterine pregnancy\\*\\* – rules out ectopic risks\n3. \\*\\*Early detection of miscarriage or molar pregnancy\\*\\*\n\n## Benefits of Taking the Pregnancy Dating Ultrasound Scan\n\n- \\*\\*Reassurance & bonding\\*\\* – see your baby’s heartbeat for the first time\n- \\*\\*Optimised scheduling\\*\\* – perfect timing for NIPT, NT scan, and anomaly scan\n- \\*\\*Prevents unnecessary interventions\\*\\* – precise dating reduces false alarms\n\n## Illnesses Diagnosed with Pregnancy Dating Ultrasound Scan\n\n| Condition | What the Scan Shows |\n|---|---|\n| \\*\\*Ectopic pregnancy\\*\\* | Sac outside the uterus |\n| \\*\\*Missed miscarriage\\*\\* | Empty sac or no heartbeat |\n| \\*\\*Molar pregnancy\\*\\* | Cluster of abnormal grape-like tissue |\n\n## Preparing for Pregnancy Dating Ultrasound Scan\n\n- \\*\\*Wear\\*\\* loose, two-piece clothing for easy abdominal access\n- \\*\\*Bring\\*\\* your partner or a support person—our rooms are designed for two\n- \\*\\*Mental prep:\\*\\* Ask questions; we explain every image on-screen\n## Pre-requisites Pregnancy Dating Ultrasound Scan\n- Positive home pregnancy test \\*\\*or\\*\\* doctor referral\n- Record of your last menstrual period—even approximate dates help\n## Best Time to Take the Pregnancy Dating Ultrasound Scan\n- \\*\\*Optimal:\\*\\* 6–9 weeks gestation\n- \\*\\*Avoid:\\*\\* Before 5 weeks to minimise inconclusive results\n- \\*\\*Tip:\\*\\* Book as soon as you miss a period and get a positive test\n## Eligibility\n- \\*\\*Suitable for:\\*\\* All pregnant women, especially those unsure of LMP\n- \\*\\*Not suitable for:\\*\\* Confirmed miscarriages or non-pregnant individuals\n## Procedure for Taking a Pregnancy Dating Ultrasound Scan\n1. \\*\\*Check-in\\*\\* with ID and referral at Cadabams Diagnostics reception\n2. \\*\\*Pre-scan brief\\*\\* – you’ll be asked about symptoms and LMP\n3. \\*\\*Positioning\\*\\* – lie comfortably on the ultrasound couch\n4. \\*\\*Scanning\\*\\* – 15–30 minutes of gentle imaging\n5. \\*\\*Instant report\\*\\* – printed and emailed to you and your doctor\n## Caution Before Taking the Test\n- \\*\\*Report\\*\\* any bleeding, pain, or dizziness to the sonographer\n- \\*\\*Bladder:\\*\\*\n• \\*\\*Full\\*\\* for transabdominal scan\n• \\*\\*Empty\\*\\* if transvaginal scan is likely—follow the SMS instructions we send"
+    }
+  ]
+}

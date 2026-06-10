@@ -1,4 +1,4 @@
-import herosData from "@/data/md+json/heros.json";
+import herosData from "@/data/allpages/_shared/heros.json";
 
 export interface HeroButton {
   text: string;

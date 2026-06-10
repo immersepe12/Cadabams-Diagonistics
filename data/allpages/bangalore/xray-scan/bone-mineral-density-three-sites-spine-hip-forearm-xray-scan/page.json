@@ -1,0 +1,272 @@
+{
+  "type": "scan-detail",
+  "route": "/bangalore/xray-scan/bone-mineral-density-three-sites-spine-hip-forearm-xray-scan",
+  "familyPath": "xray-scan",
+  "slug": "bone-mineral-density-three-sites-spine-hip-forearm-xray-scan",
+  "test": {
+    "id": "67f3f88e16444f3c1153afaf",
+    "templateName": "non-labtest",
+    "testName": "Bone Mineral Density (Spine, Hip & Forearm) X-Ray Scan",
+    "route": "/bone-mineral-density-three-sites-spine-hip-forearm-xray-scan",
+    "basic_info": {
+      "name": "Bone Mineral Density (Spine, Hip & Forearm) X-Ray Scan",
+      "route": "/bone-mineral-density-three-sites-spine-hip-forearm-xray-scan",
+      "categoryId": "671b5102ad9bf8d210384d19",
+      "testId": 9726102,
+      "alsoKnownAs": "",
+      "discount": "0",
+      "discountedPrice": "4500.00",
+      "reportsWithin": "6hrs",
+      "Identifies": "",
+      "measures": "",
+      "price": 4500,
+      "testCategory": "-"
+    },
+    "requisites": [],
+    "interpretations": {
+      "title": "Results and Interpretations",
+      "cols": [
+        "Finding / Observation",
+        "Description",
+        "General Interpretation / Significance"
+      ],
+      "rows": [
+        [
+          "T-score",
+          "Compares your bone density to that of a healthy 30-year-old adult of the same sex",
+          "- -1.0 and above: Normal bone density - -1.0 to -2.5: Osteopenia (low bone mass) - -2.5 and below: Osteoporosis"
+        ],
+        [
+          "Z-score",
+          "Compares your bone density to the average for your specific age, sex, and ethnicity.",
+          "A very low Z-score (e.g., below -2.0) may suggest that something other than normal aging is causing bone loss. Your doctor may investigate secondary causes."
+        ],
+        [
+          "BMD (g/cm²)",
+          "The direct measurement of Bone Mineral Density in grams per square centimeter.",
+          "This is the raw data that the machine measures. It is used to calculate your T-score and Z-score and is useful for tracking precise changes in follow-up scans."
+        ]
+      ]
+    },
+    "faqs": [
+      {
+        "question": "What is the purpose of a bone density test?",
+        "answer": "The main purpose of a **DEXA Scan (Bone Density Test)** is to accurately diagnose osteoporosis and its precursor, osteopenia. It also helps assess your personal risk of breaking a bone in the future so that preventive steps can be taken."
+      },
+      {
+        "question": "Is the DEXA scan procedure painful?",
+        "answer": "No, the scan is completely painless, non-invasive, and comfortable. The most challenging part is simply lying still on the table for 10-20 minutes."
+      },
+      {
+        "question": "When will I get my DEXA scan results?",
+        "answer": "At **Cadabam's diagnostics**, the radiologist's official report is typically finalized and sent to your referring doctor within a few business days. Your doctor's office will then contact you to discuss the results."
+      },
+      {
+        "question": "What is the approximate DEXA scan cost?",
+        "answer": "The **dexa scan cost** can vary based on location and whether it is part of a larger health package. For the most accurate and current pricing information, please contact **Cadabam's diagnostics** directly. We can provide details on cost and appointment availability. You can reach us through our Link."
+      },
+      {
+        "question": "What do your T-score results mean for your health?",
+        "answer": "Your T-score is a direct indicator of your bone health. A score of -2.5 or lower signifies osteoporosis, meaning you have a higher risk of fracture. Your doctor will use this score, along with your FRAX® score and other personal health factors, to create a personalized treatment plan to strengthen and protect your bones."
+      },
+      {
+        "question": "What are the next steps if you have low bone density?",
+        "answer": "If your scan reveals osteopenia or osteoporosis, your doctor will discuss a multi-faceted approach. This often includes lifestyle changes like a calcium and vitamin D-rich diet, weight-bearing and muscle-strengthening exercises, and, if necessary, prescription medications to slow bone loss or build new bone. For more information, you can read our guide."
+      }
+    ],
+    "relative_test": {
+      "title": "",
+      "categoryId": "",
+      "tests": []
+    },
+    "seo": {
+      "title": "Bone Mineral Density Test – Spine, Hip & Forearm",
+      "description": "Book a bone mineral density test of spine, hip & forearm to detect osteoporosis early. Quick, painless X-ray scan with expert interpretation.",
+      "keywords": "",
+      "canonicalUrl": "",
+      "ogTitle": "",
+      "ogDescription": "",
+      "ogImage": "",
+      "schemaMarkup": "",
+      "robotsMeta": ""
+    },
+    "markdown": "## DEXA Scan Bone Mineral Density - Three Sites (Spine, Hip and Forearm) Overview\n\nDEXA stands for Dual-Energy X-ray Absorptiometry. The name reflects the technology it uses: two distinct, low-dose X-ray beams are passed through your bones. One beam is primarily absorbed by soft tissue, while the other is absorbed by bone. By measuring the difference, the DEXA machine can calculate a highly precise and accurate measurement of your bone mineral density (BMD).\nUnlike a standard X-ray, which can only detect significant bone loss (typically over 30-40%), a \\*\\*DEXA Scan (Bone Density Test)\\*\\* can identify even small changes in bone density. This makes it the gold standard for early detection and diagnosis. The scan focuses on the most common sites for osteoporotic fractures: the hip and the lumbar spine.\n## Types of DEXA Scans\nThere are two main types of bone density tests:\n### Central DEXA\nThis is the most common and comprehensive type of \\*\\*DEXA Scan (Bone Density Test)\\*\\*. It involves a large machine where you lie on a padded table. The scanner measures bone density in your hip and spine—the most critical areas for assessing osteoporosis. A central DEXA scan is the definitive standard for diagnosis and for monitoring changes in bone density over time or in response to treatment.\n### Peripheral DEXA (pDEXA)\nPeripheral devices are smaller, portable machines that measure bone density in the wrist, heel, or finger. These are often used for general screening purposes, such as at health fairs. While convenient, a pDEXA is not used for a definitive diagnosis of osteoporosis. If a peripheral test indicates potential bone loss, your doctor will almost always recommend a follow-up central DEXA scan for confirmation.\n\n## Risks & Limitations of DEXA Scan\n\nOne of the great advantages of the DEXA scan is its excellent safety profile.\n\\* \\*\\*Risks:\\*\\* The radiation exposure from a DEXA scan is extremely low. The dose is less than that from a cross-country airplane flight and significantly lower than a standard chest X-ray. It is considered very safe for most individuals.\n\\* \\*\\*Limitations:\\*\\* While highly accurate, the scan has some limitations. Its results may be less precise in individuals with severe arthritis of the spine, significant scoliosis, or those who have had previous spinal surgery with metallic hardware. Similarly, extreme obesity can sometimes interfere with the accuracy of the reading. It's important to remember that a DEXA scan provides a powerful assessment of fracture risk, but it cannot predict with 100% certainty who will or will not have a fracture.\n\n## List of Parameters Considered During DEXA Scan\n\nThe primary goal of a \\*\\*DEXA Scan (Bone Density Test)\\*\\* is to precisely quantify your bone health. It does this by measuring Bone Mineral Content (BMC) and the area of the bone being scanned. From these, it calculates the key parameter: Bone Mineral Density (BMD). Your report will then translate this BMD value into two important comparative scores.\n\\* \\*\\*T-score:\\*\\* This is the most important score for diagnosing osteoporosis. It compares your BMD to the peak bone density of a healthy, young adult of the same sex. The T-score is a measure of how far your bone density deviates from the young adult average.\n\\* \\*\\*Z-score:\\*\\* This score compares your BMD to the average BMD of a person of your same age, sex, and ethnicity. The Z-score is not typically used for diagnosis in post-menopausal women or older men. However, if the Z-score is unusually low (e.g., -2.0 or lower), it may alert your doctor to investigate potential secondary causes of bone loss beyond simple aging.\n\\* \\*\\*Fracture Risk Assessment (FRAX® score):\\*\\* Many DEXA scan reports at \\*\\*Cadabam's diagnostics\\*\\* may also include a FRAX® score. This is an algorithm developed by the World Health Organization that uses your BMD along with other clinical risk factors (like age, smoking, family history) to calculate your 10-year probability of having a major osteoporotic fracture.\n\n## Reasons for Taking a DEXA Scan\n\nThere are three primary clinical reasons for undergoing a bone density test:\n1. \\*\\*To Diagnose Osteopenia and Osteoporosis:\\*\\* The test can definitively diagnose both osteopenia (low bone mass, a precursor to osteoporosis) and osteoporosis itself, often long before any symptoms appear or a fracture occurs.\n2. \\*\\*To Predict Your Risk of Future Fractures:\\*\\* Your T-score is a powerful predictor of your likelihood of breaking a bone in the future. This information empowers you and your doctor to take preventive action.\n3. \\*\\*To Monitor Treatment or Bone Loss:\\*\\* For patients diagnosed with osteoporosis and undergoing treatment, follow-up DEXA scans are essential to determine if the medication is working to slow or reverse bone loss.\n## When and Who Needs to Take a DEXA Scan?\nYour doctor may recommend a \\*\\*DEXA Scan (Bone Density Test)\\*\\* based on your age, medical history, and specific risk factors. It is a crucial diagnostic tool for several groups of people.\nCommon indications for the test include:\n\\* \\*\\*Post-menopausal women:\\*\\* Oestrogen, which helps protect bones, drops significantly after menopause, increasing bone loss.\n\\* \\*\\*Men over 50 with risk factors:\\*\\* While less common than in women, men are also at risk for osteoporosis, especially with certain lifestyle factors or medical conditions.\n\\* \\*\\*Individuals with a family history:\\*\\* A parental history of hip fracture is a significant risk factor.\n\\* \\*\\*Those on long-term steroid medication:\\*\\* Medications like prednisone can accelerate bone loss.\nSymptoms or conditions that may prompt a scan:\n\\* An unexplained loss of height (more than an inch).\n\\* A fragility fracture (breaking a bone with minimal trauma).\n\\* Certain endocrine disorders like hyperthyroidism or hyperparathyroidism.\n\\* Conditions like rheumatoid arthritis, which can impact bone health.\n\\* Patients undergoing specific treatments for prostate or breast cancer.\n\n## Benefits of Taking the Test\n\nInvesting in a \\*\\*DEXA Scan (Bone Density Test)\\*\\* offers significant health benefits:\n\\* \\*\\*Early Detection:\\*\\* It is the only test that can diagnose low bone density at its earliest, most manageable stage.\n\\* \\*\\*Accurate Diagnosis:\\*\\* Provides precise, quantitative data, allowing for a reliable diagnosis and eliminating guesswork.\n\\* \\*\\*Guides Treatment:\\*\\* The results are crucial for helping your doctor create a personalized management plan, which may include lifestyle adjustments, dietary changes, specific exercises, and, if necessary, medication.\n\n## Illness Diagnosed with DEXA Scan\n\nThe \\*\\*DEXA Scan (Bone Density Test)\\*\\* is the primary tool used to diagnose two key conditions related to bone health:\n\\* \\*\\*Osteoporosis:\\*\\* A disease characterized by low bone mass and structural deterioration of bone tissue, leading to increased bone fragility and a high risk of fractures.\n\\* \\*\\*Osteopenia:\\*\\* A condition where bone mineral density is lower than normal but not yet low enough to be classified as osteoporosis. It is considered a warning sign that you are at a higher risk for developing osteoporosis.\n\n## Preparing for DEXA Scan:\n\nPreparing for your \\*\\*DEXA Scan (Bone Density Test)\\*\\* at \\*\\*Cadabam's diagnostics\\*\\* is simple and requires minimal effort.\n\\* You can eat and drink normally on the day of your appointment. There is no need to fast.\n\\* \\*\\*Key Instruction:\\*\\* You must \\*\\*avoid taking calcium supplements, multivitamins, or antacids containing calcium for at least 24 hours\\*\\* before your scan. These can interfere with the accuracy of the test results.\n\\* \\*\\*Clothing:\\*\\* Wear loose, comfortable clothing. Avoid clothes with metal zippers, belts, hooks, or buttons around your abdomen and hip area. Sweatpants and a t-shirt are ideal. You may be asked to change into a gown if your clothing has metal fasteners.\n## Pre-requisites\n\\* A doctor's referral or prescription is generally required to schedule a \\*\\*DEXA Scan (Bone Density Test)\\*\\*.\n\\* \\*\\*Important:\\*\\* If you have recently had a barium study (for a GI series) or a scan that required an injection of contrast material (like a CT or nuclear medicine scan), you must inform our staff when booking. You may need to wait 10 to 14 days before having your DEXA scan, as the contrast agent can interfere with the results.\n## Best Time to Take the DEXA Scan\nThere is no \"best\" time of day to have a DEXA scan. The test's accuracy is not affected by the time of day, your diet on that day (aside from avoiding calcium supplements), or, for women, your menstrual cycle. You can schedule it at your convenience.\n## Eligibility\nMost adults are eligible for a DEXA scan, especially if they meet the risk criteria outlined above. The primary contraindication is pregnancy.\n\\* The test is \\*\\*not recommended\\*\\* for individuals who are pregnant or suspect they might be pregnant due to the use of X-rays, even at a very low dose.\n## Procedure for Taking a DEXA Scan\nThe \\*\\*dexa scan procedure for osteoporosis\\*\\* is straightforward, quick, and entirely painless. Here’s what you can expect:\n1. \\*\\*Check-in:\\*\\* You will register at the front desk at \\*\\*Cadabam's diagnostics\\*\\*.\n2. \\*\\*Positioning:\\*\\* A certified radiologic technologist will guide you into the scanning room and ask you to lie down on your back on a padded table.\n3. \\*\\*Alignment:\\*\\* The technologist will carefully position you to ensure accurate measurements. For the spine scan, your legs will be elevated and supported on a padded box to help flatten your pelvis and lower back. For the hip scan, your foot may be placed in a brace to rotate your hip inward slightly.\n4. \\*\\*Scanning:\\*\\* A C-shaped scanning arm will move slowly above you, and a detector will pass underneath the table. The arm will not touch you. You simply need to breathe normally and remain as still as possible during the scan. Any movement can blur the image and affect the results.\n5. \\*\\*Completion:\\*\\* The entire procedure typically takes only 10 to 20 minutes to complete. Once finished, you can get up and resume your normal activities immediately.\n## Caution Before Taking the Test\nYour safety and the accuracy of your test are our top priorities. Before the scan begins, you must inform the technologist about two crucial things:\n\\* \\*\\*Possibility of Pregnancy:\\*\\* It is essential to tell the technologist if there is any chance you could be pregnant.\n\\* \\*\\*Metallic Implants:\\*\\* Let the technologist know if you have any metal in your body, particularly a hip replacement, spinal rods, or surgical screws in your spine. This information helps the radiologist interpret your scan correctly, as metal can artefactual affect the BMD reading in that specific area."
+  },
+  "category": {
+    "id": "671b5102ad9bf8d210384d19",
+    "name": "XRay",
+    "tests": [
+      "671b510aad9bf8d210384d3f",
+      "6735b38f03598b92c151c546",
+      "6735c0fd03598b92c151c5cb",
+      "673c4d4ceffae454707dfdfa",
+      "673c7a54effae454707e017d",
+      "673dccb25ab244ca239d04b1",
+      "673ec2d05ab244ca239d0899",
+      "673ed4fc5ab244ca239d098a",
+      "679b464abf2a88a244a6b651",
+      "679c76cdbf2a88a244a6edbd",
+      "679c83f2bf2a88a244a6f00c",
+      "67a9afcea45909fb1bd0fa23",
+      "67a9b828a45909fb1bd0fb09",
+      "67ac7ec8a45909fb1bd13a47",
+      "67ad98e5a45909fb1bd15599",
+      "67add3f7a45909fb1bd160ef",
+      "67add436a45909fb1bd160fc",
+      "67af303fa45909fb1bd185e5",
+      "67af3090a45909fb1bd185f4",
+      "67b2e762a45909fb1bd1db56",
+      "67b2f24ea45909fb1bd1ddc5",
+      "67b2f2eba45909fb1bd1dddc",
+      "67b2f32ba45909fb1bd1ddea",
+      "67b46d70a45909fb1bd20ecf",
+      "67b46db7a45909fb1bd20edc",
+      "67b46deba45909fb1bd20eea",
+      "67b46fc8a45909fb1bd20efe",
+      "67b47588a45909fb1bd20f49",
+      "67b47c00a45909fb1bd210ee",
+      "67b47f26a45909fb1bd211be",
+      "67b83ce3a45909fb1bd28445",
+      "67b8402ba45909fb1bd284f4",
+      "67bda77216444f3c114db516",
+      "67bdaa3a16444f3c114db576",
+      "67bde66f16444f3c114dbe56",
+      "67c0253116444f3c114df6e2",
+      "67c0283c16444f3c114df714",
+      "67ec18e716444f3c1152e61d",
+      "67f3c05e16444f3c1153a8e0",
+      "67f3ddff16444f3c1153ad0c",
+      "67f3e05c16444f3c1153ad24",
+      "67f3eee616444f3c1153ae7b",
+      "67f3f17e16444f3c1153aea4",
+      "67f3f88e16444f3c1153afaf",
+      "680ba7d916444f3c1156941d",
+      "680baa7516444f3c1156943f",
+      "685b755b16444f3c11627f97",
+      "685b77f516444f3c11628028",
+      "685b907616444f3c116286ff"
+    ],
+    "image": "/scans/image-1730261774049-832592582.webp",
+    "path": "xray-scan",
+    "createdAt": "2024-10-17T19:18:24.325Z",
+    "updatedAt": "2024-10-17T19:18:24.325Z",
+    "allData": {
+      "categoryId": "671b5102ad9bf8d210384d19",
+      "requisites": [
+        {
+          "value": "There are no special customs required for diagnostic x-ray images. In some cases, contrast material or “contrast dye” might be required to be taken before the x-ray. This is a substance that enhances the quality of the images. "
+        }
+      ],
+      "interpretations": {
+        "title": "Results and Interpretations",
+        "cols": [
+          "Condition/Findings ",
+          "Description ",
+          "Interpretation ",
+          ""
+        ],
+        "rows": [
+          [
+            "Normal X-ray ",
+            "No abnormalities detected in the bones or organs. ",
+            "The area examined appears healthy, with no visible issues or structural problems. ",
+            ""
+          ],
+          [
+            "Fracture or Dislocation ",
+            "Break or displacement of bones. ",
+            "Indicates bone damage requiring immediate medical attention, such as casting or surgical correction. ",
+            ""
+          ],
+          [
+            "Bone Infection (Osteomyelitis) ",
+            "Signs of infection within the bone tissue. ",
+            "May require antibiotics or surgical treatment depending on the severity of the infection. ",
+            ""
+          ],
+          [
+            "Arthritis ",
+            "Joint space narrowing, bone spurs, or joint deformity. ",
+            "Suggests joint inflammation or degeneration, often associated with conditions like osteoarthritis. ",
+            ""
+          ],
+          [
+            "Lung Infections ",
+            "Abnormalities in lung tissue, such as cloudiness or opacities. ",
+            "Could indicate pneumonia, tuberculosis, or bronchitis, requiring further medical evaluation. ",
+            ""
+          ]
+        ]
+      },
+      "faqs": [
+        {
+          "question": "What is an X Ray for? ",
+          "answer": "An X ray is employed to read various medical conditions and diagnose bone or organ fractures, abnormalities, lung infections, arthritis as well as infections in the organs."
+        },
+        {
+          "question": "Is X-ray service available in Bangalore at Cadabam’s Diagnostics? ",
+          "answer": "Yes, X-ray services are available at Cadabam’s. With expert radiologists and modern equipment, accurate diagnostics are performed around the clock."
+        },
+        {
+          "question": "Can I get an X-ray if I have a metal implant? ",
+          "answer": "Yes, but you have to let the technician know about such implants as this could affect the quality of the images, which requires specific techniques."
+        },
+        {
+          "question": "Are there any side effects after having an X Ray? ",
+          "answer": "There are no side effects of Xs. However, this should be emphasized with regard to treatment over time, as there is an increased risk.\n\nProtective measures are taken to minimise exposure."
+        },
+        {
+          "question": "Can I eat or drink after having an X-ray?",
+          "answer": "Generally, after an X-ray, it's safe to eat or drink anything as most doctors do not mind unless there are some prohibitions in relation to your condition or course of treatment."
+        }
+      ],
+      "relative_test": {
+        "title": "Related Tests",
+        "categoryId": "671b5102ad9bf8d210384d19",
+        "tests": [
+          {
+            "id": "6735b38f03598b92c151c546",
+            "testName": "Hand X-ray ",
+            "route": "/hand-x-ray"
+          },
+          {
+            "id": "6735c0fd03598b92c151c5cb",
+            "testName": "XR -ABDOMEN ERECT",
+            "route": "/abdomen-x-ray"
+          },
+          {
+            "id": "673c4d4ceffae454707dfdfa",
+            "testName": "XR - CHEST PA VIEW",
+            "route": "/chest-x-ray"
+          },
+          {
+            "id": "673c7a54effae454707e017d",
+            "testName": "Chest X-Ray (PA View)  ",
+            "route": "/chest-x-ray-pa-view"
+          },
+          {
+            "id": "673dccb25ab244ca239d04b1",
+            "testName": "CT LOWER ABDOMEN (INCLUDING PELVIS)WITHOUT CONTRAST ",
+            "route": "/abdomen-and-lower-thorax-ct-scan"
+          },
+          {
+            "id": "673ec2d05ab244ca239d0899",
+            "testName": "X-RAY MAMMOGRAPHY",
+            "route": "/bilateral-mammography-x-ray"
+          },
+          {
+            "id": "673ed4fc5ab244ca239d098a",
+            "testName": "BMD hip and spine",
+            "route": "/bmd-hip-and-spine-x-ray-scan"
+          }
+        ]
+      },
+      "seo": {
+        "title": "",
+        "description": "Book X-ray scans in Bangalore for accurate results with trusted diagnostic centers offering fast imaging, dependable reporting, and quality healthcare."
+      }
+    },
+    "markdown": "X-rays are a type of electromagnetic radiation that can pass through most objects, including the body, to create images of the inside\n\n## X-ray Tests\n\n![X-ray Tests](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731734791415-559765543.png)\n\nX-ray is also called x-ray radiography. Other types of X ray images are called x-rays and are made of a form of radiology which uses small amounts of ionizing radiation to produce pictures of a person’s inner body parts like bones and organs. Its main purpose is orthopaedics, such as bone fractures, infection’s diagnosis and other pathological changes monitoring.\n\nIn simple terms, it is a rapid and noninvasive approach which provides medical practioners with the necessary information regarding the patient’s wellbeing and helps determine the presence of an injury, a disease or an abnormality.\n\n### What is an X-ray?\n\nAn X-ray is a type of electromagnetic radiation such as radio waves, microwaves, visible light, and gamma rays. X rays also detect abnormalities and Torres mutation in things that often are innocent features of hundreds of people and puts them at unnecessary risk as the thing does use the least ionizing radiation possible.\n\nThe x-ray is capable of identifying fractures, lung fluid, tumours, pneumonia and many other contagious diseases as x-ray beams penetrate our bodies at varying rates, thus replacing structures such as bones, organs and other tissues containing gamma rays.\n\n## Types of X-rays\n\nThose who are worried about the multiple conditions that may have scarred their body, it is alright, one single x-ray is more than enough for multiple areas of your body.\n\nThese include the following:\n\n**Chest radiograph:** It primarily assesses lung diseases like pneumonia, bronchitis, or tuberculous infections.\n\n**Bone radiograph:** It is mainly employed to reveal bone fractures, joint issues or osteomyelitis.\n\n**Mammography (Breast Radiography):** It is a form of radiography which is mostly used to find breast cancer and any breast tissue that is not normal.\n\n**Hand radiograph:** It is used mainly to evaluate diseases of the hand, wrist and the fingers such as arthritis, infections, fractures, and dislocations.\n\n**Abdominal Radiograph:** This X-ray aids the physicians in evaluating the abdominal cavity and helps in determining the presence of bowel obstructions, nephrolithiasis, or foreign bodies. It is also employed to evaluate measurable vomit disorders.\n\n## Risks & Limitations of the X-ray Test\n\n![Risks & Limitations of the X-ray Test](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731734808853-101145286.png)\n\nOne of the greatest assets that a doctor has at hand is the ability to scan through X-Rays; with their use, doctors can spot all the abnormalities that patients might have. The only downside of them using X-Rays is the fact that it does come with a couple of risks, which for the most part are harmless.\n\nWomen who are of childbearing age or are expecting should not be using them since there is a chance it may endanger the unborn child. Those who are women must avoid scanning of soft tissues such as the stomach and muscles, their bodies do scan fine in X-Ray machines.\n\nAnother scenario in which they cannot be used is when patients require an image of their bones.\n\n## List of Parameters Considered During the X-ray Scan\n\n![List of Parameters Considered During the X-ray Scan](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731734819591-78011352.png)\n\nIt is significant to note that some parameters of X-ray scans will be different based on the type and clinical indication of the X-ray. These are some of the parameters to bear in mind during the x-ray examination which are more common.\n\n- Bone structure and fractures.\n- Presence of foreign objects in the body.\n- Condition of soft tissues (particularly in specialised X-rays such as chest X-rays).\n- X-ray techniques and doses may need to be adjusted based on the individual’s age.\n- It is also not generally recommended for pregnant women and men with certain conditions, such as prostate enlargement and may require different X-ray techniques.\n\nIn addition, in both men with some conditions (prostate enlargement) and women who are often need other X-ray techniques are not usually advised.\n\n## Reasons for Taking an X-ray\n\n![Reasons for Taking an X-ray](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731734825517-505647292.png)\n\nSome circumstances arise that may require X-ray imaging scans. Some of the reasons include but are not limited to: -\n\n**Diagnosis of Bone Fracture:** The doctor can visualize the injury to the bone and therefore some images such as telescoped arms x-ray are taken.\n\n**Detection of Lung Conditions:** Pneumonia is confined to lung disease, so chest x-ray films can pinpoint its location.\n\n**Tracking of Chronic Conditions:** X-rays can monitor the changes of arthritis or osteoporosis.\n\n**Dental Examination:** X-rays are useful in the assessment of tooth cavities, dental caries, orthodontic treatments.\n\n**Detection of Digestive Tract Issues:** This form of imaging is aimed at determining the causes of obstruction, the presence of kidney stones and other issues.\n\n## Benefits of Taking the scan\n\n![Benefits of Taking the scan](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731734835010-422145974.png)\n\nAn x-ray image or an x-ray scan is said to be one of the best means of diagnosing a disease and it is beneficial for both the practitioners as well as the sufferers. Some of the benefits include\n\n**Fast and Painless:** The entire X-ray scanning duration is brief because it is a non-invasive procedure, hence no pain is expected to be experienced.\n\n**Accessibility:** Availability of x-ray machines is the bulk in the majority of hospitals and diagnostic centers; hence they are among the most easily accessible scanning machines.\n\n**Clear Image:** It provides better imaging and clarity of the structures and joints making the best scan for fractures and joints.\n\n**Tracking Treatment Program:﻿** X-ray scans are advantageous when it comes to assessing the degree of effectiveness that various treatments have had over the course of treating various chronic diseases.\n\n## Illnesses Diagnosed with X-ray\n\n![Illnesses Diagnosed with X-ray](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731734840792-770486718.png)\n\nSuffice it to say that X-rays are a powerful image scanning technique that can be deployed to a range of conditions. Some of them include: -\n\n- Dislocation and fracture of bones\n- Disorders caused by tuberculosis, lung cancer, any disease of the lungs\n- Conditions of joints including arthritis and osteoporosis\n- Cavity problems and jawbone infection during one's teeth\n- Disease related to the kidneys, stones or even parts of the bowel that are blocked.\n\n## Preparing for X-ray Scan\n\n![Preparing for X-ray Scan](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731734868837-62031376.png)\n\nIn most situations, the process leading up to the scan is not a big deal, however, there are some circumstances in which you will be instructed on how to prepare for the X-ray depending on the type of X-ray you require.\n\nPrerequisites Considering the abdominal X-ray scan now, the doctor/physician may require that you refrain from eating anything for several hours prior to the procedure or entertaining any liquids. Other major X-ray scans like chest, bone, or dental don’t require any prerequisites.\n\n### Best Time to Take the X-ray Scan\n\nWhen it comes to x-ray scans there is no timely or a preferred time of the day, but there are cases when the physician requests a certain time.\n\n### Eligibility\n\nX-ray scans are relatively uncomplicated and safe across the board making them readily available to both the children and the elderly\n\nNonetheless, medical practitioners may refrain from conducting X-rays on pregnant clients because of the potential risk of injury to the fetus.\n\n### Guidelines on How an X-Ray Scan is Done:\n\nAn X-ray scan is very simple to process sometimes or in most cases. It majorly depends on what part the technician aims to examine; they may instruct you to comply with their request by sitting or lying down in n specific position. Most of the time, which could average to 15 to 30 minutes, is the time the whole process takes, but exceptions are also possible.\n\n### Precautions:\n\nAlthough X-rays are deemed to be harmless to most individuals, it is crucial to exercise some measures, particularly with respect to pregnant women. It is also beneficial to keep your doctor updated if there are any metal implants that may hinder creating an X-ray image."
+  },
+  "relatedTests": []
+}

@@ -1,4 +1,4 @@
-import vitalOrgansData from "@/data/md+json/vitalorgans.json";
+import vitalOrgansData from "@/data/allpages/_shared/vitalorgans.json";
 
 export interface VitalOrgansContent {
   title: string;

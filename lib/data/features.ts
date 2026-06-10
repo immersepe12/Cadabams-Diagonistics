@@ -1,4 +1,4 @@
-import featuresData from "@/data/md+json/features.json";
+import featuresData from "@/data/allpages/_shared/features.json";
 
 export interface FeatureItem {
   icon: string;

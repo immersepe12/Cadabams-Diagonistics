@@ -1,0 +1,317 @@
+{
+  "type": "labtest-detail",
+  "route": "/bangalore/lab-test/acid-fast-bacilli-afb-culture-test",
+  "slug": "acid-fast-bacilli-afb-culture-test",
+  "test": {
+    "id": "6826d34116444f3c115a2103",
+    "templateName": "labtest",
+    "testName": "AFB CULTURE",
+    "route": "/acid-fast-bacilli-afb-culture-test",
+    "basic_info": {
+      "name": "AFB CULTURE",
+      "route": "/acid-fast-bacilli-afb-culture-test",
+      "categoryId": "671b5104ad9bf8d210384d23",
+      "testId": 9249502,
+      "discount": "",
+      "discountedPrice": 2000,
+      "reportsWithin": "6hrs",
+      "Identifies": "Active infection with Mycobacterium tuberculosis complex (the bacteria causing tuberculosis). This is a key aspect of mycobacteria culture for tb. Infections caused by Non-Tuberculous Mycobacteria (NTM).",
+      "measures": "The growth and presence of live Acid-Fast Bacilli (mycobacteria) from a clinical sample. This involves laboratory diagnosis techniques designed for these slow-growing organisms.",
+      "price": 2000,
+      "testCategory": "Microbiology"
+    },
+    "requisites": [
+      {
+        "value": "The most commonly used sample is Sputum. Effective sputum sample collection is vital for the sputum AFB culture test."
+      },
+      {
+        "value": " However, the AFB CULTURE can also be performed on other samples depending on the suspected site of infection, including:"
+      },
+      {
+        "value": "Bronchial washings"
+      },
+      {
+        "value": "Urine"
+      },
+      {
+        "value": "Blood"
+      },
+      {
+        "value": "Tissue biopsy"
+      },
+      {
+        "value": "Cerebrospinal fluid (CSF)"
+      },
+      {
+        "value": "Other body fluids"
+      }
+    ],
+    "packages": [],
+    "faqs": [
+      {
+        "question": "Why does the AFB culture test take several weeks for results?",
+        "answer": "Mycobacteria are very slow-growing organisms compared to most other bacteria. It simply takes a considerable amount of time (2-8 weeks or more) for them to multiply sufficiently in the laboratory culture media to be detected and identified. This **AFB culture turnaround time** is inherent to their biology."
+      },
+      {
+        "question": "What is the difference between an AFB smear and an AFB culture?",
+        "answer": "An AFB smear (or acid-fast stain) is a microscopic examination that can quickly (within hours) detect acid-fast bacilli. However, it's less sensitive than culture (may miss low numbers of bacteria), cannot determine if the bacteria are alive or dead, and cannot identify the specific species of mycobacteria. The **AFB CULTURE** grows the live bacteria, making it more sensitive, allowing for species identification and essential drug susceptibility testing."
+      },
+      {
+        "question": "Is providing a sample for an AFB culture painful?",
+        "answer": "Producing a sputum sample by coughing is usually not painful, though deep, productive coughing can be momentarily uncomfortable for some. If other sample types are needed, such as a blood draw, tissue biopsy, or fluid aspiration, there might be some discomfort associated with the collection procedure, which healthcare staff at Cadabam's Diagnostics will work to minimize."
+      },
+      {
+        "question": "What does a positive AFB culture test mean?",
+        "answer": "An **AFB culture positive result** means that live mycobacteria were successfully grown from your sample. This indicates an active infection, such as Tuberculosis (TB) or an NTM infection. Further laboratory tests will then identify the exact type of mycobacterium, guiding appropriate treatment."
+      },
+      {
+        "question": "What are the next steps if my AFB culture is positive for TB?",
+        "answer": "If your **AFB culture** is positive for Mycobacterium tuberculosis (confirming **mycobacteria culture for tb**), your doctor will discuss starting treatment, typically a multi-drug regimen of specific antibiotics taken for several months. Drug susceptibility test results from the culture will be crucial in selecting the most effective drugs for your specific infection. Public health authorities may also be notified as per regulations."
+      },
+      {
+        "question": "How many sputum samples are needed for an AFB culture?",
+        "answer": "For optimal diagnostic yield, it is generally recommended to collect three early morning **sputum AFB culture test** samples, each collected on a different (preferably consecutive) day. This practice increases the probability of detecting mycobacteria if they are present."
+      }
+    ],
+    "interpretations": {
+      "title": "AFB Culture & Drug Susceptibility Interpretation Table",
+      "cols": [
+        "Column 1",
+        "Column 2",
+        "Column 3"
+      ],
+      "rows": [
+        [
+          "Parameter / Observation",
+          "Result Example",
+          "General Interpretation / Significance"
+        ],
+        [
+          "AFB CULTURE",
+          "Growth Detected",
+          "ndicates the presence of live mycobacteria, suggesting active infection."
+        ],
+        [
+          "AFB CULTURE",
+          "No Growth Detected (after 8 weeks)",
+          "Suggests no active mycobacterial infection or very low/non-viable bacterial load. Clinical symptoms and other tests should be considered for final interpretation."
+        ],
+        [
+          "Organism Identification (if growth)",
+          "Mycobacterium tuberculosis complex",
+          "Confirms active Tuberculosis (TB) infection. Triggers public health reporting and initiation of specific anti-TB treatment."
+        ],
+        [
+          "Organism Identification (if growth)",
+          "NTM species (e.g., Mycobacterium avium)",
+          "Confirms Non-Tuberculous Mycobacterial (NTM) infection. Requires different treatment than TB based on the specific species identified."
+        ],
+        [
+          "Organism Identification (if no growth)",
+          "Not Applicable",
+          "Not applicable if AFB Culture shows no growth."
+        ],
+        [
+          "Drug Susceptibility Testing (DST) (if MTB)",
+          "Rifampin: Susceptible",
+          "Indicates susceptibility of M. tuberculosis to Rifampin – standard treatment drug."
+        ],
+        [
+          "Drug Susceptibility Testing (DST) (if MTB)",
+          "Isoniazid: Resistant",
+          "Indicates resistance to Isoniazid, requiring alternative drug regimens for effective TB treatment."
+        ],
+        [
+          "Drug Susceptibility Testing (DST) (if MTB)",
+          "Pyrazinamide: Susceptible",
+          "Indicates that Pyrazinamide is likely effective against the M. tuberculosis strain present."
+        ]
+      ]
+    },
+    "relative_test": {
+      "title": "",
+      "categoryId": "671b5104ad9bf8d210384d23",
+      "tests": []
+    },
+    "seo": {
+      "title": "AFB Culture Test Explained | Cadabam's Diagnostics",
+      "description": "Cadabams' AFB Culture test diagnoses TB. Learn the procedure, sputum collection, turnaround time, and how a positive result is interpreted. ",
+      "keywords": "",
+      "canonicalUrl": "",
+      "ogTitle": "",
+      "ogDescription": "",
+      "ogImage": "",
+      "schemaMarkup": "",
+      "robotsMeta": ""
+    },
+    "markdown": "## What Is the AFB CULTURE and Why Is It Important for Tuberculosis Diagnosis?\n\nThe **AFB CULTURE** is a laboratory test specifically designed to grow mycobacteria from a patient's sample. It is considered the gold standard for confirming active mycobacterial infections, particularly Tuberculosis (TB), a significant global health concern.\n\n### The importance of the **AFB CULTURE** lies in several key areas:\n\n- **Definitive Diagnosis:** It definitively confirms an active mycobacterial infection, distinguishing it from latent infection or other conditions. This is central to **tuberculosis diagnosis**.\n- **Higher Sensitivity:** While an AFB smear (acid-fast stain or smear microscopy) can quickly suggest the presence of mycobacteria, the **AFB CULTURE** is more sensitive, meaning it can detect infections even when bacteria are present in low numbers.\n- **Species Identification:** A positive culture allows for the precise **mycobacterium identification**. This is critical because different species (e.g., Mycobacterium tuberculosis versus various NTM species) require different treatment approaches.\n- **Drug Susceptibility Testing (DST):** If Mycobacterium tuberculosis is isolated, the culture provides the necessary bacteria to perform Drug Susceptibility Testing (DST). DST determines which antibiotics will be effective against the specific strain of TB, guiding clinicians in prescribing the most appropriate treatment and combating drug-resistant TB.\n\n## What Does the AFB CULTURE Measure?\n\nThe **AFB CULTURE** primarily measures:\n\n- **Presence of Viable Mycobacteria:** The test detects and confirms the presence of living, multiplying mycobacteria in the submitted clinical sample. This demonstrates an active infection, as opposed to merely past exposure or non-viable organisms.\n- **Facilitates Species Identification:** Growth in culture allows laboratory professionals to perform further tests to identify the specific species of mycobacterium causing the infection. This could be Mycobacterium tuberculosis complex or one of the many Non-Tuberculous Mycobacteria (NTM).\n- **Indication of Active Infection:** A positive **AFB CULTURE** is a strong indicator of an active infectious process that requires medical attention and treatment.\n\n## When Is the AFB CULTURE Usually Taken?\n\nAn **AFB CULTURE** is recommended by healthcare providers in various clinical situations, primarily when an active mycobacterial infection is suspected. Key indications include:\n\n- **Suspicion of Active Tuberculosis (TB):** This is perhaps the most common reason. Symptoms prompting an **AFB CULTURE** (often a **mycobacteria culture for tb**) include:\n- Persistent cough lasting more than 2-3 weeks, sometimes with sputum production (which may occasionally be bloody).\n- Chest pain.\n- Unexplained fever, often low-grade and occurring in the evenings.\n- Night sweats.\n- Unexplained weight loss.\n- Persistent fatigue.\n- **Suspicion of Non-Tuberculous Mycobacterial (NTM) Infection:** Symptoms can vary depending on the site of infection but may include chronic cough, fatigue, or skin lesions if NTM disease is suspected.\n\n**Abnormal Chest X-ray:** If a chest X-ray shows findings suggestive of mycobacterial disease (e.g., infiltrates, cavities, nodules), an **AFB CULTURE** is often ordered to confirm.\n\n- **Follow-up to a Positive AFB Smear:** If an AFB smear test is positive, an **AFB CULTURE** is essential to confirm the presence of live bacteria, identify the species, and enable drug susceptibility testing.\n- **Individuals with Weakened Immune Systems:** People with compromised immunity (e.g., due to HIV/AIDS, organ transplantation, or immunosuppressive medications) are at higher risk for mycobacterial infections. An **AFB CULTURE** may be ordered if they show any signs of infection.\n- **Monitoring Treatment Response (in specific cases):** While AFB smear conversion is more commonly used to monitor TB treatment response, culture conversion (negative cultures) can be used, especially in complex cases or for certain NTM infections.\n\n## Are There Any Risks or Limitations to the AFB CULTURE?\n\nWhile the **AFB CULTURE** itself is a laboratory process, the sample collection might carry minimal risks. It's also important to understand its limitations.\n\n- **Risks:**\n- The risks are primarily associated with the method of sample collection:\n- **Sputum Collection:** Deep coughing to produce a sputum sample can cause temporary discomfort. Induced sputum collection (inhaling a saline mist) might cause transient coughing or shortness of breath.\n- **Blood Draw:** If blood is used (less common for AFB culture), risks include minor bruising, pain, or, rarely, infection at the puncture site.\n- **Biopsy/Fluid Aspiration:** If a tissue biopsy or fluid sample (e.g., CSF, pleural fluid) is required, there are specific risks associated with these more invasive procedures, which your doctor will discuss with you. Cadabams Diagnostics ensures all sample collections are performed by trained professionals to minimize discomfort.\n- **Limitations:**\n- **Slow Growth & Turnaround Time**: Mycobacteria are notoriously slow-growing organisms. Therefore, the **AFB culture turnaround time** is significantly longer than for many other bacterial cultures. Final results can take from **2 to 8 weeks, sometimes longer**. This slow diagnostic yield can delay definitive diagnosis but is crucial for accuracy.\n- **False Negatives:** A negative **AFB CULTURE** result does not always rule out infection. False negatives can occur if:\n- Bacteria are not present in the specific sample collected (paucibacillary disease).\n- The sample quality is poor (e.g., saliva instead of true sputum). Patient compliance for sample collection is key here.\n- The patient has already started effective anti-mycobacterial treatment.\n- The organisms are non-viable or inhibited by other substances.\n- **Proper Sample Collection:** The accuracy of the test heavily depends on the quality of the specimen. Correct s**putum sample collection** techniques are vital for obtaining a good diagnostic yield.\n\n## What Parameters Are Evaluated in the AFB CULTURE?\n\nWhen an **AFB CULTURE** is performed, several key parameters are assessed:\n\n- **Growth:** The primary observation is the presence or absence of mycobacterial growth on the specialized culture media.\n- **Quantification (if reported):** If growth occurs, it is often semi-quantified by the laboratory. This might be reported as:\n\n1. Scanty growth\n2. 1+ (light growth)\n3. 2+ (moderate growth)\n4. 3+ (heavy growth)\n5. 4+ (very heavy growth/confluent)\n\n    This provides an indication of the bacterial load in the sample.\n\n- **Identification:** If mycobacterial growth is detected, further laboratory tests are performed for **mycobacterium identification**. This determines whether the cultured organism is:\n- Mycobacterium tuberculosis complex (confirming TB)\n- A species of Non-Tuberculous Mycobacteria (NTM), such as Mycobacterium avium complex, Mycobacterium kansasii, etc. (confirming NTM disease)\n- **Drug Susceptibility Testing (DST):** If Mycobacterium tuberculosis complex is identified, **culture sensitivity** or Drug Susceptibility Testing (DST) is typically performed. This crucial step tests the isolated bacteria against a panel of anti-TB drugs to determine which medications will be effective and to identify any drug-resistant TB strains.\n\n## Who Should Consider Taking the AFB CULTURE?\n\nThe **AFB CULTURE** (acid-fast bacilli test) is a targeted diagnostic tool. Individuals who may benefit from this test include:\n\n- **Individuals with Prolonged Symptoms Suggestive of TB:** This includes those experiencing a persistent cough (often longer than 2-3 weeks), unexplained fever, persistent night sweats, and unintentional weight loss.\n- **Close Contacts of Active TB Patients:** People who have had significant exposure to someone diagnosed with active pulmonary TB may be screened, especially if symptomatic.\n- **Immunocompromised Individuals:** Patients with weakened immune systems due to conditions like HIV infection, or those undergoing immunosuppressive therapy (e.g., for organ transplants, autoimmune diseases), are at higher risk for developing active TB or NTM infections and should be tested if symptomatic.\n- **Patients with Abnormal Chest X-ray Findings:** If imaging results (like X-rays or CT scans) show abnormalities consistent with TB or NTM disease (such as infiltrates, cavities, or nodules in the lungs), an **AFB CULTURE** is essential for diagnosis.\n- **Individuals Suspected of Extrapulmonary TB:** TB can affect organs other than the lungs (extrapulmonary TB), such as lymph nodes, bones, kidneys, or the brain. An **AFB CULTURE** from the affected site (e.g., biopsy, fluid) is critical for diagnosis.\n- **Patients with Suspected NTM Disease:** This includes NTM lung disease, skin and soft tissue infections caused by NTM, or disseminated NTM infections.\n\n## The Advantages of the AFB CULTURE for Your Health\n\nUndergoing an **AFB CULTURE** at Cadabam's Diagnostics when indicated offers several significant health benefits:\n\n- **Definitive Diagnosis of Infection:** The **AFB CULTURE** provides a confirmed, definitive diagnosis of an active Mycobacterium tuberculosis infection (TB) or an infection caused by Non-Tuberculous Mycobacteria (NTM). This clarity is vital for appropriate medical management.\n- **Guides Appropriate Treatment:** Accurate **mycobacterium identification** through culture, followed by Drug Susceptibility Testing (DST) for TB isolates, is crucial. This information allows your doctor to select the most effective antibiotic regimen, improving treatment outcomes and helping to prevent the development of drug-resistant TB.\n- **Essential for Public Health:** Early and accurate diagnosis of TB through tests like the **AFB CULTURE** is fundamental for public health. It allows for prompt initiation of treatment, which not only benefits the individual patient but also helps to interrupt the chain of transmission and prevent the spread of TB within the community.\n- **Differentiates TB from NTM Infections:** The symptoms of TB and NTM lung disease can be similar. However, their treatment regimens differ significantly. The **AFB CULTURE** helps distinguish between these infections, ensuring patients receive the correct and specific therapy for their condition.\n\n## What Conditions Can the AFB CULTURE Diagnose?\n\nThe **AFB CULTURE** is primarily used to diagnose active infections caused by various species of mycobacteria. The main conditions include:\n\n- **Pulmonary Tuberculosis (PTB):** This is an infection caused by \\*Mycobacterium tuberculosis\\* complex that primarily affects the lungs. A positive **AFB CULTURE** from a sputum or bronchial sample confirms PTB. This is a common application of **mycobacteria culture for tb**.\n- **Extrapulmonary Tuberculosis (EPTB):** TB can also affect organs and tissues outside the lungs. Examples include:\n\n1. TB lymphadenitis (lymph nodes)\n2. Tuberculous pleurisy (pleura, the lining around the lungs)\n3. Skeletal TB (bones and joints)\n4. Genitourinary TB (kidneys, bladder)\n5. Tuberculous meningitis (membranes surrounding the brain and spinal cord)\n6. Miliary TB (widespread disseminated TB)\n7. An **AFB CULTURE** from the relevant site (e.g., tissue biopsy, body fluid) is key for diagnosing EPTB.\n\n- **Non-Tuberculous Mycobacterial (NTM) Infections:** These infections are caused by mycobacteria other than those in the Mycobacterium tuberculosis complex. NTM can cause a variety of diseases, including:\n\n1. **NTM Lung Disease:** Often affecting individuals with underlying lung conditions.\n2. **NTM Skin and Soft Tissue Infections:** Can occur after trauma or surgical procedures.\n3. **Disseminated NTM Disease:** More common in severely immunocompromised individuals.\n4. **Lymphadenitis (especially in children):** Often caused by NTM.\n5. The **AFB CULTURE** helps identify the specific NTM species, which is crucial as treatment varies significantly depending on the organism.\n\n[Link to: General Page about Tuberculosis (TB)]\n\n[Link to: Page about Non-Tuberculous Mycobacteria (NTM) Infections]\n\n## Preparing for Your AFB CULTURE\n\nProper preparation, especially regarding sample collection, is essential for the accuracy of your **AFB CULTURE**.\n\n- **Instructions for Sample Collection:**\n- **Sputum Sample (for sputum AFB culture test):** This is the most common sample type. Excellent **patient compliance for sample** collection is vital.\n- **Timing:** Ideally, collect 3 early morning sputum samples on 3 consecutive days. Early morning samples are preferred as secretions accumulate overnight.\n- **Mouth Rinse:** Before coughing, rinse your mouth thoroughly with plain water. **Do not use antiseptic mouthwash**, as it can kill the bacteria.\n- **Coughing Technique:** Take a few deep breaths, hold for a few seconds, then cough deeply from your chest (not just clearing your throat) to produce sputum (phlegm). Good quality sputum is thick and mucous-like, not just saliva.\n- **Container:** Expectorate the sputum directly into the sterile container provided by Cadabam's Diagnostics or your healthcare provider. Avoid touching the inside of the container or lid.\n- **Contamination:** Be careful not to contaminate the outside of the container.\n- **Sputum Induction:** If you have difficulty producing sputum naturally, your doctor might suggest sputum induction. This involves inhaling a sterile saline mist to help loosen secretions and stimulate a cough.\n- **Other Samples (Urine, Biopsy, CSF, etc.):**\n- Your doctor or nurse at Cadabam's Diagnostics will provide specific instructions for collecting other types of samples. This may involve procedures like a clean-catch urine collection, or a medically assisted procedure like a bronchoscopy for bronchial washings, or a biopsy.\n- **Fasting:** Generally, no fasting is required for an **AFB CULTURE** unless you are instructed otherwise, perhaps due to other tests being performed concurrently.\n- **Prerequisites:**\n- A doctor's request or referral is usually required to undergo an **AFB CULTUR**E.\n- **Medication Disclosure:** It's crucial to inform your doctor and the laboratory staff at Cadabam's Diagnostics about any antibiotics or anti-TB medications you are currently taking, as these can affect the test results.\n- **Eligibility:**\n- Anyone suspected by a healthcare professional of having an active mycobacterial infection is eligible for the test.\n- There are no specific medical conditions that prevent the test itself. However, the specific sample collection method might have contraindications for certain individuals (e.g., a patient with a severe bleeding disorder might have increased risks with a biopsy procedure). Your doctor will assess suitability.\n- **Procedure for Taking the Test (AFB culture procedure):**\n- **Sample Collection:** This is the first step, as described above (e.g., **sputum sample collection**, urine collection, or a procedure like biopsy or fluid aspiration performed by a healthcare professional). Adherence to **patient instructions** is paramount.\n\n- **Laboratory Processing at Cadabam's Diagnostics:**\n\n        1. Once the sample arrives at our specialized laboratory, it undergoes initial processing. This often involves decontamination (to kill or inhibit other more rapidly growing bacteria and fungi) and concentration (to increase the chances of detecting mycobacteria).\n\n        2. The processed sample is then inoculated onto specialized solid and/or liquid culture media designed to support the growth of mycobacteria.\n\n        3. These cultures are incubated at a specific temperature (usually 35-37°C) for several weeks (typically up to 6-8 weeks, or longer if NTMs with slower growth are suspected).\n\n        4. Cultures are regularly examined for signs of mycobacterial growth.\n\n- **Caution Before the Test:**\n- Always inform healthcare staff if you anticipate difficulty producing an adequate sputum sample.\n- Provide a complete list of all medications you are currently taking, especially any antibiotics or specific anti-tuberculosis drugs.\n- If a more invasive sample collection method (like a bronchoscopy or biopsy) is planned, inform your doctor if you are pregnant, have any bleeding disorders, or have allergies to medications (e.g., local anesthetics)."
+  },
+  "category": {
+    "id": "671b5104ad9bf8d210384d23",
+    "name": "Blood",
+    "tests": [
+      "671b5105ad9bf8d210384d2f",
+      "671b5105ad9bf8d210384d30",
+      "671c7cc7c8a77735c8e4410e",
+      "671c7dd9c8a77735c8e44129",
+      "6720b1f4b61a968f2fc61587",
+      "672bab2e21cadfab64a6f854",
+      "672badc221cadfab64a6f870",
+      "672bafa721cadfab64a6f879",
+      "672bb18821cadfab64a6f88b",
+      "672de64ff06b4489abc3ead2",
+      "672df2d84280ae87a405c16e",
+      "6731ae1d03598b92c151a2fd",
+      "6736dda903598b92c151cd8f",
+      "673add2deffae454707dce63",
+      "673ae94aeffae454707dd4cb",
+      "673aed5beffae454707dd650",
+      "673b02ddeffae454707ddc3e",
+      "673b0850effae454707dde45",
+      "674378945c1d2938425e3826",
+      "677e3f1fc75a57396559117b",
+      "677e4c7ac75a57396559144f",
+      "677e558dc75a573965591506",
+      "677f5bbbc75a573965592981",
+      "677f63fec75a573965592a8a",
+      "677f6dd7c75a573965592e66",
+      "6780aa92c75a573965594b9e",
+      "6780b008c75a573965594cd0",
+      "6780b51bc75a573965594e62",
+      "6780e0c9c75a573965595b62",
+      "6784b0b5c75a5739655993aa",
+      "6784b479c75a5739655994d6",
+      "6784bd4ac75a57396559962b",
+      "6784c79ac75a573965599843",
+      "6785f4f4c75a57396559adb5",
+      "67862a19c75a57396559b1aa",
+      "678742d7c75a57396559bb99",
+      "67875312c75a57396559bcfe",
+      "678756fbc75a57396559bd18",
+      "67878c5ac75a57396559c3fe",
+      "6788b8f1c75a57396559dc1b",
+      "6788c194c75a57396559dcff",
+      "6788c4c5c75a57396559dd1c",
+      "6788c72ec75a57396559dd64",
+      "6788c905c75a57396559ddbc",
+      "6788e11fc75a57396559e223",
+      "6788e538c75a57396559e2f9",
+      "6788e968c75a57396559e320",
+      "6789f884c75a57396559f93d",
+      "6789ff1fc75a57396559fa11",
+      "678a14b9c75a5739655a0061",
+      "678a27dac75a5739655a03ba",
+      "678a2aacc75a5739655a0414",
+      "678a352dc75a5739655a04cc",
+      "678f4d28c75a5739655a64fe",
+      "678f5026c75a5739655a651f",
+      "678f5325c75a5739655a656a",
+      "678f56c1c75a5739655a65d1",
+      "6790b2bfc75a5739655a81a6",
+      "6790d4c6c75a5739655a8561",
+      "6790d79fc75a5739655a8575",
+      "6791e394c75a5739655a9665",
+      "6791e9a3c75a5739655a9760",
+      "679269cbc75a5739655aa38d",
+      "67933b23c75a5739655ab936",
+      "67933e64c75a5739655aba12",
+      "67938377c75a5739655ac780",
+      "681c5aa016444f3c1158cdea",
+      "681c5f7b16444f3c1158cf21",
+      "681c62fc16444f3c1158d13f",
+      "681c6f5a16444f3c1158d281",
+      "681c753a16444f3c1158d2af",
+      "681c787716444f3c1158d2fd",
+      "681c7b2e16444f3c1158d37b",
+      "681c7f4f16444f3c1158d3f4",
+      "681c843316444f3c1158d4b8",
+      "681c882b16444f3c1158d501",
+      "681c8b7816444f3c1158d68b",
+      "681c8d8f16444f3c1158d6d9",
+      "681c93ec16444f3c1158d7ed",
+      "681cd1a016444f3c1158dffa",
+      "681cd56516444f3c1158e06c",
+      "681cdeb116444f3c1158e0f4",
+      "681da2f116444f3c11590072",
+      "681daafe16444f3c1159033c",
+      "68233a4f16444f3c1159a0c1",
+      "68233d5116444f3c1159a115",
+      "682342c516444f3c1159a324",
+      "682345df16444f3c1159a424",
+      "682348d916444f3c1159a4af",
+      "682361d216444f3c1159a778",
+      "6823654a16444f3c1159a858",
+      "6823680916444f3c1159a8ce",
+      "68236ae016444f3c1159a8ed",
+      "68236e0816444f3c1159a96b",
+      "6823711816444f3c1159aa44",
+      "68246ae716444f3c1159cb20",
+      "6826d34116444f3c115a2103",
+      "682764af16444f3c115a4520",
+      "68276e9216444f3c115a4570",
+      "6828531316444f3c115a5ae8",
+      "68285d5116444f3c115a5c03",
+      "6829e19016444f3c115a8766",
+      "682a035816444f3c115a8bea",
+      "682ad43f16444f3c115aa27f",
+      "682afafc16444f3c115aafc9",
+      "682b0c3916444f3c115ab408",
+      "682c17e016444f3c115ad688",
+      "682c20be16444f3c115ad8d6",
+      "682c273216444f3c115adb6c",
+      "682c307c16444f3c115adeda",
+      "682c38c916444f3c115ae0bb",
+      "682c402016444f3c115ae18c",
+      "682c5add16444f3c115ae472",
+      "682c612d16444f3c115ae4ff",
+      "682c6a8216444f3c115ae6ea",
+      "682c6e5516444f3c115ae75e",
+      "682c728d16444f3c115ae801",
+      "682c7d2a16444f3c115aea3c",
+      "682c81a416444f3c115aeaad",
+      "682c9ea116444f3c115aee10",
+      "682ca79a16444f3c115aef47",
+      "682d155a16444f3c115af60c",
+      "682d49e716444f3c115afca2",
+      "682d67cb16444f3c115affdf",
+      "682d6cbc16444f3c115b0144",
+      "682d6f4016444f3c115b01c0",
+      "682d72e416444f3c115b045a",
+      "682d755b16444f3c115b047c",
+      "682d795516444f3c115b058e",
+      "682d870316444f3c115b08e6",
+      "682d8bb816444f3c115b09e7",
+      "682d8eff16444f3c115b0a2c",
+      "682d925716444f3c115b0a4f",
+      "682db90c16444f3c115b154f",
+      "682dbd7716444f3c115b176b",
+      "682dbfa616444f3c115b17c3",
+      "682dc1d316444f3c115b17e8",
+      "682dc48f16444f3c115b18dc",
+      "682dc6c616444f3c115b1a3d",
+      "682dc91c16444f3c115b1a7a",
+      "682dcb8916444f3c115b1b3b",
+      "682dcc1916444f3c115b1b82",
+      "682dce3416444f3c115b1c2b",
+      "682dd3fc16444f3c115b1dcd",
+      "682dd68c16444f3c115b1e6c",
+      "682dda9316444f3c115b1ff3",
+      "682df4d416444f3c115b2479",
+      "682df79a16444f3c115b24d9",
+      "682dfa1c16444f3c115b24ff",
+      "682dfc9c16444f3c115b2647",
+      "682ed34816444f3c115b3c0a",
+      "682ed75116444f3c115b3c7d",
+      "682edbef16444f3c115b3d48",
+      "682ee8da16444f3c115b4135",
+      "682eebe116444f3c115b41c6",
+      "682eeef716444f3c115b41ea"
+    ],
+    "image": "/lab-tests/image-1729663337220-267264710.webp",
+    "path": "/blood-tests",
+    "createdAt": "2024-10-23T06:02:45.534Z",
+    "updatedAt": "2024-10-23T06:02:45.534Z",
+    "markdown": "Blood test"
+  },
+  "relatedTests": []
+}

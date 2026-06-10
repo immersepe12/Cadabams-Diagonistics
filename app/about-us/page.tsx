@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
+import { notFound } from "next/navigation";
 import {
   Activity,
   Award,
@@ -11,6 +12,7 @@ import {
   Clock,
   HeartPulse,
   Home,
+  type LucideIcon,
   Microscope,
   Phone,
   ShieldCheck,
@@ -18,9 +20,7 @@ import {
   Stethoscope,
   Users,
 } from "lucide-react";
-import { getAllCenters, getCenterSlug } from "@/lib/data/centers";
-import { getAllLabTests } from "@/lib/data/labtests";
-import { getAllNonLabTests } from "@/lib/data/nonlabtests";
+import { getAboutUsPage } from "@/lib/data/allpages";
 import { LabStats } from "@/components/shared/LabStats";
 import { ContactActionButton } from "@/components/shared/ContactActionButton";
 import {
@@ -41,85 +41,30 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://cadabamsdiagnostics.com/about-us" },
 };
 
-const VALUES = [
-  {
-    Icon: Microscope,
-    title: "Advanced equipment",
-    body: "3T MRI, multi-slice CT, GE Healthcare X-ray, and high-resolution ultrasound — calibrated and serviced on a strict schedule.",
-  },
-  {
-    Icon: Award,
-    title: "Accredited labs",
-    body: "NABL-aligned quality controls, double-blind review on critical tests, and consistent reference ranges across every centre.",
-  },
-  {
-    Icon: HeartPulse,
-    title: "Patient-first care",
-    body: "Reports in 6 hours for most lab tests, gentle staff, transparent pricing, and free home sample collection across Bangalore.",
-  },
-  {
-    Icon: Activity,
-    title: "Specialist-led reporting",
-    body: "Reports reviewed by radiologists with 15–25 years of fetal medicine, MSK imaging, and diagnostic experience.",
-  },
-];
-
-const SERVICES = [
-  {
-    Icon: Beaker,
-    title: "Lab tests",
-    body: "Blood, hormones, vitamins, liver, kidney, heart and more — 1500+ tests with home collection.",
-    href: "/bangalore/lab-test",
-  },
-  {
-    Icon: Activity,
-    title: "Radiology scans",
-    body: "X-Ray, MRI, CT, Ultrasound, MSK and pregnancy scans on modern, regularly-calibrated equipment.",
-    href: "/bangalore/xray-scan",
-  },
-  {
-    Icon: ShieldCheck,
-    title: "Preventive checkups",
-    body: "Curated health checkup packages so you can stay ahead of your health rather than reacting to it.",
-    href: "/bangalore/preventive-health-checks",
-  },
-  {
-    Icon: Stethoscope,
-    title: "Specialist consultations",
-    body: "Connect with radiologists and clinicians for second opinions and report walk-throughs.",
-    href: "/contact-us",
-  },
-];
-
-const MILESTONES = [
-  {
-    year: "2020",
-    title: "Cadabam's Diagnostics is founded",
-    body: "Our flagship Banashankari centre opens, bringing hospital-grade radiology to Bangalore neighbourhoods.",
-  },
-  {
-    year: "2021",
-    title: "NABL accreditation",
-    body: "Our lab achieves NABL accreditation for medical testing, formalising the QA processes we built from day one.",
-  },
-  {
-    year: "2023",
-    title: "Network grows to 5 centres",
-    body: "Indiranagar, Kanakapura Road, Jayanagar, and Kalyan Nagar centres open with consistent SOPs and reference ranges.",
-  },
-  {
-    year: "2025",
-    title: "1M+ tests delivered",
-    body: "We cross a million tests delivered across Bangalore with reports in under 6 hours on most lab tests.",
-  },
-];
+const ICONS: Record<string, LucideIcon> = {
+  Activity,
+  Award,
+  Beaker,
+  BadgeCheck,
+  Building2,
+  Clock,
+  HeartPulse,
+  Microscope,
+  Phone,
+  ShieldCheck,
+  Stethoscope,
+  Users,
+};
+const Icon = ({ name, className }: { name: string; className?: string }) => {
+  const C = ICONS[name] ?? Sparkles;
+  return <C className={className} />;
+};
 
 export default function AboutUsPage() {
-  const centers = getAllCenters().filter(
-    (c) => c.basic_info?.center_name?.trim().length > 0,
-  );
-  const labTestCount = getAllLabTests().length;
-  const scanCount = getAllNonLabTests().length;
+  // Source the page's data from its route file (data/allpages/about-us/page.json).
+  const about = getAboutUsPage();
+  if (!about) notFound();
+  const { hero, mission, values, services, milestones, centres, cta } = about;
 
   return (
     <main className="bg-cream-bg min-h-screen">
@@ -168,40 +113,41 @@ export default function AboutUsPage() {
             <div className="max-w-3xl">
               <span className="inline-flex items-center gap-1.5 rounded-pill bg-white/15 backdrop-blur-md ring-1 ring-white/25 px-3 py-1 text-overline uppercase font-bold tracking-overline">
                 <Sparkles className="w-3.5 h-3.5" />
-                Our Story
+                {hero.badge}
               </span>
               <h1 className="mt-4 text-h1 sm:text-display-2 lg:text-[52px] lg:leading-[1.05] font-display font-extrabold tracking-tight">
-                Accurate diagnostics, compassionate care.
+                {hero.title}
               </h1>
               <p className="mt-4 text-body sm:text-h3 text-white/90 leading-relaxed max-w-2xl">
-                Cadabam&apos;s Diagnostics is a Bangalore-based network of
-                advanced diagnostic centres. We combine modern equipment,
-                accredited labs, and specialist-led reporting so you get
-                answers you can trust — fast.
+                {hero.description}
               </p>
               <div className="mt-6 flex flex-wrap gap-3">
-                <Link
-                  href="/bangalore/lab-test"
-                  className="inline-flex items-center justify-center gap-2 rounded-pill bg-white text-orange-700 font-bold px-6 py-3 text-body shadow-sh-2 hover:brightness-95 active:scale-[0.98] transition-all"
-                >
-                  <Beaker className="w-4 h-4" />
-                  Book a test
-                </Link>
-                <Link
-                  href="#our-centres"
-                  className="inline-flex items-center justify-center gap-2 rounded-pill bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 text-body border border-white/30 transition-all"
-                >
-                  <Building2 className="w-4 h-4" />
-                  Find a centre
-                </Link>
+                {hero.buttons.map((b, i) => (
+                  <Link
+                    key={b.href}
+                    href={b.href}
+                    className={
+                      i === 0
+                        ? "inline-flex items-center justify-center gap-2 rounded-pill bg-white text-orange-700 font-bold px-6 py-3 text-body shadow-sh-2 hover:brightness-95 active:scale-[0.98] transition-all"
+                        : "inline-flex items-center justify-center gap-2 rounded-pill bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 text-body border border-white/30 transition-all"
+                    }
+                  >
+                    <Icon name={b.icon} className="w-4 h-4" />
+                    {b.label}
+                  </Link>
+                ))}
               </div>
             </div>
 
             <div className="hidden lg:grid grid-cols-2 gap-4">
-              <StatTile value="60" label="Mins home collection" Icon={Clock} />
-              <StatTile value="1M+" label="Happy patients" Icon={Users} />
-              <StatTile value="4.9" label="Google rating" Icon={Award} />
-              <StatTile value="5" label="Centres in Bangalore" Icon={Building2} />
+              {hero.stats.map((s) => (
+                <StatTile
+                  key={s.label}
+                  value={s.value}
+                  label={s.label}
+                  iconName={s.icon}
+                />
+              ))}
             </div>
           </div>
         </div>
@@ -217,37 +163,35 @@ export default function AboutUsPage() {
         <div className="grid gap-8 lg:gap-14 lg:grid-cols-2 items-center">
           <div>
             <p className="text-overline uppercase text-orange-700 font-bold mb-3 tracking-overline">
-              What drives us
+              {mission.overline}
             </p>
             <h2 className="text-h1 sm:text-display-2 font-display font-extrabold text-ink-900 tracking-tight leading-tight">
-              Vital health insights, without the wait.
+              {mission.title}
             </h2>
-            <p className="mt-4 text-body sm:text-h3 text-ink-700 leading-relaxed">
-              We started Cadabam&apos;s Diagnostics with a simple idea:
-              accessing vital health insights shouldn&apos;t mean sacrificing
-              comfort. From routine blood work to advanced MRI imaging, every
-              test should be handled with care, accuracy, and respect for your
-              time.
-            </p>
-            <p className="mt-4 text-body text-ink-700 leading-relaxed">
-              Today, our team delivers reports in 6 hours for most lab tests,
-              same-day reads for routine scans, and second opinions from
-              specialists with 15+ years of experience — across 5 centres and
-              a city-wide home-collection network.
-            </p>
+            {mission.body.map((p, i) => (
+              <p
+                key={i}
+                className={
+                  i === 0
+                    ? "mt-4 text-body sm:text-h3 text-ink-700 leading-relaxed"
+                    : "mt-4 text-body text-ink-700 leading-relaxed"
+                }
+              >
+                {p}
+              </p>
+            ))}
             <div className="mt-6 grid grid-cols-2 gap-3 max-w-md">
-              <Highlight Icon={Clock} text="Reports in 6 hours" />
-              <Highlight Icon={ShieldCheck} text="NABL Accredited" />
-              <Highlight Icon={HeartPulse} text="Home collection" />
-              <Highlight Icon={BadgeCheck} text="Specialist reviewed" />
+              {mission.highlights.map((h) => (
+                <Highlight key={h.text} iconName={h.icon} text={h.text} />
+              ))}
             </div>
           </div>
 
           <div className="relative">
             <div className="relative aspect-[4/5] sm:aspect-[5/4] rounded-3xl overflow-hidden bg-cream-card shadow-sh-3 border border-cream-line">
               <Image
-                src="/centers/image-1731905681968-88542235.webp"
-                alt="Cadabam's Diagnostics centre"
+                src={mission.image.src}
+                alt={mission.image.alt}
                 fill
                 className="object-cover"
                 sizes="(max-width: 1024px) 90vw, 600px"
@@ -259,14 +203,14 @@ export default function AboutUsPage() {
             </div>
             <div className="absolute -bottom-5 -left-3 sm:-left-6 bg-cream-card rounded-2xl shadow-sh-3 border border-cream-line px-4 py-3 flex items-center gap-3">
               <span className="w-10 h-10 inline-flex items-center justify-center rounded-pill bg-orange-50 text-orange-600">
-                <Award className="w-5 h-5" />
+                <Icon name={mission.badge.icon} className="w-5 h-5" />
               </span>
               <div>
                 <p className="text-caption text-ink-500 font-medium leading-none">
-                  Accredited
+                  {mission.badge.label}
                 </p>
                 <p className="text-body font-extrabold text-ink-900 leading-tight mt-0.5">
-                  NABL Certified
+                  {mission.badge.value}
                 </p>
               </div>
             </div>
@@ -279,26 +223,26 @@ export default function AboutUsPage() {
         <div className="mx-auto max-w-7xl px-gutter">
           <div className="text-center max-w-2xl mx-auto mb-10 sm:mb-12">
             <p className="text-overline uppercase text-orange-700 font-bold mb-3 tracking-overline">
-              How we work
+              {values.overline}
             </p>
             <h2 className="text-h1 sm:text-display-2 font-display font-extrabold text-ink-900 tracking-tight leading-tight">
-              Four principles, every single test.
+              {values.title}
             </h2>
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-5">
-            {VALUES.map(({ Icon, title, body }) => (
+            {values.items.map((v) => (
               <article
-                key={title}
+                key={v.title}
                 className="bg-cream-card rounded-2xl shadow-sh-1 hover:shadow-sh-3 border border-cream-line hover:border-orange-200 transition-all duration-200 p-5 sm:p-6 hover:-translate-y-0.5"
               >
                 <div className="w-11 h-11 rounded-pill bg-orange-50 inline-flex items-center justify-center mb-3">
-                  <Icon className="w-5 h-5 text-orange-600" />
+                  <Icon name={v.icon} className="w-5 h-5 text-orange-600" />
                 </div>
                 <h3 className="text-h3 font-bold text-ink-900 leading-snug">
-                  {title}
+                  {v.title}
                 </h3>
                 <p className="mt-2 text-body-sm text-ink-600 leading-relaxed">
-                  {body}
+                  {v.body}
                 </p>
               </article>
             ))}
@@ -311,14 +255,15 @@ export default function AboutUsPage() {
         <div className="mb-8 sm:mb-10 flex flex-wrap items-end justify-between gap-4">
           <div className="max-w-2xl">
             <p className="text-overline uppercase text-orange-700 font-bold mb-2 tracking-overline">
-              What we offer
+              {services.overline}
             </p>
             <h2 className="text-h1 sm:text-display-2 font-display font-extrabold text-ink-900 tracking-tight leading-tight">
-              From routine bloodwork to advanced imaging.
+              {services.title}
             </h2>
             <p className="mt-3 text-body text-ink-600 leading-relaxed">
-              {labTestCount}+ lab tests, {scanCount}+ radiology scans, and
-              curated checkup packages — all under one accredited roof.
+              {services.labTestCount}+ lab tests, {services.scanCount}+
+              radiology scans, and curated checkup packages — all under one
+              accredited roof.
             </p>
           </div>
           <Link
@@ -331,20 +276,20 @@ export default function AboutUsPage() {
         </div>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-5">
-          {SERVICES.map(({ Icon, title, body, href }) => (
+          {services.items.map((s) => (
             <Link
-              key={title}
-              href={href}
+              key={s.title}
+              href={s.href ?? "#"}
               className="group bg-cream-card rounded-2xl shadow-sh-1 hover:shadow-sh-3 border border-cream-line hover:border-orange-200 transition-all duration-200 p-5 sm:p-6 flex flex-col hover:-translate-y-0.5"
             >
               <div className="w-11 h-11 rounded-pill bg-gradient-cta text-white inline-flex items-center justify-center mb-3 shadow-glow-orange">
-                <Icon className="w-5 h-5" />
+                <Icon name={s.icon} className="w-5 h-5" />
               </div>
               <h3 className="text-h3 font-bold text-ink-900 leading-snug">
-                {title}
+                {s.title}
               </h3>
               <p className="mt-2 text-body-sm text-ink-600 leading-relaxed flex-1">
-                {body}
+                {s.body}
               </p>
               <span className="mt-4 inline-flex items-center gap-1 text-body-sm font-bold text-orange-600 group-hover:translate-x-0.5 transition-transform">
                 Explore
@@ -360,14 +305,14 @@ export default function AboutUsPage() {
         <div className="mx-auto max-w-7xl px-gutter">
           <div className="text-center max-w-2xl mx-auto mb-10 sm:mb-12">
             <p className="text-overline uppercase text-orange-700 font-bold mb-3 tracking-overline">
-              The journey so far
+              {milestones.overline}
             </p>
             <h2 className="text-h1 sm:text-display-2 font-display font-extrabold text-ink-900 tracking-tight leading-tight">
-              From one centre to a city-wide network.
+              {milestones.title}
             </h2>
           </div>
           <ol className="relative grid sm:grid-cols-2 lg:grid-cols-4 gap-5 sm:gap-6">
-            {MILESTONES.map((m, i) => (
+            {milestones.items.map((m, i) => (
               <li
                 key={m.year}
                 className="relative bg-cream-card rounded-2xl shadow-sh-1 border border-cream-line p-5 sm:p-6"
@@ -403,52 +348,45 @@ export default function AboutUsPage() {
       >
         <div className="mb-8 sm:mb-10 max-w-2xl">
           <p className="text-overline uppercase text-orange-700 font-bold mb-2 tracking-overline">
-            Find us
+            {centres.overline}
           </p>
           <h2 className="text-h1 sm:text-display-2 font-display font-extrabold text-ink-900 tracking-tight leading-tight">
-            {centers.length} centres, one consistent standard.
+            {centres.items.length} centres, one consistent standard.
           </h2>
           <p className="mt-3 text-body text-ink-600 leading-relaxed">
-            Same equipment quality, same SOPs, same reference ranges — at
-            every Cadabam&apos;s Diagnostics centre across Bangalore.
+            {centres.description}
           </p>
         </div>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5">
-          {centers.map((c) => {
-            const slug = getCenterSlug(c);
-            const phone =
-              c.center_info.phone.split(",")[0]?.trim() ??
-              c.center_info.phone;
-            return (
-              <Link
-                key={c.id}
-                href={`/bangalore/center/${slug}`}
-                className="group bg-cream-card rounded-2xl shadow-sh-1 hover:shadow-sh-3 border border-cream-line hover:border-orange-200 transition-all duration-200 p-5 flex flex-col hover:-translate-y-0.5"
-              >
-                <div className="flex items-start gap-3 mb-3">
-                  <span className="w-10 h-10 inline-flex items-center justify-center rounded-pill bg-orange-50 text-orange-600 flex-shrink-0 group-hover:bg-orange-100">
-                    <Building2 className="w-5 h-5" />
-                  </span>
-                  <h3 className="text-body sm:text-h3 font-bold text-ink-900 leading-snug">
-                    {c.basic_info.center_name.trim()}
-                  </h3>
-                </div>
-                <p className="text-body-sm text-ink-600 leading-relaxed line-clamp-3 mb-4">
-                  {c.center_info.address}
-                </p>
-                <div className="mt-auto pt-3 border-t border-cream-line-soft flex items-center justify-between gap-3">
-                  <span className="text-meta text-ink-500 font-medium">
-                    {phone}
-                  </span>
-                  <span className="inline-flex items-center gap-1 text-body-sm font-bold text-orange-600 group-hover:translate-x-0.5 transition-transform">
-                    Details
-                    <ChevronRight className="w-3.5 h-3.5" />
-                  </span>
-                </div>
-              </Link>
-            );
-          })}
+          {centres.items.map((c) => (
+            <Link
+              key={c.id}
+              href={c.href}
+              className="group bg-cream-card rounded-2xl shadow-sh-1 hover:shadow-sh-3 border border-cream-line hover:border-orange-200 transition-all duration-200 p-5 flex flex-col hover:-translate-y-0.5"
+            >
+              <div className="flex items-start gap-3 mb-3">
+                <span className="w-10 h-10 inline-flex items-center justify-center rounded-pill bg-orange-50 text-orange-600 flex-shrink-0 group-hover:bg-orange-100">
+                  <Building2 className="w-5 h-5" />
+                </span>
+                <h3 className="text-body sm:text-h3 font-bold text-ink-900 leading-snug">
+                  {c.name}
+                </h3>
+              </div>
+              <p className="text-body-sm text-ink-600 leading-relaxed line-clamp-3 mb-4">
+                {c.address}
+              </p>
+              <div className="mt-auto pt-3 border-t border-cream-line-soft flex items-center justify-between gap-3">
+                <span className="text-meta text-ink-500 font-medium">
+                  {c.phone}
+                </span>
+                <span className="inline-flex items-center gap-1 text-body-sm font-bold text-orange-600 group-hover:translate-x-0.5 transition-transform">
+                  Details
+                  <ChevronRight className="w-3.5 h-3.5" />
+                </span>
+              </div>
+            </Link>
+          ))}
         </div>
       </section>
 
@@ -467,32 +405,31 @@ export default function AboutUsPage() {
             <div className="relative grid gap-6 lg:grid-cols-[1.4fr_1fr] items-center">
               <div>
                 <p className="text-overline uppercase font-bold text-white/80 mb-2 tracking-overline">
-                  Ready when you are
+                  {cta.overline}
                 </p>
                 <h2 className="text-h1 sm:text-display-2 font-display font-extrabold tracking-tight leading-tight">
-                  Book your test in under a minute.
+                  {cta.title}
                 </h2>
                 <p className="mt-3 text-body lg:text-h3 text-white/85 max-w-xl leading-relaxed">
-                  Walk-in, home sample collection, or a centre visit — choose
-                  what fits your day. We&apos;ll handle the rest.
+                  {cta.description}
                 </p>
               </div>
               <div className="flex flex-col sm:flex-row lg:flex-col gap-3 lg:items-stretch">
                 <Link
-                  href="/bangalore/lab-test"
+                  href={cta.primary.href}
                   className="inline-flex items-center justify-center gap-2 rounded-pill bg-white text-orange-700 font-bold px-6 py-3 text-body shadow-sh-2 hover:brightness-95 active:scale-[0.98] transition-all"
                 >
-                  <Beaker className="w-4 h-4" />
-                  Book a lab test
+                  <Icon name={cta.primary.icon} className="w-4 h-4" />
+                  {cta.primary.label}
                 </Link>
                 <ContactActionButton
                   mode="call"
-                  phone="+91 99006 64696"
+                  phone={cta.call.phone}
                   context="About us — call back"
                   className="inline-flex items-center justify-center gap-2 rounded-pill bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 text-body border border-white/30 transition-all"
                 >
-                  <Phone className="w-4 h-4" />
-                  Talk to us
+                  <Icon name={cta.call.icon} className="w-4 h-4" />
+                  {cta.call.label}
                 </ContactActionButton>
               </div>
             </div>
@@ -506,16 +443,16 @@ export default function AboutUsPage() {
 function StatTile({
   value,
   label,
-  Icon,
+  iconName,
 }: {
   value: string;
   label: string;
-  Icon: typeof Clock;
+  iconName: string;
 }) {
   return (
     <div className="bg-white/10 backdrop-blur-md rounded-2xl border border-white/20 p-4 lg:p-5 flex items-center gap-3">
       <span className="w-10 h-10 inline-flex items-center justify-center rounded-pill bg-white/15 ring-1 ring-white/25 flex-shrink-0">
-        <Icon className="w-5 h-5" />
+        <Icon name={iconName} className="w-5 h-5" />
       </span>
       <div className="min-w-0">
         <p className="text-h2 lg:text-display-2 font-display font-extrabold leading-none">
@@ -530,15 +467,15 @@ function StatTile({
 }
 
 function Highlight({
-  Icon,
+  iconName,
   text,
 }: {
-  Icon: typeof Clock;
+  iconName: string;
   text: string;
 }) {
   return (
     <div className="flex items-center gap-2.5 bg-cream-card rounded-pill border border-cream-line shadow-sh-1 px-3 py-2 text-body-sm font-semibold text-ink-700">
-      <Icon className="w-4 h-4 text-orange-600 flex-shrink-0" />
+      <Icon name={iconName} className="w-4 h-4 text-orange-600 flex-shrink-0" />
       <span className="truncate">{text}</span>
     </div>
   );

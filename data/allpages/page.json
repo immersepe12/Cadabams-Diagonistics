@@ -1,0 +1,1323 @@
+{
+  "type": "home",
+  "route": "/",
+  "hero": {
+    "title": "Need a Blood test",
+    "subtitle": "CHOOSE THE FASTEST LAB",
+    "imageSrc": "/home/image-1731920519198-101162377.webp",
+    "buttons": [
+      {
+        "text": "Labtest",
+        "href": "/bangalore/lab-test",
+        "icon": "/home/image-1729838534546-659544236.webp",
+        "id": "671b5259b96e79f0a315aea9"
+      },
+      {
+        "text": "Radiology",
+        "href": "bangalore/mri-scan",
+        "icon": "/home/image-1729838577366-954403842.webp",
+        "id": "671b5259b96e79f0a315aeaa"
+      }
+    ]
+  },
+  "features": [
+    {
+      "icon": "/home/image-1729839690061-666204063.webp",
+      "title": "Certified Labs",
+      "id": "671b5259b96e79f0a315aeae"
+    },
+    {
+      "icon": "/home/image-1729839798187-636138092.webp",
+      "title": "Report in 6 hours",
+      "id": "671b5259b96e79f0a315aeaf"
+    },
+    {
+      "icon": "/home/image-1729839748866-456387654.webp",
+      "title": "6am - 9pm",
+      "id": "671b5259b96e79f0a315aeb0"
+    }
+  ],
+  "featuredTests": {
+    "title": "Vital Health Tests",
+    "cards": [
+      {
+        "id": "671b5105ad9bf8d210384d2f",
+        "name": "COMPLETE BLOOD COUNT with ESR",
+        "href": "/bangalore/lab-test/complete-blood-count-test-with-esr",
+        "reportsWithin": "6 hours",
+        "price": 380,
+        "discountedPrice": 380,
+        "discountPct": 0,
+        "kind": "Lab Test"
+      },
+      {
+        "id": "671b5105ad9bf8d210384d30",
+        "name": "URINE ANALYSIS",
+        "href": "/bangalore/lab-test/urine-analysis",
+        "reportsWithin": "60mins",
+        "price": 161,
+        "discountedPrice": 161,
+        "discountPct": 0,
+        "kind": "Lab Test"
+      },
+      {
+        "id": "671c7dd9c8a77735c8e44129",
+        "name": "DENGUE PROFILE - RAPID",
+        "href": "/bangalore/lab-test/dengue-profile-rapid-test",
+        "reportsWithin": "60mins",
+        "price": 250,
+        "discountedPrice": 250,
+        "discountPct": 0,
+        "kind": "Lab Test"
+      },
+      {
+        "id": "671c7d2fc8a77735c8e44117",
+        "name": "Thyroid Stimulating Hormone (TSH)",
+        "href": "/bangalore/lab-test/thyroid-simulation-harmone-tsh",
+        "reportsWithin": "60mins",
+        "price": 285,
+        "discountedPrice": 285,
+        "discountPct": 0,
+        "kind": "Lab Test"
+      }
+    ]
+  },
+  "mostBookedCheckups": {
+    "title": "We specialise in Radiology",
+    "description": "Bangalore's most advanced radiology machines and outputs.",
+    "viewAllCheckup": "/non-labtest",
+    "checkups": [
+      {
+        "title": "Fetal ultrasound",
+        "icon": "/home/image-1732255281476-709224322.webp",
+        "catid": "671b5102ad9bf8d210384d1e",
+        "href": "67371c29996e7737b6f4de55",
+        "id": "67383fdb71a5aadf0dff512b"
+      },
+      {
+        "title": "Brain MRI",
+        "icon": "/home/image-1732255322636-631996327.webp",
+        "catid": "671b5102ad9bf8d210384d1a",
+        "href": "6735d7ca03598b92c151c932",
+        "id": "67383fdb71a5aadf0dff512c"
+      },
+      {
+        "title": "CT-Abdomen",
+        "icon": "/home/image-1732255598531-832126692.webp",
+        "catid": "671b5102ad9bf8d210384d1b",
+        "href": "6735d37103598b92c151c90e",
+        "id": "67383fdb71a5aadf0dff512d"
+      },
+      {
+        "title": "Hand X-ray",
+        "icon": "/home/image-1732255413036-642273703.webp",
+        "catid": "671b5102ad9bf8d210384d19",
+        "href": "6735b38f03598b92c151c546",
+        "id": "67383fdb71a5aadf0dff512e"
+      },
+      {
+        "title": "Fetal Imaging",
+        "icon": "/home/image-1732255445038-91379191.webp",
+        "catid": "671b5102ad9bf8d210384d1e",
+        "href": "6736e2f403598b92c151cdc2",
+        "id": "67383fdb71a5aadf0dff512f"
+      },
+      {
+        "title": "Abdomen & Pelvis scan",
+        "icon": "/home/image-1732255649442-266460905.webp",
+        "catid": "671b5102ad9bf8d210384d1c",
+        "href": "673c56c5effae454707dfe68",
+        "id": "67383fdb71a5aadf0dff5130"
+      }
+    ]
+  },
+  "banner": [
+    "/home/image-1731322202356-745504588.webp",
+    "/home/image-1731322208631-864247789.webp",
+    "/home/image-1731322213608-707802914.webp",
+    "/home/image-1731322218967-440194828.webp",
+    "/home/image-1731916276929-165930267.webp"
+  ],
+  "healthMonitoring": {
+    "title": "Stay ahead of your health",
+    "cards": [
+      {
+        "id": "671b5259b96e79f0a315aead",
+        "title": "Urine Analysis",
+        "description": "Urine analysis is also known as urinalysis and it is a low-level risk invasive test.In the urine analysis test, several components and properties of urine are investigated.",
+        "imageSrc": "/home/image-1732165774286-810352647.webp",
+        "trustedBy": "10000+ customers",
+        "reportsWithin": "60mins",
+        "price": 161,
+        "discountedPrice": 161,
+        "discountPct": 0,
+        "detailHref": "/bangalore/lab-test/urine-analysis"
+      },
+      {
+        "id": "6731ebca03598b92c151a53d",
+        "title": "Lipid Profile",
+        "description": "A lipid profile is defined as a blood test which determines the level of several specific lipids in the blood. It is a very important test in the detection of risk for ischemic heart disease (IHD) such as risk factors.",
+        "imageSrc": "/home/image-1732165782196-565994680.webp",
+        "trustedBy": "10000+ customers",
+        "reportsWithin": "120 mins",
+        "price": 660,
+        "discountedPrice": 660,
+        "discountPct": 0,
+        "detailHref": "/bangalore/lab-test/lipid-profile-test-lpt"
+      },
+      {
+        "id": "6734469703598b92c151abe9",
+        "title": "Thyroid Stimulating Hormone(TSH)",
+        "description": "The Thyroid Stimulating Hormone (TSH) Test is a highly important blood test that aims to assess the functioning of the thyroid gland. The TSH test on the other hand measures the thyroid stimulating hormone or TSH in blood specifically.",
+        "imageSrc": "/home/image-1732165789174-45044587.webp",
+        "trustedBy": "10000+ customers",
+        "reportsWithin": "60mins",
+        "price": 285,
+        "discountedPrice": 285,
+        "discountPct": 0,
+        "detailHref": "/bangalore/lab-test/thyroid-simulation-harmone-tsh"
+      },
+      {
+        "id": "673479a403598b92c151afc5",
+        "title": "Liver Function Test(LFT)",
+        "description": "Liver Function Test (LFT) or the hepatic function panel blood tests are used to determine liver state or more than its state liver function. It checks for enzyme and protein levels and other biology substances synthesized or metabolized by the liver. ",
+        "imageSrc": "/home/image-1732165795264-286121739.webp",
+        "trustedBy": "10000+ customers",
+        "reportsWithin": "60mins",
+        "price": 700,
+        "discountedPrice": 700,
+        "discountPct": 0,
+        "detailHref": "/bangalore/lab-test/liver-function-test-lft"
+      },
+      {
+        "id": "673479a403598b92c151afc6",
+        "title": "Thyroid Profile",
+        "description": "Thyroid profile check for hormones and proteins like antibodies and thyroglobulin. These tests can tell you if you have conditions like hypothyroidism (underactive thyroid) or hyperthyroidism (overactive thyroid). ",
+        "imageSrc": "/home/image-1732165801083-460058969.webp",
+        "trustedBy": "10000+ customers",
+        "reportsWithin": "60mins",
+        "price": 660,
+        "discountedPrice": 660,
+        "discountPct": 0,
+        "detailHref": "/bangalore/lab-test/thyroid-profile-t3-t4-tsh"
+      },
+      {
+        "id": "673479a403598b92c151afc7",
+        "title": "Glucose Fasting test",
+        "description": "Fasting blood sugar is a simple, common blood test to diagnose prediabetes, diabetes or gestational diabetes. Before the test, you shouldn't have anything to eat or drink (except water) for 8 to 12 hours.",
+        "imageSrc": "/home/image-1732165805601-370002142.webp",
+        "trustedBy": "10000+ customers",
+        "reportsWithin": "60mins",
+        "price": 65,
+        "discountedPrice": 65,
+        "discountPct": 0,
+        "detailHref": "/bangalore/lab-test/glucose-fasting-test-gft"
+      }
+    ]
+  },
+  "vitalOrgans": {
+    "title": "For Vital Body Organs",
+    "description": "Explore our comprehensive range of diagnostic tests tailored for vital body organs and systems. Our specialized diagnostic tests focus on evaluating the well-being of essential body functions, ensuring you receive the care you deserve.",
+    "categories": [
+      {
+        "id": "671b5102ad9bf8d210384d19",
+        "name": "XRay",
+        "tests": [
+          "671b510aad9bf8d210384d3f",
+          "6735b38f03598b92c151c546",
+          "6735c0fd03598b92c151c5cb",
+          "673c4d4ceffae454707dfdfa",
+          "673c7a54effae454707e017d",
+          "673dccb25ab244ca239d04b1",
+          "673ec2d05ab244ca239d0899",
+          "673ed4fc5ab244ca239d098a",
+          "679b464abf2a88a244a6b651",
+          "679c76cdbf2a88a244a6edbd",
+          "679c83f2bf2a88a244a6f00c",
+          "67a9afcea45909fb1bd0fa23",
+          "67a9b828a45909fb1bd0fb09",
+          "67ac7ec8a45909fb1bd13a47",
+          "67ad98e5a45909fb1bd15599",
+          "67add3f7a45909fb1bd160ef",
+          "67add436a45909fb1bd160fc",
+          "67af303fa45909fb1bd185e5",
+          "67af3090a45909fb1bd185f4",
+          "67b2e762a45909fb1bd1db56",
+          "67b2f24ea45909fb1bd1ddc5",
+          "67b2f2eba45909fb1bd1dddc",
+          "67b2f32ba45909fb1bd1ddea",
+          "67b46d70a45909fb1bd20ecf",
+          "67b46db7a45909fb1bd20edc",
+          "67b46deba45909fb1bd20eea",
+          "67b46fc8a45909fb1bd20efe",
+          "67b47588a45909fb1bd20f49",
+          "67b47c00a45909fb1bd210ee",
+          "67b47f26a45909fb1bd211be",
+          "67b83ce3a45909fb1bd28445",
+          "67b8402ba45909fb1bd284f4",
+          "67bda77216444f3c114db516",
+          "67bdaa3a16444f3c114db576",
+          "67bde66f16444f3c114dbe56",
+          "67c0253116444f3c114df6e2",
+          "67c0283c16444f3c114df714",
+          "67ec18e716444f3c1152e61d",
+          "67f3c05e16444f3c1153a8e0",
+          "67f3ddff16444f3c1153ad0c",
+          "67f3e05c16444f3c1153ad24",
+          "67f3eee616444f3c1153ae7b",
+          "67f3f17e16444f3c1153aea4",
+          "67f3f88e16444f3c1153afaf",
+          "680ba7d916444f3c1156941d",
+          "680baa7516444f3c1156943f",
+          "685b755b16444f3c11627f97",
+          "685b77f516444f3c11628028",
+          "685b907616444f3c116286ff"
+        ],
+        "image": "/scans/image-1730261774049-832592582.webp",
+        "path": "xray-scan",
+        "createdAt": "2024-10-17T19:18:24.325Z",
+        "updatedAt": "2024-10-17T19:18:24.325Z",
+        "allData": {
+          "categoryId": "671b5102ad9bf8d210384d19",
+          "requisites": [
+            {
+              "value": "There are no special customs required for diagnostic x-ray images. In some cases, contrast material or “contrast dye” might be required to be taken before the x-ray. This is a substance that enhances the quality of the images. "
+            }
+          ],
+          "interpretations": {
+            "title": "Results and Interpretations",
+            "cols": [
+              "Condition/Findings ",
+              "Description ",
+              "Interpretation ",
+              ""
+            ],
+            "rows": [
+              [
+                "Normal X-ray ",
+                "No abnormalities detected in the bones or organs. ",
+                "The area examined appears healthy, with no visible issues or structural problems. ",
+                ""
+              ],
+              [
+                "Fracture or Dislocation ",
+                "Break or displacement of bones. ",
+                "Indicates bone damage requiring immediate medical attention, such as casting or surgical correction. ",
+                ""
+              ],
+              [
+                "Bone Infection (Osteomyelitis) ",
+                "Signs of infection within the bone tissue. ",
+                "May require antibiotics or surgical treatment depending on the severity of the infection. ",
+                ""
+              ],
+              [
+                "Arthritis ",
+                "Joint space narrowing, bone spurs, or joint deformity. ",
+                "Suggests joint inflammation or degeneration, often associated with conditions like osteoarthritis. ",
+                ""
+              ],
+              [
+                "Lung Infections ",
+                "Abnormalities in lung tissue, such as cloudiness or opacities. ",
+                "Could indicate pneumonia, tuberculosis, or bronchitis, requiring further medical evaluation. ",
+                ""
+              ]
+            ]
+          },
+          "faqs": [
+            {
+              "question": "What is an X Ray for? ",
+              "answer": "An X ray is employed to read various medical conditions and diagnose bone or organ fractures, abnormalities, lung infections, arthritis as well as infections in the organs."
+            },
+            {
+              "question": "Is X-ray service available in Bangalore at Cadabam’s Diagnostics? ",
+              "answer": "Yes, X-ray services are available at Cadabam’s. With expert radiologists and modern equipment, accurate diagnostics are performed around the clock."
+            },
+            {
+              "question": "Can I get an X-ray if I have a metal implant? ",
+              "answer": "Yes, but you have to let the technician know about such implants as this could affect the quality of the images, which requires specific techniques."
+            },
+            {
+              "question": "Are there any side effects after having an X Ray? ",
+              "answer": "There are no side effects of Xs. However, this should be emphasized with regard to treatment over time, as there is an increased risk.\n\nProtective measures are taken to minimise exposure."
+            },
+            {
+              "question": "Can I eat or drink after having an X-ray?",
+              "answer": "Generally, after an X-ray, it's safe to eat or drink anything as most doctors do not mind unless there are some prohibitions in relation to your condition or course of treatment."
+            }
+          ],
+          "relative_test": {
+            "title": "Related Tests",
+            "categoryId": "671b5102ad9bf8d210384d19",
+            "tests": [
+              {
+                "id": "6735b38f03598b92c151c546",
+                "testName": "Hand X-ray ",
+                "route": "/hand-x-ray"
+              },
+              {
+                "id": "6735c0fd03598b92c151c5cb",
+                "testName": "XR -ABDOMEN ERECT",
+                "route": "/abdomen-x-ray"
+              },
+              {
+                "id": "673c4d4ceffae454707dfdfa",
+                "testName": "XR - CHEST PA VIEW",
+                "route": "/chest-x-ray"
+              },
+              {
+                "id": "673c7a54effae454707e017d",
+                "testName": "Chest X-Ray (PA View)  ",
+                "route": "/chest-x-ray-pa-view"
+              },
+              {
+                "id": "673dccb25ab244ca239d04b1",
+                "testName": "CT LOWER ABDOMEN (INCLUDING PELVIS)WITHOUT CONTRAST ",
+                "route": "/abdomen-and-lower-thorax-ct-scan"
+              },
+              {
+                "id": "673ec2d05ab244ca239d0899",
+                "testName": "X-RAY MAMMOGRAPHY",
+                "route": "/bilateral-mammography-x-ray"
+              },
+              {
+                "id": "673ed4fc5ab244ca239d098a",
+                "testName": "BMD hip and spine",
+                "route": "/bmd-hip-and-spine-x-ray-scan"
+              }
+            ]
+          },
+          "seo": {
+            "title": "",
+            "description": "Book X-ray scans in Bangalore for accurate results with trusted diagnostic centers offering fast imaging, dependable reporting, and quality healthcare."
+          }
+        },
+        "markdown": "X-rays are a type of electromagnetic radiation that can pass through most objects, including the body, to create images of the inside\n\n## X-ray Tests\n\n![X-ray Tests](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731734791415-559765543.png)\n\nX-ray is also called x-ray radiography. Other types of X ray images are called x-rays and are made of a form of radiology which uses small amounts of ionizing radiation to produce pictures of a person’s inner body parts like bones and organs. Its main purpose is orthopaedics, such as bone fractures, infection’s diagnosis and other pathological changes monitoring.\n\nIn simple terms, it is a rapid and noninvasive approach which provides medical practioners with the necessary information regarding the patient’s wellbeing and helps determine the presence of an injury, a disease or an abnormality.\n\n### What is an X-ray?\n\nAn X-ray is a type of electromagnetic radiation such as radio waves, microwaves, visible light, and gamma rays. X rays also detect abnormalities and Torres mutation in things that often are innocent features of hundreds of people and puts them at unnecessary risk as the thing does use the least ionizing radiation possible.\n\nThe x-ray is capable of identifying fractures, lung fluid, tumours, pneumonia and many other contagious diseases as x-ray beams penetrate our bodies at varying rates, thus replacing structures such as bones, organs and other tissues containing gamma rays.\n\n## Types of X-rays\n\nThose who are worried about the multiple conditions that may have scarred their body, it is alright, one single x-ray is more than enough for multiple areas of your body.\n\nThese include the following:\n\n**Chest radiograph:** It primarily assesses lung diseases like pneumonia, bronchitis, or tuberculous infections.\n\n**Bone radiograph:** It is mainly employed to reveal bone fractures, joint issues or osteomyelitis.\n\n**Mammography (Breast Radiography):** It is a form of radiography which is mostly used to find breast cancer and any breast tissue that is not normal.\n\n**Hand radiograph:** It is used mainly to evaluate diseases of the hand, wrist and the fingers such as arthritis, infections, fractures, and dislocations.\n\n**Abdominal Radiograph:** This X-ray aids the physicians in evaluating the abdominal cavity and helps in determining the presence of bowel obstructions, nephrolithiasis, or foreign bodies. It is also employed to evaluate measurable vomit disorders.\n\n## Risks & Limitations of the X-ray Test\n\n![Risks & Limitations of the X-ray Test](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731734808853-101145286.png)\n\nOne of the greatest assets that a doctor has at hand is the ability to scan through X-Rays; with their use, doctors can spot all the abnormalities that patients might have. The only downside of them using X-Rays is the fact that it does come with a couple of risks, which for the most part are harmless.\n\nWomen who are of childbearing age or are expecting should not be using them since there is a chance it may endanger the unborn child. Those who are women must avoid scanning of soft tissues such as the stomach and muscles, their bodies do scan fine in X-Ray machines.\n\nAnother scenario in which they cannot be used is when patients require an image of their bones.\n\n## List of Parameters Considered During the X-ray Scan\n\n![List of Parameters Considered During the X-ray Scan](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731734819591-78011352.png)\n\nIt is significant to note that some parameters of X-ray scans will be different based on the type and clinical indication of the X-ray. These are some of the parameters to bear in mind during the x-ray examination which are more common.\n\n- Bone structure and fractures.\n- Presence of foreign objects in the body.\n- Condition of soft tissues (particularly in specialised X-rays such as chest X-rays).\n- X-ray techniques and doses may need to be adjusted based on the individual’s age.\n- It is also not generally recommended for pregnant women and men with certain conditions, such as prostate enlargement and may require different X-ray techniques.\n\nIn addition, in both men with some conditions (prostate enlargement) and women who are often need other X-ray techniques are not usually advised.\n\n## Reasons for Taking an X-ray\n\n![Reasons for Taking an X-ray](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731734825517-505647292.png)\n\nSome circumstances arise that may require X-ray imaging scans. Some of the reasons include but are not limited to: -\n\n**Diagnosis of Bone Fracture:** The doctor can visualize the injury to the bone and therefore some images such as telescoped arms x-ray are taken.\n\n**Detection of Lung Conditions:** Pneumonia is confined to lung disease, so chest x-ray films can pinpoint its location.\n\n**Tracking of Chronic Conditions:** X-rays can monitor the changes of arthritis or osteoporosis.\n\n**Dental Examination:** X-rays are useful in the assessment of tooth cavities, dental caries, orthodontic treatments.\n\n**Detection of Digestive Tract Issues:** This form of imaging is aimed at determining the causes of obstruction, the presence of kidney stones and other issues.\n\n## Benefits of Taking the scan\n\n![Benefits of Taking the scan](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731734835010-422145974.png)\n\nAn x-ray image or an x-ray scan is said to be one of the best means of diagnosing a disease and it is beneficial for both the practitioners as well as the sufferers. Some of the benefits include\n\n**Fast and Painless:** The entire X-ray scanning duration is brief because it is a non-invasive procedure, hence no pain is expected to be experienced.\n\n**Accessibility:** Availability of x-ray machines is the bulk in the majority of hospitals and diagnostic centers; hence they are among the most easily accessible scanning machines.\n\n**Clear Image:** It provides better imaging and clarity of the structures and joints making the best scan for fractures and joints.\n\n**Tracking Treatment Program:﻿** X-ray scans are advantageous when it comes to assessing the degree of effectiveness that various treatments have had over the course of treating various chronic diseases.\n\n## Illnesses Diagnosed with X-ray\n\n![Illnesses Diagnosed with X-ray](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731734840792-770486718.png)\n\nSuffice it to say that X-rays are a powerful image scanning technique that can be deployed to a range of conditions. Some of them include: -\n\n- Dislocation and fracture of bones\n- Disorders caused by tuberculosis, lung cancer, any disease of the lungs\n- Conditions of joints including arthritis and osteoporosis\n- Cavity problems and jawbone infection during one's teeth\n- Disease related to the kidneys, stones or even parts of the bowel that are blocked.\n\n## Preparing for X-ray Scan\n\n![Preparing for X-ray Scan](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731734868837-62031376.png)\n\nIn most situations, the process leading up to the scan is not a big deal, however, there are some circumstances in which you will be instructed on how to prepare for the X-ray depending on the type of X-ray you require.\n\nPrerequisites Considering the abdominal X-ray scan now, the doctor/physician may require that you refrain from eating anything for several hours prior to the procedure or entertaining any liquids. Other major X-ray scans like chest, bone, or dental don’t require any prerequisites.\n\n### Best Time to Take the X-ray Scan\n\nWhen it comes to x-ray scans there is no timely or a preferred time of the day, but there are cases when the physician requests a certain time.\n\n### Eligibility\n\nX-ray scans are relatively uncomplicated and safe across the board making them readily available to both the children and the elderly\n\nNonetheless, medical practitioners may refrain from conducting X-rays on pregnant clients because of the potential risk of injury to the fetus.\n\n### Guidelines on How an X-Ray Scan is Done:\n\nAn X-ray scan is very simple to process sometimes or in most cases. It majorly depends on what part the technician aims to examine; they may instruct you to comply with their request by sitting or lying down in n specific position. Most of the time, which could average to 15 to 30 minutes, is the time the whole process takes, but exceptions are also possible.\n\n### Precautions:\n\nAlthough X-rays are deemed to be harmless to most individuals, it is crucial to exercise some measures, particularly with respect to pregnant women. It is also beneficial to keep your doctor updated if there are any metal implants that may hinder creating an X-ray image."
+      },
+      {
+        "id": "671b5102ad9bf8d210384d1a",
+        "name": "MRI",
+        "tests": [
+          "672c8b63e3e3df5779917a14",
+          "6735d7ca03598b92c151c932",
+          "673719ce996e7737b6f4de3a",
+          "673c712beffae454707e0135",
+          "673db6af534c72d341052c2f",
+          "673dc0a75ab244ca239d0228",
+          "673ddaf55ab244ca239d0547",
+          "673edbf25ab244ca239d0c46",
+          "679a2112bf2a88a244a6a08e",
+          "679c74fdbf2a88a244a6ed73",
+          "679c8c25bf2a88a244a6f131",
+          "679c912cbf2a88a244a6f1be",
+          "67a0725dbf2a88a244a765c0",
+          "67af22e3a45909fb1bd183e6",
+          "67bda0fb16444f3c114db46a",
+          "67bda4ae16444f3c114db4be",
+          "67d3e65416444f3c11500b89",
+          "67d3ea0c16444f3c11500ca5",
+          "67d3ecc716444f3c11500d30",
+          "67d7d30d16444f3c11507fe9",
+          "67d7d3ad16444f3c1150802a",
+          "67e12dbb16444f3c115186b2",
+          "67e12e1d16444f3c11518719",
+          "67e12e9316444f3c11518732",
+          "67e1403d16444f3c11518c04",
+          "67e249fb16444f3c1151adaa",
+          "67e280ab16444f3c1151bb60",
+          "67e2842c16444f3c1151bd97",
+          "67e2869c16444f3c1151be44",
+          "67e2892c16444f3c1151bf5f",
+          "67e3b81b16444f3c1151e7fe",
+          "67e3ba2b16444f3c1151e879",
+          "67e3bce516444f3c1151e93d",
+          "67e3beb716444f3c1151e966",
+          "67e3c23916444f3c1151eab8",
+          "67e3c5c616444f3c1151ed81",
+          "67e3c91316444f3c1151ede8",
+          "67e3cb6016444f3c1151eeab",
+          "67e3cdc316444f3c1151ef37",
+          "67e6684816444f3c11523765",
+          "67e66a3516444f3c11523786",
+          "67e66e4b16444f3c115238a5",
+          "67e6711616444f3c11523a07",
+          "67e6738516444f3c11523af8",
+          "67e674e816444f3c11523b1b",
+          "67e679fc16444f3c11523c7f",
+          "67e67c2e16444f3c11523ca0",
+          "67e67f0d16444f3c11523dab",
+          "67edf5c516444f3c11531198",
+          "67edf89216444f3c115311e7",
+          "67edfb0416444f3c11531235",
+          "67edfd5f16444f3c11531284",
+          "67f3b80b16444f3c1153a6e9",
+          "67f3ba6d16444f3c1153a748",
+          "67f3bdf716444f3c1153a802",
+          "67f3c35416444f3c1153a914",
+          "67f3dbca16444f3c1153ac65",
+          "67f3e65e16444f3c1153ad7a",
+          "67f3ec8316444f3c1153ae66",
+          "6805d9c516444f3c11559dea",
+          "6805dcd616444f3c11559ede",
+          "6805decd16444f3c11559f21",
+          "6805e21b16444f3c11559f81",
+          "6805e3ed16444f3c1155a02b",
+          "6805ee3d16444f3c1155a227",
+          "6805f0aa16444f3c1155a266",
+          "6805f28016444f3c1155a361",
+          "6805f51e16444f3c1155a499",
+          "6805f85a16444f3c1155a56b",
+          "6805fbad16444f3c1155a5f0",
+          "6805fe5216444f3c1155a6c0",
+          "6806002216444f3c1155a734",
+          "6806073816444f3c1155a831",
+          "68060a1516444f3c1155a85f",
+          "68060f0316444f3c1155a8e3",
+          "6806108f16444f3c1155a92e",
+          "680612fe16444f3c1155aa7b",
+          "680614e216444f3c1155aaf1",
+          "680616d016444f3c1155ab65",
+          "680618aa16444f3c1155ab95",
+          "68061a7516444f3c1155acc2",
+          "68061c9616444f3c1155ad7c",
+          "680b2f0a16444f3c115675e7",
+          "680b31ae16444f3c115676d3",
+          "680b34d016444f3c115676f9",
+          "680b43ef16444f3c115679aa",
+          "680b4aec16444f3c11567afd",
+          "680b4d7116444f3c11567b66",
+          "680b4f9b16444f3c11567bb7",
+          "680b528116444f3c11567c9e",
+          "680b5fa416444f3c11567fc2",
+          "680b897016444f3c11568f33",
+          "6830334b16444f3c115b6db1",
+          "6830617716444f3c115b7533",
+          "68319d5116444f3c115b9aea",
+          "68413f7b16444f3c115db6da",
+          "68415f0616444f3c115dbfba",
+          "6841732216444f3c115dc4ea",
+          "6842d41116444f3c115df81a"
+        ],
+        "image": "/scans/image-1730261866521-605550006.webp",
+        "path": "mri-scan",
+        "createdAt": "2024-10-17T19:20:09.828Z",
+        "updatedAt": "2024-10-17T19:20:09.828Z",
+        "allData": {
+          "categoryId": "671b5102ad9bf8d210384d1a",
+          "requisites": [
+            {
+              "value": "Before an MRI scan, several preparations must be made before the scan. For instance, let’s say an anatomical region like the abdomen is scanned while using contrast dye. In this situation, it would be appropriate for a patient to refrain from eating for some hours.   Aside from the afore-mentioned tips, bests, watches, jewelry and other forms of metal accessories must be taken off unless the patient wishes to remain naked while inside during the scan. Furthermore, tell the doctor about metallic implants, if you have one, or pacemakers or any condition that can impact the MRI Scan. "
+            }
+          ],
+          "interpretations": {
+            "title": "Results and Interpretations ",
+            "cols": [
+              "Scan Parameter ",
+              "Normal Range ",
+              "Abnormal Range ",
+              "Interpretation "
+            ],
+            "rows": [
+              [
+                "Organ Structure ",
+                "Normal appearance of organ ",
+                "Presence of lesions or tumours ",
+                "Abnormal structures can indicate issues like tumors, cysts, or infections. "
+              ],
+              [
+                "Blood Flow ",
+                "Normal blood flow ",
+                "Restricted or abnormal flow ",
+                "Abnormal flow patterns can point to blood clots or vascular conditions. "
+              ],
+              [
+                "Brain Function (fMRI) ",
+                "Typical brain activation ",
+                "Reduced or excessive activity ",
+                "Abnormal brain function may indicate neurological conditions like stroke or tumours Joint and Muscle Health. "
+              ],
+              [
+                "Joint and Muscle Health ",
+                "No tears or inflammation ",
+                "Tears, inflammation, or degeneration ",
+                "Abnormalities could suggest injuries like ligament tears or chronic joint issues. "
+              ]
+            ]
+          },
+          "faqs": [
+            {
+              "question": "Where can I find a reliable MRI scan in Bangalore?",
+              "answer": "Cadabam's Diagnostics offers reliable MRI scans in Bangalore with advanced technology and expert radiologists. We focus on accuracy and patient comfort. Visit our centre for your diagnostic needs."
+            },
+            {
+              "question": "Is there an MRI scan near me provided by Cadabam's Diagnostics?",
+              "answer": "Yes, Cadabam's Diagnostics has conveniently located centres in Bangalore. Check our locations page or contact us to find the nearest centre offering an MRI scan near me."
+            },
+            {
+              "question": "What is involved in an MRI test near me in Bangalore?",
+              "answer": "An MRI test near me at Cadabam's involves lying on a table that slides into the MRI machine. It's a painless procedure using magnetic fields, not radiation. Our team ensures your comfort throughout the MRI in Bangalore."
+            },
+            {
+              "question": "How should I prepare for my MRI scan in Bangalore?",
+              "answer": "Preparation for an MRI scan in Bangalore is usually minimal. You may be asked to remove metal objects and change into a gown. Specific instructions will be provided when you book your appointment for an MRI in Bangalore."
+            },
+            {
+              "question": "What is the approximate cost for an MRI scan Bangalore service?",
+              "answer": "The cost of an MRI scan Bangalore service varies based on the body part and specific requirements. Please contact Cadabam's Diagnostics directly for detailed pricing information for your specific MRI test near me"
+            }
+          ],
+          "relative_test": {
+            "title": "",
+            "categoryId": "671b5102ad9bf8d210384d1a",
+            "tests": [
+              {
+                "id": "6735d7ca03598b92c151c932",
+                "testName": "MRI BRAIN WITH CONTRAST",
+                "route": "/brain-mri"
+              },
+              {
+                "id": "673719ce996e7737b6f4de3a",
+                "testName": "Perianal Imaging",
+                "route": "/perianal-imaging-center"
+              },
+              {
+                "id": "673c712beffae454707e0135",
+                "testName": "Abdominal MRI ",
+                "route": "/abdominal-mri"
+              },
+              {
+                "id": "673db6af534c72d341052c2f",
+                "testName": "MRI LUMBAR / LUMBOSACRAL SPINE WITHOUT CONTRAST",
+                "route": "/lumbar-lumbosacral-spine-without-contrast-mri"
+              },
+              {
+                "id": "673dc0a75ab244ca239d0228",
+                "testName": "MRI ANGIOGRAPHY WITH CONTRAST",
+                "route": "/renal-angiography-mri"
+              },
+              {
+                "id": "673ddaf55ab244ca239d0547",
+                "testName": "MRI BRAIN WITH MR VENOGRAM",
+                "route": "/brain-with-spectroscopy-mri"
+              },
+              {
+                "id": "673edbf25ab244ca239d0c46",
+                "testName": "MRI LUMBAR / LUMBOSACRAL SPINE WITH CONTRAST",
+                "route": "/musculoskeletal-mri"
+              }
+            ]
+          },
+          "seo": {
+            "title": "",
+            "description": "Get accurate MRI scans in Bangalore with trusted diagnostic centers offering fast reporting, advanced imaging, and reliable results for your health needs."
+          }
+        },
+        "markdown": "A non-invasive medical imaging technique that uses radio waves and a strong magnet to create detailed pictures of the inside of the body\n\n## MRI Overview\n\n![MRI Overview](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731734990754-883013600.png)\n\n### **What is an MRI Scan?**\n\nMagnetic Resonance Imaging (MRI) is a medical imaging technique which requires no incision. It depends on strong magnets and radio frequency waves to provide a high-quality picture of the structures inside the body.\n\nIt is a machine with a tunnel and the patient is pushed through this and the machine takes images behind images cutting through the tissue depths of an organ. This enables precise identification of abnormal tissues and organs.\n\nMRI makes it a lot safer for repeated use as compared to X-ray or CT X-ray as the former does not involve ionising radiation which in turn solves a lot of issues. It is particularly good for imaging soft tissues, the brain, chords the spinal muscles and joints.\n\n###\n\n## Types of MRI\n\nMRI devices allow for various types and grades to be utilized depending on the location of the cancer and other associated conditions.\n\nAmong them, the following are some of the more common types of MRI scans: -\n\n**Brain MRI:** The availability of this MRI enables physicians to provide a diagnosis of the neurological complications, tumors, infectious processes, or structural abnormalities encountered in the brain.\n\n**Musculoskeletal MRI:** This scan is done to examine ligaments, muscles, and tendons –especially for their tearing or for detecting other injuries and joint problems.\n\n**Abdominal MRI:** Abdominal MRI gives detailed pictures of organs in the abdominal cavity such as the liver, pancreas, and kidneys and helps medical professionals diagnose various diseases such as tumors, cysts, liver disease and inflammation.\n\n**Cardiac MRI:** Thanks to this scan, the structure and functioning of the heart can be evaluated and ailments, for instance, cardiomyopathy or congenital defects can be diagnosed.\n\n**Spinal MRI:** Spinal MRI enables physicians and other health care providers to check for spinal cord injury, disc damage, and nerve compression.\n\n## Risks & Limitations of the MRI Test\n\n![Risks & Limitations of the MRI Test](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731735008823-294194501.png)\n\nMRI is considered as one of the safest methods of imaging as it does not involve the use of ionised radiation, however, it has its risks too, here are some of them: -\n\n- One of the main disadvantages of MRI scans is that it is not appropriate for people with some types of implants or metal in their body, such as pacemakers.\n- MRI might have some difficulties in obtaining images in the parts of the body that are prone to movements like the intestines.\n- Patients that are claustrophobic may not feel at ease as the MGMRI is quite enclosed.\n\n## List of Parameters Considered During the MRI Scan\n\n![List of Parameters Considered During the MRI Scan](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731735017076-120008364.png)\n\nIt is required to understand that the parameters vary based on the type of MRI scan and the objectives of performing the scan. Nevertheless, there are several common parameters and indicators which radiologists watch during an MRI scan: -\n\n### \n\n### **Tissue Characteristics**\n\nT1 Weighting: it is valuable in assessment of 3D anatomy of very specific tissues, and, for example, this weight increases the relative signal of fatty tissues content of those tissues.\n\n**T2 Weighting:** These are useful in addressing healthcare professional’s concerns relative to the presence of oedema, inflammation and other types of tumours.\n\nIt concerns identifying the amount of water within biological tissues.\n\n**Proton Density (PD) Weighting:** PD assesses the number of hydrogen protons within a tissue which assists in characterizing and detecting various tissue items.\n\n### **Tissue Integrity**\n\n**Morphology:** This concerns normal and abnormal organ and tissue shape, size, and positioning.\n\n**Signal Intensity:** Cases of tumours, bleeding, inflammation and so on can be seen due to the shine of the tissues on the image\n\n**Texture:** The condition of the tissues which may be smooth, rough or heterogeneous etc would be visualized.\n\n## Reasons for Taking the MRI\n\n![Reasons for Taking the MRI](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731735026260-379474018.png)\n\nYour doctor might suggest an MRI for several reasons, some of them being: -\n\n**Tumour Detection:** MRI scans allow doctors to see details of certain abnormalities such as tumors enabling them to detect it with ease.\n\n**Assessing joints and the Musculoskeletal system injuries:** Considering musculoskeletal problems, the most effective way of examining them is by using MRI which provides clearer images of joint and muscle injuries.\n\n**Liver and Kidney Cancers:** An MRI evaluation assist doctors to determine the kind of ailment that is present on the liver and kidney as in cirrhosis or fatty liver disease, etc or kidney cysts or tumors.\n\nCardiac An MRI heart provides adequate images of heart structure and its functions which medicate the diagnosis of cardiomyopathy congenital heart disease, heart valve diseases and even heart conditions in general.\n\n## Benefits of Taking the MRI\n\n![Benefits of Taking the MRI](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731735031195-674324222.png)\n\nMRI scans come with multiple advantages, and because of its versatility, it is considered one of the best imaging tools that can diagnose a wide variety of conditions. Here are a few of the advantages of MRI scans.\n\n- MRI is painless and non-invasive, there is no requirement for incision therefore it is possible to do a thorough examination without any invasive procedures.\n- Exposure to ionizing radiation is not possible during MRI since it uses magnetic fields instead making it a safer option for patients who require multiple scans\n- MRI also utilizes very high-resolution scans, it provides sharp and clear images of soft tissues, which greatly assists in intricate diagnosis securing imaging procedures.\n\n## Illnesses Diagnosed with MRI\n\n![Illnesses Diagnosed with MRI](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731735038304-717016321.png)\n\nMRI is a multi-dimensional imaging technique that assists healthcare professionals in diagnosing a range of conditions, including but not limited to:\n\n- Conditions such as brain cancer, stroke, and multiple sclerosis\n- Spinal cord damage, herniated discs, and nerve injuries\n- Liver and heart diseases and tumorous growths on the kidney\n- Ligament and bone related injuries including fractures and sprains\n- Vascular conditions such as blocked arteries or aneurysms\n\n## Preparing for MRI Scan\n\n![Preparing for MRI Scan](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731735043395-448909136.png)\n\nMRI scan procedures differ depending on the condition of the patient which in turn dictates how different kinds of MRI scans are done.\n\nNonetheless, here are some general rules that will potentially enable you to be better prepared for the scan.\n\n### **Requirements**\n\nIn the case of MRI such as the abdomen MRI, your physician would like to know if you have kidney problems, allergies as well as would like you to fast and if you have any metallic devices or implants, it is advisable to inform the doctor. Additionally, patients must take off necklaces, bracelets, watches, and any metal accessories like clips in hair prior to the MRI.\n\n### **Ideal Time for MRI Scan**\n\nThe ideal time for an MRI scan differs from one patient to the other and it also depends upon practical conditions as well as the type of scan one goes for. For instance, some are recommended to stay away from food or drinks around the time of the abdominal scan. For them, the early hours of the day are optimal.\n\n### **Qualifications**\n\nMost people are suited to undergo MRI however there are people who suffer from certain types of metallic implants or are claustrophobic and might not be able to use MRI. Closed MRIs may be used for patients who cannot tolerate being in tight places.\n\n### **Getting Ready for An MRI**\n\nYou will have to change into a hospital gown and lie on a table that goes into the MRI machine while your scan is being performed. You will have to protect your ears due to how loud the machine is.\n\nThe breath-hold command is often given by the technologist in order to avoid blurriness of the images.\n\n### **Precaution malpractice Observation Before the Scan**\n\nInform your doctor of such metal implants, as they can affect the scan and some MRIs use contrast dye, because it is necessary to let your physician know of any allergies or diseases."
+      },
+      {
+        "id": "671b5102ad9bf8d210384d1b",
+        "name": "CT Scan",
+        "tests": [
+          "6735d37103598b92c151c90e",
+          "673c6274effae454707e008c",
+          "673dd4e85ab244ca239d04bd",
+          "673de40d5ab244ca239d05bb",
+          "67a1d0e627567f98e56d2c57",
+          "67b84429a45909fb1bd2851c",
+          "67bd9d4f16444f3c114db42b",
+          "67bdc19116444f3c114db97d",
+          "67bdde2516444f3c114dbdbe",
+          "67bebe5a16444f3c114dd2fc",
+          "67bec1ed16444f3c114dd34d",
+          "67bec22316444f3c114dd35a",
+          "67bec49a16444f3c114dd3e5",
+          "67bec71b16444f3c114dd552",
+          "67bec97a16444f3c114dd568",
+          "67becba716444f3c114dd5ba",
+          "67becdc316444f3c114dd649",
+          "67c02f3116444f3c114df87c",
+          "67c0324616444f3c114df89c",
+          "67c190e416444f3c114e2011",
+          "67c193db16444f3c114e20c8",
+          "67c197c616444f3c114e2153",
+          "67c19a1316444f3c114e21a1",
+          "67c19e3e16444f3c114e2236",
+          "67c1a31116444f3c114e230d",
+          "67c1a5de16444f3c114e2371",
+          "67c1a83216444f3c114e2528",
+          "67c1aa9a16444f3c114e25bf",
+          "67cfafe816444f3c114f87a4",
+          "67cfb3f416444f3c114f87ff",
+          "67cfb60116444f3c114f883d",
+          "67cfeba816444f3c114f912a",
+          "67cfee3e16444f3c114f9237",
+          "67cff04316444f3c114f92e9",
+          "67cff3d316444f3c114f93f3",
+          "67cff78816444f3c114f9474",
+          "67d2bfc016444f3c114fe055",
+          "67d2c02d16444f3c114fe076",
+          "67d2c14916444f3c114fe097",
+          "67d2c19316444f3c114fe0ae",
+          "67d2c1d416444f3c114fe0c5",
+          "67d2c27316444f3c114fe0e9",
+          "67d2c50f16444f3c114fe10a",
+          "67d2c75116444f3c114fe129",
+          "67d2c78d16444f3c114fe141",
+          "67d2cab116444f3c114fe1fd",
+          "67d3d34e16444f3c11500427",
+          "67d3d54916444f3c115004cc",
+          "67d3d79516444f3c115005cc",
+          "67d3de2616444f3c11500769",
+          "67d3e07316444f3c115008d8",
+          "67d3e38a16444f3c115009d5",
+          "67d3f54916444f3c11500fde",
+          "67d7d26c16444f3c11507fa5",
+          "67d7d36916444f3c11508011",
+          "67f3b5c316444f3c1153a6b8",
+          "67f3f6ad16444f3c1153af9e",
+          "67f9012416444f3c1154445d",
+          "67f903da16444f3c115444d0",
+          "67f906b116444f3c115444e3",
+          "67f9090416444f3c115445e6",
+          "67f91c3216444f3c11544b36",
+          "67f91e7316444f3c11544b5a",
+          "67f9206216444f3c11544bc6",
+          "67f9225d16444f3c11544bd4",
+          "67f925e616444f3c11544c14",
+          "67f927c716444f3c11544c54",
+          "67fa03a816444f3c11545ce3",
+          "67fa059116444f3c11545d52",
+          "67fa08f016444f3c11545e37",
+          "67fa0a9216444f3c11545e46",
+          "67fa101216444f3c11545f29",
+          "67fa11f516444f3c11545f68",
+          "67fa142d16444f3c11545fd8",
+          "67fa172716444f3c11546092",
+          "67fa193516444f3c11546103",
+          "67fe49a816444f3c1154cc46",
+          "67fe4a2916444f3c1154cc50",
+          "67fe4a5416444f3c1154cc5b",
+          "6853f53916444f3c11613d0a",
+          "6854449016444f3c1161474a",
+          "685503c016444f3c116178b3",
+          "685507cc16444f3c11617a8e",
+          "68550a3a16444f3c11617b90"
+        ],
+        "image": "/scans/image-1730262100461-13722521.webp",
+        "path": "ct-scan",
+        "createdAt": "2024-10-17T19:22:12.564Z",
+        "updatedAt": "2024-10-17T19:22:12.564Z",
+        "allData": {
+          "categoryId": "671b5102ad9bf8d210384d1b",
+          "requisites": [
+            {
+              "value": ""
+            }
+          ],
+          "interpretations": {
+            "title": "Results and Interpretations ",
+            "cols": [
+              "Parameter ",
+              "Normal Result ",
+              "Abnormal Result ",
+              "Possible Interpretation of Abnormal Result "
+            ],
+            "rows": [
+              [
+                "Bone Density ",
+                "Normal bone structure ",
+                "Fractures, bone loss, or lesions ",
+                "Osteoporosis, bone fracture, bone cancer "
+              ],
+              [
+                "Lung Tissue ",
+                "Clear, healthy lung appearance ",
+                "Masses, nodules, or fluid buildup ",
+                "Lung cancer, pneumonia, pulmonary embolism "
+              ],
+              [
+                "Abdominal Organs ",
+                "Normal size, shape, and position ",
+                "Enlarged or abnormal organs, presence of tumours ",
+                "Liver cirrhosis, pancreatitis, abdominal tumour, or cysts "
+              ],
+              [
+                "Blood Vessels ",
+                "Normal blood flow, clear vessel structure ",
+                "Blockages, narrowing, or aneurysms ",
+                "Atherosclerosis, aneurysm, blood clot "
+              ],
+              [
+                "Kidney Structure ",
+                "Normal size and function ",
+                "Abnormal growths, kidney stones, or damage ",
+                "Kidney stones, tumours, cysts, kidney failure "
+              ],
+              [
+                "Brain Scan ",
+                "Normal brain structure and no signs of swelling ",
+                "Haemorrhage, tumours, or abnormal tissue ",
+                "Stroke, brain tumour, traumatic brain injury "
+              ]
+            ]
+          },
+          "faqs": [
+            {
+              "question": "Are CT scans dangerous? ",
+              "answer": "CT (Computed Tomography) scans are not considered dangerous however they do involve exposure to Ionizing Radiation that exposes the patient to certain risks."
+            },
+            {
+              "question": "What can a patient expect after getting CT Scans? ",
+              "answer": "The length of a CT scan relates to the specific purposes of the scan and the body parts under investigation; following are the details:\n\n**Time to get ready:** 10 minutes to 30 minutes: The time taken to fill out forms, put on a hospital gown, or receive a contrast dye.\n\n**The scanning process:** 10 minutes to 30 minutes: It is a normal procedure to complete the entire scanning process between 10 to 20 minutes.\n\n**Overall Procedure:** Patients should expect to be in the imaging centre for a maximum of 60 minutes beginning from registration up to the completion of all the procedures."
+            },
+            {
+              "question": "What side effects can a CT scan have? ",
+              "answer": "The majority of the patients who undergo CT scans do not report serious side effects. There are however some minor side effects reported which include:\n\nIonizing radiation exposure is a significant risk as it is one of the causes of increased lifetime cancer risk especially in patients who are made to undergo a large number of scans. If the patient is administered contrast dye, then nausea, vomiting and mild rashes are commonly occurring.\n\n**Moderate Reactions:** severe rash, hives and major swelling.\n\n**Severe Reactions:** Symptoms of anaphylactic shock (A severe allergic reaction), problems with swallowing and constricted throat area. These cases cannot be treated without visiting a physician.\n\n**Kidney Effects:** Due to the presence of preexisting kidney diseases, i.e., hypertension, patients’ kidney function can be altered when injecting contrast dye. Suffice it to say it is necessary to drink enough fluids and notify your doctor of any issues with your kidneys before undergoing the procedure."
+            },
+            {
+              "question": " how much does a CT scan cost? ",
+              "answer": "CT Scan prices have the potential of varying because of factors such as scan type, whether or not the dye is used, the center where it is done, the area where the center is located. For information regarding CT scans feel free to contact Cadabam’s."
+            }
+          ],
+          "relative_test": {
+            "title": "xzz",
+            "categoryId": "671b5102ad9bf8d210384d1b",
+            "tests": [
+              {
+                "id": "6735d37103598b92c151c90e",
+                "testName": "CT ABDOMEN ",
+                "route": "/abdomen-ct-scan"
+              },
+              {
+                "id": "673c6274effae454707e008c",
+                "testName": "CT CHEST / THORAX ",
+                "route": "/chest-ct-scans"
+              },
+              {
+                "id": "673dd4e85ab244ca239d04bd",
+                "testName": "CT SCAN OF LOWER ABDOMEN (INCLUDING PELVIS) WITH CONTRAST",
+                "route": "/ct-abdomen-and-pelvis-plain"
+              },
+              {
+                "id": "673de40d5ab244ca239d05bb",
+                "testName": "CT BRAIN WITH ANGIOGRAPHY",
+                "route": "/brain-and-angiography-ct-scan"
+              }
+            ]
+          },
+          "seo": {
+            "title": "",
+            "description": ""
+          }
+        },
+        "markdown": "a medical imaging procedure that uses X-rays to create cross-sectional images of the body\n\n## What is a CT Scan?\n\n![What is a CT Scan?](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731735151863-271039395.png)\n\nA CT scan combines [X-ray](https://cadabamsdiagnostics.com/ultrasound-scan-bangalore/) images from different angles and uses computer processing to create cross-sectional images of your body's bones, blood vessels, and soft tissues. These detailed images provide more information than standard X-rays.\n\n### When and Who Needs to Take a CT Scan\n\nA CT scan is comprehensively recommended apart from x-ray when the requirement is to obtain clearer views or pictures of the structure or internal parts of the body. It is generally recommended for individuals who have unexplained conditions and have trauma to the internal organs or need to examine a specific internal condition like a tumor, infection, or a vascular disease.\n\n## Common Types of CT Scans\n\nComputed tomography or more commonly termed CT scans, cover every conceivable organ system one cares to imagine.\n\nThe following are types of CT scans that patients might come across:\n\n### CT Angiography\n\n**Purpose:** Utilizes a contrasting dye to focus on blood vessels by highlighting vascular structures.\n\nTypical Uses are detecting aneurysms, visualizing the blockages or narrowing of the blood vessels, diagnosis of atherosclerosis, and determining the need for or noninvasive stent placement.\n\n### CT Abdomen Scan\n\n**Purpose:** Enables visualization of the organs in the abdominal cavity and organs in the pelvis whom the liver, left, and right kidneys, stomach, pancreas and organs of the reproductive system.\n\n**Typical Uses:** Recognizing tumors and the assessment of the factors that cause abdominal pain such as appendicitis or kidney stones, and the evaluation of bowels such as Crohn's illness and diverticulitis, assessment of injuries of organs located within the abdominal cavity.\n\n### CT Bone Scan\n\n**Aims:** The CT bone scan aims at obtaining images that show clear pictures of bones enabling the doctor to detect fractures, infections, tumors and other abnormal bone formations.\n\n**Typical Uses:** Diagnosis of bone fracture, osteomyelitis, tumor description, and guidance of biopsies or bone surgery.\n\n### CT Scan Chest\n\n**Purpose:** The chest CT aims at obtaining images showing the lung, heart and blood vessels with a view to providing detailed anatomy of the structures within the thorax.\n\n**Typical Uses Include:** The CT scan of the chest aids in diagnosing lung pathologies like lung cancer, pneumonia, and tuberculosis, as well as heart diseases, pulmonary embolism, and evaluation of chest injuries.\n\n### CT Pelvic Scan\n\n**Purpose:** In urology, the pelvic CT is primarily performed for the purpose of obtaining images for diagnostic and more advanced imaging evaluation of the pelvis.\n\n**Typical Uses:** The seizure CT of the pelvis aids in the identification of pelvic fractures, tumor, and infection, and evaluation of pathological disorders of the organs in reproductive system, the bladder and lymph nodes.\n\n### Cardiac CT\n\n**The function:** This one is focused solely within the heart region as well as its associated blood vessels in order to view any cardiac abnormalities.\n\n**Common applications:** Evaluating heart’s coronary arteries’ health, devising plans for heart surgeries, and checking heart muscle and valves’ structure.\n\n### CT KIDNEY SCAN\n\n**The function:** Uses CT imaging to generate images of the kidneys to help in diagnosing and evaluating different kidney conditions.\n\n**Common applications:** Evaluation of kidneys’ stones, tumours and infections as well as other forms of incongruities in the kidney structure.\n\n## Risks & Limitations Associated with a CT Scan\n\n![Risks & Limitations Associated with a CT Scan](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731735161424-689442942.png)\n\nCT (Computed Tomography) scans are great tools for diagnosis, however for all medical procedures it does come with risk factors of its own.\n\nBeing aware of such risk factors helps the patient, so that they know which decisions to take in terms of concern and action with relation to the specialist physician.\n\nThese are the main risk factors pertaining to CT scans:\n\n### Radiation Exposure\n\n**Increased Radiation Exposure:** X-ray technology is employed in imaging during CT scans which increases the radiation dose greater than X-ray. This risk is generally low for a one time scanning however risk of cancer contracted from measurement increases as the number of scanning increases.\n\n**Risk of Cancer:** It is a possibility that radiation can put a person at greater risk of contracting a cancer with every single exposure throughout his life which is a cause of concern especially for young adults and children as they are more prone to the effects of radiation.\n\n### Allergic Reactions to Contrast Media\n\n**Moderate Allergic Reactions:** Mild signs of allergic reactions to contrast media are noted such as nausea, vomiting, rashes or even itching in some patients subsequently worsening individuals feeling breathless, swollen or having anaphylaxis.\n\n**Severe Allergic Reactions:** With the signals mentioned above it is important to follow the pre-medication guidelines and supervised dosages which limit the severity of the signs. Otherwise actors including difficulty in breathing, swelling and anaphylaxis can occur.\n\n### Kidney Damage:\n\n**Contrast-Induced Nephropathy (CIN):** Repercussions such as kidney damage and failure arise from the use of contrast when imaging patients who suffer from severe levels of kidney failure of even during calmness. The usage of adequate hydration helps counter the effects.\n\n**Monitoring Kidney Function:** Kids with diabetes or any other issues related to contrast dyes such as allergies are stabbed with blood tests to monitor their functioning kidneys.\n\n## List of Parameters Considered During a CT Scan\n\n![List of Parameters Considered During a CT Scan](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731735167758-495064615.png)\n\nIn a CT imaging system, there are fundamental arrangements usually set as follows:\n\n**Slice Thickness:** The thickness of the scanned slice is defined and controlled to regulate images resolution of each scan’s images.\n\n**Tube Voltage (kV):** Controls the energy used in the scan; the thicker tissue on the flesh requires high kV settings.\n\n**Field of View (FOV):** It is used to outline the target area or region. A larger field of view genuinely captures a lot of anatomy at one time, however the details are probably not as good as when a smaller FOV (that is when the target of interest is exclusive) is used as this helps to focus the specific area and thus improves clarity of the images.\n\n**Pitch:** The measure of the speed of the CT table during scanning. A higher pitch means shorter time to complete the scan although the images captured may be of poorer resolution, Lowering the pitch on the other hand takes longer to make the scan however the images captured are clearer.\n\n**Contrast Agent Dose:** The proper dosage evaluation in administering the contrast agent is very important as it aids in highlighting findings and avoiding complications.\n\n## Why is a CT Scan Performed?\n\n![Why is a CT Scan Performed?](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731735174485-905008287.png)\n\nThis scan is being routinely used for specialized medical diagnosis and procedures. They are somewhat utilized for diagnostic purposes, however, the scopes are much wider – evaluation of injuries, assistance in treatment, monitoring, exploration of complaint and even vascular system diseases to name a few.\n\n## Benefits of Taking a CT Scan\n\n![Benefits of Taking a CT Scan](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731735179060-806695515.png)\n\nCT scans are of great benefit as they allow for proper, accurate diagnosis, treatment planning as well as monitoring of the patient. They assist the doctor in identifying fractures, tumors, internal injuries, and vascular diseases, hence promoting better care.\n\n###\n\n## Illnesses Diagnosed with CT Scan\n\n![Illnesses Diagnosed with CT Scan](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731735183488-375166672.png)\n\nCT scans help doctors detect various injuries and diseases, including:\n\n- Certain types of cancer and benign (noncancerous) tumors.\n- Fractures (broken bones).\n- Heart disease\n- Blood clots\n- Bowel disorders (appendicitis, diverticulitis, blockages, Crohn’s disease).\n- Kidney stones\n- Brain injuries\n- Spinal cord injuries\n- Internal bleeding\n\n## How to Prepare for a CT Scan\n\n![How to Prepare for a CT Scan](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731735188262-176481996.png)\n\nPatients who are using contrast should refrain from eating and drinking for some time before undergoing the procedure. Take off all metallic pieces and ensure you put on loose clothing. Be sure to communicate any medication you are taking or any allergies you have. Here are the details on how to prepare for a CT scan.\n\n### Need to know\n\nPatients should inform the doctor if they are allergic to contrast agents as well as their medical history, for example kidney disease. Patients may be asked to fast in case there is a use of contrast dye, also avoid metallic pieces during the scan.\n\n### Best time to take the scan\n\nYou have to undergo CT depending on your condition, but some patients have to fast before scans. It’s advisable to have appointments in the morning as this can help relieve discomfort after fasting. In critical or urgent cases, a scan can be done immediately.\n\n### Precautions before the scan\n\nLet your doctor know if you’re pregnant or have any issues with contrast iodine dyes or kidney dysfunction.\n\nTo obtain reliable results and avoid issues during the examination, be sure to follow any guidelines provided such as fasting."
+      },
+      {
+        "id": "671b5102ad9bf8d210384d1e",
+        "name": "Pregnancy scans",
+        "tests": [
+          "6736e08403598b92c151cd9b",
+          "6736e2f403598b92c151cdc2",
+          "67371c29996e7737b6f4de55",
+          "673d8cfdeffae454707e0dab",
+          "673d98ac534c72d341052ae0",
+          "673da0cf534c72d341052bb7",
+          "673daea5534c72d341052c0a"
+        ],
+        "image": "/scans/image-1730262294035-10402176.webp",
+        "path": "pregnancy-scan",
+        "createdAt": "2024-10-17T19:28:59.584Z",
+        "updatedAt": "2024-10-17T19:28:59.584Z",
+        "allData": {
+          "categoryId": "671b5102ad9bf8d210384d1e",
+          "requisites": [],
+          "interpretations": {
+            "title": "Test Results    ",
+            "cols": [
+              "Column 1",
+              "Column 2",
+              "Column 3"
+            ],
+            "rows": [
+              [
+                "Normal fetal growth and development",
+                "Fetus is growing and developing as expected",
+                "Normal result, no further action required"
+              ],
+              [
+                "Fetal abnormality",
+                "Structural abnormality detected, such as heart defect or limb abnormality",
+                "Further testing or procedures may be required, such as amniocentesis or CVS"
+              ],
+              [
+                "Placental abnormality",
+                "Placental abnormality detected, such as placenta previa or placental abruption",
+                "Further testing or procedures may be required, such as blood tests or hospital admission"
+              ],
+              [
+                "Growth restriction",
+                "Fetal growth restriction or intrauterine growth restriction detected",
+                "Further testing or procedures may be required, such as biweekly ultrasound scans or hospital admission"
+              ]
+            ]
+          },
+          "faqs": [
+            {
+              "question": " Is a pregnancy ultrasound scan safe? ",
+              "answer": "Yes, pregnancy ultrasound scans are generally safe and do not use ionizing radiation."
+            },
+            {
+              "question": " How long does a pregnancy ultrasound scan take? ",
+              "answer": "A pregnancy ultrasound scan typically takes 30-60 minutes to perform."
+            },
+            {
+              "question": "Can I have a pregnancy ultrasound scan if I have a multiple pregnancy? ",
+              "answer": "Yes, a pregnancy ultrasound scan can be performed with multiple pregnancies, but the scan may take longer and may require more extensive evaluation."
+            },
+            {
+              "question": "What if the scan detects an abnormality? ",
+              "answer": "If an abnormality is detected, the healthcare provider will discuss further testing or procedures with you, such as amniocentesis or CVS."
+            }
+          ],
+          "relative_test": {
+            "title": "CXCz",
+            "categoryId": "671b5102ad9bf8d210384d1e",
+            "tests": [
+              {
+                "id": "6736e08403598b92c151cd9b",
+                "testName": "Fetal Imaging",
+                "route": "/fetal-imaging"
+              },
+              {
+                "id": "6736e2f403598b92c151cdc2",
+                "testName": "US PREGNANCY FETAL ECHO",
+                "route": "/fetal-interventional"
+              },
+              {
+                "id": "67371c29996e7737b6f4de55",
+                "testName": "Pregnancy Ultrasound",
+                "route": "/pregnancy-ultrasound"
+              },
+              {
+                "id": "673d8cfdeffae454707e0dab",
+                "testName": "US PREGNANCY TIFFA SCAN / ANOMALY SCAN (LEVEL2)",
+                "route": "/pregnancy-tiffa-anomaly-scan-level-2-ultrasound"
+              },
+              {
+                "id": "673d98ac534c72d341052ae0",
+                "testName": "US PREGNANCY INTERVAL GROWTH SCAN WITH BPP AND DOPPLER",
+                "route": "/pregnancy-interval-growth-scan-with-bpp-and-doppler-ultrasound"
+              },
+              {
+                "id": "673da0cf534c72d341052bb7",
+                "testName": "US PREGNANCY DATING SCAN",
+                "route": "/pregnancy-dating-scan-ultrasound"
+              },
+              {
+                "id": "673daea5534c72d341052c0a",
+                "testName": "US PREGNANCY NT SCAN ( LEVEL 2)",
+                "route": "/nt-scan-level-2-pregnancy-ultrasound"
+              }
+            ]
+          },
+          "seo": {
+            "title": "Comprehensive Pregnancy Scans in Bangalore | Cadabams Diagnostics",
+            "description": "Ensure the health and well-being of both you and your baby with comprehensive pregnancy scans at Cadabams Diagnostics, Bangalore. Our expert team uses advanced technology to monitor fetal development, detect abnormalities, and provide accurate results. "
+          }
+        },
+        "markdown": " a safe, painless imaging test that uses sound waves to create a picture of the baby in the womb\n\n## About the Test\n\n![About the Test](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731911257090-509747313.png)\n\nA pregnancy ultrasound scan, also known as a sonogram, is a non-invasive medical imaging test that uses high-frequency sound waves to produce images of the developing fetus and the female reproductive organs. The scan is performed using a transducer, which is placed on the abdomen, and the sound waves bounce off internal structures, creating images on a screen.\n\n## Types of Tests\n\nThere are several types of pregnancy ultrasound scans, including:\n\nDating scan: performed between 8-12 weeks to confirm the gestational age of the fetus\n\nNuchal translucency (NT) scan: performed between 11-14 weeks to assess the risk of chromosomal abnormalities, such as Down syndrome\n\nAnomaly scan: performed between 18-22 weeks to examine the fetus for any structural abnormalities\n\nGrowth scan: performed between 24-40 weeks to monitor fetal growth and development\n\nDoppler scan: uses sound waves to measure blood flow through the umbilical artery and assess fetal well-being\n\n## Risks & Limitations\n\n![Risks & Limitations](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731911266341-490078459.png)\n\nWhile pregnancy ultrasound scans are generally safe, there are some risks and limitations to consider:\n\nRisks: the scan may cause minor discomfort or anxiety, but there is no evidence to suggest that ultrasound scans harm the fetus or the mother.\n\nLimitations: the scan may not detect all abnormalities or complications, and some conditions may require further testing or procedures.\n\n## List of Parameters\n\n![List of Parameters](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731911297967-971665458.png)\n\nDuring a pregnancy ultrasound scan, medical professionals look for various parameters, including:\n\n- Fetal size and growth\n- Fetal heart rate and rhythm\n- Placental location and function\n- Amniotic fluid levels\n- Fetal movement and activity\n- Presence of any structural abnormalities\n\nAdjustments may be needed based on patient factors, such as:\n\n- Multiple pregnancy (twins, triplets, etc.)\n- Gestational diabetes or hypertension\n- History of previous complications or losses\n\n## Why This Test\n\n![Why This Test](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731911304841-556520990.png)\n\nA healthcare professional may recommend a pregnancy ultrasound scan in the following situations:\n\n- To confirm pregnancy and determine gestational age\n- To assess fetal growth and development\n- To identify potential complications or abnormalities\n- To guide chorionic villus sampling (CVS) or amniocentesis procedures\n- To assess fetal well-being in cases of suspected placental abruption or other complications\n\nThis test is typically recommended for all pregnant women, but especially for those with:\n\n- A history of previous pregnancy complications or losses\n- Pre-existing medical conditions, such as diabetes or hypertension\n- Multiple pregnancy (twins, triplets, etc.)\n- Advanced maternal age (over 35 years)\n\n## Benefits\n\n![Benefits](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731911313306-17592978.png)\n\nThe benefits of pregnancy ultrasound scans include:\n\n- Accurate dating of pregnancy\n- Early detection of potential complications or abnormalities\n- Monitoring of fetal growth and development\n- Guided procedures, such as CVS or amniocentesis\n- Enhanced fetal and maternal care\n\n## Diseases Diagnosed\n\n![Diseases Diagnosed](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731911383554-414502810.png)\n\nPregnancy ultrasound scans can help diagnose various conditions, including:\n\n- Fetal abnormalities: structural abnormalities, such as heart defects or limb abnormalities\n- Chromosomal abnormalities: Down syndrome, trisomy 13, or trisomy 18\n- Placental abnormalities: placenta previa, placental abruption, or placental insufficiency\n- Growth restriction: fetal growth restriction or intrauterine growth restriction\n\n## Preparing for the Test\n\n![Preparing for the Test](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731912388354-663982633.png)\n\nTo prepare for a pregnancy ultrasound scan:\n\n- Arrive at least 30 minutes before the scheduled appointment\n- Wear loose-fitting clothing and remove any jewelry or clothing that may interfere with the scan\n- Bring any relevant medical records or test results\n- Be prepared to ask questions and discuss any concerns with the healthcare provider"
+      },
+      {
+        "id": "671b5102ad9bf8d210384d1f",
+        "name": "MSK Scans",
+        "tests": [
+          "672c89e7e3e3df57799179de"
+        ],
+        "image": "/scans/image-1730262383136-945225978.webp",
+        "path": "msk-scan",
+        "createdAt": "2024-10-17T19:32:12.456Z",
+        "updatedAt": "2024-10-17T19:32:12.456Z",
+        "allData": {
+          "categoryId": "671b5102ad9bf8d210384d1f",
+          "requisites": [],
+          "interpretations": {
+            "title": "Test Interpretations ",
+            "cols": [
+              "Condition/Findings",
+              "Description",
+              "Interpretation"
+            ],
+            "rows": [
+              [
+                "Tendinitis",
+                "Tenderness, swelling, or inflammation of the tendons",
+                "Tendon degeneration or inflammation"
+              ],
+              [
+                "",
+                "Thickening of the tendons on images",
+                ""
+              ],
+              [
+                "Osteochondritis Dissecans",
+                "Irregularities or loose cartilage in the joint",
+                "Cartilage or bone defect"
+              ],
+              [
+                "",
+                "Changes in the underlying bone",
+                ""
+              ],
+              [
+                "Bone Marrow Edema\t",
+                "Increased signal intensity within the bone",
+                "Bone inflammation or edema"
+              ],
+              [
+                "",
+                "Swelling or inflammation within the bone",
+                ""
+              ],
+              [
+                "Ligament Sprain",
+                "Thickening or irregularities of the ligament",
+                "Ligament sprain or strain"
+              ],
+              [
+                "",
+                "Increased signal intensity within the ligament",
+                ""
+              ],
+              [
+                "Musculotendinous Strains",
+                "Thickening or irregularities of the muscle or tendon",
+                "Muscle or tendon strain"
+              ],
+              [
+                "",
+                "Increased signal intensity within the muscle or tendon",
+                ""
+              ],
+              [
+                "Osteoarthritis",
+                "Joint space narrowing or loss of cartilage",
+                "Degenerative joint disease"
+              ],
+              [
+                "",
+                "Bone spurs or cysts",
+                ""
+              ]
+            ]
+          },
+          "faqs": [
+            {
+              "question": " Is an MSK MRI scan safe?",
+              "answer": "Yes, it does not use ionizing radiation and is considered safe for patients."
+            },
+            {
+              "question": "How long does the scan take?",
+              "answer": "Typically, 15-60 minutes, depending on the specific protocol and body part being scanned."
+            },
+            {
+              "question": " Will I need contrast media?",
+              "answer": "Not always, but contrast media may be used to enhance image quality or distinguish between different tissues."
+            },
+            {
+              "question": "Can I move during the scan?",
+              "answer": "No, remaining still is essential for clear images. Mild sedation may be used for patients who have trouble staying still."
+            },
+            {
+              "question": " What happens after the scan?",
+              "answer": "You can resume normal activities immediately, and your doctor will discuss the results with you within a few days."
+            }
+          ],
+          "relative_test": {
+            "title": "cZXCc",
+            "categoryId": "671b5102ad9bf8d210384d1f",
+            "tests": [
+              {
+                "id": "672c89e7e3e3df57799179de",
+                "testName": "Msk Scan",
+                "route": "/msk-scan"
+              }
+            ]
+          },
+          "seo": {
+            "title": "",
+            "description": "Book diagnostic scans near you with trusted centers offering quick results, accurate imaging, and dependable diagnostic support for better health outcomes."
+          }
+        },
+        "markdown": " a non-invasive imaging procedure that uses high-frequency sound waves to create detailed pictures of the body's muscles, joints, tendons, ligaments, nerves, and cartilage\n\n## About the Test\n\n![About the Test](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731735322327-808425878.jpg)\n\nMagnetic Resonance Imaging (MRI) for Musculoskeletal (MSK) scans uses a combination of strong magnetic fields and radio waves to capture detailed images of the internal structures of the body, specifically focusing on the muscles, bones, joints, tendons, and ligaments.\n\n### How it Works\n\nDuring an MSK MRI scan, the patient is placed inside a large cylindrical magnet, which generates a strong magnetic field. Hydrogen atoms in the body, found mostly in water molecules, respond to this field by aligning either parallel or anti-parallel to the magnetic field. Radio waves are then applied, disturbing the alignment. As the atoms return to their original positions, they emit signals that are used to create detailed images of the body's internal structures.\n\n## Types of Tests\n\nThere are various types of MSK MRI tests, including:\n\n**Standard MRI:** The most common type, uses a fixed magnetic field and radio waves to generate images.\n\n**Functional MRI (fMRI):** Measures changes in blood flow related to neural activity.\n\n**Arthrography:** Involves injecting a contrast medium into the joint space for enhanced imaging.\n\n**Whole-Body MRI:** Scans the entire body, often used for conditions like cancer or multi-system disorders.\n\n## Risks and Limitations\n\n![Risks and Limitations](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731735330233-29837026.jpg)\n\n### Risks associated with MSK MRI scans include:\n\nClaustrophobia: Anxiety or panic due to the enclosed space\n\nNoise: Loud knocking or tapping sounds during the scan\n\nMagnetic fields: Potential interactions with metal implants or pacemakers\n\n### Limitations include:\n\nDiagnostic accuracy: May not be accurate for certain conditions, such as bone fractures\n\nImage quality: Can be degraded by patient movement or metal artifacts\n\nAlternative tests: Other tests, such as CT or ultrasound, may be preferred in certain situations\n\n## List of Parameters\n\n![List of Parameters](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731735336602-510207377.jpg)\n\nWhen evaluating MSK MRI scans, medical professionals look for:\n\n- Tendinitis/Tendinosis: Inflammation or degeneration of tendons\n- Ligament sprains: Stretched or torn ligaments\n- Muscle strains: Torn or stretched muscles\n- Osteochondral lesions: Cartilage or bone defects in joints\n- Bone marrow edema: Inflammation within bones\n- Subchondral cysts: Fluid-filled cavities beneath the cartilage in joints\n- Joints effusions: Fluid accumulation in joints\n\nAdjustments may be needed based on patient factors, such as:\n\n- Age: Younger patients may require sedation or modified scan protocols\n- Metal implants: Patients with pacemakers, prosthetics, or other implants may require special precautions\n- Claustrophobia: Patients may require open-bore or upright MRI machines\n\n## Why This Test\n\n![Why This Test](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731735342516-946964047.jpg)\n\nMSK MRI scans are typically recommended for:\n\n- Persistent joint pain: Pain that lasts more than a few weeks\n- Traumatic injuries: Recent injuries or suspected fractures\n- Muscle weakness: Unexplained weakness or numbness\n- Inília conditions: Such as Osteoarthritis, Rheumatoid Arthritis, or Tendinitis\n\nSpecific patient demographics that typically require this test include:\n\n- Athletes: Those who engage in regular sports or high-impact activities\n- Older adults: Those over 50 with persistent joint pain or gradual degeneration\n- Pediatric patients: Those under 18 with joint pain, deformities, or growth plate disorders\n\n## Benefits\n\n![Benefits](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731735349881-832563892.jpg)\n\nMSK MRI scans offer:\n\n- High diagnostic accuracy: Can diagnose a wide range of musculoskeletal conditions\n- Non-invasive: Does not require surgical incisions or contrast media injections\n- Radiation-free: Does not expose patients to ionizing radiation\n\n## Diseases Diagnosed\n\n![Diseases Diagnosed](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731735355466-839217124.jpg)\n\nMSK MRI scans are used to diagnose:\n\n- Osteochondritis Dissecans: A joint condition that affects cartilage and bone\n- Rheumatoid Arthritis: An autoimmune disease that causes joint inflammation\n- Tendinitis: Inflammation of the tendons\n- Ganglion cysts: Non-cancerous lumps that develop near joints\n\n## Preparing for the Test\n\n![Preparing for the Test](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731735361571-289856545.jpg)\n\nBefore an MSK MRI scan:\n\n- Arrive early: Plan to arrive at least 30 minutes before the scheduled appointment time\n- Wear comfortable clothing: Remove any metal objects, such as jewelry or glasses\n- Disclose medical history: Inform your doctor about any medical conditions, implants, or allergies\n- Follow instructions: Follow any instructions provided by the MRI technologist"
+      },
+      {
+        "id": "671b5102ad9bf8d210384d1c",
+        "name": "Ultrasound",
+        "tests": [
+          "6735c72a03598b92c151c6fd",
+          "6735cb2f03598b92c151c782",
+          "6735e71803598b92c151c9f2",
+          "6736ed7d03598b92c151ce21",
+          "6736f1c103598b92c151ce6f",
+          "6736f48703598b92c151cf12",
+          "6736fdc303598b92c151d13e",
+          "673712ef996e7737b6f4dd40",
+          "673724eb996e7737b6f4dfbc",
+          "673729fa996e7737b6f4e0f3",
+          "67373672996e7737b6f4e274",
+          "673c56c5effae454707dfe68",
+          "673c8097effae454707e01a3",
+          "673dbe26534c72d341052d51",
+          "6799e782bf2a88a244a69719",
+          "679b3aecbf2a88a244a6b50a",
+          "679b3cd2bf2a88a244a6b525",
+          "679b4c54bf2a88a244a6b708",
+          "679c74afbf2a88a244a6ed60",
+          "679c86b9bf2a88a244a6f03a",
+          "67a0bafcbf2a88a244a77549",
+          "67a1b8d727567f98e56d25af",
+          "67a1bbb227567f98e56d2679",
+          "67a1ca5f27567f98e56d2be6",
+          "67a1d39b27567f98e56d2cac",
+          "67a1d50627567f98e56d2cc7",
+          "67a9acd8a45909fb1bd0f97d",
+          "67a9b364a45909fb1bd0fa5d",
+          "67ac7bbba45909fb1bd13977",
+          "67ac8481a45909fb1bd13c0b",
+          "67ac8549a45909fb1bd13c27",
+          "67ad9898a45909fb1bd15570",
+          "67af2565a45909fb1bd1843d",
+          "67af28aca45909fb1bd184fd",
+          "67b2f5b4a45909fb1bd1de00",
+          "67b4727da45909fb1bd20f21",
+          "67b8383fa45909fb1bd280e9",
+          "67bde09a16444f3c114dbe00",
+          "67bde36416444f3c114dbe1f",
+          "67c02bb116444f3c114df7ca",
+          "67e681b516444f3c11523ebd",
+          "67e683d116444f3c11523f51",
+          "67e6860a16444f3c11523fba",
+          "67e687e216444f3c11523fea",
+          "67e68a0b16444f3c1152404b",
+          "67e68c2616444f3c11524084",
+          "67ec0ec816444f3c1152e4c9",
+          "67ec11d316444f3c1152e589",
+          "67ec146216444f3c1152e5c4",
+          "67ec16d516444f3c1152e5e9",
+          "67edff4416444f3c115312af",
+          "67ee037416444f3c115312ee",
+          "67f3e8de16444f3c1153ae09",
+          "680b8c9416444f3c11568f64",
+          "680b9df916444f3c115691a7",
+          "680ba19b16444f3c11569206",
+          "680ba4d516444f3c11569288",
+          "680f3e8f16444f3c1156f68a",
+          "6841615116444f3c115dc079",
+          "684a89e316444f3c115f11be",
+          "684a8ed016444f3c115f141c",
+          "684a90b016444f3c115f1460",
+          "684bd88c16444f3c115f5307",
+          "684be57b16444f3c115f597a",
+          "6851284a16444f3c11607d4c"
+        ],
+        "image": "/scans/image-1730261906886-257915264.webp",
+        "path": "ultrasound-scan",
+        "createdAt": "2024-10-17T19:23:49.627Z",
+        "updatedAt": "2024-10-17T19:23:49.627Z",
+        "allData": {
+          "categoryId": "671b5102ad9bf8d210384d1c",
+          "requisites": [
+            {
+              "value": ""
+            }
+          ],
+          "interpretations": {
+            "title": "Results and Interpretations ",
+            "cols": [
+              "Scan Parameter ",
+              "Normal Range ",
+              "Abnormal Range ",
+              "Interpretation "
+            ],
+            "rows": [
+              [
+                "Organ Size ",
+                "Normal organ size ",
+                "Enlarged or reduced organ size ",
+                "Enlarged organs may indicate disease (e.g., liver disease, heart issues), while reduced size can suggest atrophy or other health concerns. "
+              ],
+              [
+                "Presence of Masses ",
+                "No masses or lumps detected ",
+                "Solid or cystic masses detected",
+                "Solid masses could indicate tumours or cancer, while cystic masses are often benign but "
+              ],
+              [
+                "Blood Flow (Doppler) ",
+                "Normal blood flow ",
+                "Restricted or abnormal flow ",
+                "Abnormal blood flow might signal issues like blood clots, artery blockages, or vascular disease. "
+              ],
+              [
+                "Fetal Development ",
+                "Fetus growing according to gestational age ",
+                "Abnormal fetal size or structure ",
+                "Abnormalities in fetal size or development can indicate growth restrictions, developmental delays, or other prenatal health concerns. "
+              ]
+            ]
+          },
+          "faqs": [
+            {
+              "question": "When is an Ultrasound advisable to be done? ",
+              "answer": "If there is a requirement for an abdominal ultrasound, fasting must be done in order to create clean images where only the internal organs are captured. Rest instructions and procedures can be sought from a physician."
+            },
+            {
+              "question": "Can we find any ultrasound-related services in Bangalore? ",
+              "answer": "We are proud to inform the readers now that Cadabam’s Diagnostics in Bangalore provides ultrasound services to facilitate identifying and monitoring medical conditions."
+            },
+            {
+              "question": "What Is a Normal Ultrasound Result? ",
+              "answer": "A normal ultrasound result states that the internal organs and soft tissues reasonably work there is no presence of any abnormalities such as masses, fluid accumulation, or structural changes among other factors. However, it is worth remembering that “normal” does differ slightly from one person to another due to their age, gender or even health. This doesn't mean however that someone should cease to consult their healthcare official."
+            },
+            {
+              "question": "Who Performs an Ultrasound Scan? ",
+              "answer": "Sonographers are trained professionals who operate ultrasound machines and target specific areas of the body with the equipment in order to create usable photographs of the location for diagnosis."
+            },
+            {
+              "question": "How Safe Is an Ultrasound Scan? ",
+              "answer": "Ultrasound scans are safe since they use sound waves instead of radiation. They do not breach the skin in any way or form. There also are no potential dangers that are known in existence. This makes ultrasounds guess-free scans for pregnant women and for other clinics."
+            }
+          ],
+          "relative_test": {
+            "title": "",
+            "categoryId": "671b5102ad9bf8d210384d1c",
+            "tests": [
+              {
+                "id": "6735c72a03598b92c151c6fd",
+                "testName": "USM MUSCULOSKELETAL",
+                "route": "/musculoskeletal-ultrasound-msk"
+              },
+              {
+                "id": "6735cb2f03598b92c151c782",
+                "testName": "US PREGNCANY FETAL FACE 3D",
+                "route": "/fetal-ultrasound"
+              },
+              {
+                "id": "6735e71803598b92c151c9f2",
+                "testName": "US GUIDED BREAST BIOPSY",
+                "route": "/breast-biopsy-scan"
+              },
+              {
+                "id": "6736ed7d03598b92c151ce21",
+                "testName": "PENILE DOPPLER",
+                "route": "/penile-doppler-ultrasound-scan"
+              },
+              {
+                "id": "6736f1c103598b92c151ce6f",
+                "testName": "US SONOMAMMOGRAM",
+                "route": "/sonomammography-ultrasound-scan"
+              },
+              {
+                "id": "6736f48703598b92c151cf12",
+                "testName": "US THYROID ELASTOGRAPHY",
+                "route": "/thyroid-scan"
+              },
+              {
+                "id": "6736fdc303598b92c151d13e",
+                "testName": "ECHO",
+                "route": "/echocardiogram-testing"
+              },
+              {
+                "id": "673712ef996e7737b6f4dd40",
+                "testName": " Elastography Test ",
+                "route": "/elastography-ultrasound-test"
+              },
+              {
+                "id": "673724eb996e7737b6f4dfbc",
+                "testName": " Testis Ultrasound Scan",
+                "route": "/testis-ultrasound-scan"
+              },
+              {
+                "id": "673729fa996e7737b6f4e0f3",
+                "testName": "US PELVIS (TVS)",
+                "route": "/ultrasound-of-transvaginal-scan-tvs"
+              },
+              {
+                "id": "67373672996e7737b6f4e274",
+                "testName": "US ABDOMEN - PELVIS",
+                "route": "/abdomen-and-pelvis-ultrasound-scans"
+              },
+              {
+                "id": "673c56c5effae454707dfe68",
+                "testName": "Abdominal Ultrasound ",
+                "route": "/abdominal-ultrasound"
+              },
+              {
+                "id": "673c8097effae454707e01a3",
+                "testName": "US PELVIS",
+                "route": "/pelvis-ultrasound"
+              }
+            ]
+          },
+          "seo": {
+            "title": "",
+            "description": "Book ultrasound scans near you for precise imaging and quick results at trusted diagnostic centers committed to accuracy, care, and timely health reports."
+          }
+        },
+        "markdown": "a non-invasive imaging technique that uses high-frequency sound waves to create pictures of the inside of the body\n\n## Ultrasound Overview\n\n![Ultrasound Overview](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731735946889-414492423.jpg)\n\nUltrasound, sonography or ultrasonography as it is also called, is a painless diagnostic imaging technique that uses ultrasound waves to create moving images of the internal organs including soft parts of the body. It can be used for a wide range of scanning ranging from monitoring pregnancies to diagnosing diseases.\n\nIts imaging capabilities allow doctors to see through your body without making the cut and it does not employ radiation as X-ray machines do.\n\n### What is An Ultrasound Scan?\n\nUltrasound essentially involves the use of sound waves with a frequency higher than 20kHz to analyze or get images of internal organs of a human body. It is a powerful tool which helps doctors detect abnormalities in tissues and organs. The ultrasound is made up of a device known as a transducer which produces and receives sound waves and indirectly forms images.\n\n## Types of Ultrasounds\n\nThere are different types of ultrasound scans that are used for various conditions and parts of the body. Among these, some of the most common types of ultrasounds are: -\n\n**Abdominal Ultrasound:** This is an ultrasound done to look for blood vessels and organs in your lower abdominal region and to check for conditions like gallbladder stones, kidney stones, and liver problems.\n\n**Pelvic Ultrasound:** Pelvic Ultrasound is probably the most popular type of ultrasound, as every woman have had this type of ultrasound at least once in their life. This is most used to diagnose pregnancy, to assess if a fetus is developing properly, to look for the presence of abdominal organs in females like the uterus and ovaries and in males the bladder and many more.\n\n**Musculoskeletal Ultrasound:** Musculoskeletal Ultrasound is very helpful in detecting troubles with tendons, ligaments or muscles.\n\n**Doppler Ultrasound:** It is a special type of ultrasound scan in which the blood flow through arteries and veins is used to be tested for the presence of vascular disorders such as blood clots.\n\n**Fetal Ultrasound:** Fetal Ultrasound is used in pregnancy to keep track of baby development and baby’s health. It helps in tracking the growth of the fetus, checking if there are any abnormalities, and measuring the amount of amniotic fluid.\n\n## Risks & Limitations of the Ultrasound Test\n\n![Risks & Limitations of the Ultrasound Test](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731735954619-142663100.png)\n\nIn terms of the dangers involved with getting an ultrasound test, these are largely negligible as it employs no radiation whilst producing images, thus, it is regarded as one of the best and least hazardous diagnostic procedures.\n\nOne of the important issues regarding the applicability of ultrasound scanning is that, it may not be suitable for those regions of the body that lie within gas cavities e.g. the intestines, or the bones cover them up. Also, other factors such as obesity may affect the ultrasound’s accuracy.\n\n## List of Parameters Considered During the Scan\n\n![List of Parameters Considered During the Scan](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731735965281-669880283.png)\n\nIt is important to understand that the parameters may vary depending on the type of ultrasound and the purpose of the scan. However, here are a few common parameters that are measured during an ultrasound scan:\n\n- Any change regarding the size, form or dilatation of organs or tissues\n- When Doppler ultrasound is performed, evaluation of blood circulation and the states of vascular system\n- Obstruction of organs which might include cysts or tumours or any other formations\n- For prenatal scanning – amniotic fluid level measurement and checking growth parameters of the fetus (for example: biparietal diameter)\n\n## Reasons for Taking the Ultrasound\n\n![Reasons for Taking the Ultrasound](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731735971667-920239951.png)\n\nThere are multiple reasons that your doctor may suggest you take an ultrasound scan, some of them include: -\n\n**Diagnosing Abnormalities**: In a variety of instances, an ultrasound is used to help diagnose the cyst, tumor or even other surrounding organs’ abnormalities.\n\n**Pregnancy Care:** The ultrasound allows doctors to examine the fetus, while also gauging its state of health.\n\n**Investigating Pain or Swelling**: When there is swelling, pain or other symptoms that are hard to explain, this is where the ultrasound scanning technique comes in.\n\n**Evaluating Organ Function:** Conditions that involve gall bladder disease, kidney stones or cirrhosis of the liver can be evaluated through ultrasound imaging.\n\n### When and Who Needs to Take an Ultrasound Scan?\n\nUltrasounds are recommended to patients for a variety of reasons, some of them include: -\n\n- If your doctor suspects issues with your internal organs such as the liver, kidney, or heart.\n- Pregnant women for evaluating the conditions of the fetuses.\n- Athletes identify musculoskeletal injuries like tendon ruptures or sprains.\n- Patients with no result of visceral massage and other techniques with swelling, pain, or complications of the visceral organs.\n- People with heart disease.\n- Patients with gallstones suspect suffering from kidney stones or some other organ related disorders.\n\n## Benefits of Taking the Ultrasound\n\n![Benefits of Taking the Ultrasound](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731735980742-820179332.png)\n\nUltrasound scan offers a range of benefits and due to this, it is widely used to assess the variety of diseases and monitor a fetus. Some of the benefits include: -\n\n**Non-Invasive:** There is no requirement of any needles or incisions to perform an ultrasound. Such procedures are needed for biopsies and surgeries.\n\n**No Radiation:** This is a feature that helps to protect pregnant mothers and others who must undergo so many scans.\n\n**Real-Time Imaging**: The real time imaging of an ultrasound scan enables medical professionals to fully fathom the insides of a person’s organs and be able to diagnose any abnormalities instantly.\n\n## Illnesses Diagnosed with Ultrasound\n\n![Illnesses Diagnosed with Ultrasound](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731735986278-403634312.png)\n\nUltrasound scan is one of the modalities which is helpful in diagnosing, and which may include all the following but not limited to: -\n\n- Kidney Stones\n- Gall Stones\n- Liver Cirrhosis or Fatty Liver\n- Blood Thrombosis\n- Specific Cases in Pregnancy Targeting Placenta Accreta\n- Thyroid Gland Disorders Such as Nodules and Goitres\n- Heart Failure Due to Hypertrophy and Valvular Defect\n- Inflammation Of the Pancreas\n- Abdominal Aortic Aneurism\n- Cysts And Fibroids Affecting the Structures of the Female Reproductive System\n- Injuries Affecting Muscles Tendons or Ligaments\n- Abscess Formation and Cellulitis\n\n## Preparing for Ultrasound Scan\n\n![Preparing for Ultrasound Scan](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731735992802-68116460.png)\n\nThere are different types of ultrasounds and there are also different indications for which the scan needs to be carried out, thus comparison here i think should not be done. However, below are broad principles, which may be useful in helping you obtain the ultrasound scan in a better way.\n\n### Prerequisites\n\nTo obtain clear results, the image formed on the abdominal scans might tilt or get worse as they cannot have any accumbent solids. On the other hand, the image scans on the Pelvic Region Ultrasound require a considerable amount of water consumption prior to its execution.\n\n### The Most Appropriate Time to Execute the Scan\n\nUltrasounds have numerous purposes; therefore, timing of the scan differs depending on the surgical or diagnostic requirement. For instance, after breakfast falls the time for abdominal ultrasound while Pelvic, MSK, and Doppler ultrasounds can occur in the afternoons too.\n\n### Who is Eligible for an Ultrasound Scan Examination?\n\nMost people, including children, pregnant women, and the elderly can undergo ultrasound procedures without feeling anxious about radiation exposure.\n\n### Procedure for Taking Ultrasound Scan\n\nYour sonographer is a trained ultrasound technician. To avoid friction, ultrasound gel is applied to your skin, after which the sonographer rubs an ultrasound transducer on your skin. Everything else is as easy as changing into a hospital gown.\n\nFor those who don’t know, a transducer is an ultrasound tool that is placed on skin to deliver sound waves to our body and receives echoes that are converted into images.\n\nIf the condition under examination is complex, or the area of the scan is, then the time required for the whole process may be longer than the average time frame of 15 – 45 minutes.\n\n### Caution Before Taking the Scan\n\nUltrasound scans are non-invasive and painless tests that most never require precautionary measures; however, recent surgeries or impediments should be conveyed to the healthcare provider. It is recommended that food consumption is avoided prior to undergoing an abdominal ultrasound, as this may aid in providing better results."
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "question": "What types of tests and scans are available at Cadabam's Diagnostics?",
+      "answer": "We offer a comprehensive range of diagnostic services, including lab tests like Complete Blood Count, Liver Function Test, Glucose Fasting, and specialized tests such as Thyroid Profile. Additionally, we provide advanced imaging services like X-rays, MRIs, CT scans, Ultrasounds, and Pregnancy Scans, ensuring a one-stop solution for all your diagnostic needs."
+    },
+    {
+      "question": "Do I need to visit the centre for sample collection, or do you offer home collection services?",
+      "answer": "For lab tests, we provide the convenience of home sample collection. Our certified professionals will visit your home at the scheduled time, ensuring a safe and hygienic process. Additionally, we have over 70 sample collection points across Bangalore, making it even easier for you to find a location nearby if you prefer to visit one of our centres."
+    },
+    {
+      "question": "How quickly can I expect my test or scan results?",
+      "answer": "At Cadabam's Diagnostics, we prioritise accuracy and speed. Most lab test results are available within a few hours and are sent directly to you via WhatsApp, email, or through other digital form. For scans, results and reports are generally available within 24 to 48 hours, depending on the type of imaging."
+    }
+  ],
+  "contact": {
+    "logo": "/shared/image-1727884059139-383535423.webp",
+    "phone": "+91 99006 64696",
+    "email": "info@cadabamsdiagnostics.com",
+    "centers": [
+      {
+        "name": "Banashankari",
+        "address": "No. 1/A, 1st Block, Bhavani HBCS, Banashankari 3rd Stage, Near Devegowda petrol Bunk, Bangalore - 560070",
+        "href": "/bangalore/center/banashankari",
+        "mapUrl": "https://g.co/kgs/hd9okgn"
+      },
+      {
+        "name": "Kanakapura Road",
+        "address": "Ground and 1st floor, Sadhvin Heights, 747/787, Kanakapura Main Rd, Doddakallasandra, Uttarahalli hobli, Bengaluru, Karnataka 560062",
+        "href": "/bangalore/center/kanakapura-road",
+        "mapUrl": "https://maps.app.goo.gl/Mbj2Dssx4Zv831pB6"
+      },
+      {
+        "name": "Indiranagar",
+        "address": "725, Chinmaya Mission Hospital Rd, near CHINMAYA MISSION HOSPITAL, Indira Nagar 1st Stage, Defence Colony, Indiranagar, Bengaluru, Karnataka 560038",
+        "href": "/bangalore/center/indiranagar",
+        "mapUrl": "https://www.google.com/maps/place/Cadabams+%7C+Megsan+Diagnostics/@12.9782551,77.6454755,15z/data=!4m6!3m5!1s0x3bae17e23770ddf9:0x959e503e8f2e1348!8m2!3d12.9782551!4d77.6454755!16s%2Fg%2F11vl0mnw83?hl=en-GB&entry=ttu&g_ep=EgoyMDI0MTExMy4xIKXMDSoASAFQAw%3D%3D"
+      },
+      {
+        "name": "Jayanagar",
+        "address": "NO 7/2, 14th Cross, 2nd block, Jayanagar, Bangaluru - 560011",
+        "href": "/bangalore/center/jayanagar",
+        "mapUrl": "https://g.co/kgs/FKx3a2c"
+      },
+      {
+        "name": "Kalyan Nagar",
+        "address": "No 88-250-5AC-922, HRBR 1st Block, Kalyan Nagar, Bengaluru, Bengaluru Urban, Karnataka, 560043",
+        "href": "/bangalore/center/kalyan-nagar",
+        "mapUrl": "https://maps.app.goo.gl/UGrmzjQx3n8d8sGz8"
+      }
+    ]
+  }
+}

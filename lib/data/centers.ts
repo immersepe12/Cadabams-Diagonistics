@@ -1,4 +1,4 @@
-import centerPagesData from "@/data/md+json/centerpages.json";
+import centerPagesData from "@/data/allpages/_shared/centerpages.json";
 import { FAQ, SEO, slugifyLocation } from "./types";
 
 export interface CenterBasicInfo {

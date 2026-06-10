@@ -1,4 +1,4 @@
-import discountOffersData from "@/data/md+json/discountoffers.json";
+import discountOffersData from "@/data/allpages/_shared/discountoffers.json";
 
 export interface DiscountOfferContent {
   title: string;

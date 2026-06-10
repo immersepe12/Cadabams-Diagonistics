@@ -198,7 +198,7 @@ export function FeaturedTestsSlider({
                         href: card.href,
                         kind: card.kind,
                       }}
-                      className="flex-1 inline-flex items-center justify-center gap-1 sm:gap-1.5 px-2 py-1.5 sm:px-3 sm:py-2 rounded-pill bg-orange-500 text-white font-semibold text-caption sm:text-body-sm shadow-glow-orange hover:bg-orange-600 transition-all duration-200 active:scale-[0.97]"
+                      className="flex-1 inline-flex items-center justify-center gap-1 sm:gap-1.5 px-2 py-1.5 sm:px-3 sm:py-2 rounded-pill bg-orange-500 text-white font-semibold text-caption sm:text-body-sm hover:bg-orange-600 transition-all duration-200 active:scale-[0.97]"
                     >
                       <Zap className="w-3 h-3 sm:w-3.5 sm:h-3.5 fill-white flex-shrink-0" />
                       Book now

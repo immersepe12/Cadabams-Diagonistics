@@ -187,17 +187,7 @@ function FeaturedBlog({ blog }: { blog: Blog }) {
             </p>
           )}
           <div className="mt-6 flex items-center gap-3 text-meta text-ink-500">
-            {blog.verifiedBy && (
-              <span className="font-semibold text-ink-700">
-                {blog.verifiedBy}
-              </span>
-            )}
-            {date && (
-              <>
-                <span className="w-1 h-1 rounded-pill bg-ink-300" />
-                <time dateTime={blog.createdAt}>{date}</time>
-              </>
-            )}
+            {date && <time dateTime={blog.createdAt}>{date}</time>}
             <span className="ml-auto inline-flex items-center gap-1 text-orange-600 font-bold group-hover:translate-x-0.5 transition-transform">
               Read article
               <ChevronRight className="w-4 h-4" />

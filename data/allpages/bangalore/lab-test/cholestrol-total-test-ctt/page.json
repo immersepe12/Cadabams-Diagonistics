@@ -1,0 +1,107 @@
+{
+  "type": "labtest-detail",
+  "route": "/bangalore/lab-test/cholestrol-total-test-ctt",
+  "slug": "cholestrol-total-test-ctt",
+  "test": {
+    "id": "6790d12cc75a5739655a84ce",
+    "templateName": "labtest",
+    "testName": "CHOLESTEROL TOTAL",
+    "route": "/cholestrol-total-test-ctt",
+    "basic_info": {
+      "name": "CHOLESTEROL TOTAL",
+      "route": "/cholestrol-total-test-ctt",
+      "categoryId": "671b5104ad9bf8d210384d2a",
+      "testId": 7766189,
+      "discount": "5",
+      "discountedPrice": "142.50",
+      "reportsWithin": "3 hrs",
+      "Identifies": "Total cholesterol levels in the blood ",
+      "measures": "The amount of cholesterol in the blood, including low density lipoprotein plus high density lipoprotein.",
+      "price": 150,
+      "testCategory": "Biochemistry"
+    },
+    "requisites": [
+      {
+        "value": "9 to 12 hours fasting, and no exercising or smoking prior to the test. "
+      }
+    ],
+    "packages": [],
+    "faqs": [
+      {
+        "question": "What is the difference between LDL and HDL cholesterol? ",
+        "answer": "LDL cholesterol is harmful to your health as it accumulates within your arteries. HDL (“good” cholesterol) does the opposite by removing cholesterol from your arteries."
+      },
+      {
+        "question": "How often should I take the Cholesterol Total test?  ",
+        "answer": "This test is based on your personally identified risk factors along with your medical profile. Your doctor will provide a schedule that works for you."
+      },
+      {
+        "question": " Is it fine to eat before taking the Cholesterol Total test?  ",
+        "answer": "No. You must abstain from eating for 9-12 hours before the test for it to have accurate results."
+      }
+    ],
+    "interpretations": {
+      "title": "The results table for the Total Cholesterol Test will include the necessary calculations, as well as records for clinical symptoms and vital signs.   Some normal results and descriptions are provided below: ",
+      "cols": [
+        "Condition/Findings ",
+        "Description ",
+        "Interpretation "
+      ],
+      "rows": [
+        [
+          "High Total Cholesterol ",
+          "Total cholesterol levels above 200 mg/dL ",
+          "High risk of heart disease and stroke. "
+        ],
+        [
+          "High LDL Cholesterol ",
+          "LDL cholesterol levels above 100 mg/dL ",
+          "High risk of heart disease and stroke. "
+        ],
+        [
+          "Low HDL Cholesterol",
+          "HDL cholesterol levels below 40 mg/dL ",
+          "High risk of heart disease and stroke. "
+        ],
+        [
+          "High Triglycerides ",
+          "Triglyceride levels above 150 mg/dL ",
+          "High risk of pancreatitis and cardiovascular disease. "
+        ]
+      ]
+    },
+    "relative_test": {
+      "title": "Heart",
+      "categoryId": "671b5104ad9bf8d210384d2a",
+      "tests": []
+    },
+    "seo": {
+      "title": "Cholesterol Total Test  in  Bangalore  | Cadabams Diagnostics",
+      "description": "\" Book Cholesterol Total Test  in  Bangalore with Cadabams Diagnostics to Measure\nThe amount of cholesterol in the blood and Identifie\nTotal cholesterol levels \"",
+      "keywords": "",
+      "canonicalUrl": "",
+      "ogTitle": "",
+      "ogDescription": "",
+      "ogImage": "",
+      "schemaMarkup": "",
+      "robotsMeta": ""
+    },
+    "markdown": "## What Is a Cholesterol Total Test and Why Is It Important?\n\nCholesterol plays a major role regarding your overall health. It needs to be monitored constantly and effectively. A Cholesterol Total test is a straightforward blood test that checks the cholesterol level in your body. If your cholesterol level is too high, it can lead to heart disease and stroke which makes this test necessary. The main reason as to why this test is performed is to identify the risk of drugs treatment (if there is any).\n\nThe Cholesterol Total test makes use of a technological advancement termed as Spectrophotometry, which quantifies cholesterol levels in blood. It consists of drawing out blood that's sent to the lab.\n\nFrom the blood sample, a spectrum is visible along with distinct spectrums for different components of blood. This process allows for the calculation of all cholesterol present inclusive of LDL as well as HDL cholesterol.\n\n## What Does the Test Measure?\n\nThe Cholesterol Total test assesses the cholesterol levels in the bloodstream by measuring:\n\n- Low Density Lipoprotein (LDL) or commonly referred to as “bad cholesterol”\n- High Density Lipoprotein (HDL) or known as the “good cholesterol”\n- Very Low-Density Lipoprotein (VLDL) Cholesterol\n\n## When Is the Test Taken Mostly?\n\nTypically, the cholesterol total test is taken:\n\n- During a routine examination as part of cardiovascular risk assessment.\n- To check if a case of a high cholesterol treatment is effective.\n- For diagnosis and follow up of hypercholesterolemia, particularly familial types.\n\n## Are There Risks or Limitations to Be Considered with the Test?\n\nThe Cholesterol Total test poses no major risks. However, some limitations include:\n\n- If fasting was not adhered to prior to the test, this can affect the results.\n- Certain medical conditions especially liver or kidney disease may limit the suitability of the test.\n- There are some disorders associated with cholesterol that will not be picked up by the test.\n\n## What Are the Parameters Evaluated Under the Test?\n\nThe following parameters are evaluated from the Cholesterol Total test:\n\n- Total Cholesterol level\n- LDL Cholesterol level\n- HDL Cholesterol level\n- VLDL Cholesterol level\n- Triglyceride Level\n\n## Who Should Consider Taking the Cholesterol Total Test?\n\nYour cholesterol total test should be Cholesterol Total if you:\n\n- Are over 20 years old\n- Have a family history of high cholesterol or heart disease\n- Are overweight or obese\n- Smoke or are ex-smokers\n- Suffer from diabetes or hypertension\n\n## The Advantages of the Cholesterol Total Test for Your Health\n\nThe Cholesterol Total test aids in:\n\n- Determining the presence of high cholesterol levels that may heighten your chances of heart illness or experiencing a stroke\n- Checking how effective treatment for high cholesterol is working\n- Diagnosing and keeping track of familial hypercholesterolemia\n- Instigating measures to promote a healthier lifestyle for reduced cardiovascular complications\n\n## What Conditions Can the Cholesterol Total Test Diagnose?\n\n- High cholesterol\n- Familial hypercholesterolemia\n- Hyperlipidaemia\n- Cardiovascular disease\n\n## Preparing for Your Cholesterol Total Test\n\nFor preparations for your Cholesterol Total test:\n\n- Fast for 9-12 hours before the test\n- Avoid exercise or smoking before the test\n- Inform your healthcare provider of any medications or supplements you are taking\n\n**Prerequisites**: None\n\n**Eligibility**: Anyone can take the test, but it is usually recommended for adults over 20 years old\n\n**Procedure for Taking the Test**: A healthcare professional will take a sample of your blood from a vein in your arm\n\n**Caution Before the Test**: Inform your healthcare provider if you have any bleeding disorders or are taking any medications that may affect the test results"
+  },
+  "category": {
+    "id": "671b5104ad9bf8d210384d2a",
+    "name": "Heart",
+    "tests": [
+      "6790d12cc75a5739655a84ce",
+      "67938894c75a5739655ac8d1",
+      "67938b5ec75a5739655ac994",
+      "681da88916444f3c11590288"
+    ],
+    "image": "/lab-tests/image-1729664060898-855644468.webp",
+    "path": "/heart-tests",
+    "createdAt": "2024-10-23T06:14:56.868Z",
+    "updatedAt": "2024-10-23T06:14:56.868Z",
+    "markdown": "Heart Tests"
+  },
+  "relatedTests": []
+}

@@ -1,0 +1,1124 @@
+{
+  "type": "scan-detail",
+  "route": "/bangalore/xray-scan/chest-x-ray",
+  "familyPath": "xray-scan",
+  "slug": "chest-x-ray",
+  "test": {
+    "id": "673c4d4ceffae454707dfdfa",
+    "templateName": "non-labtest",
+    "testName": "Chest X-Ray Scan",
+    "route": "/chest-x-ray",
+    "basic_info": {
+      "name": "Chest X-Ray Scan",
+      "route": "/chest-x-ray",
+      "categoryId": "671b5102ad9bf8d210384d19",
+      "price": 380,
+      "alsoKnownAs": "",
+      "discount": "0",
+      "discountedPrice": "380.00",
+      "reportsWithin": "6 hrs",
+      "Identifies": "",
+      "measures": "",
+      "testId": 9840449,
+      "testCategory": "X ray"
+    },
+    "requisites": [
+      {
+        "value": "There is no Indian Standard for preparation for a chest X-ray. The technician may request removal of jewelry or metal-embedded clothing that may interfere with the X-ray imaging. "
+      }
+    ],
+    "interpretations": {
+      "title": "Results and Interpretations ",
+      "cols": [
+        "Structure ",
+        "Normal Range/Status ",
+        "Abnormal Indications "
+      ],
+      "rows": [
+        [
+          "Lungs ",
+          "Clear, no fluid or masses ",
+          "Pneumonia, fluid buildup, tumours "
+        ],
+        [
+          "Heart ",
+          "Normal size and shape ",
+          "Enlarged heart, heart failure "
+        ],
+        [
+          "Ribs ",
+          "Intact, no fractures or dislocations ",
+          "Rib fractures, dislocations "
+        ],
+        [
+          "Blood Vessels ",
+          "Clear and unobstructed ",
+          "Aneurysms, blockages in major chest arteries "
+        ],
+        [
+          "Diaphragm ",
+          "Positioned normally ",
+          "Elevated diaphragm, diaphragmatic hernia  "
+        ]
+      ]
+    },
+    "faqs": [
+      {
+        "question": "How long does a chest X-Ray take to be ready? ",
+        "answer": "In most situations a chest X-ray is completed between a couple of hours to between a day. During a critical situation, the process is accelerated for imminent results. The physician will check the pictures and interpret them accordingly after the process you will be informed of the outcome."
+      },
+      {
+        "question": "Do chest X-Rays find lung cancer? ",
+        "answer": "A chest X-ray has the potential to illustrate irregularities in size and shape of masses or tumours present in lungs and such types of tumours can as well be referred to as lung cancer.\n\nHowever, there could be scenarios where a patient may have small lung malignancy tumors or may be at the early stage of lung cancer, but this does not imply that there will be diagnosis. In such scenarios, additional tests such as CT scans may be performed."
+      },
+      {
+        "question": "How often should I get a chest X-Ray? ",
+        "answer": "As there is minimal ionizing radiation exposure utilized, radiation safety advocates approve of its periodic exposure. However, with excessive use of imaging techniques there arise concerns over potential exposure. Such need is usually determined by the physician based on his examination and further prognosis."
+      },
+      {
+        "question": "What do I need to do before doing a chest X-Ray? ",
+        "answer": "For a routine chest X-ray, it is not necessary to take any special instructions. So, you are permitted to have your meals and drinks unless directed otherwise by your doctor because of your medical condition or other tests you are going through."
+      },
+      {
+        "question": "Is there a Wait Time for Chest X-Ray for the Patients in Cadabam’s Diagnostics? ",
+        "answer": "Indeed, there is a wait time but only a minimum wait time, as Cadabam's Diagnostics provides chest x-rays of patients with state of the art technology. Moreover, our qualified and trained radiologists provide diagnostic imaging cares aiming to help detect numerous disorders related to the chest and breathing along with timely treatment."
+      }
+    ],
+    "relative_test": {
+      "title": "",
+      "categoryId": "671b5102ad9bf8d210384d19",
+      "tests": [
+        {
+          "id": "671b510aad9bf8d210384d3f",
+          "testName": "X-Ray ",
+          "route": "/x-rays"
+        },
+        {
+          "id": "6735b38f03598b92c151c546",
+          "testName": "Hand X-ray ",
+          "route": "/hand-x-ray"
+        },
+        {
+          "id": "6735c0fd03598b92c151c5cb",
+          "testName": "XR -ABDOMEN ERECT",
+          "route": "/abdomen-x-ray"
+        },
+        {
+          "id": "673c7a54effae454707e017d",
+          "testName": "XR - CHEST PA VIEW",
+          "route": "/chest-x-ray-pa-view"
+        },
+        {
+          "id": "673ec2d05ab244ca239d0899",
+          "testName": "X-RAY MAMMOGRAPHY",
+          "route": "/bilateral-mammography-x-ray"
+        },
+        {
+          "id": "673ed4fc5ab244ca239d098a",
+          "testName": "BMD HIP& SPINE",
+          "route": "/bmd-hip-and-spine-x-ray-scan"
+        }
+      ]
+    },
+    "seo": {
+      "title": "Book Chest X-ray Services in Bangalore | Cadabam's Diagnostics",
+      "description": "Get affordable chest X-ray scans in Bangalore with trusted diagnostic labs offering accurate imaging, fast reporting, and reliable results for better care.",
+      "keywords": "",
+      "canonicalUrl": "",
+      "ogTitle": "",
+      "ogDescription": "",
+      "ogImage": "",
+      "schemaMarkup": "",
+      "robotsMeta": ""
+    },
+    "markdown": "## Chest X-Ray Overview\n\nChest X-ray is described as a non-invasive test wherein the radiologists will take a picture of the affected organs situated more towards the areas of the heart, lungs, blood vessels and bone structures using electromagnetic radiation of very low dose.\n\nThe term Chest X Ray defines that Body Fluids, Mucosa, or Adenotonsillar diseases like respiratory lung gaseous volume infections, cardiac obstructions, or tumors can all be classified as lung problems.\n\nThe point of using a Chest X-ray is to evaluate an individual's exposure to lung or heart infections, any chest area disease, or fractures in that region. This would aid a more specialized computerized method of allowing the treatment in a timely period.\n\n### Types of Chest X-Ray\n\n- **Posterior-Anterior (PA) View:** This view includes the patient looking at the X-ray machine, while the beam passes back to the front where the chest is.\n- **Lateral View:** The recording is also made of the patient's lateral side and is helpful in demonstrating mediastinal structures especially the left and right lungs.\n- **Anteroposterior (AP) View:** This view is mostly performing on bedridden patients where the x-ray beam goes from anterior chest wall to the posterior chest wall, but it could also be more blurred in appearance when compared with the PA view.\n\n## Risks & Limitations of the Chest X-Ray\n\nChest X-rays are quite safe for most patients, however, there are a few minor risks and limitations linked to it. Here are a few risks and limitations of Chest X-rays.\n\n**Radiation exposure:** Although minimal, radiation exposure occurs during the test. Pregnant women should avoid chest X-rays unless absolutely necessary.\n\n**Limited soft tissue detail:** A chest X-ray may not capture detailed images of soft tissues.\n\n**Not all conditions:** Small clots in the lungs or tiny tumors, for example, may not be visible in a chest X-ray alone.\n\n## List of Parameters Considered During the Chest X-Ray\n\nThere is a wide range of parameters that a medical professional considers during a chest X-Ray. Some of the key parameters among these are: -\n\n- The many features from the edges and shape of the heart\n- The state of the lungs, whether they are clear or have any signs of infection\n- The thickening of any pleural effusion around the heart or lungs\n- The existence of any gross lesions of the ribs, spine or the diaphragm\n- The location of any implanted surgical devices e.g., pacemakers\n\n## Reasons for Taking a Chest X-Ray\n\nThere must be a reason for why a Chest X Ray query is being raised. Some of them include.-\n\n- **Respiratory problems:** Cough, shortness of breath, chest pain, or difficulty breathing.\n- **Heart problems:** Heart palpitations, chest discomfort, or suspected heart enlargement.\n- **Lung infections:** Pneumonia, bronchitis, or tuberculosis.\n- **Lung cancer:** Or other lung tumours.\n- **Pleural effusion:** Fluid buildup in the space between the lungs and chest wall.\n- **Pneumothorax:** Collapsed lung.\n- **Aortic aneurysm:** A bulge in the aorta, the main artery leading from the heart.\n- **Rib fractures:** Or other bone injuries.\n- **Exposure to harmful substances:** Asbestos, radiation, or other toxins.\n\n### When and Who Needs to Take a Chest X-ray?\n\nYour chest xray will be recommended by the physician when you indicate a number of these symptoms a terrible cough that predominates, discomfort when breathing, feeling pain across your chest, ever-present fever.\n\nChest X-rays are done on request in support of smokers, asthma patients, heart disease sufferers among others.\n\nIt can be ordered for a child or adult and is generally directed at assessing heart or lungs functions. It is also quite common for people to undergo chest X-rays before medical procedures like surgeries to make sure that there are no underlying conditions.\n\n## Benefits of Taking a Chest X-Ray\n\nX-Ray of the chest is known for and recommended for its early diagnosis and treatment. Following are other benefits of X-Ray of the chest:\n\n- Enhanced and faster diagnosis\n- Surgical procedure that involves intrusion\n- Less expensive\n- Improved and clear vision\n- Lesser pain\n- Measurement of the effect of treatment strategies and\n- Instructions prior to the chest X ray\n\n## Illnesses Diagnosed with Chest X-Ray\n\n- Pneumonia\n- Chronic Obstructive Pulmonary Disease (COPD)\n- Heart failure\n- Lung tumors or nodules\n- Rib fractures\n\n## Preparing for the Chest X-Ray\n\nWhile there is not such a huge preparation required for the chest X-ray, there are some minor considerations which would ease up the process for you: -\n\n### Pre-conditions\n\nThe technician might want you to take off necklaces or other mental objects which might otherwise block the X-ray image.\n\n### Best Time of Day for the Scan\n\nChest X-rays can be taken during any time of the day the only condition is being the symptoms one is feeling and the doctor suggests.\n\n### Who Can Get This Done\n\nIn most cases, a patient of any age can get a Chest X-ray done, but this is not recommended for pregnant women, doctors may provide for any other scan.\n\n### Process of Taking the Chest X-ray\n\nWhile taking the x-ray for chest, the technician asks you to either sit or stand in front of the x-ray machine and then asks about the body position you are in, so that proper pictures are taken.\n\nThe entire above process typically lasts for just a couple of minutes, and in many instances you are required to suspend your breathing for a few seconds to avoid the images getting fuzzy.\n\n### Caution: When Should You Not Get an X-Ray Done\n\nIf you are expecting or even think you might be pregnant, inform the person being there for you before the scan is conducted.\n\nInform the technician of any devices that are implanted in your body such as a pacemaker or metal rods as these might interfere with the imaging. You should also always adhere to the guidelines offered by the physician beforehand of the scan."
+  },
+  "category": {
+    "id": "671b5102ad9bf8d210384d19",
+    "name": "XRay",
+    "tests": [
+      "671b510aad9bf8d210384d3f",
+      "6735b38f03598b92c151c546",
+      "6735c0fd03598b92c151c5cb",
+      "673c4d4ceffae454707dfdfa",
+      "673c7a54effae454707e017d",
+      "673dccb25ab244ca239d04b1",
+      "673ec2d05ab244ca239d0899",
+      "673ed4fc5ab244ca239d098a",
+      "679b464abf2a88a244a6b651",
+      "679c76cdbf2a88a244a6edbd",
+      "679c83f2bf2a88a244a6f00c",
+      "67a9afcea45909fb1bd0fa23",
+      "67a9b828a45909fb1bd0fb09",
+      "67ac7ec8a45909fb1bd13a47",
+      "67ad98e5a45909fb1bd15599",
+      "67add3f7a45909fb1bd160ef",
+      "67add436a45909fb1bd160fc",
+      "67af303fa45909fb1bd185e5",
+      "67af3090a45909fb1bd185f4",
+      "67b2e762a45909fb1bd1db56",
+      "67b2f24ea45909fb1bd1ddc5",
+      "67b2f2eba45909fb1bd1dddc",
+      "67b2f32ba45909fb1bd1ddea",
+      "67b46d70a45909fb1bd20ecf",
+      "67b46db7a45909fb1bd20edc",
+      "67b46deba45909fb1bd20eea",
+      "67b46fc8a45909fb1bd20efe",
+      "67b47588a45909fb1bd20f49",
+      "67b47c00a45909fb1bd210ee",
+      "67b47f26a45909fb1bd211be",
+      "67b83ce3a45909fb1bd28445",
+      "67b8402ba45909fb1bd284f4",
+      "67bda77216444f3c114db516",
+      "67bdaa3a16444f3c114db576",
+      "67bde66f16444f3c114dbe56",
+      "67c0253116444f3c114df6e2",
+      "67c0283c16444f3c114df714",
+      "67ec18e716444f3c1152e61d",
+      "67f3c05e16444f3c1153a8e0",
+      "67f3ddff16444f3c1153ad0c",
+      "67f3e05c16444f3c1153ad24",
+      "67f3eee616444f3c1153ae7b",
+      "67f3f17e16444f3c1153aea4",
+      "67f3f88e16444f3c1153afaf",
+      "680ba7d916444f3c1156941d",
+      "680baa7516444f3c1156943f",
+      "685b755b16444f3c11627f97",
+      "685b77f516444f3c11628028",
+      "685b907616444f3c116286ff"
+    ],
+    "image": "/scans/image-1730261774049-832592582.webp",
+    "path": "xray-scan",
+    "createdAt": "2024-10-17T19:18:24.325Z",
+    "updatedAt": "2024-10-17T19:18:24.325Z",
+    "allData": {
+      "categoryId": "671b5102ad9bf8d210384d19",
+      "requisites": [
+        {
+          "value": "There are no special customs required for diagnostic x-ray images. In some cases, contrast material or “contrast dye” might be required to be taken before the x-ray. This is a substance that enhances the quality of the images. "
+        }
+      ],
+      "interpretations": {
+        "title": "Results and Interpretations",
+        "cols": [
+          "Condition/Findings ",
+          "Description ",
+          "Interpretation ",
+          ""
+        ],
+        "rows": [
+          [
+            "Normal X-ray ",
+            "No abnormalities detected in the bones or organs. ",
+            "The area examined appears healthy, with no visible issues or structural problems. ",
+            ""
+          ],
+          [
+            "Fracture or Dislocation ",
+            "Break or displacement of bones. ",
+            "Indicates bone damage requiring immediate medical attention, such as casting or surgical correction. ",
+            ""
+          ],
+          [
+            "Bone Infection (Osteomyelitis) ",
+            "Signs of infection within the bone tissue. ",
+            "May require antibiotics or surgical treatment depending on the severity of the infection. ",
+            ""
+          ],
+          [
+            "Arthritis ",
+            "Joint space narrowing, bone spurs, or joint deformity. ",
+            "Suggests joint inflammation or degeneration, often associated with conditions like osteoarthritis. ",
+            ""
+          ],
+          [
+            "Lung Infections ",
+            "Abnormalities in lung tissue, such as cloudiness or opacities. ",
+            "Could indicate pneumonia, tuberculosis, or bronchitis, requiring further medical evaluation. ",
+            ""
+          ]
+        ]
+      },
+      "faqs": [
+        {
+          "question": "What is an X Ray for? ",
+          "answer": "An X ray is employed to read various medical conditions and diagnose bone or organ fractures, abnormalities, lung infections, arthritis as well as infections in the organs."
+        },
+        {
+          "question": "Is X-ray service available in Bangalore at Cadabam’s Diagnostics? ",
+          "answer": "Yes, X-ray services are available at Cadabam’s. With expert radiologists and modern equipment, accurate diagnostics are performed around the clock."
+        },
+        {
+          "question": "Can I get an X-ray if I have a metal implant? ",
+          "answer": "Yes, but you have to let the technician know about such implants as this could affect the quality of the images, which requires specific techniques."
+        },
+        {
+          "question": "Are there any side effects after having an X Ray? ",
+          "answer": "There are no side effects of Xs. However, this should be emphasized with regard to treatment over time, as there is an increased risk.\n\nProtective measures are taken to minimise exposure."
+        },
+        {
+          "question": "Can I eat or drink after having an X-ray?",
+          "answer": "Generally, after an X-ray, it's safe to eat or drink anything as most doctors do not mind unless there are some prohibitions in relation to your condition or course of treatment."
+        }
+      ],
+      "relative_test": {
+        "title": "Related Tests",
+        "categoryId": "671b5102ad9bf8d210384d19",
+        "tests": [
+          {
+            "id": "6735b38f03598b92c151c546",
+            "testName": "Hand X-ray ",
+            "route": "/hand-x-ray"
+          },
+          {
+            "id": "6735c0fd03598b92c151c5cb",
+            "testName": "XR -ABDOMEN ERECT",
+            "route": "/abdomen-x-ray"
+          },
+          {
+            "id": "673c4d4ceffae454707dfdfa",
+            "testName": "XR - CHEST PA VIEW",
+            "route": "/chest-x-ray"
+          },
+          {
+            "id": "673c7a54effae454707e017d",
+            "testName": "Chest X-Ray (PA View)  ",
+            "route": "/chest-x-ray-pa-view"
+          },
+          {
+            "id": "673dccb25ab244ca239d04b1",
+            "testName": "CT LOWER ABDOMEN (INCLUDING PELVIS)WITHOUT CONTRAST ",
+            "route": "/abdomen-and-lower-thorax-ct-scan"
+          },
+          {
+            "id": "673ec2d05ab244ca239d0899",
+            "testName": "X-RAY MAMMOGRAPHY",
+            "route": "/bilateral-mammography-x-ray"
+          },
+          {
+            "id": "673ed4fc5ab244ca239d098a",
+            "testName": "BMD hip and spine",
+            "route": "/bmd-hip-and-spine-x-ray-scan"
+          }
+        ]
+      },
+      "seo": {
+        "title": "",
+        "description": "Book X-ray scans in Bangalore for accurate results with trusted diagnostic centers offering fast imaging, dependable reporting, and quality healthcare."
+      }
+    },
+    "markdown": "X-rays are a type of electromagnetic radiation that can pass through most objects, including the body, to create images of the inside\n\n## X-ray Tests\n\n![X-ray Tests](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731734791415-559765543.png)\n\nX-ray is also called x-ray radiography. Other types of X ray images are called x-rays and are made of a form of radiology which uses small amounts of ionizing radiation to produce pictures of a person’s inner body parts like bones and organs. Its main purpose is orthopaedics, such as bone fractures, infection’s diagnosis and other pathological changes monitoring.\n\nIn simple terms, it is a rapid and noninvasive approach which provides medical practioners with the necessary information regarding the patient’s wellbeing and helps determine the presence of an injury, a disease or an abnormality.\n\n### What is an X-ray?\n\nAn X-ray is a type of electromagnetic radiation such as radio waves, microwaves, visible light, and gamma rays. X rays also detect abnormalities and Torres mutation in things that often are innocent features of hundreds of people and puts them at unnecessary risk as the thing does use the least ionizing radiation possible.\n\nThe x-ray is capable of identifying fractures, lung fluid, tumours, pneumonia and many other contagious diseases as x-ray beams penetrate our bodies at varying rates, thus replacing structures such as bones, organs and other tissues containing gamma rays.\n\n## Types of X-rays\n\nThose who are worried about the multiple conditions that may have scarred their body, it is alright, one single x-ray is more than enough for multiple areas of your body.\n\nThese include the following:\n\n**Chest radiograph:** It primarily assesses lung diseases like pneumonia, bronchitis, or tuberculous infections.\n\n**Bone radiograph:** It is mainly employed to reveal bone fractures, joint issues or osteomyelitis.\n\n**Mammography (Breast Radiography):** It is a form of radiography which is mostly used to find breast cancer and any breast tissue that is not normal.\n\n**Hand radiograph:** It is used mainly to evaluate diseases of the hand, wrist and the fingers such as arthritis, infections, fractures, and dislocations.\n\n**Abdominal Radiograph:** This X-ray aids the physicians in evaluating the abdominal cavity and helps in determining the presence of bowel obstructions, nephrolithiasis, or foreign bodies. It is also employed to evaluate measurable vomit disorders.\n\n## Risks & Limitations of the X-ray Test\n\n![Risks & Limitations of the X-ray Test](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731734808853-101145286.png)\n\nOne of the greatest assets that a doctor has at hand is the ability to scan through X-Rays; with their use, doctors can spot all the abnormalities that patients might have. The only downside of them using X-Rays is the fact that it does come with a couple of risks, which for the most part are harmless.\n\nWomen who are of childbearing age or are expecting should not be using them since there is a chance it may endanger the unborn child. Those who are women must avoid scanning of soft tissues such as the stomach and muscles, their bodies do scan fine in X-Ray machines.\n\nAnother scenario in which they cannot be used is when patients require an image of their bones.\n\n## List of Parameters Considered During the X-ray Scan\n\n![List of Parameters Considered During the X-ray Scan](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731734819591-78011352.png)\n\nIt is significant to note that some parameters of X-ray scans will be different based on the type and clinical indication of the X-ray. These are some of the parameters to bear in mind during the x-ray examination which are more common.\n\n- Bone structure and fractures.\n- Presence of foreign objects in the body.\n- Condition of soft tissues (particularly in specialised X-rays such as chest X-rays).\n- X-ray techniques and doses may need to be adjusted based on the individual’s age.\n- It is also not generally recommended for pregnant women and men with certain conditions, such as prostate enlargement and may require different X-ray techniques.\n\nIn addition, in both men with some conditions (prostate enlargement) and women who are often need other X-ray techniques are not usually advised.\n\n## Reasons for Taking an X-ray\n\n![Reasons for Taking an X-ray](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731734825517-505647292.png)\n\nSome circumstances arise that may require X-ray imaging scans. Some of the reasons include but are not limited to: -\n\n**Diagnosis of Bone Fracture:** The doctor can visualize the injury to the bone and therefore some images such as telescoped arms x-ray are taken.\n\n**Detection of Lung Conditions:** Pneumonia is confined to lung disease, so chest x-ray films can pinpoint its location.\n\n**Tracking of Chronic Conditions:** X-rays can monitor the changes of arthritis or osteoporosis.\n\n**Dental Examination:** X-rays are useful in the assessment of tooth cavities, dental caries, orthodontic treatments.\n\n**Detection of Digestive Tract Issues:** This form of imaging is aimed at determining the causes of obstruction, the presence of kidney stones and other issues.\n\n## Benefits of Taking the scan\n\n![Benefits of Taking the scan](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731734835010-422145974.png)\n\nAn x-ray image or an x-ray scan is said to be one of the best means of diagnosing a disease and it is beneficial for both the practitioners as well as the sufferers. Some of the benefits include\n\n**Fast and Painless:** The entire X-ray scanning duration is brief because it is a non-invasive procedure, hence no pain is expected to be experienced.\n\n**Accessibility:** Availability of x-ray machines is the bulk in the majority of hospitals and diagnostic centers; hence they are among the most easily accessible scanning machines.\n\n**Clear Image:** It provides better imaging and clarity of the structures and joints making the best scan for fractures and joints.\n\n**Tracking Treatment Program:﻿** X-ray scans are advantageous when it comes to assessing the degree of effectiveness that various treatments have had over the course of treating various chronic diseases.\n\n## Illnesses Diagnosed with X-ray\n\n![Illnesses Diagnosed with X-ray](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731734840792-770486718.png)\n\nSuffice it to say that X-rays are a powerful image scanning technique that can be deployed to a range of conditions. Some of them include: -\n\n- Dislocation and fracture of bones\n- Disorders caused by tuberculosis, lung cancer, any disease of the lungs\n- Conditions of joints including arthritis and osteoporosis\n- Cavity problems and jawbone infection during one's teeth\n- Disease related to the kidneys, stones or even parts of the bowel that are blocked.\n\n## Preparing for X-ray Scan\n\n![Preparing for X-ray Scan](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731734868837-62031376.png)\n\nIn most situations, the process leading up to the scan is not a big deal, however, there are some circumstances in which you will be instructed on how to prepare for the X-ray depending on the type of X-ray you require.\n\nPrerequisites Considering the abdominal X-ray scan now, the doctor/physician may require that you refrain from eating anything for several hours prior to the procedure or entertaining any liquids. Other major X-ray scans like chest, bone, or dental don’t require any prerequisites.\n\n### Best Time to Take the X-ray Scan\n\nWhen it comes to x-ray scans there is no timely or a preferred time of the day, but there are cases when the physician requests a certain time.\n\n### Eligibility\n\nX-ray scans are relatively uncomplicated and safe across the board making them readily available to both the children and the elderly\n\nNonetheless, medical practitioners may refrain from conducting X-rays on pregnant clients because of the potential risk of injury to the fetus.\n\n### Guidelines on How an X-Ray Scan is Done:\n\nAn X-ray scan is very simple to process sometimes or in most cases. It majorly depends on what part the technician aims to examine; they may instruct you to comply with their request by sitting or lying down in n specific position. Most of the time, which could average to 15 to 30 minutes, is the time the whole process takes, but exceptions are also possible.\n\n### Precautions:\n\nAlthough X-rays are deemed to be harmless to most individuals, it is crucial to exercise some measures, particularly with respect to pregnant women. It is also beneficial to keep your doctor updated if there are any metal implants that may hinder creating an X-ray image."
+  },
+  "relatedTests": [
+    {
+      "id": "671b510aad9bf8d210384d3f",
+      "templateName": "non-labtest",
+      "testName": "X-Ray ",
+      "route": "/x-rays",
+      "basic_info": {
+        "name": "X-Ray ",
+        "route": "/x-rays",
+        "categoryId": "671b5102ad9bf8d210384d1d",
+        "price": "600",
+        "alsoKnownAs": "",
+        "discount": "0",
+        "discountedPrice": "600.00",
+        "reportsWithin": "2 hours",
+        "Identifies": "",
+        "measures": "",
+        "testId": ""
+      },
+      "requisites": [
+        {
+          "value": "There are no special customs required for diagnostic x-ray images. In some cases, contrast material or “contrast dye” might be required to be taken before the x-ray. This is a substance that enhances the quality of the images. "
+        }
+      ],
+      "interpretations": {
+        "title": "Results and Interpretations ",
+        "cols": [
+          "Condition/Findings ",
+          "Description ",
+          "Interpretation ",
+          ""
+        ],
+        "rows": [
+          [
+            "Normal X-ray ",
+            "No abnormalities detected in the bones or organs. ",
+            "The area examined appears healthy, with no visible issues or structural problems. ",
+            ""
+          ],
+          [
+            "Fracture or Dislocation ",
+            "Break or displacement of bones. ",
+            "Indicates bone damage requiring immediate medical attention, such as casting or surgical correction. ",
+            ""
+          ],
+          [
+            "Bone Infection (Osteomyelitis) ",
+            "Signs of infection within the bone tissue. ",
+            "May require antibiotics or surgical treatment depending on the severity of the infection. ",
+            ""
+          ],
+          [
+            "Arthritis ",
+            "Joint space narrowing, bone spurs, or joint deformity. ",
+            "Suggests joint inflammation or degeneration, often associated with conditions like osteoarthritis. ",
+            ""
+          ],
+          [
+            "Lung Infections ",
+            "Abnormalities in lung tissue, such as cloudiness or opacities. ",
+            "Could indicate pneumonia, tuberculosis, or bronchitis, requiring further medical evaluation. ",
+            ""
+          ]
+        ]
+      },
+      "faqs": [
+        {
+          "question": "What is an X-Ray used for? ",
+          "answer": "An X ray is employed to read various medical conditions and diagnose bone or organ fractures, abnormalities, lung infections, arthritis as well as infections in the organs."
+        },
+        {
+          "question": "Is X-Ray service available in Bangalore at Cadabam’s Diagnostics? ",
+          "answer": "Yes, X-ray services are available at Cadabam’s. With expert radiologists and modern equipment, accurate diagnostics are performed around the clock."
+        },
+        {
+          "question": "Can I have an X-Ray if I have metal implants? ",
+          "answer": "Yes, but you have to let the technician know about such implants as this could affect the quality of the images, which requires specific techniques."
+        },
+        {
+          "question": "Are there any side effects after having an X-Ray? ",
+          "answer": "There are no side effects from X-rays, but excessive exposure over time can increase risks. Protective measures are taken to minimise exposure."
+        },
+        {
+          "question": "Can I eat or drink after having an X-Ray? ",
+          "answer": "Generally, after an X-ray, it's safe to eat or drink anything as most doctors do not mind unless there are some prohibitions in relation to your condition or course of treatment."
+        }
+      ],
+      "relative_test": {
+        "title": "",
+        "categoryId": "671b5102ad9bf8d210384d19",
+        "tests": [
+          {
+            "id": "6735b38f03598b92c151c546",
+            "testName": "Hand X-ray ",
+            "route": "/hand-x-ray"
+          },
+          {
+            "id": "6735c0fd03598b92c151c5cb",
+            "testName": "Abdomen X-Ray ",
+            "route": "/abdomen-x-ray"
+          },
+          {
+            "id": "673c4d4ceffae454707dfdfa",
+            "testName": "Chest X-ray ",
+            "route": "/chest-x-ray"
+          }
+        ]
+      },
+      "seo": {
+        "title": "",
+        "description": "",
+        "keywords": "",
+        "canonicalUrl": "",
+        "ogTitle": "",
+        "ogDescription": "",
+        "ogImage": "",
+        "schemaMarkup": "",
+        "robotsMeta": ""
+      },
+      "markdown": "## Comprehensive X-Ray Guide: Everything You Need to Know\n\n![Comprehensive X-Ray Guide: Everything You Need to Know](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1729195939650-250306518.jpg)\n\nX-ray is also called x-ray radiography. Other types of X ray images are called x-rays and are made of a form of radiology which uses small amounts of ionizing radiation to produce pictures of a person’s inner body parts like bones and organs. Its main purpose is orthopaedics, such as bone fractures, infection’s diagnosis and other pathological changes monitoring.\n\nIn simple terms, it is a rapid and noninvasive approach which provides medical practioners with the necessary information regarding the patient’s wellbeing and helps determine the presence of an injury, a disease or an abnormality.\n\n### What is an X-Ray?\n\nAn X-ray is a type of electromagnetic radiation such as radio waves, microwaves, visible light, and gamma rays. X rays also detect abnormalities and Torres mutation in things that often are innocent features of hundreds of people and puts them at unnecessary risk as the thing does use the least ionizing radiation possible.\n\nThe x-ray is capable of identifying fractures, lung fluid, tumours, pneumonia and many other contagious diseases as x-ray beams penetrate our bodies at varying rates, thus replacing structures such as bones, organs and other tissues containing gamma rays.\n\n### Types of X-Rays\n\nThose who are worried about the multiple conditions that may have scarred their body, it is alright, one single x-ray is more than enough for multiple areas of your body.\n\nThese include the following:\n\n**Chest radiograph:** It primarily assesses lung diseases like pneumonia, bronchitis, or tuberculous infections.\n\n**Bone radiograph:** It is mainly employed to reveal bone fractures, joint issues or osteomyelitis.\n\n**Mammography (Breast Radiography):** It is a form of radiography which is mostly used to find breast cancer and any breast tissue that is not normal.\n\n**Hand radiograph:** It is used mainly to evaluate diseases of the hand, wrist and the fingers such as arthritis, infections, fractures, and dislocations.\n\n**Abdominal Radiograph:** This X-ray aids the physicians in evaluating the abdominal cavity and helps in determining the presence of bowel obstructions, nephrolithiasis, or foreign bodies. It is also employed to evaluate measurable vomit disorders.\n\n## Risks & Limitations of the X-Ray Test\n\n![Risks & Limitations of the X-Ray Test](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1729196044008-970366261.avif)\n\nOne of the greatest assets that a doctor has at hand is the ability to scan through X-Rays; with their use, doctors can spot all the abnormalities that patients might have. The only downside of them using X-Rays is the fact that it does come with a couple of risks, which for the most part are harmless.\n\nWomen who are of childbearing age or are expecting should not be using them since there is a chance it may endanger the unborn child. Those who are women must avoid scanning of soft tissues such as the stomach and muscles, their bodies do scan fine in X-Ray machines.\n\nAnother scenario in which they cannot be used is when patients require an image of their bones.\n\n## List of Parameters Considered During the X-Ray Scan\n\n![List of Parameters Considered During the X-Ray Scan](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1729196092528-953792644.avif)\n\nIt is significant to note that some parameters of X-ray scans will be different based on the type and clinical indication of the X-ray. These are some of the parameters to bear in mind during the x-ray examination which are more common.\n\n- Bone structure and fractures.\n- Presence of foreign objects in the body.\n- Condition of soft tissues (particularly in specialised X-rays such as chest X-rays).\n- X-ray techniques and doses may need to be adjusted based on the individual’s age.\n- It is also not generally recommended for pregnant women and men with certain conditions, such as prostate enlargement and may require different X-ray techniques.\n\nIn addition, in both men with some conditions (prostate enlargement) and women who are often need other X-ray techniques are not usually advised.\n\n## Reasons for Taking an X-Ray\n\n![Reasons for Taking an X-Ray](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1729196006939-586564563.avif)\n\nSome circumstances arise that may require X-ray imaging scans. Some of the reasons include but are not limited to: -\n\n**Diagnosis of Bone Fracture:** The doctor can visualize the injury to the bone and therefore some images such as telescoped arms x-ray are taken.\n\n**Detection of Lung Conditions:** Pneumonia is confined to lung disease, so chest x-ray films can pinpoint its location.\n\n**Tracking of Chronic Conditions:** X-rays can monitor the changes of arthritis or osteoporosis.\n\n**Dental Examination:** X-rays are useful in the assessment of tooth cavities, dental caries, orthodontic treatments.\n\n**Detection of Digestive Tract Issues:** This form of imaging is aimed at determining the causes of obstruction, the presence of kidney stones and other issues.\n\n### When and Who Needs to Take an X-ray?\n\nThe demand for X-Rays has been on the rise following the evidence of ill health, many patients are asked to undergo these scans for various reasons.\n\n- Fractured or broken bones, or dislocated joints can be evaluated.\n- These patients may have Chest issues such as pneumonia or infected lungs.\n- X-rays also help in assessing arthritis and other joint or bone related issues.\n- Dentists use x-ray machines to see whether there are any cavities or teeth that may be impacted inside the mouth.\n- The X-Rays are also useful for seeing whether there are any foreign items that may be lodged inside the body.\n- Also unexplained swelling or tenderness in the region might not be effectively treatable without the help of the imaging technique.\n- X-Rays can also be used to see how severe the condition gets in cases such as migraines or osteoporosis.\n\n## Benefits of Taking the X-Ray Scan\n\n![Benefits of Taking the X-Ray Scan](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1729196149133-877277723.avif)\n\nAn x-ray image or an x-ray scan is said to be one of the best means of diagnosing a disease and it is beneficial for both the practitioners as well as the sufferers. Some of the benefits include\n\n**Fast and Painless:** The entire X-ray scanning duration is brief because it is a non-invasive procedure, hence no pain is expected to be experienced.\n\n**Accessibility:** Availability of x-ray machines is the bulk in the majority of hospitals and diagnostic centers; hence they are among the most easily accessible scanning machines.\n\n**Clear Image:** It provides better imaging and clarity of the structures and joints making the best scan for fractures and joints.\n\n- Tracking Treatment Program: X-ray scans are advantageous when it comes to assessing the degree of effectiveness that various treatments have had over the course of treating various chronic diseases.\n\n## Illnesses Diagnosed with X-Ray\n\n![Illnesses Diagnosed with X-Ray](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1729201920382-350365365.avif)\n\nSuffice it to say that X-rays are a powerful image scanning technique that can be deployed to a range of conditions. Some of them include: -\n\n- Dislocation and fracture of bones Disorders caused by tuberculosis, lung cancer, any disease of the lungs Conditions of joints including arthritis and osteoporosis Cavity problems and jawbone infection during one's teeth Disease related to the kidneys, stones or even parts of the bowel that are blocked.\n\n## Preparing for X-Ray Scan\n\n![Preparing for X-Ray Scan](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1729196223432-52443040.avif)\n\nIn most situations, the process leading up to the scan is not a big deal, however, there are some circumstances in which you will be instructed on how to prepare for the X-ray depending on the type of X-ray you require.\n\nPrerequisites Considering the abdominal X-ray scan now, the doctor/physician may require that you refrain from eating anything for several hours prior to the procedure or entertaining any liquids. Other major X-ray scans like chest, bone, or dental don’t require any prerequisites.\n\n### \n\n### Best Time to Take the X-ray Scan\n\nWhen it comes to x-ray scans there is no timely or a preferred time of the day, but there are cases when the physician requests a certain time.\n\n### Eligibility\n\nX-ray scans are relatively uncomplicated and safe across the board making them readily available to both the children and the elderly\n\nNonetheless, medical practitioners may refrain from conducting X-rays on pregnant clients because of the potential risk of injury to the fetus.\n\n### Guidelines on How an X-Ray Scan is Done:\n\nAn X-ray scan is very simple to process sometimes or in most cases. It majorly depends on what part the technician aims to examine; they may instruct you to comply with their request by sitting or lying down in n specific position. Most of the time, which could average to 15 to 30 minutes, is the time the whole process takes, but exceptions are also possible.\n\n### Precautions:\n\nAlthough X-rays are deemed to be harmless to most individuals, it is crucial to exercise some measures, particularly with respect to pregnant women. It is also beneficial to keep your doctor updated if there are any metal implants that may hinder creating an X-ray image."
+    },
+    {
+      "id": "6735b38f03598b92c151c546",
+      "templateName": "non-labtest",
+      "testName": "Hand X-ray Scan",
+      "route": "/hand-x-ray",
+      "basic_info": {
+        "name": "Hand X-ray Scan",
+        "route": "/hand-x-ray",
+        "categoryId": "671b5102ad9bf8d210384d19",
+        "price": "500",
+        "alsoKnownAs": "",
+        "discount": "0",
+        "discountedPrice": "500.00",
+        "reportsWithin": "6 hrs",
+        "Identifies": "",
+        "measures": "",
+        "testId": ""
+      },
+      "requisites": [
+        {
+          "value": "As there are no preparations required for a hand X-ray, you can simply show up. But, to facilitate the imaging process, the technician may request that you get rid of metallic objects such as jewelry and watches. "
+        }
+      ],
+      "interpretations": {
+        "title": "Results and Interpretations ",
+        "cols": [
+          "Structure ",
+          "Normal Range/Status ",
+          "Abnormal Indications "
+        ],
+        "rows": [
+          [
+            "Bones ",
+            "No fractures, normal alignment ",
+            "Fractures, dislocations, deformities "
+          ],
+          [
+            "Joints ",
+            "Normal spacing, no degeneration",
+            "Arthritis, joint swelling, narrowing "
+          ],
+          [
+            "Soft tissue shadows ",
+            "Clear, normal soft tissue density ",
+            "Signs of infection, swelling, or masses "
+          ],
+          [
+            "Bone density ",
+            "Normal bone density for age group ",
+            "Signs of osteoporosis or bone loss "
+          ]
+        ]
+      },
+      "faqs": [
+        {
+          "question": "Is it Excruciating to Have your Hand X-rayed? ",
+          "answer": "To put it plainly, no pain is expected during a hand X-ray.\n\nThe process is swift with little to no pain; you may be asked to keep your hands in proper positions in order to obtain a suitable X-ray image."
+        },
+        {
+          "question": "What is the expected time duration for a hand X-ray? ",
+          "answer": "So far, it seems that radiographers can facilitate these hand procedures quite efficiently by operating on one hand at a time, the time required on average to do all of this plus the image capture is approximately 10-15 minutes. And unless the facility has a backlog of a large number of X-rays it is reasonable to assume the results will be available soon after."
+        },
+        {
+          "question": "Is it possible to diagnose arthritis by tying to say do hand X-rays? ",
+          "answer": "Yes they can, these X-rays are effective in examining the hands of patients suffering from arthritis as well helping in diagnosing the disease itself as they can show thinning of joint space and bone alteration. They are routinely used for assessing osteoarthritis and rheumatoid arthritis involving hands and fingers."
+        },
+        {
+          "question": "Are hand X-rays appropriate for children in terms of safety? ",
+          "answer": "Considering the amount of radiation they produce, I would say yes. Hand X-rays would be appropriate for children as they involve low exposure. Injuries can be detected as well as growth is checked through pediatric X-rays while all safety measures are abided by so no harm comes to the child."
+        },
+        {
+          "question": "Are X-ray facilities offered by Cadabam’s Diagnostics for the hand area? ",
+          "answer": "You can get in touch with Cadabam’s Diagnostics to get a full range of hand x-ray facilities. Having advanced machines for imaging, we provide a safe and professional environment in which a wide range of conditions from arthritis, fractures, etc., can be easily diagnosed."
+        }
+      ],
+      "relative_test": {
+        "title": "",
+        "categoryId": "671b5102ad9bf8d210384d19",
+        "tests": []
+      },
+      "seo": {
+        "title": "Affordable Hand X-ray Scans in Bangalore | Cadabam's Diagnostics",
+        "description": "Get a hand X-ray in Bangalore for accurate fracture and injury diagnosis. Cadabams Diagnostics offers digital imaging for bones and joints with fast reports ",
+        "keywords": "",
+        "canonicalUrl": "",
+        "ogTitle": "",
+        "ogDescription": "",
+        "ogImage": "",
+        "schemaMarkup": "",
+        "robotsMeta": ""
+      },
+      "markdown": "## What Is a Hand X-ray?\n\nA hand x-ray portrays a detailed image of the hand allowing your healthcare doctor to assess the internal structures of the hand that includes the bones, joints and soft tissue membranes. This x-ray further assists with providing detailed assessments of osteoporotic fractures, bone infection, dislocation, arthritis and other chronic conditions.\n\nA hand x-ray test just like other x-ray tests is painless and is classified as a low radiation test that enables self-repairing images of human hands with outstanding resolution.\n\nYour medical practitioner provides an indication for this test usually to assist in the diagnosis and management of injurious and deformative conditions such as fractures, dislocations and arthritis. The test also assists your doctor in spotting and evaluating deviations from the normal ossification processes of the bones within the hands and wrists. This therefore assists doctors in determining the most appropriate mode of treatment.\n\n###\n\n## Risks & Limitations of Hand X-ray\n\nBeing one of the X-ray types, it employs the technique of using Radiation to provide high-quality photographs, however hand X-ray does have risk factors, but they are minuscule, and even have certain drawbacks. But now let’s look at some of the risks and limitations that may be associated with a hand x-ray.\n\n**Radiation Emission:** Although the amount of radiation release is insignificant, continuous exposure to even a little dose can result in adverse health problems such as cancer in the long run.\n\n**Soft Tissue detail is not well depicted:** It’s usually able to supply adequate information but more precise details concerning soft tissues like muscles and ligaments and tendons are better shown by MRI scans.\n\n**Not Applicable for All Problems:** Certain early stages of some conditions such as some extremely small fractures and slight alteration in bone density may not be diagnosed fully using hand x-ray only and thus need other imaging methods in addition to hand x-ray.\n\n## List of Parameters Considered During the Hand X-ray\n\nIn Other cases, the doctor may consider a variety of factors during the hand x-ray. Some of these factors include but are not limited to: -\n\n### Bone Structure and Alignment\n\n- Bone Management\n- Bone Mass\n- Joint Position\n- Carpal Joint Position\n\n### Soft Tissue Assessment\n\n- Tissue Edema\n- Tissue Nodular Clacinosis\n- Intra Body Artifacts\n\n## Reasons for Taking a Hand X-ray\n\nThere are many reasons which may warrant a doctor to recommend to you a hand X Ray, such include:\n\n- Bone fractures\n- The presence of arthritis\n- Abnormal growth of bones\n- Bone involvement in infection\n- The presence of one or other deformities of bone\n\n### When And Who Needs to Take a Hand X-Ray?\n\nIf you have been injured in an accident, or if you’re experiencing consistent pain, swelling, or restricted movement in your hand or wrist, you may have to go through a hand x-ray.\n\nIndividuals diagnosed with chronic conditions, such as Arthritis, are usually advised to consider X-ray examinations. Additionally, doctors use this examination to check the development of bones in a growing child.\n\n## Benefits of Taking a Hand X-ray\n\nHand x-ray scans have a wide range of advantages for both patients and doctors. Some of these pointers are: - With Regards To:\n\n### For Doctors:\n\n- Correct Diagnosis\n- Efficient Preparation of Treatment\n- Keeping Track of Recovery\n- Stress Meging Disorder Diagnosis\n\n### For Patients:\n\n- Speedy and Motorized\n- Auscultation and Precautions\n- Less Guess Work\n- Taking Patient to Build Confidence\n- Improvement of the Life’s Standards\n\n## Preparing for the Hand X-ray\n\nA hand X-ray takes around 10-15 minutes, so there is no need for personal preparation, however, the below factors could help to enhance your experience.\n\n### Explained Requirements:\n\nItems like rings, bracelets, or anything made of metal (including lotions) should be removed before the procedure as they may obstruct the quality of the image.\n\n### Best Time to Scan:\n\nThe x-ray can be done at any time of the day because there is no dedicated time; it is recommended for patients according to their symptoms.\n\n### Who is Eligible:\n\nGender and Age do not impose any restrictions and any person is eligible to undergo hand x rays.\n\nLet’s go ahead and address the need for pregnant women to seek medical attention prior to the imaging of their hand.\n\n### Procedure for Taking the Hand X-ray\n\nNext, the hand X-ray process will involve the tech targeting and isolating the area of the wrist along with the directional manipulations that the user’s hand can undertake in order to bring about clarity in the images captured. As this procedure does not take much time, it is most likely to be done in a matter of a couple of minutes or so.\n\n### Precautions before performing an X-ray\n\nAs stated above, if one were to ask me hand X-ray, for the most part is harmless, albeit if you are a pregnant woman please tell your doctor about your condition. If you possess any metal implant in your hand or wrist, it is in your best interest to as well inform the technician."
+    },
+    {
+      "id": "6735c0fd03598b92c151c5cb",
+      "templateName": "non-labtest",
+      "testName": "Abdomen Erect Scan X-Ray Scan",
+      "route": "/abdomen-x-ray",
+      "basic_info": {
+        "name": "Abdomen Erect Scan X-Ray Scan",
+        "route": "/abdomen-x-ray",
+        "categoryId": "671b5102ad9bf8d210384d19",
+        "price": 380,
+        "alsoKnownAs": "",
+        "discount": "0",
+        "discountedPrice": "380.00",
+        "reportsWithin": "6 hrs",
+        "Identifies": "",
+        "measures": "",
+        "testId": 7770609,
+        "testCategory": "X ray"
+      },
+      "requisites": [
+        {
+          "value": "Abdomen X-ray does not usually require preparation except when stated by the doctor. Drinking water is also allowed unless otherwise stated. "
+        }
+      ],
+      "interpretations": {
+        "title": "Results and Interpretations ",
+        "cols": [
+          "Organ ",
+          "Normal Range/Status ",
+          "Abnormal Indications "
+        ],
+        "rows": [
+          [
+            "Stomach/Intestines ",
+            "Stomach/Intestines ",
+            "Bowel obstruction, perforation "
+          ],
+          [
+            "Kidneys ",
+            "No visible stones or abnormalities ",
+            "Kidney stones, hydronephrosis "
+          ],
+          [
+            "Liver ",
+            "Normal size and position ",
+            "Enlarged liver, abnormal masses "
+          ],
+          [
+            "Gallbladder ",
+            "No visible stones ",
+            "Gallstones, inflammation "
+          ],
+          [
+            "Abdominal Area ",
+            "No signs of fluid or foreign objects ",
+            "Fluid accumulation, foreign bodies "
+          ]
+        ]
+      },
+      "faqs": [
+        {
+          "question": "What does an abdomen X-ray detect? ",
+          "answer": "Abdominal X-ray can reveal the presence of Herniation, urolithiasis, abnormal pyloroscope, fluid retention, penetration of inhaled substances or objects, and Hydrocele in abdominal organs."
+        },
+        {
+          "question": "Should I refrain from eating before the abdominal X-ray? ",
+          "answer": "Eating is not usually allowed beforehand during an X-ray of the abdominal area, but in case there is a special need due to other health problems, it is alright."
+        },
+        {
+          "question": "How long does an abdomen X-ray take? ",
+          "answer": "The whole process basically takes a few minutes. There may be times where you will be instructed to remain in place as the imaging is taking place."
+        },
+        {
+          "question": "Will I be able to get an abdominal X-ray scan at Cadabam’s Diagnostics in Bangalore? ",
+          "answer": "Abdomen X-ray scans are also available at Cadabam's Diagnostics in Bangalore along with advanced tools."
+        },
+        {
+          "question": "Is it possible to assess non-visible body structures such as fat during an abdominal X-ray? ",
+          "answer": "An abdominal X-ray is not used for soft tissue problems – these problems are more in the realm of ultrasound or MRI."
+        }
+      ],
+      "relative_test": {
+        "title": "",
+        "categoryId": "",
+        "tests": []
+      },
+      "seo": {
+        "title": "Abdomen X-ray Scan in Bangalore | Cadabam's Diagnostics",
+        "description": "Get an abdomen X-Ray in Bangalore to examine your digestive system. This imaging detects bowel obstructions, kidney stones, and other abdominal issues.",
+        "keywords": "",
+        "canonicalUrl": "",
+        "ogTitle": "",
+        "ogDescription": "",
+        "ogImage": "",
+        "schemaMarkup": "",
+        "robotsMeta": ""
+      },
+      "markdown": "## What is an Abdomen x-ray?\n\nAbdominal x-ray is one of the most widely performed ultrasound tests which doctors and other physicians make use of. Abdominal x-ray employs technology utilization of a minimal dose of radiation when taking x-ray to obtain the image of the organs present within the lower torso as well as the organs listed below:\n\n- Stomach\n- Intestine\n- Liver\n- Kidneys\n- Spleen\n- Gallbladder\n- Diaphram\n- Bladder\n\nIf your physician feels the need to prescribe this test, it is often done to rule out or to find the cause of several symptoms including abdominal discomfort, nausea, abdominal swelling or vomiting. Similarly, abdomen x-ray is also employed to establish whether there is presence of conditions such as blockages, perforates or abnormal growth of intestinal structures which in turn assists the provider in devising a comprehensive treatment plan.\n\n## Risks & Limitations of the Abdomen X-ray\n\nAbdominal X-ray is an image which provides a detailed view of the organs and structures lying within the abdominal cavity and is considered safe for most of the patients. Nevertheless, it also comes with certain risks and limitations, and these are: -\n\n- Even though the dose of radiation is very low, it is still not considered safe for pregnant women.\n- X-Rays are of minimum help as compared to CT scan or MRI in the diagnosis of soft tissue injuries.\n- Circumstances which include perforations in the gastrointestinal tract or inflammation or trauma of some internal organs are not able to see the internal organs entirely and may require such exam for further investigation.\n\n## List of Parameters Considered During the Abdomen X-ray\n\nA technician or the radiologist assessing abdomen X Ray looks at numerous parameters. Some of them are: -\n\n**Gas Pattern:** The distibution and location of gas in the intestine.\n\n**Organ Size and Shape:** Disease processes may result in an increase of size of these organs or change their shape.\n\n**Calcifications:** These are calcium deposits that may occur at any site within an organ or within the tissues.\n\n**Pelvis:** The pelvic bones may be evaluated for symmetry and shape regarding trauma or disease processes.\n\n**Peritoneal Fluid:** There may be small amount of fluid present around the intestines which may suggest some infection or inflammation.\n\n**Foreign Bodies:** The x ray may be able to localise it and evaluate the object if there is a history of swallowing it.\n\n## Reasons for Taking Abdomen X-ray\n\nThere are many reasons why your doctor/ physician would recommend you to take an abdomen x rays. These are some of the notable reasons that warrant for an abdomen x ray. To evaluate and explain any form of discomfort or tenderness in the abdomen To investigate the presence of kidney or gallstones To study the sites of intestinal obstruction or bowel rupture To assess the extent of injury in the abdominal region To assess the location and size of the organs within the abdominal cavity.\n\n### When and Who Needs to Take an Abdomen X-Ray:\n\nAbdomen X-ray is usually done on patients having a history of continuous abdomen ache, vomiting or going for days without being able to pass a stool or having swollen abdomen. It is also prescribed for those people who have been exposed to trauma to the abdomen area or might have kidney stones or suffer unexplained swelling of the abdomen.\n\nIt is also suggested for people who have severe and recurrent symptoms associated with their digestive or urinary organs.\n\nThe general advice for pregnant women is to avoid X-ray scans unless necessary.\n\n## Benefits of Taking Abdomen X ray\n\nSome gains that are associated with chest x rays and their usage. X Ray of the chest is known for and recommended for its early diagnosis and treatment. Following are other benefits of X Ray of the chest: -\n\n- Enhanced and faster diagnosis\n- Surgical procedure that involves intrusion\n- Less expensive\n- Improved and clear vision\n- Lesser pain\n- Measurement of the effect of treatment strategies and\n- Instructions prior to the chest X ray\n\n## Preparing for the Abdomen X ray\n\nThough preparation for medical procedures is sometimes nerve-wracking, appropriate education enables you to prepare better. Here are some pointers that can allow you to prepare for the abdomen x-ray.\n\n### Pre-requisites\n\nFor the most part, an abdomen x ray procedure does not require any requisites but in some circumstances, physicians may suggest that the patient refrains from eating for some time before the procedure.\n\n### Best Time to Take the Test\n\nThere’s no limitation as to the time of the day an abdomen x ray can be performed.\n\nThere are some general rules to follow by your physician or doctor.\n\n### Qualifications\n\nAnyone can have abdomen X-ray test. However, there are some medical conditions for pregnant women where other imaging options may be required.\n\n### How To Proceed With The Test\n\nThe procedure for taking an abdomen X-ray is pretty basic. First, the technician might ask you to either stand or lie down on the X-ray table. After this, correction of position followed by adjustment of the x-ray machine in order to take shots of the abdomen is done, and this mostly doesn't take more than a couple of minutes.\n\n### Important Instructions Before You Have The X-ray\n\nIndeed, it is very important to let your Physician know about the probability of your pregnancy, or if you are pregnant, on which specialization you want to have your X-ray. Remember also, if you have any relevant implants, let them know as X-ray imaging may affect it. You may also be requested to take off shoes, jewelry, or other objects blocking X-ray imaging."
+    },
+    {
+      "id": "673c7a54effae454707e017d",
+      "templateName": "non-labtest",
+      "testName": "CHEST PA VIEW X-RAY SCAN",
+      "route": "/chest-x-ray-pa-view",
+      "basic_info": {
+        "name": "CHEST PA VIEW X-RAY SCAN",
+        "route": "/chest-x-ray-pa-view",
+        "categoryId": "671b5102ad9bf8d210384d19",
+        "price": 380,
+        "alsoKnownAs": "",
+        "discount": "0",
+        "discountedPrice": "380.00",
+        "reportsWithin": "",
+        "Identifies": "",
+        "measures": "",
+        "testId": 7770610,
+        "testCategory": "X ray"
+      },
+      "requisites": [],
+      "interpretations": {
+        "title": "Results and Interpretations ",
+        "cols": [
+          "Parameter",
+          "Normal Range",
+          "Possible Abnormality",
+          "Next Step"
+        ],
+        "rows": [
+          [
+            "Lung field clarity",
+            "Uniform black",
+            "Patchy opacity → pneumonia",
+            "Follow-up with physician"
+          ],
+          [
+            "Cardiac size",
+            "CTR ≤0.5",
+            ">0.5 → cardiomegaly",
+            "ECHO referral"
+          ],
+          [
+            "Costophrenic angles",
+            "Sharp",
+            "Blunted → pleural effusion",
+            "Ultrasound chest"
+          ],
+          [
+            "Diaphragm position",
+            "Right dome 1–2 cm higher",
+            "Flattened → hyperinflation",
+            "PFT test"
+          ],
+          [
+            "Bony thorax",
+            "Smooth cortex",
+            "Fracture line → trauma",
+            "Orthopedic consult"
+          ]
+        ]
+      },
+      "faqs": [
+        {
+          "question": "How long does a Chest PA View X-Ray Scan take?",
+          "answer": "From registration to report, about 15 minutes."
+        },
+        {
+          "question": "Is the scan painful?",
+          "answer": "No. It’s painless and non-invasive."
+        },
+        {
+          "question": "Can I eat before the scan?",
+          "answer": "Yes. No fasting is required."
+        },
+        {
+          "question": "When will I get my chest X-ray results?",
+          "answer": "Within 30 minutes—either printed or emailed."
+        },
+        {
+          "question": "Is a doctor’s prescription compulsory?",
+          "answer": "Preferred, but walk-ins are accepted."
+        },
+        {
+          "question": "What if I’m pregnant?",
+          "answer": "Notify the staff; alternative imaging or shielding will be arranged."
+        }
+      ],
+      "relative_test": {
+        "title": "",
+        "categoryId": "671b5102ad9bf8d210384d19",
+        "tests": [
+          {
+            "id": "67b47f26a45909fb1bd211be",
+            "testName": "XR - HAND AP & LATERAL VIEWS",
+            "route": "/hand-ap-and-lateral-view-x-ray-scan"
+          },
+          {
+            "id": "67b83ce3a45909fb1bd28445",
+            "testName": "XR - CERVICAL SPINE AP & LATERAL VIEWS",
+            "route": "/cervical-spine-ap-and-lateral-x-ray-scan"
+          },
+          {
+            "id": "67b8402ba45909fb1bd284f4",
+            "testName": "XR - CHEST AP VIEW",
+            "route": "/chest-ap-view-x-ray-scan"
+          },
+          {
+            "id": "67bda77216444f3c114db516",
+            "testName": "XR - LEG AP VIEW",
+            "route": "/leg-ap-view-x-ray-scan"
+          }
+        ]
+      },
+      "seo": {
+        "title": "Chest PA View X-Ray Scan at Cadabams Diagnostics | 15-Min Report",
+        "description": "Get a fast, NABL-certified Chest PA View X-Ray Scan at Cadabams Diagnostics—no fasting, same-day results. Book now for expert digital imaging.",
+        "keywords": "",
+        "canonicalUrl": "",
+        "ogTitle": "",
+        "ogDescription": "",
+        "ogImage": "",
+        "schemaMarkup": "",
+        "robotsMeta": ""
+      },
+      "markdown": "## Chest PA View X-Ray Scan Overview\n\n- \\*\\*Duration:\\*\\* 15 minutes from check-in to exit\n- \\*\\*Preparation:\\*\\* No fasting or special diet\n- \\*\\*Results:\\*\\* Same day, often in under 30 minutes\n- \\*\\*Equipment:\\*\\* High-resolution digital X-ray, NABL-accredited lab\n- \\*\\*Safety:\\*\\* Radiation dose <0.1 mSv—lower than a trans-continental flight\n---\n## What is Chest PA View X-Ray Scan?\n### Definition\nThe \\*\\*Postero-Anterior (PA) projection\\*\\* means you stand facing the detector while the X-ray beam passes from your back (posterior) to your front (anterior). This angle provides the clearest view of the lungs, heart, and ribs.\n### Difference Between PA and AP View\n- \\*\\*PA:\\*\\* Patient stands upright, chest against detector—preferred for detail.\n- \\*\\*AP:\\*\\* Patient lies or sits—used in emergencies or for immobile patients.\n### Digital vs. Conventional Film\nDigital imaging uses electronic sensors instead of film. Benefits include:\n- Instant image preview\n- Lower radiation dose\n- Easy sharing with specialists via secure cloud link\n---\n## Types of Chest PA View X-Ray Scan\n| Type | Use Case | Time |\n|--------------------------|--------------------------------------------|------|\n| \\*\\*Standard PA Single\\*\\* | Routine screening, cough, chest pain | 5 min |\n| \\*\\*PA & Lateral Combo\\*\\* | Detailed lung or rib evaluation | 10 min |\n| \\*\\*Portable Bedside PA\\*\\* | ICU or immobile patients | 5 min |\n---\n\n## When and Who Needs to Take a Chest PA View X-Ray Scan?\n\n- \\*\\*Persistent cough\\*\\* lasting >2 weeks\n- \\*\\*Chest pain\\*\\* or tightness\n- \\*\\*Shortness of breath\\*\\* or wheezing\n- \\*\\*Pre-employment health checks\\*\\* for IT, aviation, or construction roles\n- \\*\\*Visa medicals\\*\\* for the UK, Gulf, or Schengen countries\n- \\*\\*Follow-up\\*\\* for known \\*\\*TB\\*\\*, \\*\\*pneumonia\\*\\*, or \\*\\*heart failure\\*\\*\n---\n\n## Risks & Limitations of the Chest PA View X-Ray Scan\n\n- \\*\\*Radiation Exposure:\\*\\* ~0.1 mSv—equivalent to 10 days of natural background radiation.\n- \\*\\*Small Nodules:\\*\\* Lesions <5 mm may be missed; low-dose CT is better for screening.\n- \\*\\*Pregnancy:\\*\\* Inform staff; lead shielding or alternative imaging may be advised.\n---\n\n## List of Parameters Considered During the Chest PA View X-Ray Scan\n\n- \\*\\*Lung field clarity & symmetry\\*\\* – checks for pneumonia or tumor\n- \\*\\*Cardiac size & shape\\*\\* – screens for cardiomegaly\n- \\*\\*Costophrenic angle sharpness\\*\\* – detects pleural effusion\n- \\*\\*Diaphragm position\\*\\* – signs of air trapping or collapse\n- \\*\\*Bony thorax integrity\\*\\* – looks for fractures or lesions\n---\n\n## Reasons for Taking a Chest PA View X-Ray Scan\n\n- \\*\\*Infection screening:\\*\\* pneumonia, tuberculosis, lung abscess\n- \\*\\*Trauma assessment:\\*\\* rib fractures, pneumothorax\n- \\*\\*Chronic disease monitoring:\\*\\* COPD, pulmonary fibrosis, heart failure\n- \\*\\*Pre-surgical clearance\\*\\* for general anesthesia\n---\n\n## Benefits of Taking the Chest PA View X-Ray Scan\n\n- \\*\\*Quick & non-invasive\\*\\* – no needles or contrast dye\n- \\*\\*Cost-effective\\*\\* – lower price than CT or MRI\n- \\*\\*High accuracy\\*\\* for common lung and heart conditions\n- \\*\\*Digital sharing\\*\\* – reports sent instantly to your doctor via secure link\n---\n\n## Illnesses Diagnosed with Chest PA View X-Ray Scan\n\n| Condition | How the Scan Helps |\n|------------------|--------------------|\n| \\*\\*Pneumonia\\*\\* | Shows localized opacity or consolidation |\n| \\*\\*Tuberculosis\\*\\* | Reveals cavitations or nodular infiltrates |\n| \\*\\*Cardiomegaly\\*\\* | Measures heart-to-thorax ratio >0.5 |\n| \\*\\*Pneumothorax\\*\\* | Detects visible pleural line and lung collapse |\n| \\*\\*Rib fractures\\*\\*| Identifies cortical breaks or displacement |\n---\n\n## Preparing for Chest PA View X-Ray Scan\n\n- \\*\\*Remove metal:\\*\\* necklaces, zippers, bras with underwire, piercings\n- \\*\\*Change into gown:\\*\\* Front-open cotton gown provided at the center\n- \\*\\*Pregnancy status:\\*\\* Tell the technician; extra shielding available\n---\n## Pre-requisites Chest PA View X-Ray Scan\n- \\*\\*Valid ID\\*\\* (Aadhaar, passport, or driver’s license)\n- \\*\\*Doctor’s prescription\\*\\*—preferred but walk-ins accepted\n- \\*\\*Previous films/CD\\*\\* for comparison, if any\n- \\*\\*Fasting:\\*\\* Not required; eat normally\n---\n## Best Time to Take the Chest PA View X-Ray Scan\n- \\*\\*Any time\\*\\* between 7 AM and 7 PM\n- \\*\\*Morning slots (7–9 AM)\\*\\* often have the shortest queues\n- Walk-ins welcome; priority for online bookings\n---\n## Eligibility\n| Group | Eligibility Notes |\n|----------------------|-------------------|\n| \\*\\*Adults\\*\\* | Universal eligibility |\n| \\*\\*Children ≥12 yrs\\*\\* | Requires guardian consent |\n| \\*\\*Pregnant women\\*\\* | Consult doctor first; alternative imaging may be advised |\n| \\*\\*ICU patients\\*\\* | Portable bedside PA available |\n---\n## Procedure for Taking a Chest PA View X-Ray Scan\n1. \\*\\*Registration & consent form\\*\\* at front desk\n2. \\*\\*Change into gown\\*\\* and remove all metallic items\n3. \\*\\*Positioning:\\*\\* Stand upright, chest against detector, hands on hips\n4. \\*\\*Hold breath\\*\\* on technician’s cue; image captured in <1 second\n5. \\*\\*Dress & collect receipt\\*\\*—digital report emailed/printed within 30 minutes\n---\n## Caution Before Taking the Test\n- \\*\\*Declare pregnancy\\*\\* or breastfeeding\n- \\*\\*Limit repeat scans\\*\\*—only when medically justified\n- \\*\\*Inform about implants:\\*\\* pacemaker, sternal wires, or orthopedic hardware\n---"
+    },
+    {
+      "id": "673ec2d05ab244ca239d0899",
+      "templateName": "non-labtest",
+      "testName": "BILATERAL MAMMOGRAPHY",
+      "route": "/bilateral-mammography-x-ray",
+      "basic_info": {
+        "name": "BILATERAL MAMMOGRAPHY",
+        "route": "/bilateral-mammography-x-ray",
+        "categoryId": "671b5102ad9bf8d210384d19",
+        "price": 3000,
+        "alsoKnownAs": "",
+        "discount": "0",
+        "discountedPrice": "3000.00",
+        "reportsWithin": "3hrs",
+        "Identifies": "",
+        "measures": "",
+        "testId": 9896282,
+        "testCategory": "-"
+      },
+      "requisites": [],
+      "interpretations": {
+        "title": "Results and Interpretation ",
+        "cols": [
+          "Result",
+          "What It Means",
+          "Next Step"
+        ],
+        "rows": [
+          [
+            "BI-RADS 1 or 2",
+            "Normal or benign",
+            "Continue routine screening"
+          ],
+          [
+            "BI-RADS 3",
+            "Probably benign",
+            "Short-term follow-up in 6 months"
+          ],
+          [
+            "BI-RADS 4 or 5",
+            "Suspicious",
+            "Biopsy recommended"
+          ],
+          [
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "",
+            ""
+          ]
+        ]
+      },
+      "faqs": [
+        {
+          "question": "Does the scan hurt?",
+          "answer": "Compression lasts 5–10 seconds per image—most women feel pressure, not pain."
+        },
+        {
+          "question": "How often should I screen?",
+          "answer": "Every 1–2 years for average-risk women starting at 40; annually for high-risk."
+        },
+        {
+          "question": "Can I eat before the scan?",
+          "answer": "Yes—no fasting needed."
+        },
+        {
+          "question": "Will insurance cover it?",
+          "answer": "Most policies cover annual screening; check with your provider for exact terms."
+        },
+        {
+          "question": "What if I have breast implants?",
+          "answer": "Tell us in advance—additional views are taken to visualise all breast tissue."
+        }
+      ],
+      "relative_test": {
+        "title": "",
+        "categoryId": "671b5102ad9bf8d210384d19",
+        "tests": [
+          {
+            "id": "673c4d4ceffae454707dfdfa",
+            "testName": "Chest XRay Scan",
+            "route": "/chest-x-ray"
+          },
+          {
+            "id": "673c7a54effae454707e017d",
+            "testName": "XR - CHEST PA VIEW",
+            "route": "/chest-x-ray-pa-view"
+          },
+          {
+            "id": "673dccb25ab244ca239d04b1",
+            "testName": "CT ABDOMEN & LOWER THORAX",
+            "route": "/abdomen-and-lower-thorax-ct-scan"
+          },
+          {
+            "id": "673ec2d05ab244ca239d0899",
+            "testName": "BILATERAL MAMMOGRAPHY",
+            "route": "/bilateral-mammography-x-ray"
+          },
+          {
+            "id": "673ed4fc5ab244ca239d098a",
+            "testName": "BMD HIP & SPINE",
+            "route": "/bmd-hip-and-spine-x-ray-scan"
+          },
+          {
+            "id": "679b464abf2a88a244a6b651",
+            "testName": "XR - CHEST LATERAL VIEW",
+            "route": "/chest-lateral-view-x-ray"
+          },
+          {
+            "id": "679c76cdbf2a88a244a6edbd",
+            "testName": "XR - LUMBAR SPINE AP & LATERAL VIEWS",
+            "route": "/lumbar-spine-ap-lateral-xray"
+          },
+          {
+            "id": "679c83f2bf2a88a244a6f00c",
+            "testName": "XR - KNEE AP & LATERAL VIEWS",
+            "route": "/knee-ap-and-lateral-view-xray"
+          },
+          {
+            "id": "67a9afcea45909fb1bd0fa23",
+            "testName": "XR - BOTH KNEE AP/LATERAL VIEWS",
+            "route": "/both-knees-ap-lateral-x-ray-scan"
+          },
+          {
+            "id": "67a9b828a45909fb1bd0fb09",
+            "testName": "XR - NASOPHARYNX LATERAL VIEW",
+            "route": "/nasopharynx-lateral-view-x-ray-scan"
+          },
+          {
+            "id": "67ac7ec8a45909fb1bd13a47",
+            "testName": "XR - FOOT AP & OBLIQUE",
+            "route": "/foot-ap-and-oblique-x-ray-scan"
+          },
+          {
+            "id": "67ad98e5a45909fb1bd15599",
+            "testName": "XR - ELBOW AP / LATERAL VIEW",
+            "route": "/elbow-ap-lateral-view-x-ray-scan"
+          },
+          {
+            "id": "67add3f7a45909fb1bd160ef",
+            "testName": "XR - SHOULDER AP VIEW",
+            "route": "/shoulder-ap-view-x-ray-scan"
+          },
+          {
+            "id": "67add436a45909fb1bd160fc",
+            "testName": "XR -ADDITIONAL EXPOSURE",
+            "route": "/additional-exposure-x-ray-scan"
+          },
+          {
+            "id": "67af303fa45909fb1bd185e5",
+            "testName": "XR - SKULL AP VIEW",
+            "route": "/skull-ap-view-x-ray-scan"
+          },
+          {
+            "id": "67af3090a45909fb1bd185f4",
+            "testName": "XR - LUMBAR SPINE FLEXION & EXTENSION",
+            "route": "/lumbar-spine-flexion-and-extension-x-ray-scan"
+          },
+          {
+            "id": "67b2e762a45909fb1bd1db56",
+            "testName": "XR - HIP LATERAL VIEWS",
+            "route": "/hip-lateral-view-x-ray-scan"
+          },
+          {
+            "id": "67b2f24ea45909fb1bd1ddc5",
+            "testName": "XR - LEG AP & LATERAL VIEWS",
+            "route": "/leg-ap-and-lateral-view-x-ray-scan"
+          },
+          {
+            "id": "67b2f2eba45909fb1bd1dddc",
+            "testName": "XR - DORSAL /THORACIC SPINE AP & LATERAL VIEW",
+            "route": "/thoracic-spine-ap-and-lat-x-ray-scan"
+          },
+          {
+            "id": "67b2f32ba45909fb1bd1ddea",
+            "testName": "XR - WRIST AP & LATERAL VIEW",
+            "route": "/wrist-ap-and-lateral-view-x-ray-scan"
+          },
+          {
+            "id": "67b46d70a45909fb1bd20ecf",
+            "testName": "XR - PELVIS WITH BOTH HIP JOINTS AP",
+            "route": "/pelvis-with-both-hip-joints-x-ray-scan"
+          },
+          {
+            "id": "67b46db7a45909fb1bd20edc",
+            "testName": "XR - HAND AP VIEW",
+            "route": "/hand-ap-view-x-ray-scan"
+          },
+          {
+            "id": "67b46deba45909fb1bd20eea",
+            "testName": "XR - HIP AP VIEW",
+            "route": "/hip-ap-view-x-ray-scan"
+          },
+          {
+            "id": "67b46fc8a45909fb1bd20efe",
+            "testName": "XR - PELVIS AP VIEW",
+            "route": "/pelvis-ap-view-x-ray-scan"
+          },
+          {
+            "id": "67b47588a45909fb1bd20f49",
+            "testName": "XR - FEMUR AP & LAT",
+            "route": "/femur-ap-and-lat-x-ray-scan"
+          },
+          {
+            "id": "67b47c00a45909fb1bd210ee",
+            "testName": "XRAY HAND OBLIQUE",
+            "route": "/hand-oblique-x-ray-scan"
+          },
+          {
+            "id": "67b47f26a45909fb1bd211be",
+            "testName": "XR - HAND AP & LATERAL VIEWS",
+            "route": "/hand-ap-and-lateral-view-x-ray-scan"
+          },
+          {
+            "id": "67b83ce3a45909fb1bd28445",
+            "testName": "XR - CERVICAL SPINE AP & LATERAL VIEWS",
+            "route": "/cervical-spine-ap-and-lateral-x-ray-scan"
+          },
+          {
+            "id": "67b8402ba45909fb1bd284f4",
+            "testName": "XR - CHEST AP VIEW",
+            "route": "/chest-ap-view-x-ray-scan"
+          },
+          {
+            "id": "67bda77216444f3c114db516",
+            "testName": "XR - LEG AP VIEW",
+            "route": "/leg-ap-view-x-ray-scan"
+          }
+        ]
+      },
+      "seo": {
+        "title": "Bilateral Mammography X-Ray Scan at Cadabams Diagnostics",
+        "description": "Learn how a Bilateral Mammography X-Ray Scan at Cadabams Diagnostics helps detect breast abnormalities early. Book your appointment today.",
+        "keywords": "",
+        "canonicalUrl": "",
+        "ogTitle": "",
+        "ogDescription": "",
+        "ogImage": "",
+        "schemaMarkup": "",
+        "robotsMeta": ""
+      },
+      "markdown": "## Bilateral Mammography X-Ray Scan Overview\n\n- \\*\\*Purpose\\*\\*: Detect early signs of breast cancer, cysts, or benign lumps.\n- \\*\\*Method\\*\\*: Low-dose X-ray images of both breasts taken at the same visit.\n- \\*\\*Duration\\*\\*: 15–20 minutes from check-in to finish.\n---\n## What is Bilateral Mammography X-Ray Scan?\nA \\*\\*Bilateral Mammography X-Ray Scan\\*\\* is a specialized breast imaging test that takes two X-ray views of each breast—one from top-to-bottom and one from side-to-side. These images are compared to look for:\n- Microcalcifications (tiny calcium deposits).\n- Masses or tumors that may not be felt during a self-exam.\n- Structural differences between the left and right breast.\nCadabams Diagnostics uses \\*\\*digital mammography\\*\\*, which produces sharper images and requires less compression time.\n---\n## Types of Bilateral Mammography X-Ray Scan\n| Type | Description | When Used |\n|------|-------------|-----------|\n| \\*\\*2-D Digital Mammography\\*\\* | Standard flat images | Routine screening |\n| \\*\\*3-D Tomosynthesis\\*\\* | Thin-slice images reduce overlap | Dense breasts or callbacks |\n| \\*\\*Contrast-Enhanced Mammography\\*\\* | Iodine dye highlights blood flow | High-risk cases |\nAsk our staff which option suits you best.\n---\n\n## When and Who Needs to Take a Bilateral Mammography X-Ray Scan?\n\n\\*\\*When\\*\\*\n- \\*\\*Routine screening\\*\\*: Every 1–2 years for women 40+.\n- \\*\\*Follow-up\\*\\*: After an abnormal finding on a previous scan or ultrasound.\n- \\*\\*Symptoms present\\*\\*: Lump, nipple discharge, or persistent pain.\n\\*\\*Who\\*\\*\n- \\*\\*Women aged 40–74\\*\\* (asymptomatic, average risk).\n- \\*\\*High-risk individuals\\*\\* with family history or genetic mutations.\n- \\*\\*Men\\*\\* with gynecomastia or symptoms (rare cases).\n---\n\n## Risks & Limitations of the Bilateral Mammography X-Ray Scan\n\n\\*\\*Risks\\*\\*\n- \\*\\*Radiation exposure\\*\\*: Very low—equivalent to 2 months of natural background radiation.\n- \\*\\*False positives\\*\\*: 5–10% may need further testing; most turn out benign.\n\\*\\*Limitations\\*\\*\n- Dense breast tissue can mask small cancers.\n- Not all cancers show up on a mammogram.\nCadabams Diagnostics combines mammography with \\*\\*ultrasound or MRI\\*\\* when tissue is very dense.\n---\n\n## List of Parameters Considered During the Bilateral Mammography X-Ray Scan\n\n- Breast density (fatty vs. dense).\n- Presence of masses (size, shape, margins).\n- Calcification pattern (clustered, linear, pleomorphic).\n- Architectural distortion.\n- Symmetry between breasts.\n---\n\n## Reasons for Taking a Bilateral Mammography X-Ray Scan\n\n- \\*\\*Early cancer detection\\*\\* before symptoms appear.\n- \\*\\*Monitoring high-risk patients\\*\\* with BRCA mutations.\n- \\*\\*Evaluating breast implants\\*\\* for rupture or displacement.\n- \\*\\*Post-treatment surveillance\\*\\* after surgery or radiation.\n---\n\n## Benefits of Taking the Bilateral Mammography X-Ray Scan\n\n- \\*\\*Reduces mortality\\*\\* by 20–30% in women 50–69.\n- \\*\\*Minimally invasive\\*\\*—no needles or anesthesia.\n- \\*\\*Quick results\\*\\*—digital images are ready within minutes.\n- \\*\\*Cost-effective\\*\\* compared to advanced imaging.\n---\n\n## Illnesses Diagnosed with Bilateral Mammography X-Ray Scan\n\n- \\*\\*Invasive ductal carcinoma\\*\\*.\n- \\*\\*Ductal carcinoma in situ (DCIS)\\*\\*.\n- \\*\\*Fibroadenomas\\*\\* and \\*\\*fibrocystic changes\\*\\*.\n- \\*\\*Cysts\\*\\* and \\*\\*abscesses\\*\\*.\n---\n\n## Preparing for Bilateral Mammography X-Ray Scan\n\n- \\*\\*Avoid deodorant, perfume, or powder\\*\\* on scan day (can appear as calcifications).\n- \\*\\*Wear a two-piece outfit\\*\\* for easy undressing from the waist up.\n- \\*\\*Bring prior mammogram images\\*\\* if done elsewhere—comparison is key.\n---\n## Pre-requisites Bilateral Mammography X-Ray Scan\n- \\*\\*Doctor’s referral\\*\\* for symptomatic cases.\n- \\*\\*Valid ID and health card\\*\\* at reception.\n- \\*\\*Completed questionnaire\\*\\* on family history and symptoms (provided on arrival).\n---\n## Best Time to Take the Bilateral Mammography X-Ray Scan\n- \\*\\*Week after your period\\*\\*—breasts are less tender.\n- \\*\\*Avoid the week before menstruation\\*\\*—hormonal swelling can affect image quality.\n- \\*\\*Post-menopausal women\\*\\*: Any time is suitable.\n---\n## Eligibility\n| Group | Eligible? | Notes |\n|-------|-----------|-------|\n| Women 40+ | ✅ | Annual or biennial screening |\n| Women 30–39 | ✅ | If symptomatic or high-risk |\n| Pregnant women | ❌ | Use ultrasound unless urgent |\n| Men | ✅ | With clinical indication |\n---\n## Procedure for Taking a Bilateral Mammography X-Ray Scan\n1. \\*\\*Check-in\\*\\*: Verify identity and history.\n2. \\*\\*Changing\\*\\*: Remove jewelry and clothing from the waist up; wear a gown.\n3. \\*\\*Positioning\\*\\*: Technologist places each breast on the X-ray plate and compresses gently.\n4. \\*\\*Imaging\\*\\*: 4 images total (2 per breast).\n5. \\*\\*Review\\*\\*: Radiologist checks image quality; repeat views if motion blur.\n---\n## Caution Before Taking the Test\n- \\*\\*Inform staff\\*\\* if pregnant or breastfeeding.\n- \\*\\*Mention implants\\*\\*—special views are needed.\n- \\*\\*Report skin conditions\\*\\* like eczema or open wounds on the chest.\n---"
+    },
+    {
+      "id": "673ed4fc5ab244ca239d098a",
+      "templateName": "non-labtest",
+      "testName": "BMD HIP & SPINE X-RAY SCAN",
+      "route": "/bmd-hip-and-spine-x-ray-scan",
+      "basic_info": {
+        "name": "BMD HIP & SPINE X-RAY SCAN",
+        "route": "/bmd-hip-and-spine-x-ray-scan",
+        "categoryId": "671b5102ad9bf8d210384d19",
+        "price": 3500,
+        "alsoKnownAs": "",
+        "discount": "0",
+        "discountedPrice": "3500.00",
+        "reportsWithin": "3hrs",
+        "Identifies": "",
+        "measures": "",
+        "testId": 9896288,
+        "testCategory": "-"
+      },
+      "requisites": [],
+      "interpretations": {
+        "title": "Results and Interpretations:",
+        "cols": [
+          "T-score",
+          "Category",
+          "Action"
+        ],
+        "rows": [
+          [
+            "≥ -1.0",
+            "Normal",
+            "Lifestyle advice"
+          ],
+          [
+            "-1.0 to -2.5",
+            "Osteopenia",
+            "Monitor & preventive steps"
+          ],
+          [
+            "≤ -2.5",
+            "Osteoporosis",
+            "Treatment advised"
+          ]
+        ]
+      },
+      "faqs": [
+        {
+          "question": "Is the scan painful?",
+          "answer": "No, the BMD Hip & Spine X-Ray Scan is non-invasive and completely painless."
+        },
+        {
+          "question": "How often should I repeat the scan?",
+          "answer": "Most doctors recommend re-testing every 1–2 years."
+        },
+        {
+          "question": "Can I eat before the scan?",
+          "answer": "Yes, no fasting is required."
+        },
+        {
+          "question": "Will insurance cover the cost?",
+          "answer": "Most health insurance plans reimburse the scan for high-risk patients."
+        },
+        {
+          "question": "Can I take my routine medicines?",
+          "answer": "Yes, continue all prescribed medications unless your doctor advises otherwise."
+        }
+      ],
+      "relative_test": {
+        "title": "",
+        "categoryId": "671b5102ad9bf8d210384d19",
+        "tests": [
+          {
+            "id": "6735b38f03598b92c151c546",
+            "testName": "Hand X-ray ",
+            "route": "/hand-x-ray"
+          },
+          {
+            "id": "6735c0fd03598b92c151c5cb",
+            "testName": "XR -ABDOMEN ERECT",
+            "route": "/abdomen-x-ray"
+          },
+          {
+            "id": "673c4d4ceffae454707dfdfa",
+            "testName": "Chest XRay Scan",
+            "route": "/chest-x-ray"
+          },
+          {
+            "id": "673c7a54effae454707e017d",
+            "testName": "XR - CHEST PA VIEW",
+            "route": "/chest-x-ray-pa-view"
+          },
+          {
+            "id": "673dccb25ab244ca239d04b1",
+            "testName": "CT ABDOMEN & LOWER THORAX",
+            "route": "/abdomen-and-lower-thorax-ct-scan"
+          },
+          {
+            "id": "673ec2d05ab244ca239d0899",
+            "testName": "X-RAY MAMMOGRAPHY",
+            "route": "/bilateral-mammography-x-ray"
+          }
+        ]
+      },
+      "seo": {
+        "title": "BMD Hip & Spine X-Ray: Safe, Accurate, Low-Dose Scan",
+        "description": "Learn why Cadabams Diagnostics uses advanced low-dose DEXA for BMD Hip & Spine X-Ray Scans. Quick 10-min test, gold-standard accuracy, same-day report.",
+        "keywords": "",
+        "canonicalUrl": "",
+        "ogTitle": "",
+        "ogDescription": "",
+        "ogImage": "",
+        "schemaMarkup": "",
+        "robotsMeta": ""
+      },
+      "markdown": "## BMD Hip & Spine X-Ray Scan Overview\n\nA BMD Hip & Spine X-Ray Scan checks the strength of your bones in seconds.\n- \\*\\*Purpose:\\*\\* Measures bone mineral density at the hip and lumbar spine\n- \\*\\*Technology:\\*\\* Cadabams Diagnostics uses the latest low-dose DEXA (Dual-energy X-ray Absorptiometry) equipment that exposes you to less radiation than a cross-country flight.\n## What is BMD Hip & Spine X-Ray Scan?\n### Definition\nThe \\*\\*BMD Hip & Spine X-Ray Scan\\*\\* is a painless, non-invasive test that uses DEXA technology to determine how dense—or strong—your bones are.\n### DEXA vs. Conventional X-ray\n| Feature | DEXA | Conventional X-ray |\n|---|---|---|\n| Radiation | Ultra-low (< 0.01 mSv) | Higher |\n| Output | Quantitative bone density | Image only |\n| Accuracy | Gold standard | Qualitative |\n## Types of BMD Hip & Spine X-Ray Scan\n1. \\*\\*Central DEXA\\*\\* (hip & spine) – the most precise test\n2. \\*\\*Peripheral DEXA\\*\\* (forearm, heel) – used only when central DEXA is unavailable\n\n## When and Who Needs to Take a BMD Hip & Spine X-Ray Scan?\n\nConsider booking your scan if you fall into any of these categories:\n- \\*\\*Women aged 65+\\*\\* or \\*\\*Men aged 70+\\*\\*\n- \\*\\*Post-menopausal women\\*\\* with risk factors such as low body weight or smoking\n- \\*\\*Long-term steroid users\\*\\* (≥ 3 months)\n- \\*\\*Family history\\*\\* of osteoporosis or hip fractures\n- \\*\\*Low-impact fracture\\*\\* after a minor fall (from standing height)\n---\n\n## Risks & Limitations of the BMD Hip & Spine X-Ray Scan\n\n- \\*\\*Minimal radiation:\\*\\* Less than daily natural background exposure\n- \\*\\*Not suitable\\*\\* for pregnant women\n- \\*\\*Accuracy factors:\\*\\* Obesity, recent barium tests, or metal implants may slightly affect readings\n---\n\n## List of Parameters Considered During the BMD Hip & Spine X-Ray Scan\n\n- \\*\\*Bone Mineral Density (BMD)\\*\\* in g/cm²\n- Hip neck\n- Total hip\n- L1–L4 lumbar spine\n- \\*\\*T-score & Z-score\\*\\* calculations for risk grading\n---\n\n## Reasons for Taking a BMD Hip & Spine X-Ray Scan\n\n- \\*\\*Early detection\\*\\* of osteoporosis before fractures occur\n- \\*\\*Monitor\\*\\* the effectiveness of bone-loss therapy (e.g., bisphosphonates)\n---\n\n## Benefits of Taking the BMD Hip & Spine X-Ray Scan\n\n- \\*\\*Quick:\\*\\* 10–20 minutes total\n- \\*\\*Accurate:\\*\\* Gold-standard precision\n- \\*\\*Low radiation:\\*\\* Safe for repeated yearly monitoring\n---\n\n## Illnesses Diagnosed with BMD Hip & Spine X-Ray Scan\n\n- \\*\\*Osteoporosis\\*\\*\n- \\*\\*Osteopenia (pre-osteoporosis)\\*\\*\n- \\*\\*Secondary causes:\\*\\*\n- Hyperparathyroidism\n- Vitamin D deficiency\n- Long-term steroid use\n---\n\n## Preparing for BMD Hip & Spine X-Ray Scan\n\n- \\*\\*Stop calcium supplements\\*\\* 24 hours prior\n- \\*\\*Clothing:\\*\\* Wear metal-free attire; remove jewelry, belts, and underwire bras\n- \\*\\*Medications:\\*\\* Continue regular prescriptions unless advised otherwise\n## Pre-requisites BMD Hip & Spine X-Ray Scan\n- \\*\\*Doctor’s prescription\\*\\* with clinical indication\n- \\*\\*Pregnancy screening questionnaire\\*\\* for women of childbearing age\n## Best Time to Take the BMD Hip & Spine X-Ray Scan\n- \\*\\*Avoid:\\*\\* Days immediately after barium or contrast studies (wait 10–14 days)\n- \\*\\*Preferred:\\*\\* Morning slots for shorter wait times\n## Eligibility\n- \\*\\*Adults aged 18+\\*\\* with risk factors\n- \\*\\*Contra-indications:\\*\\*\n- Pregnancy\n- Recent radiopaque contrast within 10–14 days\n## Procedure for Taking a BMD Hip & Spine X-Ray Scan\n1. \\*\\*Check-in\\*\\* & complete a short questionnaire\n2. \\*\\*Lie down\\*\\* on a padded table; legs elevated for spine positioning\n3. \\*\\*Scanning:\\*\\* 5–10 minutes per site (hip & spine)\n4. \\*\\*Dress\\*\\* & collect your immediate preliminary report\n## Caution Before Taking the Test\n- \\*\\*Inform staff\\*\\* if you have hip or spine surgery with metal implants\n- \\*\\*Avoid zippers, buckles, or underwire bras\\*\\* that may cause artifacts\n---"
+    }
+  ]
+}

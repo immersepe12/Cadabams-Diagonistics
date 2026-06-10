@@ -1,0 +1,820 @@
+{
+  "type": "labtest-detail",
+  "route": "/bangalore/lab-test/glucose-fasting-test-gft",
+  "slug": "glucose-fasting-test-gft",
+  "test": {
+    "id": "671c7cc7c8a77735c8e4410e",
+    "templateName": "labtest",
+    "testName": "GLUCOSE FASTING",
+    "route": "/glucose-fasting-test-gft",
+    "basic_info": {
+      "name": "GLUCOSE FASTING",
+      "route": "/glucose-fasting-test-gft",
+      "categoryId": "671b5104ad9bf8d210384d23",
+      "price": 65,
+      "discount": "0",
+      "discountedPrice": "65.00",
+      "reportsWithin": "60mins",
+      "Identifies": " Blood sugar level abnormalities ",
+      "measures": " Glucose in blood ",
+      "testId": 7766192,
+      "testCategory": "Biochemistry"
+    },
+    "requisites": [
+      {
+        "value": "Fasting overnight for 8 to 12 hours "
+      }
+    ],
+    "packages": [],
+    "faqs": [
+      {
+        "question": "Is it possible to delay the waiting procedure even for the blossoming signs? ",
+        "answer": "During the test you will be under slight discomfort when a blood draw is performed leading most to believe that there were no need for retesting as a few seconds were felt like seconds."
+      },
+      {
+        "question": "Do I have to go on a fast before the testing period begins – as in must I control my food intake? ",
+        "answer": "Yes, before the testing period which spans from 8 to 12 hours dehydration is permitted, stipulating the need to go on a fasting period."
+      },
+      {
+        "question": "Can medications alter or in some cases disturb my test background such as changing its results? ",
+        "answer": "Yes, I am currently taking a few medicines that alter my glucose levels – therefore it should not be too disturbing to ask or inform my doctor regarding any prescriptions."
+      },
+      {
+        "question": "How often should I take this test? ",
+        "answer": "The frequency of testing varies from one person to another. It is best to seek guidance from your doctor for more personalized solutions."
+      }
+    ],
+    "interpretations": {
+      "title": " Interpreting the Results of Your Glucose Fasting Test",
+      "cols": [
+        "Result Level",
+        "Glucose Level (mg/dL)",
+        "Interpretation",
+        ""
+      ],
+      "rows": [
+        [
+          "Normal\t",
+          "70-99\t",
+          "Indicates typical glucose regulation.",
+          ""
+        ],
+        [
+          "Prediabetes\t",
+          "100-125\t",
+          "Suggests impaired fasting glucose; potential risk for progressing to diabetes.",
+          ""
+        ],
+        [
+          "Diabetes\t",
+          "126 or higher\t",
+          "Clearly indicates diabetes; further confirmatory testing may be required.",
+          ""
+        ]
+      ]
+    },
+    "relative_test": {
+      "title": "",
+      "categoryId": "671b5104ad9bf8d210384d23",
+      "tests": [
+        {
+          "id": "671c7cc7c8a77735c8e4410e",
+          "testName": "GLUCOSE FASTING",
+          "route": "/glucose-fasting-test-gft"
+        },
+        {
+          "id": "671c7dd9c8a77735c8e44129",
+          "testName": "DENGUE PROFILE - RAPID",
+          "route": "/dengue-profile-rapid-test"
+        },
+        {
+          "id": "672bab2e21cadfab64a6f854",
+          "testName": "GLYCOSYLATED HAEMOGLOBIN-HbA1c",
+          "route": "/glycosylated-haemoglobin-hba1c-test"
+        },
+        {
+          "id": "672bafa721cadfab64a6f879",
+          "testName": "GLUCOSE 2HR POST PRANDIAL",
+          "route": "/glucose-2-hour-postprandial-test-ghpt"
+        },
+        {
+          "id": "673b0850effae454707dde45",
+          "testName": "COMPLETE BLOOD COUNT",
+          "route": "/complete-blood-count-cbc"
+        }
+      ]
+    },
+    "seo": {
+      "title": "Glucose Fasting Test in Bangalore | Diabetes Check",
+      "description": "Monitor your sugar levels with a fasting glucose test in Bangalore. Reliable results for better health management.",
+      "keywords": "",
+      "canonicalUrl": "",
+      "ogTitle": "",
+      "ogDescription": "",
+      "ogImage": "",
+      "schemaMarkup": "",
+      "robotsMeta": ""
+    },
+    "markdown": "## How Do You Complete A Glucose Fasting Test, And What Is Its Purpose?\n\nGlucose Fasting Test is a quick test that allows one to measure the level of sugar or glucose in one’s blood after the patient has not taken food for a certain length of time. Usually, this duration is expected to be around eight to twelve hours. This test is a must have when one is faced with blood sugar diseases including diabetes and even prediabetes. It is ideal both for first time patients and ones who have already started treatment and want to see if it is effective for managing blood sugar levels. In short, this test provides information about sugar metabolism and supply in the body required during fasting. By taking this test, one is able to know how much glucose level fluctuations are present in the body during the non eat period.\n\n## What is the Purpose of Glucose Fasting Test?\n\nThis test assesses your blood levels of glucose following a period of fasting. Glucose is the basic carbohydrate that circulates in your blood and supplies energy to the cells of your body. This test is critical in assessing pancreatic function in an overnight fasted person and the body’s response to insulin in that it assesses the control of blood glucose level by the body.\n\n## When is the Glucose Fasting Test usually performed?\n\nIt is usually done in people who may have high levels of blood glucose such as strong thirst, passing of urine frequently, tiredness and sometimes blurred vision. It is also used for people who have risk factors for development of diabetes, for example people who are fat, doesn’t exercise, have hypertension, have a family history of diabetes of women who had diabetes during pregnancy. It is also done regularly in out-patients especially the elderly to make early diagnosis and management of diabetes and related illnesses.\n\n## Glucose Fasting Test: Are There Any Risks or Limitations\n\nThe only risk with regards to Glucose Fasting Test is with blood draws, which is a normal procedure, where the person drawn is at risk for minor bruising, bleeding, or based on the professional, some form of an infection may develop at the site. A few people tend to get dizzy or light-headed after they’ve had a blood draw. Aside from this, the only limitation of this test as of now is that it does not seem to measure the variations of the person’s glucose levels throughout the day. Furthermore, this excess change in glucose level can be due to extreme diets, medications or stress and have an impact on results. So it is mostly used with other investigations that evaluate how energetically the body assimilates glucose.\n\n## What Are The Parameters Evaluated In The Glucose Fasting Test?\n\nThe Glucose Fasting Test has a core parameter such as non-pregnant women Fasting blood glucose level which explains how adaptive aquaculture in carbohydrates is in this case glucose. High levels of it could suggest disruptions in glucose control which then further imply insulin immunity, pre diabetes and/or diabetes. On the other hand, low levels of glucose at fasting might indicate alternative metabolic diseases such as diabetes.\n\n## Who Should Consider Taking the Glucose Fasting Test?\n\nThe Glucose Fasting Test is suitable for those who show signs of having a high blood sugar level or are susceptible to diabetes. Women from the age of 45 upwards should be advised to have screening as a routine procedure in particular when they are obese. Also, women with a family history of diabetes, or who have had polycystic ovarian syndrome should also have routine fasting sugar level tests to preemptively check for any signs of onset of diabetes.\n\n## What Are The Reasons Why One Should Consider A Glucose Fasting Test For Better Health?\n\nA Glucose Fasting Test has so many health benefits that helps one to identify blood sugar levels changes even in the normal ranges that range from unhealthy to controlled this is important in diabetes treatment and management as well as in having other chronic illnesses like heart disease, kidney issues as well as nerve damage. It also helps to measure how well the body utilizes glucose and therefore recommend dietary changes as well as lifestyle changes which in turn will improve his metabolic health. In addition, the test will help to track whether diabetes therapy regimes are working such as medication or changes in the lifestyle that assist glucose management according to the goals.\n\n## Which Conditions Can Be Diagnosed with a Glucose Fasting Test?\n\nThe Glucose Fasting Test can help to identify diabetes and also aid in diagnosing other major illnesses like:\n\n- Diabetes (Type 1, Type 2)\n- Prediabetes\n- Impaired fasting glucose\n- Hypoglycemia\n\n## How to Safely Prepare For a Glucose Fasting Test?\n\n**Requirements:** In this case, one has to fast for a minimum time period of 8. However, it is not advisable to consume anything for over 12 hours before the exam. Only pure, colourless water can be taken during this time slot.\n\n**Who is it suitable for:** Suitable for the elderly, teenagers and group of people at high risk of having an imbalance of glucose in their body.\n\n**Steps taking the test:** To explain, When you reach the hospital, the nurse will take the blood sample for you, most probably from the vein of your arm. It is a pretty simple procedure and takes a minute or so.\n\n**Precautions:** Some prescribed medicines alter glucose levels and one should inform the doctor about such medications. Further, try to avoid exercising and any sort of tension before the test."
+  },
+  "category": {
+    "id": "671b5104ad9bf8d210384d23",
+    "name": "Blood",
+    "tests": [
+      "671b5105ad9bf8d210384d2f",
+      "671b5105ad9bf8d210384d30",
+      "671c7cc7c8a77735c8e4410e",
+      "671c7dd9c8a77735c8e44129",
+      "6720b1f4b61a968f2fc61587",
+      "672bab2e21cadfab64a6f854",
+      "672badc221cadfab64a6f870",
+      "672bafa721cadfab64a6f879",
+      "672bb18821cadfab64a6f88b",
+      "672de64ff06b4489abc3ead2",
+      "672df2d84280ae87a405c16e",
+      "6731ae1d03598b92c151a2fd",
+      "6736dda903598b92c151cd8f",
+      "673add2deffae454707dce63",
+      "673ae94aeffae454707dd4cb",
+      "673aed5beffae454707dd650",
+      "673b02ddeffae454707ddc3e",
+      "673b0850effae454707dde45",
+      "674378945c1d2938425e3826",
+      "677e3f1fc75a57396559117b",
+      "677e4c7ac75a57396559144f",
+      "677e558dc75a573965591506",
+      "677f5bbbc75a573965592981",
+      "677f63fec75a573965592a8a",
+      "677f6dd7c75a573965592e66",
+      "6780aa92c75a573965594b9e",
+      "6780b008c75a573965594cd0",
+      "6780b51bc75a573965594e62",
+      "6780e0c9c75a573965595b62",
+      "6784b0b5c75a5739655993aa",
+      "6784b479c75a5739655994d6",
+      "6784bd4ac75a57396559962b",
+      "6784c79ac75a573965599843",
+      "6785f4f4c75a57396559adb5",
+      "67862a19c75a57396559b1aa",
+      "678742d7c75a57396559bb99",
+      "67875312c75a57396559bcfe",
+      "678756fbc75a57396559bd18",
+      "67878c5ac75a57396559c3fe",
+      "6788b8f1c75a57396559dc1b",
+      "6788c194c75a57396559dcff",
+      "6788c4c5c75a57396559dd1c",
+      "6788c72ec75a57396559dd64",
+      "6788c905c75a57396559ddbc",
+      "6788e11fc75a57396559e223",
+      "6788e538c75a57396559e2f9",
+      "6788e968c75a57396559e320",
+      "6789f884c75a57396559f93d",
+      "6789ff1fc75a57396559fa11",
+      "678a14b9c75a5739655a0061",
+      "678a27dac75a5739655a03ba",
+      "678a2aacc75a5739655a0414",
+      "678a352dc75a5739655a04cc",
+      "678f4d28c75a5739655a64fe",
+      "678f5026c75a5739655a651f",
+      "678f5325c75a5739655a656a",
+      "678f56c1c75a5739655a65d1",
+      "6790b2bfc75a5739655a81a6",
+      "6790d4c6c75a5739655a8561",
+      "6790d79fc75a5739655a8575",
+      "6791e394c75a5739655a9665",
+      "6791e9a3c75a5739655a9760",
+      "679269cbc75a5739655aa38d",
+      "67933b23c75a5739655ab936",
+      "67933e64c75a5739655aba12",
+      "67938377c75a5739655ac780",
+      "681c5aa016444f3c1158cdea",
+      "681c5f7b16444f3c1158cf21",
+      "681c62fc16444f3c1158d13f",
+      "681c6f5a16444f3c1158d281",
+      "681c753a16444f3c1158d2af",
+      "681c787716444f3c1158d2fd",
+      "681c7b2e16444f3c1158d37b",
+      "681c7f4f16444f3c1158d3f4",
+      "681c843316444f3c1158d4b8",
+      "681c882b16444f3c1158d501",
+      "681c8b7816444f3c1158d68b",
+      "681c8d8f16444f3c1158d6d9",
+      "681c93ec16444f3c1158d7ed",
+      "681cd1a016444f3c1158dffa",
+      "681cd56516444f3c1158e06c",
+      "681cdeb116444f3c1158e0f4",
+      "681da2f116444f3c11590072",
+      "681daafe16444f3c1159033c",
+      "68233a4f16444f3c1159a0c1",
+      "68233d5116444f3c1159a115",
+      "682342c516444f3c1159a324",
+      "682345df16444f3c1159a424",
+      "682348d916444f3c1159a4af",
+      "682361d216444f3c1159a778",
+      "6823654a16444f3c1159a858",
+      "6823680916444f3c1159a8ce",
+      "68236ae016444f3c1159a8ed",
+      "68236e0816444f3c1159a96b",
+      "6823711816444f3c1159aa44",
+      "68246ae716444f3c1159cb20",
+      "6826d34116444f3c115a2103",
+      "682764af16444f3c115a4520",
+      "68276e9216444f3c115a4570",
+      "6828531316444f3c115a5ae8",
+      "68285d5116444f3c115a5c03",
+      "6829e19016444f3c115a8766",
+      "682a035816444f3c115a8bea",
+      "682ad43f16444f3c115aa27f",
+      "682afafc16444f3c115aafc9",
+      "682b0c3916444f3c115ab408",
+      "682c17e016444f3c115ad688",
+      "682c20be16444f3c115ad8d6",
+      "682c273216444f3c115adb6c",
+      "682c307c16444f3c115adeda",
+      "682c38c916444f3c115ae0bb",
+      "682c402016444f3c115ae18c",
+      "682c5add16444f3c115ae472",
+      "682c612d16444f3c115ae4ff",
+      "682c6a8216444f3c115ae6ea",
+      "682c6e5516444f3c115ae75e",
+      "682c728d16444f3c115ae801",
+      "682c7d2a16444f3c115aea3c",
+      "682c81a416444f3c115aeaad",
+      "682c9ea116444f3c115aee10",
+      "682ca79a16444f3c115aef47",
+      "682d155a16444f3c115af60c",
+      "682d49e716444f3c115afca2",
+      "682d67cb16444f3c115affdf",
+      "682d6cbc16444f3c115b0144",
+      "682d6f4016444f3c115b01c0",
+      "682d72e416444f3c115b045a",
+      "682d755b16444f3c115b047c",
+      "682d795516444f3c115b058e",
+      "682d870316444f3c115b08e6",
+      "682d8bb816444f3c115b09e7",
+      "682d8eff16444f3c115b0a2c",
+      "682d925716444f3c115b0a4f",
+      "682db90c16444f3c115b154f",
+      "682dbd7716444f3c115b176b",
+      "682dbfa616444f3c115b17c3",
+      "682dc1d316444f3c115b17e8",
+      "682dc48f16444f3c115b18dc",
+      "682dc6c616444f3c115b1a3d",
+      "682dc91c16444f3c115b1a7a",
+      "682dcb8916444f3c115b1b3b",
+      "682dcc1916444f3c115b1b82",
+      "682dce3416444f3c115b1c2b",
+      "682dd3fc16444f3c115b1dcd",
+      "682dd68c16444f3c115b1e6c",
+      "682dda9316444f3c115b1ff3",
+      "682df4d416444f3c115b2479",
+      "682df79a16444f3c115b24d9",
+      "682dfa1c16444f3c115b24ff",
+      "682dfc9c16444f3c115b2647",
+      "682ed34816444f3c115b3c0a",
+      "682ed75116444f3c115b3c7d",
+      "682edbef16444f3c115b3d48",
+      "682ee8da16444f3c115b4135",
+      "682eebe116444f3c115b41c6",
+      "682eeef716444f3c115b41ea"
+    ],
+    "image": "/lab-tests/image-1729663337220-267264710.webp",
+    "path": "/blood-tests",
+    "createdAt": "2024-10-23T06:02:45.534Z",
+    "updatedAt": "2024-10-23T06:02:45.534Z",
+    "markdown": "Blood test"
+  },
+  "relatedTests": [
+    {
+      "id": "671c7dd9c8a77735c8e44129",
+      "templateName": "labtest",
+      "testName": "DENGUE PROFILE - RAPID",
+      "route": "/dengue-profile-rapid-test",
+      "basic_info": {
+        "name": "DENGUE PROFILE - RAPID",
+        "route": "/dengue-profile-rapid-test",
+        "categoryId": "671b5104ad9bf8d210384d23",
+        "price": 250,
+        "discount": "0",
+        "discountedPrice": "250.00",
+        "reportsWithin": "60mins",
+        "Identifies": " Dengue virus infection",
+        "measures": "NS1 antigen, IgM, IgG antibodies",
+        "testId": 7766159,
+        "testCategory": "Immunology"
+      },
+      "requisites": [
+        {
+          "value": "Suspected exposure, fever symptoms "
+        }
+      ],
+      "packages": [],
+      "faqs": [
+        {
+          "question": "How long does it take to get results? ",
+          "answer": "Such results are obtained usually between 15-30 minutes after taking the sample."
+        },
+        {
+          "question": "Is the test painful? ",
+          "answer": "Performing the test consists of a blood sample and its removal thus may cause a little discomfort."
+        },
+        {
+          "question": "Do I need to stop eating before the test?      ",
+          "answer": "There’s basically no fasting required as well as no other specific prerequisites before taking the test."
+        },
+        {
+          "question": "Can this test be used for other viruses? ",
+          "answer": "No, it is specific to the dengue virus."
+        },
+        {
+          "question": "What should I do if my test is positive? ",
+          "answer": "Seek treatment for your health at once and ask for further tests, and if necessary a follow up visit is required for proper medical management."
+        }
+      ],
+      "interpretations": {
+        "title": " Interpreting the Results of Your Dengue Profile - Rapid Test ",
+        "cols": [
+          "Parameter",
+          "Results",
+          "Interpretation"
+        ],
+        "rows": [
+          [
+            "NS1 Antigen\t",
+            "Positive\t",
+            "Active dengue virus infection"
+          ],
+          [
+            "",
+            "Negative\t",
+            "No active infection; dengue infection has not occurred"
+          ],
+          [
+            "IgM Antibodies\t",
+            "Positive\t",
+            "Recent or current dengue virus infection"
+          ],
+          [
+            "",
+            "Negative\t",
+            "No recent dengue infection"
+          ],
+          [
+            "IgG Antibodies\t",
+            "Positive\t",
+            "Indicates past infection or current infection at a later stage"
+          ],
+          [
+            "",
+            "Negative",
+            "No past infection; recent infection or no infection has occurred"
+          ]
+        ]
+      },
+      "relative_test": {
+        "title": "",
+        "categoryId": "671b5104ad9bf8d210384d23",
+        "tests": [
+          {
+            "id": "671b5105ad9bf8d210384d2f",
+            "testName": "COMPLETE BLOOD COUNT with ESR",
+            "route": "/complete-blood-count-test-with-esr"
+          },
+          {
+            "id": "671c7cc7c8a77735c8e4410e",
+            "testName": "GLUCOSE FASTING",
+            "route": "/glucose-fasting-test-gft"
+          },
+          {
+            "id": "672bafa721cadfab64a6f879",
+            "testName": "GLUCOSE 2HR POST PRANDIAL",
+            "route": "/glucose-2-hour-postprandial-test-ghpt"
+          },
+          {
+            "id": "672bb18821cadfab64a6f88b",
+            "testName": "RENAL FUNCTION TEST",
+            "route": "/renal-function-test"
+          },
+          {
+            "id": "672de64ff06b4489abc3ead2",
+            "testName": "LIPID PROFILE",
+            "route": "/lipid-profile-test-lpt"
+          },
+          {
+            "id": "673b0850effae454707dde45",
+            "testName": "COMPLETE BLOOD COUNT",
+            "route": "/complete-blood-count-cbc"
+          }
+        ]
+      },
+      "seo": {
+        "title": "Dengue Test in Bangalore| Rapid & Reliable Results",
+        "description": "Book dengue rapid tests in Bangalore for early detection. Fast results to safeguard your health.",
+        "keywords": "",
+        "canonicalUrl": "",
+        "ogTitle": "",
+        "ogDescription": "",
+        "ogImage": "",
+        "schemaMarkup": "",
+        "robotsMeta": ""
+      },
+      "markdown": "## What Is the Dengue Profile – Rapid Test and Why is it of Importance?\n\nThe Dengue Profile – Rapid Test is a rapid diagnostic test. It uses clinical history and testing of blood samples to determine exposure to dengue virus infection. The presence or absence of certain Dengue related antigens and antibodies aids in the management and treatment of the infection. The test is very important since early diagnosis of dengue would prevent the progression to more severe stages of the disease, hence help in improving the management of the patients.\n\n## What Does the Dengue Profile – Rapid Test Measure?\n\nThe Dengue Profile – Rapid Test is concerned with measuring the health indicators of the individual with respect to having the dengue virus. It tests for the presence of the NS1 antigen which confirms that the person is actively exposed to the dengue virus. While it also tests for IgM and IgG which are markers for any current or prior infection of the dengue virus.\n\n## At What Time The Dengue Profile Rapid Test Is Usually Done?\n\nThe Dengue Rapid Test Profile And its Procedures are usually advised to those who have certain signs of dengue virus like High grade fever, severe headache, pain behind the eyes, aching muscles and joints, a rash and any moderate bleeding such as from the nose or gums. It is also recommended during outbreaks in endemic regions or in populations that have low prevalence of dengue and have recently returned from such regions.\n\n## Are There Any Risks Or Limitations Associated To The Dengue Profile Rapid Test?\n\nThere is normally no serious risk and it is not invasive, for it involves simply taking a blood sample. But then again there is cross reactivity and sensitivity issues particularly when the test is done early in the progression or second exposure to the dengue infection. There can be false negatives if the person is tested too early after being exposed to the virus, while false positives can be caused by specific cross-reactivity to other viruses of the flavivirus family. For veracity, the use of several other techniques that are specific for confirmatory testing are commonly suggested.\n\n## What Parameters Are Evaluated in the Dengue Profile - Rapid Test?\n\nThe parameters evaluated in the Dengue Profile - Rapid Test include:\n\n- **NS1 Antigen:** Indicator of an active viral infection. It usually appears two days after the beginning of symptoms.\n- **IgM Antibodies:** Suggests that a recent or current infection in the body.\n- **IgG Antibodies:** This means that the person is infected in the past or it is a late stage of the current latest infection.\n\nThese parameters provide necessary information in regard to history and stage of infection and on which how medical intervention ought to take place.\n\n## Who Should Consider Taking the Dengue Profile – Rapid Test?\n\nRelevant persons should consider taking this test if they feel a symptom of the Dengue fever, especially those who have been in the place where the dengue is wide or those people who had contact lately. People staying or visiting places that are the most plagued by dengue disease, and also healthcare professionals looking for speedy affirmation also are advised to make use of it.\n\n## The Benefits of the Dengue Profile\n\nTaking the Dengue Profile - Rapid Test offers several health benefits, including:\n\n- Given early diagnosis, treatments can thus be commenced while the disease is not severe and so advanced diseases are likely avoided.\n- Enables keeping track of the evolution of the disease and participates in the decision-making for possible additional medical treatment.\n- Delivers rapid output, which is very crucial in times of outbreak in order to quickly put in place measures to protect the population.\n\n## Usage of Dengue Profile - Rapid test: What Conditions Will it Identify?\n\nDengue Profile - Rapid Test is used mostly for:\n\n- Dengue fever\n- Severe forms which includes dengue haematological fever (DHF) and shock syndrome which is dengue (DSS) The rapid test for the disease can assist in notifying health workers that the patients may soon develop the above mentioned severe conditions.\n\n## What you need to know before coming for your Dengue Profile - Rapid Test\n\n- **What is required:** No preparation in particular is needed, but advising the physician concerning recent visits to endemic areas of the disease or contact with suspected cases will be beneficial.\n- **Who is it for:** Recommended in patients who have a wide range of symptoms of dengue fever.\n- **Steps to follow in order to perform the test:** With the help of a sterile needle, trained personnel will take out a small amount of blood from your arm vein. This will have taken you just a few minutes.\n- **What to do before the test:** Patients should tell the health care professional about any substance, disease or drug that may interfere with blood clotting so that there are no problems while the sample is being taken."
+    },
+    {
+      "id": "672bab2e21cadfab64a6f854",
+      "templateName": "labtest",
+      "testName": "GLYCOSYLATED HAEMOGLOBIN-HbA1c",
+      "route": "/glycosylated-haemoglobin-hba1c-test",
+      "basic_info": {
+        "name": "GLYCOSYLATED HAEMOGLOBIN-HbA1c",
+        "route": "/glycosylated-haemoglobin-hba1c-test",
+        "categoryId": "671b5104ad9bf8d210384d23",
+        "price": 690,
+        "discount": "0",
+        "discountedPrice": "690.00",
+        "reportsWithin": "60mins",
+        "Identifies": "Diabetes control over time ",
+        "measures": "Average blood glucose levels",
+        "testId": 7766083,
+        "testCategory": "Biochemistry"
+      },
+      "requisites": [
+        {
+          "value": "No fasting required"
+        }
+      ],
+      "packages": [],
+      "faqs": [
+        {
+          "question": "How do I get to see the result? ",
+          "answer": "The result of a test takes 1-2 days on average for a patient to get access to them."
+        },
+        {
+          "question": "What is the test like? Is it painful? ",
+          "answer": "All that is required is blood to be taken which may be a pinch but no pain as such for the test in most cases."
+        },
+        {
+          "question": "Do I need to fast before the test? ",
+          "answer": "There is no need to fast for this test."
+        },
+        {
+          "question": "How frequently should I take the test? ",
+          "answer": "Diabetes patients generally have the test done every 3 to 6 months."
+        },
+        {
+          "question": "Will the results of the test be modified by the medications that I take? ",
+          "answer": "Yes, but report any previous concerns to the provider as some medication and disorders may alter the results."
+        }
+      ],
+      "interpretations": {
+        "title": "Interpreting the Results of Your Glycosylated Haemoglobin (HbA1c) Test ",
+        "cols": [
+          "Percentage of HbA1c Level (%)",
+          "Interpretation"
+        ],
+        "rows": [
+          [
+            "Below 5.7",
+            "Normal"
+          ],
+          [
+            "5.7 - 6.4",
+            "Prediabetes (At risk for diabetes)"
+          ],
+          [
+            "Above 6.5",
+            "Diabetes"
+          ]
+        ]
+      },
+      "relative_test": {
+        "title": "",
+        "categoryId": "671b5104ad9bf8d210384d23",
+        "tests": [
+          {
+            "id": "671b5105ad9bf8d210384d2f",
+            "testName": "COMPLETE BLOOD COUNT with ESR",
+            "route": "/complete-blood-count-test-with-esr"
+          },
+          {
+            "id": "672badc221cadfab64a6f870",
+            "testName": "C-REACTIVE PROTEIN",
+            "route": "/c-reactive-protein-test-crpt"
+          },
+          {
+            "id": "672bafa721cadfab64a6f879",
+            "testName": "GLUCOSE 2HR POST PRANDIAL",
+            "route": "/glucose-2-hour-postprandial-test-ghpt"
+          },
+          {
+            "id": "672bb18821cadfab64a6f88b",
+            "testName": "RENAL FUNCTION TEST",
+            "route": "/renal-function-test"
+          },
+          {
+            "id": "673b02ddeffae454707ddc3e",
+            "testName": "ELECTROLYTES (SOD/POT/CHLOR)",
+            "route": "/electrolytes-blood-test-ebt"
+          }
+        ]
+      },
+      "seo": {
+        "title": "Glycosylated Hemoglobin Test in Bangalore | Cadabam's Diagnostics",
+        "description": "Book HbA1c tests in Bangalore to track blood sugar over time. Accurate results for better diabetes management.",
+        "keywords": "",
+        "canonicalUrl": "",
+        "ogTitle": "",
+        "ogDescription": "",
+        "ogImage": "",
+        "schemaMarkup": "",
+        "robotsMeta": ""
+      },
+      "markdown": "## What Is the Glycosylated Haemoglobin (HbA1c) Test and Why Is It Important?\n\nThe Glycosylated Haemoglobin (HbA1c) test is one of the critical and the most important blood tests for monitoring diabetes by measuring the average glucose concentration in the blood over a period of two to three months. It is administered by health professionals for the purpose of diagnosing diabetes and for evaluating the long term management of blood glucose levels in a diabetic patient. It also measures the fraction of glycated hemoglobin and thus helps one understand the glucose control over a long period, which is necessary for the prevention of diabetes complications like sensitive neuropathy, nephropathy, and retinopathy\n\n## What is a Glycosylated Haemoglobin (Hb A1c) Test?\n\nThe HbA1c test estimates the level of gasses in the blood and of which blood gasses has glucose /glication attached to it. Essentially, Hgb is a protein in RBC among their other components proteins. Fresh glucose’s are attached to glucose cobalt-containing protein which is called as glycerol-hemoglobin. The fact that human red cells usually live for 120 days allows HbA1c to measure 4 months' average blood glucose concentration. This makes it possible to assess the history of glucose fluctuations in a patient over a long time range.\n\n## When Is the Glycosylated Haemoglobin (HbA1c) Test Usually Taken?\n\nHbA1c test schedules are usually adults at risk for diabetes when adults do a general check-up and also for people who show diabetes signs like polydipsia, polyuria, weight loss, weakness, diabetes mellitus polydipsia, etc. Adults who have been diagnosed to have diabetes have HbA1c test monitoring every 3 to 6 months to check their compliance to their diagnostic test. Further, It is also taken when changing or optimizing the drugs in order to achieve satisfactory diabetes.\n\n## Are There Any Risks or Limitations to the Glycosylated Haemoglobin (HbA1c) Test?\n\nIt is applicable for the HIV negative subjects as has only minimal risk- punching and bruising type of risk – The Hemoglobin A1c Test WHICH is a blood test that doesn’t induce risk has significant limitations as anemia, blood transfusion or Hbg-variants like sickle cell may erase it’s reliability. Adding on, As it also shows AVERAGE, it doesn’t tell the changes in glucose concentration throughout the day and the dangerous highs and lows will not be captured and explained thoroughly.\n\n## What Are the Parameters Associated With the Glycosylated Haemoglobin Test?\n\nIn the interpretation of results of the HbA1c test the most common indicator when measuring is the percentage of glycohemoglobin present in the blood. This percentage is the average level of glucose in the blood over a span of time. Stated that High A1c means not achieving good glucose control but low to normal HbA1c means that the diabetes or pre-diabetes is being controlled well.\n\n## Who should Take the Glycosylated Haemoglobin (HbA1c) Test\n\nThis test is especially relevant to the people with the known case of diabetes in order to check if the management plans are working. It is recommended to the people who are at risk to develop diabetes especially people with obesity, a family history of diabetes, hypertension or cholesterol problems. Also, anyone with diabetes symptoms like polyuria, polydipsia and unexplained excessive fatigue should think of undergoing this test.\n\n## The Importance Of Glycosylated Haemoglobin (HbA1c) Test For Your Health\n\nThere are numerous health benefits of taking the HbA1c test and one of those is the early diagnosis of diabetes or its pre-stage. In doing so, appropriate actions can be taken in good time and the complications of diabetes can be averting. If a patient has already been diagnosed, it helps track and change treatment approaches in a manner that facilitates the achievement of better blood glucose control over time. It is also superior in that it averages glucose concentrations over a certain period of time rather than providing daily readings of tests, allowing improvement in health status and life in general.\n\n## What Conditions Can Be Diagnosed Using The Glycosylated Haemoglobin (HbA1c) Test?\n\nGlycosylated Haemoglobin (HbA1c) test is particularly utilized to diagnose:\n\n- Diabetes Mellitus Type 1\n- Diabetes Mellitus Type 2\n- Diabetes Mellitus, Prediabetes stage\n\nThis test also shows how likely a person is to develop diabetes related complications in future, especially if the high levels persist for long period of time.\n\n## Taking Steps To Get Ready For Your Glycosylated Haemoglobin (HbA1c) Test\n\n**Prerequisites:** There are enzyme-specific preparations to be done like fasting for the HbA1c test which makes it dedicated and coherent for booking.\n\n**Eligibility:** This test is primarily fit for adults and children who are diabetics or are susceptible to diabetes.\n\n**Procedure For Taking The Test:** The procedure involves intravenous blood sample from one of the veins in the arm and this procedure only takes a few minutes.\n\n**Caution Before The Test:** Make sure to inform your health practitioner of any medical therapies or conditions like anemia that could influence the test results."
+    },
+    {
+      "id": "672bafa721cadfab64a6f879",
+      "templateName": "labtest",
+      "testName": "GLUCOSE 2HR POST PRANDIAL",
+      "route": "/glucose-2-hour-postprandial-test-ghpt",
+      "basic_info": {
+        "name": "GLUCOSE 2HR POST PRANDIAL",
+        "route": "/glucose-2-hour-postprandial-test-ghpt",
+        "categoryId": "671b5104ad9bf8d210384d23",
+        "price": 65,
+        "discount": "0",
+        "discountedPrice": "65.00",
+        "reportsWithin": "120 mins",
+        "Identifies": "Patterns of Blood sugar levels ",
+        "measures": "The blood concentration of glucose in the blood after a meal ",
+        "testId": 7766120,
+        "testCategory": "Biochemistry"
+      },
+      "requisites": [
+        {
+          "value": "For the first meal of the day, the person should be fasting, certain meal is taken, two hours after meal period"
+        }
+      ],
+      "packages": [],
+      "faqs": [
+        {
+          "question": "How long does it take to get results? ",
+          "answer": "Results are typically available within a few hours to a day after the test."
+        },
+        {
+          "question": "Is the test painful? ",
+          "answer": "It involves a minor needle prick during blood draw which might cause slight discomfort."
+        },
+        {
+          "question": "Do I need to stop eating before the test? ",
+          "answer": "Yes, fasting is important before having the specified meal for the test."
+        },
+        {
+          "question": "Can medications affect the test results? ",
+          "answer": "Certain medications, especially those that alter glucose metabolism, may change the results. Always inform your doctor about current medications."
+        },
+        {
+          "question": "Is this test suitable for children? ",
+          "answer": "Yes, if clinically indicated, this test can be modified for children with appropriate supervision."
+        }
+      ],
+      "interpretations": {
+        "title": " Interpreting the Results of Your Glucose 2-Hour Postprandial Test ",
+        "cols": [
+          "Glucose Level (mg/dL)",
+          "Interpretation\t",
+          "Explanation"
+        ],
+        "rows": [
+          [
+            "70 - 140\t",
+            "Normal\t",
+            "Within normal range for adults"
+          ],
+          [
+            "140 - 199\t",
+            "Impaired Glucose Tolerance\t",
+            "Indicates prediabetes or impaired glucose tolerance"
+          ],
+          [
+            "≥ 200\t",
+            "Diabetes\t",
+            "Suggests diabetes; requires confirmation with other tests"
+          ]
+        ]
+      },
+      "relative_test": {
+        "title": "",
+        "categoryId": "671b5104ad9bf8d210384d23",
+        "tests": [
+          {
+            "id": "671c7cc7c8a77735c8e4410e",
+            "testName": "Glucose Fasting Test",
+            "route": "/glucose-fasting-test-gft"
+          }
+        ]
+      },
+      "seo": {
+        "title": "Postprandial Glucose Test in Bangalore | Cadabam's Diagnostics",
+        "description": "Monitor blood sugar levels after meals with a 2-hour glucose test. Trusted diagnostic labs in Bangalore.",
+        "keywords": "",
+        "canonicalUrl": "",
+        "ogTitle": "",
+        "ogDescription": "",
+        "ogImage": "",
+        "schemaMarkup": "",
+        "robotsMeta": ""
+      },
+      "markdown": "## What Is the Glucose 2-Hour Postprandial Test and Why Is It Important?\n\nThe Glucose 2-Hour Postprandial Test is a diabetic test conducted exactly two hours after a meal to determine the level of blood glucose present in an individual. This is done as it is during the time before a meal that people without diabetes are likely to have the highest level of blood glucose in circulation. This is important in the management and diagnosis of diabetes and glucose intolerance in that it measures the body’s ability to utilize glucose after intake of food. This understanding of how well your body controls the blood glucose level helps medical doctors to design special eating procedures and medications to address or avert the complications of diabetes.\n\n## What is assessed during the Glucose 2-Hour Postprandial Test?\n\nThis test measures how much glucose regulates surplus glucose in your body two hours after eating what amount of glucose or sugar. Glucose levels are generally assessed after an overnight fasting whereas fasting levels are not the case in this situation. Measurement of the amount of glucose in the blood right after a meal explains how the body responds to the intake of sugar and through which mechanisms the intake is regulated, especially insulin in this case.\n\n## How Often is the Glucose 2-Hour Postprandial Test Done?\n\nThe study is primarily conducted for patients who are to be screened or are already diagnosed with diabetes. It is advisable if certain symptoms occur particularly hyperglycemia or diabetes, for instance increased thirst excessive urination-tired feeling and even vision problems. It is also used to assess both the adherence and the effectiveness of the interpreted regimen which involves diet and medication modification.\n\n## Any Risk or Limitations Associated with the Glucose 2-Hour Postprandial Test?\n\nThe only risk factors linked with this test are light bruising or dizziness and all are related to the blood draw, other than that, there are no risks involved. The main limitations are that the test, not the conditions other than fasting or postprandial levels of sugar, nor hypoglycemia, which is noted, is capable of screening. It also does not show the entire story of glucose levels throughout the day unless other tests are done which complement it.\n\n## In Relation to the Test Conditions, What Factors Are Considered in the Glucose 2-Hour Postprandial Test?\n\nIn this test the concentration of glucose in the blood 2 hours after a meal is the main parameter which is being evaluated. High blood glucose levels post meal intake can suggest that the individual lacks glucose tolerance, insulin resistance or has diabetes. This solution is of great importance whereby it provides insight of how the patient’s body manages blood sugar levels towards the end of a meal and encourages the formulation of appropriate treatments to prevent occurrence of high glucose levels in the patient.\n\n## Who Should Consider Taking the Glucose 2-Hour Postprandial Test?\n\nPeople with symptoms like excessive thirst, frequent urination and exhaustion should consider testing themselves. Such individuals can also include those at risk including those with a family history of Type 2 diabetes, people who are overweight and have metabolic syndromes. Also, people who are already on management for diabetes also can undergo this test to check their efficacies of the management.\n\n## Reasons Why You Should Have A Glucose 2 Hour Post Prandial Test For Your Overall Health\n\nThis test is important to identify problems which relate to the sugar levels of the body after eating, which is very important in the diagnosis and management of diabetes. It helps health care providers spot high blood sugar levels after a meal much earlier so that appropriate measures can be taken. For the patients who do have diabetes, it helps assess how much increase in treatment will be required.\n\n## What Are The Conditions A Glucose 2 Hour Post Prandial Test Can Assess?\n\n- Diabetes Mellitus (Type 1 and Type 2)\n- Impaired glucose tolerance\n- Diabetes Mellitus In Pregnancy\n- Syndrome X\n\n## How To Get Ready For Your Glucose 2 Hour Post Prandial Test\n\n**Requires special preparation:** It is necessary to fast prior to the meal, eat only ordered meal, have the test exactly two hours after having the meal and do not do any strenuous activity during the waiting time.\n\n**Who is eligible?** in the mass population most people can do this test but this test is very important for people who can have symptoms of diabetes or who are in high risk category.\n\n**How the test is done:** Patients are required to undergo a fasting glucose test prior to eating. Two hours after starting the meal, blood is drawn for the measurement.\n\n**What to avoid on the day before the test:** Some carbohydrate-rich snacks a day before the test and any form of stress which might affect blood sugar monitoring."
+    },
+    {
+      "id": "673b0850effae454707dde45",
+      "templateName": "labtest",
+      "testName": "COMPLETE BLOOD COUNT",
+      "route": "/complete-blood-count-cbc",
+      "basic_info": {
+        "name": "COMPLETE BLOOD COUNT",
+        "route": "/complete-blood-count-cbc",
+        "categoryId": "671b5104ad9bf8d210384d23",
+        "price": 330,
+        "discount": "0",
+        "discountedPrice": "330.00",
+        "reportsWithin": "6hrs",
+        "Identifies": "Blood disorders and infections",
+        "measures": "Red and white blood cells",
+        "testId": 8013961,
+        "testCategory": "Haematology"
+      },
+      "requisites": [
+        {
+          "value": "Avoid strenuous exercise before test"
+        }
+      ],
+      "packages": [],
+      "faqs": [
+        {
+          "question": "How Much Time would be required for one to get Operational Results? ",
+          "answer": "Such time frame generally varies from 24 hours to a week depending upon the load of the laboratory."
+        },
+        {
+          "question": "Is Taking the Test a Painful Procedure? ",
+          "answer": "The procedure of CBC is simple with minor pinch to draw the blood, isn’t known to have caused any major pain."
+        },
+        {
+          "question": "Will I be required to stop eating on the day of the test? ",
+          "answer": "No fasting is enforced, as instructed by your medical practitioner."
+        },
+        {
+          "question": "Is it possible to use this test to determine whether cancer is present? ",
+          "answer": "Cancer cannot be diagnosed with a single test of CBC although it shows abnormalities. Further testing is necessary to confirm such diagnoses."
+        },
+        {
+          "question": "How frequently do I need to do this test? ",
+          "answer": "Regularity depends on how your health is and the medical treatment you’re receiving, usually it’s included in the regular checkups."
+        }
+      ],
+      "interpretations": {
+        "title": "How to interpret the results of your-CBC (which is also referred to as Complete blood count) ",
+        "cols": [
+          "Parameter",
+          "Low Levels",
+          "High Levels"
+        ],
+        "rows": [
+          [
+            "RBC (Red Blood Cells)",
+            "Associated with blood transfusion or anemia",
+            "May indicate dehydration or polycythemia"
+          ],
+          [
+            "WBC (White Blood Cells)",
+            "Increased infection risk; may indicate bone marrow issues",
+            "Suggests inflammation or infection in the body"
+          ],
+          [
+            "Hemoglobin",
+            "Helps identify symptoms of anemia",
+            "May indicate post-treatment, lung disease, or polycythemia"
+          ],
+          [
+            "Hematocrit",
+            "May indicate overhydration or fluid overload",
+            "May indicate dehydration or polycythemia"
+          ],
+          [
+            "Platelets",
+            "Increased risk of significant bleeding",
+            "May relate to clotting abnormalities"
+          ]
+        ]
+      },
+      "relative_test": {
+        "title": "",
+        "categoryId": "671b5104ad9bf8d210384d23",
+        "tests": [
+          {
+            "id": "671b5105ad9bf8d210384d2f",
+            "testName": "COMPLETE BLOOD COUNT with ESR ",
+            "route": "/complete-blood-count-test-with-esr"
+          },
+          {
+            "id": "671b5105ad9bf8d210384d30",
+            "testName": "Urine Analysis (Urine Routine)",
+            "route": "/urine-analysis"
+          },
+          {
+            "id": "671c7cc7c8a77735c8e4410e",
+            "testName": "Glucose Fasting Test",
+            "route": "/glucose-fasting-test-gft"
+          },
+          {
+            "id": "671c7dd9c8a77735c8e44129",
+            "testName": "Dengue Profile - Rapid Test",
+            "route": "/dengue-profile-rapid-test"
+          },
+          {
+            "id": "6720b1f4b61a968f2fc61587",
+            "testName": "Bone Narrow test",
+            "route": "/bnt"
+          },
+          {
+            "id": "672bab2e21cadfab64a6f854",
+            "testName": "GLYCOSYLATED HAEMOGLOBIN-HbA1c ",
+            "route": "/glycosylated-haemoglobin-hba1c-test"
+          },
+          {
+            "id": "672badc221cadfab64a6f870",
+            "testName": "C - REACTIVE PROTEIN ",
+            "route": "/c-reactive-protein-test-crpt"
+          },
+          {
+            "id": "672bafa721cadfab64a6f879",
+            "testName": "GLUCOSE 2HR POST PRANDIAL",
+            "route": "/glucose-2-hour-postprandial-test-ghpt"
+          },
+          {
+            "id": "672bb18821cadfab64a6f88b",
+            "testName": "RENAL FUNCTION TEST ",
+            "route": "/renal-function-test"
+          },
+          {
+            "id": "672de64ff06b4489abc3ead2",
+            "testName": "Lipid Profile Test",
+            "route": "/lipid-profile-test-lpt"
+          },
+          {
+            "id": "672df2d84280ae87a405c16e",
+            "testName": "Glucose Random Test ",
+            "route": "/glucose-random-test-grt"
+          },
+          {
+            "id": "6731ae1d03598b92c151a2fd",
+            "testName": "Typhoid Vaccine Test ",
+            "route": "/typhoid-vaccine-test-tvt"
+          },
+          {
+            "id": "6736dda903598b92c151cd8f",
+            "testName": "Diabetes Test",
+            "route": "/diabetes-test-dt"
+          },
+          {
+            "id": "673add2deffae454707dce63",
+            "testName": " Blood Urea Nitrogen Test ",
+            "route": "/blood-urea-nitrogen-test"
+          },
+          {
+            "id": "673ae94aeffae454707dd4cb",
+            "testName": "Uric Acid Test ",
+            "route": "/uric-acid-test-ust"
+          },
+          {
+            "id": "673aed5beffae454707dd650",
+            "testName": "Urine Culture ",
+            "route": "/urine-culture"
+          },
+          {
+            "id": "673b02ddeffae454707ddc3e",
+            "testName": "Electrolytes Blood Test ",
+            "route": "/electrolytes-blood-test-ebt"
+          },
+          {
+            "id": "673b0850effae454707dde45",
+            "testName": "Complete Blood Count (CBC) ",
+            "route": "/complete-blood-count-cbc"
+          }
+        ]
+      },
+      "seo": {
+        "title": "Complete Blood Count (CBC) Tests | Cadabam's Diagnostics",
+        "description": "CBC test is crucial for detecting conditions like anemia, infections, and more. Get reliable results from our lab.",
+        "keywords": "",
+        "canonicalUrl": "",
+        "ogTitle": "",
+        "ogDescription": "",
+        "ogImage": "",
+        "schemaMarkup": "",
+        "robotsMeta": ""
+      },
+      "markdown": "## What is the Test CBC test and what is it for?\n\nA complete blood count (CBC) is a common blood test that checks the components of the blood such as red and white blood cells, hemoglobin, hematocrit and platelets, and multiple such as anemia, infection, and leukemia. This test is useful to determine the state of health of the patient and the status of the diseases the patient has which may include blood cells disorders.\n\n## What The Complete Blood Count (CBC) Is Testing For?\n\nThe CBC tests the levels of various other determinants of health. It evaluates the concentration of red blood cells, also called erythrocytes, which are the cells that transport oxygen; the amount of white blood cells, leukocytes that function in immune response; the pigment in red blood cells that allows these cells to carry oxygen –hemoglobin; the volume percentage of red blood cells in the blood, called the hematocrit; and the measurement of blood clotting factors, known as platelets. These factors assist in determining different disease states and the management of an oral health problem.\n\n## In Which Circumstances Is The Complete Blood Count (CBC) Most Commonly Done?\n\nA CBC test is often performed whenever done as part of a test battery. So usually one tests once a year as part of routine check-up. It is especially recommended when a person has complaints of feeling tired or exhausted, weakness, swelling, bruises or bleeding. It is additionally utilized for the diagnosis of disorders or the presence of conditions influencing the blood cells and for control of some diseases that are known to affect the blood.\n\n## Are There Any Risks or Limitations to the Taking of Complete Blood Count (CBC)?\n\nWhen having a CBC there are minimal associated risks involved, with the most common ones being soreness or slight bruising at the injection site. Moreover, results may sometimes be inaccurate because of external factors such as vigorous exercise or drugs. Also, a CBC will indicate if there is some form of problem but it cannot determine in isolation the disease. In the majority of cases, a conclusive diagnosis is dependent on other test results which are usually required.\n\n## What Parameters Have to be Assessed in a Complete Blood Count (CBC)?\n\nThere are several parameters that constitute the CBC:\n\n- **RBC Count:** Gives the measurement of the blood’s capacity to carry oxygen\n- **WBC Count:** Serves as a benchmark for the strength of the immune system\n- **Hemoglobin Levels:** Measure the amount of oxygen-carrying components in the blood.\n- **Hematocrit Percentage:** It refers to the volume fraction of red blood cells in blood.\n- **Platelet Count:** It assess the capacity of the blood to clot.\n\nEvery parameter provides indications regarding your health status as well as your conditions that may require medical attention.\n\n## Who Should Consider Taking the Complete Blood Count (CBC)?\n\nThose who feel fatigued for unknown reasons, weakness or having fever or infected can look up for a CBC. Patients with blood disorders or those receiving treatment such as chemotherapy that alters the number of blood cells would ideally need constant monitoring of CBC on a regular basis. It is also applicable for those individuals who are getting their health check-up done at regular intervals.\n\n## The Advantages of the Complete Blood Count (CBC) for Your Health\n\nThe Importance of the CBC can be seen when it is used for the detection of conditions such as anemia, as well as an important tool in the diagnosis and treatment of more serious diseases like leukemia. The CBC is an inexpensive yet useful test for assessing an individual’s overall state of health. The role of the CBC in detecting a variety of conditions is expanding as it enables patients to bypass unnecessary treatments. The CBC can also monitor the effectiveness of ongoing therapies such as chemotherapy.\n\n## What Conditions Can the Complete Blood Count (CBC) Diagnose?\n\nThe CBC can assist in the diagnosis and management of a variety of ailments, including:\n\n-leukemia -anemia -infections -blood clotting disorders -immune system disorders\n\nIt is one of the basic tools in the diagnosis of patients and the management of a variety of disorders.\n\n## Understanding Preparation for Your Complete Blood Count (CBC)\n\n**Prerequisites:** There are no special requirements that need to be completed beforehand in order to take the test. However, do not engage in vigorous activities in the hours leading to the test as those may interfere with the blood component levels.\n\n**Eligibility:** Any individual regardless of age who wishes to undergo a check-up or is being treated for something that alters blood condition is eligible to take these tests.\n\n**Procedure for Taking the Test:** The test requires taking a small amount of blood which is collected from the arm by making use of a needle. This procedure is quite simple and takes only a few minutes to finish.\n\n**Caution Before the Test:** Make sure to notify your physician about any meds that you are currently on since some of them might possibly influence the outcome of the exam."
+    }
+  ]
+}

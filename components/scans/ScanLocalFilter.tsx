@@ -1,7 +1,6 @@
 "use client";
 
 import { useMemo, useRef, useState } from "react";
-import { useRouter } from "next/navigation";
 import {
   type LucideIcon,
   ChevronLeft,
@@ -43,20 +42,21 @@ function buildPageWindow(current: number, total: number): (number | null)[] {
 export function ScanLocalFilter({
   tests,
   familyName,
-  basePath,
   initialFilterKey,
 }: {
   tests: ScanTestCardVM[];
   familyName: string;
   /** Family listing base path, e.g. /bangalore/ultrasound-scan. */
-  basePath: string;
-  /** Group key from the route (e.g. /bangalore/ultrasound-scan/pregnancy). */
+  basePath?: string;
+  /**
+   * Optional group key used only to seed the initial filter when the page is
+   * opened directly on a group URL. After mount, filtering is entirely
+   * client-side and never touches the URL.
+   */
   initialFilterKey?: string;
 }) {
-  const router = useRouter();
-
-  // The active group is part of the URL path so the filtered view is
-  // shareable and the address bar updates on every click.
+  // Seed the active group from the route on first render (so a direct visit to
+  // a group URL still shows that filter), but never write back to the URL.
   const seededKey =
     initialFilterKey && FILTER_GROUPS.some((g) => g.key === initialFilterKey)
       ? initialFilterKey
@@ -119,9 +119,8 @@ export function ScanLocalFilter({
   function selectGroup(key: string) {
     setActiveKey(key);
     setPage(1);
-    router.push(key === "all" ? basePath : `${basePath}/${key}`, {
-      scroll: false,
-    });
+    // Filtering is purely client-side — the URL is left untouched (no path
+    // change, no query params); results update from state alone.
     // Bring the listing into view — on mobile the filters stack above the
     // results, so the freshly filtered scans would otherwise be off-screen.
     resultsRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });

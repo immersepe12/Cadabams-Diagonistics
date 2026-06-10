@@ -1,0 +1,991 @@
+{
+  "type": "scan-detail",
+  "route": "/bangalore/pregnancy-scan/fetal-interventional-ultrasound-echo",
+  "familyPath": "pregnancy-scan",
+  "slug": "fetal-interventional-ultrasound-echo",
+  "test": {
+    "id": "6736e2f403598b92c151cdc2",
+    "templateName": "non-labtest",
+    "testName": "PREGNANCY FETAL ECHO ULTRASOUND SCAN",
+    "route": "/fetal-interventional-ultrasound-echo",
+    "basic_info": {
+      "name": "PREGNANCY FETAL ECHO ULTRASOUND SCAN",
+      "route": "/fetal-interventional-ultrasound-echo",
+      "categoryId": "671b5102ad9bf8d210384d1e",
+      "price": 3300,
+      "alsoKnownAs": "",
+      "discount": "0",
+      "discountedPrice": "3300.00",
+      "reportsWithin": "",
+      "Identifies": "",
+      "measures": "",
+      "testId": 7770127,
+      "testCategory": "Ultrasonography"
+    },
+    "requisites": [],
+    "interpretations": {
+      "title": "Results and Interpretations ",
+      "cols": [
+        "Finding / Observation",
+        "Description",
+        "General Interpretation / Significance"
+      ],
+      "rows": [
+        [
+          "Normal 4-chamber view",
+          "Balanced heart size",
+          "Low risk for major CH"
+        ],
+        [
+          "Small VSD",
+          "Hole between ventricles",
+          "Often closes before birth; follow-up needed"
+        ],
+        [
+          "Valve stenosis",
+          "Narrowed valve opening",
+          "May need post-delivery intervention"
+        ],
+        [
+          "Irregular rhythm",
+          "Skipped beats",
+          "Usually benign; further monitoring advised"
+        ]
+      ]
+    },
+    "faqs": [
+      {
+        "question": "How long does the scan take?",
+        "answer": "20–45 minutes."
+      },
+      {
+        "question": "Is fetal echo safe for my baby?",
+        "answer": "Yes, ultrasound uses harmless sound waves."
+      },
+      {
+        "question": "When will I get results?",
+        "answer": "Same-day preliminary report; full report within 24 hrs."
+      },
+      {
+        "question": "What if a defect is found?",
+        "answer": "Referral to pediatric cardiologist for management plan."
+      },
+      {
+        "question": "Do I need a full bladder?",
+        "answer": "Moderately full bladder improves image quality."
+      },
+      {
+        "question": "Can I eat before the scan?",
+        "answer": "Yes, no fasting required."
+      }
+    ],
+    "relative_test": {
+      "title": "",
+      "categoryId": "671b5102ad9bf8d210384d1e",
+      "tests": [
+        {
+          "id": "673d8cfdeffae454707e0dab",
+          "testName": "US PREGNANCY TIFFA SCAN / ANOMALY SCAN (LEVEL2)",
+          "route": "/pregnancy-tiffa-anomaly-scan-level-2-ultrasound"
+        },
+        {
+          "id": "673d98ac534c72d341052ae0",
+          "testName": "US PREGNANCY INTERVAL GROWTH SCAN WITH BPP AND DOPPLER",
+          "route": "/pregnancy-interval-growth-scan-with-bpp-and-doppler-ultrasound"
+        },
+        {
+          "id": "673da0cf534c72d341052bb7",
+          "testName": "US PREGNANCY DATING SCAN",
+          "route": "/pregnancy-dating-scan-ultrasound"
+        },
+        {
+          "id": "673daea5534c72d341052c0a",
+          "testName": "US PREGNANCY NT SCAN ( LEVEL 2)",
+          "route": "/nt-scan-level-2-pregnancy-ultrasound"
+        }
+      ]
+    },
+    "seo": {
+      "title": "Pregnancy Fetal Echo Ultrasound: Safe & Accurate",
+      "description": "PREGNANCY FETAL ECHO ULTRASOUND SCAN: Safe, expert-led cardiac screening for your baby at Cadabams. Understand the why, when, and how of the scan.",
+      "keywords": "",
+      "canonicalUrl": "",
+      "ogTitle": "",
+      "ogDescription": "",
+      "ogImage": "",
+      "schemaMarkup": "",
+      "robotsMeta": ""
+    },
+    "markdown": "## Pregnancy Fetal Echo Ultrasound Scan Overview\n\n### Quick snapshot: what the scan checks\n- Size, shape, and structure of the fetal heart\n- Valve motion and blood-flow patterns\n- Heart rhythm and rate for arrhythmias\n### Why Cadabams Diagnostics is trusted for fetal echo\n- \\*\\*Accredited\\*\\* sonographers specialized in fetal cardiology\n- \\*\\*3-D/4-D\\*\\* and \\*\\*Doppler\\*\\* technology for razor-sharp images\n- \\*\\*Same-day preliminary report\\*\\* to reduce waiting stress\n---\n## What is Pregnancy Fetal Echo Ultrasound Scan?\n### Definition & technology used\nA \\*\\*Pregnancy Fetal Echo Ultrasound Scan\\*\\* uses high-frequency sound waves—\\*\\*no radiation\\*\\*—to create real-time pictures of your baby’s heart. The scan is performed \\*\\*trans-abdominally\\*\\*, just like a routine ultrasound.\n### Difference between regular ultrasound and fetal echo\n| Regular Ultrasound | Fetal Echo |\n|--------------------|------------|\n| General anatomy check | \\*\\*Detailed cardiac focus\\*\\* |\n| 15–20 minutes | \\*\\*20–45 minutes\\*\\* |\n| Basic 2-D images | \\*\\*2-D, 3-D/4-D, and Doppler\\*\\* |\n---\n## Types of Pregnancy Fetal Echo Ultrasound Scan\n1. \\*\\*2-D fetal echo\\*\\* – Standard grayscale imaging\n2. \\*\\*3-D/4-D fetal echo\\*\\* – Adds depth and live motion\n3. \\*\\*Doppler fetal echocardiography\\*\\* – Measures blood-flow velocity and direction\n---\n\n## When and Who Needs to Take a Pregnancy Fetal Echo Ultrasound Scan?\n\n- \\*\\*Ideal gestational age:\\*\\* 18–24 weeks\n- \\*\\*High-risk mothers:\\*\\*\n- Pre-existing diabetes\n- Family history of congenital heart disease (CHD)\n- \\*\\*Abnormal routine scan findings\\*\\* that flag possible cardiac issues\n---\n\n## Risks & Limitations of the Pregnancy Fetal Echo Ultrasound Scan\n\n### No radiation, minimal risk\nUltrasound is \\*\\*non-invasive\\*\\* and \\*\\*harmless\\*\\* for both mother and baby.\n### Limitations:\n- \\*\\*Maternal obesity\\*\\* may reduce image clarity\n- \\*\\*Fetal position\\*\\* can obscure certain views\n- \\*\\*Follow-up scans\\*\\* sometimes needed for optimal assessment\n---\n\n## List of Parameters Considered During the Scan\n\n- \\*\\*Heart chambers:\\*\\* size & symmetry\n- \\*\\*Valves:\\*\\* structure & function\n- \\*\\*Blood-flow patterns:\\*\\* direction & velocity\n- \\*\\*Heart rhythm & rate:\\*\\* early arrhythmia detection\n---\n\n## Reasons for Taking a Pregnancy Fetal Echo Ultrasound Scan\n\n- \\*\\*Screen for congenital heart defects\\*\\*\n- \\*\\*Monitor known cardiac anomalies\\*\\*\n- \\*\\*Reassurance for at-risk pregnancies\\*\\*\n---\n\n## Benefits of Taking the Scan\n\n- \\*\\*Early detection\\*\\* enables \\*\\*treatment planning\\*\\* before birth\n- \\*\\*Reduces anxiety\\*\\* with clear, real-time images\n- \\*\\*Guides delivery & neonatal care decisions\\*\\*, including hospital selection and pediatric cardiologist involvement\n---\n\n## Illnesses Diagnosed with Pregnancy Fetal Echo Ultrasound Scan\n\n- \\*\\*Septal defects\\*\\* – ASD, VSD\n- \\*\\*Valve stenosis or atresia\\*\\*\n- \\*\\*Tetralogy of Fallot\\*\\*\n- \\*\\*Arrhythmias\\*\\* – bradycardia, tachycardia, ectopic beats\n---\n\n## Preparing for Pregnancy Fetal Echo Ultrasound Scan\n\n- \\*\\*Wear loose two-piece clothing\\*\\* for easy abdominal access\n- \\*\\*Moderately full bladder\\*\\* improves image quality\n- \\*\\*Bring previous scan reports\\*\\* for comparison\n---\n## Pre-requisites\n- \\*\\*Doctor’s prescription\\*\\* (mandatory)\n- \\*\\*Valid ID & medical records\\*\\*\n- \\*\\*Fasting not required\\*\\* – eat normally\n---\n## Best Time to Take the Scan\n- \\*\\*Optimal window:\\*\\* 18–24 weeks gestation\n- \\*\\*Earlier or later scans\\*\\* ordered if clinically indicated\n---\n## Eligibility\n- \\*\\*Pregnant women at 18+ weeks\\*\\*\n- \\*\\*High-risk cases referred by OB/GYN\\*\\*\n- \\*\\*No upper gestational cut-off\\*\\* for emergency scan\n---\n## Procedure for Taking a Pregnancy Fetal Echo Ultrasound Scan\n1. \\*\\*Step 1:\\*\\* Check-in & ID verification\n2. \\*\\*Step 2:\\*\\* Lie back; gel applied to abdomen\n3. \\*\\*Step 3:\\*\\* 20–45 min of detailed imaging\n4. \\*\\*Step 4:\\*\\* Immediate preliminary feedback from sonographer\n---\n## Caution Before Taking the Test\n- \\*\\*Inform sonographer\\*\\* of allergies to ultrasound gel\n- \\*\\*Mention twin or multiple pregnancies\\*\\* for adjusted protocol\n- \\*\\*Avoid caffeine 2 hrs prior\\*\\* to keep baby calm for clearer images\n---"
+  },
+  "category": {
+    "id": "671b5102ad9bf8d210384d1e",
+    "name": "Pregnancy scans",
+    "tests": [
+      "6736e08403598b92c151cd9b",
+      "6736e2f403598b92c151cdc2",
+      "67371c29996e7737b6f4de55",
+      "673d8cfdeffae454707e0dab",
+      "673d98ac534c72d341052ae0",
+      "673da0cf534c72d341052bb7",
+      "673daea5534c72d341052c0a"
+    ],
+    "image": "/scans/image-1730262294035-10402176.webp",
+    "path": "pregnancy-scan",
+    "createdAt": "2024-10-17T19:28:59.584Z",
+    "updatedAt": "2024-10-17T19:28:59.584Z",
+    "allData": {
+      "categoryId": "671b5102ad9bf8d210384d1e",
+      "requisites": [],
+      "interpretations": {
+        "title": "Test Results    ",
+        "cols": [
+          "Column 1",
+          "Column 2",
+          "Column 3"
+        ],
+        "rows": [
+          [
+            "Normal fetal growth and development",
+            "Fetus is growing and developing as expected",
+            "Normal result, no further action required"
+          ],
+          [
+            "Fetal abnormality",
+            "Structural abnormality detected, such as heart defect or limb abnormality",
+            "Further testing or procedures may be required, such as amniocentesis or CVS"
+          ],
+          [
+            "Placental abnormality",
+            "Placental abnormality detected, such as placenta previa or placental abruption",
+            "Further testing or procedures may be required, such as blood tests or hospital admission"
+          ],
+          [
+            "Growth restriction",
+            "Fetal growth restriction or intrauterine growth restriction detected",
+            "Further testing or procedures may be required, such as biweekly ultrasound scans or hospital admission"
+          ]
+        ]
+      },
+      "faqs": [
+        {
+          "question": " Is a pregnancy ultrasound scan safe? ",
+          "answer": "Yes, pregnancy ultrasound scans are generally safe and do not use ionizing radiation."
+        },
+        {
+          "question": " How long does a pregnancy ultrasound scan take? ",
+          "answer": "A pregnancy ultrasound scan typically takes 30-60 minutes to perform."
+        },
+        {
+          "question": "Can I have a pregnancy ultrasound scan if I have a multiple pregnancy? ",
+          "answer": "Yes, a pregnancy ultrasound scan can be performed with multiple pregnancies, but the scan may take longer and may require more extensive evaluation."
+        },
+        {
+          "question": "What if the scan detects an abnormality? ",
+          "answer": "If an abnormality is detected, the healthcare provider will discuss further testing or procedures with you, such as amniocentesis or CVS."
+        }
+      ],
+      "relative_test": {
+        "title": "CXCz",
+        "categoryId": "671b5102ad9bf8d210384d1e",
+        "tests": [
+          {
+            "id": "6736e08403598b92c151cd9b",
+            "testName": "Fetal Imaging",
+            "route": "/fetal-imaging"
+          },
+          {
+            "id": "6736e2f403598b92c151cdc2",
+            "testName": "US PREGNANCY FETAL ECHO",
+            "route": "/fetal-interventional"
+          },
+          {
+            "id": "67371c29996e7737b6f4de55",
+            "testName": "Pregnancy Ultrasound",
+            "route": "/pregnancy-ultrasound"
+          },
+          {
+            "id": "673d8cfdeffae454707e0dab",
+            "testName": "US PREGNANCY TIFFA SCAN / ANOMALY SCAN (LEVEL2)",
+            "route": "/pregnancy-tiffa-anomaly-scan-level-2-ultrasound"
+          },
+          {
+            "id": "673d98ac534c72d341052ae0",
+            "testName": "US PREGNANCY INTERVAL GROWTH SCAN WITH BPP AND DOPPLER",
+            "route": "/pregnancy-interval-growth-scan-with-bpp-and-doppler-ultrasound"
+          },
+          {
+            "id": "673da0cf534c72d341052bb7",
+            "testName": "US PREGNANCY DATING SCAN",
+            "route": "/pregnancy-dating-scan-ultrasound"
+          },
+          {
+            "id": "673daea5534c72d341052c0a",
+            "testName": "US PREGNANCY NT SCAN ( LEVEL 2)",
+            "route": "/nt-scan-level-2-pregnancy-ultrasound"
+          }
+        ]
+      },
+      "seo": {
+        "title": "Comprehensive Pregnancy Scans in Bangalore | Cadabams Diagnostics",
+        "description": "Ensure the health and well-being of both you and your baby with comprehensive pregnancy scans at Cadabams Diagnostics, Bangalore. Our expert team uses advanced technology to monitor fetal development, detect abnormalities, and provide accurate results. "
+      }
+    },
+    "markdown": " a safe, painless imaging test that uses sound waves to create a picture of the baby in the womb\n\n## About the Test\n\n![About the Test](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731911257090-509747313.png)\n\nA pregnancy ultrasound scan, also known as a sonogram, is a non-invasive medical imaging test that uses high-frequency sound waves to produce images of the developing fetus and the female reproductive organs. The scan is performed using a transducer, which is placed on the abdomen, and the sound waves bounce off internal structures, creating images on a screen.\n\n## Types of Tests\n\nThere are several types of pregnancy ultrasound scans, including:\n\nDating scan: performed between 8-12 weeks to confirm the gestational age of the fetus\n\nNuchal translucency (NT) scan: performed between 11-14 weeks to assess the risk of chromosomal abnormalities, such as Down syndrome\n\nAnomaly scan: performed between 18-22 weeks to examine the fetus for any structural abnormalities\n\nGrowth scan: performed between 24-40 weeks to monitor fetal growth and development\n\nDoppler scan: uses sound waves to measure blood flow through the umbilical artery and assess fetal well-being\n\n## Risks & Limitations\n\n![Risks & Limitations](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731911266341-490078459.png)\n\nWhile pregnancy ultrasound scans are generally safe, there are some risks and limitations to consider:\n\nRisks: the scan may cause minor discomfort or anxiety, but there is no evidence to suggest that ultrasound scans harm the fetus or the mother.\n\nLimitations: the scan may not detect all abnormalities or complications, and some conditions may require further testing or procedures.\n\n## List of Parameters\n\n![List of Parameters](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731911297967-971665458.png)\n\nDuring a pregnancy ultrasound scan, medical professionals look for various parameters, including:\n\n- Fetal size and growth\n- Fetal heart rate and rhythm\n- Placental location and function\n- Amniotic fluid levels\n- Fetal movement and activity\n- Presence of any structural abnormalities\n\nAdjustments may be needed based on patient factors, such as:\n\n- Multiple pregnancy (twins, triplets, etc.)\n- Gestational diabetes or hypertension\n- History of previous complications or losses\n\n## Why This Test\n\n![Why This Test](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731911304841-556520990.png)\n\nA healthcare professional may recommend a pregnancy ultrasound scan in the following situations:\n\n- To confirm pregnancy and determine gestational age\n- To assess fetal growth and development\n- To identify potential complications or abnormalities\n- To guide chorionic villus sampling (CVS) or amniocentesis procedures\n- To assess fetal well-being in cases of suspected placental abruption or other complications\n\nThis test is typically recommended for all pregnant women, but especially for those with:\n\n- A history of previous pregnancy complications or losses\n- Pre-existing medical conditions, such as diabetes or hypertension\n- Multiple pregnancy (twins, triplets, etc.)\n- Advanced maternal age (over 35 years)\n\n## Benefits\n\n![Benefits](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731911313306-17592978.png)\n\nThe benefits of pregnancy ultrasound scans include:\n\n- Accurate dating of pregnancy\n- Early detection of potential complications or abnormalities\n- Monitoring of fetal growth and development\n- Guided procedures, such as CVS or amniocentesis\n- Enhanced fetal and maternal care\n\n## Diseases Diagnosed\n\n![Diseases Diagnosed](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731911383554-414502810.png)\n\nPregnancy ultrasound scans can help diagnose various conditions, including:\n\n- Fetal abnormalities: structural abnormalities, such as heart defects or limb abnormalities\n- Chromosomal abnormalities: Down syndrome, trisomy 13, or trisomy 18\n- Placental abnormalities: placenta previa, placental abruption, or placental insufficiency\n- Growth restriction: fetal growth restriction or intrauterine growth restriction\n\n## Preparing for the Test\n\n![Preparing for the Test](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731912388354-663982633.png)\n\nTo prepare for a pregnancy ultrasound scan:\n\n- Arrive at least 30 minutes before the scheduled appointment\n- Wear loose-fitting clothing and remove any jewelry or clothing that may interfere with the scan\n- Bring any relevant medical records or test results\n- Be prepared to ask questions and discuss any concerns with the healthcare provider"
+  },
+  "relatedTests": [
+    {
+      "id": "673d8cfdeffae454707e0dab",
+      "templateName": "non-labtest",
+      "testName": "PREGNANCY TIFFA/ANOMALY (LEVEL 2) ULTRASOUND SCAN",
+      "route": "/pregnancy-tiffa-anomaly-scan-level-2-ultrasound",
+      "basic_info": {
+        "name": "PREGNANCY TIFFA/ANOMALY (LEVEL 2) ULTRASOUND SCAN",
+        "route": "/pregnancy-tiffa-anomaly-scan-level-2-ultrasound",
+        "categoryId": "671b5102ad9bf8d210384d1c",
+        "price": 3100,
+        "alsoKnownAs": "",
+        "discount": "0",
+        "discountedPrice": "3100.00",
+        "reportsWithin": "3hrs",
+        "Identifies": "",
+        "measures": "",
+        "testId": 7770108,
+        "testCategory": "Ultrasonography"
+      },
+      "requisites": [],
+      "interpretations": {
+        "title": "Results and Interpretation ",
+        "cols": [
+          "Finding / Observation",
+          "Description ",
+          "General Interpretation / Significance"
+        ],
+        "rows": [
+          [
+            "Normal 4-chamber heart",
+            "All chambers equal size, valves opening",
+            "Rules out major congenital heart defects"
+          ],
+          [
+            "Choroid plexus cyst",
+            "Small fluid-filled spaces in brain",
+            "Usually resolves; follow-up advised"
+          ],
+          [
+            "Low-lying placenta",
+            "Placenta edge < 2 cm from cervix",
+            "Often migrates upward; repeat scan at 32 weeks"
+          ],
+          [
+            "Short femur length",
+            "Below 5th percentile for gestation",
+            "May indicate growth restriction or skeletal dysplasia"
+          ],
+          [
+            "",
+            "",
+            ""
+          ]
+        ]
+      },
+      "faqs": [
+        {
+          "question": "Is the TIFFA scan painful?",
+          "answer": "No, it’s non-invasive and painless."
+        },
+        {
+          "question": "Do I need to fast?",
+          "answer": "Fasting is not required; feel free to have a light meal."
+        },
+        {
+          "question": "Can the scan detect all birth defects?",
+          "answer": "It detects most major structural anomalies; subtle issues may need additional tests."
+        },
+        {
+          "question": "What if my baby is in a bad position?",
+          "answer": "The sonographer may ask you to walk, sip juice, or return another day."
+        },
+        {
+          "question": "Is 3D/4D better than 2D for anomalies?",
+          "answer": "2D remains the gold standard; 3D/4D improves parental bonding views."
+        },
+        {
+          "question": "Cost range and insurance coverage?",
+          "answer": "Cadabams offers competitive pricing; many insurers cover the scan—check with our front desk for cashless approval."
+        }
+      ],
+      "relative_test": {
+        "title": "",
+        "categoryId": "671b5102ad9bf8d210384d1e",
+        "tests": [
+          {
+            "id": "6736e08403598b92c151cd9b",
+            "testName": "Fetal Imaging",
+            "route": "/fetal-imaging"
+          },
+          {
+            "id": "6736e2f403598b92c151cdc2",
+            "testName": " Fetal Interventional Services ",
+            "route": "/fetal-interventional"
+          },
+          {
+            "id": "67371c29996e7737b6f4de55",
+            "testName": "Pregnancy Ultrasound",
+            "route": "/pregnancy-ultrasound"
+          }
+        ]
+      },
+      "seo": {
+        "title": "Pregnancy TIFFA/Anomaly (Level 2) Ultrasound at Cadabams",
+        "description": "The TIFFA scan at 18–22 weeks helps detect fetal anomalies early for safer pregnancy care. Book your Level 2 ultrasound at Cadabams Diagnostics.",
+        "keywords": "",
+        "canonicalUrl": "",
+        "ogTitle": "",
+        "ogDescription": "",
+        "ogImage": "",
+        "schemaMarkup": "",
+        "robotsMeta": ""
+      },
+      "markdown": "## Pregnancy TIFFA/Anomaly (Level 2) Ultrasound Scan Overview\n\n### Why this scan is a crucial milestone in pregnancy\n- Detects up to 80 % of major structural birth defects.\n- Offers the clearest view of your baby’s brain, heart, spine, and limbs.\n- Helps your obstetrician plan any special care you or your baby may need.\n### Quick facts and key takeaways\n- \\*\\*When\\*\\*: 18–22 weeks (best at 20 weeks).\n- \\*\\*Duration\\*\\*: 30–45 minutes.\n- \\*\\*Safety\\*\\*: No radiation; no known risks.\n- \\*\\*Results\\*\\*: Same-day digital report and images.\n## What is Pregnancy TIFFA/Anomaly (Level 2) Ultrasound Scan?\n### TIFFA acronym explained: Targeted Imaging for Fetal Anomalies\nTIFFA isn’t just another scan—it’s a \\*\\*targeted, head-to-toe survey\\*\\* of every organ system to rule out or confirm anomalies.\n### Difference between level 1 and level 2 ultrasound\n| Level 1 (Basic) | Level 2 (TIFFA) |\n|-----------------|-----------------|\n| Growth, heartbeat, position | Detailed anatomy of brain, heart, limbs, spine |\n| 15–20 minutes | 30–45 minutes |\n| Routine screening | In-depth anomaly detection |\n### How 2D, 3D and color Doppler enhance the scan\n- \\*\\*2D\\*\\*: Gold-standard diagnostic images.\n- \\*\\*3D/4D\\*\\*: Surface rendering for clearer facial views and parental bonding.\n- \\*\\*Color Doppler\\*\\*: Evaluates blood flow in umbilical cord, heart, and brain.\n## Types of Pregnancy TIFFA/Anomaly (Level 2) Ultrasound Scan\n### Transabdominal standard TIFFA\nMost common approach; gel on the belly, painless probe movements.\n### Transvaginal TIFFA (if better resolution required)\nOccasionally used for very detailed brain or cervical assessment—always with consent.\n### 3D/4D add-on enhancements\nOptional yet popular; ideal for family keepsake images without compromising diagnostic accuracy.\n\n## When and Who Needs to Take a Pregnancy TIFFA/Anomaly (Level 2) Ultrasound Scan?\n\n### Ideal gestational age: 18–22 weeks (optimal 20 weeks)\nAt this stage, your baby is large enough for detail but still surrounded by enough fluid for clear views.\n### High-risk maternal or family history indications\n- Advanced maternal age (≥ 35 years).\n- Family history of congenital anomalies.\n- Pre-existing diabetes or hypertension.\n### Multiple pregnancy considerations\nTwins or triplets require extra time and expertise; Cadabams’ sonographers are specially trained for multi-fetal scans.\n\n## Risks & Limitations of the Pregnancy TIFFA/Anomaly (Level 2) Ultrasound Scan\n\n### No known harm: ultrasound safety profile\nExtensive research shows \\*\\*no harmful effects\\*\\* to mother or baby.\n### Limitations\n- \\*\\*Maternal obesity\\*\\* can reduce image clarity.\n- \\*\\*Fetal position\\*\\* may hide certain structures.\n- \\*\\*Equipment quality\\*\\* matters—Cadabams uses high-resolution machines to minimise these issues.\n### When additional genetic tests may still be needed\nSoft markers or inconclusive findings may prompt \\*\\*NIPT, amniocentesis, or repeat imaging\\*\\*.\n\n## List of Parameters Considered During the Scan\n\n- \\*\\*Brain\\*\\*: ventricles, posterior fossa, corpus callosum\n- \\*\\*Face\\*\\*: lips, palate, nasal bone\n- \\*\\*Heart\\*\\*: 4-chamber view, outflow tracts, septa\n- \\*\\*Spine\\*\\*: integrity and curvature\n- \\*\\*Abdomen\\*\\*: stomach, kidneys, bladder, cord insertion\n- \\*\\*Limbs\\*\\*: long bones, digits\n- \\*\\*Placenta\\*\\*: position, maturity, Doppler flows\n- \\*\\*Amniotic fluid volume assessment\\*\\*\n\n## Reasons for Taking a Pregnancy TIFFA/Anomaly (Level 2) Ultrasound Scan\n\n- Identify structural birth defects early.\n- Check fetal growth against gestational age.\n- Guide further invasive or non-invasive testing decisions.\n\n## Benefits of Taking the Scan\n\n- \\*\\*Early reassurance\\*\\* or timely intervention if needed.\n- \\*\\*Birth planning\\*\\* for specialized delivery or neonatal care.\n- \\*\\*Parental psychological preparedness\\*\\*—knowing what to expect.\n\n## Illnesses Diagnosed with the Scan\n\n- Neural tube defects (spina bifida, anencephaly)\n- Congenital heart disease\n- Cleft lip/palate\n- Renal agenesis or obstruction\n- Skeletal dysplasias\n\n## Preparing for Pregnancy TIFFA/Anomaly (Level 2) Ultrasound Scan\n\n- \\*\\*Hydration\\*\\*: Drink 500 ml water 30 minutes prior (full bladder may be required).\n- \\*\\*Clothing\\*\\*: Wear a loose 2-piece outfit for easy abdomen access.\n- \\*\\*Carry\\*\\*: Previous scan reports and obstetric notes.\n## Prerequisites\n- Referral from obstetrician.\n- Confirmed gestational age via earlier dating scan.\n## Best Time to Take the Scan\n- Window \\*\\*18–22 weeks\\*\\* for highest diagnostic accuracy.\n- Avoid after 24 weeks—structures become less visible due to ossification.\n## Eligibility\n- \\*\\*All pregnant women\\*\\* as routine antenatal care.\n- Higher priority for AMA (>35 yrs), diabetes, previous anomaly.\n## Procedure at Cadabams Diagnostics\n1. \\*\\*Check-in & verification\\*\\* of identity.\n2. Lie on scan couch, gel applied to abdomen.\n3. \\*\\*Duration\\*\\*: 30–45 minutes depending on fetal cooperation.\n4. \\*\\*Real-time discussion\\*\\* of findings with radiologist.\n## Caution Before Taking the Test\n- Inform sonographer of any implanted devices or scars.\n- Report vaginal bleeding or pain immediately."
+    },
+    {
+      "id": "673d98ac534c72d341052ae0",
+      "templateName": "non-labtest",
+      "testName": "PREGNANCY INTERVAL GROWTH SCAN WITH BPP & DOPPLER ULTRASOUND SCAN ",
+      "route": "/pregnancy-interval-growth-scan-with-bpp-and-doppler-ultrasound",
+      "basic_info": {
+        "name": "PREGNANCY INTERVAL GROWTH SCAN WITH BPP & DOPPLER ULTRASOUND SCAN ",
+        "route": "/pregnancy-interval-growth-scan-with-bpp-and-doppler-ultrasound",
+        "categoryId": "671b5102ad9bf8d210384d1c",
+        "price": 1900,
+        "alsoKnownAs": "",
+        "discount": "0",
+        "discountedPrice": "1900.00",
+        "reportsWithin": "6 hrs",
+        "Identifies": "",
+        "measures": "",
+        "testId": 7770106,
+        "testCategory": "Ultrasonography"
+      },
+      "requisites": [],
+      "interpretations": {
+        "title": "Results and Interpretations ",
+        "cols": [
+          "Finding / Observation",
+          "Description",
+          "General Interpretation / Significance"
+        ],
+        "rows": [
+          [
+            "BPP Score 8–10",
+            "All parameters normal",
+            "Reassuring fetal well-being"
+          ],
+          [
+            "BPP Score 6",
+            "One parameter borderline",
+            "Repeat within 24 hours or deliver if ≥37 weeks"
+          ],
+          [
+            "Umbilical artery PI >95th centile",
+            "High resistance",
+            "Possible placental insufficiency"
+          ],
+          [
+            "MCA PI <5th centile",
+            "Brain-sparing effect",
+            "Sign of fetal compromise"
+          ],
+          [
+            "AFI <5 cm",
+            "Oligohydramnios",
+            "Consider further investigation or delivery"
+          ]
+        ]
+      },
+      "faqs": [
+        {
+          "question": "How long does the scan take?",
+          "answer": "~45 minutes including report discussion."
+        },
+        {
+          "question": "Is fasting required",
+          "answer": "No, eat normally; a light snack helps fetal activity."
+        },
+        {
+          "question": "When will I get the report?",
+          "answer": "Immediately after the scan; digital copy also available."
+        },
+        {
+          "question": "Can I bring a companion?",
+          "answer": "Yes, one adult family member is welcome."
+        },
+        {
+          "question": "Does insurance cover the scan",
+          "answer": "Most maternity packages include this test—verify at Cadabams front desk."
+        }
+      ],
+      "relative_test": {
+        "title": "",
+        "categoryId": "671b5102ad9bf8d210384d1c",
+        "tests": [
+          {
+            "id": "6735e71803598b92c151c9f2",
+            "testName": "US GUIDED BREAST BIOPSY",
+            "route": "/breast-biopsy-scan"
+          },
+          {
+            "id": "6736ed7d03598b92c151ce21",
+            "testName": "US PENILE DOPPLER WITH TABLET/INJECTION",
+            "route": "/penile-doppler-ultrasound-scan"
+          },
+          {
+            "id": "6736f1c103598b92c151ce6f",
+            "testName": "US BREAST",
+            "route": "/sonomammography-ultrasound-scan"
+          },
+          {
+            "id": "6736f48703598b92c151cf12",
+            "testName": "US THYROID ELASTOGRAPHY",
+            "route": "/thyroid-scan"
+          },
+          {
+            "id": "6736fdc303598b92c151d13e",
+            "testName": "ECHO",
+            "route": "/echocardiogram-testing"
+          },
+          {
+            "id": "673712ef996e7737b6f4dd40",
+            "testName": "US ELASTOGRAPHY",
+            "route": "/elastography-ultrasound-test"
+          },
+          {
+            "id": "673724eb996e7737b6f4dfbc",
+            "testName": "US SCROTUM ",
+            "route": "/testis-ultrasound-scan"
+          },
+          {
+            "id": "673729fa996e7737b6f4e0f3",
+            "testName": "US PELVIS (TVS)",
+            "route": "/ultrasound-of-transvaginal-scan-tvs"
+          },
+          {
+            "id": "67373672996e7737b6f4e274",
+            "testName": "US ABDOMEN - PELVIS",
+            "route": "/abdomen-and-pelvis-ultrasound-scans"
+          },
+          {
+            "id": "673c56c5effae454707dfe68",
+            "testName": "US ABDOMEN -PELVIS TVS",
+            "route": "/abdominal-ultrasound"
+          },
+          {
+            "id": "673c8097effae454707e01a3",
+            "testName": "US PELVIS",
+            "route": "/pelvis-ultrasound"
+          },
+          {
+            "id": "6799e782bf2a88a244a69719",
+            "testName": "US SONOFISTULOGRAM",
+            "route": "/sonofistulogram-ultrasound-scan"
+          },
+          {
+            "id": "679b3aecbf2a88a244a6b50a",
+            "testName": "VENOUS DOPPLER STUDY OF BILATERAL LOWER LIMB",
+            "route": "/venous-doppler-study-ultrasound-scan"
+          },
+          {
+            "id": "679b3cd2bf2a88a244a6b525",
+            "testName": "US PREGNANCY GROWTH SCAN WITH BPP DOPPLER*",
+            "route": "/pregnancy-growth-scan-ultrasound-scan"
+          },
+          {
+            "id": "679b4c54bf2a88a244a6b708",
+            "testName": "TMT",
+            "route": "/treadmill-ultrasound-scan"
+          },
+          {
+            "id": "679c74afbf2a88a244a6ed60",
+            "testName": "ULTRASOUND OF NECK",
+            "route": "/neck-ultrasound-scan"
+          },
+          {
+            "id": "679c86b9bf2a88a244a6f03a",
+            "testName": "ULTRASOUND GROWTH SCAN",
+            "route": "/growth-scan-ultrasound"
+          },
+          {
+            "id": "67a0bafcbf2a88a244a77549",
+            "testName": "ULTRASOUND OF EARLY PREGNANCY SCAN",
+            "route": "/early-pregnancy-ultrasound-scan"
+          },
+          {
+            "id": "67a1b8d727567f98e56d25af",
+            "testName": "US DOPPLER VENOUS LOWER LIMB - LEFT",
+            "route": "/doppler-venous-left-lower-limb-ultrasound"
+          },
+          {
+            "id": "67a1bbb227567f98e56d2679",
+            "testName": "US THYROID/NECK",
+            "route": "/thyroid-neck-ultrasound-scan"
+          },
+          {
+            "id": "67a1ca5f27567f98e56d2be6",
+            "testName": "VENOUS COLOUR DOPPLER",
+            "route": "/venous-colour-doppler-ultrasound-scan"
+          },
+          {
+            "id": "67a1d39b27567f98e56d2cac",
+            "testName": "US SOFT TISSUE SCAN ",
+            "route": "/soft-tissue-ultrasound-scan"
+          },
+          {
+            "id": "67a1d50627567f98e56d2cc7",
+            "testName": "ARTERIAL COLOUR DOPPLER",
+            "route": "/arterial-colour-doppler-ultrasound-scan"
+          },
+          {
+            "id": "67a9acd8a45909fb1bd0f97d",
+            "testName": "FOLLICULAR STUDY",
+            "route": "/follicular-study-ultrasound-scan"
+          },
+          {
+            "id": "67a9b364a45909fb1bd0fa5d",
+            "testName": "US SMALL PARTS",
+            "route": "/small-parts-ultrasound-scan"
+          },
+          {
+            "id": "67ac7bbba45909fb1bd13977",
+            "testName": "US PREGNANCY INTERVAL GROWTH SCAN - TWINS",
+            "route": "/pregnancy-intereval-growth-ultrasound-scan"
+          },
+          {
+            "id": "67ac8481a45909fb1bd13c0b",
+            "testName": "TRANSRECTAL ULTRASONOGRAPHY (TRUSS)",
+            "route": "/transrectal-ultrasound-scan"
+          },
+          {
+            "id": "67ac8549a45909fb1bd13c27",
+            "testName": "US GUIDED FNAC",
+            "route": "/guided-fnac-ultrasound-scan"
+          },
+          {
+            "id": "67ad9898a45909fb1bd15570",
+            "testName": "US DOPPLER VENOUS LOWER LIMB - BOTH",
+            "route": "/doppler-venous-lower-limb-ultrasound-scan"
+          },
+          {
+            "id": "67af2565a45909fb1bd1843d",
+            "testName": "CAROTID DOPPLER",
+            "route": "/carotid-doppler-ultrasound-scan"
+          },
+          {
+            "id": "67af28aca45909fb1bd184fd",
+            "testName": "US DOPPLER - CAROTID & VERTEBRAL ",
+            "route": "/doppler-carotid-and-vertebral-ultrasound-scan"
+          },
+          {
+            "id": "67b2f5b4a45909fb1bd1de00",
+            "testName": "US PELVIS SPECIAL STUDY",
+            "route": "/pelvis-special-study-ultrasound-scan"
+          },
+          {
+            "id": "67b4727da45909fb1bd20f21",
+            "testName": "COLOUR DOPPLER RENAL ARTERIES / ANY OTHER ORGAN",
+            "route": "/colour-doppler-renal-arteries-ultrasound-scan"
+          },
+          {
+            "id": "67b8383fa45909fb1bd280e9",
+            "testName": "OBSTETRIC SCAN FOR BIOPHYSICAL PROFILE (BPP)",
+            "route": "/obstetric-biophysical-profile-ultrasound-scan"
+          },
+          {
+            "id": "67bde09a16444f3c114dbe00",
+            "testName": "US DOPPLER ARTERIAL LOWER LIMB - LEFT",
+            "route": "/doppler-arterial-lower-limb-left-ultrasound-scan"
+          },
+          {
+            "id": "67bde36416444f3c114dbe1f",
+            "testName": "US DOPPLER AVF",
+            "route": "/doppler-avf-ultrasound-scan"
+          },
+          {
+            "id": "67c02bb116444f3c114df7ca",
+            "testName": "DOPPLER STUDY OF SCROTUM",
+            "route": "/doppler-study-of-scrotum-ultrasound-scan"
+          },
+          {
+            "id": "67e681b516444f3c11523ebd",
+            "testName": "US FOLLICULAR FOLLOWUP",
+            "route": "/follicular-follow-up-ultrasound-scan"
+          },
+          {
+            "id": "67e683d116444f3c11523f51",
+            "testName": "US DATING TVS SCAN",
+            "route": "/dating-transvaginal-scanning-tvs-ultrasound-scan"
+          },
+          {
+            "id": "67e6860a16444f3c11523fba",
+            "testName": "ULTRASOUND OF BOTH BREASTS",
+            "route": "/both-breasts-ultrasound-scan"
+          },
+          {
+            "id": "67e687e216444f3c11523fea",
+            "testName": "US SHORT SCAN",
+            "route": "/short-ultrasound-scan"
+          },
+          {
+            "id": "67e68a0b16444f3c1152404b",
+            "testName": "OBSTETRIC FETAL DOPPLER",
+            "route": "/obstetric-foetal-doppler-ultrasound-scan"
+          },
+          {
+            "id": "67e68c2616444f3c11524084",
+            "testName": "US PELVIS 3D ",
+            "route": "/pelvis-3d-ultrasound-scan"
+          },
+          {
+            "id": "67ec0ec816444f3c1152e4c9",
+            "testName": "US DOPPLER VENOUS LOWER LIMB - RIGHT",
+            "route": "/doppler-venous-right-lower-limb-ultrasound-scan"
+          },
+          {
+            "id": "67ec11d316444f3c1152e589",
+            "testName": "US PREGNANCY NT SCAN - TWINS",
+            "route": "/pregnancy-nt-scan-twins-ultrasound-scan"
+          },
+          {
+            "id": "67ec146216444f3c1152e5c4",
+            "testName": "US DOPPLER VENOUS UPPER LIMB - BOTH",
+            "route": "/doppler-venous-upper-limb-ultrasound-scan"
+          },
+          {
+            "id": "67ec16d516444f3c1152e5e9",
+            "testName": "US BREAST SINGLE ",
+            "route": "/single-breast-ultrasound-scan"
+          },
+          {
+            "id": "67edff4416444f3c115312af",
+            "testName": "US TVS - ADDITIONAL CHARGES",
+            "route": "/tvs-additional-charges-ultrasound-scan"
+          },
+          {
+            "id": "67ee037416444f3c115312ee",
+            "testName": "US DOPPLER ABDOMEN",
+            "route": "/abdomen-doppler-ultrasound-scan"
+          },
+          {
+            "id": "67f3e8de16444f3c1153ae09",
+            "testName": "US DOPPLER ARTERIAL LOWER LIMB - RIGHT",
+            "route": "/doppler-arterial-lower-limb-right-ultrasound-scan"
+          },
+          {
+            "id": "680b8c9416444f3c11568f64",
+            "testName": "US RENAL DOPPLER",
+            "route": "/renal-doppler-ultrasound-scan"
+          },
+          {
+            "id": "680b9df916444f3c115691a7",
+            "testName": "US NEURO SONOGRAM",
+            "route": "/nuero-sonogram-ultrasound-scan"
+          },
+          {
+            "id": "680ba19b16444f3c11569206",
+            "testName": "US PREGNANCY TIFFA SCAN - TWINS - LEVEL 2",
+            "route": "/pregnancy-tiffa-twin-ultrasound-scan"
+          },
+          {
+            "id": "680ba4d516444f3c11569288",
+            "testName": "US GUIDED BIOPSY",
+            "route": "/guided-biopsy-ultrasound-scan"
+          },
+          {
+            "id": "680f3e8f16444f3c1156f68a",
+            "testName": "US PREGNANCY AMNIOCENTESIS",
+            "route": "/pregnanacy-amniocentesis-ultrasound-scan"
+          },
+          {
+            "id": "6841615116444f3c115dc079",
+            "testName": "ULTRASOUND OF TRANSVAGINAL SCAN (TVS)",
+            "route": "/ttsound"
+          },
+          {
+            "id": "684a89e316444f3c115f11be",
+            "testName": "ULTRASOUND OF CHEST",
+            "route": "/chest-ultrasound-scan"
+          },
+          {
+            "id": "684a8ed016444f3c115f141c",
+            "testName": "USG MSK GUIDED INJECTION 1",
+            "route": "/musculoskeletal-guided-injection-1-ultrasound-scan"
+          }
+        ]
+      },
+      "seo": {
+        "title": "Pregnancy Interval Growth Scan with BPP & Doppler at Cadabams",
+        "description": "Pregnancy Growth Scan (with BPP & Doppler): Vital for monitoring fetal growth, procedure details, and benefits explained. Expert care at Cadabams.",
+        "keywords": "",
+        "canonicalUrl": "",
+        "ogTitle": "",
+        "ogDescription": "",
+        "ogImage": "",
+        "schemaMarkup": "",
+        "robotsMeta": ""
+      },
+      "markdown": "## Pregnancy Interval Growth Scan with BPP & Doppler Ultrasound Scan Overview\n\n### Purpose of the Scan\nThe \\*\\*Pregnancy Interval Growth Scan with BPP & Doppler Ultrasound Scan\\*\\* is a specialised third-trimester ultrasound that tracks your baby’s growth velocity, checks the placenta’s efficiency, and evaluates blood flow to and from the baby.\n### Key Benefits for Mother and Baby\n\\* Confirms adequate fetal oxygenation and nutrient supply\n\\* Detects early signs of growth restriction or placental insufficiency\n\\* Guides timely medical intervention to lower stillbirth risk\n\\* Provides reassurance to expectant parents with detailed visual feedback\n---\n## What Is Pregnancy Interval Growth Scan with BPP & Doppler Ultrasound Scan?\n### Understanding the Biophysical Profile (BPP)\nThe \\*\\*Biophysical Profile\\*\\* is a 30-minute, non-invasive test that scores five vital fetal behaviours:\n| Parameter | Points | Normal Range |\n|---------------------------|--------|--------------|\n| Breathing movements | 0–2 | ≥1 episode ≥30 sec |\n| Gross body movements | 0–2 | ≥3 discrete movements |\n| Fetal tone | 0–2 | ≥1 extension-flexion |\n| Amniotic fluid index (AFI)| 0–2 | ≥8 cm |\n| Non-stress test (NST)\\* | 0–2 | Reactive |\n\\*Added if clinically required.\n### Role of Doppler Ultrasound in Pregnancy\nDoppler \\*\\*measures blood-flow velocity\\*\\* in the umbilical artery and, when needed, the \\*\\*middle cerebral artery (MCA)\\*\\*. This reveals whether the baby is compensating for reduced placental function by redistributing blood flow.\n### Difference Between Routine Growth Scan and BPP+Doppler\n- \\*\\*Routine growth scan\\*\\*: Assesses size, weight, and amniotic fluid only.\n- \\*\\*Pregnancy interval growth scan with BPP & Doppler ultrasound scan\\*\\*: Adds functional evaluation of placental efficiency and fetal oxygenation.\n---\n## Types of Scans Available at Cadabams Diagnostics\n| Type | Technology Highlights | When to Choose |\n|----------------------|------------------------------------|----------------|\n| Standard 2D BPP & Doppler | Reliable, quick, insurance-covered | Routine care |\n| 3D/4D BPP Doppler add-on | Real-time 3D fetal face & body | Extra bonding & souvenir images\\* |\n\\*Optional add-on, additional charge applies.\n---\n\n## When and Who Needs the Scan?\n\n### Recommended Gestational Weeks\n- \\*\\*28–40 weeks\\*\\*: Standard interval scan every 3–4 weeks.\n- \\*\\*Weekly or bi-weekly\\*\\*: If intrauterine growth restriction (IUGR) or placental issues are suspected.\n### High-Risk Pregnancy Indicators\n\\* Diabetes, hypertension, or pre-eclampsia\n\\* Previous IUGR or stillbirth\n\\* Decreased fetal movements\n\\* Abnormal fundal height curve\n\\* Twin or multiple pregnancy\n### Doctor Referral Criteria\nAny consultant obstetrician or gynaecologist can refer. Bring your pregnancy notes and any previous scan reports.\n---\n\n## Risks & Limitations\n\n- \\*\\*Safety\\*\\*: Ultrasound uses \\*\\*no radiation\\*\\*; hundred-thousand-plus scans show no harmful effects.\n- \\*\\*Limitations\\*\\*:\n\\* Maternal obesity may reduce image clarity.\n\\* Severe oligohydramnios can obscure some views.\n---\n\n## Parameters Assessed During the Scan\n\n- \\*\\*Fetal breathing movements\\*\\*\n- \\*\\*Gross body movements\\*\\*\n- \\*\\*Fetal tone\\*\\*\n- \\*\\*Amniotic Fluid Index (AFI)\\*\\*\n- \\*\\*Umbilical Artery Doppler\\*\\*\n- \\*\\*Middle Cerebral Artery Doppler (if clinically indicated)\\*\\*\n---\n\n## Reasons for Taking the Scan\n\n- Monitor \\*\\*fetal growth velocity\\*\\*\n- Evaluate \\*\\*placental function\\*\\*\n- Assess \\*\\*fetal oxygenation status\\*\\*\n---\n\n## Benefits of Taking the Scan\n\n- \\*\\*Early detection\\*\\* of IUGR\n- \\*\\*Timely intervention\\*\\* (e.g., delivery planning, steroid administration)\n- \\*\\*Reassurance\\*\\* when results are normal\n---\n\n## Illnesses Diagnosed\n\n| Illness/Observation | Significance |\n|----------------------------------|--------------|\n| Intrauterine Growth Restriction (IUGR) | Fails to meet growth potential |\n| Placental insufficiency | Inadequate nutrient/oxygen transfer |\n| Oligohydramnios / Polyhydramnios | Abnormal fluid volume |\n| Abnormal fetal blood flow | Indicates fetal compromise |\n---\n\n## Preparing for Your Visit\n\n- \\*\\*Wear loose clothing\\*\\* for easy abdominal access.\n- \\*\\*Bring prior scan reports\\*\\* for comparison.\n- \\*\\*Have a light snack or juice\\*\\* 20 min before to encourage fetal activity.\n---\n## Prerequisites\n- Signed referral from your obstetrician\n- Valid pregnancy notes or maternity booklet\n---\n## Best Time to Schedule\n- \\*\\*Optimal\\*\\*: 28–36 weeks for interval growth pattern.\n- \\*\\*Follow-up\\*\\*: Weekly or bi-weekly if IUGR suspected.\n---\n## Eligibility\n- All pregnant women \\*\\*≥28 weeks gestation\\*\\*\n- Especially recommended for \\*\\*high-risk pregnancies\\*\\*\n---\n## Step-by-Step Procedure\n1. \\*\\*Check-in & ID verification\\*\\* at Cadabams Diagnostics reception\n2. \\*\\*Ultrasound gel\\*\\* applied to abdomen\n3. \\*\\*BPP scoring\\*\\* over ~30 minutes\n4. \\*\\*Doppler measurements\\*\\* (umbilical & MCA) in 10–15 minutes\n5. \\*\\*Report printed\\*\\* and explained by the sonographer; digital copy sent via email/SMS\n---\n## Caution Before the Scan\n- Inform your sonographer of \\*\\*latex allergy\\*\\*\n- Report any \\*\\*vaginal bleeding or ruptured membranes\\*\\*\n---"
+    },
+    {
+      "id": "673da0cf534c72d341052bb7",
+      "templateName": "non-labtest",
+      "testName": "PREGNANCY DATING ULTRASOUND SCAN",
+      "route": "/pregnancy-dating-scan-ultrasound",
+      "basic_info": {
+        "name": "PREGNANCY DATING ULTRASOUND SCAN",
+        "route": "/pregnancy-dating-scan-ultrasound",
+        "categoryId": "671b5102ad9bf8d210384d1e",
+        "price": 1250,
+        "alsoKnownAs": "",
+        "discount": "0",
+        "discountedPrice": "1250.00",
+        "reportsWithin": "3hrs",
+        "Identifies": "",
+        "measures": "",
+        "testId": 7770115,
+        "testCategory": "Ultrasonography"
+      },
+      "requisites": [],
+      "interpretations": {
+        "title": "Results and Interpretations ",
+        "cols": [
+          "Finding / Observation",
+          "Description",
+          "General Interpretation / Significance"
+        ],
+        "rows": [
+          [
+            "CRL 10 mm",
+            "Crown-rump length measured",
+            "7 weeks 0 days gestation – normal"
+          ],
+          [
+            "Gestational sac 25 mm",
+            "Intrauterine circular sac visible",
+            "Consistent with 7 weeks"
+          ],
+          [
+            "Yolk sac 3 mm",
+            "Small circle inside sac",
+            "Healthy early pregnancy"
+          ],
+          [
+            "Heart rate 110 bpm",
+            "Flickering seen on screen",
+            "Normal for 6–7 weeks"
+          ],
+          [
+            "Empty sac ≥25 mm",
+            "No embryo or yolk sac",
+            "Possible miscarriage—follow-up scan advised"
+          ]
+        ]
+      },
+      "faqs": [
+        {
+          "question": "Is the scan painful?",
+          "answer": "Most women feel only mild pressure; transvaginal scans are quick and well-tolerated."
+        },
+        {
+          "question": "Can I bring my partner?",
+          "answer": "Absolutely—our ultrasound suites accommodate two guests comfortably."
+        },
+        {
+          "question": "What if no heartbeat is seen?",
+          "answer": "It may simply be too early. A repeat scan in one week is usually recommended."
+        },
+        {
+          "question": "How accurate is the estimated due date?",
+          "answer": "With CRL measurement at 6–9 weeks, accuracy is ±3–5 days."
+        },
+        {
+          "question": "Do I need a full bladder?",
+          "answer": "Only for abdominal scans. We’ll text you clear instructions the day before."
+        }
+      ],
+      "relative_test": {
+        "title": "",
+        "categoryId": "671b5102ad9bf8d210384d1e",
+        "tests": [
+          {
+            "id": "6736e08403598b92c151cd9b",
+            "testName": "Fetal Imaging",
+            "route": "/fetal-imaging"
+          },
+          {
+            "id": "6736e2f403598b92c151cdc2",
+            "testName": " Fetal Interventional Services ",
+            "route": "/fetal-interventional"
+          },
+          {
+            "id": "67371c29996e7737b6f4de55",
+            "testName": "Pregnancy Ultrasound",
+            "route": "/pregnancy-ultrasound"
+          },
+          {
+            "id": "673d8cfdeffae454707e0dab",
+            "testName": "Ultrasound Pregnancy TIFFA Anomaly Scan (Level 2) ",
+            "route": "/ultrasound-pregnancy-tiffa-anomaly-scan-level-2"
+          },
+          {
+            "id": "673d98ac534c72d341052ae0",
+            "testName": "Ultrasound Pregnancy Interval Growth Scan with BPP and Doppler ",
+            "route": "/ultrasound-pregnancy-interval-growth-scan-with-bpp-and-doppler"
+          }
+        ]
+      },
+      "seo": {
+        "title": "Pregnancy Dating Ultrasound Scan at Cadabams Diagnostics | Book Today",
+        "description": "A dating scan at 6–9 weeks ensures accurate due dates and early reassurance for safer care. Book your pregnancy ultrasound at Cadabams Diagnostics.",
+        "keywords": "",
+        "canonicalUrl": "",
+        "ogTitle": "",
+        "ogDescription": "",
+        "ogImage": "",
+        "schemaMarkup": "",
+        "robotsMeta": ""
+      },
+      "markdown": "## Pregnancy Dating Ultrasound Scan Overview\n\n- \\*\\*Purpose:\\*\\* Measure gestational age and establish a reliable due date\n- \\*\\*Timing:\\*\\* Most accurate at \\*\\*6–9 weeks\\*\\* after your last menstrual period (LMP)\n- \\*\\*Impact:\\*\\* Provides the baseline for every future prenatal test, screening, and appointment\n## What is Pregnancy Dating Ultrasound Scan?\nA \\*\\*pregnancy dating ultrasound scan\\*\\* is a painless imaging test that uses high-frequency sound waves to capture real-time images of your uterus and embryo. Unlike later \\*\\*anatomy scans\\*\\* that check organ formation, this early scan focuses on size, location, and heartbeat to pinpoint gestational age.\n## Types of Pregnancy Dating Ultrasound Scan\n| Method | When Used | Pros |\n|---|---|---|\n| \\*\\*Transvaginal\\*\\* | 5–9 weeks | Higher-resolution images, earlier detection |\n| \\*\\*Transabdominal\\*\\* | After 9 weeks | Comfortable, no internal probe |\nYour sonographer will choose the approach that gives the clearest view for your stage of pregnancy.\n\n## When and Who Needs to Take a Pregnancy Dating Ultrasound Scan?\n\n- \\*\\*Ideal window:\\*\\* 6–9 weeks from LMP\n- \\*\\*Must-have if you:\\*\\*\n• Have irregular periods\n• Are unsure of your LMP date\n• Have conceived via assisted reproduction\n- \\*\\*Not needed if you already have an accurate dating scan from another provider\\*\\*\n\n## Risks & Limitations of the Pregnancy Dating Ultrasound Scan\n\n- \\*\\*Safety:\\*\\*\n• Zero radiation—only harmless sound waves\n• No known side-effects for mother or baby\n- \\*\\*Limitations:\\*\\*\n• Heartbeat may not yet be visible before \\*\\*5.5 weeks\\*\\*\n• Too-early scans can lead to inconclusive results\n\n## List of Parameters Considered During the Pregnancy Dating Ultrasound Scan\n\n- \\*\\*Crown-rump length (CRL)\\*\\* – most accurate dating metric\n- \\*\\*Gestational sac diameter\\*\\* – confirms intrauterine pregnancy\n- \\*\\*Yolk sac presence & size\\*\\* – indicates healthy early placenta formation\n- \\*\\*Fetal heartbeat rate\\*\\* – should be 90–110 bpm at 6 weeks and rise steadily\n\n## Reasons for Taking a Pregnancy Dating Ultrasound Scan\n\n1. \\*\\*Accurate due date\\*\\* – avoids induction or premature delivery\n2. \\*\\*Confirm intrauterine pregnancy\\*\\* – rules out ectopic risks\n3. \\*\\*Early detection of miscarriage or molar pregnancy\\*\\*\n\n## Benefits of Taking the Pregnancy Dating Ultrasound Scan\n\n- \\*\\*Reassurance & bonding\\*\\* – see your baby’s heartbeat for the first time\n- \\*\\*Optimised scheduling\\*\\* – perfect timing for NIPT, NT scan, and anomaly scan\n- \\*\\*Prevents unnecessary interventions\\*\\* – precise dating reduces false alarms\n\n## Illnesses Diagnosed with Pregnancy Dating Ultrasound Scan\n\n| Condition | What the Scan Shows |\n|---|---|\n| \\*\\*Ectopic pregnancy\\*\\* | Sac outside the uterus |\n| \\*\\*Missed miscarriage\\*\\* | Empty sac or no heartbeat |\n| \\*\\*Molar pregnancy\\*\\* | Cluster of abnormal grape-like tissue |\n\n## Preparing for Pregnancy Dating Ultrasound Scan\n\n- \\*\\*Wear\\*\\* loose, two-piece clothing for easy abdominal access\n- \\*\\*Bring\\*\\* your partner or a support person—our rooms are designed for two\n- \\*\\*Mental prep:\\*\\* Ask questions; we explain every image on-screen\n## Pre-requisites Pregnancy Dating Ultrasound Scan\n- Positive home pregnancy test \\*\\*or\\*\\* doctor referral\n- Record of your last menstrual period—even approximate dates help\n## Best Time to Take the Pregnancy Dating Ultrasound Scan\n- \\*\\*Optimal:\\*\\* 6–9 weeks gestation\n- \\*\\*Avoid:\\*\\* Before 5 weeks to minimise inconclusive results\n- \\*\\*Tip:\\*\\* Book as soon as you miss a period and get a positive test\n## Eligibility\n- \\*\\*Suitable for:\\*\\* All pregnant women, especially those unsure of LMP\n- \\*\\*Not suitable for:\\*\\* Confirmed miscarriages or non-pregnant individuals\n## Procedure for Taking a Pregnancy Dating Ultrasound Scan\n1. \\*\\*Check-in\\*\\* with ID and referral at Cadabams Diagnostics reception\n2. \\*\\*Pre-scan brief\\*\\* – you’ll be asked about symptoms and LMP\n3. \\*\\*Positioning\\*\\* – lie comfortably on the ultrasound couch\n4. \\*\\*Scanning\\*\\* – 15–30 minutes of gentle imaging\n5. \\*\\*Instant report\\*\\* – printed and emailed to you and your doctor\n## Caution Before Taking the Test\n- \\*\\*Report\\*\\* any bleeding, pain, or dizziness to the sonographer\n- \\*\\*Bladder:\\*\\*\n• \\*\\*Full\\*\\* for transabdominal scan\n• \\*\\*Empty\\*\\* if transvaginal scan is likely—follow the SMS instructions we send"
+    },
+    {
+      "id": "673daea5534c72d341052c0a",
+      "templateName": "non-labtest",
+      "testName": "PREGNANCY NT SCAN (LEVEL 2 ) ULTRASOUND SCAN",
+      "route": "/nt-scan-level-2-pregnancy-ultrasound",
+      "basic_info": {
+        "name": "PREGNANCY NT SCAN (LEVEL 2 ) ULTRASOUND SCAN",
+        "route": "/nt-scan-level-2-pregnancy-ultrasound",
+        "categoryId": "671b5102ad9bf8d210384d1c",
+        "price": 1950,
+        "alsoKnownAs": "",
+        "discount": "0",
+        "discountedPrice": "1950.00",
+        "reportsWithin": "3hrs",
+        "Identifies": "",
+        "measures": "",
+        "testId": 7770107,
+        "testCategory": "Ultrasonography"
+      },
+      "requisites": [],
+      "interpretations": {
+        "title": "Results and Interpretations  ",
+        "cols": [
+          "Report",
+          "Description",
+          ""
+        ],
+        "rows": [
+          [
+            "Same-day report",
+            "Delivered via secure email or printed copy.",
+            ""
+          ],
+          [
+            "Risk score",
+            "Expressed as 1 in X (e.g., 1 in 1,000).",
+            ""
+          ],
+          [
+            "Next steps",
+            "Low-risk: routine follow-up; High-risk: genetic counseling and optional invasive testing.",
+            ""
+          ],
+          [
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "",
+            ""
+          ]
+        ]
+      },
+      "faqs": [
+        {
+          "question": "Is the NT scan painful?",
+          "answer": "No. You may feel slight pressure on your abdomen or mild discomfort with a trans-vaginal probe, but it is quick and generally pain-free."
+        },
+        {
+          "question": "Can I eat before the scan?",
+          "answer": "Yes. A light meal is fine. A comfortably full bladder is more important than an empty stomach."
+        },
+        {
+          "question": "What if my NT measurement is high?",
+          "answer": "A measurement >3 mm triggers a referral to our genetic counselor. Additional non-invasive prenatal testing (NIPT) or chorionic villus sampling (CVS) may be offered."
+        },
+        {
+          "question": "How soon will I get results?",
+          "answer": "Preliminary findings are shared the same day. The full report, including risk calculation, is emailed within 6 hours."
+        },
+        {
+          "question": "Does a normal NT scan rule out all abnormalities?",
+          "answer": "No test is perfect. A normal NT greatly lowers the risk but does not eliminate it; later anomaly scans and optional NIPT still have value."
+        }
+      ],
+      "relative_test": {
+        "title": "",
+        "categoryId": "671b5102ad9bf8d210384d1e",
+        "tests": [
+          {
+            "id": "6736e08403598b92c151cd9b",
+            "testName": "MRI FETAL",
+            "route": "/fetal-imaging"
+          },
+          {
+            "id": "6736e2f403598b92c151cdc2",
+            "testName": "US PREGNANCY FETAL ECHO",
+            "route": "/fetal-interventional-ultrasound-echo"
+          },
+          {
+            "id": "67371c29996e7737b6f4de55",
+            "testName": "Pregnancy Ultrasound",
+            "route": "/pregnancy-ultrasound"
+          },
+          {
+            "id": "673d8cfdeffae454707e0dab",
+            "testName": "US PREGNANCY TIFFA SCAN / ANOMALY SCAN (LEVEL2)",
+            "route": "/pregnancy-tiffa-anomaly-scan-level-2-ultrasound"
+          },
+          {
+            "id": "673d98ac534c72d341052ae0",
+            "testName": "US PREGNANCY INTERVAL GROWTH SCAN WITH BPP AND DOPPLER",
+            "route": "/pregnancy-interval-growth-scan-with-bpp-and-doppler-ultrasound"
+          },
+          {
+            "id": "673da0cf534c72d341052bb7",
+            "testName": "US PREGNANCY DATING SCAN",
+            "route": "/pregnancy-dating-scan-ultrasound"
+          }
+        ]
+      },
+      "seo": {
+        "title": "Pregnancy NT Scan (Level 2) Ultrasound Scan at Cadabams",
+        "description": "Learn everything about the Pregnancy NT Scan (Level 2) Ultrasound Scan—timing, procedure, benefits, and results—brought to you by Cadabams Diagnostics.",
+        "keywords": "",
+        "canonicalUrl": "",
+        "ogTitle": "",
+        "ogDescription": "",
+        "ogImage": "",
+        "schemaMarkup": "",
+        "robotsMeta": ""
+      },
+      "markdown": "## Pregnancy NT Scan (Level 2) Overview\n\n### What Makes the Level 2 NT Scan Unique\n- \\*\\*Higher detail\\*\\*: Uses advanced transducers and settings for clearer images of tiny fetal structures.\n- \\*\\*More parameters\\*\\*: Adds nasal bone, heart valves, and blood-flow studies beyond routine scans.\n- \\*\\*Risk calculation\\*\\*: Feeds findings into software that pairs ultrasound data with blood tests for precise risk scores.\n### How It Differs From Basic Ultrasound\n| Basic Ultrasound | Level 2 NT Scan |\n|------------------|-----------------|\n| Checks heartbeat & position | Measures nuchal translucency thickness |\n| Single image planes | Multiple standardized planes |\n| General reassurance | Detailed chromosomal & structural screening |\n## What Is Pregnancy NT Scan (Level 2) Ultrasound Scan?\n### Definition and Purpose\nA \\*\\*non-invasive, low-risk ultrasound\\*\\* performed between 11 and 14 weeks to:\n- Evaluate the risk of Down syndrome (Trisomy 21), Edwards syndrome (Trisomy 18), and Patau syndrome (Trisomy 13).\n- Screen for early signs of congenital heart defects and skeletal issues.\n- Confirm gestational age and viability.\n### Role of Nuchal Translucency Measurement\n- \\*\\*Normal range\\*\\*: <3 mm at 11–14 weeks.\n- \\*\\*Increased thickness\\*\\*: May indicate higher chromosomal or cardiac risk, prompting further tests like NIPT or CVS.\n## Types of Pregnancy NT Scan (Level 2) Ultrasound Scan\n### Trans-Abdominal Approach\n- \\*\\*Most common\\*\\*: Probe moved across the abdomen.\n- \\*\\*Prep\\*\\*: Drink 500 ml water 45 min before; full bladder lifts uterus for clearer view.\n### Trans-Vaginal Approach (If Indicated)\n- \\*\\*When needed\\*\\*: Maternal obesity, retroverted uterus, or early gestation.\n- \\*\\*Benefits\\*\\*: Higher-resolution images closer to the fetus.\n\n## When and Who Needs to Take a Pregnancy NT Scan (Level 2) Ultrasound Scan?\n\n### Ideal Gestational Age\n- \\*\\*Window\\*\\*: 11 weeks 0 days – 13 weeks 6 days.\n- \\*\\*Crown-rump length (CRL)\\*\\*: 45–84 mm for standardized results.\n### High-Risk Indications & Universal Screening\n- All pregnant women—regardless of age—benefit.\n- Especially advised for:\n- Maternal age ≥ 30 years.\n- Family history of chromosomal disorders.\n- Previous pregnancy with anomalies.\n- Assisted reproductive technology (IVF) pregnancies.\n\n## Risks & Limitations of the Pregnancy NT Scan (Level 2) Ultrasound Scan\n\n### Safety Profile of Ultrasound\n- \\*\\*Zero radiation\\*\\*: Uses high-frequency sound waves—safe for mother and baby.\n- \\*\\*Decades of data\\*\\*: No evidence of harm in clinical studies.\n### False-Positive & False-Negative Rates\n- \\*\\*False-positive\\*\\*: 5 %. A high NT does not always mean an affected baby.\n- \\*\\*False-negative\\*\\*: Up to 15 %. Normal NT lowers but doesn’t eliminate risk.\n\n## List of Parameters Considered During the Pregnancy NT Scan (Level 2) Ultrasound Scan\n\n- \\*\\*Nuchal translucency thickness\\*\\* – primary marker for chromosomal risk.\n- \\*\\*Nasal bone presence\\*\\* – absence linked to Down syndrome.\n- \\*\\*Crown-rump length (CRL)\\*\\* – confirms exact gestational age.\n- \\*\\*Ductus venosus flow\\*\\* – abnormal waveforms suggest cardiac stress.\n- \\*\\*Tricuspid regurgitation\\*\\* – leaky heart valve may indicate aneuploidy.\n\n## Reasons for Taking a Pregnancy NT Scan (Level 2) Ultrasound Scan\n\n- \\*\\*Early detection\\*\\* of Down syndrome, Edwards syndrome, Patau syndrome.\n- \\*\\*Structural anomaly screening\\*\\* – early hints of heart, brain, or limb defects.\n- \\*\\*Multiple pregnancy assessment\\*\\* – confirms chorionicity in twins or triplets.\n\n## Benefits of Taking the Pregnancy NT Scan (Level 2) Ultrasound Scan\n\n- \\*\\*Non-invasive screening\\*\\* – no needles, no risk of miscarriage.\n- \\*\\*Early reassurance\\*\\* – 85 % of women get low-risk results and peace of mind.\n- \\*\\*Guides further diagnostic testing\\*\\* – CVS or amniocentesis offered only when necessary.\n\n## Illnesses Diagnosed with Pregnancy NT Scan (Level 2) Ultrasound Scan\n\n- \\*\\*Chromosomal abnormalities\\*\\* – Trisomies 21, 18, 13.\n- \\*\\*Congenital heart defects\\*\\* – septal defects, valve anomalies.\n- \\*\\*Skeletal dysplasia indicators\\*\\* – shortened long bones or abnormal skull shape.\n\n## Preparing for Pregnancy NT Scan (Level 2) Ultrasound Scan\n\n- \\*\\*Hydration\\*\\*: Sip water steadily; stop 30 min before to achieve a comfortably full bladder.\n- \\*\\*Clothing\\*\\*: Two-piece outfit for easy abdomen access.\n- \\*\\*Fasting\\*\\*: Not required—enjoy your breakfast!\n## Pre-requisites Pregnancy NT Scan (Level 2) Ultrasound Scan\n- \\*\\*Doctor’s requisition\\*\\* or direct self-referral accepted at Cadabams Diagnostics.\n- \\*\\*LMP date\\*\\* or printed early dating scan report for accurate scheduling.\n## Best Time to Take the Pregnancy NT Scan (Level 2) Ultrasound Scan\n- \\*\\*Perfect window\\*\\*: 11 weeks 0 days – 13 weeks 6 days.\n- \\*\\*Too early\\*\\*: CRL <45 mm, repeat scan needed.\n- \\*\\*Too late\\*\\*: Over 14 weeks, nuchal translucency is no longer reliable.\n## Eligibility\n- \\*\\*All pregnant women\\*\\* within the gestational window.\n- \\*\\*Special consent\\*\\*: Guardian form required for mothers <18 years.\n## Procedure for Taking a Pregnancy NT Scan (Level 2) Ultrasound Scan\n1. \\*\\*Check-in & history review\\*\\* – verify dates, allergies, previous pregnancies.\n2. \\*\\*Scan duration\\*\\* – 15–30 minutes.\n3. \\*\\*Image acquisition sequence\\*\\* – standardized planes captured for audit and reporting.\n4. \\*\\*Instant preliminary discussion\\*\\* – sonographer explains key findings before you leave.\n## Caution Before Taking the Test\n- \\*\\*Full bladder vs. empty bladder\\*\\* – follow SMS instructions from Cadabams.\n- \\*\\*Report symptoms\\*\\* – inform staff of any vaginal bleeding or pelvic pain immediately."
+    }
+  ]
+}

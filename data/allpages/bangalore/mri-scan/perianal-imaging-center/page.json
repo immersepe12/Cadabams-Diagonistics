@@ -1,0 +1,2421 @@
+{
+  "type": "scan-detail",
+  "route": "/bangalore/mri-scan/perianal-imaging-center",
+  "familyPath": "mri-scan",
+  "slug": "perianal-imaging-center",
+  "test": {
+    "id": "673719ce996e7737b6f4de3a",
+    "templateName": "non-labtest",
+    "testName": "Perianal Imaging",
+    "route": "/perianal-imaging-center",
+    "basic_info": {
+      "name": "Perianal Imaging",
+      "route": "/perianal-imaging-center",
+      "categoryId": "671b5102ad9bf8d210384d1a",
+      "price": "5000",
+      "alsoKnownAs": "",
+      "discount": "0",
+      "discountedPrice": "5000.00",
+      "reportsWithin": "6 hrs",
+      "Identifies": "",
+      "measures": "",
+      "testId": ""
+    },
+    "requisites": [],
+    "interpretations": {
+      "title": "Results and Interpretations ",
+      "cols": [
+        "Diagnosis/Findings",
+        "Summary\t",
+        "Reading"
+      ],
+      "rows": [
+        [
+          "Inflammatory Patterns",
+          "Edema and thickening of the tissue\t",
+          "Corset may experience infection or other inflammatory conditions like Crohn's disease."
+        ],
+        [
+          "Fistulous Tracts\t",
+          "Tubular structures of low density on MRI\t",
+          "Presence of fistulae, potentially arising from conditions like Crohn's disease."
+        ],
+        [
+          "Abscess Formation\t",
+          "Collection of pus surrounded by tissues in the walls of the abdominal cavity\t",
+          "Indicates localized pus accumulation requiring surgical or medical procedures for drainage."
+        ]
+      ]
+    },
+    "faqs": [
+      {
+        "question": "Where can I get a reliable perianal scan in Bangalore?",
+        "answer": "Cadabam's Diagnostics is a leading perianal imaging centre in Bangalore, offering high-resolution MRI scans for accurate diagnosis of anorectal conditions. Our experienced team uses advanced technology to ensure precise results for your perianal scan."
+      },
+      {
+        "question": "What does a perianal MRI show?",
+        "answer": "A perianal MRI provides detailed images of the perianal mri region, including the anal canal, sphincter muscles, and surrounding soft tissues. It's excellent for visualising fistulas (mapping their tracts), abscesses, inflammation (like in Crohn's disease), and other abnormalities that may not be visible with other tests."
+      },
+      {
+        "question": "Is a perianal MRI painful?",
+        "answer": "The perianal MRI scan itself is painless. You will lie on a table that slides into the MRI machine. Some patients may feel claustrophobic, but the procedure doesn't cause physical pain. Let our staff at the perianal imaging centre in Bangalore know if you have concerns about comfort or anxiety."
+      },
+      {
+        "question": "How should I prepare for a perianal MRI scan?",
+        "answer": "Preparation is usually minimal. You may be asked to avoid eating for a few hours beforehand, especially if contrast dye is used. It's important to inform the centre about any metal implants or allergies. Specific instructions will be provided when you book your perianal scan."
+      },
+      {
+        "question": "How long does it take to get results from the perianal imaging centre in Bangalore?",
+        "answer": "Typically, the radiologist reviews your perianal scan images shortly after the procedure. A detailed report is usually sent to your referring doctor within 24-48 hours. Please confirm the exact turnaround time with our staff at the centre"
+      }
+    ],
+    "relative_test": {
+      "title": "",
+      "categoryId": "671b5102ad9bf8d210384d1a",
+      "tests": [
+        {
+          "id": "673c712beffae454707e0135",
+          "testName": "MRI ABDOMEN",
+          "route": "/abdominal-mri"
+        },
+        {
+          "id": "673db6af534c72d341052c2f",
+          "testName": "MRI LUMBAR SPINE ",
+          "route": "/lumbar-lumbosacral-spine-without-contrast-mri"
+        },
+        {
+          "id": "673dc0a75ab244ca239d0228",
+          "testName": "MR RENAL ANGIOGRAPHY",
+          "route": "/renal-angiography-mri"
+        },
+        {
+          "id": "673ddaf55ab244ca239d0547",
+          "testName": "MRI BRAIN WITH SPECTROSCOPY",
+          "route": "/brain-with-spectroscopy-mri"
+        },
+        {
+          "id": "673edbf25ab244ca239d0c46",
+          "testName": "MRI L S SPINE WITH CONTRAST",
+          "route": "/musculoskeletal-mri"
+        }
+      ]
+    },
+    "seo": {
+      "title": "Perianal Imaging Centre in Bangalore | MRI for Anorectal Conditions",
+      "description": "Visit the leading Perianal Imaging Centre in Bangalore for accurate MRI scans. Diagnose fistulas & abscesses. Book your perianal scan today.",
+      "keywords": "",
+      "canonicalUrl": "",
+      "ogTitle": "",
+      "ogDescription": "",
+      "ogImage": "",
+      "schemaMarkup": "",
+      "robotsMeta": ""
+    },
+    "markdown": "## Perianal Imaging Overview\n\nPerianal imaging represents a significant radiological procedure that deals with imaging designed to produce detailed views of the perianal regions which is made up of the surrounding the anus tissues which are helpful in clinical diagnosis of a number of conditions that have a potential impact on a patient’s health as well as their quality of life. Considering the focus and the availability of imaging techniques, several of them are elaborated on perianal disorders.\n\nThe imaging of the perianal region may include phases which consist of Ultrasound (US), Magnetic Resonance Imaging (MRI), and Computed Tomography (CT) scans. The particular exam is chosen basing on the condition that is suspected, the doctor, and the images needed. The preparations for these tests may differ; although some of these tests may need the patient to either eat less or refrain from taking oral medications.\n\n### **What is Perianal Imaging**\n\nPerianal imaging pertains to a set of imaging procedures around the anus. It utilizes various devices around the anus depending on the suspected condition as perceived by the radiologists;\n\n- **Ultrasound (US):** This uses high-frequency waves that emanate sound, and produces images of the perianal parts in real time. This procedure is useful in examining the shallow parts of the body and in procedures that require treatment.\n- **Magnetic Resonance Imaging (MRI)**: With the help of strong magnetic fields and radio waves, highly detailed images of the perianal region are produced. The use of an MRI is advantageous, especially in assessing soft tissues as in the case of abscesses and fistulas that may be present.\n- **Computed Tomography (CT)**: X-ray pictures of any affected body part are taken in slices so as to enhance delineation of images in diagnosis of structural and infective pathologies.\n\n### **Types of Perianal Imaging**\n\n- **Transanal Ultrasound (TAUS):** Great for ANN SPEC MEASUREMENT or LOCAL PROCEDURES.\n- **MRI with Contrast:** This is mostly used to determine detailed information on which fistulae are complex and also evaluate any abnormal inflammatory changes.\n\n-Take rectal and oral contrast- often do this straight into the belly or use it to find other reasons like abscesses e.g. surgical conditions.\n\n## Risks & Limitations of Perianal Imaging\n\n- **Ultrasound Risks**: Ultrasound as a procedure is painless and simple so no risk is associated with it but the impression may be alter due to the experience of the operator.\n- **MRI Risks**: People with metallic implants in their body should inform their doctors as this can interfere with the imaging process. Additionally, patients who are claustrophobic may find the confined space of the machine difficult to bear.\n- **CT Risks:** Other risks include exposure to ionizing radiation, although such threats are lessened due to equipment that is available today. However, excessive usage of the machines should be discouraged based on the premise of the effects of accumulated radiation on the individuals.\n- **Limitations:** Lack of capacity to visualize deep structures clearly deems the use of ultrasound inefficient. CT scanning while providing more sources of imaging, costs significantly more. However, they are significantly less available than MRIs. Simply put, CT scans provide detailed pictures however they may miss soft tissue issues.\n\n## List of Parameters Considered During Perianal Imaging\n\nDoctors always focus on some parameters such as:\n\n- **Inflammatory changes:** Monitoring Potential Perimenopausal Bone Loss, This includes checking for increased fluid accumulation, tissue swelling.\n- **Structural abnormalities:** This involves identifying abnormal growths, fistula tracts, or structural disarray.\n- **Vascular forms**: Found during some conditions like particular cancers or some infections.\n\n### Patient modifications:\n\n- Changing transducer frequency in case the body shape of the patient is different than expected during ultrasound.\n- customizing settings in MRI scanners for patients who are overweight or who have a fear of claustrophobia\n\n## Reasons for Taking Perianal Imaging\n\n- To assist in the Confirmation of perianal Crohn's disease.\n- To provide further assistance on how to provide a definition on the different forms of perianal infections\n- To determine the extent and severity of inflammatory perianal fistulas\n- To assess the healing or developments that occur after the operation.\n- To ask questions regarding possible cancers of the gastrointestinal tract.\n\n### **When and Who Needs to Take Perianal Imaging?**\n\nPerianal imaging is advised by doctors for patients with the following symptoms / conditions:\n\n- Long Standing and Unknown Source of Perianal Pains\n- History of Recurrent Perianal Abscesses\n- Unexplained Bleeding or Discharge from the Anus\n- The Presence of Anal Fistulae or the Fistulae’s Intending Towards Abscess\n- Any Crohn's lesions affecting the perianal region\n\nThis imaging is frequent among those with chronic inflammatory bowel disease as well as in those who have perianal infections or those who have previously been injured or have undergone surgery in the perianal area.\n\n## Benefits of Taking the Test\n\n- **Non-Invasive Surgery Methods**: Gives details without performing an operation.\n- **Planning Treatment**: Helps in determining which surgical or medical procedure can be effective.\n- **Follow Up and Prediction**: Useful in measuring how much a disease or treatment has improved.\n- **Early Treatment of Diseases**: It makes it possible to carry out the appropriate treatment soon.\n\n## Illnesses Diagnosed to Be Imaging in Perianal Region\n\n- Abscess in and fistulas in the anal region.\n- Crohn's disease in the perianal area.\n- Cancer in the anorectal region with specific sites.\n- Bacterial infection of the anal region and inflammation.\n- Disease of the anal vascular tissue.\n\n## Getting Ready for a Perianal Imaging\n\nDepending on the type of the imaging, preparation may include:\n\n- **Ultrasound:** There is little that needs to be prepared for this type of imaging but in some it is necessary to not eat beforehand one day.\n- **MRI/CT**: It's possible that the patient will have to fast for a couple of hours before the test, and any metallic object should be taken off especially in the case of MRI.\n\n### **Pre-requisites**\n\n- Assured that the patient has no metal implants for MRI.\n- Blood work to evaluate renal status if the contrast is used.\n- Any history of medication intake or chronic allergic reactions.\n\n### **Best Time to Take the Perianal Imaging**\n\nPerianal imaging is in principle, not time restricted, however, any perianal infection with an abscess may require earlier imaging.\n\n### **Eligibility**\n\n- Unexplained perianal symptoms may warrant consideration for eligibility.\n- History of colorectal disease or anorectal surgery.\n- Care should be exercised in CT in pregnancy, where exposure to radiation may be an issue.\n\n### **Procedure for Taking a Perianal Imaging**\n\n1. **Ultrasound**: The patient comfortably reclines with some gel in place, while a transducer’s probe starts examining the area. It usually takes between 15-30 minutes.\n2. **MRI**: Patients are required to relax and lie still inside the machine. Ordinarily this procedure lasts for 30 to 60 minutes.\n3. **CT**: This procedure includes the patient lying on a table that slides into a machine; the procedure usually lasts for around 15 to 30 minutes.\n\n### **Before Taking the Test, A Word of Caution**\n\n- Advise the technologist in case you have a cochlear, pacemaker implants, and any surgical clips particularly for MRI.\n- Report allergic reactions to contrast or any medication.\n- Unless no other option is available then CT should be avoided by pregnant women."
+  },
+  "category": {
+    "id": "671b5102ad9bf8d210384d1a",
+    "name": "MRI",
+    "tests": [
+      "672c8b63e3e3df5779917a14",
+      "6735d7ca03598b92c151c932",
+      "673719ce996e7737b6f4de3a",
+      "673c712beffae454707e0135",
+      "673db6af534c72d341052c2f",
+      "673dc0a75ab244ca239d0228",
+      "673ddaf55ab244ca239d0547",
+      "673edbf25ab244ca239d0c46",
+      "679a2112bf2a88a244a6a08e",
+      "679c74fdbf2a88a244a6ed73",
+      "679c8c25bf2a88a244a6f131",
+      "679c912cbf2a88a244a6f1be",
+      "67a0725dbf2a88a244a765c0",
+      "67af22e3a45909fb1bd183e6",
+      "67bda0fb16444f3c114db46a",
+      "67bda4ae16444f3c114db4be",
+      "67d3e65416444f3c11500b89",
+      "67d3ea0c16444f3c11500ca5",
+      "67d3ecc716444f3c11500d30",
+      "67d7d30d16444f3c11507fe9",
+      "67d7d3ad16444f3c1150802a",
+      "67e12dbb16444f3c115186b2",
+      "67e12e1d16444f3c11518719",
+      "67e12e9316444f3c11518732",
+      "67e1403d16444f3c11518c04",
+      "67e249fb16444f3c1151adaa",
+      "67e280ab16444f3c1151bb60",
+      "67e2842c16444f3c1151bd97",
+      "67e2869c16444f3c1151be44",
+      "67e2892c16444f3c1151bf5f",
+      "67e3b81b16444f3c1151e7fe",
+      "67e3ba2b16444f3c1151e879",
+      "67e3bce516444f3c1151e93d",
+      "67e3beb716444f3c1151e966",
+      "67e3c23916444f3c1151eab8",
+      "67e3c5c616444f3c1151ed81",
+      "67e3c91316444f3c1151ede8",
+      "67e3cb6016444f3c1151eeab",
+      "67e3cdc316444f3c1151ef37",
+      "67e6684816444f3c11523765",
+      "67e66a3516444f3c11523786",
+      "67e66e4b16444f3c115238a5",
+      "67e6711616444f3c11523a07",
+      "67e6738516444f3c11523af8",
+      "67e674e816444f3c11523b1b",
+      "67e679fc16444f3c11523c7f",
+      "67e67c2e16444f3c11523ca0",
+      "67e67f0d16444f3c11523dab",
+      "67edf5c516444f3c11531198",
+      "67edf89216444f3c115311e7",
+      "67edfb0416444f3c11531235",
+      "67edfd5f16444f3c11531284",
+      "67f3b80b16444f3c1153a6e9",
+      "67f3ba6d16444f3c1153a748",
+      "67f3bdf716444f3c1153a802",
+      "67f3c35416444f3c1153a914",
+      "67f3dbca16444f3c1153ac65",
+      "67f3e65e16444f3c1153ad7a",
+      "67f3ec8316444f3c1153ae66",
+      "6805d9c516444f3c11559dea",
+      "6805dcd616444f3c11559ede",
+      "6805decd16444f3c11559f21",
+      "6805e21b16444f3c11559f81",
+      "6805e3ed16444f3c1155a02b",
+      "6805ee3d16444f3c1155a227",
+      "6805f0aa16444f3c1155a266",
+      "6805f28016444f3c1155a361",
+      "6805f51e16444f3c1155a499",
+      "6805f85a16444f3c1155a56b",
+      "6805fbad16444f3c1155a5f0",
+      "6805fe5216444f3c1155a6c0",
+      "6806002216444f3c1155a734",
+      "6806073816444f3c1155a831",
+      "68060a1516444f3c1155a85f",
+      "68060f0316444f3c1155a8e3",
+      "6806108f16444f3c1155a92e",
+      "680612fe16444f3c1155aa7b",
+      "680614e216444f3c1155aaf1",
+      "680616d016444f3c1155ab65",
+      "680618aa16444f3c1155ab95",
+      "68061a7516444f3c1155acc2",
+      "68061c9616444f3c1155ad7c",
+      "680b2f0a16444f3c115675e7",
+      "680b31ae16444f3c115676d3",
+      "680b34d016444f3c115676f9",
+      "680b43ef16444f3c115679aa",
+      "680b4aec16444f3c11567afd",
+      "680b4d7116444f3c11567b66",
+      "680b4f9b16444f3c11567bb7",
+      "680b528116444f3c11567c9e",
+      "680b5fa416444f3c11567fc2",
+      "680b897016444f3c11568f33",
+      "6830334b16444f3c115b6db1",
+      "6830617716444f3c115b7533",
+      "68319d5116444f3c115b9aea",
+      "68413f7b16444f3c115db6da",
+      "68415f0616444f3c115dbfba",
+      "6841732216444f3c115dc4ea",
+      "6842d41116444f3c115df81a"
+    ],
+    "image": "/scans/image-1730261866521-605550006.webp",
+    "path": "mri-scan",
+    "createdAt": "2024-10-17T19:20:09.828Z",
+    "updatedAt": "2024-10-17T19:20:09.828Z",
+    "allData": {
+      "categoryId": "671b5102ad9bf8d210384d1a",
+      "requisites": [
+        {
+          "value": "Before an MRI scan, several preparations must be made before the scan. For instance, let’s say an anatomical region like the abdomen is scanned while using contrast dye. In this situation, it would be appropriate for a patient to refrain from eating for some hours.   Aside from the afore-mentioned tips, bests, watches, jewelry and other forms of metal accessories must be taken off unless the patient wishes to remain naked while inside during the scan. Furthermore, tell the doctor about metallic implants, if you have one, or pacemakers or any condition that can impact the MRI Scan. "
+        }
+      ],
+      "interpretations": {
+        "title": "Results and Interpretations ",
+        "cols": [
+          "Scan Parameter ",
+          "Normal Range ",
+          "Abnormal Range ",
+          "Interpretation "
+        ],
+        "rows": [
+          [
+            "Organ Structure ",
+            "Normal appearance of organ ",
+            "Presence of lesions or tumours ",
+            "Abnormal structures can indicate issues like tumors, cysts, or infections. "
+          ],
+          [
+            "Blood Flow ",
+            "Normal blood flow ",
+            "Restricted or abnormal flow ",
+            "Abnormal flow patterns can point to blood clots or vascular conditions. "
+          ],
+          [
+            "Brain Function (fMRI) ",
+            "Typical brain activation ",
+            "Reduced or excessive activity ",
+            "Abnormal brain function may indicate neurological conditions like stroke or tumours Joint and Muscle Health. "
+          ],
+          [
+            "Joint and Muscle Health ",
+            "No tears or inflammation ",
+            "Tears, inflammation, or degeneration ",
+            "Abnormalities could suggest injuries like ligament tears or chronic joint issues. "
+          ]
+        ]
+      },
+      "faqs": [
+        {
+          "question": "Where can I find a reliable MRI scan in Bangalore?",
+          "answer": "Cadabam's Diagnostics offers reliable MRI scans in Bangalore with advanced technology and expert radiologists. We focus on accuracy and patient comfort. Visit our centre for your diagnostic needs."
+        },
+        {
+          "question": "Is there an MRI scan near me provided by Cadabam's Diagnostics?",
+          "answer": "Yes, Cadabam's Diagnostics has conveniently located centres in Bangalore. Check our locations page or contact us to find the nearest centre offering an MRI scan near me."
+        },
+        {
+          "question": "What is involved in an MRI test near me in Bangalore?",
+          "answer": "An MRI test near me at Cadabam's involves lying on a table that slides into the MRI machine. It's a painless procedure using magnetic fields, not radiation. Our team ensures your comfort throughout the MRI in Bangalore."
+        },
+        {
+          "question": "How should I prepare for my MRI scan in Bangalore?",
+          "answer": "Preparation for an MRI scan in Bangalore is usually minimal. You may be asked to remove metal objects and change into a gown. Specific instructions will be provided when you book your appointment for an MRI in Bangalore."
+        },
+        {
+          "question": "What is the approximate cost for an MRI scan Bangalore service?",
+          "answer": "The cost of an MRI scan Bangalore service varies based on the body part and specific requirements. Please contact Cadabam's Diagnostics directly for detailed pricing information for your specific MRI test near me"
+        }
+      ],
+      "relative_test": {
+        "title": "",
+        "categoryId": "671b5102ad9bf8d210384d1a",
+        "tests": [
+          {
+            "id": "6735d7ca03598b92c151c932",
+            "testName": "MRI BRAIN WITH CONTRAST",
+            "route": "/brain-mri"
+          },
+          {
+            "id": "673719ce996e7737b6f4de3a",
+            "testName": "Perianal Imaging",
+            "route": "/perianal-imaging-center"
+          },
+          {
+            "id": "673c712beffae454707e0135",
+            "testName": "Abdominal MRI ",
+            "route": "/abdominal-mri"
+          },
+          {
+            "id": "673db6af534c72d341052c2f",
+            "testName": "MRI LUMBAR / LUMBOSACRAL SPINE WITHOUT CONTRAST",
+            "route": "/lumbar-lumbosacral-spine-without-contrast-mri"
+          },
+          {
+            "id": "673dc0a75ab244ca239d0228",
+            "testName": "MRI ANGIOGRAPHY WITH CONTRAST",
+            "route": "/renal-angiography-mri"
+          },
+          {
+            "id": "673ddaf55ab244ca239d0547",
+            "testName": "MRI BRAIN WITH MR VENOGRAM",
+            "route": "/brain-with-spectroscopy-mri"
+          },
+          {
+            "id": "673edbf25ab244ca239d0c46",
+            "testName": "MRI LUMBAR / LUMBOSACRAL SPINE WITH CONTRAST",
+            "route": "/musculoskeletal-mri"
+          }
+        ]
+      },
+      "seo": {
+        "title": "",
+        "description": "Get accurate MRI scans in Bangalore with trusted diagnostic centers offering fast reporting, advanced imaging, and reliable results for your health needs."
+      }
+    },
+    "markdown": "A non-invasive medical imaging technique that uses radio waves and a strong magnet to create detailed pictures of the inside of the body\n\n## MRI Overview\n\n![MRI Overview](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731734990754-883013600.png)\n\n### **What is an MRI Scan?**\n\nMagnetic Resonance Imaging (MRI) is a medical imaging technique which requires no incision. It depends on strong magnets and radio frequency waves to provide a high-quality picture of the structures inside the body.\n\nIt is a machine with a tunnel and the patient is pushed through this and the machine takes images behind images cutting through the tissue depths of an organ. This enables precise identification of abnormal tissues and organs.\n\nMRI makes it a lot safer for repeated use as compared to X-ray or CT X-ray as the former does not involve ionising radiation which in turn solves a lot of issues. It is particularly good for imaging soft tissues, the brain, chords the spinal muscles and joints.\n\n###\n\n## Types of MRI\n\nMRI devices allow for various types and grades to be utilized depending on the location of the cancer and other associated conditions.\n\nAmong them, the following are some of the more common types of MRI scans: -\n\n**Brain MRI:** The availability of this MRI enables physicians to provide a diagnosis of the neurological complications, tumors, infectious processes, or structural abnormalities encountered in the brain.\n\n**Musculoskeletal MRI:** This scan is done to examine ligaments, muscles, and tendons –especially for their tearing or for detecting other injuries and joint problems.\n\n**Abdominal MRI:** Abdominal MRI gives detailed pictures of organs in the abdominal cavity such as the liver, pancreas, and kidneys and helps medical professionals diagnose various diseases such as tumors, cysts, liver disease and inflammation.\n\n**Cardiac MRI:** Thanks to this scan, the structure and functioning of the heart can be evaluated and ailments, for instance, cardiomyopathy or congenital defects can be diagnosed.\n\n**Spinal MRI:** Spinal MRI enables physicians and other health care providers to check for spinal cord injury, disc damage, and nerve compression.\n\n## Risks & Limitations of the MRI Test\n\n![Risks & Limitations of the MRI Test](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731735008823-294194501.png)\n\nMRI is considered as one of the safest methods of imaging as it does not involve the use of ionised radiation, however, it has its risks too, here are some of them: -\n\n- One of the main disadvantages of MRI scans is that it is not appropriate for people with some types of implants or metal in their body, such as pacemakers.\n- MRI might have some difficulties in obtaining images in the parts of the body that are prone to movements like the intestines.\n- Patients that are claustrophobic may not feel at ease as the MGMRI is quite enclosed.\n\n## List of Parameters Considered During the MRI Scan\n\n![List of Parameters Considered During the MRI Scan](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731735017076-120008364.png)\n\nIt is required to understand that the parameters vary based on the type of MRI scan and the objectives of performing the scan. Nevertheless, there are several common parameters and indicators which radiologists watch during an MRI scan: -\n\n### \n\n### **Tissue Characteristics**\n\nT1 Weighting: it is valuable in assessment of 3D anatomy of very specific tissues, and, for example, this weight increases the relative signal of fatty tissues content of those tissues.\n\n**T2 Weighting:** These are useful in addressing healthcare professional’s concerns relative to the presence of oedema, inflammation and other types of tumours.\n\nIt concerns identifying the amount of water within biological tissues.\n\n**Proton Density (PD) Weighting:** PD assesses the number of hydrogen protons within a tissue which assists in characterizing and detecting various tissue items.\n\n### **Tissue Integrity**\n\n**Morphology:** This concerns normal and abnormal organ and tissue shape, size, and positioning.\n\n**Signal Intensity:** Cases of tumours, bleeding, inflammation and so on can be seen due to the shine of the tissues on the image\n\n**Texture:** The condition of the tissues which may be smooth, rough or heterogeneous etc would be visualized.\n\n## Reasons for Taking the MRI\n\n![Reasons for Taking the MRI](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731735026260-379474018.png)\n\nYour doctor might suggest an MRI for several reasons, some of them being: -\n\n**Tumour Detection:** MRI scans allow doctors to see details of certain abnormalities such as tumors enabling them to detect it with ease.\n\n**Assessing joints and the Musculoskeletal system injuries:** Considering musculoskeletal problems, the most effective way of examining them is by using MRI which provides clearer images of joint and muscle injuries.\n\n**Liver and Kidney Cancers:** An MRI evaluation assist doctors to determine the kind of ailment that is present on the liver and kidney as in cirrhosis or fatty liver disease, etc or kidney cysts or tumors.\n\nCardiac An MRI heart provides adequate images of heart structure and its functions which medicate the diagnosis of cardiomyopathy congenital heart disease, heart valve diseases and even heart conditions in general.\n\n## Benefits of Taking the MRI\n\n![Benefits of Taking the MRI](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731735031195-674324222.png)\n\nMRI scans come with multiple advantages, and because of its versatility, it is considered one of the best imaging tools that can diagnose a wide variety of conditions. Here are a few of the advantages of MRI scans.\n\n- MRI is painless and non-invasive, there is no requirement for incision therefore it is possible to do a thorough examination without any invasive procedures.\n- Exposure to ionizing radiation is not possible during MRI since it uses magnetic fields instead making it a safer option for patients who require multiple scans\n- MRI also utilizes very high-resolution scans, it provides sharp and clear images of soft tissues, which greatly assists in intricate diagnosis securing imaging procedures.\n\n## Illnesses Diagnosed with MRI\n\n![Illnesses Diagnosed with MRI](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731735038304-717016321.png)\n\nMRI is a multi-dimensional imaging technique that assists healthcare professionals in diagnosing a range of conditions, including but not limited to:\n\n- Conditions such as brain cancer, stroke, and multiple sclerosis\n- Spinal cord damage, herniated discs, and nerve injuries\n- Liver and heart diseases and tumorous growths on the kidney\n- Ligament and bone related injuries including fractures and sprains\n- Vascular conditions such as blocked arteries or aneurysms\n\n## Preparing for MRI Scan\n\n![Preparing for MRI Scan](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731735043395-448909136.png)\n\nMRI scan procedures differ depending on the condition of the patient which in turn dictates how different kinds of MRI scans are done.\n\nNonetheless, here are some general rules that will potentially enable you to be better prepared for the scan.\n\n### **Requirements**\n\nIn the case of MRI such as the abdomen MRI, your physician would like to know if you have kidney problems, allergies as well as would like you to fast and if you have any metallic devices or implants, it is advisable to inform the doctor. Additionally, patients must take off necklaces, bracelets, watches, and any metal accessories like clips in hair prior to the MRI.\n\n### **Ideal Time for MRI Scan**\n\nThe ideal time for an MRI scan differs from one patient to the other and it also depends upon practical conditions as well as the type of scan one goes for. For instance, some are recommended to stay away from food or drinks around the time of the abdominal scan. For them, the early hours of the day are optimal.\n\n### **Qualifications**\n\nMost people are suited to undergo MRI however there are people who suffer from certain types of metallic implants or are claustrophobic and might not be able to use MRI. Closed MRIs may be used for patients who cannot tolerate being in tight places.\n\n### **Getting Ready for An MRI**\n\nYou will have to change into a hospital gown and lie on a table that goes into the MRI machine while your scan is being performed. You will have to protect your ears due to how loud the machine is.\n\nThe breath-hold command is often given by the technologist in order to avoid blurriness of the images.\n\n### **Precaution malpractice Observation Before the Scan**\n\nInform your doctor of such metal implants, as they can affect the scan and some MRIs use contrast dye, because it is necessary to let your physician know of any allergies or diseases."
+  },
+  "relatedTests": [
+    {
+      "id": "673c712beffae454707e0135",
+      "templateName": "non-labtest",
+      "testName": "MRI ABDOMEN ",
+      "route": "/abdominal-mri",
+      "basic_info": {
+        "name": "MRI ABDOMEN ",
+        "route": "/abdominal-mri",
+        "categoryId": "671b5102ad9bf8d210384d1a",
+        "price": 8000,
+        "alsoKnownAs": "",
+        "discount": "0",
+        "discountedPrice": "8000.00",
+        "reportsWithin": "6 hrs",
+        "Identifies": "",
+        "measures": "",
+        "testId": 9896181,
+        "testCategory": "-"
+      },
+      "requisites": [
+        {
+          "value": "Usually, doctors put their patients in an MRI accelerator without giving them prior instructions. Patients are usually asked to take off most of their metallic belongings like jewelry as they are affected by magnetic fields. This is done in order to promote high clarity in the imagery. Depending on the type of the scan the patient is required to refrain from consuming water or food prior to the scan. "
+        }
+      ],
+      "interpretations": {
+        "title": "Results and Interpretations ",
+        "cols": [
+          "Organ/Structure Imaged",
+          "Common Findings/Observations (Examples)",
+          "General Interpretation/Significance (Examples)"
+        ],
+        "rows": [
+          [
+            "Focal liver lesion, T2 bright",
+            "Possible haemangioma",
+            "Likely benign; correlate with history"
+          ],
+          [
+            "Kidney mass, T1 low/T2 high",
+            "Cyst vs solid",
+            "Needs contrast sequence for clarity"
+          ],
+          [
+            "Pancreatic duct dilatation",
+            ">3 mm calibre",
+            "May indicate stone or tumour"
+          ],
+          [
+            "Small Bowel (MR Enterography)",
+            "Terminal ileum wall thickening, mucosal hyperenhancement, adjacent fat stranding (\"comb sign\"). No fistula or abscess.",
+            "Classic appearance of active Crohn's disease. No penetrating complications present. Treatment planning may depend on severity and extent."
+          ],
+          [
+            "Enlarged para-aortic nodes",
+            ">10 mm short axis",
+            "Suggest inflammation or metastasis"
+          ],
+          [
+            "Adrenal Glands",
+            "1.5 cm well-defined, lipid-rich nodule in right adrenal gland.",
+            "Consistent with a benign adrenal adenoma. No intervention needed unless functioning (hormone-producing) or atypical in appearance/size."
+          ],
+          [
+            "Spleen",
+            "Mild splenomegaly (e.g., 14 cm craniocaudal). Homogeneous signal.",
+            "Could be secondary to portal hypertension, infection, hematologic disease, or systemic illness. Requires clinical correlation."
+          ]
+        ]
+      },
+      "faqs": [
+        {
+          "question": "Is MRI Abdomen painful?",
+          "answer": "No. You may feel warmth from the coils or a cool flush with contrast, but no pain.\n"
+        },
+        {
+          "question": "How soon can I eat after the scan?",
+          "answer": "Immediately after a non-contrast study; wait 30 minutes post-contrast if you feel queasy.\n"
+        },
+        {
+          "question": "Can I drive home after contrast MRI?",
+          "answer": "Yes, unless you took a sedative—arrange a companion if so.\n"
+        },
+        {
+          "question": "What if I feel claustrophobic?",
+          "answer": "Wide-bore scanners, music headsets and optional mild sedation keep 95 % of patients comfortable.\n"
+        },
+        {
+          "question": "When will reports be ready?",
+          "answer": " **24 hours**—we’ll SMS and email you as soon as they’re signed off.\n"
+        },
+        {
+          "question": "How much does an MRI Abdomen scan cost at Cadabams Diagnostics?",
+          "answer": "The cost of mri abdomen scan can vary based on several factors, including:\n* Whether contrast material is used.\n* The complexity of the specific MRI protocol required.\n* Your health insurance coverage and plan (deductibles, co-pays).\nFor precise pricing information for an MRI Abdomen at Cadabams Diagnostics, and to discuss insurance coverage or self-payment options, please contact our billing department directly or visit our website. You can find contact details at [Link to: Cadabams Diagnostics Contact Us/Pricing Page]. We are happy to provide you with an estimate."
+        }
+      ],
+      "relative_test": {
+        "title": "",
+        "categoryId": "671b5102ad9bf8d210384d1a",
+        "tests": [
+          {
+            "id": "6735d7ca03598b92c151c932",
+            "testName": "Brain MRI",
+            "route": "/brain-mri"
+          },
+          {
+            "id": "673719ce996e7737b6f4de3a",
+            "testName": "Perianal Imaging",
+            "route": "/perianal-imaging-center"
+          }
+        ]
+      },
+      "seo": {
+        "title": "MRI Abdomen at Cadabams Diagnostics: Fast Bookings",
+        "description": "Book your MRI Abdomen at Cadabams Diagnostics in minutes. Learn what to expect, how to prepare, and when results are ready—all in one clear guide.\n",
+        "keywords": "",
+        "canonicalUrl": "",
+        "ogTitle": "",
+        "ogDescription": "",
+        "ogImage": "",
+        "schemaMarkup": "",
+        "robotsMeta": ""
+      },
+      "markdown": "## Abdominal MRI Overview\n\n### What an abdominal MRI shows\n- Detailed pictures of the liver, pancreas, kidneys, gall-bladder, spleen and major blood vessels\n- Soft-tissue contrast that can spot cysts, tumours, inflammation and blockages\n### Key advantages over CT & ultrasound\n| Method | Radiation | Detail in Soft Tissue | Bowel-gas Interference |\n|---|---|---|---|\n| MRI Abdomen | \\*\\*Zero\\*\\* | Excellent | Negligible |\n| CT Scan | Yes | Good | Moderate |\n| Ultrasound | None | Variable | High |\n\n## When and Who Needs to Take an MRI Abdomen?\n\n### Symptoms prompting the scan\n- Persistent or unexplained \\*\\*abdominal pain\\*\\*\n- \\*\\*Swelling\\*\\*, bloating or palpable mass\n- Abnormal \\*\\*liver-function tests (LFTs)\\*\\* or tumour markers\n### Age & gender eligibility\n- \\*\\*Adults\\*\\* of any age\n- \\*\\*Children >5 years\\*\\* (light sedation available)\n- Safe for \\*\\*pregnant women\\*\\* only after 1st trimester if clinically essential\n\n## Risks & Limitations of the MRI Abdomen\n\n### MRI safety\n- \\*\\*Pacemakers\\*\\*, cochlear implants, certain aneurysm clips—tell the technician.\n- \\*\\*Claustrophobia\\*\\*: wide-bore scanners + music headsets minimise anxiety.\n### Limitations\n- \\*\\*Motion artefacts\\*\\* from breathing or bowel movement\n- \\*\\*Cost\\*\\* slightly higher than ultrasound\n- \\*\\*Scan time\\*\\* 25–40 min vs 5 min for CT\n\n## List of Parameters Considered During the MRI Abdomen\n\n- \\*\\*Liver\\*\\*: size, texture, focal lesions\n- \\*\\*Pancreas\\*\\*: head-body-tail dimensions, duct calibre\n- \\*\\*Bile ducts & gall-bladder\\*\\*: stones, wall thickness, obstruction\n- \\*\\*Spleen, kidneys & adrenal glands\\*\\*: masses, cysts, atrophy\n- \\*\\*Major vessels & lymph nodes\\*\\*: aneurysms, thrombus, enlargement\n\n## Reasons for Taking an MRI Abdomen\n\n- \\*\\*Staging cancers\\*\\*—liver, pancreatic, renal, lymphoma\n- \\*\\*Evaluate chronic abdominal pain\\*\\*, infections or abscesses\n- \\*\\*Follow-up\\*\\* after surgery, trauma or chemotherapy\n\n## Benefits of Taking the Test\n\n- \\*\\*Zero radiation exposure\\*\\*—safe for repeated follow-ups\n- \\*\\*High soft-tissue contrast\\*\\*—detect lesions as small as 3 mm\n- \\*\\*Multi-planar imaging\\*\\*—guides surgeons and interventional radiologists\n\n## Illnesses Diagnosed with MRI Abdomen\n\n- \\*\\*Hepatocellular carcinoma\\*\\* and \\*\\*liver metastases\\*\\*\n- \\*\\*Pancreatitis\\*\\*, \\*\\*pancreatic cysts\\*\\* & \\*\\*tumours\\*\\*\n- \\*\\*Kidney masses\\*\\*, \\*\\*bile-duct obstruction\\*\\*, \\*\\*Crohn’s disease\\*\\*\n\n## Preparing for MRI Abdomen\n\n- \\*\\*Fast 4 hours\\*\\* before contrast scans—clear fluids allowed\n- Complete a \\*\\*metal-screening questionnaire\\*\\*\n- Remove \\*\\*jewellery, belts, bras with underwires\\*\\*\n---\n## Pre-requisites\n- Recent \\*\\*serum creatinine\\*\\* report if gadolinium planned\n- \\*\\*Signed consent\\*\\* for contrast administration\n- \\*\\*Pregnancy declaration\\*\\* for women of child-bearing age\n---\n## Best Time to Take the MRI Abdomen\n- \\*\\*Morning slots\\*\\* reduce bowel motion and improve image quality\n- For women adding pelvic views, schedule during the \\*\\*post-menstrual week\\*\\*\n---\n## Eligibility\n- \\*\\*Weight limit\\*\\*: 150 kg with BMI-compatible coils\n- \\*\\*Age\\*\\*: adults & children >5 years\n- \\*\\*Sedation\\*\\* available for anxious or younger patients\n---\n## Procedure for Taking a MRI Abdomen\n1. \\*\\*Check-in & verification\\*\\*—ID, consent, fasting status\n2. \\*\\*IV line\\*\\* inserted if contrast required\n3. \\*\\*Positioning\\*\\*—lie supine, arms above head or at sides\n4. \\*\\*Coil placement\\*\\* over the abdomen\n5. \\*\\*Scan\\*\\*—25–40 min; brief breath-holds when instructed\n6. \\*\\*Post-scan observation\\*\\*—15 min if contrast used, to watch for reactions\n---\n## Caution Before Taking the Test\n- Inform staff about \\*\\*tattoos with metal ink\\*\\*, \\*\\*implants\\*\\*, or \\*\\*previous contrast allergy\\*\\*\n- Ask for \\*\\*oral or IV sedative\\*\\* if you feel claustrophobic—Cadabams Diagnostics arranges this in advance"
+    },
+    {
+      "id": "673db6af534c72d341052c2f",
+      "templateName": "non-labtest",
+      "testName": "MRI LUMAR SPINE",
+      "route": "/lumbar-spine-mri",
+      "basic_info": {
+        "name": "MRI LUMAR SPINE",
+        "route": "/lumbar-spine-mri",
+        "categoryId": "671b5102ad9bf8d210384d1a",
+        "price": 7800,
+        "alsoKnownAs": "",
+        "discount": "0",
+        "discountedPrice": 7800,
+        "reportsWithin": "3hrs",
+        "Identifies": "",
+        "measures": "",
+        "testId": 9897422,
+        "testCategory": "-"
+      },
+      "requisites": [],
+      "interpretations": {
+        "title": "Results and Interpretations  ",
+        "cols": [
+          "Finding / Observation",
+          "Description (Example Patient Finding)",
+          "General Interpretation / Significance"
+        ],
+        "rows": [
+          [
+            "Vertebral Alignment & Height",
+            "Maintained lumbar lordosis. No acute vertebral body compression fracture or malalignment. Mild Grade 1 anterolisthesis at L5-S1.",
+            "Normal spinal curvature and vertebral body height. Mild forward slippage of L5 over S1 suggests early spondylolisthesis."
+          ],
+          [
+            "Intervertebral Discs (e.g., L4-L5)",
+            "Disc desiccation with T2 signal loss. Broad-based posterior disc bulge mildly effaces the ventral thecal sac.",
+            "Age-related disc degeneration. Mild disc bulge may or may not be symptomatic depending on nerve contact."
+          ],
+          [
+            "Intervertebral Discs (e.g., L5-S1)",
+            "Large left paracentral disc extrusion significantly indenting the thecal sac and contacting the descending left S1 nerve root.",
+            "Significant disc herniation, likely compressing the left S1 nerve root — can cause sciatica, tingling, or weakness."
+          ],
+          [
+            "Spinal Canal Diameter (e.g., L3-L4)",
+            "Central canal AP diameter measures 7 mm. Associated ligamentum flavum hypertrophy and facet joint arthropathy present.",
+            "Moderate spinal canal stenosis — reduced space for nerve roots, potentially causing neurogenic claudication or back pain."
+          ],
+          [
+            "Neural Foramina (e.g., L4-L5 Right)",
+            "Moderate right neural foraminal narrowing due to uncovertebral osteophytes and disc bulge.",
+            "Foraminal stenosis may impinge on the exiting L4 nerve root, potentially causing radicular symptoms on the right."
+          ],
+          [
+            "Bone Marrow Signal",
+            "No aggressive signal abnormality. Fatty marrow signal is age-appropriate.",
+            "Normal finding. No signs of infection, malignancy, or marrow infiltration."
+          ],
+          [
+            "Facet Joints",
+            "Bilateral facet arthropathy most prominent at L4-L5 and L5-S1. Mild associated joint effusions noted.",
+            "Degenerative arthritis of the facet joints. May contribute to mechanical lower back pain, especially with motion."
+          ],
+          [
+            "Spinal Cord / Cauda Equina",
+            "Conus medullaris terminates normally at L1. Cauda equina nerve roots appear unremarkable.",
+            "Normal spinal cord termination and appearance of nerve roots. No signs of compression or inflammatory pathology."
+          ],
+          [
+            "Paraspinal Soft Tissues",
+            "No abnormal soft tissue masses or fluid collections identified in the paraspinal region.",
+            "Unremarkable soft tissues. No signs of abscess, edema, or muscular abnormalities."
+          ]
+        ]
+      },
+      "faqs": [
+        {
+          "question": "Is an MRI Lumbar Spine painful?",
+          "answer": "The **MRI Lumbar Spine** scan itself is painless. You don't feel the magnetic field or radio waves. Some people may find it uncomfortable to lie still for the duration of the scan, or they might experience mild discomfort from the position they need to maintain. The noise of the machine can also be bothersome, but ear protection is provided. If a contrast agent is used, you might feel a brief cool sensation at the IV site during the injection, and rarely, a temporary metallic taste or warmth."
+        },
+        {
+          "question": "How long does an MRI Lumbar Spine typically take?",
+          "answer": " The actual scanning time for an **MRI Lumbar Spine** is usually between 20 to 45 minutes. However, you should plan to be at Cadabams Diagnostics for a longer period to account for check-in, changing clothes, safety screening, positioning, and any potential delays."
+        },
+        {
+          "question": " When and how will I get my MRI Lumbar Spine results?",
+          "answer": "A radiologist at Cadabams Diagnostics will interpret your **MRI Lumbar Spine** images, and a detailed report will be sent to your referring doctor, typically within 1 to 2 business days. Your doctor will then schedule an appointment or contact you to discuss the results and what they mean for your health and treatment."
+        },
+        {
+          "question": " Is an MRI Lumbar Spine scan safe? Are there radiation risks?",
+          "answer": " **MRI Lumbar Spine** scans are very safe for most people. A significant advantage of MRI is that it does **not** use ionizing radiation (like X-rays or CT scans). The primary safety concerns relate to the strong magnetic field's potential effects on metallic implants or devices in the body, and rare allergic reactions to contrast material. Thorough screening at Cadabams Diagnostics minimizes these risks."
+        },
+        {
+          "question": "What conditions can an MRI Lumbar Spine detect?",
+          "answer": " An **MRI Lumbar Spine** is excellent for *spinal imaging* and can detect a wide range of conditions affecting the lower back. These include, but are not limited to: herniated or bulging discs, degenerative disc disease, spinal stenosis (narrowing of the spinal canal or nerve root canals), nerve compression (*nerve root assessment*), causes of sciatica, vertebral fractures, spinal infections (discitis, osteomyelitis), spinal tumors or metastases, spondylolisthesis, inflammatory conditions like ankylosing spondylitis, and abnormalities of the spinal cord or cauda equina nerve roots."
+        },
+        {
+          "question": "Do I need to have contrast dye for my Lumbar Spine MRI?",
+          "answer": "  Not always. Many **MRI Lumbar Spine** scans are performed without contrast and provide excellent diagnostic information. Your doctor or the radiologist at Cadabams Diagnostics will determine if contrast is necessary based on your specific medical condition and what they are looking for. Contrast is often used if there's suspicion of infection, tumor, inflammation, or to evaluate scar tissue after previous surgery."
+        },
+        {
+          "question": "How much does an MRI for lower back cost at Cadabams Diagnostics?",
+          "answer": "The cost of an **MRI Lumbar Spine** can vary based on several factors, including whether contrast material is used, the complexity of the scan, and your specific insurance coverage. For precise pricing and information regarding insurance acceptance for an **MRI for lower back** at Cadabams Diagnostics, please contact our billing department directly. We are happy to provide you with detailed cost information."
+        }
+      ],
+      "relative_test": {
+        "title": "",
+        "categoryId": "671b5102ad9bf8d210384d1a",
+        "tests": [
+          {
+            "id": "6735d7ca03598b92c151c932",
+            "testName": "MRI BRAIN ",
+            "route": "/brain-mri"
+          },
+          {
+            "id": "673719ce996e7737b6f4de3a",
+            "testName": "Perianal Imaging",
+            "route": "/perianal-imaging-center"
+          },
+          {
+            "id": "673c712beffae454707e0135",
+            "testName": "MRI ABDOMEN ",
+            "route": "/abdominal-mri"
+          },
+          {
+            "id": "673db6af534c72d341052c2f",
+            "testName": "MRI LUMBAR SPINE ",
+            "route": "/lumbar-lumbosacral-spine-without-contrast-mri"
+          },
+          {
+            "id": "673dc0a75ab244ca239d0228",
+            "testName": "MRI RENAL ANGIOGRAPHY",
+            "route": "/renal-angiography-mri"
+          },
+          {
+            "id": "673ddaf55ab244ca239d0547",
+            "testName": "MRI BRAIN+SPECTROSCOPY",
+            "route": "/brain-with-spectroscopy-mri"
+          },
+          {
+            "id": "673edbf25ab244ca239d0c46",
+            "testName": "MRI L S SPINE WITH CONTRAST",
+            "route": "/musculoskeletal-mri"
+          },
+          {
+            "id": "679a2112bf2a88a244a6a08e",
+            "testName": "MRI SPINE SCREENING WITHOUT CONTRAST",
+            "route": "/spine-screening-without-contrast-mri-scan"
+          },
+          {
+            "id": "679c74fdbf2a88a244a6ed73",
+            "testName": "MRI KNEE WITHOUT CONTRAST",
+            "route": "/knee-without-contrast-mri"
+          },
+          {
+            "id": "679c8c25bf2a88a244a6f131",
+            "testName": "MRI CERVICAL / CERVICO-DORSAL SPINE WITH CONTRAST",
+            "route": "/cervical-cervico-dorsal-spine-mri"
+          },
+          {
+            "id": "679c912cbf2a88a244a6f1be",
+            "testName": "MRI BRAIN PLAIN",
+            "route": "/brain-plain-mri"
+          },
+          {
+            "id": "67a0725dbf2a88a244a765c0",
+            "testName": "MRI SHOULDER WITHOUT CONTRAST",
+            "route": "/shoulder-without-contrast-mri-scan"
+          },
+          {
+            "id": "67af22e3a45909fb1bd183e6",
+            "testName": "MRI LUMBAR / LUMBOSACRAL SPINE WITHOUT CONTRAST",
+            "route": "/lumbar-lumbosacral-spine-without-contrast-mri-scan"
+          },
+          {
+            "id": "67bda0fb16444f3c114db46a",
+            "testName": "MRI DORSAL / DORSO-LUMBAR SPINE WITHOUT CONTRAST",
+            "route": "/dorsal-dorso-lumbar-spine-without-contrast-mri-scan"
+          },
+          {
+            "id": "67bda4ae16444f3c114db4be",
+            "testName": "MRI BRAIN WITH ANGIOGRAPHY WITHOUT CONTRAST",
+            "route": "/brain-with-angiography-without-contrast-mri-scan"
+          },
+          {
+            "id": "67d3e65416444f3c11500b89",
+            "testName": "MRI BRAIN WITH SPECTROSCOPY",
+            "route": "/brain-with-spectroscopy-mri-scan"
+          },
+          {
+            "id": "67d3ea0c16444f3c11500ca5",
+            "testName": "MRI BRAIN WITH EPILEPSY PROTOCOL",
+            "route": "/brain-with-epilepsy-protocol-mri-scan"
+          },
+          {
+            "id": "67d3ecc716444f3c11500d30",
+            "testName": "MRI BRAIN+ANGIOGRAM",
+            "route": "/brain-and-angiogram-mri-scan"
+          },
+          {
+            "id": "67d7d30d16444f3c11507fe9",
+            "testName": "MRI HIP JOINTS",
+            "route": "/hip-joints-mri-scan"
+          },
+          {
+            "id": "67d7d3ad16444f3c1150802a",
+            "testName": "MRI CERVICAL SPINE",
+            "route": "/cervical-spine-mri-scan"
+          },
+          {
+            "id": "67e12dbb16444f3c115186b2",
+            "testName": "MRI THORACO LUMBER SPINE",
+            "route": "/thoraco-lumbar-spine-mri-scan"
+          },
+          {
+            "id": "67e12e1d16444f3c11518719",
+            "testName": "MRI ABDOMEN & PELVIS",
+            "route": "/abdomen-and-pelvis-mri-scan"
+          },
+          {
+            "id": "67e12e9316444f3c11518732",
+            "testName": "MRI ANGIOGRAM/ VENOGRAM (MRA/MRV)",
+            "route": "/magnetic-resonance-angiogram-venogram-mri-scan"
+          },
+          {
+            "id": "67e1403d16444f3c11518c04",
+            "testName": "MRI BRACHIAL PLEXUS",
+            "route": "/brachial-plexus-mri-scan"
+          },
+          {
+            "id": "67e249fb16444f3c1151adaa",
+            "testName": "MRI ANKLE",
+            "route": "/ankle-mri-scan"
+          },
+          {
+            "id": "67e280ab16444f3c1151bb60",
+            "testName": "MRI BRAIN + ORBITS",
+            "route": "/brain-and-orbits-mri-scan"
+          },
+          {
+            "id": "67e2842c16444f3c1151bd97",
+            "testName": "MRI BRAIN + PNS",
+            "route": "/brain-and-peripheral-nervous-system-pns-mri-scan"
+          },
+          {
+            "id": "67e2869c16444f3c1151be44",
+            "testName": "MRI BRAIN + VENOGRAM",
+            "route": "/brain-and-venogram-mri-scan"
+          },
+          {
+            "id": "67e2892c16444f3c1151bf5f",
+            "testName": "MRI CAROTID ANGIO",
+            "route": "/carotid-angio-mri-scan"
+          },
+          {
+            "id": "67e3b81b16444f3c1151e7fe",
+            "testName": "MRI DORSAL LUMBER SPINE",
+            "route": "/dorsal-lumbar-spine-mri-scan"
+          },
+          {
+            "id": "67e3ba2b16444f3c1151e879",
+            "testName": "MRI DORSAL SPINE",
+            "route": "/dorsal-spine-mri-scan"
+          },
+          {
+            "id": "67e3bce516444f3c1151e93d",
+            "testName": "MRI ELBOW JOINT",
+            "route": "/elbow-joint-mri-scan"
+          },
+          {
+            "id": "67e3beb716444f3c1151e966",
+            "testName": "MRI EXTREMITIES",
+            "route": "/extremities-mri-scan"
+          },
+          {
+            "id": "67e3c23916444f3c1151eab8",
+            "testName": "MRI FOOT",
+            "route": "/foot-mri-scan"
+          },
+          {
+            "id": "67e3c5c616444f3c1151ed81",
+            "testName": "MRI FOREARM",
+            "route": "/forearm-mri-scan"
+          },
+          {
+            "id": "67e3c91316444f3c1151ede8",
+            "testName": "MRI HAND",
+            "route": "/hand-mri-scan"
+          },
+          {
+            "id": "67e3cb6016444f3c1151eeab",
+            "testName": "MRI SHOULDER",
+            "route": "/shoulder-mri-scan"
+          },
+          {
+            "id": "67e3cdc316444f3c1151ef37",
+            "testName": "MRI KNEE JOINT",
+            "route": "/knee-joint-mri-scan"
+          },
+          {
+            "id": "67e6684816444f3c11523765",
+            "testName": "MRI WRIST JOINT",
+            "route": "/wrist-joint-mri-scan"
+          },
+          {
+            "id": "67e66a3516444f3c11523786",
+            "testName": "MRI NECK ANGIO (TOF)",
+            "route": "/neck-angiography-mri-scan"
+          },
+          {
+            "id": "67e66e4b16444f3c115238a5",
+            "testName": "MRI ONE REGION",
+            "route": "/one-region-disc-mri-scan"
+          },
+          {
+            "id": "67e6711616444f3c11523a07",
+            "testName": "MRI ORBIT ",
+            "route": "/orbit-mri-scan"
+          },
+          {
+            "id": "67e6738516444f3c11523af8",
+            "testName": "MRI PELVIS",
+            "route": "/pelvis-mri-scan"
+          },
+          {
+            "id": "67e674e816444f3c11523b1b",
+            "testName": "MRI PELVIS WITH BOTH HIP JOINTS (BONES)",
+            "route": "/pelvis-with-both-hip-joints-mri-scan"
+          },
+          {
+            "id": "67e679fc16444f3c11523c7f",
+            "testName": "MRI PITUITARY /SELLA",
+            "route": "/pituitary-gland-and-sella-mri-scan"
+          },
+          {
+            "id": "67e67c2e16444f3c11523ca0",
+            "testName": "MRI SCREENING",
+            "route": "/mri-screening"
+          },
+          {
+            "id": "67e67f0d16444f3c11523dab",
+            "testName": "MRI WHOLE SPINE",
+            "route": "/whole-spine-mri-scan"
+          },
+          {
+            "id": "67edf5c516444f3c11531198",
+            "testName": "MRI SACROILIAC JOINTS",
+            "route": "/sacroiliac-joints-mri-scan"
+          },
+          {
+            "id": "67edf89216444f3c115311e7",
+            "testName": "MRI + CT TEMPORAL BONES",
+            "route": "/ct-temporal-bones-mri-scan"
+          },
+          {
+            "id": "67edfb0416444f3c11531235",
+            "testName": "MRI BOTH SHOULDERS",
+            "route": "/both-shoulders-mri-scan"
+          },
+          {
+            "id": "67edfd5f16444f3c11531284",
+            "testName": "MRI BOTH KNEES",
+            "route": "/both-knees-mri-scan"
+          },
+          {
+            "id": "67f3b80b16444f3c1153a6e9",
+            "testName": "MRI HIP WITHOUT CONTRAST",
+            "route": "/hip-without-contrast-mri-scan"
+          },
+          {
+            "id": "67f3ba6d16444f3c1153a748",
+            "testName": "MRI BRAIN WITH SEIZURE PROTOCOL",
+            "route": "/brain-with-seizure-protocol-mri-scan"
+          },
+          {
+            "id": "67f3bdf716444f3c1153a802",
+            "testName": "MRI CHEST WITHOUT CONTRAST",
+            "route": "/chest-without-contrast-mri-scan"
+          },
+          {
+            "id": "67f3c35416444f3c1153a914",
+            "testName": "MRI DORSAL / DORSO-LUMBAR SPINE WITH CONTRAST",
+            "route": "/dorsal-and-dorso-lumbar-spine-with-contrast-mri-scan"
+          },
+          {
+            "id": "67f3dbca16444f3c1153ac65",
+            "testName": "MRI BRAIN WITH CONTRAST",
+            "route": "/brain-with-contrast-mri-scan"
+          },
+          {
+            "id": "67f3e65e16444f3c1153ad7a",
+            "testName": "MRI CERVICAL / CERVICO-DORSAL SPINE WITHOUT CONTRAST",
+            "route": "/cervical-and-cervico-dorsal-spine-without-contrast-mri-scan"
+          },
+          {
+            "id": "67f3ec8316444f3c1153ae66",
+            "testName": "MRI CONTRAST",
+            "route": "/contrast-mri-scan"
+          },
+          {
+            "id": "6805d9c516444f3c11559dea",
+            "testName": "MRI NECK WITH CONTRAST",
+            "route": "/neck-with-contrast-mri-scan"
+          },
+          {
+            "id": "6805dcd616444f3c11559ede",
+            "testName": "MRI ORBITS - WITHOUT CONTRAST",
+            "route": "/orbits-without-contrast-mri-scan"
+          },
+          {
+            "id": "6805decd16444f3c11559f21",
+            "testName": "MRI SCREENING OF JOINTS",
+            "route": "/screening-of-bones-and-joints-mri-scan"
+          },
+          {
+            "id": "6805e21b16444f3c11559f81",
+            "testName": "MRI NECK WITHOUT CONTRAST",
+            "route": "/neck-without-contrast-mri-scan"
+          },
+          {
+            "id": "6805e3ed16444f3c1155a02b",
+            "testName": "MRI BREAST WITH CONTRAST",
+            "route": "/breast-with-contrast-mri-scan"
+          },
+          {
+            "id": "6805ee3d16444f3c1155a227",
+            "testName": "MRI DEFECOGRAPHY",
+            "route": "/defecography-mri-scan"
+          },
+          {
+            "id": "6805f0aa16444f3c1155a266",
+            "testName": "MRI ARM",
+            "route": "/arm-mri-scan"
+          },
+          {
+            "id": "6805f28016444f3c1155a361",
+            "testName": "MRI CHEST",
+            "route": "/chest-mri-scan"
+          },
+          {
+            "id": "6805f51e16444f3c1155a499",
+            "testName": "MRI COCCYX",
+            "route": "/coccyx-mri-scan"
+          },
+          {
+            "id": "6805f85a16444f3c1155a56b",
+            "testName": "MRI CV JUNCTION",
+            "route": "/craniovertebral-cv-junction-mri-scan"
+          },
+          {
+            "id": "6805fbad16444f3c1155a5f0",
+            "testName": "MRI LIMITED",
+            "route": "/limited-mri-scan"
+          },
+          {
+            "id": "6805fe5216444f3c1155a6c0",
+            "testName": "MRI FACE",
+            "route": "/face-mri-scan"
+          },
+          {
+            "id": "6806002216444f3c1155a734",
+            "testName": "MRI FISTULOGRAM",
+            "route": "/fistulogram-mri-scan"
+          },
+          {
+            "id": "6806073816444f3c1155a831",
+            "testName": "MRI KUB",
+            "route": "/kub-mri-scan"
+          },
+          {
+            "id": "68060a1516444f3c1155a85f",
+            "testName": "MRI THIGH",
+            "route": "/thigh-mri-scan"
+          },
+          {
+            "id": "68060f0316444f3c1155a8e3",
+            "testName": "MRI - BOTH LEGS ",
+            "route": "/both-legs-mri-scan"
+          },
+          {
+            "id": "6806108f16444f3c1155a92e",
+            "testName": "MRI AORTIC ANGIOGRAPHY",
+            "route": "/aortic-angiography-mri-scan"
+          },
+          {
+            "id": "680612fe16444f3c1155aa7b",
+            "testName": "MRI BRAIN CSF FLOW STUDY",
+            "route": "/csf-flow-study-mri-scan"
+          },
+          {
+            "id": "680614e216444f3c1155aaf1",
+            "testName": "MRI BRAIN NAVIGATION PROTOCOL",
+            "route": "/brain-navigation-protocol-mri-scan"
+          },
+          {
+            "id": "680616d016444f3c1155ab65",
+            "testName": "MRI M R C P",
+            "route": "/magnetic-resonance-cholangiopancreatography-mri-scan"
+          },
+          {
+            "id": "680618aa16444f3c1155ab95",
+            "testName": "MRI MAMMOGRAM+CONTRAST",
+            "route": "/mammogram-with-contrast-mri-scan"
+          },
+          {
+            "id": "68061a7516444f3c1155acc2",
+            "testName": "MRI PNS",
+            "route": "/pns-mri-scan"
+          },
+          {
+            "id": "68061c9616444f3c1155ad7c",
+            "testName": "MRI NECK",
+            "route": "/neck-mri-scan"
+          },
+          {
+            "id": "680b2f0a16444f3c115675e7",
+            "testName": "MRI PROSTATE",
+            "route": "/prostate-mri-scan"
+          },
+          {
+            "id": "680b31ae16444f3c115676d3",
+            "testName": "MRI SCAN OF TOUNGE",
+            "route": "/tongue-mri-scan"
+          },
+          {
+            "id": "680b34d016444f3c115676f9",
+            "testName": "MRI SCROTUM",
+            "route": "/scrotum-mri-scan"
+          },
+          {
+            "id": "680b43ef16444f3c115679aa",
+            "testName": "MRI STERNO CLAVICULAR JOINT",
+            "route": "/sterno-clavicular-joint-mri-scan"
+          },
+          {
+            "id": "680b4aec16444f3c11567afd",
+            "testName": "MRI TEMPORAL BONES",
+            "route": "/temporal-bones-mri-scan"
+          },
+          {
+            "id": "680b4d7116444f3c11567b66",
+            "testName": "MRI TEMPOROMANDIBULAR JOINTS",
+            "route": "/temporomandibular-joint-mri-scan"
+          },
+          {
+            "id": "680b4f9b16444f3c11567bb7",
+            "testName": "MRI THUMB",
+            "route": "/thumb-mri-scan"
+          },
+          {
+            "id": "680b528116444f3c11567c9e",
+            "testName": "MRI WHOLE BODY",
+            "route": "/whole-body-mri-scan"
+          },
+          {
+            "id": "680b5fa416444f3c11567fc2",
+            "testName": "MRI ARTHOGRAM",
+            "route": "/arthrogram-mri-scan"
+          },
+          {
+            "id": "680b897016444f3c11568f33",
+            "testName": "MRI PERIPHERAL ANGIO",
+            "route": "/peripheral-angiography-mri-scan"
+          },
+          {
+            "id": "6830334b16444f3c115b6db1",
+            "testName": "MRI EXTREMITIS WITHOUT CONTRAST",
+            "route": "/extremities-without-mri-scan"
+          },
+          {
+            "id": "6830617716444f3c115b7533",
+            "testName": "MRI BILATERAL TEMPORAL BONE / INNEAR EAR WITHOUT CONTRAST",
+            "route": "/bilateral-temporal-bone-innear-without-contrast"
+          },
+          {
+            "id": "68319d5116444f3c115b9aea",
+            "testName": "MRI LEG",
+            "route": "/leg-mri-scan"
+          },
+          {
+            "id": "68413f7b16444f3c115db6da",
+            "testName": "MRI PELVIS WITHOUT CONTRAST",
+            "route": "/pelvis-without-contrast-mri-scan"
+          },
+          {
+            "id": "68415f0616444f3c115dbfba",
+            "testName": "FIBRONOGEN DEGRADATION PRODUCTS (FDP)",
+            "route": "/testpage123"
+          },
+          {
+            "id": "6841732216444f3c115dc4ea",
+            "testName": "MRI LUMBAR / LUMBOSACRAL SPINE WITH CONTRAST",
+            "route": "/lumbar-lumbosacral-spine-with-contrast-mri-scan"
+          }
+        ]
+      },
+      "seo": {
+        "title": "MRI Lumbar Spine Explained | Cadabams Diagnostics",
+        "description": "Learn about the MRI Lumbar Spine procedure, preparation, risks, and what it detects at Cadabams Diagnostics. Get insights on how an MRI for lower back is done. ",
+        "keywords": "",
+        "canonicalUrl": "",
+        "ogTitle": "",
+        "ogDescription": "",
+        "ogImage": "",
+        "schemaMarkup": "",
+        "robotsMeta": ""
+      },
+      "markdown": "## Lumbar/Lumbosacral Spine Without Contrast MRI Overview\n\nAn \\*\\*MRI Lumbar Spine\\*\\* is an advanced, non-invasive imaging test that provides highly detailed pictures of your lower back, specifically the lumbar region of your spine. This includes the five lumbar vertebrae (L1-L5), the intervertebral discs that cushion them, the spinal cord and its exiting nerve roots (the cauda equina), and the surrounding soft tissues like muscles and ligaments.\nThe core purpose of an \\*\\*MRI Lumbar Spine\\*\\* is to create clear, cross-sectional images – think of them as slices – which allow radiologists at Cadabams Diagnostics to meticulously examine these structures for any abnormalities. This \\*spinal imaging\\* technique is crucial for diagnosing a wide range of conditions causing lower back pain, sciatica, or other related symptoms. Importantly, it is a non-invasive diagnostic procedure, meaning it doesn't require any surgical incisions. For more detailed information on our imaging capabilities, you can explore our [Link to: Advanced Diagnostic Imaging Services at Cadabams Diagnostics] page.\n## What is an MRI Lumbar Spine?\nAn \\*\\*MRI Lumbar Spine\\*\\* utilizes sophisticated technology to look inside your lower back. MRI stands for Magnetic Resonance Imaging. Here’s a simple breakdown:\n\\* \\*\\*Magnetic Fields:\\*\\* The MRI machine houses a powerful magnet that creates a strong, uniform magnetic field around your body.\n\\* \\*\\*Radio Waves:\\*\\* The machine then sends pulses of radio waves into the area being scanned – in this case, your lumbar spine. These radio waves temporarily interact with the protons (tiny particles) within your body's tissues.\n\\* \\*\\*Computer Processing:\\*\\* When the radio waves are turned off, the protons return to their original alignment, releasing energy signals. These signals are detected by the MRI scanner and processed by a sophisticated computer.\n\\* \\*\\*Detailed Images:\\*\\* The computer translates these signals into highly detailed, cross-sectional images of your lumbar spine, visualized from different angles.\nUnlike X-rays or CT scans, an \\*\\*MRI Lumbar Spine\\*\\* does not use ionizing radiation, making it a very safe diagnostic tool for \\*vertebral imaging\\* and \\*intervertebral disc pathology\\* assessment.\n## Types of MRI Lumbar Spine\nDepending on the clinical question your doctor wants to answer, different types or sequences of an \\*\\*MRI Lumbar Spine\\*\\* might be performed:\n\\* \\*\\*MRI Lumbar Spine without contrast:\\*\\* This is the most common type and is typically sufficient for evaluating degenerative changes (like arthritis or degenerative disc disease), disc herniations, and general \\*spinal canal evaluation\\*.\n\\* \\*\\*MRI Lumbar Spine with contrast:\\*\\* In this type, a gadolinium-based contrast agent is injected intravenously (usually into an arm vein) partway through the scan. The contrast helps to highlight areas of inflammation, infection, tumors, active demyelinating lesions (like in Multiple Sclerosis, though less common in isolated lumbar scans), or scar tissue, particularly after previous spinal surgery. It can also improve visualization of blood vessels.\nRadiologists at Cadabams Diagnostics also utilize specific MRI sequences to highlight different tissue characteristics and pathologies. These include (but are not limited to):\n\\* \\*\\*T1-weighted images:\\*\\* Good for showing anatomy, fat, and subacute hemorrhage.\n\\* \\*\\*T2-weighted images:\\*\\* Excellent for detecting fluid, edema (swelling), cysts, and disc hydration. Degenerated discs often appear dark on T2 images due to loss of water content.\n\\* \\*\\*STIR (Short Tau Inversion Recovery) / Fat Saturation sequences:\\*\\* These suppress the signal from fat, making fluid and inflammation more conspicuous, which is useful for detecting bone marrow edema (e.g., in fractures or infections).\nThe choice of sequences and whether to use contrast is tailored to your individual clinical needs to ensure the most accurate diagnostic information for your \\*\\*MRI Lumbar Spine\\*\\*.\n\n## Risks & Limitations of the Lumbar/Lumbosacral Spine MRI\n\nWhile an \\*\\*MRI Lumbar Spine\\*\\* is generally a very safe procedure, there are a few potential risks and limitations to be aware of:\n### Potential Risks:\n\\* \\*\\*Reaction to contrast material (if used):\\*\\* Gadolinium-based contrast agents are sometimes used to enhance images. Allergic reactions are rare and usually mild (e.g., headache, nausea, rash). Severe reactions are extremely uncommon. At Cadabams Diagnostics, we pre-screen patients for kidney issues if contrast is planned, as individuals with severe kidney disease may have a very small risk of a rare condition called nephrogenic systemic fibrosis (NSF).\n\\* \\*\\*Claustrophobia:\\*\\* Some individuals may feel anxious or uncomfortable in the enclosed space of the MRI machine. If you have concerns about claustrophobia, please discuss them with us beforehand. Options like listening to music, using a blindfold, or, in some cases, mild sedation can be arranged. Cadabams Diagnostics may also offer [Link to: Open MRI options at Cadabams Diagnostics] or information on [Link to: Patient Comfort during MRI at Cadabams Diagnostics].\n\\* \\*\\*Noise:\\*\\* MRI machines produce loud knocking, thumping, or buzzing sounds during operation. We provide earplugs or noise-canceling headphones to minimize discomfort.\n\\* \\*\\*Metallic implants:\\*\\* The strong magnetic field can interact with certain metallic implants or foreign bodies, potentially causing them to move, heat up, or malfunction. This includes older pacemakers, some aneurysm clips, cochlear implants, and metal fragments (e.g., shrapnel). A thorough safety screening is performed by Cadabams Diagnostics staff before every \\*\\*MRI Lumbar Spine\\*\\* to identify and manage these risks.\n### Limitations:\n\\* \\*\\*Not suitable for all patients:\\*\\* Patients with certain non-MRI compatible metallic implants cannot undergo the scan.\n\\* \\*\\*Image quality:\\*\\* Patient movement during the scan can blur the images, potentially making them less diagnostic. It's crucial to remain as still as possible.\n\\* \\*\\*Correlation with symptoms:\\*\\* While an \\*\\*MRI Lumbar Spine\\*\\* provides excellent anatomical detail, findings like disc bulges are common even in asymptomatic individuals. Your doctor will correlate the MRI findings with your specific symptoms and clinical examination for an accurate \\*back pain diagnostics\\* approach.\n\n## List of Parameters Considered During the Lumbar/Lumbosacral Spine MRI\n\nWhen a radiologist at Cadabams Diagnostics reviews your \\*\\*MRI Lumbar Spine\\*\\* images, they meticulously assess numerous parameters to provide a comprehensive report. These include:\n\\* \\*\\*Vertebral body alignment, height, and signal:\\*\\* Looking for proper alignment (e.g., lumbar lordosis), any loss of vertebral body height (suggesting fracture), spondylolisthesis (vertebral slippage), and abnormal bone marrow signals that could indicate tumors, infection, edema, or degenerative changes.\n\\* \\*\\*Intervertebral disc condition:\\*\\* Assessing disc height, hydration (seen by T2 signal intensity), and the presence of abnormalities such as:\n\\* \\*\\*Disc bulge:\\*\\* Diffuse, circumferential extension of the disc beyond the vertebral body margins.\n\\* \\*\\*Disc protrusion:\\*\\* Focal extension of disc material.\n\\* \\*\\*Disc extrusion:\\*\\* A more significant extension where the base is narrower than the extruded portion.\n\\* \\*\\*Disc sequestration:\\*\\* When a piece of the disc breaks off and migrates.\nThis is critical for assessing \\*intervertebral disc pathology\\*.\n\\* \\*\\*Spinal canal:\\*\\* Measuring dimensions to identify central canal stenosis (narrowing), which can compress the thecal sac containing the spinal cord and/or cauda equina nerve roots.\n\\* \\*\\*Neural foramina:\\*\\* Evaluating the openings where nerve roots exit the spinal canal. Stenosis here (foraminal stenosis) can cause \\*nerve root assessment\\* findings consistent with impingement or compression, often leading to \\*sciatica causes\\*.\n\\* \\*\\*Spinal cord and cauda equina nerve roots:\\*\\* Assessing the morphology (shape), signal intensity, and any signs of compression or displacement of the conus medullaris (end of the spinal cord, typically at L1-L2) and the cauda equina nerve roots.\n\\* \\*\\*Facet joints:\\*\\* Looking for degenerative changes (arthropathy), joint effusion (fluid), or cysts, which can be a source of back pain.\n\\* \\*\\*Ligaments:\\*\\* Examining structures like the ligamentum flavum for hypertrophy (thickening), which can contribute to spinal stenosis.\n\\* \\*\\*Paraspinal soft tissues:\\*\\* Checking for any masses, collections (e.g., abscesses), or signs of inflammation in the muscles and tissues surrounding the spine. This thorough \\*musculoskeletal radiology\\* review is standard.\n\n## Reasons for Taking an MRI of the Lumbar/Lumbosacral Spine\n\nThere are many specific reasons why your doctor might order an \\*\\*MRI Lumbar Spine\\*\\*. This test helps to:\n\\* Diagnose the cause of chronic or severe lower back pain, especially when other tests like X-rays are inconclusive.\n\\* Investigate symptoms such as sciatica, leg weakness, numbness, or tingling by identifying potential nerve compression.\n\\* Assess for herniated, bulging, or degenerated discs; an \\*\\*MRI Lumbar Spine\\*\\* clearly shows what these conditions look like. (SK: lumbar spine mri detects what)\n\\* Evaluate for spinal stenosis, which is a narrowing of the spinal canal or neural foramina.\n\\* Detect vertebral fractures, particularly subtle ones not clearly visible on X-rays, or to assess the age of a fracture.\n\\* Identify spinal infections (e.g., discitis, osteomyelitis, epidural abscess) or tumors (both benign and malignant, primary or metastatic).\n\\* Plan for spinal surgery by providing a detailed anatomical roadmap for the surgeon.\n\\* Evaluate post-operative changes, such as healing, scar tissue formation, or recurrent disc herniation.\n\\* Assess congenital abnormalities of the lumbar spine (conditions present since birth).\n\\* Investigate potential causes of \\*lumbar radiculopathy\\*.\n## When and Who Needs to Take an MRI Lumbar Spine?\nYour doctor may recommend an \\*\\*MRI Lumbar Spine\\*\\* if you are experiencing symptoms or have a condition affecting your lower back. Common indications include:\n\\* \\*\\*Persistent or severe lower back pain:\\*\\* Pain that hasn't improved with initial treatments or is worsening.\n\\* \\*\\*Sciatica:\\*\\* Pain that radiates from the lower back down one or both legs, often accompanied by numbness or tingling. This is a key indicator for \\*nerve root assessment\\*.\n\\* \\*\\*Numbness, tingling, or weakness:\\*\\* These sensations in the legs, feet, or buttocks can suggest nerve compression or damage.\n\\* \\*\\*Symptoms not improving with conservative treatment:\\*\\* If rest, physical therapy, and medication haven't provided relief after several weeks.\n\\* \\*\\*\"Red flag\" symptoms:\\*\\* These warrant urgent investigation and include:\n\\* Bowel or bladder dysfunction (incontinence or retention).\n\\* Unexplained weight loss accompanied by back pain.\n\\* Fever with back pain.\n\\* Severe pain that is constant and progressive.\n\\* History of cancer with new-onset back pain.\n\\* Saddle anesthesia (numbness in the groin and inner thighs).\nPatient groups who often benefit from an \\*\\*MRI Lumbar Spine\\*\\* include individuals with:\n\\* Suspected disc herniation or bulge.\n\\* Spinal stenosis (narrowing of the spinal canal).\n\\* Vertebral fractures (especially compression fractures).\n\\* Spinal infections (e.g., discitis, osteomyelitis).\n\\* Tumors affecting the spine (primary or metastatic).\n\\* Inflammatory conditions like ankylosing spondylitis.\n\\* Pre-operative planning for spinal surgery.\n\\* Post-operative assessment to evaluate healing or complications.\n\n## Benefits of Taking the Test\n\nThe \\*\\*MRI Lumbar Spine\\*\\* offers significant advantages in diagnosing lower back conditions:\n\\* \\*\\*Superior Soft Tissue Detail:\\*\\* It provides highly detailed images of soft tissues like intervertebral discs, nerves, the spinal cord, ligaments, and muscles – structures not well visualized on X-rays.\n\\* \\*\\*No Ionizing Radiation:\\*\\* Unlike X-rays or CT (Computed Tomography) scans, MRI does not use ionizing radiation, making it a safer option, especially if multiple scans are needed over time.\n\\* \\*\\*Accurate Diagnosis:\\*\\* The detailed images allow for a more precise diagnosis, which is crucial for developing an effective and targeted treatment plan.\n\\* \\*\\*Early Detection:\\*\\* An \\*\\*MRI Lumbar Spine\\*\\* can often detect abnormalities in their early stages, sometimes before they cause severe symptoms, allowing for earlier intervention.\n\\* \\*\\*Non-Invasive Assessment:\\*\\* It provides a comprehensive evaluation of the lumbar spine without the need for surgery or invasive procedures.\n\\* \\*\\*Problem Solving:\\*\\* It can clarify ambiguous findings from other imaging studies or help diagnose conditions when the cause of symptoms is unclear.\n\n## Diseases Diagnosed with Lumbar/Lumbosacral Spine MRI\n\nAn \\*\\*MRI Lumbar Spine\\*\\* is invaluable for diagnosing a wide array of conditions affecting the lower back. Here are some of the illnesses an \\*\\*MRI Lumbar Spine\\*\\* detects:\n\\* \\*\\*Disc Herniation:\\*\\* Including disc protrusion, extrusion, and sequestration, which can compress nerves.\n\\* \\*\\*Degenerative Disc Disease:\\*\\* Age-related wear and tear of the discs, leading to loss of height and hydration.\n\\* \\*\\*Spinal Stenosis:\\*\\* Narrowing of the spinal canal (central stenosis), lateral recesses (lateral recess stenosis), or neural foramina (foraminal stenosis).\n\\* \\*\\*Spondylolisthesis:\\*\\* Slippage of one vertebra over another.\n\\* \\*\\*Sciatica:\\*\\* While a symptom, MRI identifies the underlying compressive cause, such as a herniated disc or stenosis.\n\\* \\*\\*Vertebral Fractures:\\*\\* Including acute traumatic fractures or chronic compression fractures, often due to osteoporosis.\n\\* \\*\\*Spinal Infections:\\*\\* Such as discitis (infection of the disc), osteomyelitis (infection of the bone), or epidural abscess (collection of pus around the spinal cord).\n\\* \\*\\*Spinal Tumors:\\*\\* Both primary tumors arising from the spine and metastatic tumors that have spread from elsewhere in the body.\n\\* \\*\\*Cauda Equina Syndrome:\\*\\* A serious condition caused by compression of the cauda equina nerve roots, requiring urgent diagnosis and treatment.\n\\* \\*\\*Ankylosing Spondylitis and other Inflammatory Arthropathies:\\*\\* MRI can show signs of inflammation in the spine and sacroiliac joints.\n\\* \\*\\*Synovial Cysts:\\*\\* Fluid-filled sacs, typically arising from facet joints, that can compress nerves.\n\\* \\*\\*Arachnoiditis:\\*\\* Inflammation of the arachnoid lining of the spinal canal.\n\n## Preparing for Lumbar/Lumbosacral Spine MRI\n\nProper preparation helps ensure a smooth and efficient \\*\\*MRI Lumbar Spine\\*\\* scan. Here's what you need to know about \\*\\*preparing for an mri lumbar spine\\*\\* at Cadabams Diagnostics:\n### Diet:\n\\* For an \\*\\*MRI Lumbar Spine without contrast\\*\\*, generally, no special dietary restrictions are needed. You can eat, drink, and take your medications as usual unless instructed otherwise.\n\\* If your \\*\\*MRI Lumbar Spine is to be done with contrast\\*\\*, you may be asked to fast for a few hours before the scan. This is a precaution to minimize the risk of nausea. Please confirm any specific dietary instructions with Cadabams Diagnostics staff when scheduling or before your appointment.\n### Clothing:\n\\* Wear comfortable, loose-fitting clothing without metal zippers, buttons, snaps, or metallic threads (like in some athletic wear).\n\\* You may be asked to change into a hospital gown to ensure no metallic items interfere with the scan.\n### Metal Objects: This is extremely important.\n\\* You must remove all metallic items before entering the MRI scan room. This includes:\n\\* Jewelry (rings, necklaces, earrings, watches, body piercings)\n\\* Hairpins, barrettes, and hair ties with metal parts\n\\* Hearing aids\n\\* Removable dental work (dentures with metal components)\n\\* Eyeglasses\n\\* Secure lockers are usually provided at Cadabams Diagnostics for your valuables. It's often best to leave valuable items at home.\n### Inform Staff: It is crucial to inform the Cadabams Diagnostics technologist or scheduling staff \\*before\\* your scan if you have any of the following:\n\\* \\*\\*Any metal implants in your body:\\*\\* This includes pacemakers, implantable cardioverter-defibrillators (ICDs), cochlear implants, neurostimulators (spinal cord or brain), drug infusion pumps, aneurysm clips (especially older ones), artificial heart valves, metallic stents, joint replacements, bone pins/screws/plates. Many modern implants are MRI-compatible, but we must verify this.\n\\* \\*\\*History of metal fragments in your body:\\*\\* Such as shrapnel, bullets, or metal flakes in your eyes (e.g., from welding or metalwork). An X-ray may be needed to check for metal in the eyes.\n\\* \\*\\*Tattoos or permanent makeup with metallic ink:\\*\\* Some older inks contain iron oxide, which can heat up during an MRI or distort images.\n\\* \\*\\*Possibility of pregnancy:\\*\\* If you are pregnant or suspect you might be, inform us. MRIs are generally avoided in the first trimester unless absolutely necessary.\n\\* \\*\\*Kidney problems or dialysis:\\*\\* Especially if a contrast agent is planned.\n\\* \\*\\*Claustrophobia or anxiety:\\*\\* So we can discuss options to help you feel comfortable.\nYou may want to review any [Link to: Patient Forms at Cadabams Diagnostics] or [Link to: Appointment Checklist at Cadabams Diagnostics] beforehand.\n## Pre-requisites\nBefore undergoing an \\*\\*MRI Lumbar Spine\\*\\*, certain prerequisites are usually in place:\n\\* \\*\\*Doctor's Referral:\\*\\* A referral or prescription from your doctor is typically necessary. This ensures the test is medically appropriate for your condition and helps the radiologist understand what specific questions need to be answered.\n\\* \\*\\*Safety Screening Questionnaire:\\*\\* You will be asked to complete a detailed MRI safety screening questionnaire. This form helps identify any potential contraindications or safety concerns, such as metallic implants or allergies. It's vital to answer these questions accurately and completely.\n\\* \\*\\*Kidney Function Test (for contrast studies):\\*\\* If your doctor has ordered an \\*\\*MRI Lumbar Spine with contrast\\*\\*, a recent kidney function test (e.g., serum creatinine level to calculate eGFR) may be required. This is particularly important for patients over 60 years of age, those with a history of kidney disease, diabetes, or hypertension, to ensure the safe administration of the contrast agent.\n## Best Time to Take the MRI Lumbar Spine\nAn \\*\\*MRI Lumbar Spine\\*\\* can generally be scheduled at any time that is convenient for you and based on the availability at Cadabams Diagnostics. There is usually no \"best time\" of day from a medical perspective, unless you have specific needs (e.g., fasting for a contrast study might be easier in the morning).\nIt is not typically an emergency timed test unless your doctor suspects an urgent condition like Cauda Equina Syndrome, acute spinal cord compression, or severe infection, in which case the scan would be performed as quickly as possible.\n## Eligibility\nMost individuals can safely undergo an \\*\\*MRI Lumbar Spine\\*\\*. However, there are some contraindications:\n### Absolute Contraindications (MRI is generally not performed):\n\\* Certain non-MRI compatible pacemakers or implantable cardioverter-defibrillators (ICDs).\n\\* Specific older types of intracranial aneurysm clips.\n\\* Some cochlear implants.\n\\* Certain metallic foreign bodies, especially if located in or near the eyes or other critical structures.\n\\* Drug infusion pumps that are not MRI-safe.\n### Relative Contraindications (MRI may be performed with caution, after careful assessment of risks vs. benefits by Cadabams Diagnostics staff and your doctor):\n\\* \\*\\*Pregnancy:\\*\\* Especially during the first trimester. While MRI is not known to harm the fetus, it's used cautiously and only if essential.\n\\* \\*\\*Severe claustrophobia:\\*\\* Though accommodations can often be made.\n\\* \\*\\*Severe kidney disease (renal insufficiency):\\*\\* If gadolinium contrast is considered essential, the risks are carefully weighed.\n\\* \\*\\*Inability to lie still for the required duration:\\*\\* This can compromise image quality.\n\\* \\*\\*Certain programmable shunts or neurostimulators:\\*\\* Some may need to be adjusted or turned off.\nThe technologist at Cadabams Diagnostics will thoroughly review your safety screening form and discuss any concerns to determine your eligibility.\n## Procedure for Taking an MRI Lumbar Spine\nKnowing \\*\\*how is a lumbar spine mri done\\*\\* and \\*\\*what to expect during lumbar mri\\*\\* can help alleviate any anxiety. Here’s a step-by-step guide to the \\*\\*MRI Lumbar Spine\\*\\* procedure at Cadabams Diagnostics:\n1. \\*\\*Check-in and Final Screening:\\*\\* Upon arrival at Cadabams Diagnostics, you'll check in and may be asked to confirm details from your safety questionnaire. You'll change into a gown if needed.\n2. \\*\\*Positioning:\\*\\* You'll be asked to lie flat on your back on a padded, motorized table that slides into the MRI scanner. The technologist will help you get comfortable.\n3. \\*\\*Surface Coil:\\*\\* A special device called a \"surface coil\" (or \"phased array coil\") will be placed over or around your lower back. This coil acts as an antenna to receive the signals from your body, helping to create clearer, more detailed images of your lumbar spine.\n4. \\*\\*Entering the Scanner:\\*\\* The table will then gently slide into the center of the large, cylindrical MRI machine, which is open at both ends. Your head will be outside the main bore of the magnet for a lumbar spine scan, reducing feelings of confinement for some.\n5. \\*\\*Noise and Communication:\\*\\*\n\\* During the scan, you will hear loud knocking, thumping, buzzing, or whirring sounds. These are normal and occur when the machine is acquiring images. Cadabams Diagnostics will provide you with earplugs or noise-canceling headphones, often with options to listen to music.\n\\* The technologist will operate the scanner from an adjacent room, observing you through a large window. They will be able to communicate with you via an intercom system. You will also have a call button or squeeze ball to alert the technologist if you need assistance or feel uncomfortable.\n6. \\*\\*Staying Still:\\*\\* It is absolutely crucial to remain as still as possible during each scan sequence. Even small movements can blur the images, potentially requiring sequences to be repeated and extending the scan time. Try to relax and breathe normally.\n7. \\*\\*Contrast Administration (if needed):\\*\\* If your \\*\\*MRI Lumbar Spine\\*\\* requires contrast, the technologist will administer the gadolinium-based contrast agent through an intravenous (IV) line in your arm or hand, usually partway through the scan. You might feel a brief cool sensation as the contrast is injected. Additional images will then be taken.\n8. \\*\\*Scan Duration:\\*\\* A typical \\*\\*MRI Lumbar Spine\\*\\* scan takes approximately 20 to 45 minutes, depending on the number of imaging sequences required and whether contrast is used. Your specific scan time will be estimated by the Cadabams Diagnostics team.\n9. \\*\\*Completion:\\*\\* Once all the necessary images are acquired, the table will slide out of the scanner, and the technologist will assist you. If an IV was placed for contrast, it will be removed.\nYou can usually resume normal activities immediately after your \\*\\*MRI Lumbar Spine\\*\\* unless you received sedation.\n## Caution Before Taking the Test\nBefore your \\*\\*MRI Lumbar Spine\\*\\* at Cadabams Diagnostics, please ensure you reiterate the following critical information to our staff:\n\\* \\*\\*Pregnancy:\\*\\* If you are pregnant, think you might be pregnant, or are trying to become pregnant.\n\\* \\*\\*All Metallic Implants, Devices, or Foreign Bodies:\\*\\* This includes pacemakers, ICDs, aneurysm clips, neurostimulators, cochlear implants, infusion pumps, stents, joint replacements, pins, screws, plates, shrapnel, or metal fragments. Please bring any implant cards if you have them.\n\\* \\*\\*History of Kidney Problems or Allergic Reactions:\\*\\* Especially if you have known kidney disease, are on dialysis, or have had previous allergic reactions to MRI contrast agents or any other medications.\n\\* \\*\\*Claustrophobia or Anxiety:\\*\\* If you have a fear of enclosed spaces or experience significant anxiety, let us know in advance so we can discuss strategies to help you, such as sedation options or orientation to the scanner.\n\\* \\*\\*Medications:\\*\\* Inform the staff about any medications you are currently taking.\n\\* \\*\\*Recent Surgeries:\\*\\* Especially any surgeries involving metallic implants.\n\\* \\*\\*Inability to Lie Flat or Still:\\*\\* If you have severe pain or other conditions that make it difficult to lie flat on your back without moving for up to an hour.\nYour safety and comfort are paramount at Cadabams Diagnostics. Providing this information helps us ensure the \\*\\*MRI Lumbar Spine\\*\\* is performed safely and effectively."
+    },
+    {
+      "id": "673dc0a75ab244ca239d0228",
+      "templateName": "non-labtest",
+      "testName": "MRI RENAL ANGIOGRAPHY",
+      "route": "/renal-angiography-mri",
+      "basic_info": {
+        "name": "MRI RENAL ANGIOGRAPHY",
+        "route": "/renal-angiography-mri",
+        "categoryId": "671b5102ad9bf8d210384d1a",
+        "price": 11000,
+        "alsoKnownAs": "",
+        "discount": "0",
+        "discountedPrice": "11000.00",
+        "reportsWithin": "3hrs",
+        "Identifies": "",
+        "measures": "",
+        "testId": 9896170,
+        "testCategory": "-"
+      },
+      "requisites": [],
+      "interpretations": {
+        "title": "Results and Interpretations ",
+        "cols": [
+          "Condition/Findings ",
+          "Description (Example Patient Finding)",
+          "General Interpretation / Significance"
+        ],
+        "rows": [
+          [
+            "Renal artery lumen diameter",
+            " ≥4 mm",
+            "Normal "
+          ],
+          [
+            "Stenosis ",
+            " <50 %",
+            "Mild—observe"
+          ],
+          [
+            "Stenosis ",
+            "≥70 %",
+            "Severe—intervention likely"
+          ],
+          [
+            "Normal flow void",
+            "Smooth, dark column of blood",
+            "No blockage"
+          ],
+          [
+            "Focal stenosis",
+            "Sudden narrowing",
+            "Likely plaque or fibromuscular dysplasia"
+          ],
+          [
+            "Post-stenotic dilation",
+            "Bulge just after narrowing",
+            "High-grade stenosis indicator"
+          ],
+          [
+            "Renal Veins",
+            "Patent with normal caliber; Evidence of thrombus; Compression (e.g., Nutcracker syndrome – left renal vein between SMA and aorta)",
+            "Evaluates renal venous outflow. Thrombosis may cause renal dysfunction or flank pain. Nutcracker syndrome can result in hematuria or varicocele."
+          ],
+          [
+            "Presence of Stents / Grafts",
+            "Patent renal artery stent with no restenosis; Occlusion or narrowing of prior bypass graft",
+            "Used to evaluate post-procedural status. In-stent restenosis or graft occlusion can lead to recurrence of symptoms and requires follow-up or revision."
+          ]
+        ]
+      },
+      "faqs": [
+        {
+          "question": "Is MRI renal angiography painful?",
+          "answer": "No. You’ll feel only a brief pinch when the IV goes in.\n"
+        },
+        {
+          "question": "How long does the scan take?",
+          "answer": "30–45 minutes on the table, plus 15 minutes of observation.\n"
+        },
+        {
+          "question": "Can I eat after the scan?",
+          "answer": "Yes. Resume your normal diet and hydration immediately.\n"
+        },
+        {
+          "question": "When will I get results?",
+          "answer": "Standard reports within 24 hours; same-day option available at Cadabams Diagnostics.\n"
+        },
+        {
+          "question": "Is gadolinium dye safe?",
+          "answer": "Yes, in patients with good kidney function. We screen every patient first.\n"
+        },
+        {
+          "question": "What if I’m claustrophobic?",
+          "answer": "Our open-bore 3T MRI and mild sedation options keep you comfortable.\n"
+        }
+      ],
+      "relative_test": {
+        "title": "",
+        "categoryId": "671b5102ad9bf8d210384d1a",
+        "tests": [
+          {
+            "id": "6735d7ca03598b92c151c932",
+            "testName": "MRI BRAIN ",
+            "route": "/brain-mri"
+          },
+          {
+            "id": "673719ce996e7737b6f4de3a",
+            "testName": "Perianal Imaging",
+            "route": "/perianal-imaging-center"
+          },
+          {
+            "id": "673c712beffae454707e0135",
+            "testName": "MRI ABDOMEN ",
+            "route": "/abdominal-mri"
+          },
+          {
+            "id": "673db6af534c72d341052c2f",
+            "testName": "MRI LUMAR SPINE",
+            "route": "/lumbar-spine-mri"
+          },
+          {
+            "id": "673dc0a75ab244ca239d0228",
+            "testName": "MRI RENAL ANGIOGRAPHY",
+            "route": "/renal-angiography-mri"
+          },
+          {
+            "id": "673ddaf55ab244ca239d0547",
+            "testName": "MRI BRAIN+SPECTROSCOPY",
+            "route": "/brain-with-spectroscopy-mri"
+          },
+          {
+            "id": "673edbf25ab244ca239d0c46",
+            "testName": "MRI L S SPINE WITH CONTRAST",
+            "route": "/musculoskeletal-mri"
+          },
+          {
+            "id": "679a2112bf2a88a244a6a08e",
+            "testName": "MRI SPINE SCREENING WITHOUT CONTRAST",
+            "route": "/spine-screening-without-contrast-mri-scan"
+          },
+          {
+            "id": "679c74fdbf2a88a244a6ed73",
+            "testName": "MRI KNEE WITHOUT CONTRAST",
+            "route": "/knee-without-contrast-mri"
+          },
+          {
+            "id": "679c8c25bf2a88a244a6f131",
+            "testName": "MRI CERVICAL / CERVICO-DORSAL SPINE WITH CONTRAST",
+            "route": "/cervical-cervico-dorsal-spine-mri"
+          },
+          {
+            "id": "679c912cbf2a88a244a6f1be",
+            "testName": "MRI BRAIN PLAIN",
+            "route": "/brain-plain-mri"
+          },
+          {
+            "id": "67a0725dbf2a88a244a765c0",
+            "testName": "MRI SHOULDER WITHOUT CONTRAST",
+            "route": "/shoulder-without-contrast-mri-scan"
+          },
+          {
+            "id": "67af22e3a45909fb1bd183e6",
+            "testName": "MRI LUMBAR / LUMBOSACRAL SPINE WITHOUT CONTRAST",
+            "route": "/lumbar-lumbosacral-spine-without-contrast-mri-scan"
+          },
+          {
+            "id": "67bda0fb16444f3c114db46a",
+            "testName": "MRI DORSAL / DORSO-LUMBAR SPINE WITHOUT CONTRAST",
+            "route": "/dorsal-dorso-lumbar-spine-without-contrast-mri-scan"
+          },
+          {
+            "id": "67bda4ae16444f3c114db4be",
+            "testName": "MRI BRAIN WITH ANGIOGRAPHY WITHOUT CONTRAST",
+            "route": "/brain-with-angiography-without-contrast-mri-scan"
+          },
+          {
+            "id": "67d3e65416444f3c11500b89",
+            "testName": "MRI BRAIN WITH SPECTROSCOPY",
+            "route": "/brain-with-spectroscopy-mri-scan"
+          },
+          {
+            "id": "67d3ea0c16444f3c11500ca5",
+            "testName": "MRI BRAIN WITH EPILEPSY PROTOCOL",
+            "route": "/brain-with-epilepsy-protocol-mri-scan"
+          },
+          {
+            "id": "67d3ecc716444f3c11500d30",
+            "testName": "MRI BRAIN+ANGIOGRAM",
+            "route": "/brain-and-angiogram-mri-scan"
+          },
+          {
+            "id": "67d7d30d16444f3c11507fe9",
+            "testName": "MRI HIP JOINTS",
+            "route": "/hip-joints-mri-scan"
+          },
+          {
+            "id": "67d7d3ad16444f3c1150802a",
+            "testName": "MRI CERVICAL SPINE",
+            "route": "/cervical-spine-mri-scan"
+          },
+          {
+            "id": "67e12dbb16444f3c115186b2",
+            "testName": "MRI THORACO LUMBER SPINE",
+            "route": "/thoraco-lumbar-spine-mri-scan"
+          },
+          {
+            "id": "67e12e1d16444f3c11518719",
+            "testName": "MRI ABDOMEN & PELVIS",
+            "route": "/abdomen-and-pelvis-mri-scan"
+          },
+          {
+            "id": "67e12e9316444f3c11518732",
+            "testName": "MRI ANGIOGRAM/ VENOGRAM (MRA/MRV)",
+            "route": "/magnetic-resonance-angiogram-venogram-mri-scan"
+          },
+          {
+            "id": "67e1403d16444f3c11518c04",
+            "testName": "MRI BRACHIAL PLEXUS",
+            "route": "/brachial-plexus-mri-scan"
+          },
+          {
+            "id": "67e249fb16444f3c1151adaa",
+            "testName": "MRI ANKLE",
+            "route": "/ankle-mri-scan"
+          },
+          {
+            "id": "67e280ab16444f3c1151bb60",
+            "testName": "MRI BRAIN + ORBITS",
+            "route": "/brain-and-orbits-mri-scan"
+          },
+          {
+            "id": "67e2842c16444f3c1151bd97",
+            "testName": "MRI BRAIN + PNS",
+            "route": "/brain-and-peripheral-nervous-system-pns-mri-scan"
+          },
+          {
+            "id": "67e2869c16444f3c1151be44",
+            "testName": "MRI BRAIN + VENOGRAM",
+            "route": "/brain-and-venogram-mri-scan"
+          },
+          {
+            "id": "67e2892c16444f3c1151bf5f",
+            "testName": "MRI CAROTID ANGIO",
+            "route": "/carotid-angio-mri-scan"
+          },
+          {
+            "id": "67e3b81b16444f3c1151e7fe",
+            "testName": "MRI DORSAL LUMBER SPINE",
+            "route": "/dorsal-lumbar-spine-mri-scan"
+          },
+          {
+            "id": "67e3ba2b16444f3c1151e879",
+            "testName": "MRI DORSAL SPINE",
+            "route": "/dorsal-spine-mri-scan"
+          },
+          {
+            "id": "67e3bce516444f3c1151e93d",
+            "testName": "MRI ELBOW JOINT",
+            "route": "/elbow-joint-mri-scan"
+          },
+          {
+            "id": "67e3beb716444f3c1151e966",
+            "testName": "MRI EXTREMITIES",
+            "route": "/extremities-mri-scan"
+          },
+          {
+            "id": "67e3c23916444f3c1151eab8",
+            "testName": "MRI FOOT",
+            "route": "/foot-mri-scan"
+          },
+          {
+            "id": "67e3c5c616444f3c1151ed81",
+            "testName": "MRI FOREARM",
+            "route": "/forearm-mri-scan"
+          },
+          {
+            "id": "67e3c91316444f3c1151ede8",
+            "testName": "MRI HAND",
+            "route": "/hand-mri-scan"
+          },
+          {
+            "id": "67e3cb6016444f3c1151eeab",
+            "testName": "MRI SHOULDER",
+            "route": "/shoulder-mri-scan"
+          },
+          {
+            "id": "67e3cdc316444f3c1151ef37",
+            "testName": "MRI KNEE JOINT",
+            "route": "/knee-joint-mri-scan"
+          },
+          {
+            "id": "67e6684816444f3c11523765",
+            "testName": "MRI WRIST JOINT",
+            "route": "/wrist-joint-mri-scan"
+          },
+          {
+            "id": "67e66a3516444f3c11523786",
+            "testName": "MRI NECK ANGIO (TOF)",
+            "route": "/neck-angiography-mri-scan"
+          },
+          {
+            "id": "67e66e4b16444f3c115238a5",
+            "testName": "MRI ONE REGION",
+            "route": "/one-region-disc-mri-scan"
+          },
+          {
+            "id": "67e6711616444f3c11523a07",
+            "testName": "MRI ORBIT ",
+            "route": "/orbit-mri-scan"
+          },
+          {
+            "id": "67e6738516444f3c11523af8",
+            "testName": "MRI PELVIS",
+            "route": "/pelvis-mri-scan"
+          },
+          {
+            "id": "67e674e816444f3c11523b1b",
+            "testName": "MRI PELVIS WITH BOTH HIP JOINTS (BONES)",
+            "route": "/pelvis-with-both-hip-joints-mri-scan"
+          },
+          {
+            "id": "67e679fc16444f3c11523c7f",
+            "testName": "MRI PITUITARY /SELLA",
+            "route": "/pituitary-gland-and-sella-mri-scan"
+          },
+          {
+            "id": "67e67c2e16444f3c11523ca0",
+            "testName": "MRI SCREENING",
+            "route": "/mri-screening"
+          },
+          {
+            "id": "67e67f0d16444f3c11523dab",
+            "testName": "MRI WHOLE SPINE",
+            "route": "/whole-spine-mri-scan"
+          },
+          {
+            "id": "67edf5c516444f3c11531198",
+            "testName": "MRI SACROILIAC JOINTS",
+            "route": "/sacroiliac-joints-mri-scan"
+          },
+          {
+            "id": "67edf89216444f3c115311e7",
+            "testName": "MRI + CT TEMPORAL BONES",
+            "route": "/ct-temporal-bones-mri-scan"
+          },
+          {
+            "id": "67edfb0416444f3c11531235",
+            "testName": "MRI BOTH SHOULDERS",
+            "route": "/both-shoulders-mri-scan"
+          },
+          {
+            "id": "67edfd5f16444f3c11531284",
+            "testName": "MRI BOTH KNEES",
+            "route": "/both-knees-mri-scan"
+          },
+          {
+            "id": "67f3b80b16444f3c1153a6e9",
+            "testName": "MRI HIP WITHOUT CONTRAST",
+            "route": "/hip-without-contrast-mri-scan"
+          },
+          {
+            "id": "67f3ba6d16444f3c1153a748",
+            "testName": "MRI BRAIN WITH SEIZURE PROTOCOL",
+            "route": "/brain-with-seizure-protocol-mri-scan"
+          },
+          {
+            "id": "67f3bdf716444f3c1153a802",
+            "testName": "MRI CHEST WITHOUT CONTRAST",
+            "route": "/chest-without-contrast-mri-scan"
+          },
+          {
+            "id": "67f3c35416444f3c1153a914",
+            "testName": "MRI DORSAL / DORSO-LUMBAR SPINE WITH CONTRAST",
+            "route": "/dorsal-and-dorso-lumbar-spine-with-contrast-mri-scan"
+          },
+          {
+            "id": "67f3dbca16444f3c1153ac65",
+            "testName": "MRI BRAIN WITH CONTRAST",
+            "route": "/brain-with-contrast-mri-scan"
+          },
+          {
+            "id": "67f3e65e16444f3c1153ad7a",
+            "testName": "MRI CERVICAL / CERVICO-DORSAL SPINE WITHOUT CONTRAST",
+            "route": "/cervical-and-cervico-dorsal-spine-without-contrast-mri-scan"
+          },
+          {
+            "id": "67f3ec8316444f3c1153ae66",
+            "testName": "MRI CONTRAST",
+            "route": "/contrast-mri-scan"
+          },
+          {
+            "id": "6805d9c516444f3c11559dea",
+            "testName": "MRI NECK WITH CONTRAST",
+            "route": "/neck-with-contrast-mri-scan"
+          },
+          {
+            "id": "6805dcd616444f3c11559ede",
+            "testName": "MRI ORBITS - WITHOUT CONTRAST",
+            "route": "/orbits-without-contrast-mri-scan"
+          },
+          {
+            "id": "6805decd16444f3c11559f21",
+            "testName": "MRI SCREENING OF JOINTS",
+            "route": "/screening-of-bones-and-joints-mri-scan"
+          },
+          {
+            "id": "6805e21b16444f3c11559f81",
+            "testName": "MRI NECK WITHOUT CONTRAST",
+            "route": "/neck-without-contrast-mri-scan"
+          },
+          {
+            "id": "6805e3ed16444f3c1155a02b",
+            "testName": "MRI BREAST WITH CONTRAST",
+            "route": "/breast-with-contrast-mri-scan"
+          },
+          {
+            "id": "6805ee3d16444f3c1155a227",
+            "testName": "MRI DEFECOGRAPHY",
+            "route": "/defecography-mri-scan"
+          },
+          {
+            "id": "6805f0aa16444f3c1155a266",
+            "testName": "MRI ARM",
+            "route": "/arm-mri-scan"
+          },
+          {
+            "id": "6805f28016444f3c1155a361",
+            "testName": "MRI CHEST",
+            "route": "/chest-mri-scan"
+          },
+          {
+            "id": "6805f51e16444f3c1155a499",
+            "testName": "MRI COCCYX",
+            "route": "/coccyx-mri-scan"
+          },
+          {
+            "id": "6805f85a16444f3c1155a56b",
+            "testName": "MRI CV JUNCTION",
+            "route": "/craniovertebral-cv-junction-mri-scan"
+          },
+          {
+            "id": "6805fbad16444f3c1155a5f0",
+            "testName": "MRI LIMITED",
+            "route": "/limited-mri-scan"
+          },
+          {
+            "id": "6805fe5216444f3c1155a6c0",
+            "testName": "MRI FACE",
+            "route": "/face-mri-scan"
+          },
+          {
+            "id": "6806002216444f3c1155a734",
+            "testName": "MRI FISTULOGRAM",
+            "route": "/fistulogram-mri-scan"
+          },
+          {
+            "id": "6806073816444f3c1155a831",
+            "testName": "MRI KUB",
+            "route": "/kub-mri-scan"
+          },
+          {
+            "id": "68060a1516444f3c1155a85f",
+            "testName": "MRI THIGH",
+            "route": "/thigh-mri-scan"
+          },
+          {
+            "id": "68060f0316444f3c1155a8e3",
+            "testName": "MRI - BOTH LEGS ",
+            "route": "/both-legs-mri-scan"
+          },
+          {
+            "id": "6806108f16444f3c1155a92e",
+            "testName": "MRI AORTIC ANGIOGRAPHY",
+            "route": "/aortic-angiography-mri-scan"
+          },
+          {
+            "id": "680612fe16444f3c1155aa7b",
+            "testName": "MRI BRAIN CSF FLOW STUDY",
+            "route": "/csf-flow-study-mri-scan"
+          },
+          {
+            "id": "680614e216444f3c1155aaf1",
+            "testName": "MRI BRAIN NAVIGATION PROTOCOL",
+            "route": "/brain-navigation-protocol-mri-scan"
+          },
+          {
+            "id": "680616d016444f3c1155ab65",
+            "testName": "MRI M R C P",
+            "route": "/magnetic-resonance-cholangiopancreatography-mri-scan"
+          },
+          {
+            "id": "680618aa16444f3c1155ab95",
+            "testName": "MRI MAMMOGRAM+CONTRAST",
+            "route": "/mammogram-with-contrast-mri-scan"
+          },
+          {
+            "id": "68061a7516444f3c1155acc2",
+            "testName": "MRI PNS",
+            "route": "/pns-mri-scan"
+          },
+          {
+            "id": "68061c9616444f3c1155ad7c",
+            "testName": "MRI NECK",
+            "route": "/neck-mri-scan"
+          },
+          {
+            "id": "680b2f0a16444f3c115675e7",
+            "testName": "MRI PROSTATE",
+            "route": "/prostate-mri-scan"
+          },
+          {
+            "id": "680b31ae16444f3c115676d3",
+            "testName": "MRI SCAN OF TOUNGE",
+            "route": "/tongue-mri-scan"
+          },
+          {
+            "id": "680b34d016444f3c115676f9",
+            "testName": "MRI SCROTUM",
+            "route": "/scrotum-mri-scan"
+          },
+          {
+            "id": "680b43ef16444f3c115679aa",
+            "testName": "MRI STERNO CLAVICULAR JOINT",
+            "route": "/sterno-clavicular-joint-mri-scan"
+          },
+          {
+            "id": "680b4aec16444f3c11567afd",
+            "testName": "MRI TEMPORAL BONES",
+            "route": "/temporal-bones-mri-scan"
+          },
+          {
+            "id": "680b4d7116444f3c11567b66",
+            "testName": "MRI TEMPOROMANDIBULAR JOINTS",
+            "route": "/temporomandibular-joint-mri-scan"
+          },
+          {
+            "id": "680b4f9b16444f3c11567bb7",
+            "testName": "MRI THUMB",
+            "route": "/thumb-mri-scan"
+          },
+          {
+            "id": "680b528116444f3c11567c9e",
+            "testName": "MRI WHOLE BODY",
+            "route": "/whole-body-mri-scan"
+          },
+          {
+            "id": "680b5fa416444f3c11567fc2",
+            "testName": "MRI ARTHOGRAM",
+            "route": "/arthrogram-mri-scan"
+          },
+          {
+            "id": "680b897016444f3c11568f33",
+            "testName": "MRI PERIPHERAL ANGIO",
+            "route": "/peripheral-angiography-mri-scan"
+          },
+          {
+            "id": "6830334b16444f3c115b6db1",
+            "testName": "MRI EXTREMITIS WITHOUT CONTRAST",
+            "route": "/extremities-without-mri-scan"
+          },
+          {
+            "id": "6830617716444f3c115b7533",
+            "testName": "MRI BILATERAL TEMPORAL BONE / INNEAR EAR WITHOUT CONTRAST",
+            "route": "/bilateral-temporal-bone-innear-without-contrast"
+          },
+          {
+            "id": "68319d5116444f3c115b9aea",
+            "testName": "MRI LEG",
+            "route": "/leg-mri-scan"
+          },
+          {
+            "id": "68413f7b16444f3c115db6da",
+            "testName": "MRI PELVIS WITHOUT CONTRAST",
+            "route": "/pelvis-without-contrast-mri-scan"
+          },
+          {
+            "id": "68415f0616444f3c115dbfba",
+            "testName": "FIBRONOGEN DEGRADATION PRODUCTS (FDP)",
+            "route": "/testpage123"
+          },
+          {
+            "id": "6841732216444f3c115dc4ea",
+            "testName": "MRI LUMBAR / LUMBOSACRAL SPINE WITH CONTRAST",
+            "route": "/lumbar-lumbosacral-spine-with-contrast-mri-scan"
+          }
+        ]
+      },
+      "seo": {
+        "title": "MRI Renal Angiography at Cadabams Diagnostics | Fast & Safe",
+        "description": "Learn how MRI renal angiography at Cadabams Diagnostics detects kidney artery issues without radiation. Book your 3T scan with same-day results today.\n",
+        "keywords": "",
+        "canonicalUrl": "",
+        "ogTitle": "",
+        "ogDescription": "",
+        "ogImage": "",
+        "schemaMarkup": "",
+        "robotsMeta": ""
+      },
+      "markdown": "## Renal Angiography MRI Overview\n\n- \\*\\*Non-invasive\\*\\*: No catheters, no incisions\n- \\*\\*No radiation\\*\\*: Uses magnetic fields and radio waves only\n- \\*\\*Contrast dye\\*\\*: A small IV dose of gadolinium highlights the renal arteries\n- \\*\\*Cadabams edge\\*\\*: 3T magnet strength for razor-sharp images and an optional \\*\\*same-day report\\*\\* so you can act fast\n\n## Risks & Limitations of the Renal Angiography MRI\n\n- \\*\\*Gadolinium caution\\*\\*: Rare risk of \\*\\*nephrogenic systemic fibrosis (NSF)\\*\\* in severe kidney disease (eGFR <30)\n- \\*\\*Claustrophobia\\*\\*: Tell us—open-bore MRI or mild sedation is available\n- \\*\\*Metal implants\\*\\*: Pacemakers, cochlear implants, or older aneurysm clips may contraindicate MRI\n- \\*\\*Cost\\*\\*: Slightly higher than ultrasound, but lower long-term cost than repeated CT scans\n\n## List of Parameters Considered During the Renal Angiography MRI\n\n| Parameter | What It Tells Us |\n|-----------|------------------|\n| Renal artery diameter | Normal ≥4 mm; <4 mm raises stenosis alarm |\n| Stenosis % | <50 % mild, 50–70 % moderate, ≥70 % severe |\n| Accessory renal arteries | Extra vessels can affect blood pressure control |\n| Aortic plaque extension | Plaque in the aorta can spill into renal arteries |\n\n## Reasons for Taking a Renal Angiography MRI\n\n- Pinpoint the \\*\\*cause of resistant hypertension\\*\\*\n- Decide if you need \\*\\*renal artery angioplasty or surgery\\*\\*\n- Rule out hidden vascular problems before major procedures\n\n## Benefits of Taking the Test\n\n- \\*\\*Zero radiation\\*\\*—great for young adults or repeat follow-ups\n- \\*\\*High-resolution 3D images\\*\\*—surgeons see every twist and turn\n- \\*\\*Comfortable open-bore 3T scanner\\*\\*—reduces claustrophobia\n- \\*\\*Same-day reporting option\\*\\*—start treatment sooner\n\n## Illnesses Diagnosed with Renal Angiography MRI\n\n- \\*\\*Renal artery stenosis\\*\\*\n- Atherosclerotic (plaque buildup)\n- Fibromuscular dysplasia (twisty vessels in younger patients)\n- \\*\\*Renal artery aneurysm\\*\\*\n- \\*\\*Arteriovenous fistula\\*\\*—abnormal artery-to-vein links\n\n## Preparing for Renal Angiography MRI\n\n- \\*\\*Fast 4 hours\\*\\* before your appointment if contrast is planned\n- \\*\\*Creatinine/eGFR blood test\\*\\* within the last 30 days\n- \\*\\*List all implants\\*\\*: pacemakers, clips, coils, joint replacements\n- \\*\\*Mention allergies\\*\\*: prior contrast reactions, asthma, shellfish\n---\n## Pre-Requisites\n- Recent \\*\\*kidney function test\\*\\* showing eGFR >30 mL/min/1.73 m²\n- \\*\\*Signed consent\\*\\* for gadolinium administration\n- Fasting confirmation slip (if contrast required)\n---\n## Best Time to Take the Test\n- \\*\\*Morning slots\\*\\* make fasting easier\n- \\*\\*7–10 days after recovery\\*\\* from any fever, cough, or acute illness\n---\n## Eligibility\n- \\*\\*Adults ≥18 years\\*\\* with stable kidney function\n- \\*\\*Pediatric cases\\*\\* accepted only via specialist referral and sedation planning\n---\n## Procedure Step-by-Step\n1. \\*\\*Check-in & IV line\\*\\* (15 min)\n2. \\*\\*Safety screening\\*\\*—remove metal, change into gown\n3. \\*\\*Scanner positioning\\*\\*—lie on table, coil over abdomen (30–45 min)\n4. \\*\\*Breath-hold instructions\\*\\*—short pauses for crisp images\n5. \\*\\*Contrast injection\\*\\*—quick push through IV\n6. \\*\\*Post-scan observation\\*\\* (15 min) for any reactions\n---\n## Caution Before the Test\n- \\*\\*Stop metformin\\*\\* 48 h prior if eGFR <45\n- \\*\\*Pregnancy screening\\*\\* for women of child-bearing age\n- \\*\\*Empty bladder\\*\\* before entering scanner—reduces motion artifacts"
+    },
+    {
+      "id": "673ddaf55ab244ca239d0547",
+      "templateName": "non-labtest",
+      "testName": "MRI BRAIN+SPECTROSCOPY",
+      "route": "/brain-with-spectroscopy-mri",
+      "basic_info": {
+        "name": "MRI BRAIN+SPECTROSCOPY",
+        "route": "/brain-with-spectroscopy-mri",
+        "categoryId": "671b5102ad9bf8d210384d1a",
+        "price": 10000,
+        "alsoKnownAs": "",
+        "discount": "0",
+        "discountedPrice": "10000.00",
+        "reportsWithin": "6 hrs",
+        "Identifies": "",
+        "measures": "",
+        "testId": 9896200,
+        "testCategory": "-"
+      },
+      "requisites": [],
+      "interpretations": {
+        "title": "Reports and Explanations ",
+        "cols": [
+          "Metabolite",
+          "Finding/Observation (Change from Normal)",
+          "General Interpretation / Significance"
+        ],
+        "rows": [
+          [
+            "N-acetylaspartate (NAA)",
+            "↓ Decreased",
+            "Indicates neuronal loss, dysfunction, or degeneration. Common in brain tumors, strokes, multiple sclerosis, neurodegenerative diseases, and trauma."
+          ],
+          [
+            "",
+            "Normal / Preserved",
+            "Suggests intact neuronal integrity in the area sampled."
+          ],
+          [
+            "Choline (Cho)",
+            "↑ Increased",
+            "Reflects increased cell membrane turnover or cellularity. Common in tumors (especially high-grade gliomas), inflammation, demyelination."
+          ],
+          [
+            "",
+            "↓ Decreased",
+            "May be seen in chronic or treated lesions where cell turnover is reduced."
+          ],
+          [
+            "Creatine (Cr)",
+            "Relatively Stable",
+            "Marker of energy metabolism; often used as a reference for calculating metabolite ratios. Typically remains stable across pathologies."
+          ],
+          [
+            "",
+            "↓ Significantly Decreased",
+            "Suggests severe metabolic dysfunction or extensive tissue damage."
+          ],
+          [
+            "Lactate (Lac)",
+            "↑ Increased / New Peak Appears",
+            "Indicates anaerobic metabolism—seen in hypoxic-ischemic injury (e.g., stroke), abscesses, mitochondrial disorders, or some high-grade tumors."
+          ],
+          [
+            "Lipids (Lip)",
+            "↑ Increased / New Peak Appears",
+            "Associated with cellular necrosis or membrane breakdown. Common in high-grade tumors, acute infarcts, radiation necrosis, or abscesses."
+          ],
+          [
+            "Myo-inositol (mI)",
+            "↑ Increased",
+            "Marker of glial proliferation and osmotic stress. Seen in gliosis, low-grade gliomas, Alzheimer's disease, and other neuroinflammatory conditions."
+          ],
+          [
+            "",
+            "↓ Decreased",
+            "May be observed in hepatic encephalopathy and neurodegenerative diseases like Alzheimer’s."
+          ],
+          [
+            "Metabolite Ratios",
+            "",
+            ""
+          ],
+          [
+            "Cho/NAA Ratio",
+            "↑ Increased",
+            "Strong indicator of tumor activity—elevated due to increased choline (cell turnover) and decreased NAA (neuronal loss)."
+          ],
+          [
+            "Cho/Cr Ratio",
+            "↑ Increased",
+            "Suggests elevated membrane turnover relative to energy metabolism; common in tumors and demyelination."
+          ],
+          [
+            "NAA/Cr Ratio",
+            "↓ Decreased",
+            "Reflects neuronal damage or loss compared to stable energy metabolism."
+          ],
+          [
+            "Lactate/NAA Ratio",
+            "↑ Increased",
+            "Suggests anaerobic metabolism in the context of neuronal injury—useful in assessing stroke, tumors, and mitochondrial dysfunction."
+          ]
+        ]
+      },
+      "faqs": [
+        {
+          "question": "What is MR Brain Spectroscopy used for primarily?",
+          "answer": "**MR Brain with Spectroscopy** is primarily used to help characterize brain lesions (like tumors, distinguishing them from infections or stroke effects), assess brain metabolism in various neurological disorders, evaluate tumor aggressiveness, and monitor the effects of treatment non-invasively by analyzing brain chemistry."
+        },
+        {
+          "question": "Is MR Brain Spectroscopy painful or safe?",
+          "answer": "  No, **MR Brain with Spectroscopy** is a painless and non-invasive procedure, much like a standard MRI. It uses strong magnetic fields and radio waves, not ionizing radiation (like X-rays or CT scans), making it very safe for most people when proper screening is done."
+        },
+        {
+          "question": "How long does an MR Brain with Spectroscopy take?",
+          "answer": "The spectroscopy part itself usually adds about 15-30 minutes, sometimes more, to a standard MRI brain scan. The total time you might be in the scanner could range from approximately 45 to 90 minutes, depending on the complexity of the study."
+        },
+        {
+          "question": "When can I expect my MR Brain Spectroscopy results from Cadabams Diagnostics?",
+          "answer": " Results from an **MR Brain with Spectroscopy** require careful and detailed analysis by a specialist radiologist at **Cadabams Diagnostics**. Typically, the report is finalized and sent to your referring doctor within 24-48 hours. Your doctor will then discuss the findings with you."
+        },
+        {
+          "question": "How much does MR Brain with Spectroscopy cost?",
+          "answer": "The **cost of MR brain spectroscopy** can vary based on the specifics of the examination and geographical location. As an advanced imaging study, it is generally more expensive than a standard MRI. For current pricing information, insurance coverage details, and any available packages at **Cadabams Diagnostics**, please contact our billing department directly or visit our website:"
+        },
+        {
+          "question": "What is the main difference between a regular brain MRI and one with Spectroscopy?",
+          "answer": " A regular brain MRI primarily shows the brain's physical structure and anatomy (e.g., size, shape, location of lesions). **MR Brain with Spectroscopy** provides functional information by measuring the levels of different chemicals (metabolites) within brain tissue, offering insights into its metabolic state, cell types, and viability."
+        }
+      ],
+      "relative_test": {
+        "title": "",
+        "categoryId": "671b5102ad9bf8d210384d1a",
+        "tests": [
+          {
+            "id": "6735d7ca03598b92c151c932",
+            "testName": "MRI BRAIN ",
+            "route": "/brain-mri"
+          },
+          {
+            "id": "673719ce996e7737b6f4de3a",
+            "testName": "Perianal Imaging",
+            "route": "/perianal-imaging-center"
+          },
+          {
+            "id": "673c712beffae454707e0135",
+            "testName": "MRI ABDOMEN ",
+            "route": "/abdominal-mri"
+          },
+          {
+            "id": "673db6af534c72d341052c2f",
+            "testName": "MRI LUMBAR SPINE ",
+            "route": "/lumbar-lumbosacral-spine-without-contrast-mri"
+          },
+          {
+            "id": "673dc0a75ab244ca239d0228",
+            "testName": "MRI RENAL ANGIOGRAPHY",
+            "route": "/renal-angiography-mri"
+          },
+          {
+            "id": "673ddaf55ab244ca239d0547",
+            "testName": "MRI BRAIN+SPECTROSCOPY",
+            "route": "/brain-with-spectroscopy-mri"
+          },
+          {
+            "id": "673edbf25ab244ca239d0c46",
+            "testName": "MRI L S SPINE WITH CONTRAST",
+            "route": "/musculoskeletal-mri"
+          },
+          {
+            "id": "679a2112bf2a88a244a6a08e",
+            "testName": "MRI SPINE SCREENING WITHOUT CONTRAST",
+            "route": "/spine-screening-without-contrast-mri-scan"
+          },
+          {
+            "id": "679c74fdbf2a88a244a6ed73",
+            "testName": "MRI KNEE WITHOUT CONTRAST",
+            "route": "/knee-without-contrast-mri"
+          },
+          {
+            "id": "679c8c25bf2a88a244a6f131",
+            "testName": "MRI CERVICAL / CERVICO-DORSAL SPINE WITH CONTRAST",
+            "route": "/cervical-cervico-dorsal-spine-mri"
+          },
+          {
+            "id": "679c912cbf2a88a244a6f1be",
+            "testName": "MRI BRAIN PLAIN",
+            "route": "/brain-plain-mri"
+          },
+          {
+            "id": "67a0725dbf2a88a244a765c0",
+            "testName": "MRI SHOULDER WITHOUT CONTRAST",
+            "route": "/shoulder-without-contrast-mri-scan"
+          },
+          {
+            "id": "67af22e3a45909fb1bd183e6",
+            "testName": "MRI LUMBAR / LUMBOSACRAL SPINE WITHOUT CONTRAST",
+            "route": "/lumbar-lumbosacral-spine-without-contrast-mri-scan"
+          },
+          {
+            "id": "67bda0fb16444f3c114db46a",
+            "testName": "MRI DORSAL / DORSO-LUMBAR SPINE WITHOUT CONTRAST",
+            "route": "/dorsal-dorso-lumbar-spine-without-contrast-mri-scan"
+          },
+          {
+            "id": "67bda4ae16444f3c114db4be",
+            "testName": "MRI BRAIN WITH ANGIOGRAPHY WITHOUT CONTRAST",
+            "route": "/brain-with-angiography-without-contrast-mri-scan"
+          },
+          {
+            "id": "67d3e65416444f3c11500b89",
+            "testName": "MRI BRAIN WITH SPECTROSCOPY",
+            "route": "/brain-with-spectroscopy-mri-scan"
+          },
+          {
+            "id": "67d3ea0c16444f3c11500ca5",
+            "testName": "MRI BRAIN WITH EPILEPSY PROTOCOL",
+            "route": "/brain-with-epilepsy-protocol-mri-scan"
+          },
+          {
+            "id": "67d3ecc716444f3c11500d30",
+            "testName": "MRI BRAIN+ANGIOGRAM",
+            "route": "/brain-and-angiogram-mri-scan"
+          },
+          {
+            "id": "67d7d30d16444f3c11507fe9",
+            "testName": "MRI HIP JOINTS",
+            "route": "/hip-joints-mri-scan"
+          },
+          {
+            "id": "67d7d3ad16444f3c1150802a",
+            "testName": "MRI CERVICAL SPINE",
+            "route": "/cervical-spine-mri-scan"
+          },
+          {
+            "id": "67e12dbb16444f3c115186b2",
+            "testName": "MRI THORACO LUMBER SPINE",
+            "route": "/thoraco-lumbar-spine-mri-scan"
+          },
+          {
+            "id": "67e12e1d16444f3c11518719",
+            "testName": "MRI ABDOMEN & PELVIS",
+            "route": "/abdomen-and-pelvis-mri-scan"
+          },
+          {
+            "id": "67e12e9316444f3c11518732",
+            "testName": "MRI ANGIOGRAM/ VENOGRAM (MRA/MRV)",
+            "route": "/magnetic-resonance-angiogram-venogram-mri-scan"
+          },
+          {
+            "id": "67e1403d16444f3c11518c04",
+            "testName": "MRI BRACHIAL PLEXUS",
+            "route": "/brachial-plexus-mri-scan"
+          },
+          {
+            "id": "67e249fb16444f3c1151adaa",
+            "testName": "MRI ANKLE",
+            "route": "/ankle-mri-scan"
+          },
+          {
+            "id": "67e280ab16444f3c1151bb60",
+            "testName": "MRI BRAIN + ORBITS",
+            "route": "/brain-and-orbits-mri-scan"
+          },
+          {
+            "id": "67e2842c16444f3c1151bd97",
+            "testName": "MRI BRAIN + PNS",
+            "route": "/brain-and-peripheral-nervous-system-pns-mri-scan"
+          },
+          {
+            "id": "67e2869c16444f3c1151be44",
+            "testName": "MRI BRAIN + VENOGRAM",
+            "route": "/brain-and-venogram-mri-scan"
+          },
+          {
+            "id": "67e2892c16444f3c1151bf5f",
+            "testName": "MRI CAROTID ANGIO",
+            "route": "/carotid-angio-mri-scan"
+          },
+          {
+            "id": "67e3b81b16444f3c1151e7fe",
+            "testName": "MRI DORSAL LUMBER SPINE",
+            "route": "/dorsal-lumbar-spine-mri-scan"
+          },
+          {
+            "id": "67e3ba2b16444f3c1151e879",
+            "testName": "MRI DORSAL SPINE",
+            "route": "/dorsal-spine-mri-scan"
+          },
+          {
+            "id": "67e3bce516444f3c1151e93d",
+            "testName": "MRI ELBOW JOINT",
+            "route": "/elbow-joint-mri-scan"
+          },
+          {
+            "id": "67e3beb716444f3c1151e966",
+            "testName": "MRI EXTREMITIES",
+            "route": "/extremities-mri-scan"
+          },
+          {
+            "id": "67e3c23916444f3c1151eab8",
+            "testName": "MRI FOOT",
+            "route": "/foot-mri-scan"
+          },
+          {
+            "id": "67e3c5c616444f3c1151ed81",
+            "testName": "MRI FOREARM",
+            "route": "/forearm-mri-scan"
+          },
+          {
+            "id": "67e3c91316444f3c1151ede8",
+            "testName": "MRI HAND",
+            "route": "/hand-mri-scan"
+          },
+          {
+            "id": "67e3cb6016444f3c1151eeab",
+            "testName": "MRI SHOULDER",
+            "route": "/shoulder-mri-scan"
+          },
+          {
+            "id": "67e3cdc316444f3c1151ef37",
+            "testName": "MRI KNEE JOINT",
+            "route": "/knee-joint-mri-scan"
+          },
+          {
+            "id": "67e6684816444f3c11523765",
+            "testName": "MRI WRIST JOINT",
+            "route": "/wrist-joint-mri-scan"
+          },
+          {
+            "id": "67e66a3516444f3c11523786",
+            "testName": "MRI NECK ANGIO (TOF)",
+            "route": "/neck-angiography-mri-scan"
+          },
+          {
+            "id": "67e66e4b16444f3c115238a5",
+            "testName": "MRI ONE REGION",
+            "route": "/one-region-disc-mri-scan"
+          },
+          {
+            "id": "67e6711616444f3c11523a07",
+            "testName": "MRI ORBIT ",
+            "route": "/orbit-mri-scan"
+          },
+          {
+            "id": "67e6738516444f3c11523af8",
+            "testName": "MRI PELVIS",
+            "route": "/pelvis-mri-scan"
+          },
+          {
+            "id": "67e674e816444f3c11523b1b",
+            "testName": "MRI PELVIS WITH BOTH HIP JOINTS (BONES)",
+            "route": "/pelvis-with-both-hip-joints-mri-scan"
+          },
+          {
+            "id": "67e679fc16444f3c11523c7f",
+            "testName": "MRI PITUITARY /SELLA",
+            "route": "/pituitary-gland-and-sella-mri-scan"
+          },
+          {
+            "id": "67e67c2e16444f3c11523ca0",
+            "testName": "MRI SCREENING",
+            "route": "/mri-screening"
+          },
+          {
+            "id": "67e67f0d16444f3c11523dab",
+            "testName": "MRI WHOLE SPINE",
+            "route": "/whole-spine-mri-scan"
+          },
+          {
+            "id": "67edf5c516444f3c11531198",
+            "testName": "MRI SACROILIAC JOINTS",
+            "route": "/sacroiliac-joints-mri-scan"
+          },
+          {
+            "id": "67edf89216444f3c115311e7",
+            "testName": "MRI + CT TEMPORAL BONES",
+            "route": "/ct-temporal-bones-mri-scan"
+          },
+          {
+            "id": "67edfb0416444f3c11531235",
+            "testName": "MRI BOTH SHOULDERS",
+            "route": "/both-shoulders-mri-scan"
+          },
+          {
+            "id": "67edfd5f16444f3c11531284",
+            "testName": "MRI BOTH KNEES",
+            "route": "/both-knees-mri-scan"
+          },
+          {
+            "id": "67f3b80b16444f3c1153a6e9",
+            "testName": "MRI HIP WITHOUT CONTRAST",
+            "route": "/hip-without-contrast-mri-scan"
+          },
+          {
+            "id": "67f3ba6d16444f3c1153a748",
+            "testName": "MRI BRAIN WITH SEIZURE PROTOCOL",
+            "route": "/brain-with-seizure-protocol-mri-scan"
+          },
+          {
+            "id": "67f3bdf716444f3c1153a802",
+            "testName": "MRI CHEST WITHOUT CONTRAST",
+            "route": "/chest-without-contrast-mri-scan"
+          },
+          {
+            "id": "67f3c35416444f3c1153a914",
+            "testName": "MRI DORSAL / DORSO-LUMBAR SPINE WITH CONTRAST",
+            "route": "/dorsal-and-dorso-lumbar-spine-with-contrast-mri-scan"
+          },
+          {
+            "id": "67f3dbca16444f3c1153ac65",
+            "testName": "MRI BRAIN WITH CONTRAST",
+            "route": "/brain-with-contrast-mri-scan"
+          },
+          {
+            "id": "67f3e65e16444f3c1153ad7a",
+            "testName": "MRI CERVICAL / CERVICO-DORSAL SPINE WITHOUT CONTRAST",
+            "route": "/cervical-and-cervico-dorsal-spine-without-contrast-mri-scan"
+          },
+          {
+            "id": "67f3ec8316444f3c1153ae66",
+            "testName": "MRI CONTRAST",
+            "route": "/contrast-mri-scan"
+          },
+          {
+            "id": "6805d9c516444f3c11559dea",
+            "testName": "MRI NECK WITH CONTRAST",
+            "route": "/neck-with-contrast-mri-scan"
+          },
+          {
+            "id": "6805dcd616444f3c11559ede",
+            "testName": "MRI ORBITS - WITHOUT CONTRAST",
+            "route": "/orbits-without-contrast-mri-scan"
+          },
+          {
+            "id": "6805decd16444f3c11559f21",
+            "testName": "MRI SCREENING OF JOINTS",
+            "route": "/screening-of-bones-and-joints-mri-scan"
+          },
+          {
+            "id": "6805e21b16444f3c11559f81",
+            "testName": "MRI NECK WITHOUT CONTRAST",
+            "route": "/neck-without-contrast-mri-scan"
+          },
+          {
+            "id": "6805e3ed16444f3c1155a02b",
+            "testName": "MRI BREAST WITH CONTRAST",
+            "route": "/breast-with-contrast-mri-scan"
+          },
+          {
+            "id": "6805ee3d16444f3c1155a227",
+            "testName": "MRI DEFECOGRAPHY",
+            "route": "/defecography-mri-scan"
+          },
+          {
+            "id": "6805f0aa16444f3c1155a266",
+            "testName": "MRI ARM",
+            "route": "/arm-mri-scan"
+          },
+          {
+            "id": "6805f28016444f3c1155a361",
+            "testName": "MRI CHEST",
+            "route": "/chest-mri-scan"
+          },
+          {
+            "id": "6805f51e16444f3c1155a499",
+            "testName": "MRI COCCYX",
+            "route": "/coccyx-mri-scan"
+          },
+          {
+            "id": "6805f85a16444f3c1155a56b",
+            "testName": "MRI CV JUNCTION",
+            "route": "/craniovertebral-cv-junction-mri-scan"
+          },
+          {
+            "id": "6805fbad16444f3c1155a5f0",
+            "testName": "MRI LIMITED",
+            "route": "/limited-mri-scan"
+          },
+          {
+            "id": "6805fe5216444f3c1155a6c0",
+            "testName": "MRI FACE",
+            "route": "/face-mri-scan"
+          },
+          {
+            "id": "6806002216444f3c1155a734",
+            "testName": "MRI FISTULOGRAM",
+            "route": "/fistulogram-mri-scan"
+          },
+          {
+            "id": "6806073816444f3c1155a831",
+            "testName": "MRI KUB",
+            "route": "/kub-mri-scan"
+          },
+          {
+            "id": "68060a1516444f3c1155a85f",
+            "testName": "MRI THIGH",
+            "route": "/thigh-mri-scan"
+          },
+          {
+            "id": "68060f0316444f3c1155a8e3",
+            "testName": "MRI - BOTH LEGS ",
+            "route": "/both-legs-mri-scan"
+          },
+          {
+            "id": "6806108f16444f3c1155a92e",
+            "testName": "MRI AORTIC ANGIOGRAPHY",
+            "route": "/aortic-angiography-mri-scan"
+          },
+          {
+            "id": "680612fe16444f3c1155aa7b",
+            "testName": "MRI BRAIN CSF FLOW STUDY",
+            "route": "/csf-flow-study-mri-scan"
+          },
+          {
+            "id": "680614e216444f3c1155aaf1",
+            "testName": "MRI BRAIN NAVIGATION PROTOCOL",
+            "route": "/brain-navigation-protocol-mri-scan"
+          },
+          {
+            "id": "680616d016444f3c1155ab65",
+            "testName": "MRI M R C P",
+            "route": "/magnetic-resonance-cholangiopancreatography-mri-scan"
+          },
+          {
+            "id": "680618aa16444f3c1155ab95",
+            "testName": "MRI MAMMOGRAM+CONTRAST",
+            "route": "/mammogram-with-contrast-mri-scan"
+          },
+          {
+            "id": "68061a7516444f3c1155acc2",
+            "testName": "MRI PNS",
+            "route": "/pns-mri-scan"
+          },
+          {
+            "id": "68061c9616444f3c1155ad7c",
+            "testName": "MRI NECK",
+            "route": "/neck-mri-scan"
+          },
+          {
+            "id": "680b2f0a16444f3c115675e7",
+            "testName": "MRI PROSTATE",
+            "route": "/prostate-mri-scan"
+          },
+          {
+            "id": "680b31ae16444f3c115676d3",
+            "testName": "MRI SCAN OF TOUNGE",
+            "route": "/tongue-mri-scan"
+          },
+          {
+            "id": "680b34d016444f3c115676f9",
+            "testName": "MRI SCROTUM",
+            "route": "/scrotum-mri-scan"
+          },
+          {
+            "id": "680b43ef16444f3c115679aa",
+            "testName": "MRI STERNO CLAVICULAR JOINT",
+            "route": "/sterno-clavicular-joint-mri-scan"
+          },
+          {
+            "id": "680b4aec16444f3c11567afd",
+            "testName": "MRI TEMPORAL BONES",
+            "route": "/temporal-bones-mri-scan"
+          },
+          {
+            "id": "680b4d7116444f3c11567b66",
+            "testName": "MRI TEMPOROMANDIBULAR JOINTS",
+            "route": "/temporomandibular-joint-mri-scan"
+          },
+          {
+            "id": "680b4f9b16444f3c11567bb7",
+            "testName": "MRI THUMB",
+            "route": "/thumb-mri-scan"
+          },
+          {
+            "id": "680b528116444f3c11567c9e",
+            "testName": "MRI WHOLE BODY",
+            "route": "/whole-body-mri-scan"
+          },
+          {
+            "id": "680b5fa416444f3c11567fc2",
+            "testName": "MRI ARTHOGRAM",
+            "route": "/arthrogram-mri-scan"
+          },
+          {
+            "id": "680b897016444f3c11568f33",
+            "testName": "MRI PERIPHERAL ANGIO",
+            "route": "/peripheral-angiography-mri-scan"
+          },
+          {
+            "id": "6830334b16444f3c115b6db1",
+            "testName": "MRI EXTREMITIS WITHOUT CONTRAST",
+            "route": "/extremities-without-mri-scan"
+          },
+          {
+            "id": "6830617716444f3c115b7533",
+            "testName": "MRI BILATERAL TEMPORAL BONE / INNEAR EAR WITHOUT CONTRAST",
+            "route": "/bilateral-temporal-bone-innear-without-contrast"
+          },
+          {
+            "id": "68319d5116444f3c115b9aea",
+            "testName": "MRI LEG",
+            "route": "/leg-mri-scan"
+          },
+          {
+            "id": "68413f7b16444f3c115db6da",
+            "testName": "MRI PELVIS WITHOUT CONTRAST",
+            "route": "/pelvis-without-contrast-mri-scan"
+          }
+        ]
+      },
+      "seo": {
+        "title": " MR Brain with Spectroscopy Test | Cadabams Diagnostics",
+        "description": "MR Brain with Spectroscopy (MRS): Brain metabolites analysis for brain lesion assessment. Learn what it reveals and how to prepare easily.",
+        "keywords": "",
+        "canonicalUrl": "",
+        "ogTitle": "",
+        "ogDescription": "",
+        "ogImage": "",
+        "schemaMarkup": "",
+        "robotsMeta": ""
+      },
+      "markdown": "## Brain with Spectroscopy MRI Overview\n\nAn \\*\\*MR Brain with Spectroscopy\\*\\* is an advanced diagnostic imaging technique offered at \\*\\*Cadabams Diagnostics\\*\\* that goes beyond standard Magnetic Resonance Imaging (MRI). Its primary purpose is to provide detailed biochemical information about the brain tissue, effectively complementing the anatomical information provided by a conventional MRI. This non-invasive procedure plays a crucial role in understanding the chemical makeup of specific brain regions, helping to identify and characterize abnormalities.\nOften, an \\*\\*MR Brain with Spectroscopy\\*\\* is performed in conjunction with a standard MRI brain scan. This combination allows our specialists at \\*\\*Cadabams Diagnostics\\*\\* to achieve a more comprehensive assessment, correlating structural changes visible on MRI with the underlying metabolic profile revealed by spectroscopy. This integrated approach is invaluable for accurate diagnosis and effective treatment planning for a variety of neurological conditions. The detailed insights into cellular activity and metabolism offered by MRS can be pivotal in making complex diagnostic decisions.\n## What is MR Brain with Spectroscopy?\nSimply put, \\*\\*MR Brain with Spectroscopy\\*\\* (often referred to as MRS) is a specialized type of MRI. It utilizes the same powerful MRI scanner but employs special software sequences and analytical techniques to measure the levels of various chemicals, known as metabolites, within precisely targeted areas of the brain. Instead of just producing images of brain structures, MRS generates data in the form of a spectrum or graph. This spectrum displays peaks representing different brain metabolites, and the height or area of these peaks corresponds to their concentration. This answers the common question: \"what is brain MR spectroscopy?\".\nThe key differentiator between a standard MRI and an \\*\\*MR Brain with Spectroscopy\\*\\* lies in what they reveal. A standard MRI excels at showing the brain's structure and anatomy – identifying tumors, areas of stroke, inflammation, or congenital abnormalities. In contrast, MRS provides profound insights into brain chemistry and function at a cellular and metabolic level. By analyzing the types and quantities of metabolites present, radiologists at \\*\\*Cadabams Diagnostics\\*\\* can detect subtle abnormalities that might not be apparent on anatomical imaging alone, or provide more specific information about lesions that are visible. It plays a crucial role in detecting abnormalities at a cellular/metabolic level, often before significant structural changes become evident.\n## Types of MR Brain with Spectroscopy\nThere are several techniques used in \\*\\*MR Brain with Spectroscopy\\*\\*, tailored to the clinical question being addressed. At \\*\\*Cadabams Diagnostics\\*\\*, our experienced team selects the most appropriate protocol. Common types include:\n\\* \\*\\*Single Voxel Spectroscopy (SVS):\\*\\* This technique examines the metabolites from a small, specific, well-defined cubic region of interest (voxel) within the brain. SVS is often used when there is a focal lesion that needs detailed biochemical characterization. It provides a clear spectrum from that single area.\n\\* \\*\\*Multi-Voxel Spectroscopy (MRS) / Chemical Shift Imaging (CSI):\\*\\* This approach examines metabolites from a larger area, acquiring data from an array of voxels simultaneously. CSI provides a map of metabolite distribution across a slice or volume of the brain, which can be useful for assessing heterogeneous lesions or diffuse brain diseases. It allows for comparison of metabolite levels in different parts of a lesion or between abnormal and apparently normal tissue.\n\\* \\*\\*Proton (¹H-MRS):\\*\\* This is the most common type of MRS used clinically. It focuses on detecting the signals from hydrogen protons (¹H) that are part of various important brain metabolites. The metabolites measured provide insights into neuronal health, cell membrane turnover, energy status, and other cellular processes.\nSpecific pulse sequences, such as PRESS (Point RESolved Spectroscopy) or STEAM (STimulated Echo Acquisition Mode), are used to acquire the MRS data. The choice of sequence and parameters depends on the specific metabolites being targeted and the clinical context. Our radiologists at \\*\\*Cadabams Diagnostics\\*\\* are proficient in utilizing these advanced sequences to optimize diagnostic yield.\n\n## Risks & Limitations of the Brain with Spectroscopy MRI\n\n\\*\\*Risks:\\*\\*\nThe risks associated with \\*\\*MR Brain with Spectroscopy\\*\\* are generally the same as those for a standard MRI scan, as it uses the same equipment. MRS itself does not use ionizing radiation. Potential risks include:\n\\* \\*\\*Metallic Implants:\\*\\* Patients with certain types of metallic implants (e.g., pacemakers, defibrillators, some cochlear implants, older aneurysm clips) may not be able to undergo an MRI or MRS due to the strong magnetic field. \\*\\*Cadabams Diagnostics\\*\\* performs rigorous safety screening for all patients.\n\\* \\*\\*Claustrophobia:\\*\\* Some individuals may experience anxiety or claustrophobia in the enclosed space of the MRI scanner. Options like mild sedation can be discussed if this is a concern.\n\\* \\*\\*Contrast Dye Reaction (if used):\\*\\* While MRS itself doesn't require contrast dye (gadolinium), it is often performed alongside a contrast-enhanced MRI. In rare cases, patients may have an allergic reaction to the contrast agent. Our team at \\*\\*Cadabams Diagnostics\\*\\* is prepared to manage such events. Patients with severe kidney disease may also have restrictions regarding contrast use.\n\\* \\*\\*Loud Noise:\\*\\* The MRI scanner produces loud knocking or buzzing sounds during operation. Earplugs or headphones are always provided for patient comfort.\n\\*\\*Limitations:\\*\\*\nWhile a powerful tool, \\*\\*MR Brain with Spectroscopy\\*\\* also has certain limitations:\n\\* \\*\\*Scan Time:\\*\\* MRS sequences can add significant time to a standard MRI examination, typically 15-30 minutes or more, depending on the complexity.\n\\* \\*\\*Patient Cooperation:\\*\\* The patient must remain very still during the scan. Movement can degrade the quality of the spectra and make interpretation difficult or impossible. This can be challenging for some patients, including young children or those with movement disorders.\n\\* \\*\\*Technical Factors:\\*\\* The quality of the MRS data (spectra) can be influenced by various technical factors, including the strength of the MRI magnet, the specific sequences used, and proper calibration.\n\\* \\*\\*Specialized Interpretation:\\*\\* Interpreting MRS data requires significant expertise and experience in neuroradiology. The findings must be correlated with the anatomical MRI images and the patient's clinical history.\n\\* \\*\\*Not Always Definitive:\\*\\* While MRS provides valuable biochemical information, it may not be definitive in all cases. The results are always interpreted in conjunction with clinical findings and information from other imaging studies. Sometimes, despite the detailed data, a definitive diagnosis might still require a biopsy.\n\\* \\*\\*Voxel Size and Location:\\*\\* The information is sampled from specific regions (voxels). Very small lesions or lesions in difficult-to-scan areas (e.g., near bone or air sinuses) can be challenging to assess accurately.\n\n## List of Parameters Considered During The MRI Brain with Spectroscopy\n\nDuring an \\*\\*MR Brain with Spectroscopy\\*\\*, radiologists at \\*\\*Cadabams Diagnostics\\*\\* conduct a detailed \\*\\*brain MRS metabolites analysis\\*\\*. This involves examining the presence, absence, and relative concentrations of key brain metabolites. The most commonly assessed metabolites include:\n\\* \\*\\*N-acetylaspartate (NAA):\\*\\*\n\\* Primarily found in neurons and their axons.\n\\* Considered a marker of neuronal viability, density, and health.\n\\* A decrease in NAA often indicates neuronal loss or dysfunction.\n\\* \\*\\*Choline (Cho):\\*\\*\n\\* Represents compounds containing choline, which are components of cell membranes (e.g., phosphatidylcholine).\n\\* Considered a marker of cell membrane turnover and cellular proliferation.\n\\* An increase in Choline is often seen in conditions with high cell turnover, such as tumors or inflammation.\n\\* \\*\\*Creatine (Cr) and Phosphocreatine (PCr):\\*\\*\n\\* These are involved in cellular energy metabolism.\n\\* The total Creatine peak (Cr) is relatively stable in many brain conditions and is often used as an internal reference against which other metabolites are compared.\n\\* Significant decreases can indicate severe metabolic compromise or cell death.\n\\* \\*\\*Lactate (Lac):\\*\\*\n\\* A product of anaerobic glycolysis (metabolism without sufficient oxygen).\n\\* Normally not detectable or present at very low levels in healthy, well-oxygenated brain tissue.\n\\* An elevated Lactate peak indicates oxygen deprivation (ischemia, hypoxia), and can also be seen in some aggressive tumors, mitochondrial disorders, or brain abscesses.\n\\* \\*\\*Lipids (Lip):\\*\\*\n\\* Large molecules that are components of cell membranes.\n\\* Lipid peaks are usually not prominent in normal brain spectra but become visible in conditions involving cell membrane breakdown or necrosis (tissue death).\n\\* Often seen in high-grade malignant tumors, radiation necrosis, or acute stroke.\n\\* \\*\\*Myo-inositol (mI):\\*\\*\n\\* Considered a glial cell marker (astrocytes) and also acts as an osmolyte (helps regulate cell volume).\n\\* Elevated mI can be seen in conditions with glial proliferation (gliosis), such as chronic inflammation, or in some low-grade tumors. It may decrease in conditions like Alzheimer's disease or hepatic encephalopathy.\n\\* \\*\\*Glutamate/Glutamine (Glx):\\*\\*\n\\* These are excitatory neurotransmitters. Their peaks often overlap in standard clinical MRS and are reported as a combined Glx peak.\n\\* Alterations in Glx can be seen in various neurological and psychiatric disorders, though their interpretation is complex.\n\\* \\*\\*Gamma-aminobutyric acid (GABA):\\*\\*\n\\* The primary inhibitory neurotransmitter in the brain.\n\\* Measurement of GABA is more technically challenging and less commonly performed in routine clinical MRS but is an area of active research.\nCrucially, it's not just the absolute levels but also the \\*\\*ratios between these metabolites\\*\\* (e.g., Cho/NAA, Cho/Cr, NAA/Cr) that are highly significant for interpretation. These ratios help to highlight pathological processes and improve diagnostic accuracy during the \\*\\*brain MRS metabolites analysis\\*\\*.\n\n## Reasons for Taking an Brain with Spectroscopy MRI\n\nThere are several compelling reasons why your doctor might recommend an \\*\\*MR Brain with Spectroscopy\\*\\* at \\*\\*Cadabams Diagnostics\\*\\*:\n\\* \\*\\*Detailed characterization of brain lesions:\\*\\* This is a primary application. When a standard MRI shows a lesion, MRS can help determine its nature. For instance, \\*\\*MR spectroscopy for brain lesion assessment\\*\\* can differentiate a cancerous tumor from an infection, an area of stroke, or inflammatory changes. This is crucial for planning appropriate treatment.\n\\* \\*\\*Tumor grading and typing:\\*\\* MRS can assist in differentiating between low-grade (less aggressive) and high-grade (more aggressive) tumors by analyzing metabolite patterns indicative of cellular proliferation (e.g., high Choline) and neuronal destruction (e.g., low NAA). It can sometimes suggest the specific type of tumor.\n\\* \\*\\*Distinguishing tumor recurrence from post-treatment changes:\\*\\* After radiation therapy or surgery for brain tumors, changes on MRI can be ambiguous. MRS can help differentiate between true tumor regrowth (which would show high Choline and low NAA) and treatment-induced effects like radiation necrosis (which might show elevated lipids and lactate, with very low or absent NAA and Choline).\n\\* \\*\\*Evaluating metabolic brain disorders:\\*\\* Certain genetic or acquired metabolic disorders can affect brain chemistry. MRS can detect abnormal metabolite profiles characteristic of conditions like Canavan disease, mitochondrial encephalopathies, or maple syrup urine disease, often aiding in diagnosis where symptoms like \\*\\*developmental delay\\*\\* or neurological regression are present.\n\\* \\*\\*Assessing the extent of injury in traumatic brain injury (TBI) or stroke:\\*\\* MRS can provide information about the metabolic status of brain tissue affected by trauma or ischemia, potentially helping to predict outcome or guide therapeutic interventions.\n\\* \\*\\*Guiding biopsy or surgical planning:\\*\\* By identifying the most metabolically active or apparently malignant part of a lesion, MRS can help neurosurgeons target biopsies more accurately or plan the extent of surgical resection.\n\\* \\*\\*Monitoring treatment response non-invasively:\\*\\* Changes in metabolite levels over time can indicate how a brain tumor or other condition is responding to treatment (e.g., chemotherapy, radiation). This allows for earlier adjustments to therapy if needed.\n\\* \\*\\*Investigating causes of epilepsy:\\*\\* In some cases of focal epilepsy, MRS can help identify metabolic abnormalities in the seizure focus, especially when standard MRI is normal.\n## When and Who Needs to Take a MR Brain with Spectroscopy?\nAn \\*\\*MR Brain with Spectroscopy\\*\\* is not a routine scan but is recommended by neurologists, neurosurgeons, or oncologists when more detailed information about brain tissue is required. Common indications for this advanced test include:\n\\* \\*\\*Characterizing brain tumors:\\*\\* Differentiating between various tumor types, assessing tumor aggressiveness (grading), and distinguishing tumors from non-cancerous lesions like abscesses or inflammatory processes.\n\\* \\*\\*Distinguishing tumor recurrence from treatment effects:\\*\\* After surgery, radiation, or chemotherapy for a brain tumor, MRS can help determine if new or enhancing areas on MRI represent tumor regrowth or are merely changes due to treatment (e.g., radiation necrosis, pseudoprogression).\n\\* \\*\\*Evaluating strokes:\\*\\* Assessing the extent of metabolic derangement in areas affected by stroke and potentially identifying tissue that might still be salvageable.\n\\* \\*\\*Investigating Multiple Sclerosis (MS):\\*\\* While MRI is the primary tool, MRS can provide additional information about the biochemical changes within MS lesions.\n\\* \\*\\*Diagnosing and monitoring metabolic disorders:\\*\\* Certain inherited or acquired metabolic diseases can affect the brain, and MRS can detect characteristic metabolite abnormalities. This is particularly relevant in some pediatric cases involving \\*\\*developmental delay\\*\\* where an underlying metabolic issue is suspected.\n\\* \\*\\*Assessing certain infections:\\*\\* MRS can help in the differential diagnosis of brain infections, such as toxoplasmosis versus lymphoma in immunocompromised patients.\n\\* \\*\\*Evaluating unexplained neurological symptoms:\\*\\* In cases where initial imaging like a standard MRI is inconclusive, MRS can provide further clues to the underlying cause of seizures, cognitive decline, or focal neurological deficits.\n### Patient groups who may benefit significantly from an \\*\\*MR Brain with Spectroscopy\\*\\* at \\*\\*Cadabams Diagnostics\\*\\* include:\n\\* Individuals with newly discovered brain lesions on standard MRI.\n\\* Patients undergoing treatment for brain tumors, to monitor response or detect recurrence.\n\\* Those with suspected metabolic brain disorders.\n\\* Patients for whom a brain biopsy is being considered, as MRS might help guide the biopsy to the most diagnostically relevant area or, in some cases, provide enough information to make a biopsy unnecessary.\n\n## Benefits of Taking the Test\n\nOpting for an \\*\\*MR Brain with Spectroscopy\\*\\* at \\*\\*Cadabams Diagnostics\\*\\* offers several significant benefits:\n\\* \\*\\*Provides valuable biochemical information non-invasively:\\*\\* MRS gives insights into tissue chemistry without the need for a surgical biopsy, which carries inherent risks. In some cases, MRS can help avoid a biopsy or make it more targeted if still necessary.\n\\* \\*\\*Improves diagnostic accuracy:\\*\\* By adding metabolic data to anatomical imaging, MRS can lead to a more precise diagnosis for various brain conditions, reducing uncertainty. This is particularly vital in \\*\\*MR spectroscopy for brain lesion assessment\\*\\*.\n\\* \\*\\*Aids in tailored treatment planning:\\*\\* Understanding the specific nature and aggressiveness of a brain lesion through MRS allows doctors to choose the most appropriate treatment strategy (e.g., surgery, radiation, chemotherapy, or a combination).\n\\* \\*\\*Helps predict prognosis:\\*\\* Certain metabolite patterns can be associated with better or worse outcomes for conditions like brain tumors, providing valuable prognostic information for patients and families.\n\\* \\*\\*Can monitor the effectiveness of treatments:\\*\\* MRS allows for non-invasive tracking of changes in brain metabolism in response to therapy, helping to determine if a treatment is working or if modifications are needed.\n\\* \\*\\*Provides insights into brain function and health at a metabolic level:\\*\\* It offers a unique window into the cellular processes occurring within the brain, enhancing the understanding of disease mechanisms.\n\\* \\*\\*Enhances Patient Care:\\*\\* By providing a more comprehensive picture, MRS contributes to better-informed clinical decisions and ultimately, can improve patient outcomes and quality of life. For some families navigating conditions associated with \\*\\*neurodiversity\\*\\* or unexplained neurological symptoms, MRS can sometimes offer diagnostic clues that guide therapeutic approaches, including specialized \\*\\*pediatric therapy\\*\\*.\n\n## Diseases Detected Using Baker with Spectroscopy MRI\n\n\\*\\*MR Brain with Spectroscopy\\*\\* is instrumental in diagnosing, characterizing, or monitoring a range of neurological illnesses. At \\*\\*Cadabams Diagnostics\\*\\*, it is commonly used for:\n\\* \\*\\*Brain Tumors:\\*\\*\n\\* \\*\\*Gliomas\\*\\* (astrocytomas, oligodendrogliomas, glioblastomas): MRS helps in grading, differentiating from other lesions, and assessing treatment response.\n\\* \\*\\*Meningiomas:\\*\\* Though often benign, MRS can sometimes help if there's diagnostic ambiguity.\n\\* \\*\\*Metastases:\\*\\* Helps differentiate solitary metastases from primary brain tumors.\n\\* \\*\\*Lymphoma:\\*\\* Can show characteristic spectral patterns.\n\\* \\*\\*Stroke (Ischemia):\\*\\* Assessing tissue viability, differentiating acute from chronic infarcts. Lactate elevation is a key finding in acute ischemia. \\*\\*MR spectroscopy for brain lesion assessment\\*\\* helps define the core of the infarct.\n\\* \\*\\*Multiple Sclerosis (MS):\\*\\* Evaluating biochemical changes within active and chronic lesions, sometimes helping to differentiate MS lesions from other white matter diseases.\n\\* \\*\\*Infectious and Inflammatory Conditions:\\*\\*\n\\* \\*\\*Brain Abscesses:\\*\\* Often show characteristic amino acid, lactate, and acetate peaks.\n\\* \\*\\*Toxoplasmosis and PML (Progressive Multifocal Leukoencephalopathy):\\*\\* MRS can help differentiate these in immunocompromised patients.\n\\* \\*\\*Herpes Encephalitis.\\*\\*\n\\* \\*\\*Metabolic Encephalopathies:\\*\\*\n\\* \\*\\*Hepatic Encephalopathy:\\*\\* Shows characteristic increases in glutamine/glutamate (Glx) and decreased myo-inositol and choline.\n\\* \\*\\*Uremic Encephalopathy.\\*\\*\n\\* \\*\\*Mitochondrial Disorders:\\*\\* Can show lactate elevation and NAA reduction.\n\\* \\*\\*Inherited Metabolic Disorders:\\*\\* Such as Canavan disease (markedly elevated NAA), phenylketonuria, maple syrup urine disease. These can be causes of \\*\\*developmental delay\\*\\* in children.\n\\* \\*\\*Certain Neurodegenerative Diseases:\\*\\*\n\\* While not primary diagnostic tools, MRS can show metabolite changes (e.g., NAA reduction) in conditions like \\*\\*Alzheimer's Disease\\*\\* and \\*\\*Parkinson's Disease\\*\\*. Often used more in research settings but can support clinical suspicion.\n\\* \\*\\*Traumatic Brain Injury (TBI):\\*\\* Assessing diffuse axonal injury and contusions; NAA reduction is a common finding.\n\\* \\*\\*Epilepsy:\\*\\* In some cases, particularly temporal lobe epilepsy, MRS can help identify a seizure focus by detecting abnormal metabolism (e.g., NAA reduction) in the affected region, even if the standard MRI appears normal.\n\n## Preparing for Brain with Spectroscopy MRI\n\nProper preparation helps ensure the \\*\\*MR Brain with Spectroscopy\\*\\* scan at \\*\\*Cadabams Diagnostics\\*\\* goes smoothly and yields high-quality results. Here’s what you generally need to know when \\*\\*preparing for MR brain spectroscopy\\*\\*:\n\\* \\*\\*Diet:\\*\\* Usually, no specific dietary restrictions are necessary for the MRS part of the scan. However, if your \\*\\*MR Brain with Spectroscopy\\*\\* is being performed along with a contrast-enhanced MRI, you might be asked to fast for a few hours (typically 4-6 hours) before the scan. This is to minimize the risk of nausea if contrast is used. Always confirm specific fasting instructions with \\*\\*Cadabams Diagnostics\\*\\* when scheduling your appointment.\n\\* \\*\\*Clothing:\\*\\* Wear comfortable, loose-fitting clothes that do not have any metal zippers, buttons, snaps, or metallic threads. Items like sweatpants and a t-shirt are ideal. You may be asked to change into a hospital gown to ensure no metallic items interfere with the scan.\n\\* \\*\\*Medications:\\*\\* Continue taking your regular medications as prescribed by your doctor unless specifically advised otherwise by your physician or the staff at \\*\\*Cadabams Diagnostics\\*\\*. It's helpful to bring a list of your current medications.\n\\* \\*\\*Information for Staff:\\*\\* It's crucial to inform the \\*\\*Cadabams Diagnostics\\*\\* staff about:\n\\* Any allergies you have, especially to medications or contrast dyes.\n\\* Any serious health conditions, such as kidney disease (important if contrast is planned).\n\\* Any prior surgeries, particularly those involving implants in your brain, heart, or elsewhere.\n\\* If there's any possibility that you might be pregnant. MRI is generally avoided during the first trimester unless absolutely essential.\n\\* \\*\\*Metal:\\*\\* This is a critical aspect of \\*\\*preparing for MR brain spectroscopy\\*\\*. Before entering the MRI scan room, you must remove all metallic objects, including:\n\\* Jewelry (rings, necklaces, earrings, watches)\n\\* Hairpins, barrettes, and hair ties with metal parts\n\\* Removable dental work (dentures, bridges with metal)\n\\* Hearing aids\n\\* Body piercings\n\\* Eyeglasses\n\\* Wallets with credit cards (the magnet can erase them) and keys.\nLockers are usually provided for your valuables.\nIf you have any questions about \\*\\*preparing for MR brain spectroscopy\\*\\*, don't hesitate to contact \\*\\*Cadabams Diagnostics\\*\\* beforehand.\n## Pre-requisites\nBefore undergoing an \\*\\*MR Brain with Spectroscopy\\*\\* at \\*\\*Cadabams Diagnostics\\*\\*, certain pre-requisites are typically in place:\n\\* \\*\\*Physician's Referral:\\*\\* A referral from your treating physician (e.g., neurologist, neurosurgeon, oncologist) is usually required. This ensures the test is clinically appropriate and helps the radiologist understand the specific questions to be addressed.\n\\* \\*\\*Standard MRI of the Brain:\\*\\* Often, a standard anatomical MRI of the brain is performed either immediately before or during the same scanning session as the MRS. The MRS data is interpreted in conjunction with these anatomical images. If you've had a recent high-quality brain MRI elsewhere, it may be useful, but often performing them together is preferred for direct correlation.\n\\* \\*\\*MRI Safety Screening Questionnaire:\\*\\* You will be asked to complete a detailed MRI safety screening questionnaire. This form helps identify any potential contraindications or risk factors related to the strong magnetic field, such as the presence of metallic implants or a history of metal fragments in your body.\n\\* \\*\\*Ensure No Contraindications to MRI:\\*\\* This is paramount. The referring doctor and our team at \\*\\*Cadabams Diagnostics\\*\\* will review your medical history to ensure you don't have absolute contraindications, such as:\n\\* MRI-incompatible pacemakers or defibrillators\n\\* Certain older types of intracranial aneurysm clips\n\\* Some cochlear implants\n\\* Certain metallic foreign bodies (especially in or near the eyes).\n## Best Time to Take the MR Brain with Spectroscopy\nBiologically, there is no specific \"best time of day\" to undergo an \\*\\*MR Brain with Spectroscopy\\*\\*. The chemical composition of your brain tissue measured by MRS does not significantly fluctuate in a way that would affect diagnostic accuracy based on the time of day for most conditions.\nScheduling for an \\*\\*MR Brain with Spectroscopy\\*\\* at \\*\\*Cadabams Diagnostics\\*\\* is primarily based on:\n\\* \\*\\*Clinical Urgency:\\*\\* How quickly the information is needed for your diagnosis or treatment planning.\n\\* \\*\\*Scanner Availability:\\*\\* Advanced imaging like MRS requires specific scanner time and expertise.\n\\* \\*\\*Patient Convenience:\\*\\* The test can be performed as an outpatient procedure, and we strive to find a time that works for you.\nYour referring physician will determine the urgency of the scan based on your clinical situation.\n## Eligibility\nThe eligibility criteria for an \\*\\*MR Brain with Spectroscopy\\*\\* at \\*\\*Cadabams Diagnostics\\*\\* are largely the same as for a standard MRI scan:\n\\* \\*\\*Individuals who can safely undergo an MRI scan:\\*\\* This is the primary requirement. Patients must be free of MRI-incompatible metallic implants or foreign bodies.\n\\* \\*\\*Patients whose clinical condition warrants detailed biochemical assessment:\\*\\* The test is indicated when a physician believes that the metabolic information provided by MRS will significantly contribute to diagnosis, treatment planning, or monitoring of a brain condition.\n### Contraindications:\nIt's crucial to identify any contraindications before scheduling.\n\\* \\*\\*Absolute Contraindications:\\*\\*\n\\* MRI-incompatible pacemakers or implantable cardioverter-defibrillators (ICDs).\n\\* Certain types of metallic cochlear implants.\n\\* Some older ferromagnetic intracranial aneurysm clips.\n\\* Metallic foreign bodies in the eyes or certain other critical locations.\n\\* Some types of neurostimulators or drug infusion pumps.\n\\* \\*\\*Relative Contraindications:\\*\\* These are situations where the scan might still be possible but requires careful consideration, specific protocols, or may carry increased risk.\n\\* \\*\\*Pregnancy:\\*\\* MRS (and MRI) is generally avoided during the first trimester unless the benefits clearly outweigh the potential risks. The decision is made on a case-by-case basis.\n\\* \\*\\*Severe Claustrophobia:\\*\\* While not a medical contraindication, severe claustrophobia can make it difficult for a patient to tolerate the scan. Options like open MRI (if suitable for MRS quality), sedation, or anesthesia can be considered.\n\\* \\*\\*Certain newer metallic implants:\\*\\* Many modern orthopedic implants are MRI-safe, but it's vital to confirm compatibility.\n\\* \\*\\*Severe kidney dysfunction:\\*\\* If contrast-enhanced MRI is planned alongside MRS, severe kidney disease can be a relative contraindication to gadolinium-based contrast agents due to the risk of nephrogenic systemic fibrosis (NSF), albeit rare.\nAlways discuss your full medical history and any implants with your doctor and the staff at \\*\\*Cadabams Diagnostics\\*\\* to confirm your eligibility.\n## Procedure for Taking a MR Brain with Spectroscopy\nUndergoing an \\*\\*MR Brain with Spectroscopy\\*\\* at \\*\\*Cadabams Diagnostics\\*\\* is similar to having a standard MRI. Here’s what you can typically expect:\n1. \\*\\*Arrival and Preparation:\\*\\* After checking in, you'll confirm your details and review the MRI safety questionnaire. You'll be asked to change into a hospital gown if your clothing has metal. You'll need to remove all metallic personal items.\n2. \\*\\*Positioning:\\*\\* You will lie down on a padded, motorized scanner table, usually on your back. Patient comfort is important, so pillows or supports may be used.\n3. \\*\\*Head Coil:\\*\\* A special device called a head coil will be placed around your head. This coil helps send and receive the radio wave signals necessary to create the MR images and spectra. It looks like an open helmet or frame.\n4. \\*\\*Entering the Scanner:\\*\\* The scanner table will gently slide your head and upper body into the center of the large, tunnel-shaped MRI machine. The opening is well-lit and ventilated.\n5. \\*\\*Scan Process:\\*\\*\n\\* The MRI technologist will operate the scanner from an adjacent control room. They will be able to see you through a window and communicate with you via an intercom system throughout the scan. You'll be given a squeeze-ball or call button to use if you need attention.\n\\* First, standard anatomical MRI sequences are usually performed to provide structural images of your brain.\n\\* Then, the \\*\\*MR Brain with Spectroscopy\\*\\* sequences will be run. This involves placing one or more \"voxels\" (small targeting boxes) on specific areas of interest in your brain, guided by the anatomical MRIs.\n\\* The MRS part may add approximately 15-30 minutes, or sometimes longer, to the total scan time, depending on whether single or multi-voxel spectroscopy is performed and how many regions are examined.\n6. \\*\\*Noise:\\*\\* During the scan, the MRI machine will make loud knocking, thumping, or buzzing sounds as it acquires data. This is normal. You will be provided with earplugs or headphones to reduce the noise and may be able to listen to music.\n7. \\*\\*Stillness is Key:\\*\\* It is extremely important to remain as still as possible during the entire scan, especially during the MRS sequences. Even small movements can blur the images and degrade the quality of the spectroscopic data, potentially making it uninterpretable.\n8. \\*\\*Duration:\\*\\* A complete \\*\\*MR Brain with Spectroscopy\\*\\* examination, including the preceding anatomical MRI, might take anywhere from 45 minutes to 90 minutes, or occasionally longer. The technologist will keep you informed.\n9. \\*\\*After the Scan:\\*\\* Once all the imaging is complete, the table will slide out of the scanner. You can then change back into your clothes and usually resume your normal activities immediately, unless you received sedation.\n## Caution Before Taking the Test\nBefore you undergo an \\*\\*MR Brain with Spectroscopy\\*\\* at \\*\\*Cadabams Diagnostics\\*\\*, it is vital to inform the MRI technologist or radiologist if any of the following apply to you:\n\\* \\*\\*Pregnancy:\\*\\* If you are pregnant or think you might be pregnant. MRI is generally avoided in the first trimester unless urgent.\n\\* \\*\\*Metallic Implants:\\*\\*\n\\* \\*\\*Pacemaker or Implantable Cardioverter Defibrillator (ICD)\\*\\*\n\\* \\*\\*Aneurysm clips\\*\\* (especially older types) in the brain\n\\* \\*\\*Artificial heart valves\\*\\*\n\\* \\*\\*Cochlear implants\\*\\* or other ear implants\n\\* \\*\\*Neurostimulators\\*\\* (for pain, bladder control, etc.)\n\\* \\*\\*Drug infusion pumps\\*\\* (e.g., insulin pumps)\n\\* \\*\\*Artificial joints, rods, pins, screws, or plates\\*\\* (most modern ones are safe, but details are needed)\n\\* \\*\\*Stents\\*\\* (coronary, carotid, etc.)\n\\* \\*\\*Intrauterine Devices (IUDs)\\*\\* – some may contain metal.\n\\* \\*\\*Shrapnel, bullets, or other metallic fragments\\*\\* in your body.\n\\* \\*\\*Metal Fragments in Eyes/Work History:\\*\\* If you have ever had metal fragments (e.g., from welding, grinding, or an injury) in your eyes, an X-ray might be needed before the MRI to ensure no fragments are present.\n\\* \\*\\*Tattoos or Permanent Makeup:\\*\\* Some older tattoo inks and permanent makeup contain metallic particles that can heat up during an MRI, causing skin irritation or burns in rare cases. Inform the staff about any large or dark tattoos in the area being scanned.\n\\* \\*\\*Claustrophobia:\\*\\* If you suffer from significant fear of enclosed spaces. Discuss this beforehand, as options like sedation might be available.\n\\* \\*\\*Kidney Problems:\\*\\* If you have a history of kidney disease, kidney failure, or are on dialysis, especially if a gadolinium-based contrast agent is planned for the MRI part of the study.\n\\* \\*\\*Allergies:\\*\\* Any known allergies, particularly a previous allergic reaction to gadolinium-based contrast material or iodine.\n\\* \\*\\*Inability to Lie Still:\\*\\* If you have a condition that makes it difficult for you to lie still for an extended period (e.g., chronic pain, tremors).\nProviding this information accurately helps ensure your safety and the quality of the \\*\\*MR Brain with Spectroscopy\\*\\* images."
+    },
+    {
+      "id": "673edbf25ab244ca239d0c46",
+      "templateName": "non-labtest",
+      "testName": "MRI L S SPINE WITH CONTRAST",
+      "route": "/musculoskeletal-mri",
+      "basic_info": {
+        "name": "MRI L S SPINE WITH CONTRAST",
+        "route": "/musculoskeletal-mri",
+        "categoryId": "671b5102ad9bf8d210384d1a",
+        "price": 11000,
+        "alsoKnownAs": "",
+        "discount": "0",
+        "discountedPrice": "11000.00",
+        "reportsWithin": "6 hrs",
+        "Identifies": "",
+        "measures": "",
+        "testId": 9840132,
+        "testCategory": "-"
+      },
+      "requisites": [
+        {
+          "value": "For this mska or musculoskeletal magnetic resonance imaging, you really need little in the way of preparation. You might have a metal ifuthia such as a watch, so you might be required to take a metallic item off. Some radiologists may use contrast dye in some instances. "
+        }
+      ],
+      "interpretations": {
+        "title": "Results and Interpretations ",
+        "cols": [
+          "Structure",
+          "Normal Range/Status",
+          "Abnormal Indications"
+        ],
+        "rows": [
+          [
+            "Bones and Joints",
+            "Intact, normal spacing",
+            "Fractures, misalignments, arthritis"
+          ],
+          [
+            "Cartilage",
+            "Smooth, normal thickness",
+            "Tears, degeneration"
+          ],
+          [
+            "Ligaments and Tendons",
+            "Continuous, intact",
+            "Sprains, tears, inflammation"
+          ],
+          [
+            "Muscles",
+            "Consistent volume",
+            "Atrophy, tears, inflammation"
+          ]
+        ]
+      },
+      "faqs": [
+        {
+          "question": "Can a Musculoskeletal MRI detect early signs of arthritis? ",
+          "answer": "Yes, by means of a Musculoskeletal MRI early diagnosis of arthritis can be made because of the ability of the imaging procedure to detect changes of joint cartilage, presence of inflammation as well as damage of soft tissues structures which other techniques may be able to miss."
+        },
+        {
+          "question": "Duration for Musculoskeletal MRI? ",
+          "answer": "In general, the usual duration of the Musculoskeletal MRI scan is said to be anywhere between 30 to 60 minutes. During this period, you will be required to stay in a fixed position on a movable table located within the MRI device."
+        },
+        {
+          "question": "Is there any pain or discomfort during a Musculoskeletal MRI? ",
+          "answer": "Are Musculoskeletal MRI results helpful for performing surgery? A Musculoskeletal MRI examination does not cause any sort of pain and people are not expected to feel any. Though the patient may feel discomfort due to staying in one position for 30 to 60 minutes. Muffs will be provided to avoid the shouting sound of the machine."
+        },
+        {
+          "question": "Are Musculoskeletal MRI results helpful for performing surgery? ",
+          "answer": "Definitely, the images obtained through a musculoskeletal MRI show reliable details that enable the surgeon to know the precise location and size of the injury or abnormality to facilitate surgery."
+        },
+        {
+          "question": "Are there other diagnostic procedures besides Musculoskeletal MRI that can diagnose joint problems? ",
+          "answer": "Some conditions may use X-ray, CT scan, and ultrasound, but MRI is the main examination because it offers great detail of soft tissues and does not use any radiation."
+        }
+      ],
+      "relative_test": {
+        "title": "",
+        "categoryId": "671b5102ad9bf8d210384d1a",
+        "tests": [
+          {
+            "id": "6735d7ca03598b92c151c932",
+            "testName": "Brain MRI",
+            "route": "/brain-mri"
+          },
+          {
+            "id": "673719ce996e7737b6f4de3a",
+            "testName": "Perianal Imaging",
+            "route": "/perianal-imaging-center"
+          },
+          {
+            "id": "673c712beffae454707e0135",
+            "testName": "Abdominal MRI ",
+            "route": "/abdominal-mri"
+          },
+          {
+            "id": "673db6af534c72d341052c2f",
+            "testName": "MRI Lumbar/Lumbosacral Spine Without Contrast ",
+            "route": "/mri-lumbar-lumbosacral-spine-without-contrast"
+          },
+          {
+            "id": "673dc0a75ab244ca239d0228",
+            "testName": "MR Renal Angiography",
+            "route": "/mr-renal-angiography"
+          },
+          {
+            "id": "673ddaf55ab244ca239d0547",
+            "testName": "MR Brain with Spectroscopy",
+            "route": "/mr-brain-with-spectroscopy"
+          }
+        ]
+      },
+      "seo": {
+        "title": "Musculoskeletal MRI in Bangalore |  Cadabam's Diagnostics",
+        "description": "Book musculoskeletal MRI scans in Bangalore for precise imaging of bones, joints, and tissues. Advanced diagnostics for expert care.",
+        "keywords": "",
+        "canonicalUrl": "",
+        "ogTitle": "",
+        "ogDescription": "",
+        "ogImage": "",
+        "schemaMarkup": "",
+        "robotsMeta": ""
+      },
+      "markdown": "## Musculoskeletal MRI Overview\n\nInterestingly, a Musculoskeletal MRI is similar to the other MRI procedures, in that it is an imaging technique that is non-invasive that is practiced by the doctors and the physicians in order to get an idea of the structure of bones, muscle, ligaments, tendons and joint.\n\nThe utilization of radio waves to generate high quality images of the musculoskeletal system relies on safe and effective high magnetic fields. In this way, doctors are able to evaluate the structure of the skeletal system, and abnormal areas and injuries without exposing the client to radiation.\n\nFor sports medicine, the updated technique is able to target sports related injuries, diagnosis of musculoskeletal disorders and post-surgical complications.\n\n## Risks & Limitations of the Musculoskeletal MRI\n\nMost individuals can be able to undergo a Musculoskeletal MRI without any risk. However, certain precautions and limitations may need to be kept in mind including the following: -\n\n**Metal Sensitivity:** Such people (with pacemakers, screws, or metal plates) may be excluded from the procedure as these implants can cause trouble with the magnetic field of the MRI.\n\n**Contrast Sensitivity:** Sometimes to improve the images, a contrast dye is applied. However, one should consult the doctor prior if they have allergies to the contrast or have renal complaints.\n\n**Claustrophobia:** The open MRI is available in some health centres but in some patients, claustrophobia may also limit the effectiveness of an MRI machine.\n\n## List of Parameters Considered During the Musculoskeletal MRI\n\nThe parameters described below are clearly defined and used for Musculoskeletal MRI evaluation by healthcare professionals:\n\n### Bone and Joint Structure:\n\n- Bone Morphology (integrity and density)\n- Joint Position and Spacing\n- Cartilage volume and thickness\n- Synovial fluid\n\n### Soft Tissue Analysis:\n\n- Ligament lengths, continuity, and thickness/length\n- Tendon structure and attachments\n- Muscle mass and condition\n- Swelling or inflammation\n\n### Pathological Indicators:\n\n- Fracture site and pattern\n- Ligaments or tendons Avulsion/tears\n- Changes in joints due to arthritis or degeneration\n- Abscesses, infection and soft tissue tumors\n\n### Clinical Parameters:\n\n- Details of the case and history and details of injury\n- Symptoms like pain, swelling, instability.\n- Past treatments or surgeries.\n- History of musculoskeletal disorders in the family.\n\n## Reasons for Taking a Musculoskeletal MRI\n\nA Musculoskeletal MRI may be recommended to you for various reasons, including but not limited to:\n\n- Injuries due to sports activity (torn ligaments, tendonitis).\n- Pain or stiffness of joints with no apparent cause.\n- Examining cases of arthritis.\n- Assessment of both acute fractures and the healing process over time.\n- Presence of tumours or other infections either in the bones or soft tissue.\n- Evaluation of the condition before surgery or for follow-up after surgery.\n- Degenerative diseases such as osteoarthritis or issues related to spinal discs.\n\n## Benefits of Taking a Musculoskeletal MRI\n\n- Very high-resolution images of bone or soft tissue.\n- Safe for use with young children or anyone since it does not involve radiation.\n- Detection of musculoskeletal disorders and other related abnormalities.\n- Painless and very easy procedure.\n- Assists physicians in determining the most appropriate intervention.\n- Monitor the effectiveness of treatment over time and the course of diseases.\n\n## Preparing for the Musculoskeletal MRI\n\nUnless there are other additional examinations to be performed, no particular preparation for the Musculoskeletal MRI may be required. However, it is best to know that many minimal steps can ensure a successful outcome.\n\n### Pre-requisites\n\nSlight pressure will be placed on the squeezy bulb to force the subject’s body into the MRI machine. This will be followed with removing all metallic items from the body including glass frames, jewelry, and belts to ensure no interference with the MRI machine. It is advisable to let your practitioner know about the presence of any implants if that is the case. If patients have claustrophobia, let the technician know so that they can take the relevant measures to assist them.\n\n### Eligible\n\nAlmost the entire population can safely undergo Musculoskeletal MRI, except those suffering mental implants, advanced pregnancy and severe claustrophobia should be able to contact their doctor for any further assistance.\n\n### Procedure for Musculoskeletal MRI Scan\n\nFor the purpose of this scan, the technician will ask the patient to lie in a mobile table that is positioned inside the MRI. The technician will then render instructions such as not moving in order to acquire good images. You may also be required to do a simple breath-holding maneuver during the scan. Earplugs or headphones are supplied for the machine emits high volume banging noises. A typical time needed to complete the procedure is approximately 30-60 minutes.\n\n### Caution Before Taking the MRI\n\nYou are advised that whenever you are pregnant, or if you have any metal implants or may be allergic to contrast dye to make sure to tell your US doctor before undergoing the scan. Always obey your doctor's orders and inform the technician most especially on the areas or condition where extra care has to be taken."
+    }
+  ]
+}

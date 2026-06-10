@@ -1,0 +1,35 @@
+{
+  "type": "policy",
+  "route": "/cookie-policy",
+  "kind": "cookie",
+  "title": "Cookie Policy",
+  "summary": "Cookies are small text files stored on your device. This page explains the ones we use, what they do, and how to control them.",
+  "lastUpdated": "2026-05-29",
+  "sections": [
+    {
+      "id": "what-are-cookies",
+      "title": "What are cookies?",
+      "body": "Cookies are small text files that a website places on your device when you visit. They let the site remember you (so you don't have to log in again every time) and help us understand how the site is used so we can improve it. Similar technologies — like local storage and pixel tags — work in the same way and are covered by this policy."
+    },
+    {
+      "id": "categories",
+      "title": "Types of cookies we use",
+      "body": "### Strictly necessary\n\nRequired for the site to work. They keep you signed in, keep items in your cart, remember your selected city, and protect checkout from fraud. You cannot turn these off.\n\n### Functional\n\nRemember preferences such as your language, font-size, and whether you have dismissed certain banners. Disabling these may make parts of the site less personalised.\n\n### Analytics\n\nHelp us understand which tests are popular, how visitors navigate the site, and where there are pain points. The data is aggregated and does not identify you personally.\n\n### Marketing\n\nAllow us to measure the effectiveness of campaigns and show you more relevant content on other platforms (such as retargeting). We do not share clinical or report data with marketing partners."
+    },
+    {
+      "id": "third-party",
+      "title": "Third-party cookies",
+      "body": "Some cookies are set by services we embed — for example, Google Maps for centre directions, our payment gateway for checkout, and analytics providers. Those cookies are governed by the providers' own policies, and we link to them where required."
+    },
+    {
+      "id": "manage",
+      "title": "How to manage cookies",
+      "body": "You can control cookies in two places:\n\n- **The cookie banner** shown when you first visit the site lets you accept or reject non-essential cookies. You can reopen the preference panel from the footer at any time.\n- **Your browser settings** let you block or delete cookies for specific sites or in general. Helpful guides for [Chrome](https://support.google.com/chrome/answer/95647), [Firefox](https://support.mozilla.org/en-US/kb/cookies-information-websites-store-on-your-computer), and [Safari](https://support.apple.com/en-in/guide/safari/sfri11471/mac) are linked here.\n\nBlocking strictly necessary cookies will break parts of the site (you may not be able to log in or check out)."
+    },
+    {
+      "id": "changes",
+      "title": "Changes to this policy",
+      "body": "We may update this policy as our use of cookies evolves. The \"Last updated\" date at the top of the page reflects the most recent change. We will surface material changes in our cookie banner."
+    }
+  ]
+}

@@ -20,6 +20,9 @@ import {
   selectSubtotal,
   type CartItem,
 } from "@/lib/cart/store";
+import cartContent from "@/data/allpages/cart/page.json";
+
+const TRUST_ICONS = { Clock, HeartPulse, ShieldCheck } as const;
 
 export default function CartPage() {
   const hydrated = useCartHydrated();
@@ -67,7 +70,7 @@ export default function CartPage() {
     ];
     const text = encodeURIComponent(lines.join("\n"));
     window.open(
-      `https://wa.me/919538593355?text=${text}`,
+      `https://wa.me/${cartContent.whatsappNumber}?text=${text}`,
       "_blank",
       "noopener,noreferrer",
     );
@@ -93,7 +96,7 @@ export default function CartPage() {
       <section className="mx-auto max-w-6xl px-gutter py-8 lg:py-10">
         <div className="mb-5 lg:mb-6">
           <h1 className="text-h1 sm:text-display-2 font-display font-extrabold text-ink-900 tracking-tight">
-            Your cart
+            {cartContent.title}
           </h1>
           <p className="text-body-sm text-ink-500 mt-1">
             {items.length} {items.length === 1 ? "item" : "items"} ready to book
@@ -146,15 +149,7 @@ export default function CartPage() {
                     </div>
                   </div>
 
-                  <div className="flex flex-col items-end justify-between gap-3 flex-shrink-0">
-                    <button
-                      type="button"
-                      onClick={() => removeItem(item.id)}
-                      aria-label={`Remove ${item.name}`}
-                      className="w-8 h-8 inline-flex items-center justify-center rounded-pill text-ink-400 hover:text-coral-400 hover:bg-cream-soft transition-colors"
-                    >
-                      <Trash2 className="w-4 h-4" />
-                    </button>
+                  <div className="flex flex-col items-end justify-center gap-3 flex-shrink-0">
                     <div className="inline-flex items-center rounded-pill border border-cream-line bg-cream-bg">
                       <button
                         type="button"
@@ -189,7 +184,7 @@ export default function CartPage() {
             <div className="bg-cream-card rounded-2xl shadow-sh-3 border border-cream-line overflow-hidden">
               <div className="bg-gradient-orange-soft p-5 border-b border-cream-line">
                 <p className="text-overline uppercase text-orange-700 font-bold tracking-overline">
-                  Order summary
+                  {cartContent.summary.title}
                 </p>
               </div>
               <div className="p-5 space-y-3">
@@ -217,29 +212,27 @@ export default function CartPage() {
                   onClick={bookOnWhatsApp}
                   className="w-full mt-2 inline-flex items-center justify-center gap-2 rounded-pill bg-gradient-cta text-white font-bold px-7 py-3.5 text-body shadow-glow-orange hover:brightness-110 active:scale-[0.98] transition-all duration-200"
                 >
-                  Proceed to book
+                  {cartContent.summary.proceedLabel}
                 </button>
 
                 <ul className="pt-3 space-y-2 text-meta text-ink-600">
-                  <li className="flex items-center gap-2">
-                    <Clock className="w-3.5 h-3.5 text-orange-600 flex-shrink-0" />
-                    Reports in 6 hours on most tests
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <HeartPulse className="w-3.5 h-3.5 text-orange-600 flex-shrink-0" />
-                    Free home sample collection
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <ShieldCheck className="w-3.5 h-3.5 text-orange-600 flex-shrink-0" />
-                    NABL Accredited labs
-                  </li>
+                  {cartContent.summary.trust.map((t) => {
+                    const Icon =
+                      TRUST_ICONS[t.icon as keyof typeof TRUST_ICONS] ?? Clock;
+                    return (
+                      <li key={t.text} className="flex items-center gap-2">
+                        <Icon className="w-3.5 h-3.5 text-orange-600 flex-shrink-0" />
+                        {t.text}
+                      </li>
+                    );
+                  })}
                 </ul>
               </div>
             </div>
 
             <ContactActionButton
               mode="call"
-              phone="+91 99006 64696"
+              phone={cartContent.helpPhone}
               context="Cart — booking help"
               className="mt-4 w-full inline-flex items-center justify-center gap-2 rounded-pill bg-cream-card hover:bg-cream-soft text-ink-900 font-semibold px-5 py-3 text-body-sm border border-cream-line transition-all"
             >
@@ -311,31 +304,36 @@ function EmptyCart() {
           <ShoppingCart className="w-9 h-9 text-orange-600" />
         </div>
         <h1 className="text-h1 sm:text-display-2 font-display font-extrabold text-ink-900">
-          Your cart is empty
+          {cartContent.empty.title}
         </h1>
         <p className="mt-3 text-body lg:text-h3 text-ink-600 max-w-xl mx-auto leading-relaxed">
-          Browse our lab tests or radiology scans to add a test to your cart,
-          or call us directly and we&apos;ll book it for you.
+          {cartContent.empty.description}
         </p>
 
         <div className="mt-8 flex flex-col sm:flex-row gap-3 justify-center">
-          <CTAButton href="/bangalore/lab-test" variant="primary" size="lg">
-            Browse lab tests
-          </CTAButton>
-          <CTAButton href="/bangalore/xray-scan" variant="secondary" size="lg">
-            Browse radiology
-          </CTAButton>
+          {cartContent.empty.buttons.map((b, i) => (
+            <CTAButton
+              key={b.href}
+              href={b.href}
+              variant={i === 0 ? "primary" : "secondary"}
+              size="lg"
+            >
+              {b.label}
+            </CTAButton>
+          ))}
         </div>
 
         <div className="mt-10 bg-cream-card rounded-2xl shadow-sh-2 border border-cream-line p-5 max-w-md mx-auto">
-          <p className="text-body-sm text-ink-700">Prefer to talk to a person?</p>
+          <p className="text-body-sm text-ink-700">
+            {cartContent.empty.helpText}
+          </p>
           <ContactActionButton
             mode="call"
-            phone="+919900664696"
+            phone={cartContent.helpPhone}
             className="mt-2 inline-flex items-center justify-center gap-2 text-h3 font-bold text-orange-600 hover:text-orange-700 transition-colors"
           >
             <Phone className="w-5 h-5" />
-            +91 99006 64696
+            {cartContent.helpPhone}
           </ContactActionButton>
         </div>
       </section>

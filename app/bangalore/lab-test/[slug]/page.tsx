@@ -6,7 +6,6 @@ import {
   Clock,
   FlaskConical,
   ShieldCheck,
-  Tag,
   Home as HomeIcon,
   Zap,
 } from "lucide-react";
@@ -24,7 +23,7 @@ import { labTestUrl } from "@/lib/urls";
 import { LabTestListing } from "@/components/labtests/LabTestListing";
 import { stripLeadingSlash } from "@/lib/data/types";
 import { MarkdownContent } from "@/components/shared/MarkdownContent";
-import { TestCard } from "@/components/shared/TestCard";
+import { RelatedTestsCarousel } from "@/components/shared/RelatedTestsCarousel";
 import { TestBookingActions } from "@/components/shared/TestBookingActions";
 import { AddToCartButton } from "@/components/shared/AddToCartButton";
 import { BookNowButton } from "@/components/shared/BookNowButton";
@@ -185,11 +184,6 @@ export default async function LabTestDetailPage({ params }: PageProps) {
   const validReportsWithin = isMeaningfulText(test.basic_info.reportsWithin, 3)
     ? test.basic_info.reportsWithin.trim()
     : null;
-  const validTestId =
-    test.basic_info.testId &&
-    /^\d{4,}$/.test(String(test.basic_info.testId))
-      ? String(test.basic_info.testId)
-      : null;
 
   const hasInterpretations =
     test.interpretations?.rows &&
@@ -308,12 +302,6 @@ export default async function LabTestDetailPage({ params }: PageProps) {
                   <ShieldCheck className="w-3.5 h-3.5 text-orange-600" />
                   NABL Accredited
                 </span>
-                {validTestId && (
-                  <span className="inline-flex items-center gap-2 bg-cream-card rounded-pill px-4 py-2 text-body-sm font-semibold text-ink-800 shadow-sh-1 border border-cream-line">
-                    <Tag className="w-3.5 h-3.5 text-orange-600" />
-                    ID {validTestId}
-                  </span>
-                )}
               </div>
 
               <div className="flex flex-col sm:flex-row gap-3 pt-2 max-w-xl">
@@ -326,7 +314,7 @@ export default async function LabTestDetailPage({ params }: PageProps) {
                     href: labTestUrl(test),
                     kind: "Lab Test",
                   }}
-                  className="flex-1 inline-flex items-center justify-center gap-2 rounded-pill bg-gradient-cta text-white font-bold px-6 py-3.5 text-body shadow-glow-orange hover:brightness-110 hover:-translate-y-0.5 active:scale-[0.98] transition-all duration-200 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-orange-300"
+                  className="flex-1 inline-flex items-center justify-center gap-2 rounded-pill bg-gradient-cta text-white font-bold px-6 py-3.5 text-body hover:brightness-110 hover:-translate-y-0.5 active:scale-[0.98] transition-all duration-200 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-orange-300"
                 >
                   <Zap className="w-4 h-4 fill-white flex-shrink-0" />
                   Book now · ₹{finalPrice.toLocaleString("en-IN")}
@@ -385,96 +373,100 @@ export default async function LabTestDetailPage({ params }: PageProps) {
 
       <div className="mx-auto max-w-7xl px-gutter py-10 lg:py-14 grid gap-6 lg:gap-10 lg:grid-cols-3">
         <div className="lg:col-span-2 space-y-6">
-          {(validIdentifies || validMeasures) && (
-            <section className="bg-cream-card rounded-2xl shadow-sh-2 border border-cream-line p-4 sm:p-6 lg:p-8">
-              <h2 className="text-h2 font-display font-bold text-ink-900 mb-5">
-                About The Test
-              </h2>
-              <div className="grid sm:grid-cols-2 gap-5">
-                {validIdentifies && (
-                  <div className="bg-orange-50/60 rounded-xl p-4 border border-orange-100">
-                    <p className="text-overline uppercase text-orange-700 font-bold mb-1.5 tracking-overline">
-                      Identifies
-                    </p>
-                    <p className="text-body-sm text-ink-700 leading-relaxed">
-                      {validIdentifies}
-                    </p>
+          {(validIdentifies ||
+            validMeasures ||
+            markdownSections.length > 0 ||
+            hasInterpretations) && (
+            <div className="bg-cream-card rounded-sm shadow-sh-2 p-4 sm:p-6 lg:p-8 space-y-8">
+              {(validIdentifies || validMeasures) && (
+                <section>
+                  <h2 className="text-h2 font-display font-bold text-ink-900 mb-5">
+                    About The Test
+                  </h2>
+                  <div className="grid sm:grid-cols-2 gap-5">
+                    {validIdentifies && (
+                      <div className="bg-orange-50/60 rounded-xl p-4">
+                        <p className="text-overline uppercase text-orange-700 font-bold mb-1.5 tracking-overline">
+                          Identifies
+                        </p>
+                        <p className="text-body-sm text-ink-700 leading-relaxed">
+                          {validIdentifies}
+                        </p>
+                      </div>
+                    )}
+                    {validMeasures && (
+                      <div className="bg-orange-50/60 rounded-xl p-4">
+                        <p className="text-overline uppercase text-orange-700 font-bold mb-1.5 tracking-overline">
+                          Measures
+                        </p>
+                        <p className="text-body-sm text-ink-700 leading-relaxed">
+                          {validMeasures}
+                        </p>
+                      </div>
+                    )}
                   </div>
-                )}
-                {validMeasures && (
-                  <div className="bg-orange-50/60 rounded-xl p-4 border border-orange-100">
-                    <p className="text-overline uppercase text-orange-700 font-bold mb-1.5 tracking-overline">
-                      Measures
-                    </p>
-                    <p className="text-body-sm text-ink-700 leading-relaxed">
-                      {validMeasures}
-                    </p>
-                  </div>
-                )}
-              </div>
-            </section>
-          )}
-
-          {markdownSections.map((section, i) => (
-            <section
-              key={`md-section-${i}`}
-              className="bg-cream-card rounded-2xl shadow-sh-2 border border-cream-line p-4 sm:p-6 lg:p-8"
-            >
-              <h2 className="text-h2 font-display font-bold text-ink-900 mb-4">
-                {section.title}
-              </h2>
-              <MarkdownContent content={section.body} />
-            </section>
-          ))}
-
-          {hasInterpretations && (
-            <section className="bg-cream-card rounded-2xl shadow-sh-2 border border-cream-line p-4 sm:p-6 lg:p-8">
-              <h2 className="text-h2 font-display font-bold text-ink-900 mb-4">
-                Test Results
-              </h2>
-              {test.interpretations.title && (
-                <p className="text-body-sm text-ink-600 mb-4">
-                  {test.interpretations.title}
-                </p>
+                </section>
               )}
-              <div className="overflow-x-auto rounded-md border border-cream-line">
-                <table className="w-full border-collapse">
-                  <thead>
-                    <tr className="bg-cream-soft">
-                      {test.interpretations.cols.map((c, i) => (
-                        <th
-                          key={i}
-                          className="text-left text-body-sm font-semibold text-ink-900 px-4 py-3 border-b border-cream-line"
-                        >
-                          {c.trim()}
-                        </th>
-                      ))}
-                    </tr>
-                  </thead>
-                  <tbody>
-                    {test.interpretations.rows.map((row, ri) => (
-                      <tr
-                        key={ri}
-                        className="border-b border-cream-line last:border-b-0"
-                      >
-                        {row.map((cell, ci) => (
-                          <td
-                            key={ci}
-                            className="px-4 py-3 text-body-sm text-ink-700 align-top"
+
+              {markdownSections.map((section, i) => (
+                <section key={`md-section-${i}`}>
+                  <h2 className="text-h2 font-display font-bold text-ink-900 mb-4">
+                    {section.title}
+                  </h2>
+                  <MarkdownContent content={section.body} />
+                </section>
+              ))}
+
+              {hasInterpretations && (
+                <section>
+                  <h2 className="text-h2 font-display font-bold text-ink-900 mb-4">
+                    Test Results
+                  </h2>
+                  {test.interpretations.title && (
+                    <p className="text-body-sm text-ink-600 mb-4">
+                      {test.interpretations.title}
+                    </p>
+                  )}
+                  <div className="overflow-x-auto rounded-md border border-cream-line">
+                    <table className="w-full border-collapse">
+                      <thead>
+                        <tr className="bg-cream-soft">
+                          {test.interpretations.cols.map((c, i) => (
+                            <th
+                              key={i}
+                              className="text-left text-body-sm font-semibold text-ink-900 px-4 py-3 border-b border-cream-line"
+                            >
+                              {c.trim()}
+                            </th>
+                          ))}
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {test.interpretations.rows.map((row, ri) => (
+                          <tr
+                            key={ri}
+                            className="border-b border-cream-line last:border-b-0"
                           >
-                            {cell.trim()}
-                          </td>
+                            {row.map((cell, ci) => (
+                              <td
+                                key={ci}
+                                className="px-4 py-3 text-body-sm text-ink-700 align-top"
+                              >
+                                {cell.trim()}
+                              </td>
+                            ))}
+                          </tr>
                         ))}
-                      </tr>
-                    ))}
-                  </tbody>
-                </table>
-              </div>
-            </section>
+                      </tbody>
+                    </table>
+                  </div>
+                </section>
+              )}
+            </div>
           )}
 
           {hasFaqs && (
-            <section className="bg-cream-card rounded-2xl shadow-sh-2 border border-cream-line p-4 sm:p-6 lg:p-8">
+            <section className="bg-cream-card rounded-sm shadow-sh-2 border border-cream-line p-4 sm:p-6 lg:p-8">
               <h2 className="text-h2 font-display font-bold text-ink-900 mb-5">
                 FAQs
               </h2>
@@ -483,37 +475,28 @@ export default async function LabTestDetailPage({ params }: PageProps) {
           )}
 
           {relatedTests.length > 0 && (
-            <section>
-              <h2 className="text-h2 font-display font-bold text-ink-900 mb-5">
-                Related Tests
-              </h2>
-              <div className="grid sm:grid-cols-2 gap-5">
-                {relatedTests.slice(0, 4).map((t) => {
-                  const p = getPriceNumber(t);
-                  const dp = getDiscountedPriceNumber(t);
-                  const tCategory = getLabTestCategoryById(
-                    t.basic_info.categoryId,
-                  );
-                  return (
-                    <TestCard
-                      key={t.id}
-                      id={t.id}
-                      kind="Lab Test"
-                      name={t.testName}
-                      image={t.basic_info.imageSrc || tCategory?.image}
-                      price={dp || p}
-                      originalPrice={dp > 0 && dp < p ? p : undefined}
-                      reportTime={
-                        isMeaningfulText(t.basic_info.reportsWithin, 3)
-                          ? t.basic_info.reportsWithin
-                          : undefined
-                      }
-                      href={labTestUrl(t)}
-                    />
-                  );
-                })}
-              </div>
-            </section>
+            <RelatedTestsCarousel
+              title="Related Tests"
+              cards={relatedTests.map((t) => {
+                const p = getPriceNumber(t);
+                const dp = getDiscountedPriceNumber(t);
+                const tCategory = getLabTestCategoryById(
+                  t.basic_info.categoryId,
+                );
+                return {
+                  id: t.id,
+                  kind: "Lab Test",
+                  name: t.testName,
+                  image: t.basic_info.imageSrc || tCategory?.image,
+                  price: dp || p,
+                  originalPrice: dp > 0 && dp < p ? p : undefined,
+                  reportTime: isMeaningfulText(t.basic_info.reportsWithin, 3)
+                    ? t.basic_info.reportsWithin
+                    : undefined,
+                  href: labTestUrl(t),
+                };
+              })}
+            />
           )}
         </div>
 

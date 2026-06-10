@@ -1,0 +1,143 @@
+{
+  "type": "center",
+  "route": "/bangalore/center/indiranagar",
+  "slug": "indiranagar",
+  "center": {
+    "id": "67284ea1ba3d8c19c210758b",
+    "templateName": "center",
+    "basic_info": {
+      "center_name": "Cadabam's Indiranagar",
+      "center_image": "/centers/image-1769489418912-261919949.webp",
+      "center_sub_title": "Experience Precision and Compassionate Care in Indiranagar",
+      "location": "Indiranagar",
+      "city": "bangalore",
+      "area": "indiranagar"
+    },
+    "center_info": {
+      "address": "725, Chinmaya Mission Hospital Rd, near CHINMAYA MISSION HOSPITAL, Indira Nagar 1st Stage, Defence Colony, Indiranagar, Bengaluru, Karnataka 560038",
+      "phone": "+91 9900126611",
+      "whatsapp": "+91 95385 93355",
+      "email": "info@cadabamsdiagnostics.com",
+      "map_location": "https://www.google.com/maps/place/Cadabams+%7C+Megsan+Diagnostics/@12.9782551,77.6454755,15z/data=!4m6!3m5!1s0x3bae17e23770ddf9:0x959e503e8f2e1348!8m2!3d12.9782551!4d77.6454755!16s%2Fg%2F11vl0mnw83?hl=en-GB&entry=ttu&g_ep=EgoyMDI0MTExMy4xIKXMDSoASAFQAw%3D%3D"
+    },
+    "working_hours": {
+      "weekdays": {
+        "start": "07:00",
+        "end": "20:30",
+        "id": "67284ea1ba3d8c19c210758c"
+      },
+      "sunday": {
+        "start": "07:00",
+        "end": "13:00",
+        "id": "67284ea1ba3d8c19c210758d"
+      }
+    },
+    "services": [
+      {
+        "icon": "/centers/image-1730977998667-93819488.webp",
+        "title": "Extensive Blood Tests",
+        "description": "",
+        "tests": [
+          {
+            "id": "673b0850effae454707dde45",
+            "testName": "Complete Blood Count (CBC) ",
+            "route": "/complete-blood-count-cbc"
+          },
+          {
+            "id": "671c7c5ec8a77735c8e44105",
+            "testName": "Liver Function Test (LFT)",
+            "route": "/liver-function-test-lft"
+          },
+          {
+            "id": "671c7cc7c8a77735c8e4410e",
+            "testName": "Glucose Fasting Test",
+            "route": "/glucose-fasting-test-gft"
+          },
+          {
+            "id": "671c7d88c8a77735c8e44120",
+            "testName": "Thyroid Profile (T3, T4, TSH)",
+            "route": "/thyroid-profile-t3-t4-tsh"
+          }
+        ],
+        "id": "672ca114aec49bd9f4f806fe"
+      },
+      {
+        "icon": "",
+        "title": "Full Laboratory Capabilities",
+        "description": "X-rays and mammography \n\nBone density measurement (BMD) \n\nFertility-focused HSG testing \n\nAnd an array of other essential health tests ",
+        "tests": [],
+        "id": "673b2dfceffae454707de8f9"
+      },
+      {
+        "icon": "",
+        "title": "Complete Diabetes Profile",
+        "description": "",
+        "tests": [
+          {
+            "id": "671c7cc7c8a77735c8e4410e",
+            "testName": "Glucose Fasting Test",
+            "route": "/glucose-fasting-test-gft"
+          },
+          {
+            "id": "672bafa721cadfab64a6f879",
+            "testName": "GLUCOSE 2HR POST PRANDIAL",
+            "route": "/glucose-2-hour-postprandial-test-ghpt"
+          },
+          {
+            "id": "672df2d84280ae87a405c16e",
+            "testName": "Glucose Random Test ",
+            "route": "/glucose-random-test-grt"
+          },
+          {
+            "id": "6736dda903598b92c151cd8f",
+            "testName": "Diabetes Test",
+            "route": "/diabetes-test-dt"
+          }
+        ],
+        "id": "673b2dfceffae454707de8fa"
+      }
+    ],
+    "testimonials": [
+      {
+        "name": "Priya Sharma",
+        "content": "Excellent service and very professional staff. The home collection was on time and the reports were delivered within the promised timeframe.",
+        "location": "Indiranagar",
+        "rating": 5,
+        "date": null,
+        "id": "67284ea1ba3d8c19c210758f"
+      }
+    ],
+    "team": [
+      {
+        "name": "Dr. Shreyas Cadabam",
+        "designation": "Consultant Specialist in Radiology and Interventional Musculoskeletal Imaging",
+        "experience": "15+ years experience",
+        "qualification": "MBBS, MD (Radiodiagnosis)",
+        "image": "/centers/image-1731929533677-889999349.webp",
+        "id": "67284ea1ba3d8c19c2107590"
+      },
+      {
+        "name": "Dr. Divya Cadabam",
+        "designation": "Consultant Specialist in Radiology and Fetal Medicine",
+        "experience": "15+ Years",
+        "qualification": "MBBS, MD (Radiodiagnosis)",
+        "image": "/centers/image-1731929645342-965634168.webp",
+        "id": "673b2dfceffae454707de8fd"
+      },
+      {
+        "name": "Dr. S Pradeep",
+        "designation": "Consultant Specialist in Radiology and Fetal Medicine",
+        "experience": "25+ years",
+        "qualification": "MBBS, MD, DNB, Radiology",
+        "image": "/centers/image-1731929712429-811891296.webp",
+        "id": "673b2dfceffae454707de8fe"
+      }
+    ],
+    "faqs": [],
+    "seo": {
+      "title": "Diagnostic Centre in Indiranagar, Bangalore",
+      "description": "Cadabam's Diagnostics in Indiranagar offers accurate lab tests, 3T MRI, CT, ultrasound and health checkups with NABL-certified labs. Reports in 6 hours and home sample collection across Bangalore."
+    },
+    "markdown": "Welcome to Cadabam’s Diagnostics, Indiranagar—your trusted hub for accurate and compassionate diagnostic care. Conveniently located for easy access, our Indiranagar branch is part of a wider network across Bangalore, including centres in Banashankari, Kalyan Nagar, Jayanagar, and Kanakapura Road.  \n\nEach location is equipped with advanced technology and staffed by skilled professionals, all dedicated to supporting your health journey with precision and care. Wherever you are in the city, Cadabam’s Diagnostics ensures quality diagnostics are always close by. \n\nUnmatched Diagnostic Services \n\nCadabam’s Diagnostics brings a broad range of high-quality diagnostic services designed for comprehensive care, including: - \n\nPrecision 3T MRI imaging \n\nAdvanced multi-slice CT scans \n\nExtensive ultrasound options, including 3D/4D fetal imaging \n\nTargeted elastography for liver, breast, and prostate assessments \n\nFull laboratory capabilities, offering: \n\nX-rays and mammography \n\nBone density measurement (BMD) \n\nFertility-focused HSG testing \n\nAnd an array of other essential health tests \n\nYour Partner in Preventive Health \n\nAt Cadabam’s, we believe diagnostics are just the beginning. With a focus on early detection and preventive strategies, we’re here to support your journey to optimal health—every step of the way. "
+  }
+}

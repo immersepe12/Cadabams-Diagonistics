@@ -1,0 +1,10 @@
+{
+  "type": "auth",
+  "route": "/login",
+  "overline": "Welcome back",
+  "heading": "Sign in to your account",
+  "subheading": "View reports, track home collections, and manage your bookings from one place.",
+  "footerText": "New to Cadabam's?",
+  "footerLinkLabel": "Create an account",
+  "footerLinkHref": "/signup"
+}

@@ -43,6 +43,11 @@ export function TestBookingActions({
   };
 
   function handleAddToCart() {
+    // Once the item is in the cart, the button becomes a shortcut to /cart.
+    if (inCart) {
+      router.push("/cart");
+      return;
+    }
     addItem(cartItem);
     setJustAdded(true);
     if (addedTimer.current) clearTimeout(addedTimer.current);
@@ -66,7 +71,7 @@ export function TestBookingActions({
       <button
         type="button"
         onClick={handleBookNow}
-        className="w-full inline-flex items-center justify-center gap-2 rounded-pill bg-gradient-cta text-white font-bold px-7 py-3.5 text-body shadow-glow-orange ring-2 ring-orange-300/30 hover:brightness-110 hover:-translate-y-0.5 hover:ring-orange-400/50 active:scale-[0.98] transition-all duration-200 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-orange-300"
+        className="w-full inline-flex items-center justify-center gap-2 rounded-pill bg-gradient-cta text-white font-bold px-7 py-3.5 text-body ring-2 ring-orange-300/30 hover:brightness-110 hover:-translate-y-0.5 hover:ring-orange-400/50 active:scale-[0.98] transition-all duration-200 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-orange-300"
       >
         <Zap className="w-4 h-4 fill-white" />
         Book now · ₹{finalPrice.toLocaleString("en-IN")}
@@ -82,10 +87,15 @@ export function TestBookingActions({
             <Check className="w-4 h-4" />
             Added to cart
           </>
+        ) : inCart ? (
+          <>
+            <ShoppingCart className="w-4 h-4" />
+            Go to cart
+          </>
         ) : (
           <>
             <ShoppingCart className="w-4 h-4" />
-            {inCart ? "Added to cart" : "Add to cart"}
+            Add to cart
           </>
         )}
       </button>

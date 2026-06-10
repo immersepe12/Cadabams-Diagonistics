@@ -1,0 +1,122 @@
+{
+  "type": "center",
+  "route": "/bangalore/center/kalyan-nagar",
+  "slug": "kalyan-nagar",
+  "center": {
+    "id": "672e50ba03598b92c15198f3",
+    "templateName": "center",
+    "basic_info": {
+      "center_name": "Cadabam’s Diagnostics – Kalyan Nagar ",
+      "center_image": "/centers/image-1731088544493-764058139.webp",
+      "center_sub_title": "Reliable Testing, Expert Care ",
+      "location": "Kalyan Nagar",
+      "city": "bangalore",
+      "area": "kalyannagar"
+    },
+    "center_info": {
+      "address": "No 88-250-5AC-922, HRBR 1st Block, Kalyan Nagar, Bengaluru, Bengaluru Urban, Karnataka,\n560043",
+      "phone": "9035343344",
+      "whatsapp": "9035343344",
+      "email": "info@cadabamsdiagnostics.com",
+      "map_location": "https://maps.app.goo.gl/UGrmzjQx3n8d8sGz8"
+    },
+    "working_hours": {
+      "weekdays": {
+        "start": "06:30",
+        "end": "09:00",
+        "id": "672e50ba03598b92c15198f4"
+      },
+      "sunday": {
+        "start": "06:30",
+        "end": "09:00",
+        "id": "672e50ba03598b92c15198f5"
+      }
+    },
+    "services": [
+      {
+        "icon": "",
+        "title": "Laboratory Services:",
+        "description": "Our laboratory offers a wide range of diagnostic tests for the early detection and effective management of many diseases. ",
+        "tests": [],
+        "id": "672e50ba03598b92c15198f6"
+      },
+      {
+        "icon": "",
+        "title": "MRI Scan ",
+        "description": "Our MRI scans are more high-tech. They take pictures of the internal structures in detail, further aiding in an accurate diagnosis. ",
+        "tests": [],
+        "id": "685e635016444f3c11632d83"
+      },
+      {
+        "icon": "",
+        "title": "CT scan ",
+        "description": "Our CT scans provide precise cross-sectional images critical in diagnosing many conditions. ",
+        "tests": [],
+        "id": "685e635016444f3c11632d84"
+      },
+      {
+        "icon": "",
+        "title": "Musculoskeletal (MSK) Scans ",
+        "description": "High-resolution imaging focusing on bones, joints, and soft tissues to detect any injury or disorder. ",
+        "tests": [],
+        "id": "685e635016444f3c11632d85"
+      },
+      {
+        "icon": "",
+        "title": "Pregnancy Scans ",
+        "description": "We perform detailed pregnancy scans to track your baby's development and ensure your well-being. ",
+        "tests": [],
+        "id": "685e635016444f3c11632d86"
+      },
+      {
+        "icon": "",
+        "title": "X-Ray Services ",
+        "description": "We have a GE Healthcare high-frequency X-ray unit that gives sharp images with the least possible exposure to radiation so that you remain safe ",
+        "tests": [],
+        "id": "685e635016444f3c11632d87"
+      }
+    ],
+    "testimonials": [
+      {
+        "name": "Kishan Dhoj",
+        "content": "I had a very good experience at Cadabams Diagnostic Centre. The staff is professional, courteous, and makes you feel comfortable throughout the process. The facility is clean and well-maintained, and the diagnostic services are conducted efficiently with minimal waiting time. I really appreciated the detailed explanation provided after the tests, and the reports were delivered on time. Overall, I found their service reliable and trustworthy. Highly recommended for anyone looking for accurate and timely diagnostics in a caring environment",
+        "location": "Kalyan Nagar",
+        "rating": 5,
+        "date": "2025-06-26T00:00:00.000Z",
+        "id": "685e635016444f3c11632d88"
+      }
+    ],
+    "team": [
+      {
+        "name": "Dr S Pradeep",
+        "designation": "Consultant specialist in Radiology and Fetal Medicine",
+        "experience": "25+ Years",
+        "qualification": "MBBS, MD , DNB Radiodiagnosis",
+        "image": "/centers/image-1751015834972-681906815.webp",
+        "id": "683eac1216444f3c115d5b79"
+      },
+      {
+        "name": "Dr Shreyas Cadabam",
+        "designation": "Radiodiagnosis Consultant specialist in Radiology and Interventional Musculoskeletal imaging",
+        "experience": "15+ Years",
+        "qualification": "MBBS , MD ",
+        "image": "/centers/image-1751015840461-721228727.webp",
+        "id": "683eac1216444f3c115d5b7a"
+      },
+      {
+        "name": "Dr Divya Cadabam",
+        "designation": " Radiodiagnosis Consultant specialist in Radiology and Fetal Medicine",
+        "experience": "15+ Years",
+        "qualification": "MBBS , MD ",
+        "image": "/centers/image-1751015849177-461738400.webp",
+        "id": "683eac1216444f3c115d5b7b"
+      }
+    ],
+    "faqs": [],
+    "seo": {
+      "title": "",
+      "description": ""
+    },
+    "markdown": "Cadabam's Diagnostics – Your Premier Diagnostic Centre in Kalyan Nagar \n\nCadabam's Diagnostics in Kalyan Nagar, is a leading diagnostic centre for accurate and wide-ranging healthcare services.  \n\nEquipped with high-tech machines such as high-frequency X-ray units from GE Healthcare that emit crystal-clear images at reduced radiation dose levels, we offer more services, including laboratory tests, radiology, and imaging procedures to help in the early detection and management of diseases.  \n\nIdeally placed in Kalyan Nagar, our centre offers the convenience of accessing residents both in and out of the precinct. What's keeping us above the rest, though, is the commitment toward quality services by the precision hands of sub-specialised radiologists.  \n\nWe prepare for your comfort and convenience by making our services accessible and reliable. Choose Cadabam's Diagnostics in Kalyan Nagar for trusted insights that empower your health journey. "
+  }
+}

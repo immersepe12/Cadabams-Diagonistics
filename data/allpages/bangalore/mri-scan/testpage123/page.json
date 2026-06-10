@@ -1,0 +1,271 @@
+{
+  "type": "scan-detail",
+  "route": "/bangalore/mri-scan/testpage123",
+  "familyPath": "mri-scan",
+  "slug": "testpage123",
+  "test": {
+    "id": "68415f0616444f3c115dbfba",
+    "templateName": "non-labtest",
+    "testName": "FIBRONOGEN DEGRADATION PRODUCTS (FDP)",
+    "route": "/testpage123",
+    "basic_info": {
+      "name": "FIBRONOGEN DEGRADATION PRODUCTS (FDP)",
+      "route": "/testpage123",
+      "categoryId": "671b5102ad9bf8d210384d1a",
+      "imageSrc": "",
+      "testId": 9918146,
+      "alsoKnownAs": "21",
+      "discount": "",
+      "discountedPrice": 1950,
+      "reportsWithin": "",
+      "Identifies": "",
+      "measures": "",
+      "price": 1950,
+      "testCategory": "-"
+    },
+    "requisites": [],
+    "interpretations": {
+      "title": "",
+      "cols": [],
+      "rows": []
+    },
+    "faqs": [],
+    "relative_test": {
+      "title": "",
+      "categoryId": "",
+      "tests": []
+    },
+    "seo": {
+      "title": "",
+      "description": "",
+      "keywords": "",
+      "canonicalUrl": "",
+      "ogTitle": "",
+      "ogDescription": "",
+      "ogImage": "",
+      "schemaMarkup": "",
+      "robotsMeta": ""
+    }
+  },
+  "category": {
+    "id": "671b5102ad9bf8d210384d1a",
+    "name": "MRI",
+    "tests": [
+      "672c8b63e3e3df5779917a14",
+      "6735d7ca03598b92c151c932",
+      "673719ce996e7737b6f4de3a",
+      "673c712beffae454707e0135",
+      "673db6af534c72d341052c2f",
+      "673dc0a75ab244ca239d0228",
+      "673ddaf55ab244ca239d0547",
+      "673edbf25ab244ca239d0c46",
+      "679a2112bf2a88a244a6a08e",
+      "679c74fdbf2a88a244a6ed73",
+      "679c8c25bf2a88a244a6f131",
+      "679c912cbf2a88a244a6f1be",
+      "67a0725dbf2a88a244a765c0",
+      "67af22e3a45909fb1bd183e6",
+      "67bda0fb16444f3c114db46a",
+      "67bda4ae16444f3c114db4be",
+      "67d3e65416444f3c11500b89",
+      "67d3ea0c16444f3c11500ca5",
+      "67d3ecc716444f3c11500d30",
+      "67d7d30d16444f3c11507fe9",
+      "67d7d3ad16444f3c1150802a",
+      "67e12dbb16444f3c115186b2",
+      "67e12e1d16444f3c11518719",
+      "67e12e9316444f3c11518732",
+      "67e1403d16444f3c11518c04",
+      "67e249fb16444f3c1151adaa",
+      "67e280ab16444f3c1151bb60",
+      "67e2842c16444f3c1151bd97",
+      "67e2869c16444f3c1151be44",
+      "67e2892c16444f3c1151bf5f",
+      "67e3b81b16444f3c1151e7fe",
+      "67e3ba2b16444f3c1151e879",
+      "67e3bce516444f3c1151e93d",
+      "67e3beb716444f3c1151e966",
+      "67e3c23916444f3c1151eab8",
+      "67e3c5c616444f3c1151ed81",
+      "67e3c91316444f3c1151ede8",
+      "67e3cb6016444f3c1151eeab",
+      "67e3cdc316444f3c1151ef37",
+      "67e6684816444f3c11523765",
+      "67e66a3516444f3c11523786",
+      "67e66e4b16444f3c115238a5",
+      "67e6711616444f3c11523a07",
+      "67e6738516444f3c11523af8",
+      "67e674e816444f3c11523b1b",
+      "67e679fc16444f3c11523c7f",
+      "67e67c2e16444f3c11523ca0",
+      "67e67f0d16444f3c11523dab",
+      "67edf5c516444f3c11531198",
+      "67edf89216444f3c115311e7",
+      "67edfb0416444f3c11531235",
+      "67edfd5f16444f3c11531284",
+      "67f3b80b16444f3c1153a6e9",
+      "67f3ba6d16444f3c1153a748",
+      "67f3bdf716444f3c1153a802",
+      "67f3c35416444f3c1153a914",
+      "67f3dbca16444f3c1153ac65",
+      "67f3e65e16444f3c1153ad7a",
+      "67f3ec8316444f3c1153ae66",
+      "6805d9c516444f3c11559dea",
+      "6805dcd616444f3c11559ede",
+      "6805decd16444f3c11559f21",
+      "6805e21b16444f3c11559f81",
+      "6805e3ed16444f3c1155a02b",
+      "6805ee3d16444f3c1155a227",
+      "6805f0aa16444f3c1155a266",
+      "6805f28016444f3c1155a361",
+      "6805f51e16444f3c1155a499",
+      "6805f85a16444f3c1155a56b",
+      "6805fbad16444f3c1155a5f0",
+      "6805fe5216444f3c1155a6c0",
+      "6806002216444f3c1155a734",
+      "6806073816444f3c1155a831",
+      "68060a1516444f3c1155a85f",
+      "68060f0316444f3c1155a8e3",
+      "6806108f16444f3c1155a92e",
+      "680612fe16444f3c1155aa7b",
+      "680614e216444f3c1155aaf1",
+      "680616d016444f3c1155ab65",
+      "680618aa16444f3c1155ab95",
+      "68061a7516444f3c1155acc2",
+      "68061c9616444f3c1155ad7c",
+      "680b2f0a16444f3c115675e7",
+      "680b31ae16444f3c115676d3",
+      "680b34d016444f3c115676f9",
+      "680b43ef16444f3c115679aa",
+      "680b4aec16444f3c11567afd",
+      "680b4d7116444f3c11567b66",
+      "680b4f9b16444f3c11567bb7",
+      "680b528116444f3c11567c9e",
+      "680b5fa416444f3c11567fc2",
+      "680b897016444f3c11568f33",
+      "6830334b16444f3c115b6db1",
+      "6830617716444f3c115b7533",
+      "68319d5116444f3c115b9aea",
+      "68413f7b16444f3c115db6da",
+      "68415f0616444f3c115dbfba",
+      "6841732216444f3c115dc4ea",
+      "6842d41116444f3c115df81a"
+    ],
+    "image": "/scans/image-1730261866521-605550006.webp",
+    "path": "mri-scan",
+    "createdAt": "2024-10-17T19:20:09.828Z",
+    "updatedAt": "2024-10-17T19:20:09.828Z",
+    "allData": {
+      "categoryId": "671b5102ad9bf8d210384d1a",
+      "requisites": [
+        {
+          "value": "Before an MRI scan, several preparations must be made before the scan. For instance, let’s say an anatomical region like the abdomen is scanned while using contrast dye. In this situation, it would be appropriate for a patient to refrain from eating for some hours.   Aside from the afore-mentioned tips, bests, watches, jewelry and other forms of metal accessories must be taken off unless the patient wishes to remain naked while inside during the scan. Furthermore, tell the doctor about metallic implants, if you have one, or pacemakers or any condition that can impact the MRI Scan. "
+        }
+      ],
+      "interpretations": {
+        "title": "Results and Interpretations ",
+        "cols": [
+          "Scan Parameter ",
+          "Normal Range ",
+          "Abnormal Range ",
+          "Interpretation "
+        ],
+        "rows": [
+          [
+            "Organ Structure ",
+            "Normal appearance of organ ",
+            "Presence of lesions or tumours ",
+            "Abnormal structures can indicate issues like tumors, cysts, or infections. "
+          ],
+          [
+            "Blood Flow ",
+            "Normal blood flow ",
+            "Restricted or abnormal flow ",
+            "Abnormal flow patterns can point to blood clots or vascular conditions. "
+          ],
+          [
+            "Brain Function (fMRI) ",
+            "Typical brain activation ",
+            "Reduced or excessive activity ",
+            "Abnormal brain function may indicate neurological conditions like stroke or tumours Joint and Muscle Health. "
+          ],
+          [
+            "Joint and Muscle Health ",
+            "No tears or inflammation ",
+            "Tears, inflammation, or degeneration ",
+            "Abnormalities could suggest injuries like ligament tears or chronic joint issues. "
+          ]
+        ]
+      },
+      "faqs": [
+        {
+          "question": "Where can I find a reliable MRI scan in Bangalore?",
+          "answer": "Cadabam's Diagnostics offers reliable MRI scans in Bangalore with advanced technology and expert radiologists. We focus on accuracy and patient comfort. Visit our centre for your diagnostic needs."
+        },
+        {
+          "question": "Is there an MRI scan near me provided by Cadabam's Diagnostics?",
+          "answer": "Yes, Cadabam's Diagnostics has conveniently located centres in Bangalore. Check our locations page or contact us to find the nearest centre offering an MRI scan near me."
+        },
+        {
+          "question": "What is involved in an MRI test near me in Bangalore?",
+          "answer": "An MRI test near me at Cadabam's involves lying on a table that slides into the MRI machine. It's a painless procedure using magnetic fields, not radiation. Our team ensures your comfort throughout the MRI in Bangalore."
+        },
+        {
+          "question": "How should I prepare for my MRI scan in Bangalore?",
+          "answer": "Preparation for an MRI scan in Bangalore is usually minimal. You may be asked to remove metal objects and change into a gown. Specific instructions will be provided when you book your appointment for an MRI in Bangalore."
+        },
+        {
+          "question": "What is the approximate cost for an MRI scan Bangalore service?",
+          "answer": "The cost of an MRI scan Bangalore service varies based on the body part and specific requirements. Please contact Cadabam's Diagnostics directly for detailed pricing information for your specific MRI test near me"
+        }
+      ],
+      "relative_test": {
+        "title": "",
+        "categoryId": "671b5102ad9bf8d210384d1a",
+        "tests": [
+          {
+            "id": "6735d7ca03598b92c151c932",
+            "testName": "MRI BRAIN WITH CONTRAST",
+            "route": "/brain-mri"
+          },
+          {
+            "id": "673719ce996e7737b6f4de3a",
+            "testName": "Perianal Imaging",
+            "route": "/perianal-imaging-center"
+          },
+          {
+            "id": "673c712beffae454707e0135",
+            "testName": "Abdominal MRI ",
+            "route": "/abdominal-mri"
+          },
+          {
+            "id": "673db6af534c72d341052c2f",
+            "testName": "MRI LUMBAR / LUMBOSACRAL SPINE WITHOUT CONTRAST",
+            "route": "/lumbar-lumbosacral-spine-without-contrast-mri"
+          },
+          {
+            "id": "673dc0a75ab244ca239d0228",
+            "testName": "MRI ANGIOGRAPHY WITH CONTRAST",
+            "route": "/renal-angiography-mri"
+          },
+          {
+            "id": "673ddaf55ab244ca239d0547",
+            "testName": "MRI BRAIN WITH MR VENOGRAM",
+            "route": "/brain-with-spectroscopy-mri"
+          },
+          {
+            "id": "673edbf25ab244ca239d0c46",
+            "testName": "MRI LUMBAR / LUMBOSACRAL SPINE WITH CONTRAST",
+            "route": "/musculoskeletal-mri"
+          }
+        ]
+      },
+      "seo": {
+        "title": "",
+        "description": "Get accurate MRI scans in Bangalore with trusted diagnostic centers offering fast reporting, advanced imaging, and reliable results for your health needs."
+      }
+    },
+    "markdown": "A non-invasive medical imaging technique that uses radio waves and a strong magnet to create detailed pictures of the inside of the body\n\n## MRI Overview\n\n![MRI Overview](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731734990754-883013600.png)\n\n### **What is an MRI Scan?**\n\nMagnetic Resonance Imaging (MRI) is a medical imaging technique which requires no incision. It depends on strong magnets and radio frequency waves to provide a high-quality picture of the structures inside the body.\n\nIt is a machine with a tunnel and the patient is pushed through this and the machine takes images behind images cutting through the tissue depths of an organ. This enables precise identification of abnormal tissues and organs.\n\nMRI makes it a lot safer for repeated use as compared to X-ray or CT X-ray as the former does not involve ionising radiation which in turn solves a lot of issues. It is particularly good for imaging soft tissues, the brain, chords the spinal muscles and joints.\n\n###\n\n## Types of MRI\n\nMRI devices allow for various types and grades to be utilized depending on the location of the cancer and other associated conditions.\n\nAmong them, the following are some of the more common types of MRI scans: -\n\n**Brain MRI:** The availability of this MRI enables physicians to provide a diagnosis of the neurological complications, tumors, infectious processes, or structural abnormalities encountered in the brain.\n\n**Musculoskeletal MRI:** This scan is done to examine ligaments, muscles, and tendons –especially for their tearing or for detecting other injuries and joint problems.\n\n**Abdominal MRI:** Abdominal MRI gives detailed pictures of organs in the abdominal cavity such as the liver, pancreas, and kidneys and helps medical professionals diagnose various diseases such as tumors, cysts, liver disease and inflammation.\n\n**Cardiac MRI:** Thanks to this scan, the structure and functioning of the heart can be evaluated and ailments, for instance, cardiomyopathy or congenital defects can be diagnosed.\n\n**Spinal MRI:** Spinal MRI enables physicians and other health care providers to check for spinal cord injury, disc damage, and nerve compression.\n\n## Risks & Limitations of the MRI Test\n\n![Risks & Limitations of the MRI Test](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731735008823-294194501.png)\n\nMRI is considered as one of the safest methods of imaging as it does not involve the use of ionised radiation, however, it has its risks too, here are some of them: -\n\n- One of the main disadvantages of MRI scans is that it is not appropriate for people with some types of implants or metal in their body, such as pacemakers.\n- MRI might have some difficulties in obtaining images in the parts of the body that are prone to movements like the intestines.\n- Patients that are claustrophobic may not feel at ease as the MGMRI is quite enclosed.\n\n## List of Parameters Considered During the MRI Scan\n\n![List of Parameters Considered During the MRI Scan](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731735017076-120008364.png)\n\nIt is required to understand that the parameters vary based on the type of MRI scan and the objectives of performing the scan. Nevertheless, there are several common parameters and indicators which radiologists watch during an MRI scan: -\n\n### \n\n### **Tissue Characteristics**\n\nT1 Weighting: it is valuable in assessment of 3D anatomy of very specific tissues, and, for example, this weight increases the relative signal of fatty tissues content of those tissues.\n\n**T2 Weighting:** These are useful in addressing healthcare professional’s concerns relative to the presence of oedema, inflammation and other types of tumours.\n\nIt concerns identifying the amount of water within biological tissues.\n\n**Proton Density (PD) Weighting:** PD assesses the number of hydrogen protons within a tissue which assists in characterizing and detecting various tissue items.\n\n### **Tissue Integrity**\n\n**Morphology:** This concerns normal and abnormal organ and tissue shape, size, and positioning.\n\n**Signal Intensity:** Cases of tumours, bleeding, inflammation and so on can be seen due to the shine of the tissues on the image\n\n**Texture:** The condition of the tissues which may be smooth, rough or heterogeneous etc would be visualized.\n\n## Reasons for Taking the MRI\n\n![Reasons for Taking the MRI](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731735026260-379474018.png)\n\nYour doctor might suggest an MRI for several reasons, some of them being: -\n\n**Tumour Detection:** MRI scans allow doctors to see details of certain abnormalities such as tumors enabling them to detect it with ease.\n\n**Assessing joints and the Musculoskeletal system injuries:** Considering musculoskeletal problems, the most effective way of examining them is by using MRI which provides clearer images of joint and muscle injuries.\n\n**Liver and Kidney Cancers:** An MRI evaluation assist doctors to determine the kind of ailment that is present on the liver and kidney as in cirrhosis or fatty liver disease, etc or kidney cysts or tumors.\n\nCardiac An MRI heart provides adequate images of heart structure and its functions which medicate the diagnosis of cardiomyopathy congenital heart disease, heart valve diseases and even heart conditions in general.\n\n## Benefits of Taking the MRI\n\n![Benefits of Taking the MRI](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731735031195-674324222.png)\n\nMRI scans come with multiple advantages, and because of its versatility, it is considered one of the best imaging tools that can diagnose a wide variety of conditions. Here are a few of the advantages of MRI scans.\n\n- MRI is painless and non-invasive, there is no requirement for incision therefore it is possible to do a thorough examination without any invasive procedures.\n- Exposure to ionizing radiation is not possible during MRI since it uses magnetic fields instead making it a safer option for patients who require multiple scans\n- MRI also utilizes very high-resolution scans, it provides sharp and clear images of soft tissues, which greatly assists in intricate diagnosis securing imaging procedures.\n\n## Illnesses Diagnosed with MRI\n\n![Illnesses Diagnosed with MRI](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731735038304-717016321.png)\n\nMRI is a multi-dimensional imaging technique that assists healthcare professionals in diagnosing a range of conditions, including but not limited to:\n\n- Conditions such as brain cancer, stroke, and multiple sclerosis\n- Spinal cord damage, herniated discs, and nerve injuries\n- Liver and heart diseases and tumorous growths on the kidney\n- Ligament and bone related injuries including fractures and sprains\n- Vascular conditions such as blocked arteries or aneurysms\n\n## Preparing for MRI Scan\n\n![Preparing for MRI Scan](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731735043395-448909136.png)\n\nMRI scan procedures differ depending on the condition of the patient which in turn dictates how different kinds of MRI scans are done.\n\nNonetheless, here are some general rules that will potentially enable you to be better prepared for the scan.\n\n### **Requirements**\n\nIn the case of MRI such as the abdomen MRI, your physician would like to know if you have kidney problems, allergies as well as would like you to fast and if you have any metallic devices or implants, it is advisable to inform the doctor. Additionally, patients must take off necklaces, bracelets, watches, and any metal accessories like clips in hair prior to the MRI.\n\n### **Ideal Time for MRI Scan**\n\nThe ideal time for an MRI scan differs from one patient to the other and it also depends upon practical conditions as well as the type of scan one goes for. For instance, some are recommended to stay away from food or drinks around the time of the abdominal scan. For them, the early hours of the day are optimal.\n\n### **Qualifications**\n\nMost people are suited to undergo MRI however there are people who suffer from certain types of metallic implants or are claustrophobic and might not be able to use MRI. Closed MRIs may be used for patients who cannot tolerate being in tight places.\n\n### **Getting Ready for An MRI**\n\nYou will have to change into a hospital gown and lie on a table that goes into the MRI machine while your scan is being performed. You will have to protect your ears due to how loud the machine is.\n\nThe breath-hold command is often given by the technologist in order to avoid blurriness of the images.\n\n### **Precaution malpractice Observation Before the Scan**\n\nInform your doctor of such metal implants, as they can affect the scan and some MRIs use contrast dye, because it is necessary to let your physician know of any allergies or diseases."
+  },
+  "relatedTests": []
+}

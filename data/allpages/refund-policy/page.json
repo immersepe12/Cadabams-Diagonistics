@@ -1,0 +1,50 @@
+{
+  "type": "policy",
+  "route": "/refund-policy",
+  "kind": "refund",
+  "title": "Refund & Cancellation Policy",
+  "summary": "Plans change. Here's exactly how cancellations, rescheduling, and refunds work for bookings made with Cadabam's Diagnostics.",
+  "lastUpdated": "2026-05-29",
+  "sections": [
+    {
+      "id": "cancellations",
+      "title": "Cancellations",
+      "body": "You can cancel any test, scan, or checkup booking and receive a refund based on when you cancel:\n\n- **More than 2 hours before** the scheduled appointment — full refund to the original payment method.\n- **Within 2 hours of** the scheduled appointment — no refund (the slot can no longer be reassigned).\n- **No-shows** — no refund. The booking is treated as a completed visit.\n\nTo cancel, log in to your account, call [+91 99006 64696](tel:+919900664696), or reply to your booking confirmation."
+    },
+    {
+      "id": "rescheduling",
+      "title": "Rescheduling",
+      "body": "Rescheduling is **free up to 1 hour before** the appointment. After that we may need to issue a small operational fee depending on the test type — our team will tell you the exact amount when you call. Rescheduled bookings keep the original price you paid."
+    },
+    {
+      "id": "refund-timelines",
+      "title": "Refund timelines",
+      "body": "Refunds are processed back to the original payment method:\n\n- **UPI** — typically within 24 hours.\n- **Cards** — 3–5 business days.\n- **Net banking and wallets** — 5–7 business days.\n\nIf the original payment method is no longer available (for example, a closed card), we will reach out to arrange a bank transfer."
+    },
+    {
+      "id": "service-failure",
+      "title": "If we cannot deliver the service",
+      "body": "If a booking cannot be fulfilled for any reason attributable to us — phlebotomist no-show, sample spoilage, equipment downtime at the centre — we will offer a no-cost reschedule or a full refund, whichever you prefer. We'll also let you know the moment the issue is identified so you aren't kept waiting."
+    },
+    {
+      "id": "result-disputes",
+      "title": "Test-result disputes and retests",
+      "body": "If you believe a result is incorrect, contact us within **7 days of receiving the report**. We will re-process the sample, or collect a fresh sample if needed, at **no additional cost**. Refunds are not issued for tests whose results are clinically valid — even if the result is unfavourable — because the test itself was performed correctly."
+    },
+    {
+      "id": "package-refunds",
+      "title": "Packages and multi-test refunds",
+      "body": "For health-checkup packages and bundled tests, refunds are calculated on the package value, not the individual test list price. Tests that have already been performed within a partially completed package are deducted at their standalone price before refunding the balance."
+    },
+    {
+      "id": "non-refundable",
+      "title": "What is non-refundable",
+      "body": "- Home-collection convenience fees once the phlebotomist has arrived at your address.\n- Reports already generated and shared with you or your physician.\n- Cancellations and no-shows within the cut-offs above."
+    },
+    {
+      "id": "contact",
+      "title": "Need to talk to us?",
+      "body": "Call [+91 99006 64696](tel:+919900664696) or email [info@cadabamsdiagnostics.com](mailto:info@cadabamsdiagnostics.com) with your booking ID. Most refund requests are resolved within one working day."
+    }
+  ]
+}

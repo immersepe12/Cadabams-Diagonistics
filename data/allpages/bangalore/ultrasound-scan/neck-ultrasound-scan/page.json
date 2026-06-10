@@ -1,0 +1,322 @@
+{
+  "type": "scan-detail",
+  "route": "/bangalore/ultrasound-scan/neck-ultrasound-scan",
+  "familyPath": "ultrasound-scan",
+  "slug": "neck-ultrasound-scan",
+  "test": {
+    "id": "679c74afbf2a88a244a6ed60",
+    "templateName": "non-labtest",
+    "testName": "Neck Ultrasound Scan",
+    "route": "/neck-ultrasound-scan",
+    "basic_info": {
+      "name": "Neck Ultrasound Scan",
+      "route": "/neck-ultrasound-scan",
+      "categoryId": "671b5102ad9bf8d210384d1c",
+      "testId": 9726174,
+      "alsoKnownAs": "",
+      "discount": "",
+      "discountedPrice": 900,
+      "reportsWithin": "6hrs",
+      "Identifies": "",
+      "measures": "",
+      "price": 900,
+      "testCategory": "Ultrasonography"
+    },
+    "requisites": [],
+    "interpretations": {
+      "title": "Results and Interpretations ",
+      "cols": [
+        "Finding / Observation",
+        "Description ",
+        "General Interpretation / Significance"
+      ],
+      "rows": [
+        [
+          "Normal Structures",
+          "Glands and tissues appear uniform in size and texture with no defined abnormalities.",
+          "No sonographic abnormalities were detected in the areas scanned. This is a reassuring result."
+        ],
+        [
+          "Simple Cyst",
+          "A well-defined, round or oval sac that is completely filled with fluid and has thin walls.",
+          "Almost always benign (non-cancerous). May be monitored over time or drained if it becomes large and causes symptoms."
+        ],
+        [
+          "Solid Nodule/Mass",
+          "A lump made of tissue rather than just fluid. Its characteristics (borders, echotexture) are noted.",
+          "Requires further characterization. Many solid nodules are benign, but some may have features that warrant an ultrasound guided neck biopsy to rule out other causes."
+        ],
+        [
+          "Enlarged Lymph Node",
+          "A lymph node that is larger than the normal size range or has an abnormal shape/internal appearance.",
+          "Can indicate a response to a nearby infection (reactive), systemic inflammation, or potentially a more serious condition requiring further investigation."
+        ],
+        [
+          "Calcifications",
+          "Small, bright spots seen on the ultrasound, representing deposits of calcium within a structure (e.g., a thyroid nodule).",
+          "Can be a feature of both benign and malignant conditions. The pattern and size of calcifications are important contextual clues for the radiologist."
+        ]
+      ]
+    },
+    "faqs": [
+      {
+        "question": " Is a neck sonogram painful?",
+        "answer": "No, the procedure is not painful. The gel may feel cool, and you might feel some mild, gentle pressure from the transducer as the sonographer moves it across your neck, but it should not cause pain."
+      },
+      {
+        "question": " How long does the neck ultrasound procedure take?",
+        "answer": "The entire appointment is very efficient. The scanning portion typically lasts between 15 and 30 minutes, depending on the complexity of the findings."
+      },
+      {
+        "question": " What can an ultrasound of the neck detect?",
+        "answer": "It is excellent for detecting abnormalities in the body's **soft tissue**. This includes evaluating the thyroid gland for nodules, checking lymph nodes for swelling, examining the salivary glands, and characterizing any unusual lumps, masses, or cysts."
+      },
+      {
+        "question": "When will I get my results?",
+        "answer": "A specialized radiologist at Cadabam's Diagnostics will interpret the images after your scan. The official, detailed report is typically sent to your referring physician within 24 to 48 hours."
+      },
+      {
+        "question": " What happens if the ultrasound finds a suspicious lump?",
+        "answer": "If the ultrasound reveals a nodule or mass with suspicious features, your doctor's recommendation is often a follow-up test. The most common next step is an **ultrasound guided neck biopsy** (also called an FNA), where a very thin needle is used to take a small tissue sample for microscopic analysis."
+      },
+      {
+        "question": "What is the approximate cost of a soft tissue ultrasound of the neck?",
+        "answer": "The cost can vary based on several factors. For the most accurate and up-to-date pricing information for an **Ultrasound of Neck** at Cadabam's Diagnostics, please contact our billing department directly."
+      }
+    ],
+    "relative_test": {
+      "title": "",
+      "categoryId": "",
+      "tests": []
+    },
+    "seo": {
+      "title": " Ultrasound of Neck Scan | Cadabams Diagnostics",
+      "description": "Learn what a neck ultrasound detects, from lumps to thyroid issues, and how Cadabams Diagnostics provides safe imaging for accurate diagnosis.",
+      "keywords": "",
+      "canonicalUrl": "",
+      "ogTitle": "",
+      "ogDescription": "",
+      "ogImage": "",
+      "schemaMarkup": "",
+      "robotsMeta": ""
+    },
+    "markdown": "## Ultrasound of Neck Overview\n\nAn \\*\\*Ultrasound of Neck\\*\\* is a fundamental diagnostic tool used to get a clear, detailed look at the internal structures of your neck. If your doctor has recommended this scan, it’s a proactive step towards understanding your health. At Cadabam's Diagnostics, we prioritize patient clarity and comfort, ensuring you know exactly what to expect from this safe and non-invasive imaging test.\nThe primary purpose of a neck ultrasound is to create real-time images of the soft tissues using high-frequency sound waves. Unlike X-rays or CT scans, this procedure involves no radiation, making it one of the safest imaging techniques available. It allows our specialists to visualize glands, blood vessels, and any unusual formations with remarkable precision.\n### Types of Ultrasound of Neck\nAt Cadabam's Diagnostics, we utilize different ultrasound techniques to get the most comprehensive information.\n\\* \\*\\*Standard 2D Ultrasound:\\*\\* This is the most common type of scan. It creates flat, two-dimensional, cross-sectional images of the neck's structures. This mode is perfect for assessing the size, shape, and texture of the thyroid, lymph nodes, and salivary glands, as well as identifying and measuring any cysts or solid masses.\n\\* \\*\\*Doppler Ultrasound:\\*\\* Doppler is a special ultrasound technique that is used specifically to evaluate movement, particularly the flow of blood. When applied to the neck, a Doppler ultrasound can measure the speed and direction of blood flowing through the major arteries and veins, such as the carotid and vertebral arteries. It is crucial for detecting blockages, narrowing (stenosis), or other vascular abnormalities.\n\n## Risks & Limitations of the Ultrasound of the Neck\n\nOne of the most significant advantages of this test is its outstanding safety profile.\n\\* \\*\\*Risks:\\*\\* An \\*\\*Ultrasound of Neck\\*\\* is considered virtually risk-free. It does not use any ionizing radiation, which is found in X-rays and CT scans. This makes it an extremely safe procedure for all patients, including pregnant women, children, and individuals who require frequent monitoring. There are no known harmful side effects.\n\\* \\*\\*Limitations:\\*\\* While excellent for soft tissues, ultrasound has some limitations. The sound waves do not travel well through bone or air. Therefore, structures hidden behind the jawbone or deep within the chest may not be visible. Similarly, the air-filled trachea (windpipe) can obstruct the view of anything located directly behind it. The accuracy and quality of the images are also highly dependent on the skill and experience of the sonographer performing the scan.\n\n## Parameters Considered During the Ultrasound of the Neck\n\nA key question many patients have is, \"What exactly does a neck ultrasound show?\" This powerful scan provides a detailed look at several critical soft tissue structures. Our radiologists meticulously evaluate the following parameters:\n\\* \\*\\*Thyroid Gland:\\*\\* We assess its overall size, shape, and echotexture (the appearance of the tissue). We look closely for the presence of any nodules (lumps) or cysts, measuring them and noting their characteristics (e.g., solid, cystic, mixed).\n\\* \\*\\*Lymph Nodes:\\*\\* The neck contains hundreds of lymph nodes. We examine their size, shape, and internal architecture. Enlarged or abnormally shaped lymph nodes can be a sign of infection, inflammation, or more serious conditions.\n\\* \\*\\*Salivary Glands:\\*\\* The major salivary glands, including the parotid glands (on the sides of the face) and the submandibular glands (under the jaw), are clearly visible. We look for signs of inflammation (sialadenitis), cysts, stones, or tumors.\n\\* \\*\\*Masses and Lumps:\\*\\* For any palpable lump, the ultrasound is crucial for characterizing it. It can clearly distinguish between a fluid-filled sac (a simple cyst) and a solid tissue mass. This is a critical first step in diagnosis.\n\\* \\*\\*Blood Vessels:\\*\\* When a Doppler study is included, we assess the major blood vessels. This involves checking for plaque buildup (atherosclerosis) in the carotid arteries, which can be a risk factor for stroke, and ensuring blood is flowing freely.\n\\* \\*\\*Surrounding Soft Tissues:\\*\\* The muscles and other connective tissues of the neck are also visualized to check for abscesses, hematomas (collections of blood), or other abnormalities.\n\n## Reasons for Taking an Ultrasound of the Neck\n\nThe clinical reasons for performing this scan are focused and diagnostic. Your doctor is ordering it to:\n1. \\*\\*Investigate a Neck Lump or Mass:\\*\\* This is the most common reason. The scan helps determine the origin, size, and composition of the lump, guiding further management.\n2. \\*\\*Evaluate the Thyroid Gland:\\*\\* To diagnose conditions like goiter (enlarged thyroid), thyroiditis (inflammation), or to characterize thyroid nodules found during a physical exam.\n3. \\*\\*Diagnose Salivary Gland Conditions:\\*\\* To find the cause of swelling or pain, such as stones blocking a saliva duct or tumors within the gland.\n4. \\*\\*Assess Lymph Nodes:\\*\\* To determine why lymph nodes are swollen, helping to differentiate between a reactive node (due to infection) and something that requires more investigation.\n5. \\*\\*Guide Interventional Procedures:\\*\\* The real-time nature of ultrasound makes it an excellent tool for guiding needles precisely. It is frequently used for an \\*\\*ultrasound guided neck biopsy\\*\\*, also known as Fine Needle Aspiration (FNA), to obtain cells from a suspicious nodule or lymph node for analysis.\n### When and Who Needs to Take an Ultrasound of Neck?\nA doctor may recommend an \\*\\*Ultrasound of Neck\\*\\* for various reasons, typically in response to specific symptoms or findings from other tests. You may be referred for this scan if you are:\n\\* \\*\\*Experiencing a Palpable Neck Lump:\\*\\* If you or your doctor can feel a new or changing \\*\\*neck lump\\*\\*, swelling, or mass, an ultrasound is often the first imaging test performed to determine its nature (solid vs. fluid-filled).\n\\* \\*\\*Showing Abnormal Thyroid Function:\\*\\* If blood tests indicate your thyroid gland is overactive (hyperthyroidism) or underactive (hypothyroidism), an ultrasound provides a visual assessment of the gland's size, shape, and texture for conditions like goiter or thyroiditis.\n\\* \\*\\*Investigating Enlarged Glands:\\*\\* For individuals with persistently swollen lymph nodes (lymphadenopathy) or enlarged salivary glands (like the parotid or submandibular glands), an ultrasound helps identify potential causes, such as infection, inflammation, or other abnormalities.\n\\* \\*\\*Feeling Persistent Pain or Discomfort:\\*\\* Unexplained or persistent pain in a specific area of the neck can be investigated with an ultrasound to look for underlying soft tissue causes.\n\n## Benefits of Taking the Test\n\nChoosing an \\*\\*Ultrasound of Neck\\*\\* comes with several distinct advantages for patients and physicians:\n\\* \\*\\*Completely Non-Invasive:\\*\\* No needles, injections, or incisions are involved in the standard imaging procedure.\n\\* \\*\\*Painless and Comfortable:\\*\\* The scan is generally painless, with only mild pressure felt from the transducer on the skin.\n\\* \\*\\*Excellent Soft Tissue Detail:\\*\\* It provides superior visualization of soft tissue structures compared to standard X-rays.\n\\* \\*\\*Real-Time Imaging:\\*\\* The live images allow for a dynamic evaluation of structures and blood flow, and permit precise guidance for procedures like biopsies.\n\\* \\*\\*Extremely Safe:\\*\\* With no ionizing radiation, it can be used on anyone and can be repeated as needed for monitoring without risk.\n\\* \\*\\*Cost-Effective and Widely Available:\\*\\* Ultrasound is a more affordable and accessible imaging modality than MRI or CT scanning.\n\n## Illnesses Diagnosed with Ultrasound of the Neck\n\nThe findings from a neck ultrasound can help diagnose, or contribute to the diagnosis of, a wide range of conditions:\n\\* \\*\\*Goiter and Thyroid Nodules:\\*\\* Both diffuse enlargement of the thyroid and discrete lumps within it are easily identified.\n\\* \\*\\*Lymphadenopathy:\\*\\* The scan confirms swollen lymph nodes and provides details about their characteristics to help determine the cause.\n\\* \\*\\*Cysts and Abscesses:\\*\\* Fluid-filled collections, whether benign cysts or infectious abscesses, are clearly defined.\n\\* \\*\\*Sialadenitis and Salivary Gland Tumors:\\*\\* Inflammation or growths in the salivary glands are accurately assessed.\n\\* \\*\\*Characterization of Masses:\\*\\* While an ultrasound cannot definitively diagnose cancer, it can identify suspicious features in a mass or nodule that indicate the need for a biopsy to make a final diagnosis.\n\n## Preparing for the Ultrasound of the Neck\n\nPreparation for this test is minimal and straightforward:\n\\* There are generally no dietary restrictions; you do not need to fast.\n\\* Wear comfortable, loose-fitting clothing. A shirt with an open neckline or one that is easy to pull down is ideal.\n\\* You will likely be asked to remove any jewelry from your neck, such as chains or necklaces, as they can interfere with the scan.\n### Pre-requisites\nA referral or prescription from your doctor is usually required to undergo an \\*\\*Ultrasound of Neck\\*\\*. It's important that a physician has assessed your symptoms to determine that this is the appropriate next step. No special medication adjustments are typically needed.\n### Best Time to Take the Ultrasound of Neck\nThere is no \"best\" time for this scan. It does not require any special physiological state (like fasting), so it can be performed at any time of day that is convenient for you and fits into our scheduling at Cadabam's Diagnostics.\n### Eligibility\nThe \\*\\*Ultrasound of Neck\\*\\* is safe and appropriate for everyone. People of all ages, from infants to elderly adults, can undergo this test without concern. There are no major contraindications, making it one of the most versatile diagnostic tools available.\n### Procedure for Taking an Ultrasound of Neck\nUnderstanding the \\*\\*neck sonogram procedure\\*\\* can help ease any anxiety you may have. Here is a step-by-step overview of what happens during your appointment at Cadabam's Diagnostics:\n1. \\*\\*Positioning:\\*\\* You will be asked to lie comfortably on your back on an examination table. A pillow may be placed under your shoulders to slightly extend your neck, providing the sonographer with better access to all areas.\n2. \\*\\*Gel Application:\\*\\* A clear, water-based gel will be applied to the skin of your neck. This gel is harmless and feels cool. Its purpose is to eliminate any air pockets between the transducer and your skin, ensuring the best possible transmission of sound waves for clear images.\n3. \\*\\*The Scan:\\*\\* The sonographer, a technologist specially trained in ultrasound imaging, will press the transducer firmly against your skin. They will move it back and forth over the different parts of your neck to examine all the relevant structures from various angles. You may be asked to turn your head to one side or the other to get better views.\n4. \\*\\*Completion:\\*\\* The entire \\*\\*neck sonogram procedure\\*\\* is typically completed within 15 to 30 minutes. Once all the necessary images have been captured, the gel is wiped off your neck, and you are free to go about your day with no recovery time needed.\n### Caution Before Taking the Test\nBefore the scan begins, it is helpful to inform the sonographer about a few things:\n\\* Tell them the precise location of any lump you can feel.\n\\* Mention any areas that are particularly tender or painful.\n\\* Inform them of any recent surgeries or injuries to your neck or head.\nThis information helps the sonographer focus on the specific area of concern and ensure your comfort throughout the exam."
+  },
+  "category": {
+    "id": "671b5102ad9bf8d210384d1c",
+    "name": "Ultrasound",
+    "tests": [
+      "6735c72a03598b92c151c6fd",
+      "6735cb2f03598b92c151c782",
+      "6735e71803598b92c151c9f2",
+      "6736ed7d03598b92c151ce21",
+      "6736f1c103598b92c151ce6f",
+      "6736f48703598b92c151cf12",
+      "6736fdc303598b92c151d13e",
+      "673712ef996e7737b6f4dd40",
+      "673724eb996e7737b6f4dfbc",
+      "673729fa996e7737b6f4e0f3",
+      "67373672996e7737b6f4e274",
+      "673c56c5effae454707dfe68",
+      "673c8097effae454707e01a3",
+      "673dbe26534c72d341052d51",
+      "6799e782bf2a88a244a69719",
+      "679b3aecbf2a88a244a6b50a",
+      "679b3cd2bf2a88a244a6b525",
+      "679b4c54bf2a88a244a6b708",
+      "679c74afbf2a88a244a6ed60",
+      "679c86b9bf2a88a244a6f03a",
+      "67a0bafcbf2a88a244a77549",
+      "67a1b8d727567f98e56d25af",
+      "67a1bbb227567f98e56d2679",
+      "67a1ca5f27567f98e56d2be6",
+      "67a1d39b27567f98e56d2cac",
+      "67a1d50627567f98e56d2cc7",
+      "67a9acd8a45909fb1bd0f97d",
+      "67a9b364a45909fb1bd0fa5d",
+      "67ac7bbba45909fb1bd13977",
+      "67ac8481a45909fb1bd13c0b",
+      "67ac8549a45909fb1bd13c27",
+      "67ad9898a45909fb1bd15570",
+      "67af2565a45909fb1bd1843d",
+      "67af28aca45909fb1bd184fd",
+      "67b2f5b4a45909fb1bd1de00",
+      "67b4727da45909fb1bd20f21",
+      "67b8383fa45909fb1bd280e9",
+      "67bde09a16444f3c114dbe00",
+      "67bde36416444f3c114dbe1f",
+      "67c02bb116444f3c114df7ca",
+      "67e681b516444f3c11523ebd",
+      "67e683d116444f3c11523f51",
+      "67e6860a16444f3c11523fba",
+      "67e687e216444f3c11523fea",
+      "67e68a0b16444f3c1152404b",
+      "67e68c2616444f3c11524084",
+      "67ec0ec816444f3c1152e4c9",
+      "67ec11d316444f3c1152e589",
+      "67ec146216444f3c1152e5c4",
+      "67ec16d516444f3c1152e5e9",
+      "67edff4416444f3c115312af",
+      "67ee037416444f3c115312ee",
+      "67f3e8de16444f3c1153ae09",
+      "680b8c9416444f3c11568f64",
+      "680b9df916444f3c115691a7",
+      "680ba19b16444f3c11569206",
+      "680ba4d516444f3c11569288",
+      "680f3e8f16444f3c1156f68a",
+      "6841615116444f3c115dc079",
+      "684a89e316444f3c115f11be",
+      "684a8ed016444f3c115f141c",
+      "684a90b016444f3c115f1460",
+      "684bd88c16444f3c115f5307",
+      "684be57b16444f3c115f597a",
+      "6851284a16444f3c11607d4c"
+    ],
+    "image": "/scans/image-1730261906886-257915264.webp",
+    "path": "ultrasound-scan",
+    "createdAt": "2024-10-17T19:23:49.627Z",
+    "updatedAt": "2024-10-17T19:23:49.627Z",
+    "allData": {
+      "categoryId": "671b5102ad9bf8d210384d1c",
+      "requisites": [
+        {
+          "value": ""
+        }
+      ],
+      "interpretations": {
+        "title": "Results and Interpretations ",
+        "cols": [
+          "Scan Parameter ",
+          "Normal Range ",
+          "Abnormal Range ",
+          "Interpretation "
+        ],
+        "rows": [
+          [
+            "Organ Size ",
+            "Normal organ size ",
+            "Enlarged or reduced organ size ",
+            "Enlarged organs may indicate disease (e.g., liver disease, heart issues), while reduced size can suggest atrophy or other health concerns. "
+          ],
+          [
+            "Presence of Masses ",
+            "No masses or lumps detected ",
+            "Solid or cystic masses detected",
+            "Solid masses could indicate tumours or cancer, while cystic masses are often benign but "
+          ],
+          [
+            "Blood Flow (Doppler) ",
+            "Normal blood flow ",
+            "Restricted or abnormal flow ",
+            "Abnormal blood flow might signal issues like blood clots, artery blockages, or vascular disease. "
+          ],
+          [
+            "Fetal Development ",
+            "Fetus growing according to gestational age ",
+            "Abnormal fetal size or structure ",
+            "Abnormalities in fetal size or development can indicate growth restrictions, developmental delays, or other prenatal health concerns. "
+          ]
+        ]
+      },
+      "faqs": [
+        {
+          "question": "When is an Ultrasound advisable to be done? ",
+          "answer": "If there is a requirement for an abdominal ultrasound, fasting must be done in order to create clean images where only the internal organs are captured. Rest instructions and procedures can be sought from a physician."
+        },
+        {
+          "question": "Can we find any ultrasound-related services in Bangalore? ",
+          "answer": "We are proud to inform the readers now that Cadabam’s Diagnostics in Bangalore provides ultrasound services to facilitate identifying and monitoring medical conditions."
+        },
+        {
+          "question": "What Is a Normal Ultrasound Result? ",
+          "answer": "A normal ultrasound result states that the internal organs and soft tissues reasonably work there is no presence of any abnormalities such as masses, fluid accumulation, or structural changes among other factors. However, it is worth remembering that “normal” does differ slightly from one person to another due to their age, gender or even health. This doesn't mean however that someone should cease to consult their healthcare official."
+        },
+        {
+          "question": "Who Performs an Ultrasound Scan? ",
+          "answer": "Sonographers are trained professionals who operate ultrasound machines and target specific areas of the body with the equipment in order to create usable photographs of the location for diagnosis."
+        },
+        {
+          "question": "How Safe Is an Ultrasound Scan? ",
+          "answer": "Ultrasound scans are safe since they use sound waves instead of radiation. They do not breach the skin in any way or form. There also are no potential dangers that are known in existence. This makes ultrasounds guess-free scans for pregnant women and for other clinics."
+        }
+      ],
+      "relative_test": {
+        "title": "",
+        "categoryId": "671b5102ad9bf8d210384d1c",
+        "tests": [
+          {
+            "id": "6735c72a03598b92c151c6fd",
+            "testName": "USM MUSCULOSKELETAL",
+            "route": "/musculoskeletal-ultrasound-msk"
+          },
+          {
+            "id": "6735cb2f03598b92c151c782",
+            "testName": "US PREGNCANY FETAL FACE 3D",
+            "route": "/fetal-ultrasound"
+          },
+          {
+            "id": "6735e71803598b92c151c9f2",
+            "testName": "US GUIDED BREAST BIOPSY",
+            "route": "/breast-biopsy-scan"
+          },
+          {
+            "id": "6736ed7d03598b92c151ce21",
+            "testName": "PENILE DOPPLER",
+            "route": "/penile-doppler-ultrasound-scan"
+          },
+          {
+            "id": "6736f1c103598b92c151ce6f",
+            "testName": "US SONOMAMMOGRAM",
+            "route": "/sonomammography-ultrasound-scan"
+          },
+          {
+            "id": "6736f48703598b92c151cf12",
+            "testName": "US THYROID ELASTOGRAPHY",
+            "route": "/thyroid-scan"
+          },
+          {
+            "id": "6736fdc303598b92c151d13e",
+            "testName": "ECHO",
+            "route": "/echocardiogram-testing"
+          },
+          {
+            "id": "673712ef996e7737b6f4dd40",
+            "testName": " Elastography Test ",
+            "route": "/elastography-ultrasound-test"
+          },
+          {
+            "id": "673724eb996e7737b6f4dfbc",
+            "testName": " Testis Ultrasound Scan",
+            "route": "/testis-ultrasound-scan"
+          },
+          {
+            "id": "673729fa996e7737b6f4e0f3",
+            "testName": "US PELVIS (TVS)",
+            "route": "/ultrasound-of-transvaginal-scan-tvs"
+          },
+          {
+            "id": "67373672996e7737b6f4e274",
+            "testName": "US ABDOMEN - PELVIS",
+            "route": "/abdomen-and-pelvis-ultrasound-scans"
+          },
+          {
+            "id": "673c56c5effae454707dfe68",
+            "testName": "Abdominal Ultrasound ",
+            "route": "/abdominal-ultrasound"
+          },
+          {
+            "id": "673c8097effae454707e01a3",
+            "testName": "US PELVIS",
+            "route": "/pelvis-ultrasound"
+          }
+        ]
+      },
+      "seo": {
+        "title": "",
+        "description": "Book ultrasound scans near you for precise imaging and quick results at trusted diagnostic centers committed to accuracy, care, and timely health reports."
+      }
+    },
+    "markdown": "a non-invasive imaging technique that uses high-frequency sound waves to create pictures of the inside of the body\n\n## Ultrasound Overview\n\n![Ultrasound Overview](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731735946889-414492423.jpg)\n\nUltrasound, sonography or ultrasonography as it is also called, is a painless diagnostic imaging technique that uses ultrasound waves to create moving images of the internal organs including soft parts of the body. It can be used for a wide range of scanning ranging from monitoring pregnancies to diagnosing diseases.\n\nIts imaging capabilities allow doctors to see through your body without making the cut and it does not employ radiation as X-ray machines do.\n\n### What is An Ultrasound Scan?\n\nUltrasound essentially involves the use of sound waves with a frequency higher than 20kHz to analyze or get images of internal organs of a human body. It is a powerful tool which helps doctors detect abnormalities in tissues and organs. The ultrasound is made up of a device known as a transducer which produces and receives sound waves and indirectly forms images.\n\n## Types of Ultrasounds\n\nThere are different types of ultrasound scans that are used for various conditions and parts of the body. Among these, some of the most common types of ultrasounds are: -\n\n**Abdominal Ultrasound:** This is an ultrasound done to look for blood vessels and organs in your lower abdominal region and to check for conditions like gallbladder stones, kidney stones, and liver problems.\n\n**Pelvic Ultrasound:** Pelvic Ultrasound is probably the most popular type of ultrasound, as every woman have had this type of ultrasound at least once in their life. This is most used to diagnose pregnancy, to assess if a fetus is developing properly, to look for the presence of abdominal organs in females like the uterus and ovaries and in males the bladder and many more.\n\n**Musculoskeletal Ultrasound:** Musculoskeletal Ultrasound is very helpful in detecting troubles with tendons, ligaments or muscles.\n\n**Doppler Ultrasound:** It is a special type of ultrasound scan in which the blood flow through arteries and veins is used to be tested for the presence of vascular disorders such as blood clots.\n\n**Fetal Ultrasound:** Fetal Ultrasound is used in pregnancy to keep track of baby development and baby’s health. It helps in tracking the growth of the fetus, checking if there are any abnormalities, and measuring the amount of amniotic fluid.\n\n## Risks & Limitations of the Ultrasound Test\n\n![Risks & Limitations of the Ultrasound Test](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731735954619-142663100.png)\n\nIn terms of the dangers involved with getting an ultrasound test, these are largely negligible as it employs no radiation whilst producing images, thus, it is regarded as one of the best and least hazardous diagnostic procedures.\n\nOne of the important issues regarding the applicability of ultrasound scanning is that, it may not be suitable for those regions of the body that lie within gas cavities e.g. the intestines, or the bones cover them up. Also, other factors such as obesity may affect the ultrasound’s accuracy.\n\n## List of Parameters Considered During the Scan\n\n![List of Parameters Considered During the Scan](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731735965281-669880283.png)\n\nIt is important to understand that the parameters may vary depending on the type of ultrasound and the purpose of the scan. However, here are a few common parameters that are measured during an ultrasound scan:\n\n- Any change regarding the size, form or dilatation of organs or tissues\n- When Doppler ultrasound is performed, evaluation of blood circulation and the states of vascular system\n- Obstruction of organs which might include cysts or tumours or any other formations\n- For prenatal scanning – amniotic fluid level measurement and checking growth parameters of the fetus (for example: biparietal diameter)\n\n## Reasons for Taking the Ultrasound\n\n![Reasons for Taking the Ultrasound](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731735971667-920239951.png)\n\nThere are multiple reasons that your doctor may suggest you take an ultrasound scan, some of them include: -\n\n**Diagnosing Abnormalities**: In a variety of instances, an ultrasound is used to help diagnose the cyst, tumor or even other surrounding organs’ abnormalities.\n\n**Pregnancy Care:** The ultrasound allows doctors to examine the fetus, while also gauging its state of health.\n\n**Investigating Pain or Swelling**: When there is swelling, pain or other symptoms that are hard to explain, this is where the ultrasound scanning technique comes in.\n\n**Evaluating Organ Function:** Conditions that involve gall bladder disease, kidney stones or cirrhosis of the liver can be evaluated through ultrasound imaging.\n\n### When and Who Needs to Take an Ultrasound Scan?\n\nUltrasounds are recommended to patients for a variety of reasons, some of them include: -\n\n- If your doctor suspects issues with your internal organs such as the liver, kidney, or heart.\n- Pregnant women for evaluating the conditions of the fetuses.\n- Athletes identify musculoskeletal injuries like tendon ruptures or sprains.\n- Patients with no result of visceral massage and other techniques with swelling, pain, or complications of the visceral organs.\n- People with heart disease.\n- Patients with gallstones suspect suffering from kidney stones or some other organ related disorders.\n\n## Benefits of Taking the Ultrasound\n\n![Benefits of Taking the Ultrasound](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731735980742-820179332.png)\n\nUltrasound scan offers a range of benefits and due to this, it is widely used to assess the variety of diseases and monitor a fetus. Some of the benefits include: -\n\n**Non-Invasive:** There is no requirement of any needles or incisions to perform an ultrasound. Such procedures are needed for biopsies and surgeries.\n\n**No Radiation:** This is a feature that helps to protect pregnant mothers and others who must undergo so many scans.\n\n**Real-Time Imaging**: The real time imaging of an ultrasound scan enables medical professionals to fully fathom the insides of a person’s organs and be able to diagnose any abnormalities instantly.\n\n## Illnesses Diagnosed with Ultrasound\n\n![Illnesses Diagnosed with Ultrasound](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731735986278-403634312.png)\n\nUltrasound scan is one of the modalities which is helpful in diagnosing, and which may include all the following but not limited to: -\n\n- Kidney Stones\n- Gall Stones\n- Liver Cirrhosis or Fatty Liver\n- Blood Thrombosis\n- Specific Cases in Pregnancy Targeting Placenta Accreta\n- Thyroid Gland Disorders Such as Nodules and Goitres\n- Heart Failure Due to Hypertrophy and Valvular Defect\n- Inflammation Of the Pancreas\n- Abdominal Aortic Aneurism\n- Cysts And Fibroids Affecting the Structures of the Female Reproductive System\n- Injuries Affecting Muscles Tendons or Ligaments\n- Abscess Formation and Cellulitis\n\n## Preparing for Ultrasound Scan\n\n![Preparing for Ultrasound Scan](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731735992802-68116460.png)\n\nThere are different types of ultrasounds and there are also different indications for which the scan needs to be carried out, thus comparison here i think should not be done. However, below are broad principles, which may be useful in helping you obtain the ultrasound scan in a better way.\n\n### Prerequisites\n\nTo obtain clear results, the image formed on the abdominal scans might tilt or get worse as they cannot have any accumbent solids. On the other hand, the image scans on the Pelvic Region Ultrasound require a considerable amount of water consumption prior to its execution.\n\n### The Most Appropriate Time to Execute the Scan\n\nUltrasounds have numerous purposes; therefore, timing of the scan differs depending on the surgical or diagnostic requirement. For instance, after breakfast falls the time for abdominal ultrasound while Pelvic, MSK, and Doppler ultrasounds can occur in the afternoons too.\n\n### Who is Eligible for an Ultrasound Scan Examination?\n\nMost people, including children, pregnant women, and the elderly can undergo ultrasound procedures without feeling anxious about radiation exposure.\n\n### Procedure for Taking Ultrasound Scan\n\nYour sonographer is a trained ultrasound technician. To avoid friction, ultrasound gel is applied to your skin, after which the sonographer rubs an ultrasound transducer on your skin. Everything else is as easy as changing into a hospital gown.\n\nFor those who don’t know, a transducer is an ultrasound tool that is placed on skin to deliver sound waves to our body and receives echoes that are converted into images.\n\nIf the condition under examination is complex, or the area of the scan is, then the time required for the whole process may be longer than the average time frame of 15 – 45 minutes.\n\n### Caution Before Taking the Scan\n\nUltrasound scans are non-invasive and painless tests that most never require precautionary measures; however, recent surgeries or impediments should be conveyed to the healthcare provider. It is recommended that food consumption is avoided prior to undergoing an abdominal ultrasound, as this may aid in providing better results."
+  },
+  "relatedTests": []
+}

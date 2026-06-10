@@ -1,0 +1,318 @@
+{
+  "type": "scan-detail",
+  "route": "/bangalore/ultrasound-scan/echocardiogram-testing",
+  "familyPath": "ultrasound-scan",
+  "slug": "echocardiogram-testing",
+  "test": {
+    "id": "6736fdc303598b92c151d13e",
+    "templateName": "non-labtest",
+    "testName": "Echocardiogram (Heart) Ultrasound Scan",
+    "route": "/echocardiogram-testing",
+    "basic_info": {
+      "name": "Echocardiogram (Heart) Ultrasound Scan",
+      "route": "/echocardiogram-testing",
+      "categoryId": "671b5102ad9bf8d210384d1c",
+      "price": 1850,
+      "alsoKnownAs": "",
+      "discount": "0",
+      "discountedPrice": "1850.00",
+      "reportsWithin": "3hrs",
+      "Identifies": "",
+      "measures": "",
+      "testId": 7769092,
+      "testCategory": "Ultrasonography"
+    },
+    "requisites": [],
+    "interpretations": {
+      "title": "Results and Interpretations ",
+      "cols": [
+        "Condition/Findings",
+        "Description",
+        "Interpretation"
+      ],
+      "rows": [
+        [
+          "Heart Chamber Enlargement",
+          "Chambers are dilated.",
+          "May indicate signs of heart failure or cardiomyopathy."
+        ],
+        [
+          "Valve Abnormalities\t",
+          "Regurgitation or stenosis at any level is noted.",
+          "May decrease the heart's ability to pump blood or cause pump failure."
+        ],
+        [
+          "Ejection Fraction\t",
+          "Volume of blood pumped out of the heart during a contraction.",
+          "Normal (> 55%), Borderline (45%–55%), Reduced (≤ 45%)."
+        ],
+        [
+          "Presence of Thrombi",
+          "Clots formed inside the heart cavities.",
+          "High risk of stroke; may require anticoagulants."
+        ],
+        [
+          "Pericardial Effusion",
+          "Accumulation of fluid in the pericardium.",
+          "An exudate may suggest infection, injury, or pericarditis."
+        ]
+      ]
+    },
+    "faqs": [
+      {
+        "question": "Is echocardiography safe?  ",
+        "answer": "It’s a safe and painless procedure that does not expose you to any risk more than minimal."
+      },
+      {
+        "question": " How should I prepare for a TEE specifically?  ",
+        "answer": "First, do not eat or drink any food for six hours before the test. Prepare for a drive back as the sedative administered may alter your driving capabilities."
+      },
+      {
+        "question": "How long does it take to get results?  ",
+        "answer": "As a rule of thumb, the doctors will usually have the results in a couple of days unless it is an emergency in which case it will be interpretable on site."
+      },
+      {
+        "question": "Can pregnancy affect an echocardiogram? ",
+        "answer": "Pregnant mothers and embryos face no risks while undergoing echocardiography."
+      },
+      {
+        "question": "Are there any particular side effects? ",
+        "answer": "In general, TTE has no side effects. Throat discomfort, associated with swallow or pressure, can be observed in TEE procedures."
+      }
+    ],
+    "relative_test": {
+      "title": "",
+      "categoryId": "",
+      "tests": []
+    },
+    "seo": {
+      "title": "Echocardiogram Ultrasound: Heart Health Monitoring",
+      "description": "An echocardiogram ultrasound scan checks for heart conditions like valve diseases and heart failure. Get a heart scan now.",
+      "keywords": "",
+      "canonicalUrl": "",
+      "ogTitle": "",
+      "ogDescription": "",
+      "ogImage": "",
+      "schemaMarkup": "",
+      "robotsMeta": ""
+    },
+    "markdown": "## Echocardiography Overview\n\nEchocardiography is a non-invasive technique that employs ultrasound imaging techniques it provides similar images, and weighs ultrasound as one of the components. Sometimes called an “echo,” this ultrasound imaging of the heart makes it possible to assess cardiac anatomy, function, valve motion, and blood flow between the heart chambers and the great vessels; and screening for cardiac muscle motion anomalies. It is an essential technique for diagnosing and treating cardiac problems in a large number of patients and many circumstances.\n\nThe preparation an individual will have to do for an echocardiogram will depend on the kind of echocardiogram that is to be performed. Standard combination transthoracic echocardiogram (TTE) does not require any special diet however, stress echo or transesophageal echocardiogram (TEE) may have requirements such as nil by mouth before the procedure or fail to take medications.\n\n### **What is an echocardiogram?**\n\nEchocardiogram is a live image of a heart which is captured with the aid of high frequency sound waves, ultrasound, which are aimed at the heart with the help of a small device, transducer, placed on the surface of the chest. With the echoes formed as the sound waves strike the internal structures of the heart, a computer processes these echoes into images.\n\n**Technology and Method:**\n\n1. Visualizes the heart using ultrasonic technology.\n\n- Electronic echocardiographic transducers induce ultrasound waves which reflect different structures in the heart.\n- These echo signals are digitally captured by a computer, the transmitted signals called radio frequencies are used to make a three dimensional real time image of the heart organ.\n\n### **How It Works:**\n\n1. Most often the patient lies down on his back or slightly on the side.\n2. The technician moves the transducer crosswise on the chest to get images of different regions of the heart.\n3. Applying gel on the chest enhances the conduction of the sound waves and ensures clear images of the heart.\n\n### **Types of Echocardiography**\n\nThere is a variety of echocardiograms, it varies by the urgency and the requirement for the diagnosis:\n\n**Transthoracic Echocardiogram (TTE):**\n\n1. The most commonly performed echocardiogram would be the TTE. It is noninvasive and conducted through the chest wall.\n\n**Transesophageal Echocardiogram (TEE):**\n\n1. In order to get better postimages of the heart, a probe is placed through the Esophagus into the heart that allows for a better view of the structures.\n\n**Stress Echocardiogram:**\n\n- Stress tests are performed either physically by the patient or by providing medication that stimulates the heart for observation purposes.\n\n**Doppler Echocardiogram:**\n\n- A Doppler echocardiogram evaluates the pressure and blood flow alteration across the valves of the heart.\n\n## Risks & Limitations of Echocardiography\n\nWhile Echocardiography is a screening tool that is effective and often safe, there are some risks and limitations that must be kept in mind:\n\n### **Risks:**\n\n- Data suggests that the risk of td echocardiography is very low, and only occasionally do patients complain of mild skin irritation caused by gel or mild discomfort from the use of a transducer.\n- During a TEE examination, increased risk factors must be acknowledged since a tranquilizer is necessary in order to place a probe down the food pipe, which may result in pain in the throat.\n\n### **Limitations:**\n\n- Due to lung disease and obesity’s effect on the body, a patient’s image quality may suffer.\n- Other instances may require the use of additional imaging techniques such as MRI or CT in order to diagnose more thoroughly.\n\n## List of Parameters Considered During Echocardiography\n\nSo as to perform an optimal echo, several parameters are taken into consideration –\n\n**Heart Chambers Sizes & Function:**\n\n- It is the measurement of the size and wall motion of the heart chambers.\n\n**Valve Function:**\n\n- This involves observing the functioning of the valves and the presence of stenosis or regurgitation.\n\n**Ejection Fraction:**\n\n- Fraction evaluation of blood which is emptied from the ventricles after every beat.\n\n**Adjacent Heart Structures:**\n\n- Structures along the major blood vessel like the aorta and inferior vena-caval sites are evaluated.\n\nDepending on age or any previous heart ailments, there might be a need for changing parameters in the image capturing process.\n\n## Reasons for Taking an Echocardiography\n\nAn echocardiogram may be prescribed by the doctors for diagnosis in a range of conditions or symptoms for example:\n\n**Cardiac Symptoms:**\n\n- It is the case of difficulty in breathing coupled with chest pain, or tiredness without an explanation.\n\n**Suspected Heart Disease:**\n\n- This can include heart murmurs or arrhythmias.\n\n**Monitoring:**\n\n- This can include follow-up in heart failure or post-cardiac surgery.\n\n## Benefits of Taking the Test\n\nEchocardiography is associated with more than a couple of benefits:\n\n- **Non-invasive and Painless:**\n- In most cases, patients are not required to be sedated or exposed to radiation during any of the transformation.\n- **Real-time Imaging:**\n- It enables to observe the heart and what it does, at that very instant.\n- **Diagnosis and Treatment Follow-up:**\n- It is helpful in the diagnosis of heart pathologies, to monitor the results of surgical treatment and, when necessary, to plan future surgeries.\n\n## Illnesses Diagnosed with Echocardiography\n\nEchocardiography is useful in the evaluation of a number of heart diseases including:\n\n- Cardiomyopathy\n- Heart Valve Diseases (Stenosis, Regurgitation)\n- Congenital Heart Defects\n- Pericardial Disease\n- Pulmonary Hypertension\n- Aortic Dissection\n\n## Preparing for Echocardiography\n\nDepending on the particular echocardiogram, special imaging instructions may be necessary:\n\n**TTE:**\n\n- No special preparation needed.\n- Recommended to wear comfortable clothes to the procedure.\n\n**TEE or Stress Echo:**\n\n- Some tests may last several hours necessitating some fasting.\n- The patient is Expected to Avoid caffeine and other specific heart medications for a day before going through the procedure.\n\n### **Pre-requisites**\n\nA number of patients may require further preparation before undergoing some forms of echocardiograms such as TEE:\n\n- **Fasting:**\n- Some procedures may require the patient to abstain from food for approximately 6-8 hours prior to the scans.\n- **Medication Adjustments:**\n- Some patients may need to stop taking their medications for heart issues as prescribed by physicians during the imaging tests.\n\n### **Best Time to Have the Echocardiography**\n\nWith regard to their urgency and regard for the patient, echo tests can be conducted at any hour. No circadian variations test performance throughout these tests.\n\n### **Eligibility**\n\nMost, if not all, patients exhibiting signs or having cardiac related problems can be recommended for an echocardiogram. An exception might be those with esophageal conditions impacting TEE eligibility and alternative arrangements are needed.\n\n### **Taking an Echocardiography Procedure**\n\nThis is the general procedure for carrying out an echocardiogram on a patient.\n\n**Preparation:**\n\n1. The patient is made to change into a hospital gown.\n2. Gel is placed on the chest in order to enhance the transmission of sound waves.\n\n**SLD Execution:**\n\n1. The transducer is placed on the different views of the heart on the patients chest.\n2. The patient will sometimes be asked to move her position so the heart can be seen from different angles, which at times might lead to the patient having holding the breath for brief periods.\n\n**Duration:**\n\n1. The average time taken for an entire test spans from thirty to sixty minutes.\n\n### **Warnings Before the Test**\n\n**Discuss Health Concerns:**\n\n- Tell your physician about swallowing issues that you may have which could make TEE difficult.\n\n**Obey Rules:**\n\n- If there are fasting or medications that must be taken prior to the test then those must be followed."
+  },
+  "category": {
+    "id": "671b5102ad9bf8d210384d1c",
+    "name": "Ultrasound",
+    "tests": [
+      "6735c72a03598b92c151c6fd",
+      "6735cb2f03598b92c151c782",
+      "6735e71803598b92c151c9f2",
+      "6736ed7d03598b92c151ce21",
+      "6736f1c103598b92c151ce6f",
+      "6736f48703598b92c151cf12",
+      "6736fdc303598b92c151d13e",
+      "673712ef996e7737b6f4dd40",
+      "673724eb996e7737b6f4dfbc",
+      "673729fa996e7737b6f4e0f3",
+      "67373672996e7737b6f4e274",
+      "673c56c5effae454707dfe68",
+      "673c8097effae454707e01a3",
+      "673dbe26534c72d341052d51",
+      "6799e782bf2a88a244a69719",
+      "679b3aecbf2a88a244a6b50a",
+      "679b3cd2bf2a88a244a6b525",
+      "679b4c54bf2a88a244a6b708",
+      "679c74afbf2a88a244a6ed60",
+      "679c86b9bf2a88a244a6f03a",
+      "67a0bafcbf2a88a244a77549",
+      "67a1b8d727567f98e56d25af",
+      "67a1bbb227567f98e56d2679",
+      "67a1ca5f27567f98e56d2be6",
+      "67a1d39b27567f98e56d2cac",
+      "67a1d50627567f98e56d2cc7",
+      "67a9acd8a45909fb1bd0f97d",
+      "67a9b364a45909fb1bd0fa5d",
+      "67ac7bbba45909fb1bd13977",
+      "67ac8481a45909fb1bd13c0b",
+      "67ac8549a45909fb1bd13c27",
+      "67ad9898a45909fb1bd15570",
+      "67af2565a45909fb1bd1843d",
+      "67af28aca45909fb1bd184fd",
+      "67b2f5b4a45909fb1bd1de00",
+      "67b4727da45909fb1bd20f21",
+      "67b8383fa45909fb1bd280e9",
+      "67bde09a16444f3c114dbe00",
+      "67bde36416444f3c114dbe1f",
+      "67c02bb116444f3c114df7ca",
+      "67e681b516444f3c11523ebd",
+      "67e683d116444f3c11523f51",
+      "67e6860a16444f3c11523fba",
+      "67e687e216444f3c11523fea",
+      "67e68a0b16444f3c1152404b",
+      "67e68c2616444f3c11524084",
+      "67ec0ec816444f3c1152e4c9",
+      "67ec11d316444f3c1152e589",
+      "67ec146216444f3c1152e5c4",
+      "67ec16d516444f3c1152e5e9",
+      "67edff4416444f3c115312af",
+      "67ee037416444f3c115312ee",
+      "67f3e8de16444f3c1153ae09",
+      "680b8c9416444f3c11568f64",
+      "680b9df916444f3c115691a7",
+      "680ba19b16444f3c11569206",
+      "680ba4d516444f3c11569288",
+      "680f3e8f16444f3c1156f68a",
+      "6841615116444f3c115dc079",
+      "684a89e316444f3c115f11be",
+      "684a8ed016444f3c115f141c",
+      "684a90b016444f3c115f1460",
+      "684bd88c16444f3c115f5307",
+      "684be57b16444f3c115f597a",
+      "6851284a16444f3c11607d4c"
+    ],
+    "image": "/scans/image-1730261906886-257915264.webp",
+    "path": "ultrasound-scan",
+    "createdAt": "2024-10-17T19:23:49.627Z",
+    "updatedAt": "2024-10-17T19:23:49.627Z",
+    "allData": {
+      "categoryId": "671b5102ad9bf8d210384d1c",
+      "requisites": [
+        {
+          "value": ""
+        }
+      ],
+      "interpretations": {
+        "title": "Results and Interpretations ",
+        "cols": [
+          "Scan Parameter ",
+          "Normal Range ",
+          "Abnormal Range ",
+          "Interpretation "
+        ],
+        "rows": [
+          [
+            "Organ Size ",
+            "Normal organ size ",
+            "Enlarged or reduced organ size ",
+            "Enlarged organs may indicate disease (e.g., liver disease, heart issues), while reduced size can suggest atrophy or other health concerns. "
+          ],
+          [
+            "Presence of Masses ",
+            "No masses or lumps detected ",
+            "Solid or cystic masses detected",
+            "Solid masses could indicate tumours or cancer, while cystic masses are often benign but "
+          ],
+          [
+            "Blood Flow (Doppler) ",
+            "Normal blood flow ",
+            "Restricted or abnormal flow ",
+            "Abnormal blood flow might signal issues like blood clots, artery blockages, or vascular disease. "
+          ],
+          [
+            "Fetal Development ",
+            "Fetus growing according to gestational age ",
+            "Abnormal fetal size or structure ",
+            "Abnormalities in fetal size or development can indicate growth restrictions, developmental delays, or other prenatal health concerns. "
+          ]
+        ]
+      },
+      "faqs": [
+        {
+          "question": "When is an Ultrasound advisable to be done? ",
+          "answer": "If there is a requirement for an abdominal ultrasound, fasting must be done in order to create clean images where only the internal organs are captured. Rest instructions and procedures can be sought from a physician."
+        },
+        {
+          "question": "Can we find any ultrasound-related services in Bangalore? ",
+          "answer": "We are proud to inform the readers now that Cadabam’s Diagnostics in Bangalore provides ultrasound services to facilitate identifying and monitoring medical conditions."
+        },
+        {
+          "question": "What Is a Normal Ultrasound Result? ",
+          "answer": "A normal ultrasound result states that the internal organs and soft tissues reasonably work there is no presence of any abnormalities such as masses, fluid accumulation, or structural changes among other factors. However, it is worth remembering that “normal” does differ slightly from one person to another due to their age, gender or even health. This doesn't mean however that someone should cease to consult their healthcare official."
+        },
+        {
+          "question": "Who Performs an Ultrasound Scan? ",
+          "answer": "Sonographers are trained professionals who operate ultrasound machines and target specific areas of the body with the equipment in order to create usable photographs of the location for diagnosis."
+        },
+        {
+          "question": "How Safe Is an Ultrasound Scan? ",
+          "answer": "Ultrasound scans are safe since they use sound waves instead of radiation. They do not breach the skin in any way or form. There also are no potential dangers that are known in existence. This makes ultrasounds guess-free scans for pregnant women and for other clinics."
+        }
+      ],
+      "relative_test": {
+        "title": "",
+        "categoryId": "671b5102ad9bf8d210384d1c",
+        "tests": [
+          {
+            "id": "6735c72a03598b92c151c6fd",
+            "testName": "USM MUSCULOSKELETAL",
+            "route": "/musculoskeletal-ultrasound-msk"
+          },
+          {
+            "id": "6735cb2f03598b92c151c782",
+            "testName": "US PREGNCANY FETAL FACE 3D",
+            "route": "/fetal-ultrasound"
+          },
+          {
+            "id": "6735e71803598b92c151c9f2",
+            "testName": "US GUIDED BREAST BIOPSY",
+            "route": "/breast-biopsy-scan"
+          },
+          {
+            "id": "6736ed7d03598b92c151ce21",
+            "testName": "PENILE DOPPLER",
+            "route": "/penile-doppler-ultrasound-scan"
+          },
+          {
+            "id": "6736f1c103598b92c151ce6f",
+            "testName": "US SONOMAMMOGRAM",
+            "route": "/sonomammography-ultrasound-scan"
+          },
+          {
+            "id": "6736f48703598b92c151cf12",
+            "testName": "US THYROID ELASTOGRAPHY",
+            "route": "/thyroid-scan"
+          },
+          {
+            "id": "6736fdc303598b92c151d13e",
+            "testName": "ECHO",
+            "route": "/echocardiogram-testing"
+          },
+          {
+            "id": "673712ef996e7737b6f4dd40",
+            "testName": " Elastography Test ",
+            "route": "/elastography-ultrasound-test"
+          },
+          {
+            "id": "673724eb996e7737b6f4dfbc",
+            "testName": " Testis Ultrasound Scan",
+            "route": "/testis-ultrasound-scan"
+          },
+          {
+            "id": "673729fa996e7737b6f4e0f3",
+            "testName": "US PELVIS (TVS)",
+            "route": "/ultrasound-of-transvaginal-scan-tvs"
+          },
+          {
+            "id": "67373672996e7737b6f4e274",
+            "testName": "US ABDOMEN - PELVIS",
+            "route": "/abdomen-and-pelvis-ultrasound-scans"
+          },
+          {
+            "id": "673c56c5effae454707dfe68",
+            "testName": "Abdominal Ultrasound ",
+            "route": "/abdominal-ultrasound"
+          },
+          {
+            "id": "673c8097effae454707e01a3",
+            "testName": "US PELVIS",
+            "route": "/pelvis-ultrasound"
+          }
+        ]
+      },
+      "seo": {
+        "title": "",
+        "description": "Book ultrasound scans near you for precise imaging and quick results at trusted diagnostic centers committed to accuracy, care, and timely health reports."
+      }
+    },
+    "markdown": "a non-invasive imaging technique that uses high-frequency sound waves to create pictures of the inside of the body\n\n## Ultrasound Overview\n\n![Ultrasound Overview](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731735946889-414492423.jpg)\n\nUltrasound, sonography or ultrasonography as it is also called, is a painless diagnostic imaging technique that uses ultrasound waves to create moving images of the internal organs including soft parts of the body. It can be used for a wide range of scanning ranging from monitoring pregnancies to diagnosing diseases.\n\nIts imaging capabilities allow doctors to see through your body without making the cut and it does not employ radiation as X-ray machines do.\n\n### What is An Ultrasound Scan?\n\nUltrasound essentially involves the use of sound waves with a frequency higher than 20kHz to analyze or get images of internal organs of a human body. It is a powerful tool which helps doctors detect abnormalities in tissues and organs. The ultrasound is made up of a device known as a transducer which produces and receives sound waves and indirectly forms images.\n\n## Types of Ultrasounds\n\nThere are different types of ultrasound scans that are used for various conditions and parts of the body. Among these, some of the most common types of ultrasounds are: -\n\n**Abdominal Ultrasound:** This is an ultrasound done to look for blood vessels and organs in your lower abdominal region and to check for conditions like gallbladder stones, kidney stones, and liver problems.\n\n**Pelvic Ultrasound:** Pelvic Ultrasound is probably the most popular type of ultrasound, as every woman have had this type of ultrasound at least once in their life. This is most used to diagnose pregnancy, to assess if a fetus is developing properly, to look for the presence of abdominal organs in females like the uterus and ovaries and in males the bladder and many more.\n\n**Musculoskeletal Ultrasound:** Musculoskeletal Ultrasound is very helpful in detecting troubles with tendons, ligaments or muscles.\n\n**Doppler Ultrasound:** It is a special type of ultrasound scan in which the blood flow through arteries and veins is used to be tested for the presence of vascular disorders such as blood clots.\n\n**Fetal Ultrasound:** Fetal Ultrasound is used in pregnancy to keep track of baby development and baby’s health. It helps in tracking the growth of the fetus, checking if there are any abnormalities, and measuring the amount of amniotic fluid.\n\n## Risks & Limitations of the Ultrasound Test\n\n![Risks & Limitations of the Ultrasound Test](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731735954619-142663100.png)\n\nIn terms of the dangers involved with getting an ultrasound test, these are largely negligible as it employs no radiation whilst producing images, thus, it is regarded as one of the best and least hazardous diagnostic procedures.\n\nOne of the important issues regarding the applicability of ultrasound scanning is that, it may not be suitable for those regions of the body that lie within gas cavities e.g. the intestines, or the bones cover them up. Also, other factors such as obesity may affect the ultrasound’s accuracy.\n\n## List of Parameters Considered During the Scan\n\n![List of Parameters Considered During the Scan](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731735965281-669880283.png)\n\nIt is important to understand that the parameters may vary depending on the type of ultrasound and the purpose of the scan. However, here are a few common parameters that are measured during an ultrasound scan:\n\n- Any change regarding the size, form or dilatation of organs or tissues\n- When Doppler ultrasound is performed, evaluation of blood circulation and the states of vascular system\n- Obstruction of organs which might include cysts or tumours or any other formations\n- For prenatal scanning – amniotic fluid level measurement and checking growth parameters of the fetus (for example: biparietal diameter)\n\n## Reasons for Taking the Ultrasound\n\n![Reasons for Taking the Ultrasound](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731735971667-920239951.png)\n\nThere are multiple reasons that your doctor may suggest you take an ultrasound scan, some of them include: -\n\n**Diagnosing Abnormalities**: In a variety of instances, an ultrasound is used to help diagnose the cyst, tumor or even other surrounding organs’ abnormalities.\n\n**Pregnancy Care:** The ultrasound allows doctors to examine the fetus, while also gauging its state of health.\n\n**Investigating Pain or Swelling**: When there is swelling, pain or other symptoms that are hard to explain, this is where the ultrasound scanning technique comes in.\n\n**Evaluating Organ Function:** Conditions that involve gall bladder disease, kidney stones or cirrhosis of the liver can be evaluated through ultrasound imaging.\n\n### When and Who Needs to Take an Ultrasound Scan?\n\nUltrasounds are recommended to patients for a variety of reasons, some of them include: -\n\n- If your doctor suspects issues with your internal organs such as the liver, kidney, or heart.\n- Pregnant women for evaluating the conditions of the fetuses.\n- Athletes identify musculoskeletal injuries like tendon ruptures or sprains.\n- Patients with no result of visceral massage and other techniques with swelling, pain, or complications of the visceral organs.\n- People with heart disease.\n- Patients with gallstones suspect suffering from kidney stones or some other organ related disorders.\n\n## Benefits of Taking the Ultrasound\n\n![Benefits of Taking the Ultrasound](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731735980742-820179332.png)\n\nUltrasound scan offers a range of benefits and due to this, it is widely used to assess the variety of diseases and monitor a fetus. Some of the benefits include: -\n\n**Non-Invasive:** There is no requirement of any needles or incisions to perform an ultrasound. Such procedures are needed for biopsies and surgeries.\n\n**No Radiation:** This is a feature that helps to protect pregnant mothers and others who must undergo so many scans.\n\n**Real-Time Imaging**: The real time imaging of an ultrasound scan enables medical professionals to fully fathom the insides of a person’s organs and be able to diagnose any abnormalities instantly.\n\n## Illnesses Diagnosed with Ultrasound\n\n![Illnesses Diagnosed with Ultrasound](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731735986278-403634312.png)\n\nUltrasound scan is one of the modalities which is helpful in diagnosing, and which may include all the following but not limited to: -\n\n- Kidney Stones\n- Gall Stones\n- Liver Cirrhosis or Fatty Liver\n- Blood Thrombosis\n- Specific Cases in Pregnancy Targeting Placenta Accreta\n- Thyroid Gland Disorders Such as Nodules and Goitres\n- Heart Failure Due to Hypertrophy and Valvular Defect\n- Inflammation Of the Pancreas\n- Abdominal Aortic Aneurism\n- Cysts And Fibroids Affecting the Structures of the Female Reproductive System\n- Injuries Affecting Muscles Tendons or Ligaments\n- Abscess Formation and Cellulitis\n\n## Preparing for Ultrasound Scan\n\n![Preparing for Ultrasound Scan](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731735992802-68116460.png)\n\nThere are different types of ultrasounds and there are also different indications for which the scan needs to be carried out, thus comparison here i think should not be done. However, below are broad principles, which may be useful in helping you obtain the ultrasound scan in a better way.\n\n### Prerequisites\n\nTo obtain clear results, the image formed on the abdominal scans might tilt or get worse as they cannot have any accumbent solids. On the other hand, the image scans on the Pelvic Region Ultrasound require a considerable amount of water consumption prior to its execution.\n\n### The Most Appropriate Time to Execute the Scan\n\nUltrasounds have numerous purposes; therefore, timing of the scan differs depending on the surgical or diagnostic requirement. For instance, after breakfast falls the time for abdominal ultrasound while Pelvic, MSK, and Doppler ultrasounds can occur in the afternoons too.\n\n### Who is Eligible for an Ultrasound Scan Examination?\n\nMost people, including children, pregnant women, and the elderly can undergo ultrasound procedures without feeling anxious about radiation exposure.\n\n### Procedure for Taking Ultrasound Scan\n\nYour sonographer is a trained ultrasound technician. To avoid friction, ultrasound gel is applied to your skin, after which the sonographer rubs an ultrasound transducer on your skin. Everything else is as easy as changing into a hospital gown.\n\nFor those who don’t know, a transducer is an ultrasound tool that is placed on skin to deliver sound waves to our body and receives echoes that are converted into images.\n\nIf the condition under examination is complex, or the area of the scan is, then the time required for the whole process may be longer than the average time frame of 15 – 45 minutes.\n\n### Caution Before Taking the Scan\n\nUltrasound scans are non-invasive and painless tests that most never require precautionary measures; however, recent surgeries or impediments should be conveyed to the healthcare provider. It is recommended that food consumption is avoided prior to undergoing an abdominal ultrasound, as this may aid in providing better results."
+  },
+  "relatedTests": []
+}

@@ -1,0 +1,119 @@
+{
+  "type": "center",
+  "route": "/bangalore/center/kanakapura-road",
+  "slug": "kanakapura-road",
+  "center": {
+    "id": "672e50f903598b92c1519931",
+    "templateName": "center",
+    "basic_info": {
+      "center_name": "Cadabam’s Diagnostics - Kanakapura Road ",
+      "center_image": "/centers/image-1751013818693-878608253.webp",
+      "center_sub_title": "Precision in Every Test, Care in Every Step ",
+      "location": "Kanakapura-road",
+      "city": "bangalore",
+      "area": "kanakapura"
+    },
+    "center_info": {
+      "address": "Ground and 1st floor, Sadhvin Heights, 747/787, Kanakapura Main Rd, Doddakallasandra, Uttarahalli hobli, Bengaluru, Karnataka 560062",
+      "phone": " 098861 08180, 096069 08996",
+      "whatsapp": "N/A",
+      "email": "info@cadabamsdiagnostics.com",
+      "map_location": "https://maps.app.goo.gl/Mbj2Dssx4Zv831pB6"
+    },
+    "working_hours": {
+      "weekdays": {
+        "start": "06:30",
+        "end": "21:00",
+        "id": "672e50f903598b92c1519932"
+      },
+      "sunday": {
+        "start": "06:30",
+        "end": "13:00",
+        "id": "672e50f903598b92c1519933"
+      }
+    },
+    "services": [
+      {
+        "icon": "",
+        "title": "Laboratory Services at Kanakapura Road ",
+        "description": "Comprehensive testing for early detection and accurate diagnosis \n",
+        "tests": [
+          {
+            "id": "673b0850effae454707dde45",
+            "testName": "COMPLETE BLOOD COUNT",
+            "route": "/complete-blood-count-cbc"
+          },
+          {
+            "id": "671c7d88c8a77735c8e44120",
+            "testName": "THYROID PROFILE (T3,T4,TSH)",
+            "route": "/thyroid-profile-t3-t4-tsh"
+          }
+        ],
+        "id": "683ea84f16444f3c115d5848"
+      },
+      {
+        "icon": "",
+        "title": "Radiology & Imaging ",
+        "description": "Advanced imaging for precise assessments ",
+        "tests": [],
+        "id": "683ea84f16444f3c115d5849"
+      },
+      {
+        "icon": "",
+        "title": "MSK Scans ",
+        "description": "Specialised musculoskeletal imaging for injury and condition assessment ",
+        "tests": [],
+        "id": "683ea84f16444f3c115d584a"
+      },
+      {
+        "icon": "",
+        "title": "Pregnancy & Women’s Health Scans ",
+        "description": "Dedicated imaging for maternal and reproductive health ",
+        "tests": [],
+        "id": "683ea84f16444f3c115d584b"
+      }
+    ],
+    "testimonials": [
+      {
+        "name": "Varsha M P",
+        "content": "The doctors were great and gave my reports extremely promptly.\nVery clean and organized center which was easy to locate for me as well.",
+        "location": "Kanakapura",
+        "rating": 4,
+        "date": "2025-05-03T00:00:00.000Z",
+        "id": "672e50f903598b92c1519935"
+      }
+    ],
+    "team": [
+      {
+        "name": "Dr S Pradeep",
+        "designation": "Consultant specialist in Radiology and Fetal Medicine",
+        "experience": "25+ Years",
+        "qualification": "MBBS, MD , DNB Radiodiagnosis",
+        "image": "/centers/image-1751013622389-779714291.webp",
+        "id": "6801ec1416444f3c11553a42"
+      },
+      {
+        "name": "Dr Shreyas Cadabam",
+        "designation": "Radiodiagnosis Consultant specialist in Radiology and Interventional Musculoskeletal imaging",
+        "experience": "15+ Years",
+        "qualification": "MBBS , MD ",
+        "image": "/centers/image-1751013630468-124768770.webp",
+        "id": "683eaa5f16444f3c115d5a87"
+      },
+      {
+        "name": "Dr Divya Cadabam",
+        "designation": " Radiodiagnosis Consultant specialist in Radiology and Fetal Medicine",
+        "experience": "15+ Years",
+        "qualification": "MBBS , MD ",
+        "image": "/centers/image-1751013637355-915748414.webp",
+        "id": "683eaa5f16444f3c115d5a88"
+      }
+    ],
+    "faqs": [],
+    "seo": {
+      "title": "",
+      "description": ""
+    },
+    "markdown": "Cadabam’s Diagnostics- Your Trusted Diagnostic Centre in Kanakapura Road \n\nLocated at the centre of Kanakapura Road Cadabam’s Diagnostics is equipped with state-of-the-art diagnostic technology offerings, everything from advanced MRI imaging and high-resolution CT scans to pregnancy scans and a range of essential health checkups. \n\nOur diagnostic centre ensures a seamless experience with advanced laboratory tests, state-of-the-art radiology services and expert-led diagnostics. What sets us apart is our commitment to precision, efficiency and patient-centred care, making us a trusted name in healthcare. "
+  }
+}

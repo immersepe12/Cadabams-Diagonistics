@@ -1,4 +1,4 @@
-import homepagesData from "@/data/md+json/homepages.json";
+import homepagesData from "@/data/allpages/_shared/homepages.json";
 
 export interface HomeHeroButton {
   text: string;

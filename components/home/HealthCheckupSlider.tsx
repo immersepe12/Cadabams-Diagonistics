@@ -192,7 +192,7 @@ export function HealthCheckupSlider({
                             href: card.detailHref,
                             kind: "Lab Test",
                           }}
-                          className="w-full inline-flex items-center justify-center gap-1.5 rounded-pill bg-gradient-cta text-white font-bold px-3 py-2 text-body-sm whitespace-nowrap shadow-glow-orange hover:brightness-110 active:scale-[0.98] transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-300 [&_svg]:w-3.5 [&_svg]:h-3.5 [&_svg]:flex-shrink-0"
+                          className="w-full inline-flex items-center justify-center gap-1.5 rounded-pill bg-gradient-cta text-white font-bold px-3 py-2 text-body-sm whitespace-nowrap hover:brightness-110 active:scale-[0.98] transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-300 [&_svg]:w-3.5 [&_svg]:h-3.5 [&_svg]:flex-shrink-0"
                         >
                           Buy now
                           <ArrowRight className="w-4 h-4" />

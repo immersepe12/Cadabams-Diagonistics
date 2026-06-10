@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+import { notFound } from "next/navigation";
 import {
   Home,
   ChevronRight,
@@ -11,7 +12,9 @@ import {
   Target,
   Check,
   Phone,
+  type LucideIcon,
 } from "lucide-react";
+import { getManagementTeamPage } from "@/lib/data/allpages";
 import { ContactActionButton } from "@/components/shared/ContactActionButton";
 import {
   Breadcrumb,
@@ -33,93 +36,12 @@ export const metadata: Metadata = {
   },
 };
 
-const STATS = [
-  { Icon: Calendar, value: "30+", label: "Years of Excellence" },
-  { Icon: Users, value: "100+", label: "Team Members" },
-  { Icon: Star, value: "95%", label: "Patient Satisfaction" },
-  { Icon: Target, value: "5", label: "Specialized Departments" },
-] as const;
-
-interface Leader {
-  name: string;
-  role: string;
-  description: string;
-  achievements: string[];
-  /**
-   * Optional headshot from public/management/ (e.g.
-   * "/management/cadabam-m-ramesh.webp"). When absent, an initials avatar is
-   * shown instead.
-   */
-  image?: string;
-}
-
-const TEAM: Leader[] = [
-  {
-    name: "Cadabam M Ramesh",
-    role: "Chairman, Cadabam's Group",
-    image: "/management/cadabam-m-ramesh.webp",
-    description:
-      "Mr. Cadabam M. Ramesh, the nucleus of the organization, envisioned Cadabams as a place for treatment and solace for every kind of healthcare concern. Founded with a vision of delivering excellence to patients, he has driven unparalleled service and new outcomes across the Cadabam's Group.",
-    achievements: [
-      "Steering board priorities",
-      "Focus on infrastructure development",
-      "Emphasis on quality healthcare",
-      "Creating a nurturing work environment",
-    ],
-  },
-  {
-    name: "Sudha R. Cadabam",
-    role: "Vice Chairperson, Cadabam's Group",
-    image: "/management/sudha-r-cadabam.webp",
-    description:
-      "Mrs. Sudha R. Cadabam oversees the Cadabam's Group's growth and sustainability. With 20 years of expertise, she shapes, structures, and enables smooth, ideal functioning across the organization.",
-    achievements: [
-      "20+ years of healthcare expertise",
-      "Focus on organizational growth",
-      "Patient care enhancement",
-      "Staff development initiatives",
-    ],
-  },
-  {
-    name: "M.K. Saraswathi",
-    role: "Vice Chairperson, Cadabam's Group",
-    image: "/management/mk-saraswathi.webp",
-    description:
-      "Ms. M. K. Saraswathi has made an immense contribution to Cadabam's with over two decades of expertise in psychology. With her administrative skills and strategies, she designed the healthcare system to structure operational efficiency.",
-    achievements: [
-      "20+ years in psychology",
-      "Healthcare system design",
-      "Operational efficiency",
-      "Department supervision",
-    ],
-  },
-  {
-    name: "Sandesh Cadabam",
-    role: "Director",
-    image: "/management/sandesh-cadabam.webp",
-    description:
-      "Mr. Sandesh R. Cadabam, a promising entrepreneur within the organization, is passionate about providing healthcare to international standards. With an MSc. in International Business & Management from Manchester Business School, UK, he brings innovative strategic methods and modern thinking to the organization.",
-    achievements: [
-      "International healthcare expertise",
-      "Strategic innovation",
-      "Team development",
-      "Quality healthcare focus",
-    ],
-  },
-  {
-    name: "Neha S. Cadabam",
-    role: "Executive Director & Psychologist",
-    image: "/management/neha-s-cadabam.webp",
-    description:
-      "Neha Cadabam is a Psychologist at Cadabam's with over 11 years of experience in mental health. She specializes in preventive and promotive mental healthcare, helping individuals improve their well-being and adopt healthier lifestyle changes.",
-    achievements: [
-      "11+ years in mental health",
-      "Certified NLP Practitioner",
-      "Multi-lingual expertise",
-      "Specialized counseling approaches",
-    ],
-  },
-];
+const ICONS: Record<string, LucideIcon> = {
+  Calendar,
+  Users,
+  Star,
+  Target,
+};
 
 function initials(name: string): string {
   const parts = name.replace(/^(mr|mrs|ms|dr)\.?\s+/i, "").trim().split(/\s+/);
@@ -129,6 +51,10 @@ function initials(name: string): string {
 }
 
 export default function ManagementTeamPage() {
+  const data = getManagementTeamPage();
+  if (!data) notFound();
+  const { hero, stats, section, members, cta } = data;
+
   return (
     <main className="bg-cream-bg min-h-screen">
       {/* Hero */}
@@ -175,15 +101,13 @@ export default function ManagementTeamPage() {
           <div className="mt-6 sm:mt-8 max-w-3xl">
             <span className="inline-flex items-center gap-1.5 rounded-pill bg-white/15 backdrop-blur-md ring-1 ring-white/25 px-3 py-1 text-overline uppercase font-bold tracking-overline">
               <Sparkles className="w-3.5 h-3.5" />
-              Leadership & Vision
+              {hero.badge}
             </span>
             <h1 className="mt-4 text-h1 sm:text-display-2 lg:text-[52px] lg:leading-[1.05] font-display font-extrabold tracking-tight">
-              Our management team.
+              {hero.title}
             </h1>
             <p className="mt-4 text-body sm:text-h3 text-white/90 leading-relaxed max-w-2xl">
-              Meet the visionaries leading Cadabam&apos;s towards excellence in
-              healthcare — with 30+ years of combined experience steering
-              quality, growth, and patient-first care.
+              {hero.description}
             </p>
           </div>
         </div>
@@ -192,21 +116,24 @@ export default function ManagementTeamPage() {
       {/* Stats band */}
       <section className="mx-auto max-w-7xl px-gutter -mt-6 lg:-mt-10 relative z-10">
         <div className="bg-cream-card rounded-2xl shadow-sh-3 border border-cream-line p-4 lg:p-5 grid grid-cols-2 lg:grid-cols-4 gap-3 lg:gap-6">
-          {STATS.map(({ Icon, value, label }) => (
-            <div key={label} className="flex items-center gap-3 min-w-0">
-              <span className="w-10 h-10 lg:w-12 lg:h-12 inline-flex items-center justify-center rounded-pill bg-orange-50 text-orange-600 flex-shrink-0">
-                <Icon className="w-5 h-5 lg:w-6 lg:h-6" />
-              </span>
-              <div className="min-w-0">
-                <p className="text-h2 lg:text-display-2 font-display font-extrabold text-orange-600 leading-none">
-                  {value}
-                </p>
-                <p className="text-caption lg:text-meta text-ink-600 font-medium mt-0.5 lg:mt-1 truncate">
-                  {label}
-                </p>
+          {stats.map((s) => {
+            const Icon = ICONS[s.icon] ?? Star;
+            return (
+              <div key={s.label} className="flex items-center gap-3 min-w-0">
+                <span className="w-10 h-10 lg:w-12 lg:h-12 inline-flex items-center justify-center rounded-pill bg-orange-50 text-orange-600 flex-shrink-0">
+                  <Icon className="w-5 h-5 lg:w-6 lg:h-6" />
+                </span>
+                <div className="min-w-0">
+                  <p className="text-h2 lg:text-display-2 font-display font-extrabold text-orange-600 leading-none">
+                    {s.value}
+                  </p>
+                  <p className="text-caption lg:text-meta text-ink-600 font-medium mt-0.5 lg:mt-1 truncate">
+                    {s.label}
+                  </p>
+                </div>
               </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
       </section>
 
@@ -214,15 +141,15 @@ export default function ManagementTeamPage() {
       <section className="mx-auto max-w-7xl px-gutter py-8 sm:py-10 lg:py-12">
         <div className="mb-8 sm:mb-10 max-w-2xl">
           <p className="text-overline uppercase text-orange-700 font-bold mb-2 tracking-overline">
-            Meet the leadership
+            {section.overline}
           </p>
           <h2 className="text-h1 sm:text-display-2 font-display font-extrabold text-ink-900 tracking-tight leading-tight">
-            The visionaries behind Cadabam&apos;s.
+            {section.title}
           </h2>
         </div>
 
         <div className="space-y-5 lg:space-y-6">
-          {TEAM.map((m) => (
+          {members.map((m) => (
             <article
               key={m.name}
               className="bg-cream-card rounded-2xl shadow-sh-1 hover:shadow-sh-2 border border-cream-line transition-shadow duration-200 overflow-hidden grid lg:grid-cols-[300px_1fr]"
@@ -298,32 +225,31 @@ export default function ManagementTeamPage() {
             <div className="relative grid gap-6 lg:grid-cols-[1.4fr_1fr] items-center">
               <div>
                 <p className="text-overline uppercase font-bold text-white/80 mb-2 tracking-overline">
-                  Get in touch with our management
+                  {cta.overline}
                 </p>
                 <h2 className="text-h1 sm:text-display-2 font-display font-extrabold tracking-tight leading-tight">
-                  Want to learn more about our leadership?
+                  {cta.title}
                 </h2>
                 <p className="mt-3 text-body lg:text-h3 text-white/85 max-w-xl leading-relaxed">
-                  For partnerships, press, or governance enquiries, our team is
-                  one message away.
+                  {cta.description}
                 </p>
               </div>
               <div className="flex flex-col sm:flex-row lg:flex-col gap-3">
                 <Link
-                  href="/contact-us"
+                  href={cta.primary.href}
                   className="inline-flex items-center justify-center gap-2 rounded-pill bg-white text-orange-700 font-bold px-6 py-3 text-body shadow-sh-2 hover:brightness-95 active:scale-[0.98] transition-all"
                 >
-                  Contact us
+                  {cta.primary.label}
                   <ChevronRight className="w-4 h-4" />
                 </Link>
                 <ContactActionButton
                   mode="call"
-                  phone="+91 99006 64696"
+                  phone={cta.call.phone}
                   context="Management team — enquiry"
                   className="inline-flex items-center justify-center gap-2 rounded-pill bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 text-body border border-white/30 transition-all"
                 >
                   <Phone className="w-4 h-4" />
-                  Talk to us
+                  {cta.call.label}
                 </ContactActionButton>
               </div>
             </div>

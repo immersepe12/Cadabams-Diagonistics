@@ -1,4 +1,4 @@
-import searchbarsData from "@/data/md+json/searchbars.json";
+import searchbarsData from "@/data/allpages/_shared/searchbars.json";
 
 export interface SearchbarContent {
   placeholder: string;

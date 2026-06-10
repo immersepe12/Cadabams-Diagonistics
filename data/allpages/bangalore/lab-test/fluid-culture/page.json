@@ -1,0 +1,301 @@
+{
+  "type": "labtest-detail",
+  "route": "/bangalore/lab-test/fluid-culture",
+  "slug": "fluid-culture",
+  "test": {
+    "id": "682ad43f16444f3c115aa27f",
+    "templateName": "labtest",
+    "testName": "FLUID CULTURE",
+    "route": "/fluid-culture",
+    "basic_info": {
+      "name": "FLUID CULTURE",
+      "route": "/fluid-culture",
+      "categoryId": "671b5104ad9bf8d210384d23",
+      "testId": 8939734,
+      "discount": "",
+      "discountedPrice": 600,
+      "reportsWithin": "3hr",
+      "Identifies": "The presence of pathogenic microorganisms, primarily bacteria and sometimes fungi, in body fluids that are normally sterile (free of germs).   Helps diagnose infections in specific body cavities or sites, such as the brain and spinal cord, lungs, joints, abdomen, or around the heart.",
+      "measures": "The growth of microorganisms when the submitted fluid sample is incubated in a special nutrient medium in the laboratory.   Identification of the specific species of bacteria or fungi causing the infection.     Often, the susceptibility of identified bacteria to various antibiotics is determined (antibiotic sensitivity testing).",
+      "price": 600,
+      "testCategory": "Microbiology"
+    },
+    "requisites": [
+      {
+        "value": "A sample of body fluid. Common examples include cerebrospinal fluid (CSF) collected via a lumbar puncture, pleural fluid from the chest cavity, synovial fluid from a joint, peritoneal/ascitic fluid from the abdomen, or pericardial fluid from the sac around the heart. The specific fluid collected depends on the suspected site of infection."
+      }
+    ],
+    "packages": [],
+    "faqs": [
+      {
+        "question": "What is a fluid culture test* (SK1) primarily used for?",
+        "answer": "A **Fluid Culture** test is primarily used to detect and identify pathogenic microorganisms, especially bacteria (a common reason for **fluid culture for bacterial infection** testing) and sometimes fungi, in body fluids that are normally sterile. This helps doctors diagnose infections in specific body sites (like the brain, joints, or chest cavity) and determine the most effective treatment."
+      },
+      {
+        "question": "How is the fluid culture sample collection (SK2) done?*",
+        "answer": "The **fluid culture sample collection** method depends on the location of the fluid. Typically, a trained medical professional at Cadabams Diagnostics will use a sterile needle to draw fluid from the suspected site of infection. For example, a lumbar puncture (spinal tap) is used for cerebrospinal fluid, arthrocentesis for joint fluid, and thoracentesis for pleural fluid from the chest. The area is cleaned, and local anesthetic is usually given to minimize discomfort."
+      },
+      {
+        "question": "What does a positive fluid culture meaning (SK3)?",
+        "answer": "A **positive fluid culture meaning** signifies that microorganisms, such as bacteria or fungi, were found and grown from your body fluid sample. This typically indicates an active infection at the site from which the fluid was collected. The laboratory will then identify the specific germ causing the infection."
+      },
+      {
+        "question": "How long will it take to get my Fluid Culture results?",
+        "answer": "The time to get **Fluid Culture** results can vary. A Gram stain, if performed, can provide preliminary information within hours. Confirmation of growth or no growth might take 24 to 72 hours. If microorganisms do grow, complete identification and the crucial **fluid culture and antibiotic sensitivity** (SK5) testing can take additional days, sometimes longer for slow-growing or unusual organisms. Your Cadabams Diagnostics provider will inform you when to expect results."
+      },
+      {
+        "question": "Are there significant risks with a Fluid Culture?",
+        "answer": "The laboratory **Fluid Culture** test itself has no risks. The risks are primarily associated with the **fluid culture sample collection** (SK2) procedure. These can include temporary discomfort, bruising, or minor bleeding at the needle insertion site. More serious complications are uncommon when the procedure is performed by experienced professionals at Cadabams Diagnostics using sterile techniques, but your doctor will discuss any specific risks relevant to your collection procedure."
+      },
+      {
+        "question": "What happens after a positive Fluid Culture test?",
+        "answer": "If your **fluid Culture** test is positive, your doctor at Cadabams Diagnostics will explain the **positive fluid culture meaning** (SK3) in detail. They will identify the specific germ (bacterium or fungus) causing the infection. For bacterial infections, the accompanying **fluid culture and antibiotic sensitivity** (SK5) results will guide your doctor in prescribing the most effective targeted antibiotic treatment to combat the infection and help you recover."
+      }
+    ],
+    "interpretations": {
+      "title": "Interpreting the Results of Your Fluid Culture Test",
+      "cols": [
+        "Parameter",
+        "Parameter Example Result",
+        "General Interpretation/Significance"
+      ],
+      "rows": [
+        [
+          "Culture Result",
+          "Positive",
+          "Growth detected, suggesting a bacterial or fungal infection."
+        ],
+        [
+          "",
+          "Negative",
+          "No growth detected; infection less likely or possibly due to non-culturable organisms or prior antibiotics."
+        ],
+        [
+          "Organism(s) Identified",
+          "Staphylococcus aureus",
+          "Bacterium identified as the cause of infection (example)."
+        ],
+        [
+          "",
+          "Candida albicans",
+          "Fungus identified as the cause of infection (example)."
+        ],
+        [
+          "Gram Stain (if done)",
+          "Gram-positive cocci in clusters",
+          "Preliminary finding suggesting Staphylococcus species. Useful for early treatment decisions."
+        ],
+        [
+          "",
+          "Gram-negative bacilli",
+          "Suggests organisms like E. coli, Klebsiella, Pseudomonas, etc"
+        ],
+        [
+          "Antibiotic Sensitivity",
+          "",
+          "Helps guide appropriate antibiotic therapy based on the organism’s susceptibility."
+        ],
+        [
+          "Penicillin",
+          "Sensitive (S)",
+          "Sensitive (S) Antibiotic is likely effective for treatment."
+        ],
+        [
+          "Ciprofloxacin",
+          "Resistant (R)",
+          "Antibiotic is unlikely to be effective; alternative needed."
+        ],
+        [
+          "Vancomycin",
+          "Intermediate (I)",
+          "May be effective at higher doses or in specific clinical settings; use with caution."
+        ]
+      ]
+    },
+    "relative_test": {
+      "title": "",
+      "categoryId": "",
+      "tests": []
+    },
+    "seo": {
+      "title": "Fluid Culture Test Explained | Cadabams Diagnostics",
+      "description": "Detects bacteria or fungi in body fluids to diagnose infections like meningitis, septic arthritis, or peritonitis. Results in 3 hours.",
+      "keywords": "",
+      "canonicalUrl": "",
+      "ogTitle": "",
+      "ogDescription": "",
+      "ogImage": "",
+      "schemaMarkup": "",
+      "robotsMeta": ""
+    },
+    "markdown": "## What Is the Fluid Culture Test and Why Is It Important?\n\nA **Fluid Culture** is a crucial laboratory test designed to detect and identify harmful microorganisms, mainly bacteria or fungi, within a sample of body fluid. Normally, many body fluids, like cerebrospinal fluid or joint fluid, are sterile. Finding microorganisms in these fluids usually signals an infection. Understanding **what is a fluid culture test** is the first step in recognizing its significance in healthcare.\n\nThis test plays a vital role in pinpointing the exact cause of infections occurring in various body fluid compartments. Its importance extends to guiding appropriate and timely treatment, which is particularly critical for managing **fluid culture for bacterial infection**. Furthermore, a **Fluid Culture** is often essential for determining **fluid culture and antibiotic sensitivity**. This information allows doctors at Cadabams Diagnostics to select the most effective antibiotic to fight the infection, preventing the use of ineffective drugs and helping to combat the growing problem of antibiotic resistance.\n\n## What Does the Fluid Culture Test Measure?\n\nThe **Fluid Culture** test is comprehensive, measuring several key parameters to help diagnose and guide treatment for infections:\n\n- **Presence or Absence of Microbial Growth:** The primary outcome is whether any microorganisms (bacteria or fungi) grow when the fluid sample is cultured in the lab.\n- **Specific Microorganism Identification:** If growth occurs, the test identifies the specific type(s) of bacteria or fungi responsible for the infection. This involves various microbiological techniques.\n- **Antibiotic Susceptibility Testing:** For bacterial infections, this is a critical component. It determines which antibiotics are most effective against the identified bacteria. This is a key aspect of **fluid culture and antibiotic sensitivity** testing.\n- **Preliminary Indicators:** Sometimes, preliminary results like a Gram stain can provide early clues about the type of bacteria present (e.g., Gram-positive or Gram-negative), which can help guide initial treatment while waiting for full culture results.\n\n## When Is the Fluid Culture Test Usually Taken?\n\nThe **Fluid Culture** test is typically ordered by a healthcare provider at Cadabams Diagnostics when there's a suspicion of an infection involving a specific body fluid. Common scenarios include:\n\n- **Symptoms of Localized Infection:** When a patient exhibits signs and symptoms suggestive of an infection related to a specific body fluid. For example:\n- Severe headache, stiff neck, fever, and altered mental status might suggest meningitis (requiring a CSF culture).\n- Chest pain, cough, and difficulty breathing with evidence of fluid around the lungs might suggest pleurisy or empyema (requiring a pleural fluid culture).\n- A swollen, red, painful, and warm joint might suggest septic arthritis (requiring a synovial fluid culture).\n- Abdominal pain and distension in a patient with liver disease might suggest spontaneous bacterial peritonitis (requiring an ascitic fluid culture).\n- **Fever of Unknown Origin (FUO):** To investigate fevers that don't have an obvious cause, especially if a localized infection is suspected.\n- **Monitoring Treatment Effectiveness:** In some cases, repeat cultures may be done to see if an antimicrobial therapy is effectively clearing the infection.\n- **Post-Surgical Infections:** If an infection is suspected after a surgical procedure involving a specific body cavity.\n- **Abnormal Imaging Findings:** When imaging tests (like X-rays, CT scans, or ultrasounds) show an abnormal collection of fluid or signs suggestive of an infection in a body cavity.\n\n## Are There Any Risks or Limitations to the Fluid Culture Test?\n\nWhile the **Fluid Culture** test itself (the laboratory analysis) poses no direct risk to the patient, the **fluid culture sample collection** procedure can have associated risks. These vary depending on the type of fluid being collected:\n\n**Risks Related to Sample Collection (SK2):**\n\n- **Pain or Discomfort**: Some pain or discomfort at the needle insertion site is common.\n- **Bleeding or Bruising**: Minor bleeding or bruising can occur where the needle was inserted.\n- **Infection:** Although rare when sterile techniques are used, there's a small risk of introducing infection at the puncture site.\n- **Nerve Irritation:** Depending on the site (e.g., lumbar puncture for CSF), there's a slight risk of temporary nerve irritation.\n- **Specific to Collection Type:** For example, a lumbar puncture carries a small risk of post-LP headache. Thoracentesis (pleural fluid collection) has a small risk of pneumothorax (collapsed lung).\n\nYour healthcare provider at Cadabams Diagnostics will discuss the specific risks associated with your particular fluid collection procedure.\n\n**Limitations of the Test:**\n\n- It's possible for the culture to be negative (no growth) even if an infection is present. This can happen if:\n- The patient has already started taking antibiotics before the sample was collected.\n- The microorganisms are present in very low numbers.\n- The organism is difficult to grow in standard laboratory conditions (e.g., some \"fastidious\" bacteria or certain fungi).\n- The infection is caused by a virus, which a **Fluid Culture** does not detect.\n- **False Positives**: Sometimes, the culture might grow microorganisms that are contaminants from the skin or the collection process, rather than the actual cause of infection. Cadabams Diagnostics employs strict sterile techniques to minimize this.\n- **Time for Results:** Culturing microorganisms takes time. Preliminary results may be available within 24-72 hours, but identifying specific organisms and performing antibiotic sensitivity tests can take several days, especially for slow-growing organisms.\n- **Scope of Detection:** This test is primarily designed to detect bacteria and fungi. It will not detect viral infections, which require different types of tests (e.g., PCR or viral cultures).\n\n## What Parameters Are Evaluated in the Fluid Culture Test?\n\nThe **Fluid Culture** test conducted at Cadabams Diagnostics evaluates several important parameters to provide a comprehensive picture of a potential infection:\n\n- **Detection of Growth:** This is the fundamental result, indicating whether the culture is:\n- **Positive:** Microorganisms (bacteria or fungi) have grown in the culture, suggesting an infection.\n- **Negative:** No microorganisms grew, suggesting no infection by readily culturable bacteria or fungi, or other reasons for a negative result as mentioned in limitations.\n- **Organism Identification:** If the culture is positive, the laboratory will identify the specific name of the bacterium or fungus that was isolated (e.g., Streptococcus pneumoniae, Escherichia coli, Candida albicans). This is crucial for targeted therapy.\n- **Gram Stain Results:** Often performed as a rapid, preliminary test on the fluid sample or early growth. It helps classify bacteria based on their cell wall structure (e.g., Gram-positive cocci, Gram-negative bacilli). This can provide an early indication of the type of bacteria present and help guide initial antibiotic choices while awaiting full culture and sensitivity results.\n- **Quantification (if applicable):** For certain types of samples or infections, the laboratory might report the quantity of microorganisms present (e.g., colony count). This is less common for typically sterile body fluids where any growth is significant.\n- **Antibiotic Sensitivity Profile (for bacteria):** This is a critical part of the evaluation when bacteria are isolated. It involves testing the identified bacteria against a panel of different antibiotics to determine its susceptibility. This is central to **fluid culture and antibiotic sensitivity** (SK5) analysis and determines if the bacteria is:\n- **Sensitive (S):** The antibiotic is likely to be effective against the bacteria.\n- **Intermediate (I):** The antibiotic may be effective, possibly at higher doses or in specific situations.\n- **Resistant (R):** The antibiotic is unlikely to be effective against the bacteria.\n\n## Who Should Consider Taking the Fluid Culture Test?\n\nA **Fluid Culture** test is typically recommended by a doctor at Cadabams Diagnostics for individuals who:\n\n- **Exhibit Symptoms Suggestive of Specific Infections:**\n- Patients with symptoms like severe headache, stiff neck, fever, and light sensitivity, which could indicate meningitis (infection of the membranes surrounding the brain and spinal cord).\n- Individuals experiencing a painful, swollen, and warm joint, possibly with fever, which might point to septic arthritis (joint infection).\n- Patients with unexplained fluid accumulation in the chest (pleural effusion) accompanied by symptoms like cough, chest pain, and fever, which could mean an infection like empyema.\n- Those with abdominal distension and pain, especially if they have underlying liver disease, who might have spontaneous bacterial peritonitis (infection of the abdominal lining fluid).\n- **Have Compromised Immune Systems:** People with weakened immune systems (e.g., due to HIV/AIDS, chemotherapy, organ transplant medications, or certain chronic diseases) are at a higher risk of developing serious infections in body fluids and may need this test.\n- **Are Hospitalized with Signs of Serious Infection:** Hospitalized patients who develop new signs of infection, particularly if it seems localized to a body cavity.\n- **Are Not Responding to Initial Broad-Spectrum Antibiotic Treatment:** If initial antibiotic therapy isn't working, a **Fluid Culture** can help identify the specific pathogen and its sensitivities to guide more effective treatment.\n- **Have Unexplained Fevers or Sepsis Indicators:** When a serious, systemic infection (sepsis) is suspected, and a source needs to be identified.\n\n## The Advantages of the Fluid Culture Test for Your Health:\n\nUndergoing a **Fluid Culture** test at Cadabams Diagnostics offers several significant health benefits:\n\n- **Accurate Diagnosis of Infections:** It provides a definitive diagnosis of **fluid culture for bacterial infection** or fungal infections in normally sterile body fluids.\n- **Identification of the Specific Culprit:** The test isolates and identifies the exact microorganism (species of bacteria or fungus) causing the illness. This is far more precise than guessing based on symptoms alone.\n- **Guided and Effective Treatment through Antibiotic Sensitivity:** For bacterial infections, the **fluid culture and antibiotic sensitivity** (SK5) results are crucial. They tell your doctor which antibiotics will be most effective against the specific bacteria causing your infection and which ones will not work. This ensures you receive targeted therapy.\n- **Understanding a Positive Result:** The test clarifies the **positive fluid culture meaning** (SK3), directly impacting how your condition is managed by providing concrete evidence of an infection and the organism responsible.\n- **Combating Antibiotic Resistance:** By identifying the right antibiotic, the **Fluid Culture** test helps reduce the inappropriate use of broad-spectrum antibiotics, which is a major factor in the development of antibiotic-resistant bacteria.\n- **Monitoring Treatment Efficacy:** In some situations, repeat **Fluid Culture** tests can be performed to confirm that the prescribed treatment has successfully eradicated the infection.\n- **Improved Patient Outcomes:** Ultimately, by enabling precise diagnosis and targeted treatment, the **Fluid Culture** test contributes to faster recovery, reduced complications, and better overall patient outcomes.\n\n## What Conditions Can the Fluid Culture Test Diagnose?\n\nThe **Fluid Culture** test is instrumental in diagnosing a range of serious infections by identifying the causative pathogens in specific body fluids. These conditions include:\n\n- **Bacterial Meningitis and Encephalitis:** Diagnosed via Cerebrospinal Fluid (CSF) culture. Common pathogens include Streptococcus pneumoniae, Neisseria meningitidis, and Haemophilus influenzae (though less common now due to vaccination).\n- **Pleural Effusion/Empyema:** Diagnosed via pleural fluid culture (fluid from around the lungs). This can identify bacterial infections causing an accumulation of pus in the pleural space.\n- **Septic Arthritis:** Diagnosed via synovial fluid culture (fluid from a joint). Pathogens like Staphylococcus aureus and Streptococci are common culprits.\n- **Spontaneous Bacterial Peritonitis (SBP):** Diagnosed via ascitic fluid culture (fluid from the abdominal cavity), often in patients with cirrhosis. E. coli and other gut bacteria are frequently implicated.\n- **Pericarditis/Pericardial Effusion:** Diagnosed via pericardial fluid culture (fluid from the sac around the heart) if an infection is suspected as the cause of inflammation or fluid buildup.\n- **Other Localized Infections:** The test can be used for any normally sterile body fluid where an infection is suspected, such as bursal fluid (bursitis) or abscess fluid if collected appropriately. It helps confirm a **fluid culture for bacterial infection** in these sites.\n\n## Preparing for Your Fluid Culture Test\n\nProper preparation is important for accurate **Fluid Culture** results and a smooth **fluid culture sample collection** (SK2) process at Cadabams Diagnostics.\n\n**Instructions:**\n\n- **Fasting:** Generally, no fasting is required for the **Fluid Culture** test itself. However, if sedation or general anesthesia is planned for the fluid collection procedure (which is rare for most fluid aspirations but possible in certain complex cases), your doctor will provide specific fasting instructions.\n- **Medications:** It is crucial to inform your doctor at Cadabams Diagnostics about all medications you are currently taking. This includes prescription drugs, over-the-counter medicines, herbal supplements, and especially any antibiotics. Recent antibiotic use can affect **Fluid Culture** results.\n- **Allergies:** Inform your doctor and the medical team about any allergies you have, particularly to local anesthetics (like lidocaine), antiseptics (like iodine or chlorhexidine), or latex.\n- **Underlying Health Conditions:** Disclose any underlying health conditions, especially bleeding disorders, or if you are taking blood-thinning medications (anticoagulants like warfarin, or antiplatelet drugs like aspirin or clopidogrel).\n- **Specific Instructions:** Follow any specific instructions provided by your doctor at Cadabams Diagnostics related to the **fluid culture sample collection** (SK2) procedure for your particular type of fluid.\n\n**Prerequisites:**\n\n- **Doctor's Referral:**  A **Fluid Culture** test must be ordered by a qualified healthcare provider.\n- **Informed Consent:** For invasive fluid collection procedures (e.g., lumbar puncture, thoracentesis, arthrocentesis), you will likely be asked to sign a consent form after the procedure, its benefits, and risks have been explained to you.\n\n**Eligibility:**\n\n- The need for a **Fluid Culture** test is determined by your doctor based on your clinical symptoms, medical history, and other diagnostic findings.\n- Your doctor will assess any relative contraindications for the specific **fluid culture sample collection** (SK2) procedure. For instance, a significant bleeding disorder or infection at the puncture site might be a contraindication for procedures like a lumbar puncture.\n\n**Procedure for Taking the Test (Sample Collection):**\n\n- The **fluid culture sample collection** (SK2) is a medical procedure performed by a trained doctor or other qualified healthcare professional at Cadabams Diagnostics. Strict sterile (aseptic) techniques are used throughout the process to prevent contamination of the sample.\n- The general steps involve:\n\n        1. **Site Preparation:** The skin over the area where the fluid will be collected is thoroughly cleaned with an antiseptic solution.\n\n        2. **Local Anesthesia:** In most cases, a local anesthetic is injected into the skin and deeper tissues to numb the area and minimize discomfort during the procedure.\n\n        3. **Needle Insertion**: A sterile needle is carefully inserted through the skin and into the body cavity or space where the fluid is located (e.g., into the spinal canal for CSF, the pleural space for pleural fluid, a joint capsule for synovial fluid). The type of needle and specific technique will vary depending on the fluid being collected. Imaging guidance (like ultrasound) may be used for some procedures to ensure accurate needle placement.\n\n        4. **Fluid Aspiration:** Once the needle is correctly positioned, a sample of the body fluid is withdrawn into a sterile syringe or collection tube. The amount of fluid collected depends on the type of test and the suspected condition.\n\n        5. **Needle Removal and Dressing:** After the sample is collected, the needle is removed, and pressure is applied to the site to stop any bleeding. A sterile dressing or bandage is then applied.\n\n- **Laboratory Transport:** The collected fluid sample is immediately labeled and sent promptly to the Cadabams Diagnostics microbiology laboratory for processing and culturing. Rapid transport and proper handling are essential for accurate results.\n\n**Caution Before the Test:**\n\n- **Crucial: Antibiotic Use:** Inform your doctor and the medical team at Cadabams Diagnostics if you have taken any antibiotics recently, or are currently taking them. Antibiotics can kill or inhibit the growth of bacteria, potentially leading to a false-negative **Fluid Culture** result even if an infection is present.\n- **Bleeding Disorders/Medications:** Re-confirm with the team if you have any bleeding disorders or are on blood-thinning medications, as this can increase the risk of bleeding during the **fluid culture sample collection** SK2). Your doctor will advise if any (medication adjustments are needed.\n\n**Allergies:** Remind the staff of any known allergies (e.g.,  to antiseptics like iodine, or local anesthetics like lidocaine) just before the procedure."
+  },
+  "category": {
+    "id": "671b5104ad9bf8d210384d23",
+    "name": "Blood",
+    "tests": [
+      "671b5105ad9bf8d210384d2f",
+      "671b5105ad9bf8d210384d30",
+      "671c7cc7c8a77735c8e4410e",
+      "671c7dd9c8a77735c8e44129",
+      "6720b1f4b61a968f2fc61587",
+      "672bab2e21cadfab64a6f854",
+      "672badc221cadfab64a6f870",
+      "672bafa721cadfab64a6f879",
+      "672bb18821cadfab64a6f88b",
+      "672de64ff06b4489abc3ead2",
+      "672df2d84280ae87a405c16e",
+      "6731ae1d03598b92c151a2fd",
+      "6736dda903598b92c151cd8f",
+      "673add2deffae454707dce63",
+      "673ae94aeffae454707dd4cb",
+      "673aed5beffae454707dd650",
+      "673b02ddeffae454707ddc3e",
+      "673b0850effae454707dde45",
+      "674378945c1d2938425e3826",
+      "677e3f1fc75a57396559117b",
+      "677e4c7ac75a57396559144f",
+      "677e558dc75a573965591506",
+      "677f5bbbc75a573965592981",
+      "677f63fec75a573965592a8a",
+      "677f6dd7c75a573965592e66",
+      "6780aa92c75a573965594b9e",
+      "6780b008c75a573965594cd0",
+      "6780b51bc75a573965594e62",
+      "6780e0c9c75a573965595b62",
+      "6784b0b5c75a5739655993aa",
+      "6784b479c75a5739655994d6",
+      "6784bd4ac75a57396559962b",
+      "6784c79ac75a573965599843",
+      "6785f4f4c75a57396559adb5",
+      "67862a19c75a57396559b1aa",
+      "678742d7c75a57396559bb99",
+      "67875312c75a57396559bcfe",
+      "678756fbc75a57396559bd18",
+      "67878c5ac75a57396559c3fe",
+      "6788b8f1c75a57396559dc1b",
+      "6788c194c75a57396559dcff",
+      "6788c4c5c75a57396559dd1c",
+      "6788c72ec75a57396559dd64",
+      "6788c905c75a57396559ddbc",
+      "6788e11fc75a57396559e223",
+      "6788e538c75a57396559e2f9",
+      "6788e968c75a57396559e320",
+      "6789f884c75a57396559f93d",
+      "6789ff1fc75a57396559fa11",
+      "678a14b9c75a5739655a0061",
+      "678a27dac75a5739655a03ba",
+      "678a2aacc75a5739655a0414",
+      "678a352dc75a5739655a04cc",
+      "678f4d28c75a5739655a64fe",
+      "678f5026c75a5739655a651f",
+      "678f5325c75a5739655a656a",
+      "678f56c1c75a5739655a65d1",
+      "6790b2bfc75a5739655a81a6",
+      "6790d4c6c75a5739655a8561",
+      "6790d79fc75a5739655a8575",
+      "6791e394c75a5739655a9665",
+      "6791e9a3c75a5739655a9760",
+      "679269cbc75a5739655aa38d",
+      "67933b23c75a5739655ab936",
+      "67933e64c75a5739655aba12",
+      "67938377c75a5739655ac780",
+      "681c5aa016444f3c1158cdea",
+      "681c5f7b16444f3c1158cf21",
+      "681c62fc16444f3c1158d13f",
+      "681c6f5a16444f3c1158d281",
+      "681c753a16444f3c1158d2af",
+      "681c787716444f3c1158d2fd",
+      "681c7b2e16444f3c1158d37b",
+      "681c7f4f16444f3c1158d3f4",
+      "681c843316444f3c1158d4b8",
+      "681c882b16444f3c1158d501",
+      "681c8b7816444f3c1158d68b",
+      "681c8d8f16444f3c1158d6d9",
+      "681c93ec16444f3c1158d7ed",
+      "681cd1a016444f3c1158dffa",
+      "681cd56516444f3c1158e06c",
+      "681cdeb116444f3c1158e0f4",
+      "681da2f116444f3c11590072",
+      "681daafe16444f3c1159033c",
+      "68233a4f16444f3c1159a0c1",
+      "68233d5116444f3c1159a115",
+      "682342c516444f3c1159a324",
+      "682345df16444f3c1159a424",
+      "682348d916444f3c1159a4af",
+      "682361d216444f3c1159a778",
+      "6823654a16444f3c1159a858",
+      "6823680916444f3c1159a8ce",
+      "68236ae016444f3c1159a8ed",
+      "68236e0816444f3c1159a96b",
+      "6823711816444f3c1159aa44",
+      "68246ae716444f3c1159cb20",
+      "6826d34116444f3c115a2103",
+      "682764af16444f3c115a4520",
+      "68276e9216444f3c115a4570",
+      "6828531316444f3c115a5ae8",
+      "68285d5116444f3c115a5c03",
+      "6829e19016444f3c115a8766",
+      "682a035816444f3c115a8bea",
+      "682ad43f16444f3c115aa27f",
+      "682afafc16444f3c115aafc9",
+      "682b0c3916444f3c115ab408",
+      "682c17e016444f3c115ad688",
+      "682c20be16444f3c115ad8d6",
+      "682c273216444f3c115adb6c",
+      "682c307c16444f3c115adeda",
+      "682c38c916444f3c115ae0bb",
+      "682c402016444f3c115ae18c",
+      "682c5add16444f3c115ae472",
+      "682c612d16444f3c115ae4ff",
+      "682c6a8216444f3c115ae6ea",
+      "682c6e5516444f3c115ae75e",
+      "682c728d16444f3c115ae801",
+      "682c7d2a16444f3c115aea3c",
+      "682c81a416444f3c115aeaad",
+      "682c9ea116444f3c115aee10",
+      "682ca79a16444f3c115aef47",
+      "682d155a16444f3c115af60c",
+      "682d49e716444f3c115afca2",
+      "682d67cb16444f3c115affdf",
+      "682d6cbc16444f3c115b0144",
+      "682d6f4016444f3c115b01c0",
+      "682d72e416444f3c115b045a",
+      "682d755b16444f3c115b047c",
+      "682d795516444f3c115b058e",
+      "682d870316444f3c115b08e6",
+      "682d8bb816444f3c115b09e7",
+      "682d8eff16444f3c115b0a2c",
+      "682d925716444f3c115b0a4f",
+      "682db90c16444f3c115b154f",
+      "682dbd7716444f3c115b176b",
+      "682dbfa616444f3c115b17c3",
+      "682dc1d316444f3c115b17e8",
+      "682dc48f16444f3c115b18dc",
+      "682dc6c616444f3c115b1a3d",
+      "682dc91c16444f3c115b1a7a",
+      "682dcb8916444f3c115b1b3b",
+      "682dcc1916444f3c115b1b82",
+      "682dce3416444f3c115b1c2b",
+      "682dd3fc16444f3c115b1dcd",
+      "682dd68c16444f3c115b1e6c",
+      "682dda9316444f3c115b1ff3",
+      "682df4d416444f3c115b2479",
+      "682df79a16444f3c115b24d9",
+      "682dfa1c16444f3c115b24ff",
+      "682dfc9c16444f3c115b2647",
+      "682ed34816444f3c115b3c0a",
+      "682ed75116444f3c115b3c7d",
+      "682edbef16444f3c115b3d48",
+      "682ee8da16444f3c115b4135",
+      "682eebe116444f3c115b41c6",
+      "682eeef716444f3c115b41ea"
+    ],
+    "image": "/lab-tests/image-1729663337220-267264710.webp",
+    "path": "/blood-tests",
+    "createdAt": "2024-10-23T06:02:45.534Z",
+    "updatedAt": "2024-10-23T06:02:45.534Z",
+    "markdown": "Blood test"
+  },
+  "relatedTests": []
+}

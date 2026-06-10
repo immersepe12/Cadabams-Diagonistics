@@ -10,7 +10,6 @@ import {
   Clock,
   HeartPulse,
   Beaker,
-  Sparkles,
   Search,
   X,
   SlidersHorizontal,
@@ -27,12 +26,12 @@ import {
   type NonLabTest,
   type NonLabTestCategory,
   getAllNonLabTestCategories,
-  getNonLabTestCategoryBySlug,
   getNonLabTestsByCategoryId,
   getNonLabCategorySlug,
   getNonLabPriceNumber,
   getNonLabDiscountedPriceNumber,
 } from "@/lib/data/nonlabtests";
+import { getScanListingPage } from "@/lib/data/allpages";
 import { nonLabTestUrl } from "@/lib/urls";
 import { TestCard } from "@/components/shared/TestCard";
 import {
@@ -187,8 +186,10 @@ export function ScanListing({
   localFilters = false,
   initialFilterKey,
 }: ScanListingProps) {
-  const category = getNonLabTestCategoryBySlug(familyPath);
-  if (!category) notFound();
+  // Source the listing's own data from its route-mirrored JSON file.
+  const page = getScanListingPage(familyPath);
+  if (!page) notFound();
+  const category = page.category;
 
   const basePath = `/bangalore/${familyPath}`;
   const searchQuery = (searchParams?.q ?? "").trim();
@@ -197,7 +198,7 @@ export function ScanListing({
     parseInt(searchParams?.page || "1", 10) || 1,
   );
 
-  const allTests = getNonLabTestsByCategoryId(category.id).filter(
+  const allTests = page.tests.filter(
     (t) => t.testName && t.testName.trim().length > 0,
   );
   const filteredTests = allTests.filter((t) => matchesSearch(t, searchQuery));
@@ -313,16 +314,6 @@ export function ScanListing({
                 Bangalore. Fast reports, certified equipment, trusted by
                 10,000+ patients.
               </p>
-
-              <div className="mt-5 flex flex-wrap gap-3">
-                <Link
-                  href="#scans"
-                  className="inline-flex items-center justify-center gap-2 rounded-pill bg-white text-orange-700 font-bold px-6 py-3 text-body shadow-sh-2 hover:brightness-95 active:scale-[0.98] transition-all"
-                >
-                  <Sparkles className="w-4 h-4" />
-                  Browse scans
-                </Link>
-              </div>
             </div>
 
             {category.image && (
@@ -438,110 +429,108 @@ export function ScanListing({
       </section>
 
       <div className="mx-auto max-w-7xl px-gutter pb-10 lg:pb-12 space-y-5">
-        {markdownSections.map((section, i) => {
-          const imageRight = i % 2 === 1;
-          if (!section.image) {
-            return (
-              <section
-                key={`md-section-${i}`}
-                className="bg-cream-card rounded-2xl shadow-sh-2 border border-cream-line p-4 sm:p-6 lg:p-8"
-              >
-                <h2 className="text-h2 font-display font-bold text-ink-900 mb-4">
-                  {section.title}
-                </h2>
-                <MarkdownContent content={section.body} />
-              </section>
-            );
-          }
-          return (
-            <section
-              key={`md-section-${i}`}
-              className="bg-cream-card rounded-2xl shadow-sh-2 border border-cream-line p-4 sm:p-6 lg:p-8 overflow-hidden"
-            >
-              <div
-                className={cn(
-                  "grid gap-6 lg:gap-10 items-center",
-                  "lg:grid-cols-[1fr_1fr]",
-                )}
-              >
-                <div className={cn(imageRight ? "lg:order-1" : "lg:order-2")}>
-                  <div className="relative aspect-[4/3] rounded-2xl overflow-hidden bg-cream-soft border border-cream-line shadow-sh-1">
-                    {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img
-                      src={section.image.src}
-                      alt={section.image.alt || section.title}
-                      loading="lazy"
-                      className="absolute inset-0 w-full h-full object-cover"
-                    />
+        {(markdownSections.length > 0 || hasInterpretations) && (
+          <div className="bg-cream-card rounded-sm shadow-sh-2 p-4 sm:p-6 lg:p-8 space-y-8">
+            {markdownSections.map((section, i) => {
+              const imageRight = i % 2 === 1;
+              if (!section.image) {
+                return (
+                  <section key={`md-section-${i}`}>
+                    <h2 className="text-h2 font-display font-bold text-ink-900 mb-4">
+                      {section.title}
+                    </h2>
+                    <MarkdownContent content={section.body} />
+                  </section>
+                );
+              }
+              return (
+                <section key={`md-section-${i}`} className="overflow-hidden">
+                  <div
+                    className={cn(
+                      "grid gap-6 lg:gap-10 items-center",
+                      "lg:grid-cols-[1fr_1fr]",
+                    )}
+                  >
+                    <div className={cn(imageRight ? "lg:order-1" : "lg:order-2")}>
+                      <div className="relative aspect-[4/3] rounded-2xl overflow-hidden bg-cream-soft border border-cream-line shadow-sh-1">
+                        {/* eslint-disable-next-line @next/next/no-img-element */}
+                        <img
+                          src={section.image.src}
+                          alt={section.image.alt || section.title}
+                          loading="lazy"
+                          className="absolute inset-0 w-full h-full object-cover"
+                        />
+                      </div>
+                    </div>
+                    <div className={cn(imageRight ? "lg:order-2" : "lg:order-1")}>
+                      <h2 className="text-h2 font-display font-bold text-ink-900 mb-3">
+                        {section.title}
+                      </h2>
+                      <MarkdownContent content={section.body} />
+                    </div>
                   </div>
-                </div>
-                <div className={cn(imageRight ? "lg:order-2" : "lg:order-1")}>
-                  <h2 className="text-h2 font-display font-bold text-ink-900 mb-3">
-                    {section.title}
-                  </h2>
-                  <MarkdownContent content={section.body} />
-                </div>
-              </div>
-            </section>
-          );
-        })}
+                </section>
+              );
+            })}
 
-        {hasInterpretations && (
-          <section className="bg-cream-card rounded-2xl shadow-sh-2 border border-cream-line p-4 sm:p-6 lg:p-8">
-            <h2 className="text-h2 font-display font-bold text-ink-900 mb-4">
-              Test Results
-            </h2>
-            {interpretations.title && (
-              <p className="text-body-sm text-ink-600 mb-4">
-                {interpretations.title}
-              </p>
-            )}
-            <div className="overflow-x-auto rounded-md border border-cream-line">
-              <table className="w-full border-collapse">
-                <thead>
-                  <tr className="bg-cream-soft">
-                    {interpretations.cols
-                      .filter((c) => c && c.trim().length > 0)
-                      .map((c, i) => (
-                        <th
-                          key={i}
-                          className="text-left text-body-sm font-semibold text-ink-900 px-4 py-3 border-b border-cream-line"
+            {hasInterpretations && (
+              <section>
+                <h2 className="text-h2 font-display font-bold text-ink-900 mb-4">
+                  Test Results
+                </h2>
+                {interpretations.title && (
+                  <p className="text-body-sm text-ink-600 mb-4">
+                    {interpretations.title}
+                  </p>
+                )}
+                <div className="overflow-x-auto rounded-md border border-cream-line">
+                  <table className="w-full border-collapse">
+                    <thead>
+                      <tr className="bg-cream-soft">
+                        {interpretations.cols
+                          .filter((c) => c && c.trim().length > 0)
+                          .map((c, i) => (
+                            <th
+                              key={i}
+                              className="text-left text-body-sm font-semibold text-ink-900 px-4 py-3 border-b border-cream-line"
+                            >
+                              {c.trim()}
+                            </th>
+                          ))}
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {interpretations.rows.map((row, ri) => (
+                        <tr
+                          key={ri}
+                          className="border-b border-cream-line last:border-b-0"
                         >
-                          {c.trim()}
-                        </th>
+                          {row
+                            .filter(
+                              (_, ci) =>
+                                interpretations.cols[ci] &&
+                                interpretations.cols[ci].trim().length > 0,
+                            )
+                            .map((cell, ci) => (
+                              <td
+                                key={ci}
+                                className="px-4 py-3 text-body-sm text-ink-700 align-top"
+                              >
+                                {cell.trim()}
+                              </td>
+                            ))}
+                        </tr>
                       ))}
-                  </tr>
-                </thead>
-                <tbody>
-                  {interpretations.rows.map((row, ri) => (
-                    <tr
-                      key={ri}
-                      className="border-b border-cream-line last:border-b-0"
-                    >
-                      {row
-                        .filter(
-                          (_, ci) =>
-                            interpretations.cols[ci] &&
-                            interpretations.cols[ci].trim().length > 0,
-                        )
-                        .map((cell, ci) => (
-                          <td
-                            key={ci}
-                            className="px-4 py-3 text-body-sm text-ink-700 align-top"
-                          >
-                            {cell.trim()}
-                          </td>
-                        ))}
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-          </section>
+                    </tbody>
+                  </table>
+                </div>
+              </section>
+            )}
+          </div>
         )}
 
         {hasFaqs && (
-          <section className="bg-cream-card rounded-2xl shadow-sh-2 border border-cream-line p-4 sm:p-6 lg:p-8">
+          <section className="bg-cream-card rounded-sm shadow-sh-2 border border-cream-line p-4 sm:p-6 lg:p-8">
             <h2 className="text-h2 font-display font-bold text-ink-900 mb-5">
               FAQs
             </h2>

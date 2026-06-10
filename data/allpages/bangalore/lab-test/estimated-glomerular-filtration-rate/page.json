@@ -1,0 +1,439 @@
+{
+  "type": "labtest-detail",
+  "route": "/bangalore/lab-test/estimated-glomerular-filtration-rate",
+  "slug": "estimated-glomerular-filtration-rate",
+  "test": {
+    "id": "681c725916444f3c1158d291",
+    "templateName": "labtest",
+    "testName": "eGFR ",
+    "route": "/estimated-glomerular-filtration-rate",
+    "basic_info": {
+      "name": "eGFR ",
+      "route": "/estimated-glomerular-filtration-rate",
+      "categoryId": "671b5104ad9bf8d210384d29",
+      "testId": 7766079,
+      "discount": "",
+      "discountedPrice": 500,
+      "reportsWithin": "3hr",
+      "Identifies": " The rate of filtration of blood by the kidneys ",
+      "measures": "Efficiency of kidney function and filtration of the glomeruli",
+      "price": 500,
+      "testCategory": "Biochemistry"
+    },
+    "requisites": [
+      {
+        "value": "Blood test including the test for creatinine level"
+      }
+    ],
+    "packages": [],
+    "faqs": [
+      {
+        "question": "What does a low eGFR mean?  ",
+        "answer": "A low eGFR level reflects an indication of **reduced kidney function**, which possibly suggests **kidney disease**. As the eGFR continues to lower, the dysfunction of kidneys becomes greater."
+      },
+      {
+        "question": "Can eGFR be inaccurate?  ",
+        "answer": "In some instances, particularly with very high or low muscle mass, as well as being very young or elderly, eGFR might not be accurate. To assess the kidney function, a doctor may suggest some other tests."
+      },
+      {
+        "question": "How often should I get an eGFR test?",
+        "answer": "A patient with a risk factor such as diabetes, hypertension or a family history with kidney disease may be advised by the doctor to undergo annual eGFR examinations or even more frequent than that."
+      },
+      {
+        "question": "Can I improve my eGFR score?  ",
+        "answer": "Some factors, including age and genetics, are predetermined; however, managing chronic illnesses, avoiding medications detrimental to the kidneys, hydration, and living an active lifestyle can greatly improve kidney health."
+      }
+    ],
+    "interpretations": {
+      "title": "Test Interpretations",
+      "cols": [
+        "Condition/Findings ",
+        "Description ",
+        "Interpretation "
+      ],
+      "rows": [
+        [
+          "eGFR > 90 mL/min/1.73 m² ",
+          "Kidneys are functioning normally. ",
+          "Normal kidney function, no significant kidney disease. "
+        ],
+        [
+          "eGFR between 60–89 mL/min/1.73 m² ",
+          "Mildly decreased kidney function. ",
+          "May indicate early-stage CKD or age-related decline in kidney function. "
+        ],
+        [
+          "eGFR between 30–59 mL/min/1.73 m² ",
+          "Moderate decrease in kidney function. ",
+          "Suggests moderate kidney damage or CKD. Management and lifestyle changes advised. "
+        ],
+        [
+          "eGFR between 15–29 mL/min/1.73 m² ",
+          "Severe decrease in kidney function. ",
+          "Indicates severe kidney damage or advanced CKD. Dialysis or transplant may be needed. "
+        ],
+        [
+          "eGFR < 15 mL/min/1.73 m² ",
+          "Kidney failure. ",
+          "End-stage renal disease (ESRD). Dialysis or kidney transplant is required. "
+        ]
+      ]
+    },
+    "relative_test": {
+      "title": "",
+      "categoryId": "671b5104ad9bf8d210384d29",
+      "tests": [
+        {
+          "id": "672df7bc4280ae87a405c2a9",
+          "testName": "CREATININE",
+          "route": "/creatinine-test-ct"
+        },
+        {
+          "id": "673711a9996e7737b6f4dc9c",
+          "testName": "Kidney Blood Test ",
+          "route": "/kidney-function-test-kft"
+        },
+        {
+          "id": "679385c8c75a5739655ac869",
+          "testName": "URINE PROTEIN CREATININE RATIO",
+          "route": "/urine-protien-creatinine-ratio-test-upcrt"
+        }
+      ]
+    },
+    "seo": {
+      "title": "Estimated Glomerular Filtration Rate (eGFR) Test Guide",
+      "description": "Learn what the estimated glomerular filtration rate (eGFR) test means, how it's done, and why it’s important for kidney function evaluation. Full patient guide.",
+      "keywords": "",
+      "canonicalUrl": "",
+      "ogTitle": "",
+      "ogDescription": "",
+      "ogImage": "",
+      "schemaMarkup": "",
+      "robotsMeta": ""
+    },
+    "markdown": "## What Is the eGFR Test and Why Is It Important?\n\nThe eGFR is a blood test-based assessment of kidney function in an individual. It determines, in this case, the volume of blood filtered within the various kidneys’ structures called glomeruli per minute. Such an assessment can measure the health assessment of the kidneys and also aid in diagnosing chronic kidney disease (CKD) or serve in monitoring the condition in patients who have one.\n\nAdditionally, the assessment is done with the creatinine testing and results are analysed based on the age, gender, and ethnicity of the subject. Early detection of chronic kidney disease is vital, and this test, with others, helps identifying it well in advance before symptoms emerge.\n\n## What Does the Estimated Glomerular Filtration Rate Test Measure?\n\nThe eGFR test assesses the glomerular filtration rate, which is indicative of the kidney's waste and fluid removal efficiency.\n\nReduced eGFR indicates decreased kidney function, which could mean kidney disease or kidney injury. eGFR can be computed using the blood serum creatinine concentration, which is a byproduct of muscle activity.\n\nFor most individuals, an eGFR of 60 mL/min/1.73 m² or higher is considered normal. Thus, values below this level, especially if sustained over time, may suggest declining kidney function.\n\n## Common Situations for Taking the eGFR Blood Test\n\nThe eGFR test is most commonly taken in:\n\n- Routine check-ups: As part of general health evaluation and renal function assessment.\n- Chronic kidney disease (CKD) monitoring: For patients diagnosed with renal disorders or at increased risk for CKD (diabetes and hypertension).\n- Preoperative assessment: To verify renal function prior to a major surgical intervention.\n- Diabetic or hypertensive patients: eGFR testing aids in timely diagnosis as these conditions tend to deteriorate renal function over time.\n- Those on medications that could harm kidney function: Regular eGFR monitoring has potential to track if these drugs are causing any harm to the kidneys.\n\n## Risks and Limitations of the eGFR Blood Test\n\n- Risks:\n- The eGFR exam requires a blood sample, which has the potential to cause localized discomfort, bruising, or swelling.\n- While minor procedures are often risk-free, participants with challenging veins or similar difficulties may face complicated scenarios and exposed heightened risk.\n- Limitations:\n- Not a definitive diagnosis: The eGFR provides an estimation of kidney function but should not be relied upon alone to gauge a patient’s kidney health without additional diagnostics.\n- Affected by muscle mass: The eGFR depends on creatinine concentration, which is influenced by muscle mass, for this reason, the estimate may be unreliable in individuals with low or high muscle mass. Bodybuilders and people suffering from muscle-wasting disease for instance.\n- Ethnicity considerations: The eGFR formula incorporates ethnicity suffering from certain diseases may have weaker kidneys than others by virtue of their race. Although such adjustments are not particularly applicable to all.\n\n## Parameters Evaluated in eGFR Testing\n\nFor the eGFR test, the main parameter assessed is the glomerular filtration rate, representing how well the kidneys filter blood. This is determined based on:\n\n- Serum creatinine levels: The amount of creatinine in the bloodstream, which is a result of muscular metabolic activity.\n- Age: Kidney function generally declines with age, and this is considered when calculating eGFR.\n- Gender: Men and women may have different average muscle masses, which would influence their creatinine levels and eGFR calculations.\n- Ethnicity: Certain populations such as African Americans may have different average creatinine levels which are factored into the calculations.\n- Body size: The normal body surface area for eGFR is 1.73 m., which means it is often adjusted to this figure.\n\n## Who Should Take the eGFR Test?\n\n- Individuals with chronic conditions: Diabetes, hypertension, or heart disease greatly increases the chances of a person getting a kidney disease, hence regular check of eGFR is necessary.\n- People who have a family history of kidney disease: If your family has a history of kidney diseases, regular eGFR checking can aid in early detection of issues.\n- Elderly patients: Like other parts of the body, the kidneys can age, and for this group, routine eGFR testing is particularly important.\n- Patients on medications with potential renal implications: The use of some drugs, like NSAIDs, certain antibiotics, and some antihypertensives, which impact kidney function, also indicate the need for eGFR testing.\n\n## Benefits of Taking the eGFR Test\n\n- Preventive measures for kidney ailments: The eGFR test has the potential to detect kidney damage and diseases at an early stage, providing opportunities for intervention long before any clinical manifestations.\n- To assess decline in kidney function over time. Frequent eGFR assessments help in monitoring the progression of kidney disease in patients with diabetes, hypertension, or a familial predisposition to renal disease.\n- Improved therapeutic adherence. Action eGFR results, health workers can modify dosages of some drugs or recommend certain lifestyle modifications to mitigate risks and protect renal function.\n- Pre-emptive action. eGFR monitoring can avert advancements toward kidney failure that might necessitate dialysis or a kidney transplant.\n\nSituations prompting eGFR testing:\n\n- Screening for kidney issues in people who are considered high risk.\n- Changing dosages of medications depending on the patient's kidney function.\n- Monitoring kidney health in the wider population with chronic illnesses.\n\n## Conditions Identified by the eGFR Test\n\nThe eGFR test can assist in diagnosis or monitoring of:\n\n- Chronic Kidney Disease (CKD): eGFR is essential in evaluating kidney function and determining the stage of CKD.\n- Acute Kidney Injury (AKI): eGFR can aid in the diagnosis of a decline in kidney function due to acute illness or injury.\n- Diabetic nephropathy: eGFR aids in monitoring the progression of kidney damage stemming from diabetes and allows for timely intervention.\n- End stage kidney failure: eGFR is utilized to assess the advancement towards end stage kidney failure where dialysis or transplant may be needed.\n- Hypertensive nephropathy : High blood pressure over time can cause kidney damage and eGFR is useful in assessing the degree of damage sustained.\n- Kidney infections or glomerulonephritis: Inflammatory kidney diseases can be screened for using abnormal eGFR values.\n\n## Before You Take the eGFR Blood Test\n\n**Custom Instructions**\n\n- None, in this case, there are no requirements. This is a blood test which is quite straightforward and uncomplicated. There is no fasting prerequisite as well as no need to change medications.\n- For some patients who have their kidney function monitored in correlation with a certain medication, the doctor may choose to have the patient do the test post medication ingestion.\n\nPrerequisites for the Estimated Glomerular Filtration Rate Test\n\n- A **sample of blood** is required to be drawn, which is done at the cubital vein of the arm. Most clinics or labs have these procedures.\n\nAge Criteria for the eGFR Test\n\n- Every person who is at risk of developing chronic kidney disease (CKD), specifically people with diabetes, hypertension, and those with a familial precipitate of kidney disease, needs to undergo eGFR testing as part of their routine examinations.\n\nHow the eGFR Blood Test Is Performed\n\n- A nurse extracts a blood sample from the patient’s arm and quantifies his or her creatinine levels. Afterward, the blood will be tested in a laboratory which will compute the eGFR basing on the serum creatinine level and other variables of the patient like age, gender, and race.\n\nCaution Before undergoing the eGFR Test\n\n- During the consult, be sure to discuss with the physician any associated pharmaceutical intake as they might modify the kidney function as eGFR tests will be impacted on how they manipulate renal function."
+  },
+  "category": {
+    "id": "671b5104ad9bf8d210384d29",
+    "name": "Kidney",
+    "tests": [
+      "672df7bc4280ae87a405c2a9",
+      "673711a9996e7737b6f4dc9c",
+      "679385c8c75a5739655ac869",
+      "681c725916444f3c1158d291"
+    ],
+    "image": "/lab-tests/image-1729663959118-621550631.webp",
+    "path": "/kidney-tests",
+    "createdAt": "2024-10-23T06:13:08.734Z",
+    "updatedAt": "2024-10-23T06:13:08.734Z",
+    "markdown": "Kidney Tests"
+  },
+  "relatedTests": [
+    {
+      "id": "672df7bc4280ae87a405c2a9",
+      "templateName": "labtest",
+      "testName": "CREATININE",
+      "route": "/creatinine-test-ct",
+      "basic_info": {
+        "name": "CREATININE",
+        "route": "/creatinine-test-ct",
+        "categoryId": "671b5104ad9bf8d210384d29",
+        "price": 125,
+        "discount": "0",
+        "discountedPrice": 125,
+        "reportsWithin": "6 hrs",
+        "Identifies": "Kidney function and health ",
+        "measures": "Creatinine levels in blood",
+        "testId": 7766187,
+        "testCategory": "Biochemistry"
+      },
+      "requisites": [
+        {
+          "value": "Apple juice diet may be required, maintained hydration record"
+        }
+      ],
+      "packages": [],
+      "faqs": [
+        {
+          "question": "How long does it take to get the results? ",
+          "answer": "The results are usually available within 1-2 days."
+        },
+        {
+          "question": "Is the test painful in any way?",
+          "answer": "There is a slight pinch when the needle is put into the skin bay normally it is not painful."
+        },
+        {
+          "question": "Is it necessary to refrain from eating before the test? ",
+          "answer": "Some short fasting may be required, but again that is based on what the doctor prescribes."
+        },
+        {
+          "question": "So, can the test be influenced by the intake of food? ",
+          "answer": "Yes, too much protein intake may lead to raised levels of creatine for a short while."
+        },
+        {
+          "question": "How often should the test be taken? ",
+          "answer": "The recommended frequency of the test varies with different personal health conditions, so it’s better to talk to your healthcare provider."
+        }
+      ],
+      "interpretations": {
+        "title": " Interpreting the Results of Your Creatinine Test ",
+        "cols": [
+          "Category\t",
+          "Result Range\t",
+          "Interpretation"
+        ],
+        "rows": [
+          [
+            "Normal Range ",
+            "",
+            ""
+          ],
+          [
+            "Adult males\t",
+            "0.74 to 1.35 mg/dL",
+            "Normal creatinine level for adult males"
+          ],
+          [
+            "Adult females",
+            "0.59 to 1.07 mg/dL",
+            "Normal creatinine level for adult females"
+          ],
+          [
+            "Abnormal Results",
+            "",
+            ""
+          ],
+          [
+            "High Creatinine Levels",
+            "Above normal range",
+            "May indicate kidney poisoning, kidney deterioration, lack of water, effect of drugs, or muscle disorders"
+          ],
+          [
+            "Low Creatinine Levels",
+            "Below normal range",
+            "Rare but may indicate disuse atrophy of muscles or liver dysfunction"
+          ]
+        ]
+      },
+      "relative_test": {
+        "title": "",
+        "categoryId": "671b5104ad9bf8d210384d29",
+        "tests": [
+          {
+            "id": "673711a9996e7737b6f4dc9c",
+            "testName": "Kidney Blood Test ",
+            "route": "/kidney-function-test-kft"
+          }
+        ]
+      },
+      "seo": {
+        "title": "Creatinine Test in Bangalore | Cadabam's Diagnostics",
+        "description": "Book creatinine tests in Bangalore to assess kidney function. Reliable labs with quick reports.",
+        "keywords": "",
+        "canonicalUrl": "",
+        "ogTitle": "",
+        "ogDescription": "",
+        "ogImage": "",
+        "schemaMarkup": "",
+        "robotsMeta": ""
+      },
+      "markdown": "## What Is the Creatinine Test and Why It Is Important?\n\nThe creatinine test is one of the important diagnostic tests to assess the functioning of kidney. Creatinine is a product of protein and muscle metabolism, and it is mainly excreted through the kidneys. Your physician will monitor the amount of creatinine in the blood, as this plays an important role in evaluating kidney function. This test is essential for the diagnosis of several kidney diseases, evaluation of the health status of kidneys, and even more importantly to diagnose the abnormalities in the kidneys at a much early stage before significant complications occur.\n\n## What Do We Learn from the Creatinine Test?\n\nThe creatinine test is able to specifically determine the concentration of creatinine in a blood sample. High values of creatinine indicate kidney dysfunction because it means the kidneys are unable to filter out waste efficiently. This marker is useful in diagnosing kidney disorders and in assessing the kidney’s filtering efficiency regarding metabolic waste material in circulation.\n\n## In what period does the testing of creatinine usually take place?\n\nA creatinine test is usually recommended when the patient has some sign of kidney diseased states such as swelling, hypertension, fatigue or some alteration in urinary habits. This test is also routinely performed for assessment of patients suffering from chronic kidney disease, diabetes mellitus, hypertension or some other diseases affecting the renal system. Also, it is frequently performed as a part of the comprehensive metabolic panel during annual health examinations.\n\n## Is there any risk or limitation associated with creatinine test?\n\nThe creatinine test is a very simple and safe procedure with no harm or risk involved. Such risks are often related to the phlebotomy itself, and these are such as mild pain, bruising and infection on the site of needle insertion. Limitations are temporary elevations and depressions of levels of creatinine which are muscle mass, level of protein in the diet, the degree of hydration, usage of certain drugs, which can affect the results of the evaluation of the renal function.\n\n## What Are the Parameters Evaluated in The Creatinine Test?\n\nAs a focus and primary parameter evaluated in the Creatinine Test serum creatine concentration. For example, they may indicate an impairment of the function of one or more of the kidneys, protein disease, or a number of other problems, as low levels, however, are rare and do not usually have any clinical relevance. Moreover, healthcare practitioners also try to assess the degree of glomerular filtration through creatinine levels in order to have a broad understanding and assessment of the kidneys' health.\n\n## Who is Recommended to Take the Creatinine Test?\n\nThe patient is advised to take the adverse level for those who are at risk of developing kidney problems, for example diabetic patients, hypertensive individuals, and people with a family history of kidney issues. It is equally true for patients with derived kidney disorder evidence. Also, some healthcare professionals may recommend this test to patients who take or will take drugs that affect the kidney system, or to patients who are about to have procedures that involve the use of contrast media.\n\n## The Advantages of the Creatinine Test for Your Health\n\nTaking the Creatinine Test has a lot of benefits that revolve around kidney including risk factors for kidney disorders assessment, chronic kidney disease stage tracking, and formulation and alteration of treatment strategies for patients with kidney failure. It adds tremendous value with respect to kidney wellbeing in that it allows actions to be taken before further damage to the kidneys occurs which improves life expectancy and quality.\n\n## What Conditions Will the Creatinine Test Help Diagnose?\n\nThe Creatinine Test also helps in assessing many clinical conditions that include but are not limited to chronic renal disease, acute renal failure, glomerulonephritis, urinary obstruction, rhabdomyolysis, and any disease affecting the kidney. It is also good in determining the success of the dialysis treatment.\n\n## How to Prepare for Your Creatinine Test\n\n**Prerequisites:** It is wise to drink water and, in some cases, fast for a few hours, as directed by your provider, prior to commencing the test.\n\n**Eligibility:** This test is usually done for anyone but is mainly directed towards patients who show signs and symptoms or have risk factors for kidney disease.\n\n**Procedure for Taking the Test:** A physician will take a small sample of your blood, typically from a vein in your arm, during the exam you may only need a few minutes for this process.\n\n**Caution Before the Test:** Refrain from engaging in vigorous workouts and eating too much meat 24 hours before the procedure since these factors might increase creatinine levels annoyingly high."
+    },
+    {
+      "id": "673711a9996e7737b6f4dc9c",
+      "templateName": "labtest",
+      "testName": "Kidney Blood Test ",
+      "route": "/kidney-function-test-kft",
+      "basic_info": {
+        "name": "Kidney Blood Test ",
+        "route": "/kidney-function-test-kft",
+        "categoryId": "671b5104ad9bf8d210384d29",
+        "price": 800,
+        "discount": "10",
+        "discountedPrice": "720.00",
+        "reportsWithin": "6hrs",
+        "Identifies": " Creatinine, BUN, electrolyte levels ",
+        "measures": "Creatinine, BUN, electrolyte levels ",
+        "testId": ""
+      },
+      "requisites": [
+        {
+          "value": "Fasting may be required, inform doctor of medications    "
+        }
+      ],
+      "packages": [],
+      "faqs": [
+        {
+          "question": "How long does it take to get results? ",
+          "answer": "Typically, results are returned within 24-48 hours."
+        },
+        {
+          "question": " Is the test painful? ",
+          "answer": "The procedure involves minimal discomfort similar to a standard blood draw."
+        },
+        {
+          "question": "Do I need to stop eating before the test? ",
+          "answer": "Fasting might be recommended depending on the doctor’s assessment."
+        },
+        {
+          "question": "Does medication affect test results? ",
+          "answer": "Yes, certain medications can influence readings, so inform your doctor about all current drugs."
+        },
+        {
+          "question": "When should I get retested? ",
+          "answer": "Follow-up tests might be scheduled based on initial results and ongoing treatment plans."
+        }
+      ],
+      "interpretations": {
+        "title": "Test Interpretations ",
+        "cols": [
+          "Parameter",
+          "Normal Range",
+          "Result/Description",
+          "Column 4"
+        ],
+        "rows": [
+          [
+            "Creatinine",
+            "0.6 to 1.3 mg/dL",
+            "High Levels: May indicate impaired kidney function. Low Levels: Less concerning, possibly due to low muscle mass.",
+            ""
+          ],
+          [
+            "BUN",
+            "7 to 20 mg/dL",
+            "High Levels: Suggest renal dysfunction, dehydration, or high protein intake. Low Levels: May indicate a lower protein diet or liver issues.",
+            ""
+          ],
+          [
+            "GFR",
+            "90 to 120 mL/min/1.73m²",
+            "Low Levels: Signify declining kidney function.",
+            ""
+          ],
+          [
+            "Electrolytes",
+            "Varies (Sodium, Potassium, Chloride)",
+            "Out of Range Levels: Hint towards imbalances often corrected by assessing kidney function and dietary modifications.",
+            ""
+          ]
+        ]
+      },
+      "relative_test": {
+        "title": "",
+        "categoryId": "671b5104ad9bf8d210384d29",
+        "tests": [
+          {
+            "id": "672df7bc4280ae87a405c2a9",
+            "testName": "Creatinine Test ",
+            "route": "/creatinine-test-ct"
+          }
+        ]
+      },
+      "seo": {
+        "title": "Kidney Function Test (KFT): Monitor Your Kidney Health",
+        "description": "A kidney function test assesses how well your kidneys are working. Early detection helps prevent kidney diseases.",
+        "keywords": "",
+        "canonicalUrl": "",
+        "ogTitle": "",
+        "ogDescription": "",
+        "ogImage": "",
+        "schemaMarkup": "",
+        "robotsMeta": ""
+      },
+      "markdown": "## What Is the Kidney Function Blood Test and Why Is It Important?\n\nThe Kidney Function Blood Test, commonly called a Renal Panel, serves to assess kidney health and detect potential kidney-related disorders. By analyzing specific components in the bloodstream, this test helps healthcare providers evaluate if kidneys are functioning properly. Healthy kidneys are vital for filtering waste, balancing electrolytes, producing hormones, and maintaining overall body homeostasis. Hence, it is a crucial procedure for diagnosing kidney diseases and monitoring the effectiveness of various treatments.\n\n## What Does the Kidney Function Blood Test Measure?\n\nThe Kidney Function Blood Test evaluates several key health indicators such as Creatinine, Blood Urea Nitrogen (BUN), and various serum electrolytes like sodium, potassium, and chloride. Creatinine and BUN are waste products that should be efficiently filtered out by the kidneys. High levels in the blood suggest impaired kidney function. Electrolyte balance assessment is critical as it indicates how well the kidneys are regulating essential minerals and fluids.\n\n## When Is the Kidney Function Blood Test Usually Taken?\n\nThe Kidney Function Blood Test is often recommended in various situations including the presence of symptoms such as swelling in legs, fatigue, difficulty concentrating, increased urination frequency, and blood in urine. It is also frequently prescribed for patients with conditions that pose a risk to kidney health, such as diabetes, high blood pressure, and heart disease. Doctors may advise this test for monitoring kidney status during treatment with medications that potentially impact kidney function.\n\n## Are There Any Risks or Limitations to the Kidney Function Blood Test?\n\nThe Kidney Function Blood Test is a low-risk procedure involving standard blood sample collection. The most common, but minimal, risks include bruising, light-headedness, or infection at the puncture site. Limitations of the test include temporary spikes in BUN and Creatinine due to dehydration, high protein diets, or certain medications, which can impair accuracy. These factors necessitate the importance of additional evaluations for a conclusive diagnosis.\n\n## What Parameters Are Evaluated in the Kidney Function Blood Test?\n\nThe Kidney Function Blood Test evaluates a range of parameters to provide comprehensive insights into kidney health. These parameters include:\n\n   - **Creatinine:** High levels indicate impaired kidney filtration.\n\n   - **Blood Urea Nitrogen (BUN):** Elevated levels can point to potential kidney dysfunction or dehydration.\n\n   - **GFR (Glomerular Filtration Rate):** Estimates kidney efficiency in removing waste.\n\n   - **Electrolytes:** Evaluate sodium, potassium, and chloride levels to assess kidney regulation.\n\nThese parameters collectively help outline the patient's kidney function status.\n\n## Who Should Consider Taking the Kidney Function Blood Test?\n\nIndividuals experiencing unexplained fatigue, swelling, changes in urination, or symptoms of kidney dysfunction should consider this test. It is also recommended for those diagnosed with chronic illnesses like diabetes or hypertension that pose risks to kidney health. Furthermore, people over the age of 60, or those on long-term medications that may affect kidneys, are advised to monitor their renal health regularly using this test.\n\n## The Advantages of the Kidney Function Blood Test for Your Health\n\nThe Kidney Function Blood Test offers several health advantages, including early detection of kidney disease, which is crucial in preventing further deterioration of kidney health and allowing for timely treatment adjustments. It aids in monitoring the progression of already diagnosed kidney conditions and evaluates the effectiveness of ongoing treatments. This test also provides an overview of the body’s hydration and electrolyte status, forming a key component in overall health assessments.\n\n## What Conditions Can the Kidney Function Blood Test Diagnose?\n\nThe Kidney Function Blood Test can diagnose or indicate several kidney-related conditions, including chronic kidney disease (CKD), acute kidney injury, renal failure, and nephrotic syndrome. The test also brings attention to conditions arising from compromised kidney abilities, such as imbalances in electrolytes and metabolic acidosis, helping healthcare professionals intervene before further complications arise.\n\n## Preparing for Your Kidney Function Blood Test\n\n**Prerequisites:** Patients may be required to fast, avoiding food and certain medications prior to the test to ensure accurate readings. It is crucial to inform the healthcare provider about any ongoing medications or supplements.\n\n**Eligibility:** Anyone can take the test; however, it is primarily advised for individuals at risk or experiencing kidney-related symptoms.\n\n**Procedure for Taking the Test:** Upon arrival, a medical professional will clean and sterilize the site, typically in the arm, and draw a blood sample using a needle. The procedure itself only takes a few minutes.\n\n**Caution Before the Test:** Inform your doctor if you have clotting issues or if you feel unwell which may require rescheduling."
+    },
+    {
+      "id": "679385c8c75a5739655ac869",
+      "templateName": "labtest",
+      "testName": "URINE PROTEIN CREATININE RATIO",
+      "route": "/urine-protien-creatinine-ratio-test-upcrt",
+      "basic_info": {
+        "name": "URINE PROTEIN CREATININE RATIO",
+        "route": "/urine-protien-creatinine-ratio-test-upcrt",
+        "categoryId": "671b5104ad9bf8d210384d29",
+        "testId": 8212080,
+        "discount": "0",
+        "discountedPrice": "500.00",
+        "reportsWithin": "3 hrs",
+        "Identifies": "Overabundance of protein in urine sample ",
+        "measures": "Ratio between protein and creatinine in urine sample.",
+        "price": 500,
+        "testCategory": "Clinical Pathology"
+      },
+      "requisites": [
+        {
+          "value": "24 hours urine sample or any random sample "
+        }
+      ],
+      "packages": [],
+      "faqs": [
+        {
+          "question": " Is the UPCR test painful? ",
+          "answer": "No, the UPCR test is painless and only requires a urine sample."
+        },
+        {
+          "question": "How long does the UPCR test take? ",
+          "answer": "Generally, the UPCR test lasts a few minutes and results are given in few hours to maximum few days."
+        },
+        {
+          "question": "Is it possible to do the UPCR test by myself at home? ",
+          "answer": "No, the UPCR test needs certain instruments and therefore it can only be done in a laboratory or a healthcare setting.\n\nNote: This content is not intended to supplement professional medical advice, diagnosis or treatment. Always reach out to a medical practitioner for advice and treatment."
+        }
+      ],
+      "interpretations": {
+        "title": "How to Read the Urine Protein Creatinine Ratio Test Results ",
+        "cols": [
+          "Condition/Findings ",
+          "Description ",
+          "Interpretation "
+        ],
+        "rows": [
+          [
+            "Normal ",
+            "Protein-to-creatinine ratio: <0.3 mg/g Cr ",
+            "No proteinuria or kidney damage "
+          ],
+          [
+            "Abnormal ",
+            "Protein-to-creatinine ratio: ≥0.3 mg/g Cr ",
+            "Proteinuria or kidney damage "
+          ],
+          [
+            "Nephrotic range ",
+            "Protein-to-creatinine ratio: ≥3.5 mg/g Cr ",
+            "Nephrotic syndrome or severe kidney damage "
+          ]
+        ]
+      },
+      "relative_test": {
+        "title": "kidney",
+        "categoryId": "671b5104ad9bf8d210384d29",
+        "tests": [
+          {
+            "id": "672df7bc4280ae87a405c2a9",
+            "testName": "CREATININE",
+            "route": "/creatinine-test-ct"
+          },
+          {
+            "id": "673711a9996e7737b6f4dc9c",
+            "testName": "Kidney Blood Test ",
+            "route": "/kidney-function-test-kft"
+          }
+        ]
+      },
+      "seo": {
+        "title": "Urine Protein Creatinine Ratio Test in Bangalore | Kidney Health",
+        "description": "Check your kidney health with a urine protein creatinine ratio test in Bangalore. Get fast, accurate results today.",
+        "keywords": "",
+        "canonicalUrl": "",
+        "ogTitle": "",
+        "ogDescription": "",
+        "ogImage": "",
+        "schemaMarkup": "",
+        "robotsMeta": ""
+      },
+      "markdown": "## What Is Measured in the Urine Protein Creatinine Ratio Test and Is It Helpful?\n\nUPCR is a laboratory test performed to determine the presence and severity of protein in the urine. It is also important to diagnose kidney damage or kidney disease If ever protein is present in the urine in a measurable amount. The test evaluates the amount of protein present in relation to the amount of creatinine in a urine sample, thus yielding one single value. This method provides a better approach for diagnosing kidney problems than the dipstick method.\n\nWhen working with a urine sample, healthcare practitioners analyse the specimen to estimate the concentration of creatinine and protein. Using a dip assay identifies the protein content in urine sample, along with the creatinine level. Since creatinine is a stable waste substance that moves in the body in a steady rate, it means there is little variation in the creatinine level in urine. Thus, the argument of protein deficiency or surplus can be accurately estimated.\n\n## Urine Protein Results: What does Urine Protein Creatinine Ratio Test Measure?\n\nThe UPCR Test assesses the ratio of protein present and creatinine in a urine sample. It is commonly reported as a ratio in mg of protein over grams of creatinine (mg/g Cr). This ratio is useful in determining the degree of proteinuria, and to measure any kidney damage or disease.\n\n## When Is the Urine Protein Creatinine Ratio Test Usually Taken?\n\nThe UPCR exam is most administered for the reasons below:\n\n- Kidney disease screening for patients who have diabetes, high blood pressure or have a family history of kidney disease.\n- To assess kidney function in patients with a known kidney disease.\n- To establish kidney damage or disease in patients who have haematuria or proteinuria symptoms.\n\n## What risks or limitations do the Urine Protein Creatinine Ratio Test have, if any?\n\nThe UPCR exam is generally considered as a low risk and non-intrusive exam. However, there are some limitations to the test:\n\n- Failing to detect proteinuria with patients who have some degree of kidney damage.\n- Demonstrate misleading results because of urine sample contamination or some medications taken by the patients.\n- Not applicable for those having advanced stages of kidney disease or people who are into dialysis therapy.\n\n## What parameters are evaluated in the Urine Protein Creatinine Ratio Test?\n\nThe UPCR tests evaluates the following parameters:\n\n- The concentration of protein in the urine (mg/dL)\n- The concentration of creatinine in urine(g/dL)\n- The protein to creatinine ratio (mg/g Cr)\n\nThese parameters will determine the extent of proteinuria and the potential diagnosis of kidney damage or disease.\n\n## Who Should Consider Getting the Urine Protein Creatinine Ratio Test?\n\nThe people that should take a UPCR test include the following:\n\n- People that already have an existing case of kidney disease and requires frequent monitoring of their kidney functions.\n- A person that has Polycystic Kidney disease or has a risk factor such as high blood pressure, increasing family health issues, blood sugar diabetes etc.\n- A person that shows signs of having proteinuria or haematuria.\n\n## Advantages of Using the Urine Protein Creatinine Ratio Test of UPCR on Your Health\n\nSome of the benefits include: UPCR test helps in spotting, monitoring, and even diagnosing the medical condition.\n\n- If there are any signs of the high-risk factors present, a physician can treat them before any further damage is done.\n- For those who are suffering with chronic kidney disease, worrying about the condition deteriorating is not an issue, since the level of the disease is easily monitored.\n- And in case er, any A chronic symptoms such as proteinuria or even blood joined by the others shows up, the condition too can easily be treated.\n\n## What Can the Urine Protein Creatinine Ratio Test Diagnose?\n\nUPCR, as a relative finding, can diagnose:\n\n- Any traces of Abnormal Polycystic Kidneys.\n- Damage or any chronic disease of the kidneys\n- Kidney diseases such as:\n- Nephrotic Syndrome.\n- Glomerulonephritis\n\n## Collecting Information Before the Urine Protein Creatinine Ratio Test:\n\nTo get ready for the test:\n\n- Ensure that your personal physician is aware of all the medications that you take or change medications with.\n- Either provide a urine sample within a 24-hour period, or you can collect one sample at random.\n\nDo not mix urine samples with any blood or other fluids\n\n**Prerequisite:** None\n\n**Who are Eligible**: Everyone is eligible for the UPCR test.\n\n**How to Take the Test:** Collect Urine Sample\n\n**Things to do Before the Test:** Check with your professional concerning any drugs you have been using lately."
+    }
+  ]
+}

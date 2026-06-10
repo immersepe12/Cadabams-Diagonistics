@@ -1,0 +1,313 @@
+{
+  "type": "scan-detail",
+  "route": "/bangalore/ultrasound-scan/ultrasound-of-transvaginal-scan-tvs",
+  "familyPath": "ultrasound-scan",
+  "slug": "ultrasound-of-transvaginal-scan-tvs",
+  "test": {
+    "id": "673729fa996e7737b6f4e0f3",
+    "templateName": "non-labtest",
+    "testName": "Transvaginal Ultrasound (TVS) Scan ",
+    "route": "/ultrasound-of-transvaginal-scan-tvs",
+    "basic_info": {
+      "name": "Transvaginal Ultrasound (TVS) Scan ",
+      "route": "/ultrasound-of-transvaginal-scan-tvs",
+      "categoryId": "671b5102ad9bf8d210384d1c",
+      "price": 1100,
+      "alsoKnownAs": "",
+      "discount": "0",
+      "discountedPrice": "1100.00",
+      "reportsWithin": "",
+      "Identifies": "",
+      "measures": "",
+      "testId": 7769095,
+      "testCategory": "Ultrasonography"
+    },
+    "requisites": [],
+    "interpretations": {
+      "title": "",
+      "cols": [
+        "Condition/Findings\t",
+        "Description\t",
+        "Interpretation"
+      ],
+      "rows": [
+        [
+          "Normal Uterus\t",
+          "Regular size and appears normal.\t",
+          "No anomalies witnessed; no abnormalities detected."
+        ],
+        [
+          "Ovarian Cyst\t",
+          "A cyst within the ovary or fluid-filled sac on the ovary.\t",
+          "Non-malignant and common; presence might need some treatments or close monitoring with retesting."
+        ],
+        [
+          "Uterine Fibroids\t",
+          "Benign neoplasm in the muscle layer of the uterus.\t",
+          "Requires monitoring; generally non-malignant but might need treatment depending on symptoms."
+        ],
+        [
+          "Endometrial Thickening\t",
+          "Excess thickness of the epithelial layer of the endometrium.\t",
+          "May indicate an imbalance of glands or be a marker of underlying disorders; monitoring recommended."
+        ]
+      ]
+    },
+    "faqs": [
+      {
+        "question": "Is a Transvaginal Scan painful? ",
+        "answer": "All patients typically report experiencing mild discomfort only. Generally, the procedure is uncomplicated and painless."
+      },
+      {
+        "question": "Is it possible to perform a TVS test during menses? ",
+        "answer": "Yes it is possible but as a matter of fact, most do not preference performing it nowadays because of discomfort and colonies to that point."
+      },
+      {
+        "question": "What is the time frame in which I will get my results? ",
+        "answer": "Usually the results is available just immediately after the examination, however, this is subject to the institution irritate practices."
+      },
+      {
+        "question": "Will there be anything I will be prohibited from doing after the test? ",
+        "answer": "With regards to restrictions, they do not exist after test, normal activities could be resumed without any delays."
+      },
+      {
+        "question": "Am I allowed to eat or drink something before the procedure? ",
+        "answer": "Sometimes, unless your doctor prescribes otherwise, there are rarely dietary prohibitions."
+      }
+    ],
+    "relative_test": {
+      "title": "",
+      "categoryId": "",
+      "tests": []
+    },
+    "seo": {
+      "title": "Transvaginal Ultrasound Scan: Women's Health | Cadabam's Diagnostics",
+      "description": "Transvaginal ultrasounds are key in diagnosing female reproductive system conditions. Learn more about the procedure.",
+      "keywords": "",
+      "canonicalUrl": "",
+      "ogTitle": "",
+      "ogDescription": "",
+      "ogImage": "",
+      "schemaMarkup": "",
+      "robotsMeta": ""
+    },
+    "markdown": "## Introduction\n\nUltrasound Transvaginal Scan (TVS) is known to be a more detailed reproductive system examination done among women encompassing the womb, ovaries, fallopian tubes, cervix, and vaginal regions. The high-frequency sound wave produced through this test is used to construct image(s) of the pelvic organs aiding the diagnosis of several gynecological diseases or conditions. This is a rather superior diagnostic technique as it is quick to execute, fairly painless and exposure to radiation is also not required thus the procedure can be performed on almost all women without any risks. The test is relatively straightforward and often requires just the patient to be asked to keep her bladder empty as the most common requirement before the procedure in order to enhance the efficacy of the imaging performed in the process.\n\n### **What is a Transvaginal Scan?**\n\nIn a Transvaginal scan, an ultrasound probe known as a transducer is placed inside the vaginal canal. The probe creates sound waves which are reflected by the internal structures and displayed in animated images on a monitor. Because the transducer is situated near the organs being scanned, the scans are clearer and contain more detail than if conducted entirely within the abdomen. It is particularly useful for uterine and ovarian scan abnormalities and is highly applicable in obstetric and gynecological imaging and diagnostics.\n\n### **Transvaginal Ultrasound TVS: Types and Uses**\n\nAlthough specifically designed to serve a specific function, TVS is however capable of performing the following:\n\n- **3D Transvaginal Ultrasound:** this type of ultrasound can be used to explore uterine malformations.\n- **Sonohysterography:** putting sterile saline in the uterus gives better visual access to the uterine lining.\n\n## Risks & Limitations of the Transvaginal Scan\n\n### **Risks:**\n\n- There’s nothing to worry about as the risk linked with T.V.S is extremely low. The only concern is mild discomfort and pressure caused by probe insertion.\n- Women who are not sexually active are generally not considered to be suitable candidates for T.V.S.\n\n### **Limitations:**\n\n- If a patient has undergone some specific surgeries or is extreme obese, then TVS may not offer a complete picture.\n- Even though it is diagnostic per some measures, conditions such as minute fibroid tumours or pregnancy in early days may be difficult to visualize.\n\n## List of Parameters Considered During the TVS\n\nThis sonography test is done by focusing on the following parameters:\n\n- The size, shape, and texture of the uterus.\n- Will assess ovarian volume and follicles.\n- Cysts, fibroids, and other growths.\n- Will measure the endometrial thickness.\n\nA patient suffering from other diseases or having some age may require an incorporation of extra parameters in the testing procedure.\n\n## Reasons for Taking a Transvaginal Scan\n\n- Determining the cause of lower abdominal pain.\n- Finding out the etiological factor of failure to conceive.\n- To look for factors like fibroid, cyst, or tumor.\n- To assess early pregnancy.\n- Determining the cause of abnormal uterine bleeding.\n- To visualize the endometrium in a postoperative patient who has undergone menopause.\n\n## Benefits of Taking the Test\n\n- **Imaging:** high-quality imprints of the uterus and ovaries are received.\n- **Non-invasive:** There are no cut operations done.\n- **Safety:** it is a safe procedure as no radiation is used thus multiple tests can be done including pregnancy.\n- **Quick Results:** Quite often, the quick interpretation of images accelerates the diagnosis and treatment.\n\n## Pathologies Diagnosed with Transvaginal Scan\n\n- Uterine fibroids and polyps.\n- Ovarian cysts and tumors.\n- Ectopic pregnancy.\n- Anomalies of the uterus.\n- The endometrium abnormalities, which includes hyperplasia.\n- Pelvic inflammatory disease (PID) or any other inflammatory processes.\n\n## Preparing for a Transvaginal Scan\n\n- **Dress Comfortably:** Dress in a way that is unequivocally comfortable for you since you may be asked to wear a gown.\n- **Empty Bladder:** In contrast to abdominal ultrasound, it is often easy to conduct TVS examinations with an empty bladder to evaluate the pelvic structures.\n\n### Pre-requisites\n\n- Sexual activity 24-48 hours prior to the test should be avoided in certain cases to minimize interference.\n- A detailed history of recurrent vaginal infections should be communicated to the physician.\n\n### Best Time to Take a Transvaginal Scan\n\n- In this situation, timing will greatly depend on the woman’s menstrual cycle and the objectives of the test. Generally speaking, around the second half of the menstrual cycle would allow for better tests for several reasons.\n\n### Eligibility\n\n- The test is considered valid for women of reproductive and post-menopausal age with clinical specifications requiring further diagnosis.\n- However, virgin patients and those with contraindications for investigation are among those barred from the test.\n\n### Procedure for Taking a Transvaginal Scan\n\n1. **Preparation:** The patient will be placed in dorsal position with legs in stirrups as in a pelvic examination.\n2. **Introduction:** A transducer that is slimy and sheathed enters the vagina.\n3. **Examination:** Sounds emitted by the transducer are used to produce pictures of the pelvic organs on the monitor.\n4. **Time Taken:** The time of this survey is 15 to 30 minutes on the average.\n5. **Pain of Client:** There is slight expectation of pain. The sonographer has to be in mutual contact so that the patient feels more relaxed in case these pressures are affected.\n\n### Warnings Before the Test is Done\n\nPatients must make sure that the technician is aware if they have:\n\n- Extreme vaginal Pain.\n- Some trauma from the previous pelvic examination history.\n- Any recent pasts of surgery or haven’t been resolved infections."
+  },
+  "category": {
+    "id": "671b5102ad9bf8d210384d1c",
+    "name": "Ultrasound",
+    "tests": [
+      "6735c72a03598b92c151c6fd",
+      "6735cb2f03598b92c151c782",
+      "6735e71803598b92c151c9f2",
+      "6736ed7d03598b92c151ce21",
+      "6736f1c103598b92c151ce6f",
+      "6736f48703598b92c151cf12",
+      "6736fdc303598b92c151d13e",
+      "673712ef996e7737b6f4dd40",
+      "673724eb996e7737b6f4dfbc",
+      "673729fa996e7737b6f4e0f3",
+      "67373672996e7737b6f4e274",
+      "673c56c5effae454707dfe68",
+      "673c8097effae454707e01a3",
+      "673dbe26534c72d341052d51",
+      "6799e782bf2a88a244a69719",
+      "679b3aecbf2a88a244a6b50a",
+      "679b3cd2bf2a88a244a6b525",
+      "679b4c54bf2a88a244a6b708",
+      "679c74afbf2a88a244a6ed60",
+      "679c86b9bf2a88a244a6f03a",
+      "67a0bafcbf2a88a244a77549",
+      "67a1b8d727567f98e56d25af",
+      "67a1bbb227567f98e56d2679",
+      "67a1ca5f27567f98e56d2be6",
+      "67a1d39b27567f98e56d2cac",
+      "67a1d50627567f98e56d2cc7",
+      "67a9acd8a45909fb1bd0f97d",
+      "67a9b364a45909fb1bd0fa5d",
+      "67ac7bbba45909fb1bd13977",
+      "67ac8481a45909fb1bd13c0b",
+      "67ac8549a45909fb1bd13c27",
+      "67ad9898a45909fb1bd15570",
+      "67af2565a45909fb1bd1843d",
+      "67af28aca45909fb1bd184fd",
+      "67b2f5b4a45909fb1bd1de00",
+      "67b4727da45909fb1bd20f21",
+      "67b8383fa45909fb1bd280e9",
+      "67bde09a16444f3c114dbe00",
+      "67bde36416444f3c114dbe1f",
+      "67c02bb116444f3c114df7ca",
+      "67e681b516444f3c11523ebd",
+      "67e683d116444f3c11523f51",
+      "67e6860a16444f3c11523fba",
+      "67e687e216444f3c11523fea",
+      "67e68a0b16444f3c1152404b",
+      "67e68c2616444f3c11524084",
+      "67ec0ec816444f3c1152e4c9",
+      "67ec11d316444f3c1152e589",
+      "67ec146216444f3c1152e5c4",
+      "67ec16d516444f3c1152e5e9",
+      "67edff4416444f3c115312af",
+      "67ee037416444f3c115312ee",
+      "67f3e8de16444f3c1153ae09",
+      "680b8c9416444f3c11568f64",
+      "680b9df916444f3c115691a7",
+      "680ba19b16444f3c11569206",
+      "680ba4d516444f3c11569288",
+      "680f3e8f16444f3c1156f68a",
+      "6841615116444f3c115dc079",
+      "684a89e316444f3c115f11be",
+      "684a8ed016444f3c115f141c",
+      "684a90b016444f3c115f1460",
+      "684bd88c16444f3c115f5307",
+      "684be57b16444f3c115f597a",
+      "6851284a16444f3c11607d4c"
+    ],
+    "image": "/scans/image-1730261906886-257915264.webp",
+    "path": "ultrasound-scan",
+    "createdAt": "2024-10-17T19:23:49.627Z",
+    "updatedAt": "2024-10-17T19:23:49.627Z",
+    "allData": {
+      "categoryId": "671b5102ad9bf8d210384d1c",
+      "requisites": [
+        {
+          "value": ""
+        }
+      ],
+      "interpretations": {
+        "title": "Results and Interpretations ",
+        "cols": [
+          "Scan Parameter ",
+          "Normal Range ",
+          "Abnormal Range ",
+          "Interpretation "
+        ],
+        "rows": [
+          [
+            "Organ Size ",
+            "Normal organ size ",
+            "Enlarged or reduced organ size ",
+            "Enlarged organs may indicate disease (e.g., liver disease, heart issues), while reduced size can suggest atrophy or other health concerns. "
+          ],
+          [
+            "Presence of Masses ",
+            "No masses or lumps detected ",
+            "Solid or cystic masses detected",
+            "Solid masses could indicate tumours or cancer, while cystic masses are often benign but "
+          ],
+          [
+            "Blood Flow (Doppler) ",
+            "Normal blood flow ",
+            "Restricted or abnormal flow ",
+            "Abnormal blood flow might signal issues like blood clots, artery blockages, or vascular disease. "
+          ],
+          [
+            "Fetal Development ",
+            "Fetus growing according to gestational age ",
+            "Abnormal fetal size or structure ",
+            "Abnormalities in fetal size or development can indicate growth restrictions, developmental delays, or other prenatal health concerns. "
+          ]
+        ]
+      },
+      "faqs": [
+        {
+          "question": "When is an Ultrasound advisable to be done? ",
+          "answer": "If there is a requirement for an abdominal ultrasound, fasting must be done in order to create clean images where only the internal organs are captured. Rest instructions and procedures can be sought from a physician."
+        },
+        {
+          "question": "Can we find any ultrasound-related services in Bangalore? ",
+          "answer": "We are proud to inform the readers now that Cadabam’s Diagnostics in Bangalore provides ultrasound services to facilitate identifying and monitoring medical conditions."
+        },
+        {
+          "question": "What Is a Normal Ultrasound Result? ",
+          "answer": "A normal ultrasound result states that the internal organs and soft tissues reasonably work there is no presence of any abnormalities such as masses, fluid accumulation, or structural changes among other factors. However, it is worth remembering that “normal” does differ slightly from one person to another due to their age, gender or even health. This doesn't mean however that someone should cease to consult their healthcare official."
+        },
+        {
+          "question": "Who Performs an Ultrasound Scan? ",
+          "answer": "Sonographers are trained professionals who operate ultrasound machines and target specific areas of the body with the equipment in order to create usable photographs of the location for diagnosis."
+        },
+        {
+          "question": "How Safe Is an Ultrasound Scan? ",
+          "answer": "Ultrasound scans are safe since they use sound waves instead of radiation. They do not breach the skin in any way or form. There also are no potential dangers that are known in existence. This makes ultrasounds guess-free scans for pregnant women and for other clinics."
+        }
+      ],
+      "relative_test": {
+        "title": "",
+        "categoryId": "671b5102ad9bf8d210384d1c",
+        "tests": [
+          {
+            "id": "6735c72a03598b92c151c6fd",
+            "testName": "USM MUSCULOSKELETAL",
+            "route": "/musculoskeletal-ultrasound-msk"
+          },
+          {
+            "id": "6735cb2f03598b92c151c782",
+            "testName": "US PREGNCANY FETAL FACE 3D",
+            "route": "/fetal-ultrasound"
+          },
+          {
+            "id": "6735e71803598b92c151c9f2",
+            "testName": "US GUIDED BREAST BIOPSY",
+            "route": "/breast-biopsy-scan"
+          },
+          {
+            "id": "6736ed7d03598b92c151ce21",
+            "testName": "PENILE DOPPLER",
+            "route": "/penile-doppler-ultrasound-scan"
+          },
+          {
+            "id": "6736f1c103598b92c151ce6f",
+            "testName": "US SONOMAMMOGRAM",
+            "route": "/sonomammography-ultrasound-scan"
+          },
+          {
+            "id": "6736f48703598b92c151cf12",
+            "testName": "US THYROID ELASTOGRAPHY",
+            "route": "/thyroid-scan"
+          },
+          {
+            "id": "6736fdc303598b92c151d13e",
+            "testName": "ECHO",
+            "route": "/echocardiogram-testing"
+          },
+          {
+            "id": "673712ef996e7737b6f4dd40",
+            "testName": " Elastography Test ",
+            "route": "/elastography-ultrasound-test"
+          },
+          {
+            "id": "673724eb996e7737b6f4dfbc",
+            "testName": " Testis Ultrasound Scan",
+            "route": "/testis-ultrasound-scan"
+          },
+          {
+            "id": "673729fa996e7737b6f4e0f3",
+            "testName": "US PELVIS (TVS)",
+            "route": "/ultrasound-of-transvaginal-scan-tvs"
+          },
+          {
+            "id": "67373672996e7737b6f4e274",
+            "testName": "US ABDOMEN - PELVIS",
+            "route": "/abdomen-and-pelvis-ultrasound-scans"
+          },
+          {
+            "id": "673c56c5effae454707dfe68",
+            "testName": "Abdominal Ultrasound ",
+            "route": "/abdominal-ultrasound"
+          },
+          {
+            "id": "673c8097effae454707e01a3",
+            "testName": "US PELVIS",
+            "route": "/pelvis-ultrasound"
+          }
+        ]
+      },
+      "seo": {
+        "title": "",
+        "description": "Book ultrasound scans near you for precise imaging and quick results at trusted diagnostic centers committed to accuracy, care, and timely health reports."
+      }
+    },
+    "markdown": "a non-invasive imaging technique that uses high-frequency sound waves to create pictures of the inside of the body\n\n## Ultrasound Overview\n\n![Ultrasound Overview](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731735946889-414492423.jpg)\n\nUltrasound, sonography or ultrasonography as it is also called, is a painless diagnostic imaging technique that uses ultrasound waves to create moving images of the internal organs including soft parts of the body. It can be used for a wide range of scanning ranging from monitoring pregnancies to diagnosing diseases.\n\nIts imaging capabilities allow doctors to see through your body without making the cut and it does not employ radiation as X-ray machines do.\n\n### What is An Ultrasound Scan?\n\nUltrasound essentially involves the use of sound waves with a frequency higher than 20kHz to analyze or get images of internal organs of a human body. It is a powerful tool which helps doctors detect abnormalities in tissues and organs. The ultrasound is made up of a device known as a transducer which produces and receives sound waves and indirectly forms images.\n\n## Types of Ultrasounds\n\nThere are different types of ultrasound scans that are used for various conditions and parts of the body. Among these, some of the most common types of ultrasounds are: -\n\n**Abdominal Ultrasound:** This is an ultrasound done to look for blood vessels and organs in your lower abdominal region and to check for conditions like gallbladder stones, kidney stones, and liver problems.\n\n**Pelvic Ultrasound:** Pelvic Ultrasound is probably the most popular type of ultrasound, as every woman have had this type of ultrasound at least once in their life. This is most used to diagnose pregnancy, to assess if a fetus is developing properly, to look for the presence of abdominal organs in females like the uterus and ovaries and in males the bladder and many more.\n\n**Musculoskeletal Ultrasound:** Musculoskeletal Ultrasound is very helpful in detecting troubles with tendons, ligaments or muscles.\n\n**Doppler Ultrasound:** It is a special type of ultrasound scan in which the blood flow through arteries and veins is used to be tested for the presence of vascular disorders such as blood clots.\n\n**Fetal Ultrasound:** Fetal Ultrasound is used in pregnancy to keep track of baby development and baby’s health. It helps in tracking the growth of the fetus, checking if there are any abnormalities, and measuring the amount of amniotic fluid.\n\n## Risks & Limitations of the Ultrasound Test\n\n![Risks & Limitations of the Ultrasound Test](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731735954619-142663100.png)\n\nIn terms of the dangers involved with getting an ultrasound test, these are largely negligible as it employs no radiation whilst producing images, thus, it is regarded as one of the best and least hazardous diagnostic procedures.\n\nOne of the important issues regarding the applicability of ultrasound scanning is that, it may not be suitable for those regions of the body that lie within gas cavities e.g. the intestines, or the bones cover them up. Also, other factors such as obesity may affect the ultrasound’s accuracy.\n\n## List of Parameters Considered During the Scan\n\n![List of Parameters Considered During the Scan](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731735965281-669880283.png)\n\nIt is important to understand that the parameters may vary depending on the type of ultrasound and the purpose of the scan. However, here are a few common parameters that are measured during an ultrasound scan:\n\n- Any change regarding the size, form or dilatation of organs or tissues\n- When Doppler ultrasound is performed, evaluation of blood circulation and the states of vascular system\n- Obstruction of organs which might include cysts or tumours or any other formations\n- For prenatal scanning – amniotic fluid level measurement and checking growth parameters of the fetus (for example: biparietal diameter)\n\n## Reasons for Taking the Ultrasound\n\n![Reasons for Taking the Ultrasound](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731735971667-920239951.png)\n\nThere are multiple reasons that your doctor may suggest you take an ultrasound scan, some of them include: -\n\n**Diagnosing Abnormalities**: In a variety of instances, an ultrasound is used to help diagnose the cyst, tumor or even other surrounding organs’ abnormalities.\n\n**Pregnancy Care:** The ultrasound allows doctors to examine the fetus, while also gauging its state of health.\n\n**Investigating Pain or Swelling**: When there is swelling, pain or other symptoms that are hard to explain, this is where the ultrasound scanning technique comes in.\n\n**Evaluating Organ Function:** Conditions that involve gall bladder disease, kidney stones or cirrhosis of the liver can be evaluated through ultrasound imaging.\n\n### When and Who Needs to Take an Ultrasound Scan?\n\nUltrasounds are recommended to patients for a variety of reasons, some of them include: -\n\n- If your doctor suspects issues with your internal organs such as the liver, kidney, or heart.\n- Pregnant women for evaluating the conditions of the fetuses.\n- Athletes identify musculoskeletal injuries like tendon ruptures or sprains.\n- Patients with no result of visceral massage and other techniques with swelling, pain, or complications of the visceral organs.\n- People with heart disease.\n- Patients with gallstones suspect suffering from kidney stones or some other organ related disorders.\n\n## Benefits of Taking the Ultrasound\n\n![Benefits of Taking the Ultrasound](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731735980742-820179332.png)\n\nUltrasound scan offers a range of benefits and due to this, it is widely used to assess the variety of diseases and monitor a fetus. Some of the benefits include: -\n\n**Non-Invasive:** There is no requirement of any needles or incisions to perform an ultrasound. Such procedures are needed for biopsies and surgeries.\n\n**No Radiation:** This is a feature that helps to protect pregnant mothers and others who must undergo so many scans.\n\n**Real-Time Imaging**: The real time imaging of an ultrasound scan enables medical professionals to fully fathom the insides of a person’s organs and be able to diagnose any abnormalities instantly.\n\n## Illnesses Diagnosed with Ultrasound\n\n![Illnesses Diagnosed with Ultrasound](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731735986278-403634312.png)\n\nUltrasound scan is one of the modalities which is helpful in diagnosing, and which may include all the following but not limited to: -\n\n- Kidney Stones\n- Gall Stones\n- Liver Cirrhosis or Fatty Liver\n- Blood Thrombosis\n- Specific Cases in Pregnancy Targeting Placenta Accreta\n- Thyroid Gland Disorders Such as Nodules and Goitres\n- Heart Failure Due to Hypertrophy and Valvular Defect\n- Inflammation Of the Pancreas\n- Abdominal Aortic Aneurism\n- Cysts And Fibroids Affecting the Structures of the Female Reproductive System\n- Injuries Affecting Muscles Tendons or Ligaments\n- Abscess Formation and Cellulitis\n\n## Preparing for Ultrasound Scan\n\n![Preparing for Ultrasound Scan](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731735992802-68116460.png)\n\nThere are different types of ultrasounds and there are also different indications for which the scan needs to be carried out, thus comparison here i think should not be done. However, below are broad principles, which may be useful in helping you obtain the ultrasound scan in a better way.\n\n### Prerequisites\n\nTo obtain clear results, the image formed on the abdominal scans might tilt or get worse as they cannot have any accumbent solids. On the other hand, the image scans on the Pelvic Region Ultrasound require a considerable amount of water consumption prior to its execution.\n\n### The Most Appropriate Time to Execute the Scan\n\nUltrasounds have numerous purposes; therefore, timing of the scan differs depending on the surgical or diagnostic requirement. For instance, after breakfast falls the time for abdominal ultrasound while Pelvic, MSK, and Doppler ultrasounds can occur in the afternoons too.\n\n### Who is Eligible for an Ultrasound Scan Examination?\n\nMost people, including children, pregnant women, and the elderly can undergo ultrasound procedures without feeling anxious about radiation exposure.\n\n### Procedure for Taking Ultrasound Scan\n\nYour sonographer is a trained ultrasound technician. To avoid friction, ultrasound gel is applied to your skin, after which the sonographer rubs an ultrasound transducer on your skin. Everything else is as easy as changing into a hospital gown.\n\nFor those who don’t know, a transducer is an ultrasound tool that is placed on skin to deliver sound waves to our body and receives echoes that are converted into images.\n\nIf the condition under examination is complex, or the area of the scan is, then the time required for the whole process may be longer than the average time frame of 15 – 45 minutes.\n\n### Caution Before Taking the Scan\n\nUltrasound scans are non-invasive and painless tests that most never require precautionary measures; however, recent surgeries or impediments should be conveyed to the healthcare provider. It is recommended that food consumption is avoided prior to undergoing an abdominal ultrasound, as this may aid in providing better results."
+  },
+  "relatedTests": []
+}

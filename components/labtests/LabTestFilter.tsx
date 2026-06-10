@@ -1,8 +1,6 @@
 "use client";
 
 import { useMemo, useRef, useState } from "react";
-import Link from "next/link";
-import { useRouter } from "next/navigation";
 import {
   type LucideIcon,
   Activity,
@@ -26,9 +24,6 @@ import { cn } from "@/lib/utils";
 import { TestCard } from "@/components/shared/TestCard";
 
 const PAGE_SIZE = 18;
-const BASE_PATH = "/bangalore/lab-test";
-const categoryHref = (slug: string | null) =>
-  slug ? `${BASE_PATH}/${slug}` : BASE_PATH;
 
 /** Semantically relevant icon per category, keyed by its slug. */
 const CATEGORY_ICONS: Record<string, LucideIcon> = {
@@ -92,23 +87,24 @@ export function LabTestFilter({
   totalCount,
   initialCategorySlug = null,
 }: LabTestFilterProps) {
-  // Local UI state. The active category is seeded from the route (e.g.
-  // /bangalore/lab-test/blood-tests) so the listing opens pre-filtered.
+  // Local UI state. The active category is seeded from the route only on first
+  // render (e.g. a direct visit to /bangalore/lab-test/blood-tests opens
+  // pre-filtered); after that, filtering is entirely client-side and never
+  // touches the URL.
   const seededSlug =
     initialCategorySlug &&
     categories.some((c) => c.slug === initialCategorySlug)
       ? initialCategorySlug
       : null;
-  const router = useRouter();
   const [activeSlug, setActiveSlug] = useState<string | null>(seededSlug);
   const [searchQuery, setSearchQuery] = useState("");
   const [page, setPage] = useState(1);
   const [prevSeed, setPrevSeed] = useState(seededSlug);
   const resultsRef = useRef<HTMLDivElement>(null);
 
-  // The active category is driven by the route. When it changes (navigating
-  // between category URLs), sync local state during render — React's
-  // recommended alternative to an effect.
+  // Re-seed only if the route's category changes (e.g. a direct navigation to a
+  // different category URL); sync during render — React's recommended
+  // alternative to an effect.
   if (prevSeed !== seededSlug) {
     setPrevSeed(seededSlug);
     setActiveSlug(seededSlug);
@@ -137,7 +133,11 @@ export function LabTestFilter({
 
   const hasActiveFilters = Boolean(activeSlug) || trimmedQuery.length > 0;
 
-  function onCategoryNavigate() {
+  function selectCategory(slug: string | null) {
+    setActiveSlug(slug);
+    setPage(1);
+    // Filtering is purely client-side — the URL is left untouched (no path
+    // change, no query params); results update from state alone.
     // Bring the listing into view — on mobile the filters stack above the
     // results, so the freshly filtered tests would otherwise be off-screen.
     resultsRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
@@ -146,7 +146,6 @@ export function LabTestFilter({
   function clearCategory() {
     setActiveSlug(null);
     setPage(1);
-    router.push(BASE_PATH);
   }
 
   function clearSearch() {
@@ -204,8 +203,7 @@ export function LabTestFilter({
                 active={activeSlug === null}
                 label="All tests"
                 count={totalCount}
-                href={categoryHref(null)}
-                onNavigate={onCategoryNavigate}
+                onSelect={() => selectCategory(null)}
               />
             </li>
             {categories.map((c) => (
@@ -215,8 +213,7 @@ export function LabTestFilter({
                   active={activeSlug === c.slug}
                   label={c.name}
                   count={c.count}
-                  href={categoryHref(c.slug)}
-                  onNavigate={onCategoryNavigate}
+                  onSelect={() => selectCategory(c.slug)}
                 />
               </li>
             ))}
@@ -317,20 +314,18 @@ function CategoryItem({
   active,
   label,
   count,
-  href,
-  onNavigate,
+  onSelect,
 }: {
   Icon: LucideIcon;
   active: boolean;
   label: string;
   count: number;
-  href: string;
-  onNavigate?: () => void;
+  onSelect: () => void;
 }) {
   return (
-    <Link
-      href={href}
-      onClick={onNavigate}
+    <button
+      type="button"
+      onClick={onSelect}
       aria-current={active ? "page" : undefined}
       className={cn(
         "w-full flex items-center justify-between gap-2 rounded-md px-3 py-2 text-body-sm font-semibold transition-colors text-left",
@@ -356,7 +351,7 @@ function CategoryItem({
       >
         {count}
       </span>
-    </Link>
+    </button>
   );
 }
 

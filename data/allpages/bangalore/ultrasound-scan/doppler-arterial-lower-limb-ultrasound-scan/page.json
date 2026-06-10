@@ -1,0 +1,318 @@
+{
+  "type": "scan-detail",
+  "route": "/bangalore/ultrasound-scan/doppler-arterial-lower-limb-ultrasound-scan",
+  "familyPath": "ultrasound-scan",
+  "slug": "doppler-arterial-lower-limb-ultrasound-scan",
+  "test": {
+    "id": "684bd88c16444f3c115f5307",
+    "templateName": "non-labtest",
+    "testName": "Doppler Arterial Lower Limb - Both Ultrasound Scan",
+    "route": "/doppler-arterial-lower-limb-ultrasound-scan",
+    "basic_info": {
+      "name": "Doppler Arterial Lower Limb - Both Ultrasound Scan",
+      "route": "/doppler-arterial-lower-limb-ultrasound-scan",
+      "categoryId": "671b5102ad9bf8d210384d1c",
+      "imageSrc": "",
+      "testId": 8044844,
+      "alsoKnownAs": "",
+      "discount": "",
+      "discountedPrice": 3800,
+      "reportsWithin": "",
+      "Identifies": "",
+      "measures": "",
+      "price": 3800,
+      "testCategory": "Ultrasonography"
+    },
+    "requisites": [],
+    "interpretations": {
+      "title": "Results and Interpretations ",
+      "cols": [
+        "Finding / Observation",
+        "Description",
+        "General Interpretation / Significance"
+      ],
+      "rows": [
+        [
+          "Ankle-Brachial Index (ABI)",
+          "Ratio of ankle blood pressure to arm blood pressure",
+          ">1.0 - 1.4: Normal0.9 - 1.0: Borderline<0.9: Suggests PAD<0.5: Suggests Severe PAD"
+        ],
+        [
+          "Waveform Type",
+          "Visual pattern of blood flow (e.g., Triphasic, Biphasic, Monophasic).",
+          "Triphasic (Normal): Indicates healthy, elastic arteries.Monophasic (Abnormal): Suggests significant arterial disease upstream."
+        ],
+        [
+          "Peak Systolic Velocity (PSV)",
+          "The maximum speed of blood flow measured at a specific point.",
+          "A ratio of PSV at a stenosis compared to a normal segment >2.0 often indicates a >50% blockage."
+        ],
+        [
+          "Vessel Patency",
+          "Description of whether an artery is open, narrowed, or blocked.",
+          "Patent: Open.Stenosis: Narrowing of the vessel.Occlusion: Complete blockage."
+        ]
+      ]
+    },
+    "faqs": [
+      {
+        "question": "Is the arterial doppler test for legs painful?",
+        "answer": "No, the test is generally painless. You might feel some mild pressure from the ultrasound probe or a temporary sensation of tightness when the blood pressure cuffs are inflated, but it should not be painful."
+      },
+      {
+        "question": " How long does the leg artery ultrasound procedure take?",
+        "answer": "The exam typically takes between 30 and 60 minutes. The duration can vary depending on the complexity of the findings and whether an exercise component is included."
+      },
+      {
+        "question": "When will I get my results?",
+        "answer": "A radiologist at Cadabams Diagnostics will interpret your scan, and a detailed report will be sent to your referring doctor, usually within 24 hours of your appointment."
+      },
+      {
+        "question": " How accurate is this test for detecting blockages?",
+        "answer": "The arterial doppler test is considered a highly accurate and reliable method for diagnosing PAD. It is the gold standard, non-invasive tool for evaluating the severity and location of arterial blockages in the legs."
+      },
+      {
+        "question": " What is the arterial doppler test for legs cost?",
+        "answer": "The cost of the test can vary based on your specific requirements and insurance coverage. For the most accurate and up-to-date pricing information, please contact Cadabams Diagnostics directly. Our team will be happy to assist you."
+      },
+      {
+        "question": "What are the next steps if the test shows a problem?",
+        "answer": "If your test results indicate a blockage or another issue, your doctor will discuss the findings with you in detail. They will recommend a comprehensive treatment plan, which may include lifestyle changes (like diet and exercise), medication to improve blood flow, or a referral to a vascular specialist for further evaluation and potential intervention."
+      }
+    ],
+    "relative_test": {
+      "title": "",
+      "categoryId": "",
+      "tests": []
+    },
+    "seo": {
+      "title": "Arterial Doppler Test for Legs | Cadabams Diagnostics",
+      "description": " Learn about the arterial doppler test for legs at Cadabams Diagnostics. Understand the procedure, risks, and how this ultrasound for leg artery blood flow test works.\n",
+      "keywords": "",
+      "canonicalUrl": "",
+      "ogTitle": "",
+      "ogDescription": "",
+      "ogImage": "",
+      "schemaMarkup": "",
+      "robotsMeta": ""
+    },
+    "markdown": "## What is an Arterial Doppler Test for Legs?\n\nThe \\*\\*Arterial Doppler Test for Legs\\*\\* combines two types of ultrasound technology into one powerful diagnostic tool. First, it uses traditional ultrasound to capture real-time images of the structures of your leg arteries. Second, it uses Doppler ultrasound, a special technique that measures the speed and direction of blood as it flows through those arteries.\n### Lower limb arterial duplex scan\nOften referred to by its technical name, the \\*\\*Lower limb arterial duplex scan\\*\\*, this combination allows our radiologists to both \"see\" the physical anatomy of your arteries and \"hear\" or visualize the blood moving through them. The \"whooshing\" sound produced during the exam corresponds to your blood flow, and analyzing its characteristics helps detect abnormalities that might not be visible with standard imaging alone.\n## Types of Arterial Doppler Test for Legs\nDepending on your specific symptoms and medical history, your doctor may order one of the following variations of the test:\n### Resting Doppler Study\nThis is the standard and most common form of the test. It is performed while you are lying down and resting comfortably on the examination table. It provides a baseline assessment of blood flow in your legs under normal conditions.\n### Exercise Doppler Study\nIf you experience leg pain primarily during activity (claudication), this study is particularly useful. Measurements are taken first at rest, and then again immediately after you walk on a treadmill for a short period. This helps the doctor understand how exercise impacts blood flow and can reveal blockages that are not apparent at rest.\n### Segmental Doppler Pressures with ABI\nThis comprehensive evaluation involves placing blood pressure cuffs on your arms and at different levels of your legs (thigh, calf, ankle). The pressures are measured at each point to calculate the Ankle-Brachial Index (ABI), a critical ratio that compares blood pressure in your ankles to your arms. The ABI is a simple, yet powerful, indicator of Peripheral Artery Disease.\n\n## Risks & Limitations of the Arterial Doppler Test for Legs\n\n### Risks\nOne of the key benefits of the \\*\\*Arterial Doppler Test for Legs\\*\\* is its exceptional safety profile. The procedure is:\n\\* \\*\\*Non-invasive:\\*\\* It does not require any needles, injections, or incisions.\n\\* \\*\\*Radiation-Free:\\*\\* Unlike X-rays or CT scans, it uses sound waves, making it safe for nearly all patients, including those who are pregnant.\nThe only potential for minor discomfort comes from the firm pressure of the ultrasound probe on a tender area or the temporary tightness from blood pressure cuffs if they are used.\n### Limitations\nWhile highly effective, there are a few situations where the test's accuracy can be affected:\n\\* \\*\\*Severe Swelling (Edema):\\*\\* Excessive fluid in the leg tissues can make it difficult for the sound waves to reach the arteries clearly.\n\\* \\*\\*Open Wounds or Ulcers:\\*\\* The technologist will have to work around any open skin areas.\n\\* \\*\\*Calcified Arteries:\\*\\* Heavily hardened arteries can sometimes block or reflect the ultrasound waves, obscuring the view of blood flow.\n\\* \\*\\*Visualizing Small Vessels:\\*\\* The test may not be able to accurately assess the tiniest arteries deep within the leg.\n\n## List of Parameters Considered During the Arterial Doppler Test for Legs\n\n### Our skilled technologists and radiologists analyze several key parameters to provide a complete picture of your arterial health:\n### Vessel Patency\nThis determines whether an artery is open (patent), partially blocked (stenosed), or completely blocked (occluded).\n### Blood Flow Velocity\nThe test measures the speed of your blood. Abnormally high velocities can pinpoint a specific area of narrowing, as blood speeds up to pass through a smaller opening.\n### Waveform Analysis\nThe Doppler signal is visualized as a waveform. The shape of this wave (e.g., triphasic, biphasic, monophasic) provides critical information about the health, elasticity, and condition of the arteries upstream from where the measurement is taken.\n### Ankle-Brachial Index (ABI)\nAs mentioned, this is the ratio of blood pressure at the ankle to that in the arm. A low ABI value is a strong indicator of a blockage.\n### Plaque Characterization\nThe ultrasound can identify the presence of atherosclerotic plaque (a buildup of fat, cholesterol, and other substances) on the artery walls and assess its characteristics.\n\n## Reasons for Taking an Arterial Doppler Test for Legs\n\nThere are several important clinical reasons why your doctor would order this test:\n\\* \\*\\*To Diagnose the Cause of Symptoms:\\*\\* It is the primary tool for investigating leg pain, cramping, numbness, discoloration, or coldness in the feet and toes.\n\\* \\*\\*To Check for Poor Healing:\\*\\* If you have sores or ulcers on your legs or feet that are not healing properly, this test can determine if poor blood flow is the cause.\n\\* \\*\\*To Evaluate After Trauma:\\*\\* It can be used to check for damage to the leg arteries after an injury.\n\\* \\*\\*To Plan or Evaluate Treatment:\\*\\* It is essential for planning vascular procedures like angioplasty, stenting, or bypass surgery. It is also used post-procedure to ensure the treatment was successful.\n\\* \\*\\*To Monitor Known Disease:\\*\\* For patients with a confirmed diagnosis of PAD, regular testing can monitor the progression of the disease.\n## When and Who Needs to Take an Arterial Doppler Test for Legs?\nYour doctor may recommend an \\*\\*Arterial Doppler Test for Legs\\*\\* if you are experiencing symptoms that suggest poor circulation. Common indications include:\n\\* \\*\\*Claudication:\\*\\* Pain, cramping, or aching in your legs (calf, thigh, or buttock) that occurs during exercise and subsides with rest.\n\\* Persistent leg cramps, even when not active.\n\\* Numbness, weakness, or a \"pins and needles\" sensation in your legs or feet.\n\\* Noticeable coolness in one leg compared to the other.\n\\* Non-healing sores or ulcers on your feet or toes.\nThis test is particularly important for individuals with known risk factors for Peripheral Artery Disease (PAD), a common circulatory problem. These patient groups include:\n\\* Current or former smokers\n\\* Individuals with diabetes\n\\* Patients with high blood pressure (hypertension)\n\\* Those with high cholesterol\n\\* Individuals over the age of 50\n\\* People with a family history of vascular disease, heart attack, or stroke\n\n## Benefits of Taking the Test\n\nChoosing to have an \\*\\*Arterial Doppler Test for Legs\\*\\* offers significant benefits for your health management:\n\\* \\*\\*Definitive Diagnosis:\\*\\* It provides a clear, accurate diagnosis of PAD and other arterial conditions.\n\\* \\*\\*Guides Treatment:\\*\\* The results help your doctor pinpoint the exact location and severity of any blockages, allowing for a highly targeted and effective treatment plan.\n\\* \\*\\*Informs Next Steps:\\*\\* The findings will determine whether lifestyle changes and medication are sufficient or if a referral to a vascular specialist for a procedure is necessary.\n\\* \\*\\*Completely Non-Invasive:\\*\\* You can get crucial diagnostic information without any needles, radiation, or contrast agents.\n\\* \\*\\*Painless and Quick:\\*\\* The procedure is comfortable and typically completed in under an hour.\n\n## Illnesses Diagnosed with Arterial Doppler Test for Legs\n\nThis versatile test is instrumental in diagnosing several conditions affecting the leg arteries:\n\\* \\*\\*Peripheral Artery Disease (PAD):\\*\\* This is the most common diagnosis, resulting from atherosclerosis that narrows the arteries supplying blood to the legs.\n\\* \\*\\*Arterial Stenosis or Occlusion:\\*\\* The test precisely identifies the degree of narrowing (stenosis) or if there is a complete blockage (occlusion).\n\\* \\*\\*Aneurysms:\\*\\* It can detect an abnormal bulge or ballooning in the wall of a leg artery.\n\\* \\*\\*Arterial Trauma:\\*\\* It is used to evaluate the extent of damage to blood vessels following an accident or injury.\n\n## Preparing for Arterial Doppler Test for Legs\n\nPreparation for this test is simple and straightforward.\n### Diet\nThere are no specific dietary restrictions. You can eat and drink normally before your appointment.\n### Clothing\nPlease wear loose, comfortable clothing. You may be asked to remove clothing from the waist down and will be provided with a gown to wear during the exam.\n### Informing Staff\nThere is no need to inform staff of any special conditions unless you have significant pain, open wounds on your legs, or have recently had leg surgery.\n#### Pre-requisites\nTypically, no special pre-requisites are needed. Please bring your doctor's referral form and any reports from previous imaging studies (if you have them).\n#### Best Time to Take the Arterial Doppler Test for Legs\nThe test can be performed at any time during our operating hours at Cadabams Diagnostics. It does not require fasting or a specific time of day for accurate results.\n#### Eligibility\nThe \\*\\*Arterial Doppler Test for Legs\\*\\* is safe and suitable for almost everyone. Because it uses sound waves and not radiation, it can be performed on pregnant patients and individuals with medical implants like pacemakers or defibrillators without any risk.\n## Procedure for Taking an Arterial Doppler Test for Legs\nUnderstanding the \\*\\*leg artery ultrasound procedure\\*\\* can help you feel more comfortable and prepared for your appointment. Here is a step-by-step overview of what to expect:\n### Positioning\nYou will be asked to lie comfortably on your back on an examination table.\n### Gel Application\nA sonographer will apply a small amount of clear, water-based gel to the skin on your legs. This gel helps transmit the sound waves from the probe to your body.\n### Blood Pressure Cuffs\nIn many cases, blood pressure cuffs will be placed on both of your arms and at various levels on your legs (thighs, calves, ankles). These will be inflated one at a time to take pressure readings.\n### Scanning with the Probe\nThe technologist will gently press a small, handheld device called a transducer (or probe) against your skin. They will move the probe along the path of the major arteries in your legs, from the groin down to the ankle.\n### Hearing the Blood Flow\nAs the Doppler is used, you will hear \"whooshing\" or \"pulsing\" sounds coming from the ultrasound machine. This is the sound of your blood flowing through the arteries and is a normal part of the exam.\n### Capturing Images\nThe technologist will be viewing the images on a monitor and capturing specific snapshots and measurements throughout the process.\n### Duration\nThe entire procedure typically takes between 30 and 60 minutes to complete.\n## Caution Before Taking the Test\nFor your comfort and to ensure the highest quality results, please inform the technologist before the exam begins if you are experiencing severe pain in your legs, have any open sores or wounds, or have had recent leg surgery. They can adjust the \\*\\*leg artery ultrasound procedure\\*\\* to be as gentle as possible."
+  },
+  "category": {
+    "id": "671b5102ad9bf8d210384d1c",
+    "name": "Ultrasound",
+    "tests": [
+      "6735c72a03598b92c151c6fd",
+      "6735cb2f03598b92c151c782",
+      "6735e71803598b92c151c9f2",
+      "6736ed7d03598b92c151ce21",
+      "6736f1c103598b92c151ce6f",
+      "6736f48703598b92c151cf12",
+      "6736fdc303598b92c151d13e",
+      "673712ef996e7737b6f4dd40",
+      "673724eb996e7737b6f4dfbc",
+      "673729fa996e7737b6f4e0f3",
+      "67373672996e7737b6f4e274",
+      "673c56c5effae454707dfe68",
+      "673c8097effae454707e01a3",
+      "673dbe26534c72d341052d51",
+      "6799e782bf2a88a244a69719",
+      "679b3aecbf2a88a244a6b50a",
+      "679b3cd2bf2a88a244a6b525",
+      "679b4c54bf2a88a244a6b708",
+      "679c74afbf2a88a244a6ed60",
+      "679c86b9bf2a88a244a6f03a",
+      "67a0bafcbf2a88a244a77549",
+      "67a1b8d727567f98e56d25af",
+      "67a1bbb227567f98e56d2679",
+      "67a1ca5f27567f98e56d2be6",
+      "67a1d39b27567f98e56d2cac",
+      "67a1d50627567f98e56d2cc7",
+      "67a9acd8a45909fb1bd0f97d",
+      "67a9b364a45909fb1bd0fa5d",
+      "67ac7bbba45909fb1bd13977",
+      "67ac8481a45909fb1bd13c0b",
+      "67ac8549a45909fb1bd13c27",
+      "67ad9898a45909fb1bd15570",
+      "67af2565a45909fb1bd1843d",
+      "67af28aca45909fb1bd184fd",
+      "67b2f5b4a45909fb1bd1de00",
+      "67b4727da45909fb1bd20f21",
+      "67b8383fa45909fb1bd280e9",
+      "67bde09a16444f3c114dbe00",
+      "67bde36416444f3c114dbe1f",
+      "67c02bb116444f3c114df7ca",
+      "67e681b516444f3c11523ebd",
+      "67e683d116444f3c11523f51",
+      "67e6860a16444f3c11523fba",
+      "67e687e216444f3c11523fea",
+      "67e68a0b16444f3c1152404b",
+      "67e68c2616444f3c11524084",
+      "67ec0ec816444f3c1152e4c9",
+      "67ec11d316444f3c1152e589",
+      "67ec146216444f3c1152e5c4",
+      "67ec16d516444f3c1152e5e9",
+      "67edff4416444f3c115312af",
+      "67ee037416444f3c115312ee",
+      "67f3e8de16444f3c1153ae09",
+      "680b8c9416444f3c11568f64",
+      "680b9df916444f3c115691a7",
+      "680ba19b16444f3c11569206",
+      "680ba4d516444f3c11569288",
+      "680f3e8f16444f3c1156f68a",
+      "6841615116444f3c115dc079",
+      "684a89e316444f3c115f11be",
+      "684a8ed016444f3c115f141c",
+      "684a90b016444f3c115f1460",
+      "684bd88c16444f3c115f5307",
+      "684be57b16444f3c115f597a",
+      "6851284a16444f3c11607d4c"
+    ],
+    "image": "/scans/image-1730261906886-257915264.webp",
+    "path": "ultrasound-scan",
+    "createdAt": "2024-10-17T19:23:49.627Z",
+    "updatedAt": "2024-10-17T19:23:49.627Z",
+    "allData": {
+      "categoryId": "671b5102ad9bf8d210384d1c",
+      "requisites": [
+        {
+          "value": ""
+        }
+      ],
+      "interpretations": {
+        "title": "Results and Interpretations ",
+        "cols": [
+          "Scan Parameter ",
+          "Normal Range ",
+          "Abnormal Range ",
+          "Interpretation "
+        ],
+        "rows": [
+          [
+            "Organ Size ",
+            "Normal organ size ",
+            "Enlarged or reduced organ size ",
+            "Enlarged organs may indicate disease (e.g., liver disease, heart issues), while reduced size can suggest atrophy or other health concerns. "
+          ],
+          [
+            "Presence of Masses ",
+            "No masses or lumps detected ",
+            "Solid or cystic masses detected",
+            "Solid masses could indicate tumours or cancer, while cystic masses are often benign but "
+          ],
+          [
+            "Blood Flow (Doppler) ",
+            "Normal blood flow ",
+            "Restricted or abnormal flow ",
+            "Abnormal blood flow might signal issues like blood clots, artery blockages, or vascular disease. "
+          ],
+          [
+            "Fetal Development ",
+            "Fetus growing according to gestational age ",
+            "Abnormal fetal size or structure ",
+            "Abnormalities in fetal size or development can indicate growth restrictions, developmental delays, or other prenatal health concerns. "
+          ]
+        ]
+      },
+      "faqs": [
+        {
+          "question": "When is an Ultrasound advisable to be done? ",
+          "answer": "If there is a requirement for an abdominal ultrasound, fasting must be done in order to create clean images where only the internal organs are captured. Rest instructions and procedures can be sought from a physician."
+        },
+        {
+          "question": "Can we find any ultrasound-related services in Bangalore? ",
+          "answer": "We are proud to inform the readers now that Cadabam’s Diagnostics in Bangalore provides ultrasound services to facilitate identifying and monitoring medical conditions."
+        },
+        {
+          "question": "What Is a Normal Ultrasound Result? ",
+          "answer": "A normal ultrasound result states that the internal organs and soft tissues reasonably work there is no presence of any abnormalities such as masses, fluid accumulation, or structural changes among other factors. However, it is worth remembering that “normal” does differ slightly from one person to another due to their age, gender or even health. This doesn't mean however that someone should cease to consult their healthcare official."
+        },
+        {
+          "question": "Who Performs an Ultrasound Scan? ",
+          "answer": "Sonographers are trained professionals who operate ultrasound machines and target specific areas of the body with the equipment in order to create usable photographs of the location for diagnosis."
+        },
+        {
+          "question": "How Safe Is an Ultrasound Scan? ",
+          "answer": "Ultrasound scans are safe since they use sound waves instead of radiation. They do not breach the skin in any way or form. There also are no potential dangers that are known in existence. This makes ultrasounds guess-free scans for pregnant women and for other clinics."
+        }
+      ],
+      "relative_test": {
+        "title": "",
+        "categoryId": "671b5102ad9bf8d210384d1c",
+        "tests": [
+          {
+            "id": "6735c72a03598b92c151c6fd",
+            "testName": "USM MUSCULOSKELETAL",
+            "route": "/musculoskeletal-ultrasound-msk"
+          },
+          {
+            "id": "6735cb2f03598b92c151c782",
+            "testName": "US PREGNCANY FETAL FACE 3D",
+            "route": "/fetal-ultrasound"
+          },
+          {
+            "id": "6735e71803598b92c151c9f2",
+            "testName": "US GUIDED BREAST BIOPSY",
+            "route": "/breast-biopsy-scan"
+          },
+          {
+            "id": "6736ed7d03598b92c151ce21",
+            "testName": "PENILE DOPPLER",
+            "route": "/penile-doppler-ultrasound-scan"
+          },
+          {
+            "id": "6736f1c103598b92c151ce6f",
+            "testName": "US SONOMAMMOGRAM",
+            "route": "/sonomammography-ultrasound-scan"
+          },
+          {
+            "id": "6736f48703598b92c151cf12",
+            "testName": "US THYROID ELASTOGRAPHY",
+            "route": "/thyroid-scan"
+          },
+          {
+            "id": "6736fdc303598b92c151d13e",
+            "testName": "ECHO",
+            "route": "/echocardiogram-testing"
+          },
+          {
+            "id": "673712ef996e7737b6f4dd40",
+            "testName": " Elastography Test ",
+            "route": "/elastography-ultrasound-test"
+          },
+          {
+            "id": "673724eb996e7737b6f4dfbc",
+            "testName": " Testis Ultrasound Scan",
+            "route": "/testis-ultrasound-scan"
+          },
+          {
+            "id": "673729fa996e7737b6f4e0f3",
+            "testName": "US PELVIS (TVS)",
+            "route": "/ultrasound-of-transvaginal-scan-tvs"
+          },
+          {
+            "id": "67373672996e7737b6f4e274",
+            "testName": "US ABDOMEN - PELVIS",
+            "route": "/abdomen-and-pelvis-ultrasound-scans"
+          },
+          {
+            "id": "673c56c5effae454707dfe68",
+            "testName": "Abdominal Ultrasound ",
+            "route": "/abdominal-ultrasound"
+          },
+          {
+            "id": "673c8097effae454707e01a3",
+            "testName": "US PELVIS",
+            "route": "/pelvis-ultrasound"
+          }
+        ]
+      },
+      "seo": {
+        "title": "",
+        "description": "Book ultrasound scans near you for precise imaging and quick results at trusted diagnostic centers committed to accuracy, care, and timely health reports."
+      }
+    },
+    "markdown": "a non-invasive imaging technique that uses high-frequency sound waves to create pictures of the inside of the body\n\n## Ultrasound Overview\n\n![Ultrasound Overview](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731735946889-414492423.jpg)\n\nUltrasound, sonography or ultrasonography as it is also called, is a painless diagnostic imaging technique that uses ultrasound waves to create moving images of the internal organs including soft parts of the body. It can be used for a wide range of scanning ranging from monitoring pregnancies to diagnosing diseases.\n\nIts imaging capabilities allow doctors to see through your body without making the cut and it does not employ radiation as X-ray machines do.\n\n### What is An Ultrasound Scan?\n\nUltrasound essentially involves the use of sound waves with a frequency higher than 20kHz to analyze or get images of internal organs of a human body. It is a powerful tool which helps doctors detect abnormalities in tissues and organs. The ultrasound is made up of a device known as a transducer which produces and receives sound waves and indirectly forms images.\n\n## Types of Ultrasounds\n\nThere are different types of ultrasound scans that are used for various conditions and parts of the body. Among these, some of the most common types of ultrasounds are: -\n\n**Abdominal Ultrasound:** This is an ultrasound done to look for blood vessels and organs in your lower abdominal region and to check for conditions like gallbladder stones, kidney stones, and liver problems.\n\n**Pelvic Ultrasound:** Pelvic Ultrasound is probably the most popular type of ultrasound, as every woman have had this type of ultrasound at least once in their life. This is most used to diagnose pregnancy, to assess if a fetus is developing properly, to look for the presence of abdominal organs in females like the uterus and ovaries and in males the bladder and many more.\n\n**Musculoskeletal Ultrasound:** Musculoskeletal Ultrasound is very helpful in detecting troubles with tendons, ligaments or muscles.\n\n**Doppler Ultrasound:** It is a special type of ultrasound scan in which the blood flow through arteries and veins is used to be tested for the presence of vascular disorders such as blood clots.\n\n**Fetal Ultrasound:** Fetal Ultrasound is used in pregnancy to keep track of baby development and baby’s health. It helps in tracking the growth of the fetus, checking if there are any abnormalities, and measuring the amount of amniotic fluid.\n\n## Risks & Limitations of the Ultrasound Test\n\n![Risks & Limitations of the Ultrasound Test](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731735954619-142663100.png)\n\nIn terms of the dangers involved with getting an ultrasound test, these are largely negligible as it employs no radiation whilst producing images, thus, it is regarded as one of the best and least hazardous diagnostic procedures.\n\nOne of the important issues regarding the applicability of ultrasound scanning is that, it may not be suitable for those regions of the body that lie within gas cavities e.g. the intestines, or the bones cover them up. Also, other factors such as obesity may affect the ultrasound’s accuracy.\n\n## List of Parameters Considered During the Scan\n\n![List of Parameters Considered During the Scan](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731735965281-669880283.png)\n\nIt is important to understand that the parameters may vary depending on the type of ultrasound and the purpose of the scan. However, here are a few common parameters that are measured during an ultrasound scan:\n\n- Any change regarding the size, form or dilatation of organs or tissues\n- When Doppler ultrasound is performed, evaluation of blood circulation and the states of vascular system\n- Obstruction of organs which might include cysts or tumours or any other formations\n- For prenatal scanning – amniotic fluid level measurement and checking growth parameters of the fetus (for example: biparietal diameter)\n\n## Reasons for Taking the Ultrasound\n\n![Reasons for Taking the Ultrasound](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731735971667-920239951.png)\n\nThere are multiple reasons that your doctor may suggest you take an ultrasound scan, some of them include: -\n\n**Diagnosing Abnormalities**: In a variety of instances, an ultrasound is used to help diagnose the cyst, tumor or even other surrounding organs’ abnormalities.\n\n**Pregnancy Care:** The ultrasound allows doctors to examine the fetus, while also gauging its state of health.\n\n**Investigating Pain or Swelling**: When there is swelling, pain or other symptoms that are hard to explain, this is where the ultrasound scanning technique comes in.\n\n**Evaluating Organ Function:** Conditions that involve gall bladder disease, kidney stones or cirrhosis of the liver can be evaluated through ultrasound imaging.\n\n### When and Who Needs to Take an Ultrasound Scan?\n\nUltrasounds are recommended to patients for a variety of reasons, some of them include: -\n\n- If your doctor suspects issues with your internal organs such as the liver, kidney, or heart.\n- Pregnant women for evaluating the conditions of the fetuses.\n- Athletes identify musculoskeletal injuries like tendon ruptures or sprains.\n- Patients with no result of visceral massage and other techniques with swelling, pain, or complications of the visceral organs.\n- People with heart disease.\n- Patients with gallstones suspect suffering from kidney stones or some other organ related disorders.\n\n## Benefits of Taking the Ultrasound\n\n![Benefits of Taking the Ultrasound](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731735980742-820179332.png)\n\nUltrasound scan offers a range of benefits and due to this, it is widely used to assess the variety of diseases and monitor a fetus. Some of the benefits include: -\n\n**Non-Invasive:** There is no requirement of any needles or incisions to perform an ultrasound. Such procedures are needed for biopsies and surgeries.\n\n**No Radiation:** This is a feature that helps to protect pregnant mothers and others who must undergo so many scans.\n\n**Real-Time Imaging**: The real time imaging of an ultrasound scan enables medical professionals to fully fathom the insides of a person’s organs and be able to diagnose any abnormalities instantly.\n\n## Illnesses Diagnosed with Ultrasound\n\n![Illnesses Diagnosed with Ultrasound](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731735986278-403634312.png)\n\nUltrasound scan is one of the modalities which is helpful in diagnosing, and which may include all the following but not limited to: -\n\n- Kidney Stones\n- Gall Stones\n- Liver Cirrhosis or Fatty Liver\n- Blood Thrombosis\n- Specific Cases in Pregnancy Targeting Placenta Accreta\n- Thyroid Gland Disorders Such as Nodules and Goitres\n- Heart Failure Due to Hypertrophy and Valvular Defect\n- Inflammation Of the Pancreas\n- Abdominal Aortic Aneurism\n- Cysts And Fibroids Affecting the Structures of the Female Reproductive System\n- Injuries Affecting Muscles Tendons or Ligaments\n- Abscess Formation and Cellulitis\n\n## Preparing for Ultrasound Scan\n\n![Preparing for Ultrasound Scan](https://cadabams-diagnostics-assets.s3.ap-south-1.amazonaws.com/cadabam_assets/image-1731735992802-68116460.png)\n\nThere are different types of ultrasounds and there are also different indications for which the scan needs to be carried out, thus comparison here i think should not be done. However, below are broad principles, which may be useful in helping you obtain the ultrasound scan in a better way.\n\n### Prerequisites\n\nTo obtain clear results, the image formed on the abdominal scans might tilt or get worse as they cannot have any accumbent solids. On the other hand, the image scans on the Pelvic Region Ultrasound require a considerable amount of water consumption prior to its execution.\n\n### The Most Appropriate Time to Execute the Scan\n\nUltrasounds have numerous purposes; therefore, timing of the scan differs depending on the surgical or diagnostic requirement. For instance, after breakfast falls the time for abdominal ultrasound while Pelvic, MSK, and Doppler ultrasounds can occur in the afternoons too.\n\n### Who is Eligible for an Ultrasound Scan Examination?\n\nMost people, including children, pregnant women, and the elderly can undergo ultrasound procedures without feeling anxious about radiation exposure.\n\n### Procedure for Taking Ultrasound Scan\n\nYour sonographer is a trained ultrasound technician. To avoid friction, ultrasound gel is applied to your skin, after which the sonographer rubs an ultrasound transducer on your skin. Everything else is as easy as changing into a hospital gown.\n\nFor those who don’t know, a transducer is an ultrasound tool that is placed on skin to deliver sound waves to our body and receives echoes that are converted into images.\n\nIf the condition under examination is complex, or the area of the scan is, then the time required for the whole process may be longer than the average time frame of 15 – 45 minutes.\n\n### Caution Before Taking the Scan\n\nUltrasound scans are non-invasive and painless tests that most never require precautionary measures; however, recent surgeries or impediments should be conveyed to the healthcare provider. It is recommended that food consumption is avoided prior to undergoing an abdominal ultrasound, as this may aid in providing better results."
+  },
+  "relatedTests": []
+}

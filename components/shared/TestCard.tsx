@@ -44,12 +44,12 @@ export function TestCard({
         className,
       )}
     >
-      <div className="p-3.5 sm:p-4 flex flex-col flex-1 min-w-0">
-        <div className="flex items-start justify-between gap-3">
-          <h3 className="text-body-sm sm:text-body text-ink-900 font-bold leading-snug line-clamp-2 flex-1 min-w-0">
+      <div className="p-2.5 sm:p-3 flex flex-col flex-1 min-w-0">
+        <div className="flex items-center justify-between gap-3">
+          <h3 className="text-body-sm sm:text-body text-ink-900 font-bold leading-snug flex items-center min-h-[2.75em] flex-1 min-w-0">
             <Link
               href={href}
-              className="hover:text-orange-600 transition-colors focus-visible:outline-none focus-visible:underline"
+              className="line-clamp-2 hover:text-orange-600 transition-colors focus-visible:outline-none focus-visible:underline"
             >
               {name}
             </Link>
@@ -67,7 +67,7 @@ export function TestCard({
         </div>
 
         {parameters !== undefined && (
-          <div className="mt-1.5 flex flex-wrap items-center gap-x-2.5 gap-y-1 text-caption sm:text-meta text-ink-500">
+          <div className="mt-1 flex flex-wrap items-center gap-x-2.5 gap-y-1 text-caption sm:text-meta text-ink-500">
             <span className="inline-flex items-center gap-1">
               <span className="w-1 h-1 rounded-pill bg-ink-300" />
               {parameters} parameters
@@ -75,11 +75,11 @@ export function TestCard({
           </div>
         )}
 
-        <div className="mt-auto pt-3 border-t border-cream-line-soft">
+        <div className="mt-auto pt-2">
           <div className="flex items-center gap-2">
             <BookNowButton
               item={{ id: id ?? href, name, price, originalPrice, href, kind }}
-              className="flex-1 min-w-0 inline-flex items-center justify-center gap-1.5 rounded-pill bg-gradient-cta text-white font-bold px-2.5 py-2.5 text-body-sm whitespace-nowrap shadow-glow-orange hover:brightness-110 active:scale-[0.98] transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-300"
+              className="flex-1 min-w-0 inline-flex items-center justify-center gap-1.5 rounded-pill bg-gradient-cta text-white font-bold px-2.5 py-2.5 text-body-sm whitespace-nowrap hover:brightness-110 active:scale-[0.98] transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-300"
             >
               <Zap className="w-3.5 h-3.5 fill-white flex-shrink-0" />
               Book now

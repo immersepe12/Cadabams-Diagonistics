@@ -1,5 +1,5 @@
-import nonlabtestsData from "@/data/md+json/nonlabtests.json";
-import nonlabtestCategoriesData from "@/data/md+json/nonlabtest-categories.json";
+import nonlabtestsData from "@/data/allpages/_shared/nonlabtests.json";
+import nonlabtestCategoriesData from "@/data/allpages/_shared/nonlabtest-categories.json";
 import {
   FAQ,
   InterpretationTable,

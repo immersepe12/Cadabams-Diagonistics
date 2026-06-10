@@ -1,0 +1,30 @@
+{
+  "type": "blog-detail",
+  "route": "/blogs/understanding-breast-cancer-biopsy-process-results-and-more",
+  "slug": "understanding-breast-cancer-biopsy-process-results-and-more",
+  "blog": {
+    "id": "672cf722b170f62e3660ef3d",
+    "title": "A Guide to Breast Cancer Biopsy and Its Results",
+    "route": "/understanding-breast-cancer-biopsy-process-results-and-more",
+    "categoryName": "Health",
+    "blogCategoryId": "671b5106ad9bf8d210384d33",
+    "verifiedBy": "Doctor B",
+    "imageUrl": "/blogs/image-1731000098669-657957195.webp",
+    "pageState": "publish",
+    "createdAt": "2024-11-07T17:21:38.720Z",
+    "updatedAt": "2024-11-07T17:21:38.721Z",
+    "seo": {
+      "title": "Breast Cancer Biopsy: Process, Results, and Recovery Guide",
+      "description": "Understand the breast cancer biopsy process, types of biopsies, result interpretation, and recovery. A complete guide to this crucial diagnostic procedure.",
+      "keywords": "",
+      "canonicalUrl": "",
+      "ogTitle": "",
+      "ogDescription": "",
+      "ogImage": "",
+      "schemaMarkup": "",
+      "robotsMeta": ""
+    },
+    "faqs": [],
+    "markdown": "A breast cancer biopsy is a crucial diagnostic procedure used to confirm the presence of breast cancer and determine its characteristics. This minimally invasive technique allows medical professionals to extract tissue samples from the breast for detailed examination. By analyzing these samples, doctors can accurately diagnose breast cancer, determine its type, grade, and stage and suggest an appropriate treatment plan tailored to each patient’s specific needs.\n\nThere are three primary types of breast biopsies:\n\n- Fine-needle aspiration\n- Core-needle biopsy\n- Surgical biopsy\n\n## **Fine-needle aspiration**\n\nThis medical procedure is commonly chosen when there is a suspicion of a fluid-filled lump. If the lump is easily reachable or suspected to be a cystic lump filled with fluid, the doctors may opt for a fine-needle aspiration (FNA). During this procedure, under ultrasound guidance, the lump is punctured with a fine needle to draw out and discard the fluid. This causes the lump to collapse. In some cases, ultrasound guides the needle accurately by creating an internal image of the breast through sound waves.\n\nFor testing, a radiologist (a doctor specializing in medical imaging such as x-rays, ultrasounds and mammograms) will perform a similar procedure called fine needle aspiration biopsy (FNABx). This involves using a needle to extract cells from the lump for further examination.\n\n## **Core-needle biopsy**\n\nThis procedure involves using a larger “core” or hollow needle to remove a small amount of suspicious tissue from the breast. It is performed under local anesthesia. During the procedure, a small marker is inserted to mark the biopsy location, which also aids in future surgical or imaging procedures. The core-needle biopsy is guided by specialized imaging equipment such as ultrasound or x-ray. Ultrasound-guided biopsies involve radiologists using [ultrasound](/bangalore/ultrasound-scan) to direct the needle, exactly into the tissues and taking samples for examination. A core-needle biopsy is associated with fewer side effects compared to a surgical biopsy.\n\n## **Surgical biopsy**\n\nA surgical biopsy is also known as wide local excision, wide local surgical biopsy, open biopsy, or lumpectomy. It is performed under local anesthesia. It is conducted in a hospital setting as the patient generally receives intravenous (IV) medications to induce drowsiness. The surgeon makes an incision on the breast and removes all or part of the abnormal lump, along with a small amount of normal-looking tissue called the margin. If the lump is visible on a mammogram or ultrasound but not easily palpable, a radiologist may place a thin wire to mark the suspicious area before the surgeon performs the biopsy. A marker is usually placed internally at the biopsy site after the procedure.\n\nThe tissue or fluid samples are examined under a microscope to detect any abnormal or cancerous cells. If no cancer cells are identified, the report will indicate that the lump’s cells are benign and non-cancerous. But if cancer cells are identified, the report will offer additional information to determine the next steps.\n\n## **Where to Get Reliable Breast Cancer Biopsy Done?**\n\n[Cadabams Diagnostics](/) is a reputable healthcare organization where we focus on quality and accuracy of our reports backed by advanced technology. We offer an all-inclusive range of diagnostic tests, including [breast cancer biopsy](/bangalore/ultrasound-scan/breast-biopsy-scan). Our team of qualified professionals provides patient-centric care, ensuring reliable results and a comfortable experience for individuals seeking their services."
+  }
+}

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+import { notFound } from "next/navigation";
 import {
   Home,
   Sparkles,
@@ -13,8 +14,9 @@ import {
   Users,
   Award,
   Phone,
+  type LucideIcon,
 } from "lucide-react";
-import { CLINICAL_TEAM } from "@/lib/data/clinical-team";
+import { getClinicalTeamPage } from "@/lib/data/allpages";
 import { ContactActionButton } from "@/components/shared/ContactActionButton";
 import {
   Breadcrumb,
@@ -34,7 +36,18 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://cadabamsdiagnostics.com/clinical-team" },
 };
 
+const ICONS: Record<string, LucideIcon> = {
+  Users,
+  Award,
+  ShieldCheck,
+  Stethoscope,
+};
+
 export default function ClinicalTeamPage() {
+  const data = getClinicalTeamPage();
+  if (!data) notFound();
+  const { hero, stats, section, doctors, cta } = data;
+
   return (
     <main className="bg-cream-bg min-h-screen">
       {/* Hero */}
@@ -81,15 +94,13 @@ export default function ClinicalTeamPage() {
           <div className="mt-6 sm:mt-8 max-w-3xl">
             <span className="inline-flex items-center gap-1.5 rounded-pill bg-white/15 backdrop-blur-md ring-1 ring-white/25 px-3 py-1 text-overline uppercase font-bold tracking-overline">
               <Stethoscope className="w-3.5 h-3.5" />
-              Clinical Team
+              {hero.badge}
             </span>
             <h1 className="mt-4 text-h1 sm:text-display-2 lg:text-[52px] lg:leading-[1.05] font-display font-extrabold tracking-tight">
-              Specialists you can trust with your health.
+              {hero.title}
             </h1>
             <p className="mt-4 text-body sm:text-h3 text-white/90 leading-relaxed max-w-2xl">
-              Our radiologists and clinical experts bring decades of combined
-              experience in fetal medicine, musculoskeletal imaging, and
-              diagnostic radiology — reviewing every report with care.
+              {hero.description}
             </p>
           </div>
         </div>
@@ -98,18 +109,14 @@ export default function ClinicalTeamPage() {
       {/* Stats band */}
       <section className="mx-auto max-w-7xl px-gutter -mt-6 lg:-mt-10 relative z-10">
         <div className="bg-cream-card rounded-2xl shadow-sh-3 border border-cream-line p-4 lg:p-5 grid grid-cols-2 lg:grid-cols-4 gap-3 lg:gap-6">
-          <MiniStat
-            Icon={Users}
-            value={`${CLINICAL_TEAM.length}`}
-            label="Specialists"
-          />
-          <MiniStat Icon={Award} value="25+" label="Years of experience" />
-          <MiniStat
-            Icon={ShieldCheck}
-            value="NABL"
-            label="Accredited reporting"
-          />
-          <MiniStat Icon={Stethoscope} value="6 hrs" label="Report turnaround" />
+          {stats.map((s) => (
+            <MiniStat
+              key={s.label}
+              Icon={ICONS[s.icon] ?? Users}
+              value={s.value}
+              label={s.label}
+            />
+          ))}
         </div>
       </section>
 
@@ -117,15 +124,15 @@ export default function ClinicalTeamPage() {
       <section className="mx-auto max-w-7xl px-gutter py-8 sm:py-10 lg:py-12">
         <div className="mb-8 sm:mb-10 max-w-2xl">
           <p className="text-overline uppercase text-orange-700 font-bold mb-2 tracking-overline">
-            Meet the team
+            {section.overline}
           </p>
           <h2 className="text-h1 sm:text-display-2 font-display font-extrabold text-ink-900 tracking-tight leading-tight">
-            The people behind your reports.
+            {section.title}
           </h2>
         </div>
 
         <div className="space-y-6 lg:space-y-8">
-          {CLINICAL_TEAM.map((doc) => (
+          {doctors.map((doc) => (
             <article
               key={doc.name}
               className="bg-cream-card rounded-2xl shadow-sh-1 hover:shadow-sh-2 border border-cream-line transition-shadow duration-200 overflow-hidden grid lg:grid-cols-[320px_1fr]"
@@ -216,32 +223,31 @@ export default function ClinicalTeamPage() {
             <div className="relative grid gap-6 lg:grid-cols-[1.4fr_1fr] items-center">
               <div>
                 <p className="text-overline uppercase font-bold text-white/80 mb-2 tracking-overline">
-                  Need a second opinion?
+                  {cta.overline}
                 </p>
                 <h2 className="text-h1 sm:text-display-2 font-display font-extrabold tracking-tight leading-tight">
-                  Talk to our specialists.
+                  {cta.title}
                 </h2>
                 <p className="mt-3 text-body lg:text-h3 text-white/85 max-w-xl leading-relaxed">
-                  Book a test or reach out for a report walk-through — our
-                  clinical team is here to help.
+                  {cta.description}
                 </p>
               </div>
               <div className="flex flex-col sm:flex-row lg:flex-col gap-3">
                 <Link
-                  href="/bangalore/lab-test"
+                  href={cta.primary.href}
                   className="inline-flex items-center justify-center gap-2 rounded-pill bg-white text-orange-700 font-bold px-6 py-3 text-body shadow-sh-2 hover:brightness-95 active:scale-[0.98] transition-all"
                 >
                   <Sparkles className="w-4 h-4" />
-                  Book a test
+                  {cta.primary.label}
                 </Link>
                 <ContactActionButton
                   mode="call"
-                  phone="+91 99006 64696"
+                  phone={cta.call.phone}
                   context="Clinical team — consultation"
                   className="inline-flex items-center justify-center gap-2 rounded-pill bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 text-body border border-white/30 transition-all"
                 >
                   <Phone className="w-4 h-4" />
-                  Talk to us
+                  {cta.call.label}
                 </ContactActionButton>
               </div>
             </div>
@@ -257,7 +263,7 @@ function DetailList({
   title,
   items,
 }: {
-  Icon: typeof GraduationCap;
+  Icon: LucideIcon;
   title: string;
   items: string[];
 }) {
@@ -289,7 +295,7 @@ function MiniStat({
   value,
   label,
 }: {
-  Icon: typeof Users;
+  Icon: LucideIcon;
   value: string;
   label: string;
 }) {

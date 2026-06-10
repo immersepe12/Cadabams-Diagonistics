@@ -1,0 +1,114 @@
+{
+  "type": "labtest-detail",
+  "route": "/bangalore/lab-test/renal-function-test",
+  "slug": "renal-function-test",
+  "test": {
+    "id": "672bb18821cadfab64a6f88b",
+    "templateName": "labtest",
+    "testName": "RENAL FUNCTION TEST",
+    "route": "/renal-function-test",
+    "basic_info": {
+      "name": "RENAL FUNCTION TEST",
+      "route": "/renal-function-test",
+      "categoryId": "671b5104ad9bf8d210384d29",
+      "price": 820,
+      "discount": "0",
+      "discountedPrice": "820.00",
+      "reportsWithin": "120 mins",
+      "Identifies": " Kidney Health and Functional Capacity ",
+      "measures": " Blood Urea and Creatinine Level ",
+      "testId": 7769072,
+      "testCategory": "Biochemistry"
+    },
+    "requisites": [
+      {
+        "value": " Fasting may be required"
+      }
+    ],
+    "packages": [],
+    "faqs": [
+      {
+        "question": "How long does it usually take to get the results? ",
+        "answer": "Results are expected within a few days to a week."
+      },
+      {
+        "question": "Is the test painful? ",
+        "answer": "A simple blood test is conducted, which results in slight discomfort."
+      },
+      {
+        "question": "Should one abstain from food prior to the test? ",
+        "answer": "Certain fasting measures may be required; consult your physician for particulars."
+      },
+      {
+        "question": "Is it true that certain medications alter the results of the test? ",
+        "answer": "Yes, many medications alter results; ensure telling your doctor about all drugs taken."
+      },
+      {
+        "question": "Do I need a follow-up if my results are abnormal? ",
+        "answer": "An abnormal result requires follow-up as it will involve further tests and evaluation by a specialist."
+      }
+    ],
+    "interpretations": {
+      "title": "A clear interpretation of the results of the renal function test ",
+      "cols": [
+        "Component Measured\t",
+        "Normal Range\t",
+        "Abnormal Range\t",
+        "Interpretation"
+      ],
+      "rows": [
+        [
+          "Serum Urea (BUN)\t",
+          "7-20 mg/dl",
+          ">20 mg/dl",
+          "May indicate renal dysfunction, dehydration, or excess protein intake"
+        ],
+        [
+          "Serum Creatinine\t",
+          "0.6-1.2 mg/dl",
+          ">1.2 mg/dl",
+          "May suggest kidney dysfunction"
+        ],
+        [
+          "Glomerular Filtration Rate (eGFR)",
+          ">90 mL/min/1.73m²",
+          "<60 mL/min/1.73m²",
+          "Typically indicates renal insufficiency"
+        ]
+      ]
+    },
+    "relative_test": {
+      "title": "",
+      "categoryId": "671b5104ad9bf8d210384d29",
+      "tests": []
+    },
+    "seo": {
+      "title": "Renal Function Test (RFT) in Bangalore | Kidney  Function Test",
+      "description": "Monitor kidney health with comprehensive renal function tests in Bangalore. Trusted labs, quick results.",
+      "keywords": "",
+      "canonicalUrl": "",
+      "ogTitle": "",
+      "ogDescription": "",
+      "ogImage": "",
+      "schemaMarkup": "",
+      "robotsMeta": ""
+    },
+    "markdown": "## What Is a Renal Function Test and Why Is A Renal Function Test Called This Way?\n\nThe Renal Function Test (RFT) is a useful test for evaluating the state of the kidney as well as its functional capabilities. RFTs include measures of wastes in the blood such as urea and creatinine which the kidney helps to clear from blood. It is commonly used for diagnosis of renal diseases, assessment of response to medical measures, or other renal-related hazards such as hypertension or diabetes southeast. It is easy to identify disorders affecting the kidneys at any early stage, which helps to control the disorder of the kidney much later.\n\n## How is the Renal Function Test measured?\n\nThe Renal Function Test is used to measure the levels of blood urea nitrogen and creatinine concentration, which are waste products of metabolism. This assessment reflects the degree of liver metabolism of urea, which is a byproduct of protein metabolism. If the level of creatinine is high, it means that the functioning of the kidneys is compromised since the kidneys’ function is to eliminate this metabolic waste from the blood. It may also include some measurements of rate pressure including Glomerular filtration rate (GFR) which is the kidney's ability to filter blood.\n\n## In which condition is the Renal Function Test performed most regularly?\n\nRenal function test is widely advised in the cases when the patient has some symptoms of kidney impairment like edema, tiredness, changes in micturition pattern, involuntary changes in urine volume. It is also done as a routine measure for people suffering from diabetes, hypertension and heart diseases or those receiving treatment which is likely to be harmful for the kidneys. Due to increasing chances of kidney afflictions with age, it is also suggested that regular checkups be carried out for individuals over 60.\n\n## Are there any risks or limitations to the renal function test?\n\nA renal function test is usually uncomplicated and secure which only involves the drawing of blood. Owing to this, there are some limitations which are risks as such factors could throw test results off. Diabetes or dehydration, certain medicines or having an abnormally large muscle mass for example could affect creatinine concentration. This test chiefly helps identify kidney complications though, it does not interpret the reason for such an anomaly and therefore requires additional investigations of renal health.\n\n## What parameters are evaluated in the renal function test?\n\nThe renal function tests evaluate these specific parameters most important in determining renal status:\n\n- **BUN or blood urea nitrogen:** The concentration of blood urea nitrogen reflects the activity of the liver and the metabolism of proteins within the body.\n- **Creatinine:** Measures the effectiveness of the kidneys in terms of how well they filter waste and how well kidneys themselves are functioning.\n- **GFR:** Tells you the volume of blood that is filtered through the kidneys in a minute’s time. If there is a decrease in this volume over time, it is an indication that the kidney may have developed some damage.\n\n## Who Should Consider Taking the Renal Function Test?\n\nThis test should be taken by individuals exhibiting a range of signs of kidney damage or those with existing diseases that may hinder the proper functioning of the kidneys. These are patients suffering from life–threatening diseases like diabetes, high blood pressure, and heart diseases. Besides, regular check-ups should be performed on elderly people over 60 years of age, people with kidney disease in the family and those taking drugs that can inhibit normal functioning of the kidneys.\n\n## What Are the Benefits Associated with the Renal Function Test for the Patient\n\nAmong the benefits of the Renal Function Test, the most valuable is provided by the early identification of kidney disorders, and it allows acting to stop progression. This is because when kidney function is compromised, medication that requires certain dosing or is nephrotoxic cannot be operated in a safe manner. For those people with chronic kidney illnesses, this provides help in the eyes of gauging whether the treatment is effective, and the patient is making the necessary changes in terms of diet and other factors to protect the kidney.\n\n## What Conditions Can the Renal Function Test Diagnose?\n\nThe Renal Function Test can be valuable in the diagnosis of several kidney-related diseases including the following ones:\n\n- Chronic Kidney Disease (CKD)\n- Acute Kidney Injury (AKI)\n- Glomerulonephritis\n- Hydronephrosis\n- Kidney Stones\n\n## The Renal Function Test: How to Get Ready for It\n\n**Prerequisites:** Such restrictions may be provided in case the specifics of the test ordered fall into the category of non-invasive anesthesia tests that require an 8–12–12 hour fast. Speak to your physician or pharmacy regarding medications you should delay.\n\n**Eligibility:** This is applicable to all persons bearing kidney function’s evaluation and assessment as important and usually guided by a physician’s order.\n\n**Procedure for Taking the Test:** The blood sample will be taken at the beginning of the test by either placing the tourniquet on the arm or both arms with bandages. The procedure takes less than ten minutes maximum of approximately five sample.\n\n**Caution Before the Test:** Notify your doctor of any medications and supplements you use. Certain drugs can change your test results."
+  },
+  "category": {
+    "id": "671b5104ad9bf8d210384d29",
+    "name": "Kidney",
+    "tests": [
+      "672df7bc4280ae87a405c2a9",
+      "673711a9996e7737b6f4dc9c",
+      "679385c8c75a5739655ac869",
+      "681c725916444f3c1158d291"
+    ],
+    "image": "/lab-tests/image-1729663959118-621550631.webp",
+    "path": "/kidney-tests",
+    "createdAt": "2024-10-23T06:13:08.734Z",
+    "updatedAt": "2024-10-23T06:13:08.734Z",
+    "markdown": "Kidney Tests"
+  },
+  "relatedTests": []
+}

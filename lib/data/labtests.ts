@@ -1,6 +1,6 @@
-import labtestsData from "@/data/md+json/labtests.json";
-import labtestCategoriesData from "@/data/md+json/labtest-categories.json";
-import labtestHomepageData from "@/data/md+json/labtesthomepages.json";
+import labtestsData from "@/data/allpages/_shared/labtests.json";
+import labtestCategoriesData from "@/data/allpages/_shared/labtest-categories.json";
+import labtestHomepageData from "@/data/allpages/_shared/labtesthomepages.json";
 import {
   FAQ,
   InterpretationTable,

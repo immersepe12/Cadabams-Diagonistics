@@ -1,0 +1,218 @@
+{
+  "type": "about-us",
+  "route": "/about-us",
+  "hero": {
+    "badge": "Our Story",
+    "title": "Accurate diagnostics, compassionate care.",
+    "description": "Cadabam's Diagnostics is a Bangalore-based network of advanced diagnostic centres. We combine modern equipment, accredited labs, and specialist-led reporting so you get answers you can trust — fast.",
+    "buttons": [
+      {
+        "label": "Book a test",
+        "href": "/bangalore/lab-test",
+        "icon": "Beaker"
+      },
+      {
+        "label": "Find a centre",
+        "href": "#our-centres",
+        "icon": "Building2"
+      }
+    ],
+    "stats": [
+      {
+        "value": "60",
+        "label": "Mins home collection",
+        "icon": "Clock"
+      },
+      {
+        "value": "1M+",
+        "label": "Happy patients",
+        "icon": "Users"
+      },
+      {
+        "value": "4.9",
+        "label": "Google rating",
+        "icon": "Award"
+      },
+      {
+        "value": "5",
+        "label": "Centres in Bangalore",
+        "icon": "Building2"
+      }
+    ]
+  },
+  "mission": {
+    "overline": "What drives us",
+    "title": "Vital health insights, without the wait.",
+    "body": [
+      "We started Cadabam's Diagnostics with a simple idea: accessing vital health insights shouldn't mean sacrificing comfort. From routine blood work to advanced MRI imaging, every test should be handled with care, accuracy, and respect for your time.",
+      "Today, our team delivers reports in 6 hours for most lab tests, same-day reads for routine scans, and second opinions from specialists with 15+ years of experience — across 5 centres and a city-wide home-collection network."
+    ],
+    "highlights": [
+      {
+        "icon": "Clock",
+        "text": "Reports in 6 hours"
+      },
+      {
+        "icon": "ShieldCheck",
+        "text": "NABL Accredited"
+      },
+      {
+        "icon": "HeartPulse",
+        "text": "Home collection"
+      },
+      {
+        "icon": "BadgeCheck",
+        "text": "Specialist reviewed"
+      }
+    ],
+    "image": {
+      "src": "/centers/image-1731905681968-88542235.webp",
+      "alt": "Cadabam's Diagnostics centre"
+    },
+    "badge": {
+      "label": "Accredited",
+      "value": "NABL Certified",
+      "icon": "Award"
+    }
+  },
+  "values": {
+    "overline": "How we work",
+    "title": "Four principles, every single test.",
+    "items": [
+      {
+        "icon": "Microscope",
+        "title": "Advanced equipment",
+        "body": "3T MRI, multi-slice CT, GE Healthcare X-ray, and high-resolution ultrasound — calibrated and serviced on a strict schedule."
+      },
+      {
+        "icon": "Award",
+        "title": "Accredited labs",
+        "body": "NABL-aligned quality controls, double-blind review on critical tests, and consistent reference ranges across every centre."
+      },
+      {
+        "icon": "HeartPulse",
+        "title": "Patient-first care",
+        "body": "Reports in 6 hours for most lab tests, gentle staff, transparent pricing, and free home sample collection across Bangalore."
+      },
+      {
+        "icon": "Activity",
+        "title": "Specialist-led reporting",
+        "body": "Reports reviewed by radiologists with 15–25 years of fetal medicine, MSK imaging, and diagnostic experience."
+      }
+    ]
+  },
+  "services": {
+    "overline": "What we offer",
+    "title": "From routine bloodwork to advanced imaging.",
+    "labTestCount": 181,
+    "scanCount": 303,
+    "items": [
+      {
+        "icon": "Beaker",
+        "title": "Lab tests",
+        "body": "Blood, hormones, vitamins, liver, kidney, heart and more — 1500+ tests with home collection.",
+        "href": "/bangalore/lab-test"
+      },
+      {
+        "icon": "Activity",
+        "title": "Radiology scans",
+        "body": "X-Ray, MRI, CT, Ultrasound, MSK and pregnancy scans on modern, regularly-calibrated equipment.",
+        "href": "/bangalore/xray-scan"
+      },
+      {
+        "icon": "ShieldCheck",
+        "title": "Preventive checkups",
+        "body": "Curated health checkup packages so you can stay ahead of your health rather than reacting to it.",
+        "href": "/bangalore/preventive-health-checks"
+      },
+      {
+        "icon": "Stethoscope",
+        "title": "Specialist consultations",
+        "body": "Connect with radiologists and clinicians for second opinions and report walk-throughs.",
+        "href": "/contact-us"
+      }
+    ]
+  },
+  "milestones": {
+    "overline": "The journey so far",
+    "title": "From one centre to a city-wide network.",
+    "items": [
+      {
+        "year": "2020",
+        "title": "Cadabam's Diagnostics is founded",
+        "body": "Our flagship Banashankari centre opens, bringing hospital-grade radiology to Bangalore neighbourhoods."
+      },
+      {
+        "year": "2021",
+        "title": "NABL accreditation",
+        "body": "Our lab achieves NABL accreditation for medical testing, formalising the QA processes we built from day one."
+      },
+      {
+        "year": "2023",
+        "title": "Network grows to 5 centres",
+        "body": "Indiranagar, Kanakapura Road, Jayanagar, and Kalyan Nagar centres open with consistent SOPs and reference ranges."
+      },
+      {
+        "year": "2025",
+        "title": "1M+ tests delivered",
+        "body": "We cross a million tests delivered across Bangalore with reports in under 6 hours on most lab tests."
+      }
+    ]
+  },
+  "centres": {
+    "overline": "Find us",
+    "description": "Same equipment quality, same SOPs, same reference ranges — at every Cadabam's Diagnostics centre across Bangalore.",
+    "items": [
+      {
+        "id": "672e500a03598b92c1519887",
+        "name": "Cadabam's Diagnostic Centre Banashankari",
+        "address": "No. 1/A, 1st Block, Bhavani  HBCS, Banashankari 3rd Stage, Near Devegowda petrol Bunk, Bangalore -  560070",
+        "phone": "+91 99006 64696",
+        "href": "/bangalore/center/banashankari"
+      },
+      {
+        "id": "672e50f903598b92c1519931",
+        "name": "Cadabam’s Diagnostics - Kanakapura Road",
+        "address": "Ground and 1st floor, Sadhvin Heights, 747/787, Kanakapura Main Rd, Doddakallasandra, Uttarahalli hobli, Bengaluru, Karnataka 560062",
+        "phone": "098861 08180",
+        "href": "/bangalore/center/kanakapura-road"
+      },
+      {
+        "id": "67284ea1ba3d8c19c210758b",
+        "name": "Cadabam's Indiranagar",
+        "address": "725, Chinmaya Mission Hospital Rd, near CHINMAYA MISSION HOSPITAL, Indira Nagar 1st Stage, Defence Colony, Indiranagar, Bengaluru, Karnataka 560038",
+        "phone": "+91 9900126611",
+        "href": "/bangalore/center/indiranagar"
+      },
+      {
+        "id": "672e507303598b92c1519899",
+        "name": "Cadabam's Diagnostic Centre Jayanagar",
+        "address": "NO 7/2, 14th Cross, 2nd block, Jayanagar, Bangaluru - 560011",
+        "phone": "+91 8861821122",
+        "href": "/bangalore/center/jayanagar"
+      },
+      {
+        "id": "672e50ba03598b92c15198f3",
+        "name": "Cadabam’s Diagnostics – Kalyan Nagar",
+        "address": "No 88-250-5AC-922, HRBR 1st Block, Kalyan Nagar, Bengaluru, Bengaluru Urban, Karnataka,\n560043",
+        "phone": "9035343344",
+        "href": "/bangalore/center/kalyan-nagar"
+      }
+    ]
+  },
+  "cta": {
+    "overline": "Ready when you are",
+    "title": "Book your test in under a minute.",
+    "description": "Walk-in, home sample collection, or a centre visit — choose what fits your day. We'll handle the rest.",
+    "primary": {
+      "label": "Book a lab test",
+      "href": "/bangalore/lab-test",
+      "icon": "Beaker"
+    },
+    "call": {
+      "label": "Talk to us",
+      "phone": "+91 99006 64696",
+      "icon": "Phone"
+    }
+  }
+}

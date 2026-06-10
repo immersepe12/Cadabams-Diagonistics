@@ -37,7 +37,7 @@ export function FaqList({
           <li key={i}>
             <article
               className={cn(
-                "group relative bg-cream-card rounded-2xl border transition-all duration-200 overflow-hidden",
+                "group relative bg-cream-card rounded-sm border transition-all duration-200 overflow-hidden",
                 isOpen
                   ? "border-orange-200 shadow-sh-3"
                   : "border-cream-line shadow-sh-1 hover:shadow-sh-2 hover:border-orange-100",

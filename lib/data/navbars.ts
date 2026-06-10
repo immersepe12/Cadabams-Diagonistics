@@ -1,4 +1,4 @@
-import navbarsData from "@/data/md+json/navbars.json";
+import navbarsData from "@/data/allpages/_shared/navbars.json";
 
 export interface NavbarLink {
   text: string;

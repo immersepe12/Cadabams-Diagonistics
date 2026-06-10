@@ -1,0 +1,2425 @@
+{
+  "count": 605,
+  "pages": [
+    {
+      "route": "/",
+      "type": "home"
+    },
+    {
+      "route": "/about-us",
+      "type": "about-us"
+    },
+    {
+      "route": "/bangalore",
+      "type": "bangalore-landing"
+    },
+    {
+      "route": "/bangalore/center/banashankari",
+      "type": "center"
+    },
+    {
+      "route": "/bangalore/center/indiranagar",
+      "type": "center"
+    },
+    {
+      "route": "/bangalore/center/jayanagar",
+      "type": "center"
+    },
+    {
+      "route": "/bangalore/center/kalyan-nagar",
+      "type": "center"
+    },
+    {
+      "route": "/bangalore/center/kanakapura-road",
+      "type": "center"
+    },
+    {
+      "route": "/bangalore/ct-scan",
+      "type": "scan-listing"
+    },
+    {
+      "route": "/bangalore/ct-scan/abdomen-and-lower-thorax-ct-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ct-scan/abdomen-and-pelvis-with-contrast-ct-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ct-scan/abdomen-ct-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ct-scan/angiography-abdomen-ct-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ct-scan/angiography-neck-brain-ct-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ct-scan/ankle-joint-ct-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ct-scan/aortic-angiogram-ct-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ct-scan/aortogram-thorax-and-abdomen-ct-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ct-scan/bilateral-knee-ct-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ct-scan/brain-and-angiography-ct-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ct-scan/brain-and-coronals-ct-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ct-scan/brain-and-orbits-ct-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ct-scan/brain-ct-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ct-scan/brain-plain-ct-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ct-scan/brain-venogram-ct-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ct-scan/carotid-angio-ct-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ct-scan/cervical-spine-ct-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ct-scan/chest-ct-scans",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ct-scan/chest-thorax-without-contrast-ct-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ct-scan/contrast-ct-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ct-scan/ct-abdomen-and-pelvis-plain",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ct-scan/elbow-ct-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ct-scan/enteroclysis-ct-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ct-scan/extremities-ct-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ct-scan/face-and-brain-ct-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ct-scan/face-and-cranium-3d-ct-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ct-scan/face-ct-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ct-scan/guided-fnac-ct-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ct-scan/hand-ct-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ct-scan/high-resolution-without-contrast-ct-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ct-scan/hip-3d-ct-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ct-scan/hip-joints-ct-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ct-scan/hrct-high-resolution-computed-tomography-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ct-scan/knee-joint-3d-ct-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ct-scan/kub-plain-ct-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ct-scan/kub-with-contrast-ct-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ct-scan/left-hand-ct-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ct-scan/leg-ct-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ct-scan/lower-abdomen-and-pelvis-ct-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ct-scan/lower-abdomen-including-pelvis-with-contrast-ct-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ct-scan/lower-neck-and-thorax-ct-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ct-scan/lumbar-spine-ct-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ct-scan/maxilla-and-mandible-ct-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ct-scan/neck-and-upper-thorax-ct-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ct-scan/neck-angio-ct-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ct-scan/neck-ct-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ct-scan/neck-scan-with-contrast-ct-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ct-scan/neck-with-upper-chest-ct-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ct-scan/neck-without-contrast-ct-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ct-scan/orbir-ct-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ct-scan/orbit-ct-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ct-scan/paranasal-sinuses-pns-3d-ct-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ct-scan/parotid-ct-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ct-scan/pelvis-3d-ct-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ct-scan/pelvis-ct-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ct-scan/peripheral-angio-ct-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ct-scan/peripheral-venogram-ct-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ct-scan/pns-axial-coronal-views-ct-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ct-scan/pns-axials-and-coronals-ct-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ct-scan/pns-ct-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ct-scan/renal-angio-ct-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ct-scan/right-ankle-joint-ct-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ct-scan/right-elbow-ct-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ct-scan/sacroiliac-joints-si-ct-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ct-scan/sailography-ct-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ct-scan/scan-dorsal-thoracic-spine-ct-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ct-scan/scan-of-kub-ct-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ct-scan/screening-ct-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ct-scan/shoulder-ct-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ct-scan/shoulder-screening-ct-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ct-scan/temporal-bone-ct-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ct-scan/thoracic-spine-ct-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ct-scan/thorax-and-lower-neck-ct-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ct-scan/thorax-and-upper-abdomen-ct-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ct-scan/triphase-abdomen-ct-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ct-scan/triphasic-abdomen-ct-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ct-scan/triphasic-liver-ct-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ct-scan/upper-limb-angiography-ct-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ct-scan/urogram-ct-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ct-scan/venogram-ct-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ct-scan/whole-abdomen-with-contrast-ct-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ct-scan/whole-body-angiography-ct-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ct-scan/whole-body-ct-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ct-scan/whole-spine-ct-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ct-scan/wrist-ct-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/lab-test",
+      "type": "labtest-listing"
+    },
+    {
+      "route": "/bangalore/lab-test/24-hrs-urine-micro-albumin",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/absolute-basophil-count",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/absolute-eosinophil-count-aec",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/absolute-lymphocyte-count",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/absolute-monocyte-count",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/absolute-neutrophil-count",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/acid-fast-bacilli-afb-culture-test",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/acid-fast-bacilli-staining",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/aldosterone-serum",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/alkaline-phosphatase-alp",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/ammonia",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/amylase-test-at",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/anti-beta2-glycoprotein-i-igg",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/anti-cardiolipin-antibody-igm",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/anti-cardiolipin-igg-antibody",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/anti-cyclic-citrullinated-peptide-antibody",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/anti-microsomal-antibody",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/anti-mullerian-hormone",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/anti-phospholipid-antibody",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/anti-streptolysin-o-titre",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/anti-thyroglobulin",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/antibodies-hepatities-e-virus-igm",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/antinuclear-antibody-ifa",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/aslo-test-aslot",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/b-type-natriuretic-peptide",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/beta-human-chorionic-gonadotropin-beta-hcg",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/bile-acid",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/bile-pigment-urine",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/bile-salt-urine",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/bilrubin-total-direct-and-indirect-test-btdpdt",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/bleeding-time-test-bt",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/blood-culture",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/blood-tests",
+      "type": "labtest-category-listing"
+    },
+    {
+      "route": "/bangalore/lab-test/blood-urea-nitrogen-test",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/bnt",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/bones-tests",
+      "type": "labtest-category-listing"
+    },
+    {
+      "route": "/bangalore/lab-test/c-reactive-protein-test-crpt",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/cancer-antigen-125",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/carcino-embryonic-antigen-eclia",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/chikungunya-virus-antibody-ig",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/chloride",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/cholestrol-total-test-ctt",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/clotting-time-test-ctt",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/complete-blood-count-cbc",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/complete-blood-count-test-with-esr",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/cortisol-8-am",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/cortisol-random-test",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/creatine-phosphokinase-mb-fraction",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/creatinine-test-ct",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/culture-and-sensitivity-pus",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/culture-and-sensitivity-test-of-sputum",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/dengue-antibody-igg-test-daiggt",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/dengue-antibody-igm-test-daigmt",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/dengue-ns1-antigen-test-dnsat",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/dengue-profile-rapid-test",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/diabetes-sugar-test-dst",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/differential-count-test-dct",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/double-marker",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/dsdsds",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/dummy",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/electrolytes-blood-test-ebt",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/estimated-glomerular-filtration-rate",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/estradiol-e2",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/fasting-urine-sugar-and-post-prandal-urine-sugar-test-fusappust",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/ferritin",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/fluid-analysis",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/fluid-culture",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/fnac-test-fsst",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/folate-eclia",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/folic-acid",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/follicle-stimulating-hormone",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/free-prostate-specific-antigen-eclia",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/free-thyroxine-free-t4-test-ftft4t",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/free-triiodo-thyronine-free-test-fttft",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/gamma-gt-test-ggt",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/glucose-2-hour-postprandial-test-ghpt",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/glucose-charge",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/glucose-fasting-test-gft",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/glucose-fasting-with-urine-sugar-test-gfust",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/glucose-post-prandial-with-urine-gppu",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/glucose-random-test-grt",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/glucose-tolerance-test-gtt",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/glycosylated-haemoglobin-hba1c-test",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/gram-stain",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/gut-health-tests",
+      "type": "labtest-category-listing"
+    },
+    {
+      "route": "/bangalore/lab-test/h1-n1",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/haemoglobin-electrophoresis",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/hdl-cholestrol-test-hdlct",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/heart-tests",
+      "type": "labtest-category-listing"
+    },
+    {
+      "route": "/bangalore/lab-test/hepatitis-a-virus-antibody-igm",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/hepatitis-a-virus-hav-igm-test",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/hepatitis-b-e-antigen",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/hepatitis-b-surface-antigen-elisa",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/hepatitis-b-surface-antigen-screening",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/hepatitis-c-virus-elisa",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/herpes-simplex-virus-1-igg",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/herpes-simplex-virus-2-igg",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/herpes-simplex-virus-2-igm",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/herpes-simplex-virus-type-1",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/high-sensitive-c-reactive-protiens-test-hsrpt",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/histopathology-extra-large",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/histopathology-medium",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/histopathology-of-larges",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/histopathology-small-biopsy",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/hormones-tests",
+      "type": "labtest-category-listing"
+    },
+    {
+      "route": "/bangalore/lab-test/human-immunodeficiency-virus-elisa",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/indirect-coombs",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/insulin-fasting",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/ionised-calcium",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/iron-colorimetric",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/iron-profile",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/karyotyping",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/kidney-function-test-kft",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/kidney-tests",
+      "type": "labtest-category-listing"
+    },
+    {
+      "route": "/bangalore/lab-test/lactate-dehydrogenase",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/lactate-dehydrogenase-total",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/lbc-pap-test-lpt",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/ldl-cholestrol-test-ldlct",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/leptospira-igm",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/lipase-test-lt",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/lipid-profile-test-lpt",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/lithium-ise-module",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/liver-function-test-lft",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/liver-tests",
+      "type": "labtest-category-listing"
+    },
+    {
+      "route": "/bangalore/lab-test/lupus-anticoagulant",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/luteinizing-hormone",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/magnesium-test",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/malarial-parasite-card-test-mpct",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/malarial-parasite-smear-exam",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/mantoux-test-mt",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/metanephrine-serum",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/non-invasive-prenatal-testing",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/oral-glucose-challenge-test-ogct",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/pap-smear-test-pst",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/partial-thromboplastin-time-test-ptt",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/pcv-test-pcvt",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/peripheral-smear-examination",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/phosphorus-test",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/potassium-test-pt",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/pregnancy-associated-plasma-protein",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/progesterone",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/prolactin-test",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/prostate-specific-antigen-total-psat",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/quadruple-marker",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/raf-test-raft",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/renal-function-test",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/reproductive-organs-chekup-test",
+      "type": "labtest-category-listing"
+    },
+    {
+      "route": "/bangalore/lab-test/reverse-transcription-polymerase-chain-reaction",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/rheumatoid-factor-assay-test-rfat",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/rubella-igg",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/rubella-igm-test",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/semen-analysis-sa",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/semen-culture",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/serum-glutamic-oxaloacetic-transaminase-sgot",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/serum-glutamic-pyruvic-transaminase-sgpt",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/serum-valproic-acid",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/sodium-blood-test-sbt",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/sputum-stain-test-sst",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/stool-culture-sensitivity",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/stool-occolt-blood-test-sobt",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/tb-gold",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/test2",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/testosterone-free",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/thyroid-profile-t3-t4-tsh",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/thyroid-simulation-harmone-tsh",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/tissue-culture",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/torch-panel-igg",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/total-and-differential-count-test-tadct",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/total-immunoglobulin-ige-test-tigit",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/total-iron-binding-capacity",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/total-testosterone-tt",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/treponema-pallidum-haemagglutination-assay",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/troponin-i",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/typhoid-vaccine-test-tvt",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/urea-albumin-creatinine-ratio-uacr",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/uric-acid-test-ust",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/urine-analysis",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/urine-culture",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/urine-drug-of-abuse-qualitative",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/urine-microalbumin-test-umt",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/urine-pregnancy-test-upt",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/urine-protien-creatinine-ratio-test-upcrt",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/vdrl-test-vdrlt",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/vitamin-b-12-cyanocobalamin-test",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/vitamin-d-total-25-hydroxy-cholecalciferol-test",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/vitamin-tests",
+      "type": "labtest-category-listing"
+    },
+    {
+      "route": "/bangalore/lab-test/weil-felix",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/widal-slide-test-wst",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/widal-tube-test-wtt",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/lab-test/zinc-serum",
+      "type": "labtest-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan",
+      "type": "scan-listing"
+    },
+    {
+      "route": "/bangalore/mri-scan/abdomen-and-pelvis-mri-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/abdominal-mri",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/ankle-mri-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/aortic-angiography-mri-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/arm-mri-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/arthrogram-mri-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/bilateral-temporal-bone-innear-without-contrast",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/both-knees-mri-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/both-legs-mri-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/both-shoulders-mri-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/brachial-plexus-mri-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/brain-and-angiogram-mri-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/brain-and-orbits-mri-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/brain-and-peripheral-nervous-system-pns-mri-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/brain-and-venogram-mri-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/brain-mri",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/brain-navigation-protocol-mri-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/brain-plain-mri",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/brain-with-angiography-without-contrast-mri-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/brain-with-contrast-mri-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/brain-with-epilepsy-protocol-mri-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/brain-with-seizure-protocol-mri-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/brain-with-spectroscopy-mri",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/brain-with-spectroscopy-mri-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/breast-with-contrast-mri-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/carotid-angio-mri-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/cervical-and-cervico-dorsal-spine-without-contrast-mri-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/cervical-cervico-dorsal-spine-mri",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/cervical-spine-mri-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/chest-mri-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/chest-without-contrast-mri-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/coccyx-mri-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/contrast-mri-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/craniovertebral-cv-junction-mri-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/csf-flow-study-mri-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/ct-temporal-bones-mri-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/defecography-mri-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/dorsal-and-dorso-lumbar-spine-with-contrast-mri-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/dorsal-dorso-lumbar-spine-without-contrast-mri-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/dorsal-lumbar-spine-mri-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/dorsal-spine-mri-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/elbow-joint-mri-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/extremities-mri-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/extremities-without-mri-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/face-mri-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/fistulogram-mri-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/foot-mri-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/forearm-mri-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/hand-mri-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/hip-joints-mri-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/hip-without-contrast-mri-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/knee-joint-mri-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/knee-without-contrast-mri",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/kub-mri-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/leg-mri-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/limited-mri-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/lumbar-lumbosacral-spine-with-contrast-mri-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/lumbar-lumbosacral-spine-without-contrast-mri-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/lumbar-spine-mri",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/magnetic-resonance-angiogram-venogram-mri-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/magnetic-resonance-cholangiopancreatography-mri-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/mammogram-with-contrast-mri-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/mri-screening",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/musculoskeletal-mri",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/neck-angiography-mri-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/neck-mri-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/neck-with-contrast-mri-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/neck-without-contrast-mri-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/one-region-disc-mri-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/orbit-mri-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/orbits-without-contrast-mri-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/pelvis-mri-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/pelvis-with-both-hip-joints-mri-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/pelvis-without-contrast-mri-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/perianal-imaging-center",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/peripheral-angiography-mri-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/pituitary-gland-and-sella-mri-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/pns-mri-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/prostate-mri-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/renal-angiography-mri",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/sacroiliac-joints-mri-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/screening-of-bones-and-joints-mri-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/scrotum-mri-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/shoulder-mri-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/shoulder-without-contrast-mri-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/spine-screening-without-contrast-mri-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/sterno-clavicular-joint-mri-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/temporal-bones-mri-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/temporomandibular-joint-mri-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/testpage123",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/thigh-mri-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/thoraco-lumbar-spine-mri-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/thumb-mri-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/tongue-mri-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/whole-body-mri-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/whole-spine-mri-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/whole-spine-screening-mri-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/mri-scan/wrist-joint-mri-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/msk-scan",
+      "type": "scan-listing"
+    },
+    {
+      "route": "/bangalore/msk-scan/musculoskeletal-ultrasound-msk",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/pregnancy-scan",
+      "type": "scan-listing"
+    },
+    {
+      "route": "/bangalore/pregnancy-scan/fetal-imaging",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/pregnancy-scan/fetal-interventional-ultrasound-echo",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/pregnancy-scan/pregnancy-dating-scan-ultrasound",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/pregnancy-scan/pregnancy-ultrasound",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/preventive-health-checks",
+      "type": "scan-listing"
+    },
+    {
+      "route": "/bangalore/preventive-health-checks/msk-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/preventive-health-checks/x-rays",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ultrasound-scan",
+      "type": "scan-listing"
+    },
+    {
+      "route": "/bangalore/ultrasound-scan/abdomen-and-pelvis-ultrasound-scans",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ultrasound-scan/abdomen-doppler-ultrasound-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ultrasound-scan/abdomen-ultrasound-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ultrasound-scan/abdominal-ultrasound",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ultrasound-scan/arterial-colour-doppler-ultrasound-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ultrasound-scan/both-breasts-ultrasound-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ultrasound-scan/breast-biopsy-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ultrasound-scan/breast-elastography-ultrasound-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ultrasound-scan/carotid-doppler-ultrasound-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ultrasound-scan/chest-ultrasound-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ultrasound-scan/colour-doppler-renal-arteries-ultrasound-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ultrasound-scan/dating-transvaginal-scanning-tvs-ultrasound-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ultrasound-scan/doppler-arterial-lower-limb-left-ultrasound-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ultrasound-scan/doppler-arterial-lower-limb-right-ultrasound-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ultrasound-scan/doppler-arterial-lower-limb-ultrasound-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ultrasound-scan/doppler-avf-ultrasound-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ultrasound-scan/doppler-carotid-and-vertebral-ultrasound-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ultrasound-scan/doppler-study-of-scrotum-ultrasound-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ultrasound-scan/doppler-venous-left-lower-limb-ultrasound",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ultrasound-scan/doppler-venous-lower-limb-ultrasound-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ultrasound-scan/doppler-venous-right-lower-limb-ultrasound-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ultrasound-scan/doppler-venous-upper-limb-ultrasound-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ultrasound-scan/early-pregnancy-ultrasound-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ultrasound-scan/echocardiogram-testing",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ultrasound-scan/elastography-ultrasound-test",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ultrasound-scan/fetal-ultrasound",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ultrasound-scan/follicular-follow-up-ultrasound-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ultrasound-scan/follicular-study-ultrasound-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ultrasound-scan/growth-scan-ultrasound",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ultrasound-scan/guided-biopsy-ultrasound-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ultrasound-scan/guided-fnac-ultrasound-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ultrasound-scan/musculoskeletal-guided-injection-1-ultrasound-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ultrasound-scan/neck-ultrasound-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ultrasound-scan/nt-scan-level-2-pregnancy-ultrasound",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ultrasound-scan/nuero-sonogram-ultrasound-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ultrasound-scan/obstetric-biophysical-profile-ultrasound-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ultrasound-scan/obstetric-foetal-doppler-ultrasound-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ultrasound-scan/pelvis-3d-ultrasound-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ultrasound-scan/pelvis-special-study-ultrasound-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ultrasound-scan/pelvis-ultrasound",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ultrasound-scan/penile-doppler-ultrasound-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ultrasound-scan/pregnanacy-amniocentesis-ultrasound-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ultrasound-scan/pregnancy-growth-scan-ultrasound-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ultrasound-scan/pregnancy-intereval-growth-ultrasound-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ultrasound-scan/pregnancy-interval-growth-scan-with-bpp-and-doppler-ultrasound",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ultrasound-scan/pregnancy-nt-scan-twins-ultrasound-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ultrasound-scan/pregnancy-tiffa-anomaly-scan-level-2-ultrasound",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ultrasound-scan/pregnancy-tiffa-twin-ultrasound-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ultrasound-scan/renal-doppler-ultrasound-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ultrasound-scan/short-ultrasound-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ultrasound-scan/single-breast-ultrasound-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ultrasound-scan/small-parts-ultrasound-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ultrasound-scan/soft-tissue-ultrasound-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ultrasound-scan/sonofistulogram-ultrasound-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ultrasound-scan/sonomammogram-ultrasound-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ultrasound-scan/sonomammography-ultrasound-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ultrasound-scan/sound-of-transvaginal-ultrasound-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ultrasound-scan/testis-ultrasound-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ultrasound-scan/thyroid-neck-ultrasound-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ultrasound-scan/thyroid-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ultrasound-scan/transrectal-ultrasound-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ultrasound-scan/treadmill-ultrasound-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ultrasound-scan/tvs-additional-charges-ultrasound-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ultrasound-scan/ultrasound-of-transvaginal-scan-tvs",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ultrasound-scan/venous-colour-doppler-ultrasound-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/ultrasound-scan/venous-doppler-study-ultrasound-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/xray-scan",
+      "type": "scan-listing"
+    },
+    {
+      "route": "/bangalore/xray-scan/abdomen-x-ray",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/xray-scan/additional-exposure-x-ray-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/xray-scan/ankle-ap-and-lateral-views-xray-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/xray-scan/bilateral-mammography-x-ray",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/xray-scan/bmd-hip-and-spine-x-ray-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/xray-scan/bmd-spine-xray-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/xray-scan/bmd-whole-body-scan-xray-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/xray-scan/bone-mineral-density-three-sites-spine-hip-forearm-xray-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/xray-scan/both-knees-ap-lateral-x-ray-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/xray-scan/cervical-spine-ap-and-lateral-x-ray-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/xray-scan/chest-ap-view-x-ray-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/xray-scan/chest-lateral-view-x-ray",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/xray-scan/chest-x-ray",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/xray-scan/chest-x-ray-pa-view",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/xray-scan/elbow-ap-lateral-view-x-ray-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/xray-scan/femur-ap-and-lat-x-ray-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/xray-scan/foot-ap-and-oblique-x-ray-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/xray-scan/hand-ap-and-lateral-view-x-ray-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/xray-scan/hand-ap-view-x-ray-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/xray-scan/hand-lateral-view-x-ray-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/xray-scan/hand-oblique-x-ray-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/xray-scan/hand-x-ray",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/xray-scan/hip-ap-view-x-ray-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/xray-scan/hip-lateral-view-x-ray-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/xray-scan/hysterosalpingography-xray-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/xray-scan/knee-ap-and-lateral-view-xray",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/xray-scan/kub-x-ray-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/xray-scan/leg-ap-and-lateral-view-x-ray-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/xray-scan/leg-ap-view-x-ray-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/xray-scan/leg-lateral-view-x-ray-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/xray-scan/lumbar-spine-ap-lateral-xray",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/xray-scan/lumbar-spine-flexion-and-extension-x-ray-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/xray-scan/mammography-xray-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/xray-scan/micturating-cystourethrogram-xray-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/xray-scan/nasopharynx-lateral-view-x-ray-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/xray-scan/paranasal-sinuses-xray-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/xray-scan/pelvis-ap-view-x-ray-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/xray-scan/pelvis-with-both-hip-joints-x-ray-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/xray-scan/pns-skull-x-ray-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/xray-scan/retrograde-urethrogram-micturating-cystourethrogram",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/xray-scan/retrograde-urethrogram-xray-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/xray-scan/shoulder-ap-and-lateral-view-xray-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/xray-scan/shoulder-ap-view-x-ray-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/xray-scan/single-mammography-xray-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/xray-scan/skull-ap-view-x-ray-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/xray-scan/thoracic-spine-ap-and-lat-x-ray-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/bangalore/xray-scan/wrist-ap-and-lateral-view-x-ray-scan",
+      "type": "scan-detail"
+    },
+    {
+      "route": "/blogs",
+      "type": "blog-listing"
+    },
+    {
+      "route": "/blogs/active-passive-immunity-whats-the-difference",
+      "type": "blog-detail"
+    },
+    {
+      "route": "/blogs/alert-increasing-risk-hypertension-bp-in-youngsters",
+      "type": "blog-detail"
+    },
+    {
+      "route": "/blogs/all-you-need-to-know-about-thyroid-scan",
+      "type": "blog-detail"
+    },
+    {
+      "route": "/blogs/breast-cancer-key-symptoms-and-common-causes",
+      "type": "blog-detail"
+    },
+    {
+      "route": "/blogs/chest-x-ray-showing-pneumonia",
+      "type": "blog-detail"
+    },
+    {
+      "route": "/blogs/chorionic-villus-sampling-cvs-prenatal-fetal-invasive-diagnostic-test",
+      "type": "blog-detail"
+    },
+    {
+      "route": "/blogs/complete-blood-count-test-what-is-it-and-why-do-you-need-it",
+      "type": "blog-detail"
+    },
+    {
+      "route": "/blogs/comprehensive-insights-into-liver-function-assessments-importance-methodology-and-result-analysis",
+      "type": "blog-detail"
+    },
+    {
+      "route": "/blogs/ct-scan-and-biopsy-for-lung-cancer",
+      "type": "blog-detail"
+    },
+    {
+      "route": "/blogs/deciphering-health-understanding-your-complete-blood-count-cbc-report",
+      "type": "blog-detail"
+    },
+    {
+      "route": "/blogs/diet-food-to-control-high-blood-pressure",
+      "type": "blog-detail"
+    },
+    {
+      "route": "/blogs/diet-foods-to-avoid-high-blood-pressure",
+      "type": "blog-detail"
+    },
+    {
+      "route": "/blogs/difference-between-ecg-test-and-echo-test",
+      "type": "blog-detail"
+    },
+    {
+      "route": "/blogs/difference-between-mri-and-xray",
+      "type": "blog-detail"
+    },
+    {
+      "route": "/blogs/difference-between-pet-scans-and-ct-scans",
+      "type": "blog-detail"
+    },
+    {
+      "route": "/blogs/difference-between-ultrasound-and-ct-scan",
+      "type": "blog-detail"
+    },
+    {
+      "route": "/blogs/everything-you-need-to-know-about-malaria",
+      "type": "blog-detail"
+    },
+    {
+      "route": "/blogs/fatty-liver-disease-the-vitamin-that-could-potentially-treat-an-advance-form-of-the-condition",
+      "type": "blog-detail"
+    },
+    {
+      "route": "/blogs/food-for-healthy-liver-enhance-liver-performance",
+      "type": "blog-detail"
+    },
+    {
+      "route": "/blogs/foods-to-eat-and-avoid-for-people-with-fatty-liver",
+      "type": "blog-detail"
+    },
+    {
+      "route": "/blogs/gestational-diabetes",
+      "type": "blog-detail"
+    },
+    {
+      "route": "/blogs/gestational-diabetes--causes-treatment",
+      "type": "blog-detail"
+    },
+    {
+      "route": "/blogs/guide-to-blood-tests-for-cold-and-cough",
+      "type": "blog-detail"
+    },
+    {
+      "route": "/blogs/guide-to-eosinophilia",
+      "type": "blog-detail"
+    },
+    {
+      "route": "/blogs/guide-to-fatty-liver",
+      "type": "blog-detail"
+    },
+    {
+      "route": "/blogs/guide-to-full-body-health-checkup",
+      "type": "blog-detail"
+    },
+    {
+      "route": "/blogs/guide-to-gamma-glutamyl-transferase-ggt",
+      "type": "blog-detail"
+    },
+    {
+      "route": "/blogs/guide-to-high-blood-pressure",
+      "type": "blog-detail"
+    },
+    {
+      "route": "/blogs/guide-to-hyperthyroidism-treatment",
+      "type": "blog-detail"
+    },
+    {
+      "route": "/blogs/guide-to-ivf-understanding-the-process-costs-and-success-rates",
+      "type": "blog-detail"
+    },
+    {
+      "route": "/blogs/guide-to-understanding-blood-pressure",
+      "type": "blog-detail"
+    },
+    {
+      "route": "/blogs/high-blood-pressure-types-symptoms-causes-management-and-diagnosis",
+      "type": "blog-detail"
+    },
+    {
+      "route": "/blogs/high-esr-in-women",
+      "type": "blog-detail"
+    },
+    {
+      "route": "/blogs/how-much-hemoglobin-should-be-present-in-human-body",
+      "type": "blog-detail"
+    },
+    {
+      "route": "/blogs/how-scrotal-doppler-ultrasound-works-and-its-applications",
+      "type": "blog-detail"
+    },
+    {
+      "route": "/blogs/how-to-increase-hemoglobin",
+      "type": "blog-detail"
+    },
+    {
+      "route": "/blogs/how-to-increase-vitamin-d-levels-quickly",
+      "type": "blog-detail"
+    },
+    {
+      "route": "/blogs/how-to-lower-your-c-reactive-protien-crp-levels",
+      "type": "blog-detail"
+    },
+    {
+      "route": "/blogs/how-to-reduce-creatinine-levels",
+      "type": "blog-detail"
+    },
+    {
+      "route": "/blogs/how-to-reduce-high-esr-levels-in-blood",
+      "type": "blog-detail"
+    },
+    {
+      "route": "/blogs/importance-of-quadruple-marker-test-during-pregnancy",
+      "type": "blog-detail"
+    },
+    {
+      "route": "/blogs/influenza-a-virus-h3n2",
+      "type": "blog-detail"
+    },
+    {
+      "route": "/blogs/liver-function-test-an-overview",
+      "type": "blog-detail"
+    },
+    {
+      "route": "/blogs/ovulation-calculator",
+      "type": "blog-detail"
+    },
+    {
+      "route": "/blogs/pelvic-ultrasound-transabdominal-method",
+      "type": "blog-detail"
+    },
+    {
+      "route": "/blogs/penile-doppler-ultrasound-technique-and-interpretation",
+      "type": "blog-detail"
+    },
+    {
+      "route": "/blogs/select-the-best-maternity-and-pregnancy-test-packages-for-healthy-and-safe-motherhood",
+      "type": "blog-detail"
+    },
+    {
+      "route": "/blogs/some-important-faqs-on-fetal-surgery",
+      "type": "blog-detail"
+    },
+    {
+      "route": "/blogs/the-power-of-pee-diseases-detectable-through-urine-tests",
+      "type": "blog-detail"
+    },
+    {
+      "route": "/blogs/the-risk-factors-that-mean-you-need-a-test-for-liver-disease",
+      "type": "blog-detail"
+    },
+    {
+      "route": "/blogs/top-foods-to-include-in-your-diet-to-manage-diabetes-and-lower-blood-sugar",
+      "type": "blog-detail"
+    },
+    {
+      "route": "/blogs/total-leucocyte-count-tlc-test",
+      "type": "blog-detail"
+    },
+    {
+      "route": "/blogs/types-of-thyroid-function-tests",
+      "type": "blog-detail"
+    },
+    {
+      "route": "/blogs/types-of-ultrasounds",
+      "type": "blog-detail"
+    },
+    {
+      "route": "/blogs/typhoid-fever-comprehensive-insights",
+      "type": "blog-detail"
+    },
+    {
+      "route": "/blogs/ultrasound-of-scrotum",
+      "type": "blog-detail"
+    },
+    {
+      "route": "/blogs/understanding-anomaly-scan-during-pregnancy",
+      "type": "blog-detail"
+    },
+    {
+      "route": "/blogs/understanding-blood-cancer",
+      "type": "blog-detail"
+    },
+    {
+      "route": "/blogs/understanding-breast-cancer-biopsy-process-results-and-more",
+      "type": "blog-detail"
+    },
+    {
+      "route": "/blogs/understanding-dengue-fever",
+      "type": "blog-detail"
+    },
+    {
+      "route": "/blogs/understanding-diffusion-weighted-imaging",
+      "type": "blog-detail"
+    },
+    {
+      "route": "/blogs/understanding-effective-strategies-for-managing-uric-acid-levels",
+      "type": "blog-detail"
+    },
+    {
+      "route": "/blogs/understanding-fatty-liver-grades",
+      "type": "blog-detail"
+    },
+    {
+      "route": "/blogs/understanding-fetal-doppler-scans",
+      "type": "blog-detail"
+    },
+    {
+      "route": "/blogs/understanding-hyperglycemia-high-blood-sugar",
+      "type": "blog-detail"
+    },
+    {
+      "route": "/blogs/understanding-hypoglycemia-low-blood-sugar",
+      "type": "blog-detail"
+    },
+    {
+      "route": "/blogs/understanding-importance-of-tiffa-scan",
+      "type": "blog-detail"
+    },
+    {
+      "route": "/blogs/understanding-jaundice-and-its-dietary-importance",
+      "type": "blog-detail"
+    },
+    {
+      "route": "/blogs/understanding-jaundice-causes-symptoms-and-prevention",
+      "type": "blog-detail"
+    },
+    {
+      "route": "/blogs/understanding-jaundice-symptoms-types-and-treatment",
+      "type": "blog-detail"
+    },
+    {
+      "route": "/blogs/understanding-low-blood-pressure",
+      "type": "blog-detail"
+    },
+    {
+      "route": "/blogs/understanding-mch-levels",
+      "type": "blog-detail"
+    },
+    {
+      "route": "/blogs/understanding-normal-blood-sugar-levels",
+      "type": "blog-detail"
+    },
+    {
+      "route": "/blogs/understanding-nuchal-translucency-scan-during-pregnancy",
+      "type": "blog-detail"
+    },
+    {
+      "route": "/blogs/understanding-platelet-count",
+      "type": "blog-detail"
+    },
+    {
+      "route": "/blogs/understanding-postprandial-blood-sugar-ppbs",
+      "type": "blog-detail"
+    },
+    {
+      "route": "/blogs/understanding-random-blood-sugar-rbs-level-ranges",
+      "type": "blog-detail"
+    },
+    {
+      "route": "/blogs/understanding-rbc-normal-range",
+      "type": "blog-detail"
+    },
+    {
+      "route": "/blogs/understanding-results-of-liver-function-test",
+      "type": "blog-detail"
+    },
+    {
+      "route": "/blogs/understanding-thyroid-stimulating-hormone-tsh-levels",
+      "type": "blog-detail"
+    },
+    {
+      "route": "/blogs/understanding-vitamin-k",
+      "type": "blog-detail"
+    },
+    {
+      "route": "/blogs/urine-culture-test-guide",
+      "type": "blog-detail"
+    },
+    {
+      "route": "/blogs/what-is-fatty-liver-causes-symptoms-and-treatment",
+      "type": "blog-detail"
+    },
+    {
+      "route": "/blogs/white-blood-cell-count-high-low-range",
+      "type": "blog-detail"
+    },
+    {
+      "route": "/cart",
+      "type": "cart"
+    },
+    {
+      "route": "/clinical-team",
+      "type": "clinical-team"
+    },
+    {
+      "route": "/contact-us",
+      "type": "contact-us"
+    },
+    {
+      "route": "/cookie-policy",
+      "type": "policy"
+    },
+    {
+      "route": "/legal",
+      "type": "policy"
+    },
+    {
+      "route": "/login",
+      "type": "auth"
+    },
+    {
+      "route": "/management-team",
+      "type": "management-team"
+    },
+    {
+      "route": "/privacy-policy",
+      "type": "policy"
+    },
+    {
+      "route": "/refund-policy",
+      "type": "policy"
+    },
+    {
+      "route": "/signup",
+      "type": "auth"
+    },
+    {
+      "route": "/terms-of-use",
+      "type": "policy"
+    }
+  ]
+}

@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { notFound } from "next/navigation";
 import { AuthShell } from "@/components/auth/AuthShell";
 import { SignupForm } from "@/components/auth/SignupForm";
+import { getAuthPage } from "@/lib/data/allpages";
 
 export const metadata: Metadata = {
   title: "Create account",
@@ -12,19 +14,21 @@ export const metadata: Metadata = {
 };
 
 export default function SignupPage() {
+  const data = getAuthPage("signup");
+  if (!data) notFound();
   return (
     <AuthShell
-      overline="Get started"
-      heading="Create your account"
-      subheading="Book tests, get reports in hours, and keep your family's health records in one secure place."
+      overline={data.overline}
+      heading={data.heading}
+      subheading={data.subheading}
       footer={
         <>
-          Already have an account?{" "}
+          {data.footerText}{" "}
           <Link
-            href="/login"
+            href={data.footerLinkHref}
             className="font-bold text-orange-600 hover:text-orange-700 transition-colors"
           >
-            Sign in instead
+            {data.footerLinkLabel}
           </Link>
         </>
       }

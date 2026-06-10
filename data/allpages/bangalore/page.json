@@ -1,0 +1,148 @@
+{
+  "type": "bangalore-landing",
+  "route": "/bangalore",
+  "overline": "Diagnostic services in Bangalore",
+  "title": "Accurate diagnostics across Bangalore",
+  "description": "Five Cadabam's centres, advanced imaging, certified labs, and home sample collection — designed for the way Bangalore lives.",
+  "servicesHeading": "Services",
+  "servicesOverline": "What you can book",
+  "services": [
+    {
+      "slug": "lab-test",
+      "label": "Lab Tests",
+      "icon": "FlaskConical"
+    },
+    {
+      "slug": "xray-scan",
+      "label": "X-Ray scans",
+      "icon": "Activity"
+    },
+    {
+      "slug": "mri-scan",
+      "label": "MRI scans",
+      "icon": "Activity"
+    },
+    {
+      "slug": "ct-scan",
+      "label": "CT scans",
+      "icon": "Activity"
+    },
+    {
+      "slug": "ultrasound-scan",
+      "label": "Ultrasound scans",
+      "icon": "Activity"
+    },
+    {
+      "slug": "pregnancy-scan",
+      "label": "Pregnancy scans",
+      "icon": "Activity"
+    },
+    {
+      "slug": "msk-scan",
+      "label": "MSK scans",
+      "icon": "Activity"
+    }
+  ],
+  "centres": [
+    {
+      "id": "672e500a03598b92c1519887",
+      "name": "Cadabam's Diagnostic Centre Banashankari",
+      "area": "banashankari",
+      "image": "/centers/image-1731905681968-88542235.webp",
+      "address": "No. 1/A, 1st Block, Bhavani  HBCS, Banashankari 3rd Stage, Near Devegowda petrol Bunk, Bangalore -  560070",
+      "phone": "+91 99006 64696",
+      "email": "info@cadabamsdiagnostics.com",
+      "href": "/bangalore/center/banashankari",
+      "weekdays": {
+        "start": "07:00",
+        "end": "20:30",
+        "id": "672e500a03598b92c1519888"
+      },
+      "sunday": {
+        "start": "07:00",
+        "end": "13:00",
+        "id": "672e500a03598b92c1519889"
+      }
+    },
+    {
+      "id": "672e50f903598b92c1519931",
+      "name": "Cadabam’s Diagnostics - Kanakapura Road",
+      "area": "kanakapura",
+      "image": "/centers/image-1751013818693-878608253.webp",
+      "address": "Ground and 1st floor, Sadhvin Heights, 747/787, Kanakapura Main Rd, Doddakallasandra, Uttarahalli hobli, Bengaluru, Karnataka 560062",
+      "phone": "098861 08180",
+      "email": "info@cadabamsdiagnostics.com",
+      "href": "/bangalore/center/kanakapura-road",
+      "weekdays": {
+        "start": "06:30",
+        "end": "21:00",
+        "id": "672e50f903598b92c1519932"
+      },
+      "sunday": {
+        "start": "06:30",
+        "end": "13:00",
+        "id": "672e50f903598b92c1519933"
+      }
+    },
+    {
+      "id": "67284ea1ba3d8c19c210758b",
+      "name": "Cadabam's Indiranagar",
+      "area": "indiranagar",
+      "image": "/centers/image-1769489418912-261919949.webp",
+      "address": "725, Chinmaya Mission Hospital Rd, near CHINMAYA MISSION HOSPITAL, Indira Nagar 1st Stage, Defence Colony, Indiranagar, Bengaluru, Karnataka 560038",
+      "phone": "+91 9900126611",
+      "email": "info@cadabamsdiagnostics.com",
+      "href": "/bangalore/center/indiranagar",
+      "weekdays": {
+        "start": "07:00",
+        "end": "20:30",
+        "id": "67284ea1ba3d8c19c210758c"
+      },
+      "sunday": {
+        "start": "07:00",
+        "end": "13:00",
+        "id": "67284ea1ba3d8c19c210758d"
+      }
+    },
+    {
+      "id": "672e507303598b92c1519899",
+      "name": "Cadabam's Diagnostic Centre Jayanagar",
+      "area": "jayanagar",
+      "image": "/centers/image-1738141247373-140458408.webp",
+      "address": "NO 7/2, 14th Cross, 2nd block, Jayanagar, Bangaluru - 560011",
+      "phone": "+91 8861821122",
+      "email": "info@cadabamsdiagnostics.com",
+      "href": "/bangalore/center/jayanagar",
+      "weekdays": {
+        "start": "07:00",
+        "end": "21:00",
+        "id": "672e507303598b92c151989a"
+      },
+      "sunday": {
+        "start": "07:00",
+        "end": "15:00",
+        "id": "672e507303598b92c151989b"
+      }
+    },
+    {
+      "id": "672e50ba03598b92c15198f3",
+      "name": "Cadabam’s Diagnostics – Kalyan Nagar",
+      "area": "kalyannagar",
+      "image": "/centers/image-1731088544493-764058139.webp",
+      "address": "No 88-250-5AC-922, HRBR 1st Block, Kalyan Nagar, Bengaluru, Bengaluru Urban, Karnataka,\n560043",
+      "phone": "9035343344",
+      "email": "info@cadabamsdiagnostics.com",
+      "href": "/bangalore/center/kalyan-nagar",
+      "weekdays": {
+        "start": "06:30",
+        "end": "09:00",
+        "id": "672e50ba03598b92c15198f4"
+      },
+      "sunday": {
+        "start": "06:30",
+        "end": "09:00",
+        "id": "672e50ba03598b92c15198f5"
+      }
+    }
+  ]
+}

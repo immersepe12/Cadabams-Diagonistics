@@ -1,0 +1,119 @@
+{
+  "type": "labtest-detail",
+  "route": "/bangalore/lab-test/liver-function-test-lft",
+  "slug": "liver-function-test-lft",
+  "test": {
+    "id": "671c7c5ec8a77735c8e44105",
+    "templateName": "labtest",
+    "testName": "LIVER FUNCTION TEST",
+    "route": "/liver-function-test-lft",
+    "basic_info": {
+      "name": "LIVER FUNCTION TEST",
+      "route": "/liver-function-test-lft",
+      "categoryId": "671b5104ad9bf8d210384d28",
+      "price": 700,
+      "discount": "0",
+      "discountedPrice": "700.00",
+      "reportsWithin": "60mins",
+      "Identifies": "Damage or dysfunction of liver ",
+      "measures": "Level of enzyme, proteins and bilirubin ",
+      "testId": 8799289,
+      "testCategory": "-"
+    },
+    "requisites": [
+      {
+        "value": "Above Liver Function Test requires fasting of 8-12 hrs "
+      }
+    ],
+    "packages": [],
+    "faqs": [
+      {
+        "question": "How long does it take to get results? ",
+        "answer": "The report is usually released after the lapse of a few days and this also depends on the personnel taking the test."
+      },
+      {
+        "question": "Is the test painful?  ",
+        "answer": "The test employs a needle stick pain that may take a transition for the patient to get accustomed to."
+      },
+      {
+        "question": "Do I need to stop eating before the test?  ",
+        "answer": "There are times when a patient is requested to go without food for anything between 8 to 12 hours but your doctor should be able to clarify this for you."
+      },
+      {
+        "question": "Can medications affect the test results?  ",
+        "answer": "Yes, certain medications do affect the level of liver enzymes and you should discuss this with your healthcare provider."
+      },
+      {
+        "question": "How often should I get an LFT?  ",
+        "answer": "The frequency depends on your health status, risk factors and any liver-related conditions; consult your doctor for individualized recommendations."
+      }
+    ],
+    "interpretations": {
+      "title": "Interpreting the Results of Your Liver Function Test ",
+      "cols": [
+        "Test Component",
+        "Normal Range",
+        "Possible Abnormal Indications"
+      ],
+      "rows": [
+        [
+          "ALT",
+          "7-56 U/L ",
+          "Increase in level indicates liver cell necrosis."
+        ],
+        [
+          "AST ",
+          "10-40 U/L ",
+          "Increase in levels suggest liver or muscle damage. "
+        ],
+        [
+          "ALP ",
+          " 30 to 120 Units Per Liter ",
+          "Increased values may show that issues exist with the bile ducts. "
+        ],
+        [
+          "Bilirubin ",
+          "0.1 to 1.2 mg/dL ",
+          "High levels could mean the presence of jaundice or the patient is unable to secrete bile.   Test Component: Albumin "
+        ],
+        [
+          "Albumin ",
+          "3.5 to 5.0 GiveMore grams per decilitre on G5.0 g ",
+          "A poor liver function or kidney disease is one of the reasons as to why there are low levels of bilirubin. "
+        ]
+      ]
+    },
+    "relative_test": {
+      "title": "",
+      "categoryId": "671b5104ad9bf8d210384d28",
+      "tests": []
+    },
+    "seo": {
+      "title": "Liver Function Test in Bangalore | Book Now",
+      "description": "Get detailed LFTs in Bangalore to monitor liver health. Reliable, fast results for better diagnosis.",
+      "keywords": "",
+      "canonicalUrl": "",
+      "ogTitle": "",
+      "ogDescription": "",
+      "ogImage": "",
+      "schemaMarkup": "",
+      "robotsMeta": ""
+    },
+    "markdown": "## What is LFT Liver Function and Why Is It Important?\n\nLiver Function Test (LFT) or the hepatic function panel blood tests are used to determine liver state or more than its state liver function. It checks for enzyme and protein levels and other biology substances synthesized or metabolized by the liver. In general, LFT is used as a screening tool for hepatitis infection, the extent of liver injury or disease, and the possible evolution of chronic or even liver cancer after a vigorous treatment. Liver is one of the most important organs in the human body because it helps in metabloising substances, detoxifying hazardous chemicals, and synthesising proteins vital for blood to clot and digesting food.\n\n## What Does the Liver Function Test Measure?\n\nThe Liver Function Test is intended to assess the performance of the liver by evaluating levels of certain enzymes and specific proteins. Some critical measure evaluated in the LFT include:\n\n- **Alanine Aminotransferase (ALT):** Occurs at elevated levels and is important for protein breakdown in the liver tissue. Indicates liver damage.\n- **Aspartate Aminotransferase (AST):** It is an enzyme that gets more into the bloodstream whenever there is muscle or liver tissue damage.\n- **Alkaline Phosphatase (ALP):** Concentration of the enzyme that removes phosphate from bile ducts; higher levels may indicate liver disease or blockage.\n- **Bilirubin:** A yellow compound which forms when red blood cysts are removed. Increased levels depict that the liver is not able to remove unnecessary waste products.\n- **Albumin and Total Protein:** These are some of the proteins that show what the liver does in terms of making the required functional body proteins.\n\n## When Is the Liver Function Test Usually Taken?\n\nThe standard reason to perform LFT is the presence of symptoms which indicate damage or dysfunction of the liver. These may include jaundice, abdominal pain and swelling, dark colour of urine, pale colour of stool, persistent fatigue and loss of unexplained weight. it forms the part of ‘health check-up program’ in particular for those who are on medication which affect liver, for those who have history of alcohol consumption or for patients who have other underlying disease such as hepatitis or fatty liver diseases which have a tendency to affect the liver.\n\n## Are There Any Risks or Limitations to the Liver Function Test?\n\nThe liver function test is performed with minimal invasion and is safe. The inherent risk is associated with mild pain or bruising where the needle is inserted. However, certain circumstances may impact the precision of the examination. These comprise medications that alter liver enzymes, recent sickness and different levels of water content in the body. In addition to this, lifestyle factors such as alcohol consumption and food intake may as well modify the results. Such an interpretation should be made within the background of clinical symptoms and history.\n\n## What Are The Parameters That Are Measured in Liver Function Test?\n\nThe Liver function test is an extensive test that involves measurement of various parameters such:\n\n- **Enzymes like ALT and AST:** Usually indicates inflammation or degeneration of liver cells.\n- **ALP Levels:** Reflects whether there are bile duct issues or problems concerning bone.\n- **Bilirubin Levels:** Liver clearance potential; jaundice indicates high levels.\n- **Albumin, Total Protein:** Determinate primarily of the liver’s protein synthesis capacity.\n\nEvery figure sheds light on the possible broader view on the liver functions and the disease progress in time regarding liver.\n\n## Who can be the candidate for Liver Function Test?\n\nLiver function test is usually advised to patients with liver disorder manifestations like jaundice, abdominal pain, or abdominal swelling. People with a large intake of alcohol, personal or family history of liver disease or those patients who are on liver metabolized drugs can be advised to undertake the test. As such persons with chronic illness like hepatitis, diabetic, gall bladder disease may require periodic test of liver function and health.\n\n## The Liver Function Tests Advantages for Your Health\n\nLiver function tests are helpful in understanding the liver health and how effective it is functioning. It helps in the early diagnosis of liver diseases and injuries which are very important in beginning the treatments early. It also assists in determining the effectiveness of drugs that have been used for liver diseases as well as evaluating the liver performance in the periods even before and throughout taking the medication that are likely to influence liver enzymes. This way, livers that are screened early using LFT are likely to be free from advancing to serious complications and promote good health.\n\n## Which of the liver function test conditions can be diagnosed?\n\nSome of the conditions that LFT can be used for diagnosis as well as monitoring includes;\n\n- **Hepatitis:** Caused by viruses or other toxins, hepatitis is characterized by the inflammation of the liver.\n- **Cirrhosis:** The liver endures chronic injury, which leads to scar tissue formation and, eventually, liver failure.\n- **Fatty Liver Disease:** It is the condition in which fat is deposited in liver cells.\n- Liver Cancer: An over growth of cells within the liver tissue.\n- Cholestasis and Bile Duct Obstruction: The flow of bile is obstructed because the duct is blocked.\n\nDifferent people might be suffering from different complications and their intensity varies across individuals however the these should be managed with timely intervention using LFT.\n\n## What to do Before Taking a Liver Function Test\n\n**Prerequisites:** Avoiding alcohol and certain medications is pivotal to the test, also, fasting for 8 to 12 hours is desired.\n\n**Eligibility:** Generally, LFT can be done by everyone but mainly people who have reasons to believe that they have liver problems or are on medications which might interfere with the liver are the most common candidates.\n\n**Procedure for Taking the Test:** Blood is drawn from a healthy adult in the forearm or the arm. It is done using a sterile needle and it is relatively quick and not very invasive as a procedure.\n\n**Caution Before the Test:** Inform your healthcare professionals about your prescribed medications and other over-the-counter medicines consumed to see if they will interfere with the test."
+  },
+  "category": {
+    "id": "671b5104ad9bf8d210384d28",
+    "name": "Liver",
+    "tests": [
+      "671c7c5ec8a77735c8e44105",
+      "6790af3ec75a5739655a815a",
+      "682d87da16444f3c115b08fb"
+    ],
+    "image": "/lab-tests/image-1729663912354-955200116.webp",
+    "path": "/liver-tests",
+    "createdAt": "2024-10-23T06:12:18.229Z",
+    "updatedAt": "2024-10-23T06:12:18.229Z",
+    "markdown": "Liver Tests"
+  },
+  "relatedTests": []
+}
