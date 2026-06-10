@@ -175,7 +175,7 @@ export default async function BlogDetailPage({ params }: PageProps) {
       </section>
 
       <div className="mx-auto max-w-7xl px-gutter py-8 lg:py-10 grid gap-6 lg:gap-8 lg:grid-cols-3">
-        <article className="lg:col-span-2 space-y-6">
+        <article className="lg:col-span-2 space-y-6 min-w-0">
           {hasImage && (
             <div className="rounded-2xl overflow-hidden shadow-sh-2 border border-cream-line bg-cream-soft">
               {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -201,7 +201,7 @@ export default async function BlogDetailPage({ params }: PageProps) {
           )}
         </article>
 
-        <aside className="lg:col-span-1">
+        <aside className="lg:col-span-1 min-w-0">
           <div className="lg:sticky lg:top-24">
             <BlogSidebar centers={sidebarCenters} />
           </div>

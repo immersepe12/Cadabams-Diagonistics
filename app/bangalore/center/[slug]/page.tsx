@@ -392,7 +392,7 @@ export default async function CenterDetailPage({ params }: PageProps) {
       </div>
 
       <div className="mx-auto max-w-7xl px-gutter py-8 lg:py-10 grid gap-6 lg:gap-8 lg:grid-cols-3">
-        <div className="lg:col-span-2 space-y-6">
+        <div className="lg:col-span-2 space-y-6 min-w-0">
           {markdownSections.map((section, i) => (
             <section
               key={`md-section-${i}`}
@@ -591,7 +591,7 @@ export default async function CenterDetailPage({ params }: PageProps) {
           )}
         </div>
 
-        <aside className="lg:col-span-1">
+        <aside className="lg:col-span-1 min-w-0">
           <div className="lg:sticky lg:top-24 space-y-6">
           <div className="bg-cream-card rounded-2xl shadow-sh-3 border border-cream-line overflow-hidden">
             <div className="bg-gradient-orange-soft p-5 border-b border-cream-line">

@@ -105,7 +105,7 @@ export default function CartPage() {
 
         <div className="grid gap-6 lg:gap-8 lg:grid-cols-[1fr_360px] items-start">
           {/* Items */}
-          <ul className="space-y-3 lg:space-y-4">
+          <ul className="space-y-3 lg:space-y-4 min-w-0">
             {items.map((item) => {
               const showStrike =
                 typeof item.originalPrice === "number" &&

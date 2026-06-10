@@ -165,7 +165,7 @@ export function LabTestFilter({
   return (
     <div className="grid gap-6 lg:gap-8 lg:grid-cols-[280px_1fr]">
       {/* ── Sidebar ─────────────────────────────────────────────── */}
-      <aside className="lg:sticky lg:top-24 lg:self-start">
+      <aside className="lg:sticky lg:top-24 lg:self-start min-w-0">
         <div className="bg-cream-card rounded-2xl border border-cream-line shadow-sh-1 p-4 lg:p-5">
           <label
             htmlFor="lab-search"

@@ -566,7 +566,7 @@ function FilterSidebar({
   searchQuery: string;
 }) {
   return (
-    <aside className="lg:sticky lg:top-24 lg:self-start">
+    <aside className="lg:sticky lg:top-24 lg:self-start min-w-0">
       <div className="bg-cream-card rounded-2xl border border-cream-line shadow-sh-1 p-4 lg:p-5">
         <form action={basePath} method="get">
           <label

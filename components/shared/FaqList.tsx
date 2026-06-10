@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { Minus, Plus } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { MarkdownContent } from "@/components/shared/MarkdownContent";
 
 export interface FaqListItem {
   question: string;
@@ -101,8 +102,8 @@ export function FaqList({
                 hidden={!isOpen}
                 className="px-5 sm:px-6 pb-5"
               >
-                <div className="pl-0 sm:pl-[3.25rem] text-body-sm sm:text-body text-ink-600 leading-relaxed border-t border-cream-line pt-4 whitespace-pre-line">
-                  {item.answer}
+                <div className="pl-0 sm:pl-[3.25rem] border-t border-cream-line pt-4">
+                  <MarkdownContent content={item.answer} />
                 </div>
               </div>
             </article>
