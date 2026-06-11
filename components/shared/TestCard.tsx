@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Zap } from "lucide-react";
+import { Building2, Clock, Home, Zap } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { AddToCartButton } from "@/components/shared/AddToCartButton";
 import { BookNowButton } from "@/components/shared/BookNowButton";
@@ -30,12 +30,17 @@ export function TestCard({
   price,
   originalPrice,
   parameters,
+  reportTime,
   href,
   kind,
   className,
 }: TestCardProps) {
   const showOriginal =
     typeof originalPrice === "number" && originalPrice > price;
+  const discountPct = showOriginal
+    ? Math.round(((originalPrice - price) / originalPrice) * 100)
+    : 0;
+  const isLab = kind === "Lab Test";
 
   return (
     <article
@@ -66,14 +71,33 @@ export function TestCard({
           </div>
         </div>
 
-        {parameters !== undefined && (
-          <div className="mt-1 flex flex-wrap items-center gap-x-2.5 gap-y-1 text-caption sm:text-meta text-ink-500">
-            <span className="inline-flex items-center gap-1">
+        <div className="mt-2 flex flex-wrap items-center gap-1.5">
+          {reportTime && (
+            <span className="inline-flex items-center gap-1 rounded-pill bg-orange-50 text-orange-700 border border-orange-100 px-2 py-0.5 text-caption sm:text-meta font-semibold">
+              <Clock className="w-3 h-3 flex-shrink-0" />
+              {reportTime}
+            </span>
+          )}
+          <span className="inline-flex items-center gap-1 rounded-pill bg-cream-soft text-ink-600 border border-cream-line px-2 py-0.5 text-caption sm:text-meta font-medium">
+            {isLab ? (
+              <Home className="w-3 h-3 flex-shrink-0 text-orange-500" />
+            ) : (
+              <Building2 className="w-3 h-3 flex-shrink-0 text-orange-500" />
+            )}
+            {isLab ? "Home collection" : "Centre visit"}
+          </span>
+          {discountPct > 0 && (
+            <span className="inline-flex items-center rounded-pill bg-success-bg text-success px-2 py-0.5 text-caption sm:text-meta font-bold">
+              Save {discountPct}%
+            </span>
+          )}
+          {parameters !== undefined && (
+            <span className="inline-flex items-center gap-1 text-caption sm:text-meta text-ink-500">
               <span className="w-1 h-1 rounded-pill bg-ink-300" />
               {parameters} parameters
             </span>
-          </div>
-        )}
+          )}
+        </div>
 
         <div className="mt-auto pt-2">
           <div className="flex items-center gap-2">

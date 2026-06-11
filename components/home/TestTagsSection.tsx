@@ -60,12 +60,12 @@ function TagList({
           <li key={tag.id} className="break-inside-avoid">
             <Link
               href={tag.href}
-              className="group flex items-center gap-1.5 py-1.5 text-body-sm text-ink-700 hover:text-orange-700 transition-colors"
+              className="group flex items-start gap-1.5 py-1.5 text-body-sm text-ink-700 hover:text-orange-700 transition-colors"
             >
-              <ChevronRight className="w-3.5 h-3.5 flex-shrink-0 text-orange-400 transition-transform group-hover:translate-x-0.5" />
-              <span className="truncate">{tag.name}</span>
+              <ChevronRight className="w-3.5 h-3.5 mt-0.5 flex-shrink-0 text-orange-400 transition-transform group-hover:translate-x-0.5" />
+              <span className="min-w-0 break-words">{tag.name}</span>
               <ArrowUpRight
-                className="w-3.5 h-3.5 flex-shrink-0 text-orange-600 opacity-0 -translate-x-1 transition-all duration-200 group-hover:translate-x-0 group-hover:opacity-100"
+                className="w-3.5 h-3.5 mt-0.5 flex-shrink-0 text-orange-600 opacity-0 -translate-x-1 transition-all duration-200 group-hover:translate-x-0 group-hover:opacity-100"
                 aria-hidden
               />
             </Link>

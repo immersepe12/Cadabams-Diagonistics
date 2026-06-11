@@ -232,7 +232,7 @@ export default async function LabTestDetailPage({ params }: PageProps) {
           className="pointer-events-none absolute -bottom-32 -left-10 w-96 h-96 rounded-pill bg-coral-300/20 blur-3xl"
         />
 
-        <div className="relative mx-auto max-w-7xl px-gutter pt-4 pb-6 sm:pt-5 sm:pb-8 lg:pt-6 lg:pb-10">
+        <div className="relative mx-auto max-w-7xl px-gutter pt-4 pb-4 sm:pt-5 sm:pb-5 lg:pt-6 lg:pb-6">
           <Breadcrumb>
             <BreadcrumbList>
               <BreadcrumbItem>
@@ -304,7 +304,7 @@ export default async function LabTestDetailPage({ params }: PageProps) {
                 </span>
               </div>
 
-              <div className="flex flex-col sm:flex-row gap-3 pt-2 max-w-xl">
+              <div className="flex flex-row gap-2 sm:gap-3 pt-2 max-w-xl">
                 <BookNowButton
                   item={{
                     id: test.id,
@@ -314,7 +314,7 @@ export default async function LabTestDetailPage({ params }: PageProps) {
                     href: labTestUrl(test),
                     kind: "Lab Test",
                   }}
-                  className="flex-1 inline-flex items-center justify-center gap-2 rounded-pill bg-gradient-cta text-white font-bold px-6 py-3.5 text-body hover:brightness-110 hover:-translate-y-0.5 active:scale-[0.98] transition-all duration-200 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-orange-300"
+                  className="flex-1 min-w-0 inline-flex items-center justify-center gap-1.5 sm:gap-2 rounded-pill bg-gradient-cta text-white font-bold px-3 sm:px-6 py-3.5 text-body-sm sm:text-body whitespace-nowrap hover:brightness-110 hover:-translate-y-0.5 active:scale-[0.98] transition-all duration-200 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-orange-300"
                 >
                   <Zap className="w-4 h-4 fill-white flex-shrink-0" />
                   Book now · ₹{finalPrice.toLocaleString("en-IN")}
@@ -328,7 +328,7 @@ export default async function LabTestDetailPage({ params }: PageProps) {
                     href: labTestUrl(test),
                     kind: "Lab Test",
                   }}
-                  className="flex-1 inline-flex items-center justify-center gap-2 rounded-pill bg-cream-card hover:bg-orange-50 text-ink-900 hover:text-orange-700 font-semibold px-6 py-3.5 text-body border border-cream-line hover:border-orange-300 shadow-sh-1 transition-all duration-200 active:scale-[0.98] focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-orange-200"
+                  className="flex-1 min-w-0 inline-flex items-center justify-center gap-1.5 sm:gap-2 rounded-pill bg-cream-card hover:bg-orange-50 text-ink-900 hover:text-orange-700 font-semibold px-3 sm:px-6 py-3.5 text-body-sm sm:text-body whitespace-nowrap border border-cream-line hover:border-orange-300 shadow-sh-1 transition-all duration-200 active:scale-[0.98] focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-orange-200"
                 />
               </div>
             </div>
@@ -340,13 +340,15 @@ export default async function LabTestDetailPage({ params }: PageProps) {
                   alt={test.testName}
                   fill
                   priority
-                  className="object-cover"
+                  className="object-contain p-2 sm:p-3"
                   sizes="(max-width: 1024px) 100vw, 440px"
                 />
-                <span
-                  aria-hidden
-                  className="absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-ink-900/40 to-transparent"
-                />
+                {(discountPct > 0 || validReportsWithin) && (
+                  <span
+                    aria-hidden
+                    className="absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-ink-900/40 to-transparent"
+                  />
+                )}
                 {discountPct > 0 && (
                   <span className="absolute top-4 left-4 inline-flex items-center gap-1 rounded-pill bg-coral-400 text-white text-meta font-bold px-3 py-1.5 shadow-sh-2">
                     <Zap className="w-3.5 h-3.5 fill-white" />
@@ -367,7 +369,7 @@ export default async function LabTestDetailPage({ params }: PageProps) {
         </div>
       </section>
 
-      <div className="mx-auto max-w-7xl px-gutter pt-8 lg:pt-10">
+      <div className="mx-auto max-w-7xl px-gutter pt-6 lg:pt-6">
         <LabStats />
       </div>
 
@@ -442,7 +444,11 @@ export default async function LabTestDetailPage({ params }: PageProps) {
                         </tr>
                       </thead>
                       <tbody>
-                        {test.interpretations.rows.map((row, ri) => (
+                        {test.interpretations.rows
+                          .filter((row) =>
+                            row.some((cell) => cell && cell.trim().length > 0),
+                          )
+                          .map((row, ri) => (
                           <tr
                             key={ri}
                             className="border-b border-cream-line last:border-b-0"

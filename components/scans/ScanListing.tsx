@@ -323,12 +323,8 @@ export function ScanListing({
                   alt={category.name}
                   fill
                   priority
-                  className="object-cover"
+                  className="object-contain p-3"
                   sizes="360px"
-                />
-                <span
-                  aria-hidden
-                  className="absolute inset-0 bg-gradient-to-t from-ink-900/40 via-transparent to-transparent"
                 />
               </div>
             )}
@@ -500,7 +496,11 @@ export function ScanListing({
                       </tr>
                     </thead>
                     <tbody>
-                      {interpretations.rows.map((row, ri) => (
+                      {interpretations.rows
+                        .filter((row) =>
+                          row.some((cell) => cell && cell.trim().length > 0),
+                        )
+                        .map((row, ri) => (
                         <tr
                           key={ri}
                           className="border-b border-cream-line last:border-b-0"
