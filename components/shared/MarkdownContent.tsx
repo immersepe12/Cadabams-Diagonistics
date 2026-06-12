@@ -20,6 +20,20 @@ function unescapeMarkdown(input: string): string {
 }
 
 /**
+ * The imported content uses standalone `---` lines as section dividers. When
+ * such a line immediately follows a paragraph (no blank line between), Markdown
+ * treats it as a **setext heading underline** — turning that paragraph into an
+ * `<h2>`, so body text renders huge and bold (e.g. the "About The Test" intro).
+ * These dividers are redundant with our own section layout, so strip standalone
+ * thematic-break lines (`---`, `***`, `___`, `===`) entirely. This fixes the
+ * oversized-paragraph bug without altering the actual prose. Markdown tables are
+ * unaffected (they use `|---|`, never a bare `---`).
+ */
+function stripDividerLines(input: string): string {
+  return input.replace(/^[ \t]*(-{3,}|\*{3,}|_{3,}|={3,})[ \t]*$/gm, "");
+}
+
+/**
  * Some imported blogs link to fully-qualified `https://cadabamsdiagnostics.com/...`
  * URLs. Rewrite those to in-site relative paths so navigation stays internal
  * (preserves SPA-style transitions and works in local dev / staging).
@@ -64,7 +78,7 @@ export function MarkdownContent({ content, className }: MarkdownContentProps) {
       )}
     >
       <ReactMarkdown remarkPlugins={[remarkGfm]}>
-        {rewriteInternalLinks(unescapeMarkdown(content))}
+        {rewriteInternalLinks(stripDividerLines(unescapeMarkdown(content)))}
       </ReactMarkdown>
     </div>
   );

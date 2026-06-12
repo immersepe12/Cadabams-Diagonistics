@@ -39,3 +39,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# content audit output (regenerate with `npm run audit`)
+/data/audit

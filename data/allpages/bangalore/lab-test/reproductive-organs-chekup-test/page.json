@@ -14,20 +14,5 @@
     "updatedAt": "2024-10-23T06:00:25.068Z",
     "markdown": "Reproductive Organs checkup test"
   },
-  "tests": [
-    {
-      "id": "682d189c16444f3c115af6c1",
-      "testName": "COOMBS TEST - DIRECT",
-      "route": "/test2",
-      "basic_info": {
-        "name": "COOMBS TEST - DIRECT",
-        "categoryId": "671b5104ad9bf8d210384d22",
-        "price": 490,
-        "discount": "12",
-        "discountedPrice": "431.20",
-        "reportsWithin": "test",
-        "testCategory": "Haematology"
-      }
-    }
-  ]
+  "tests": []
 }

@@ -49,8 +49,7 @@
       "id": "671b5104ad9bf8d210384d27",
       "name": "Bones",
       "tests": [
-        "6823771216444f3c1159aac8",
-        "682d189c16444f3c115af6c1"
+        "6823771216444f3c1159aac8"
       ],
       "image": "/lab-tests/image-1729663772933-817668696.webp",
       "path": "/bones-tests",
@@ -78,7 +77,6 @@
         "671b5105ad9bf8d210384d30",
         "671c7cc7c8a77735c8e4410e",
         "671c7dd9c8a77735c8e44129",
-        "6720b1f4b61a968f2fc61587",
         "672bab2e21cadfab64a6f854",
         "672badc221cadfab64a6f870",
         "672bafa721cadfab64a6f879",
@@ -93,7 +91,6 @@
         "673b02ddeffae454707ddc3e",
         "673b0850effae454707dde45",
         "674378945c1d2938425e3826",
-        "677e3f1fc75a57396559117b",
         "677e4c7ac75a57396559144f",
         "677e558dc75a573965591506",
         "677f5bbbc75a573965592981",
@@ -195,7 +192,6 @@
         "682c81a416444f3c115aeaad",
         "682c9ea116444f3c115aee10",
         "682ca79a16444f3c115aef47",
-        "682d155a16444f3c115af60c",
         "682d49e716444f3c115afca2",
         "682d67cb16444f3c115affdf",
         "682d6cbc16444f3c115b0144",
@@ -429,20 +425,6 @@
       }
     },
     {
-      "id": "677e3f1fc75a57396559117b",
-      "testName": "BLOOD GROUPING & Rh FACTOR",
-      "route": "/dsdsds",
-      "basic_info": {
-        "name": "BLOOD GROUPING & Rh FACTOR",
-        "categoryId": "671b5104ad9bf8d210384d23",
-        "price": 165,
-        "discount": "0",
-        "discountedPrice": "165.00",
-        "reportsWithin": "dsdsd",
-        "testCategory": "Haematology"
-      }
-    },
-    {
       "id": "677f5bbbc75a573965592981",
       "testName": "PERIPHERAL SMEAR EXAMINATION",
       "route": "/peripheral-smear-examination",
@@ -510,19 +492,6 @@
         "discountedPrice": "250.00",
         "reportsWithin": "60mins",
         "testCategory": "Immunology"
-      }
-    },
-    {
-      "id": "6720b1f4b61a968f2fc61587",
-      "testName": "Bone Narrow test",
-      "route": "/bnt",
-      "basic_info": {
-        "name": "Bone Narrow test",
-        "categoryId": "671b5104ad9bf8d210384d27",
-        "price": "455",
-        "discount": "0",
-        "discountedPrice": "455.00",
-        "reportsWithin": ""
       }
     },
     {
@@ -2050,20 +2019,6 @@
       }
     },
     {
-      "id": "682d189c16444f3c115af6c1",
-      "testName": "COOMBS TEST - DIRECT",
-      "route": "/test2",
-      "basic_info": {
-        "name": "COOMBS TEST - DIRECT",
-        "categoryId": "671b5104ad9bf8d210384d22",
-        "price": 490,
-        "discount": "12",
-        "discountedPrice": "431.20",
-        "reportsWithin": "test",
-        "testCategory": "Haematology"
-      }
-    },
-    {
       "id": "682d67cb16444f3c115affdf",
       "testName": "HSV 1 IgM",
       "route": "/herpes-simplex-virus-type-1",
@@ -2354,20 +2309,6 @@
         "discount": "",
         "discountedPrice": 1200,
         "reportsWithin": "3 hrs",
-        "testCategory": "Biochemistry"
-      }
-    },
-    {
-      "id": "682d155a16444f3c115af60c",
-      "testName": "APOLIPO PROTEIN A1/B RATIO(Calculated)",
-      "route": "/dummy",
-      "basic_info": {
-        "name": "APOLIPO PROTEIN A1/B RATIO(Calculated)",
-        "categoryId": "671b5104ad9bf8d210384d27",
-        "price": 600,
-        "discount": "12",
-        "discountedPrice": "528.00",
-        "reportsWithin": "2",
         "testCategory": "Biochemistry"
       }
     },

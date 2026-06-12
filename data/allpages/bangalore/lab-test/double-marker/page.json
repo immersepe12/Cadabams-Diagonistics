@@ -103,11 +103,6 @@
           "route": "/dengue-profile-rapid-test"
         },
         {
-          "id": "6720b1f4b61a968f2fc61587",
-          "testName": "Bone Narrow test",
-          "route": "/bnt"
-        },
-        {
           "id": "672bab2e21cadfab64a6f854",
           "testName": "GLYCOSYLATED HAEMOGLOBIN-HbA1c",
           "route": "/glycosylated-haemoglobin-hba1c-test"
@@ -171,11 +166,6 @@
           "id": "673b0850effae454707dde45",
           "testName": "COMPLETE BLOOD COUNT",
           "route": "/complete-blood-count-cbc"
-        },
-        {
-          "id": "677e3f1fc75a57396559117b",
-          "testName": "BLOOD GROUPING & Rh FACTOR",
-          "route": "/dsdsds"
         },
         {
           "id": "677e4c7ac75a57396559144f",
@@ -425,7 +415,7 @@
       "schemaMarkup": "",
       "robotsMeta": ""
     },
-    "markdown": "## What is the Double Marker Test in Pregnancy and Why is It Important?\n\nThe Double Marker Test is a *prenatal blood test* that screens for the risk of chromosomal abnormalities in a developing foetus, such as **Down Syndrome (Trisomy 21)**, **Trisomy 18**, and **Trisomy 13.**\n\nIt works by:\n\n- Measuring levels of two important markers in the mother's blood: **Free Beta-hCG (human chorionic gonadotropin)** and **PAPP-A (pregnancy-associated plasma protein A)**.\n- When combined with the **nuchal translucency (NT) ultrasound scan**, it significantly enhances the ability to detect risks early in pregnancy.\n\nThe Double Marker Test is **non-invasive** and **safe** for mother and baby, providing important information that can guide further diagnosis if needed.\n\n## What Are the Key Markers Measured in the Double Marker Test?\n\nThe Double Marker Test has two specific protein markers:\n\n- **Free Beta-hCG:** It is a hormone having abnormal levels indicating potential chromosomal anomalies during pregnancy.\n- **PAPP-A:** The placenta produces it, and lower levels may be linked to some aberration.\n\nThese markers alongside ultrasound findings are used to gauge the risk of having chromosomal abnormalities.\n\n## When Should You Take the Double Marker Test During Pregnancy?\n\nThe test is usually done:\n\n- In the first trimester, ideally between 9 to 13 weeks of pregnancy.\n- After the nuchal translucency (fluid behind the baby's neck) ultrasound is done.\n\nIt forms part of the routine first-trimester screening offered to all pregnant women especially those at increased risk these include:\n\n- Maternal age greater than 35 years\n- Positive family history of genetic disorders.\n- A previous pregnancy affected by chromosomal abnormalities.\n\n## Risks and Limitations of the Double Marker Test\n\nRisks:\n\n- Any risks directly related to it - there are no physical risks only a simple blood collection.\n\nLimitations:\n\n- It is a screening test not a diagnostic test.\n- The term “high-risk” does not guarantee that the foetus has a problem. It only means that additional testing may be suggested, such as NIPT, amniocentesis, or chorionic villus sampling.\n- Particularly when dates are miscalculated, a test may yield a false positive or a false negative.\n- Accuracy relies on the combination with NT Scan findings.\n\n## Who Should Consider the Double Marker Test in Pregnancy?\n\n- All pregnant women during their first trimester\n- Important especially for women:\n- Aged over 35 years\n- Having a family history concerning chromosomal disorders\n- Having a history of previous pregnancies with abnormalities\n- Having abnormal findings in early pregnancy ultrasounds\n- Undergoing assisted reproductive technologies such as IVF\n\n## Benefits of the Double Marker Test for Expectant Parents\n\n- Peace of Mind: Expectant parents can be reassured with low-risk results.\n- Informed Decision-Making: Allows expectant parents and health care providers to determine further diagnostic testing or management.\n- Early Detection: Detects risk factors for chromosomal abnormalities earlier in the pregnancy.\n- Non-Invasive: Does not pose any risk to the foetus since only a blood sample is required.\n\nSituations when physicians may suggest a Double Marker Test:\n\n- Pregnant women over the age of 35\n- Irregular first-trimester ultrasound\n- History of repeated spontaneous abortions\n- Known genetic disorders in the family\n\n## Although the Double Marker Test is primarily a screening test and not a diagnostic test, it aids in estimating the probability for:   Down Syndrome (Trisomy 21)    Edwards Syndrome (Trisomy 18)   Patau Syndrome (Trisomy 13)   In some cases, higher or lower levels of the markers may point to other complications related to pregnancy.\n\nAlthough the Double Marker Test is primarily a screening test and not a diagnostic test, it aids in estimating the probability for:\n\n- Down Syndrome (Trisomy 21)\n- Edwards Syndrome (Trisomy 18)\n- Patau Syndrome (Trisomy 13)\n\nIn some cases, higher or lower levels of the markers may point to other complications related to pregnancy.\n\n## What Structures and Factors Are Evaluated in the Double Marker Test?\n\nThese structures are:\n\n- Free Beta-hCG: This parameter reveals a higher risk of Down syndrome if greater than normal levels are reported.\n- PAPP-A: Increased risk of some chromosomal issues is associated with lower-than-normal levels.\n- Risk Calculation: An NT scan is the primary marker for gestational age. It is combined with maternal age and biochemical marker levels to estimate risk ratios and evaluate them using proprietary software.\n\n**Adjustments based on patient factors:**\n\n- It is common knowledge that a woman’s age greatly impacts risk evaluation, and in such calculations, it is an extremely significant factor.\n- Ethnicity, weight, and smoking are also contributing factors to the levels of the markers used U.\n\n## Preparing for the Double Marker Test\n\nThere is no requirement for fasting. The test can be conducted anytime during the day.\n\nPrerequisites for the Double Marker Test in Pregnancy\n\n- The pregnancy must be dated by ultrasound.\n- Recent NT Scan report if it’s available.\n\nEligibility for Taking the Double Marker Blood Test\n\nAll women undergoing pregnancy, particularly between the period of 9-13 weeks.\n\nProcedure for Conducting the Double Marker Test\n\n- A blood sample will be drawn from a vein in the arm.\n- The sample will be checked for Free Beta-hCG and PAPP-A.\n\nCaution Before Undergoing the Double Marker Blood Test\n\nRevealing smoking status, taking medications and having chronic diseases should be reported to healthcare personnel well ahead of the test."
+    "markdown": "## What is the Double Marker Test in Pregnancy and Why is It Important?\n\nThe Double Marker Test is a *prenatal blood test* that screens for the risk of chromosomal abnormalities in a developing foetus, such as **Down Syndrome (Trisomy 21)**, **Trisomy 18**, and **Trisomy 13.**\n\nIt works by:\n\n- Measuring levels of two important markers in the mother's blood: **Free Beta-hCG (human chorionic gonadotropin)** and **PAPP-A (pregnancy-associated plasma protein A)**.\n- When combined with the **nuchal translucency (NT) ultrasound scan**, it significantly enhances the ability to detect risks early in pregnancy.\n\nThe Double Marker Test is **non-invasive** and **safe** for mother and baby, providing important information that can guide further diagnosis if needed.\n\n## List of Parameters\n\nThe Double Marker Test has two specific protein markers:\n\n- **Free Beta-hCG:** It is a hormone having abnormal levels indicating potential chromosomal anomalies during pregnancy.\n- **PAPP-A:** The placenta produces it, and lower levels may be linked to some aberration.\n\nThese markers alongside ultrasound findings are used to gauge the risk of having chromosomal abnormalities.\n\n## When Should You Take the Double Marker Test During Pregnancy?\n\nThe test is usually done:\n\n- In the first trimester, ideally between 9 to 13 weeks of pregnancy.\n- After the nuchal translucency (fluid behind the baby's neck) ultrasound is done.\n\nIt forms part of the routine first-trimester screening offered to all pregnant women especially those at increased risk these include:\n\n- Maternal age greater than 35 years\n- Positive family history of genetic disorders.\n- A previous pregnancy affected by chromosomal abnormalities.\n\n## Risks and Limitations of the Double Marker Test\n\nRisks:\n\n- Any risks directly related to it - there are no physical risks only a simple blood collection.\n\nLimitations:\n\n- It is a screening test not a diagnostic test.\n- The term “high-risk” does not guarantee that the foetus has a problem. It only means that additional testing may be suggested, such as NIPT, amniocentesis, or chorionic villus sampling.\n- Particularly when dates are miscalculated, a test may yield a false positive or a false negative.\n- Accuracy relies on the combination with NT Scan findings.\n\n## Who Should Consider the Double Marker Test in Pregnancy?\n\n- All pregnant women during their first trimester\n- Important especially for women:\n- Aged over 35 years\n- Having a family history concerning chromosomal disorders\n- Having a history of previous pregnancies with abnormalities\n- Having abnormal findings in early pregnancy ultrasounds\n- Undergoing assisted reproductive technologies such as IVF\n\n## Benefits of the Double Marker Test for Expectant Parents\n\n- Peace of Mind: Expectant parents can be reassured with low-risk results.\n- Informed Decision-Making: Allows expectant parents and health care providers to determine further diagnostic testing or management.\n- Early Detection: Detects risk factors for chromosomal abnormalities earlier in the pregnancy.\n- Non-Invasive: Does not pose any risk to the foetus since only a blood sample is required.\n\nSituations when physicians may suggest a Double Marker Test:\n\n- Pregnant women over the age of 35\n- Irregular first-trimester ultrasound\n- History of repeated spontaneous abortions\n- Known genetic disorders in the family\n\n## Although the Double Marker Test is primarily a screening test and not a diagnostic test, it aids in estimating the probability for:   Down Syndrome (Trisomy 21)    Edwards Syndrome (Trisomy 18)   Patau Syndrome (Trisomy 13)   In some cases, higher or lower levels of the markers may point to other complications related to pregnancy.\n\nAlthough the Double Marker Test is primarily a screening test and not a diagnostic test, it aids in estimating the probability for:\n\n- Down Syndrome (Trisomy 21)\n- Edwards Syndrome (Trisomy 18)\n- Patau Syndrome (Trisomy 13)\n\nIn some cases, higher or lower levels of the markers may point to other complications related to pregnancy.\n\n## What Structures and Factors Are Evaluated in the Double Marker Test?\n\nThese structures are:\n\n- Free Beta-hCG: This parameter reveals a higher risk of Down syndrome if greater than normal levels are reported.\n- PAPP-A: Increased risk of some chromosomal issues is associated with lower-than-normal levels.\n- Risk Calculation: An NT scan is the primary marker for gestational age. It is combined with maternal age and biochemical marker levels to estimate risk ratios and evaluate them using proprietary software.\n\n**Adjustments based on patient factors:**\n\n- It is common knowledge that a woman’s age greatly impacts risk evaluation, and in such calculations, it is an extremely significant factor.\n- Ethnicity, weight, and smoking are also contributing factors to the levels of the markers used U.\n\n## Preparing for the Double Marker Test\n\nThere is no requirement for fasting. The test can be conducted anytime during the day.\n\nPrerequisites for the Double Marker Test in Pregnancy\n\n- The pregnancy must be dated by ultrasound.\n- Recent NT Scan report if it’s available.\n\nEligibility for Taking the Double Marker Blood Test\n\nAll women undergoing pregnancy, particularly between the period of 9-13 weeks.\n\nProcedure for Conducting the Double Marker Test\n\n- A blood sample will be drawn from a vein in the arm.\n- The sample will be checked for Free Beta-hCG and PAPP-A.\n\nCaution Before Undergoing the Double Marker Blood Test\n\nRevealing smoking status, taking medications and having chronic diseases should be reported to healthcare personnel well ahead of the test."
   },
   "category": {
     "id": "671b5104ad9bf8d210384d23",
@@ -488,19 +478,6 @@
         "discountedPrice": "250.00",
         "reportsWithin": "60mins",
         "testCategory": "Immunology"
-      }
-    },
-    {
-      "id": "6720b1f4b61a968f2fc61587",
-      "testName": "Bone Narrow test",
-      "route": "/bnt",
-      "basic_info": {
-        "name": "Bone Narrow test",
-        "categoryId": "671b5104ad9bf8d210384d27",
-        "price": "455",
-        "discount": "0",
-        "discountedPrice": "455.00",
-        "reportsWithin": ""
       }
     },
     {
@@ -598,6 +575,19 @@
         "discount": "5",
         "discountedPrice": "1900.00",
         "reportsWithin": "6 hrs"
+      }
+    },
+    {
+      "id": "6736dda903598b92c151cd8f",
+      "testName": "Diabetes and Sugar Tests ",
+      "route": "/diabetes-sugar-test-dst",
+      "basic_info": {
+        "name": "Diabetes and Sugar Tests ",
+        "categoryId": "671b5104ad9bf8d210384d23",
+        "price": "1000",
+        "discount": "10",
+        "discountedPrice": "900.00",
+        "reportsWithin": "3hrs"
       }
     }
   ]

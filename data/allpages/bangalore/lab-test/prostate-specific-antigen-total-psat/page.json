@@ -153,11 +153,6 @@
           "id": "673b0850effae454707dde45",
           "testName": "COMPLETE BLOOD COUNT",
           "route": "/complete-blood-count-cbc"
-        },
-        {
-          "id": "677e3f1fc75a57396559117b",
-          "testName": "BLOOD GROUPING & Rh FACTOR",
-          "route": "/dsdsds"
         }
       ]
     },

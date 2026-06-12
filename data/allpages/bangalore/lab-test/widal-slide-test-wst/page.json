@@ -168,11 +168,6 @@
           "route": "/complete-blood-count-cbc"
         },
         {
-          "id": "677e3f1fc75a57396559117b",
-          "testName": "BLOOD GROUPING & Rh FACTOR",
-          "route": "/dsdsds"
-        },
-        {
           "id": "677e4c7ac75a57396559144f",
           "testName": "PSA TOTAL",
           "route": "/prostate-specific-antigen-total-psat"

@@ -1,5 +1,5 @@
 {
-  "count": 605,
+  "count": 601,
   "pages": [
     {
       "route": "/",
@@ -518,10 +518,6 @@
       "type": "labtest-detail"
     },
     {
-      "route": "/bangalore/lab-test/bnt",
-      "type": "labtest-detail"
-    },
-    {
       "route": "/bangalore/lab-test/bones-tests",
       "type": "labtest-category-listing"
     },
@@ -611,14 +607,6 @@
     },
     {
       "route": "/bangalore/lab-test/double-marker",
-      "type": "labtest-detail"
-    },
-    {
-      "route": "/bangalore/lab-test/dsdsds",
-      "type": "labtest-detail"
-    },
-    {
-      "route": "/bangalore/lab-test/dummy",
       "type": "labtest-detail"
     },
     {
@@ -1023,10 +1011,6 @@
     },
     {
       "route": "/bangalore/lab-test/tb-gold",
-      "type": "labtest-detail"
-    },
-    {
-      "route": "/bangalore/lab-test/test2",
       "type": "labtest-detail"
     },
     {

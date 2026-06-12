@@ -7,7 +7,13 @@
     "data:allpages": "node scripts/build-allpages.mjs",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "audit:local": "node scripts/audit-content-local.mjs",
+    "audit:live": "node scripts/audit-content-live.mjs",
+    "audit:compare": "node scripts/audit-content-compare.mjs",
+    "audit:missing": "node scripts/audit-missing-sections.mjs",
+    "audit:pdf": "node scripts/audit-content-pdf.mjs",
+    "audit": "npm run audit:local && npm run audit:live && npm run audit:compare && npm run audit:missing && npm run audit:pdf"
   },
   "dependencies": {
     "class-variance-authority": "^0.7.1",

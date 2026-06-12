@@ -117,11 +117,6 @@
           "route": "/dengue-profile-rapid-test"
         },
         {
-          "id": "6720b1f4b61a968f2fc61587",
-          "testName": "Bone Narrow test",
-          "route": "/bnt"
-        },
-        {
           "id": "672bab2e21cadfab64a6f854",
           "testName": "GLYCOSYLATED HAEMOGLOBIN-HbA1c",
           "route": "/glycosylated-haemoglobin-hba1c-test"
@@ -185,11 +180,6 @@
           "id": "673b0850effae454707dde45",
           "testName": "COMPLETE BLOOD COUNT",
           "route": "/complete-blood-count-cbc"
-        },
-        {
-          "id": "677e3f1fc75a57396559117b",
-          "testName": "BLOOD GROUPING & Rh FACTOR",
-          "route": "/dsdsds"
         },
         {
           "id": "677e4c7ac75a57396559144f",
@@ -765,19 +755,6 @@
       }
     },
     {
-      "id": "6720b1f4b61a968f2fc61587",
-      "testName": "Bone Narrow test",
-      "route": "/bnt",
-      "basic_info": {
-        "name": "Bone Narrow test",
-        "categoryId": "671b5104ad9bf8d210384d27",
-        "price": "455",
-        "discount": "0",
-        "discountedPrice": "455.00",
-        "reportsWithin": ""
-      }
-    },
-    {
       "id": "672bab2e21cadfab64a6f854",
       "testName": "GLYCOSYLATED HAEMOGLOBIN-HbA1c",
       "route": "/glycosylated-haemoglobin-hba1c-test",
@@ -872,6 +849,19 @@
         "discount": "5",
         "discountedPrice": "1900.00",
         "reportsWithin": "6 hrs"
+      }
+    },
+    {
+      "id": "6736dda903598b92c151cd8f",
+      "testName": "Diabetes and Sugar Tests ",
+      "route": "/diabetes-sugar-test-dst",
+      "basic_info": {
+        "name": "Diabetes and Sugar Tests ",
+        "categoryId": "671b5104ad9bf8d210384d23",
+        "price": "1000",
+        "discount": "10",
+        "discountedPrice": "900.00",
+        "reportsWithin": "3hrs"
       }
     }
   ]

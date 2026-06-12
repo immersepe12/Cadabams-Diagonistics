@@ -6,8 +6,7 @@
     "id": "671b5104ad9bf8d210384d27",
     "name": "Bones",
     "tests": [
-      "6823771216444f3c1159aac8",
-      "682d189c16444f3c115af6c1"
+      "6823771216444f3c1159aac8"
     ],
     "image": "/lab-tests/image-1729663772933-817668696.webp",
     "path": "/bones-tests",
@@ -15,33 +14,5 @@
     "updatedAt": "2024-10-23T06:10:29.945Z",
     "markdown": "Bones Tests"
   },
-  "tests": [
-    {
-      "id": "6720b1f4b61a968f2fc61587",
-      "testName": "Bone Narrow test",
-      "route": "/bnt",
-      "basic_info": {
-        "name": "Bone Narrow test",
-        "categoryId": "671b5104ad9bf8d210384d27",
-        "price": "455",
-        "discount": "0",
-        "discountedPrice": "455.00",
-        "reportsWithin": ""
-      }
-    },
-    {
-      "id": "682d155a16444f3c115af60c",
-      "testName": "APOLIPO PROTEIN A1/B RATIO(Calculated)",
-      "route": "/dummy",
-      "basic_info": {
-        "name": "APOLIPO PROTEIN A1/B RATIO(Calculated)",
-        "categoryId": "671b5104ad9bf8d210384d27",
-        "price": 600,
-        "discount": "12",
-        "discountedPrice": "528.00",
-        "reportsWithin": "2",
-        "testCategory": "Biochemistry"
-      }
-    }
-  ]
+  "tests": []
 }

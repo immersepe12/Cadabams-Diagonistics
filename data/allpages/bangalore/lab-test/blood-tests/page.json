@@ -10,7 +10,6 @@
       "671b5105ad9bf8d210384d30",
       "671c7cc7c8a77735c8e4410e",
       "671c7dd9c8a77735c8e44129",
-      "6720b1f4b61a968f2fc61587",
       "672bab2e21cadfab64a6f854",
       "672badc221cadfab64a6f870",
       "672bafa721cadfab64a6f879",
@@ -25,7 +24,6 @@
       "673b02ddeffae454707ddc3e",
       "673b0850effae454707dde45",
       "674378945c1d2938425e3826",
-      "677e3f1fc75a57396559117b",
       "677e4c7ac75a57396559144f",
       "677e558dc75a573965591506",
       "677f5bbbc75a573965592981",
@@ -127,7 +125,6 @@
       "682c81a416444f3c115aeaad",
       "682c9ea116444f3c115aee10",
       "682ca79a16444f3c115aef47",
-      "682d155a16444f3c115af60c",
       "682d49e716444f3c115afca2",
       "682d67cb16444f3c115affdf",
       "682d6cbc16444f3c115b0144",
@@ -237,20 +234,6 @@
         "discount": "5",
         "discountedPrice": "1900.00",
         "reportsWithin": "6 hrs"
-      }
-    },
-    {
-      "id": "677e3f1fc75a57396559117b",
-      "testName": "BLOOD GROUPING & Rh FACTOR",
-      "route": "/dsdsds",
-      "basic_info": {
-        "name": "BLOOD GROUPING & Rh FACTOR",
-        "categoryId": "671b5104ad9bf8d210384d23",
-        "price": 165,
-        "discount": "0",
-        "discountedPrice": "165.00",
-        "reportsWithin": "dsdsd",
-        "testCategory": "Haematology"
       }
     },
     {
