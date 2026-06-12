@@ -4,7 +4,8 @@ interface StaticPageShellProps {
   title: string;
   overline?: string;
   description?: string;
-  children: React.ReactNode;
+  /** Body content. Omit to render just the hero header. */
+  children?: React.ReactNode;
   /** Optional width override for the body wrapper. Default `max-w-4xl`. */
   bodyMaxWidth?: string;
 }
@@ -17,7 +18,7 @@ export function StaticPageShell({
   bodyMaxWidth = "max-w-4xl",
 }: StaticPageShellProps) {
   return (
-    <main className="bg-cream-bg min-h-screen">
+    <main className={cn("bg-cream-bg", children && "min-h-screen")}>
       <section className="relative overflow-hidden bg-gradient-orange-soft border-b border-cream-line">
         <div
           aria-hidden
@@ -39,14 +40,13 @@ export function StaticPageShell({
           )}
         </div>
       </section>
-      <section
-        className={cn(
-          "mx-auto px-gutter py-10 lg:py-16",
-          bodyMaxWidth,
-        )}
-      >
-        {children}
-      </section>
+      {children && (
+        <section
+          className={cn("mx-auto px-gutter py-10 lg:py-16", bodyMaxWidth)}
+        >
+          {children}
+        </section>
+      )}
     </main>
   );
 }

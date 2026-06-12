@@ -65,7 +65,7 @@ export function FaqSection({ items, id = "faq" }: FaqSectionProps) {
               </p>
             </div>
             <Link
-              href="#contact"
+              href="/contact-us"
               className="flex-shrink-0 inline-flex items-center rounded-pill bg-orange-500 px-4 py-2 text-body-sm font-semibold text-white shadow-glow-orange transition-all duration-200 hover:bg-orange-600 active:scale-[0.97] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-500 focus-visible:ring-offset-2"
             >
               Ask

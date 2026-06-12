@@ -78,7 +78,7 @@ export function BlogCard({ blog, className }: BlogCardProps) {
           </p>
         )}
 
-        <div className="mt-auto pt-3 sm:pt-4 border-t border-cream-line-soft flex flex-wrap items-center gap-x-2.5 gap-y-1 text-caption sm:text-meta text-ink-500">
+        <div className="mt-auto pt-3 sm:pt-4 flex flex-wrap items-center gap-x-2.5 gap-y-1 text-caption sm:text-meta text-ink-500">
           {date && (
             <time
               dateTime={blog.createdAt}

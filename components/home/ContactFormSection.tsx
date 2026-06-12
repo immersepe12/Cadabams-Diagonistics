@@ -95,6 +95,7 @@ export function ContactFormSection({
     id: name,
     name,
     value: form[name],
+    className: "bg-white shadow-none focus-visible:bg-white",
     onChange: (
       e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
     ) => setForm((p) => ({ ...p, [name]: e.target.value })),
