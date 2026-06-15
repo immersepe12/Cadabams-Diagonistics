@@ -32,6 +32,9 @@ yarn-error.log*
 
 # env files (can opt-in for committing if needed)
 .env*
+# ...but keep the committed example template
+!.env.local.example
+.env.local
 
 # vercel
 .vercel
@@ -42,3 +45,6 @@ next-env.d.ts
 
 # content audit output (regenerate with `npm run audit`)
 /data/audit
+
+# meilisearch export output (regenerate with `pnpm search:export`)
+/meili-export

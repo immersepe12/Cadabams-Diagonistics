@@ -1,9 +1,12 @@
-{ 
+{
   "name": "new-cadabams-diagnostics-frontned",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "search:index": "node --env-file=.env.local --import tsx scripts/index-meili.ts",
+    "search:export": "node --import tsx scripts/index-meili.ts --export",
+    "search:upload": "node --env-file=.env.local --import tsx scripts/upload-index-data-to-melli-serach.ts",
     "data:allpages": "node scripts/build-allpages.mjs",
     "build": "next build",
     "start": "next start",
@@ -16,15 +19,19 @@
     "audit": "npm run audit:local && npm run audit:live && npm run audit:compare && npm run audit:missing && npm run audit:pdf"
   },
   "dependencies": {
+    "@meilisearch/instant-meilisearch": "^0.31.1",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "embla-carousel-autoplay": "^8.6.0",
     "embla-carousel-react": "^8.6.0",
+    "instantsearch.css": "^8.17.0",
     "lucide-react": "^1.16.0",
+    "meilisearch": "^0.58.0",
     "next": "16.2.6",
     "radix-ui": "^1.4.3",
     "react": "19.2.4",
     "react-dom": "19.2.4",
+    "react-instantsearch": "^7.35.1",
     "react-markdown": "^10.1.0",
     "remark-gfm": "^4.0.1",
     "shadcn": "^4.8.1",
@@ -41,6 +48,8 @@
     "eslint-config-next": "16.2.6",
     "postcss": "^8.5.15",
     "sharp": "^0.34.5",
+    "tailwindcss": "4.3.0",
+    "tsx": "^4.22.4",
     "typescript": "^5"
   }
 }
