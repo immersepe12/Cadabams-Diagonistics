@@ -18,6 +18,7 @@ import {
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { ContactActionButton } from "@/components/shared/ContactActionButton";
+import { NavbarSearch } from "@/components/search/NavbarSearch";
 import { useCartStore, useCartHydrated, selectCount } from "@/lib/cart/store";
 
 interface NavItem {
@@ -158,19 +159,7 @@ export function HeaderClient({
               />
             </Link>
 
-            <form
-              action="/search"
-              method="get"
-              className="hidden lg:block flex-1 max-w-lg relative"
-            >
-              <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-ink-500 pointer-events-none" />
-              <input
-                type="search"
-                name="q"
-                placeholder="Search tests or scans..."
-                className="w-full bg-cream-soft text-ink-900 rounded-md pl-10 pr-4 py-2.5 text-body-sm border border-transparent focus:border-orange-500 focus:bg-cream-card focus:outline-none focus:ring-4 focus:ring-orange-100 transition-all duration-200 placeholder:text-ink-400"
-              />
-            </form>
+            <NavbarSearch wrapperClassName="hidden lg:block flex-1 max-w-lg relative" />
 
             <nav
               className="hidden lg:flex items-center gap-1 ml-auto flex-shrink-0"
@@ -330,23 +319,12 @@ export function HeaderClient({
           </div>
 
           {searchOpen && (
-            <form
+            <div
               id="mobile-search"
-              action="/search"
-              method="get"
               className="lg:hidden pb-3 animate-in fade-in slide-in-from-top-1 duration-200"
             >
-              <div className="relative">
-                <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-ink-500 pointer-events-none" />
-                <input
-                  ref={searchInputRef}
-                  type="search"
-                  name="q"
-                  placeholder="Search tests or scans..."
-                  className="w-full bg-cream-soft text-ink-900 rounded-md pl-10 pr-4 py-2.5 text-body-sm border border-transparent focus:border-orange-500 focus:bg-cream-card focus:outline-none focus:ring-4 focus:ring-orange-100 transition-all duration-200 placeholder:text-ink-400"
-                />
-              </div>
-            </form>
+              <NavbarSearch wrapperClassName="relative" inputRef={searchInputRef} />
+            </div>
           )}
         </div>
       </header>

@@ -49,24 +49,16 @@ export async function generateMetadata({
 
 export default async function UltrasoundScanDetailPage({
   params,
-  searchParams,
 }: {
   params: Promise<{ slug: string }>;
-  searchParams: Promise<{ q?: string; page?: string }>;
 }) {
   const { slug } = await params;
 
   // A local-filter group slug (e.g. /bangalore/ultrasound-scan/pregnancy)
   // renders the filtered listing; anything else is an individual scan.
   if (isScanFilterKey(slug) && !getNonLabTestBySlug(slug)) {
-    const sp = await searchParams;
     return (
-      <ScanListing
-        familyPath={FAMILY}
-        searchParams={sp}
-        localFilters
-        initialFilterKey={slug}
-      />
+      <ScanListing familyPath={FAMILY} localFilters initialFilterKey={slug} />
     );
   }
 

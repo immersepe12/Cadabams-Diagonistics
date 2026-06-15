@@ -4,11 +4,6 @@ import { scanListingMetadata } from "@/lib/scan-pages";
 export const revalidate = 3600;
 export const metadata = scanListingMetadata("ct-scan");
 
-interface PageProps {
-  searchParams: Promise<{ q?: string; page?: string }>;
-}
-
-export default async function CtScanListingPage({ searchParams }: PageProps) {
-  const sp = await searchParams;
-  return <ScanListing familyPath="ct-scan" searchParams={sp} />;
+export default function CtScanListingPage() {
+  return <ScanListing familyPath="ct-scan" />;
 }
