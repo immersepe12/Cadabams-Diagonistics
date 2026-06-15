@@ -20,6 +20,8 @@ import {
   Layers,
   Scan,
   ScanLine,
+  Smile,
+  Star,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import {
@@ -40,7 +42,7 @@ import {
 } from "@/components/scans/ScanLocalFilter";
 import { MarkdownContent } from "@/components/shared/MarkdownContent";
 import { FaqList } from "@/components/shared/FaqList";
-import { LabStats } from "@/components/shared/LabStats";
+import { LabStats, type LabStatItem } from "@/components/shared/LabStats";
 import { TrustBadges } from "@/components/shared/TrustBadges";
 
 interface ScanListingProps {
@@ -172,6 +174,17 @@ function buildHref(opts: {
   const qs = params.toString();
   return qs ? `${opts.basePath}?${qs}` : opts.basePath;
 }
+
+/**
+ * Scan/radiology stats — centre-visit procedures, so the lab-test
+ * "60 Mins Home Collection" stat does not apply (§4).
+ */
+const SCAN_STATS: LabStatItem[] = [
+  { value: 24, suffix: "h", label: "Report Turnaround", Icon: Clock },
+  { value: 1, suffix: "M", label: "Happy Customers", Icon: Smile },
+  { value: 4.9, label: "Google Rating", Icon: Star },
+  { value: 5, label: "Certified Labs", Icon: ShieldCheck },
+];
 
 const TRUST_POINTS = [
   { Icon: ShieldCheck, label: "Certified Equipment" },
@@ -342,7 +355,7 @@ export function ScanListing({
       </section>
 
       <div className="mx-auto max-w-7xl px-gutter pt-6 lg:pt-8">
-        <LabStats />
+        <LabStats stats={SCAN_STATS} />
       </div>
 
       <section

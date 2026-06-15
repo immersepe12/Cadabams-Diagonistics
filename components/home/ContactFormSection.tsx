@@ -130,7 +130,7 @@ export function ContactFormSection({
   const disabled = status === "submitting" || status === "submitted";
 
   return (
-    <section id="contact" className="py-8 lg:py-12 bg-cream-bg scroll-mt-20">
+    <section id="contact" className="reveal-up py-8 lg:py-12 bg-cream-bg scroll-mt-20">
       <div className="mx-auto max-w-7xl px-gutter grid gap-8 lg:grid-cols-2 lg:items-start">
         {/* Intro + contact details */}
         <div className="space-y-5 lg:order-2 lg:pt-2">

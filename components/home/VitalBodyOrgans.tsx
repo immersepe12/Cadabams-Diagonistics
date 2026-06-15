@@ -26,7 +26,7 @@ export function VitalBodyOrgans({
   }));
 
   return (
-    <section className="py-8 lg:py-12 bg-cream-soft">
+    <section className="reveal-up py-8 lg:py-12 bg-cream-soft">
       <div className="mx-auto max-w-7xl px-gutter">
         <div className="text-center max-w-2xl mx-auto mb-6">
           <SectionOverline className="mx-auto inline-block">

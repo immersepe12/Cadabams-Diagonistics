@@ -6,6 +6,8 @@ import {
   FlaskConical,
   ShieldCheck,
   Building2,
+  Smile,
+  Star,
   Zap,
 } from "lucide-react";
 import {
@@ -15,12 +17,13 @@ import {
 } from "@/lib/data/nonlabtests";
 import { getScanDetailPage } from "@/lib/data/allpages";
 import { nonLabTestUrl } from "@/lib/urls";
+import { titleCaseTestName } from "@/lib/format";
 import { MarkdownContent } from "@/components/shared/MarkdownContent";
 import { RelatedTestsCarousel } from "@/components/shared/RelatedTestsCarousel";
 import { TestBookingActions } from "@/components/shared/TestBookingActions";
 import { AddToCartButton } from "@/components/shared/AddToCartButton";
 import { BookNowButton } from "@/components/shared/BookNowButton";
-import { LabStats } from "@/components/shared/LabStats";
+import { LabStats, type LabStatItem } from "@/components/shared/LabStats";
 import { CentersListCard } from "@/components/shared/CentersListCard";
 import { getAllCenters, getCenterSlug } from "@/lib/data/centers";
 import { isMeaningfulText as isMeaningfulShared } from "@/lib/data/meaningful";
@@ -36,6 +39,18 @@ import { FaqList } from "@/components/shared/FaqList";
 
 const CITY = "bangalore";
 const FALLBACK_IMAGE = "/shared/image-1727884059139-383535423.webp";
+
+/**
+ * Scan/radiology stats — these are centre-visit procedures, so the lab-test
+ * "60 Mins Home Collection" stat does not apply (§4). Lead with reporting speed
+ * instead.
+ */
+const SCAN_STATS: LabStatItem[] = [
+  { value: 24, suffix: "h", label: "Report Turnaround", Icon: Clock },
+  { value: 1, suffix: "M", label: "Happy Customers", Icon: Smile },
+  { value: 4.9, label: "Google Rating", Icon: Star },
+  { value: 5, label: "Certified Labs", Icon: ShieldCheck },
+];
 
 interface ScanDetailProps {
   familyPath: string;
@@ -138,6 +153,8 @@ export function ScanDetail({ familyPath, slug }: ScanDetailProps) {
   const discountPct = stated > 0 ? stated : computed;
   const finalPrice = discountedPrice || price;
 
+  const displayName = titleCaseTestName(test.testName);
+
   const heroImage =
     test.basic_info.imageSrc || category.image || FALLBACK_IMAGE;
 
@@ -197,6 +214,16 @@ export function ScanDetail({ familyPath, slug }: ScanDetailProps) {
   const hasFaqs = faqs.length > 0;
   const markdownSections = splitMarkdownByH2(test.markdown ?? "");
 
+  const hasAbout =
+    !!validIdentifies || !!validMeasures || markdownSections.length > 0;
+
+  // In-page section nav — only links to sections that actually render.
+  const sectionNav = [
+    hasAbout && { id: "about", label: "About" },
+    hasInterpretations && { id: "results", label: "Results" },
+    hasFaqs && { id: "faqs", label: "FAQs" },
+  ].filter(Boolean) as { id: string; label: string }[];
+
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "MedicalProcedure",
@@ -247,7 +274,7 @@ export function ScanDetail({ familyPath, slug }: ScanDetailProps) {
               <BreadcrumbSeparator />
               <BreadcrumbItem>
                 <BreadcrumbPage className="line-clamp-1 max-w-xs">
-                  {test.testName}
+                  {displayName}
                 </BreadcrumbPage>
               </BreadcrumbItem>
             </BreadcrumbList>
@@ -264,7 +291,7 @@ export function ScanDetail({ familyPath, slug }: ScanDetailProps) {
               </Link>
 
               <h1 className="text-h2 sm:text-h1 lg:text-display-2 font-display font-extrabold text-ink-900 leading-tight tracking-tight">
-                {test.testName}
+                {displayName}
               </h1>
 
               {validAlsoKnownAs && (
@@ -365,8 +392,30 @@ export function ScanDetail({ familyPath, slug }: ScanDetailProps) {
       </section>
 
       <div className="mx-auto max-w-7xl px-gutter pt-6 lg:pt-6">
-        <LabStats />
+        <LabStats stats={SCAN_STATS} />
       </div>
+
+      {sectionNav.length > 0 && (
+        <nav
+          aria-label="On this page"
+          className="sticky top-16 z-30 mt-6 bg-cream-bg/90 backdrop-blur-sm border-y border-cream-line"
+        >
+          <div className="mx-auto max-w-7xl px-gutter">
+            <ul className="flex items-center gap-1 overflow-x-auto py-2.5 text-body-sm font-semibold">
+              {sectionNav.map((s) => (
+                <li key={s.id}>
+                  <a
+                    href={`#${s.id}`}
+                    className="inline-flex items-center rounded-pill px-3 py-1.5 text-ink-600 hover:text-orange-700 hover:bg-orange-50 transition-colors whitespace-nowrap"
+                  >
+                    {s.label}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </nav>
+      )}
 
       <div className="mx-auto max-w-7xl px-gutter py-10 lg:py-14 grid gap-6 lg:gap-10 lg:grid-cols-3">
         <div className="lg:col-span-2 space-y-6 min-w-0">
@@ -374,7 +423,10 @@ export function ScanDetail({ familyPath, slug }: ScanDetailProps) {
             validMeasures ||
             markdownSections.length > 0 ||
             hasInterpretations) && (
-            <div className="bg-cream-card rounded-sm shadow-sh-2 p-4 sm:p-6 lg:p-8 space-y-8">
+            <div
+              id="about"
+              className="scroll-mt-24 bg-cream-card rounded-sm shadow-sh-2 p-4 sm:p-6 lg:p-8 space-y-8"
+            >
               {(validIdentifies || validMeasures) && (
                 <section>
                   <h2 className="text-h2 font-display font-bold text-ink-900 mb-5">
@@ -446,7 +498,7 @@ export function ScanDetail({ familyPath, slug }: ScanDetailProps) {
               })}
 
               {hasInterpretations && (
-                <section>
+                <section id="results" className="scroll-mt-24">
                   <h2 className="text-h2 font-display font-bold text-ink-900 mb-4">
                     Test Results
                   </h2>
@@ -506,7 +558,10 @@ export function ScanDetail({ familyPath, slug }: ScanDetailProps) {
           )}
 
           {hasFaqs && (
-            <section className="bg-cream-card rounded-sm shadow-sh-2 border border-cream-line p-4 sm:p-6 lg:p-8">
+            <section
+              id="faqs"
+              className="scroll-mt-24 bg-cream-card rounded-sm shadow-sh-2 border border-cream-line p-4 sm:p-6 lg:p-8"
+            >
               <h2 className="text-h2 font-display font-bold text-ink-900 mb-5">
                 FAQs
               </h2>
@@ -548,7 +603,7 @@ export function ScanDetail({ familyPath, slug }: ScanDetailProps) {
                 Book this scan
               </p>
               <h3 className="text-h3 font-bold text-ink-900 leading-snug mt-1 line-clamp-2">
-                {test.testName}
+                {displayName}
               </h3>
 
               <div className="mt-4 flex items-baseline gap-2.5">

@@ -1,6 +1,7 @@
 import Link from "next/link";
-import { Building2, Clock, Home, Zap } from "lucide-react";
+import { Building2, Clock, FlaskConical, Home, Scan, Zap } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { titleCaseTestName } from "@/lib/format";
 import { AddToCartButton } from "@/components/shared/AddToCartButton";
 import { BookNowButton } from "@/components/shared/BookNowButton";
 
@@ -41,26 +42,39 @@ export function TestCard({
     ? Math.round(((originalPrice - price) / originalPrice) * 100)
     : 0;
   const isLab = kind === "Lab Test";
+  const displayName = titleCaseTestName(name);
+  // Category chip — only shown when we know the kind.
+  const CategoryIcon = kind ? (isLab ? FlaskConical : Scan) : null;
+  const categoryLabel = isLab ? "Lab Test" : "Radiology";
 
   return (
     <article
       className={cn(
-        "group bg-cream-card rounded-xl sm:rounded-2xl border border-cream-line shadow-sh-1 hover:shadow-sh-3 hover:-translate-y-0.5 transition-all duration-200 flex flex-col overflow-hidden h-full",
+        "group bg-cream-card rounded-xl sm:rounded-2xl border border-cream-line shadow-card hover:shadow-card-hover hover:-translate-y-0.5 transition-all duration-200 flex flex-col overflow-hidden h-full",
         className,
       )}
     >
       <div className="p-2.5 sm:p-3 flex flex-col flex-1 min-w-0">
-        <div className="flex items-center justify-between gap-3">
+        {CategoryIcon && (
+          <span
+            className="inline-flex items-center gap-1 self-start rounded-pill bg-orange-50 text-orange-600 border border-orange-100 px-2 py-0.5 text-caption font-bold uppercase tracking-overline mb-1.5"
+            title={categoryLabel}
+          >
+            <CategoryIcon className="w-3 h-3 flex-shrink-0" />
+            {categoryLabel}
+          </span>
+        )}
+        <div className="flex items-start justify-between gap-3">
           <h3 className="text-body-sm sm:text-body text-ink-900 font-bold leading-snug flex items-center min-h-[2.75em] flex-1 min-w-0">
             <Link
               href={href}
               className="line-clamp-2 hover:text-orange-600 transition-colors focus-visible:outline-none focus-visible:underline"
             >
-              {name}
+              {displayName}
             </Link>
           </h3>
           <div className="flex flex-col items-end flex-shrink-0 text-right">
-            <span className="text-h3 text-ink-900 font-extrabold leading-none tracking-tight">
+            <span className="text-h3 text-ink-900 font-extrabold leading-none tracking-tight group-hover:text-orange-600 transition-colors">
               ₹{price.toLocaleString("en-IN")}
             </span>
             {showOriginal && (
@@ -109,8 +123,9 @@ export function TestCard({
               Book now
             </BookNowButton>
             <AddToCartButton
+              iconOnly
               item={{ id: id ?? href, name, price, originalPrice, href, kind }}
-              className="flex-1 min-w-0 inline-flex items-center justify-center gap-1.5 rounded-pill bg-cream-card hover:bg-orange-50 text-ink-900 hover:text-orange-700 font-semibold px-2.5 py-2.5 text-body-sm whitespace-nowrap border border-cream-line hover:border-orange-300 transition-all duration-200 active:scale-[0.98] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-200 [&_svg]:w-3.5 [&_svg]:h-3.5 [&_svg]:flex-shrink-0"
+              className="flex-shrink-0 w-10 h-10 inline-flex items-center justify-center rounded-pill bg-cream-card hover:bg-orange-50 text-ink-700 hover:text-orange-700 border border-cream-line hover:border-orange-300 transition-all duration-200 active:scale-[0.98] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-200 [&_svg]:w-4 [&_svg]:h-4 [&_svg]:flex-shrink-0 [&.is-added]:bg-orange-50 [&.is-added]:text-orange-700 [&.is-added]:border-orange-300"
             />
           </div>
         </div>

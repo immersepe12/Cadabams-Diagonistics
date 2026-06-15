@@ -1,9 +1,8 @@
 "use client";
 
-import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
-import { Phone, ShoppingCart, X } from "lucide-react";
-import { useCartStore, useCartHydrated, selectCount } from "@/lib/cart/store";
+import { usePathname } from "next/navigation";
+import { MessageCircle, Phone, X } from "lucide-react";
 
 const PHONE_NUMBER = "+919900664696";
 const WHATSAPP_NUMBER = "919538593355";
@@ -24,19 +23,24 @@ function WhatsAppIcon({ className }: { className?: string }) {
 }
 
 export function FloatingContactCTA() {
+  // `expanded` = the contact menu (WhatsApp + Call) is open.
+  const [expanded, setExpanded] = useState(false);
+  // `mode` = a lead-capture form for the chosen channel is open.
   const [mode, setMode] = useState<Mode | null>(null);
   const [name, setName] = useState("");
   const [phone, setPhone] = useState("");
   const [message, setMessage] = useState("");
   const panelRef = useRef<HTMLDivElement>(null);
+  const stackRef = useRef<HTMLDivElement>(null);
   const firstFieldRef = useRef<HTMLInputElement>(null);
+  const pathname = usePathname();
 
-  const cartHydrated = useCartHydrated();
-  const cartCount = useCartStore(selectCount);
-  const showCart = cartHydrated && cartCount > 0;
+  // Hide the FAB on the cart/checkout flow where it only adds clutter.
+  const hidden = pathname?.startsWith("/cart") ?? false;
 
   const isOpen = mode !== null;
 
+  // Focus + dismiss handling for the lead-capture form.
   useEffect(() => {
     if (!isOpen) return;
     firstFieldRef.current?.focus();
@@ -56,6 +60,30 @@ export function FloatingContactCTA() {
       document.removeEventListener("mousedown", onClick);
     };
   }, [isOpen]);
+
+  // Dismiss the expanded contact menu on Escape / outside click.
+  useEffect(() => {
+    if (!expanded) return;
+    function onKey(e: KeyboardEvent) {
+      if (e.key === "Escape") setExpanded(false);
+    }
+    function onClick(e: MouseEvent) {
+      if (stackRef.current && !stackRef.current.contains(e.target as Node)) {
+        setExpanded(false);
+      }
+    }
+    document.addEventListener("keydown", onKey);
+    document.addEventListener("mousedown", onClick);
+    return () => {
+      document.removeEventListener("keydown", onKey);
+      document.removeEventListener("mousedown", onClick);
+    };
+  }, [expanded]);
+
+  function openMode(next: Mode) {
+    setExpanded(false);
+    setMode(next);
+  }
 
   function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
@@ -85,6 +113,8 @@ export function FloatingContactCTA() {
     setMessage("");
   }
 
+  if (hidden) return null;
+
   const isWhatsApp = mode === "whatsapp";
   const accent = isWhatsApp
     ? {
@@ -106,6 +136,7 @@ export function FloatingContactCTA() {
 
   return (
     <div
+      ref={stackRef}
       className="fixed z-50 right-3 sm:right-6 bottom-3 sm:bottom-6 flex flex-col items-end gap-2 sm:gap-3"
       style={{
         paddingBottom: "env(safe-area-inset-bottom)",
@@ -228,38 +259,50 @@ export function FloatingContactCTA() {
         </div>
       )}
 
-      {showCart && (
-        <Link
-          href="/cart"
-          aria-label={`View cart, ${cartCount} ${cartCount === 1 ? "item" : "items"}`}
-          className="relative inline-flex items-center justify-center w-11 h-11 sm:w-14 sm:h-14 rounded-pill bg-ink-900 text-white shadow-sh-3 ring-2 ring-white hover:brightness-110 active:scale-95 transition-[filter,transform] duration-150 animate-in fade-in zoom-in-90"
-        >
-          <ShoppingCart className="w-5 h-5 sm:w-6 sm:h-6" />
-          <span className="absolute -top-1.5 -right-1.5 min-w-[1.25rem] h-5 px-1 inline-flex items-center justify-center rounded-pill bg-orange-500 text-white text-[11px] font-bold leading-none ring-2 ring-white tabular-nums">
-            {cartCount > 99 ? "99+" : cartCount}
-          </span>
-        </Link>
+      {/* Expanded contact actions: WhatsApp + Call. Hidden while the form is open. */}
+      {expanded && !isOpen && (
+        <div className="flex flex-col items-end gap-2 animate-in fade-in slide-in-from-bottom-1 duration-200">
+          <button
+            type="button"
+            onClick={() => openMode("whatsapp")}
+            className="group inline-flex items-center gap-2.5 rounded-pill bg-cream-card shadow-sh-3 border border-cream-line pl-4 pr-2 py-1.5 hover:bg-cream-soft active:scale-95 transition-all duration-150 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-deep-700"
+          >
+            <span className="text-body-sm font-semibold text-ink-900">
+              WhatsApp
+            </span>
+            <span className="w-9 h-9 inline-flex items-center justify-center rounded-pill bg-[#25D366] text-white flex-shrink-0">
+              <WhatsAppIcon className="w-5 h-5" />
+            </span>
+          </button>
+          <button
+            type="button"
+            onClick={() => openMode("call")}
+            className="group inline-flex items-center gap-2.5 rounded-pill bg-cream-card shadow-sh-3 border border-cream-line pl-4 pr-2 py-1.5 hover:bg-cream-soft active:scale-95 transition-all duration-150 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-deep-700"
+          >
+            <span className="text-body-sm font-semibold text-ink-900">Call</span>
+            <span className="w-9 h-9 inline-flex items-center justify-center rounded-pill bg-deep-700 text-white flex-shrink-0">
+              <Phone className="w-4.5 h-4.5 fill-current" />
+            </span>
+          </button>
+        </div>
       )}
 
-      <button
-        type="button"
-        onClick={() => setMode(isWhatsApp ? null : "whatsapp")}
-        aria-label="Chat with us on WhatsApp"
-        aria-expanded={isWhatsApp}
-        className="inline-flex items-center justify-center w-11 h-11 sm:w-14 sm:h-14 rounded-pill bg-[#25D366] text-white shadow-sh-3 ring-2 ring-white hover:brightness-110 active:scale-95 transition-[filter,transform] duration-150"
-      >
-        <WhatsAppIcon className="w-5 h-5 sm:w-7 sm:h-7" />
-      </button>
-
-      <button
-        type="button"
-        onClick={() => setMode(mode === "call" ? null : "call")}
-        aria-label="Call Cadabam's Diagnostics"
-        aria-expanded={mode === "call"}
-        className="inline-flex items-center justify-center w-11 h-11 sm:w-14 sm:h-14 rounded-pill bg-gradient-cta text-white shadow-glow-orange ring-2 ring-white hover:brightness-110 active:scale-95 transition-[filter,transform] duration-150"
-      >
-        <Phone className="w-5 h-5 sm:w-6 sm:h-6 fill-white" />
-      </button>
+      {/* Single unified contact FAB. */}
+      {!isOpen && (
+        <button
+          type="button"
+          onClick={() => setExpanded((v) => !v)}
+          aria-label={expanded ? "Close contact options" : "Contact us"}
+          aria-expanded={expanded}
+          className="inline-flex items-center justify-center w-12 h-12 sm:w-14 sm:h-14 rounded-pill bg-deep-700 text-white shadow-sh-3 ring-2 ring-white hover:bg-deep-800 active:scale-95 transition-[background-color,transform] duration-150 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-deep-700 focus-visible:ring-offset-2"
+        >
+          {expanded ? (
+            <X className="w-5 h-5 sm:w-6 sm:h-6" />
+          ) : (
+            <MessageCircle className="w-5 h-5 sm:w-7 sm:h-7" />
+          )}
+        </button>
+      )}
     </div>
   );
 }

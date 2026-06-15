@@ -43,7 +43,7 @@ export function MostBookedCheckupsSection({
     href: resolveCheckupHref(c.href, c.catid),
   }));
   return (
-    <section className="relative overflow-hidden py-8 lg:py-12 bg-cream-bg">
+    <section className="reveal-up relative overflow-hidden py-8 lg:py-12 bg-cream-bg">
       <div
         aria-hidden
         className="pointer-events-none absolute -top-40 right-1/3 w-[28rem] h-[28rem] rounded-pill bg-gradient-to-br from-orange-200/40 to-coral-300/10 blur-3xl"

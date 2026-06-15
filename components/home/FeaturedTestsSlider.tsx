@@ -71,7 +71,7 @@ export function FeaturedTestsSlider({
   if (cards.length === 0) return null;
 
   return (
-    <section className="py-6 sm:py-8 lg:py-10 bg-cream-soft">
+    <section className="reveal-up py-6 sm:py-8 lg:py-10 bg-cream-soft">
       <div className="mx-auto max-w-7xl px-gutter">
         <div className="mb-4 lg:mb-5 flex items-end justify-between gap-4">
           <div>

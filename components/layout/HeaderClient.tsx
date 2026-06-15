@@ -46,6 +46,7 @@ export function HeaderClient({
   const [radioOpen, setRadioOpen] = useState(false);
   const [centerOpen, setCenterOpen] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
   const radioRef = useRef<HTMLDivElement>(null);
   const centerRef = useRef<HTMLDivElement>(null);
   const searchInputRef = useRef<HTMLInputElement>(null);
@@ -91,6 +92,27 @@ export function HeaderClient({
     };
   }, [mobileOpen]);
 
+  // Shrink the header after a short scroll. Passive listener + rAF to avoid
+  // layout thrash; SSR-safe (window guarded) and reads the real scroll position
+  // on mount so a refresh mid-page hydrates to the correct state.
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    let frame = 0;
+    const update = () => {
+      frame = 0;
+      setScrolled(window.scrollY > 80);
+    };
+    const onScroll = () => {
+      if (frame === 0) frame = window.requestAnimationFrame(update);
+    };
+    update();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => {
+      window.removeEventListener("scroll", onScroll);
+      if (frame) window.cancelAnimationFrame(frame);
+    };
+  }, []);
+
   const isActive = (href: string) =>
     pathname === href || (href !== "/" && pathname.startsWith(href));
 
@@ -108,9 +130,19 @@ export function HeaderClient({
 
   return (
     <>
-      <header className="sticky top-0 z-40 bg-cream-card border-b border-cream-line shadow-sh-1">
+      <header
+        className={cn(
+          "sticky top-0 z-40 bg-cream-card border-b border-cream-line transition-shadow duration-200 motion-reduce:transition-none",
+          scrolled ? "shadow-sm" : "shadow-sh-1",
+        )}
+      >
         <div className="mx-auto max-w-7xl px-gutter">
-          <div className="h-18 flex items-center gap-4 lg:gap-6 py-3">
+          <div
+            className={cn(
+              "flex items-center gap-4 lg:gap-6 transition-[height,padding] duration-200 motion-reduce:transition-none",
+              scrolled ? "h-14 py-2" : "h-18 py-3",
+            )}
+          >
             <Link
               href="/"
               aria-label="Cadabams Diagnostics home"

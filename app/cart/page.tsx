@@ -11,6 +11,7 @@ import {
   ShieldCheck,
   Clock,
   HeartPulse,
+  Check,
 } from "lucide-react";
 import { CTAButton } from "@/components/shared/CTAButton";
 import { ContactActionButton } from "@/components/shared/ContactActionButton";
@@ -105,7 +106,16 @@ export default function CartPage() {
 
         <div className="grid gap-6 lg:gap-8 lg:grid-cols-[1fr_360px] items-start">
           {/* Items */}
-          <ul className="space-y-3 lg:space-y-4 min-w-0">
+          <div className="min-w-0 space-y-3 lg:space-y-4">
+            <div className="flex items-center gap-2.5 rounded-xl bg-success-bg border border-success/20 px-4 py-2.5">
+              <span className="w-6 h-6 inline-flex items-center justify-center rounded-pill bg-success text-white flex-shrink-0">
+                <Check className="w-3.5 h-3.5" />
+              </span>
+              <p className="text-body-sm font-semibold text-success">
+                Free home collection applied
+              </p>
+            </div>
+            <ul className="space-y-3 lg:space-y-4 min-w-0">
             {items.map((item) => {
               const showStrike =
                 typeof item.originalPrice === "number" &&
@@ -177,7 +187,8 @@ export default function CartPage() {
                 </li>
               );
             })}
-          </ul>
+            </ul>
+          </div>
 
           {/* Summary */}
           <aside className="lg:sticky lg:top-24">

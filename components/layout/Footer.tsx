@@ -6,6 +6,7 @@ import { getLabTestById } from "@/lib/data/labtests";
 import { getNonLabTestById } from "@/lib/data/nonlabtests";
 import { getHomepage } from "@/lib/data/homepages";
 import { centerUrl, labTestUrl, nonLabTestUrl } from "@/lib/urls";
+import { titleCaseTestName } from "@/lib/format";
 
 interface FooterLink {
   label: string;
@@ -66,7 +67,7 @@ function buildPopularLabTestsColumn(): FooterColumn {
     const test = getLabTestById(id);
     if (!test) continue;
     seen.add(id);
-    links.push({ label: test.testName, href: labTestUrl(test) });
+    links.push({ label: titleCaseTestName(test.testName), href: labTestUrl(test) });
     if (links.length >= 6) break;
   }
   return { heading: "Popular Lab Tests", links };
@@ -81,7 +82,7 @@ function buildPopularScansColumn(): FooterColumn {
     const test = getNonLabTestById(c.href);
     if (!test) continue;
     seen.add(c.href);
-    links.push({ label: test.testName, href: nonLabTestUrl(test) });
+    links.push({ label: titleCaseTestName(test.testName), href: nonLabTestUrl(test) });
     if (links.length >= 6) break;
   }
   return { heading: "Popular Radiology Tests", links };
@@ -100,14 +101,14 @@ export function Footer() {
   ];
 
   return (
-    <footer className="bg-ink-900 text-ink-200 mt-12">
+    <footer className="bg-deep-800 text-ink-200 mt-12">
       <div className="mx-auto max-w-7xl px-gutter py-12 lg:py-16">
         <div className="grid grid-cols-2 gap-x-6 gap-y-8 sm:grid-cols-3 sm:gap-8 lg:grid-cols-[1.4fr_repeat(5,1fr)] lg:gap-8">
           <div className="space-y-4 max-w-xs col-span-2 sm:col-span-3 lg:col-span-1">
             <Link
               href="/"
               aria-label="Cadabams Diagnostics home"
-              className="inline-flex items-center bg-cream-card rounded-md p-2 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-500 focus-visible:ring-offset-2 focus-visible:ring-offset-ink-900"
+              className="inline-flex items-center bg-cream-card rounded-md p-2 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-500 focus-visible:ring-offset-2 focus-visible:ring-offset-deep-800"
             >
               <Image
                 src={navbar.content.logo}
@@ -129,13 +130,13 @@ export function Footer() {
         </div>
       </div>
 
-      <div className="border-t border-ink-800">
+      <div className="border-t border-deep-600">
         <div className="mx-auto max-w-7xl px-gutter pt-6 pb-10 sm:py-6 flex flex-col items-center gap-3 text-center text-meta text-ink-400 sm:flex-row sm:justify-between sm:gap-4 sm:text-left">
           <ul className="flex flex-wrap items-center justify-center gap-x-3 gap-y-1">
             {LEGAL_LINKS.map((l, i) => (
               <li key={l.href} className="flex items-center gap-x-3">
                 {i > 0 && (
-                  <span aria-hidden className="text-ink-700">
+                  <span aria-hidden className="text-deep-600">
                     |
                   </span>
                 )}

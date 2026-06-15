@@ -64,7 +64,7 @@ export function HealthCheckupSlider({
   if (cards.length === 0) return null;
 
   return (
-    <section className="py-6 sm:py-8 lg:py-10 bg-cream-bg">
+    <section className="reveal-up py-6 sm:py-8 lg:py-10 bg-cream-bg">
       <div className="mx-auto max-w-7xl px-gutter">
         <div className="flex items-end justify-between gap-4 mb-4 lg:mb-5">
           <div>

@@ -5,7 +5,6 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import { ChevronLeft, ChevronRight, Stethoscope } from "lucide-react";
 import Autoplay from "embla-carousel-autoplay";
-import { cn } from "@/lib/utils";
 import {
   Carousel,
   CarouselContent,
@@ -19,20 +18,6 @@ export interface MostBookedItem {
   icon: string;
   href: string;
 }
-
-/**
- * Distinct per-tile colour themes, cycled across the cards so each scan
- * category reads as its own thing. Drawn from the design-system tint hues
- * (orange, purple, blue, green, pink, peach) for variety with on-brand warmth.
- */
-const TILE_TONES = [
-  "bg-gradient-to-br from-orange-500 to-orange-700",
-  "bg-gradient-to-br from-[#7C6CF0] to-tint-purple-fg",
-  "bg-gradient-to-br from-[#4F97F0] to-tint-blue-fg",
-  "bg-gradient-to-br from-[#2BB673] to-tint-green-fg",
-  "bg-gradient-to-br from-pink-400 to-tint-pink-fg",
-  "bg-gradient-to-br from-coral-400 to-tint-peach-fg",
-];
 
 export function MostBookedCarousel({ items }: { items: MostBookedItem[] }) {
   const [api, setApi] = useState<CarouselApi>();
@@ -67,8 +52,7 @@ export function MostBookedCarousel({ items }: { items: MostBookedItem[] }) {
         className="w-full"
       >
         <CarouselContent className="-ml-4">
-          {items.map((c, i) => {
-            const tone = TILE_TONES[i % TILE_TONES.length];
+          {items.map((c) => {
             return (
               <CarouselItem
                 key={c.id}
@@ -76,22 +60,10 @@ export function MostBookedCarousel({ items }: { items: MostBookedItem[] }) {
               >
                 <Link
                   href={c.href}
-                  className={cn(
-                    "group relative block h-[124px] sm:h-[140px] lg:h-[156px] rounded-2xl overflow-hidden text-white shadow-sh-2 hover:shadow-sh-3 hover:-translate-y-1 motion-reduce:hover:translate-y-0 transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-cream-bg",
-                    tone,
-                  )}
+                  className="group relative block h-[124px] sm:h-[140px] lg:h-[156px] rounded-2xl overflow-hidden border border-cream-line bg-cream-card text-ink-900 shadow-card hover:shadow-card-hover hover:-translate-y-0.5 hover:border-orange-200 motion-reduce:hover:translate-y-0 transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-500 focus-visible:ring-offset-2 focus-visible:ring-offset-cream-bg"
                 >
-                  <span
-                    aria-hidden
-                    className="absolute -top-12 -right-12 w-32 h-32 rounded-pill bg-white/10 group-hover:scale-125 transition-transform duration-500"
-                  />
-                  <span
-                    aria-hidden
-                    className="absolute -bottom-16 -left-10 w-28 h-28 rounded-pill bg-white/5 group-hover:scale-110 transition-transform duration-500"
-                  />
-
                   <div className="relative h-full p-4 flex flex-col gap-3">
-                    <div className="w-11 h-11 sm:w-12 sm:h-12 rounded-xl bg-cream-card shadow-sh-2 inline-flex items-center justify-center overflow-hidden">
+                    <div className="w-11 h-11 sm:w-12 sm:h-12 rounded-xl bg-orange-100 text-orange-600 inline-flex items-center justify-center overflow-hidden">
                       {c.icon && c.icon.length > 0 ? (
                         <Image
                           src={c.icon}
@@ -109,7 +81,7 @@ export function MostBookedCarousel({ items }: { items: MostBookedItem[] }) {
                       <h3 className="text-body-sm sm:text-h3 font-bold leading-tight">
                         {c.title}
                       </h3>
-                      <span className="mt-1.5 inline-flex items-center gap-1.5 text-caption sm:text-meta font-semibold text-white/90 group-hover:text-white">
+                      <span className="mt-1.5 inline-flex items-center gap-1.5 text-caption sm:text-meta font-semibold text-orange-600 group-hover:text-orange-700">
                         Explore
                         <ChevronRight className="w-3.5 h-3.5 transition-transform duration-200 group-hover:translate-x-1" />
                       </span>

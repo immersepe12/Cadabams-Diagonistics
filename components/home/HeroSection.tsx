@@ -59,10 +59,10 @@ export function HeroSection({ hero, features }: HeroSectionProps) {
             </div>
 
             <h1 className="font-display font-extrabold tracking-tight text-h1 sm:text-display-2 lg:text-[46px] lg:leading-[1.08]">
-              <span className="block">{hero.title}</span>
-              <span className="relative inline-block mt-1">
+              {hero.title}{" "}
+              <span className="relative inline-block">
                 <span className="relative z-10 text-cream-bg">
-                  {hero.subtitle}
+                  from Bangalore&apos;s fastest lab
                 </span>
               </span>
             </h1>

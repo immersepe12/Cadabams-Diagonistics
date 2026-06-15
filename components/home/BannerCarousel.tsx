@@ -40,7 +40,7 @@ export function BannerCarousel({
   if (total === 0) return null;
 
   return (
-    <section className="py-4 lg:py-6">
+    <section className="reveal-up py-4 lg:py-6">
       <div className="mx-auto max-w-7xl px-gutter">
         <div className="relative overflow-hidden rounded-2xl shadow-sh-3 bg-cream-card">
           <div
@@ -55,7 +55,7 @@ export function BannerCarousel({
                   alt={`Promotion ${i + 1}`}
                   fill
                   priority={i === 0}
-                  className="object-contain"
+                  className="object-cover"
                   sizes="(max-width: 1280px) 100vw, 1280px"
                 />
               );

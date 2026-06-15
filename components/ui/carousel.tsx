@@ -192,6 +192,9 @@ function CarouselPrevious({
       size={size}
       className={cn(
         "absolute size-8 rounded-full",
+        // Enlarge the tap target to >=44px on touch without growing the
+        // visual button: a centered, transparent ::before overlay.
+        "before:absolute before:top-1/2 before:left-1/2 before:size-11 before:-translate-x-1/2 before:-translate-y-1/2 before:content-['']",
         orientation === "horizontal"
           ? "top-1/2 -left-12 -translate-y-1/2"
           : "-top-12 left-1/2 -translate-x-1/2 rotate-90",
@@ -222,6 +225,9 @@ function CarouselNext({
       size={size}
       className={cn(
         "absolute size-8 rounded-full",
+        // Enlarge the tap target to >=44px on touch without growing the
+        // visual button: a centered, transparent ::before overlay.
+        "before:absolute before:top-1/2 before:left-1/2 before:size-11 before:-translate-x-1/2 before:-translate-y-1/2 before:content-['']",
         orientation === "horizontal"
           ? "top-1/2 -right-12 -translate-y-1/2"
           : "-bottom-12 left-1/2 -translate-x-1/2 rotate-90",
@@ -237,6 +243,98 @@ function CarouselNext({
   );
 }
 
+/**
+ * Tracks the embla selected snap + the full snap list, kept in sync via the
+ * "select"/"reInit" events already wired by the carousel. SSR-safe: starts at
+ * sensible defaults and only subscribes inside an effect.
+ */
+function useCarouselSnaps() {
+  const { api } = useCarousel();
+  const [selectedIndex, setSelectedIndex] = React.useState(0);
+  const [scrollSnaps, setScrollSnaps] = React.useState<number[]>([]);
+
+  React.useEffect(() => {
+    if (!api) return;
+
+    const onSelect = () => setSelectedIndex(api.selectedScrollSnap());
+    const onReInit = () => {
+      setScrollSnaps(api.scrollSnapList());
+      setSelectedIndex(api.selectedScrollSnap());
+    };
+
+    onReInit();
+    api.on("select", onSelect);
+    api.on("reInit", onReInit);
+
+    return () => {
+      api.off("select", onSelect);
+      api.off("reInit", onReInit);
+    };
+  }, [api]);
+
+  return { api, selectedIndex, scrollSnaps };
+}
+
+/**
+ * Opt-in "1/5"-style position chip. Renders nothing until snaps are known
+ * (e.g. during SSR / before embla initialises) so it never flashes "0/0".
+ */
+function CarouselCounter({ className, ...props }: React.ComponentProps<"div">) {
+  const { selectedIndex, scrollSnaps } = useCarouselSnaps();
+  const total = scrollSnaps.length;
+
+  if (total === 0) return null;
+
+  return (
+    <div
+      data-slot="carousel-counter"
+      aria-live="polite"
+      className={cn(
+        "inline-flex items-center rounded-full bg-foreground/80 px-2.5 py-1 text-xs font-medium tabular-nums text-background",
+        className,
+      )}
+      {...props}
+    >
+      {selectedIndex + 1}/{total}
+    </div>
+  );
+}
+
+/**
+ * Opt-in dots indicator. Each dot scrolls to its snap. Respects
+ * `prefers-reduced-motion` via the motion-safe transition.
+ */
+function CarouselDots({ className, ...props }: React.ComponentProps<"div">) {
+  const { api, selectedIndex, scrollSnaps } = useCarouselSnaps();
+
+  if (scrollSnaps.length <= 1) return null;
+
+  return (
+    <div
+      data-slot="carousel-dots"
+      className={cn("flex items-center justify-center gap-2", className)}
+      {...props}
+    >
+      {scrollSnaps.map((_, index) => {
+        const isActive = index === selectedIndex;
+        return (
+          <button
+            key={index}
+            type="button"
+            aria-label={`Go to slide ${index + 1}`}
+            aria-current={isActive}
+            onClick={() => api?.scrollTo(index)}
+            className={cn(
+              "size-2 rounded-full transition-[width,background-color] motion-reduce:transition-none",
+              isActive ? "w-4 bg-foreground" : "bg-foreground/30 hover:bg-foreground/50",
+            )}
+          />
+        );
+      })}
+    </div>
+  );
+}
+
 export {
   type CarouselApi,
   Carousel,
@@ -244,4 +342,7 @@ export {
   CarouselItem,
   CarouselPrevious,
   CarouselNext,
+  CarouselCounter,
+  CarouselDots,
+  useCarousel,
 };

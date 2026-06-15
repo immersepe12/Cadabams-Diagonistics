@@ -13,7 +13,7 @@
   --color-orange-200: #FFC9A6;
   --color-orange-300: #FFA875;
   --color-orange-400: #FF8A47;
-  --color-orange-500: #F97316;
+  --color-orange-500: #FD6824; /* THE orange — unified with --primary (was #F97316) */
   --color-orange-600: #E8620A;
   --color-orange-700: #D8670E;
   --color-orange-800: #A8480A;
@@ -43,6 +43,12 @@
   --color-ink-400: #9AA0AB;
   --color-ink-300: #C7CCD3;
   --color-ink-200: #E2E5EA;
+
+  /* ---------- Deep secondary (trust sections, footer, badges) -------- */
+  /* §3.4 — one deep colour to balance the orange and do the "trust" work. */
+  --color-deep-600: #245A4F;
+  --color-deep-700: #1D4D43;
+  --color-deep-800: #143A33;
 
   /* ---------- Categorical icon tints --------------------------------- */
   --color-tint-blue:      #E8F1FF;
@@ -150,11 +156,15 @@
   --shadow-glow-orange: 0 12px 28px rgba(249,115,22,0.28);
   --shadow-glow-soft:   0 8px 24px rgba(247,114,104,0.18);
   --inset-shadow-press: inset 0 1px 2px rgba(15,23,42,0.08);
+  /* §6.4 — one resting + one hover shadow for every card. */
+  --shadow-card:       0 1px 3px rgb(14 23 38 / 0.06);
+  --shadow-card-hover: 0 12px 32px -8px rgb(14 23 38 / 0.14);
 
   /* ---------- Gradients (use as bg-gradient-*) ----------------------- */
-  --background-image-gradient-cta:         linear-gradient(90deg, #F77268 0%, #F97316 100%);
-  --background-image-gradient-hero:        linear-gradient(120deg, #F77268 0%, #FF9466 45%, #F97316 100%);
-  --background-image-gradient-greeting:    linear-gradient(135deg, #F58F9A 0%, #F77268 50%, #F97316 100%);
+  /* §3.2 — single-hue gradients: darken toward the end for depth, no coral/pink. */
+  --background-image-gradient-cta:         linear-gradient(135deg, #FD6824 0%, #E8620A 100%);
+  --background-image-gradient-hero:        linear-gradient(120deg, #FF8A47 0%, #F97316 60%, #E8620A 100%);
+  --background-image-gradient-greeting:    linear-gradient(135deg, #FF8A47 0%, #FD6824 60%, #E8620A 100%);
   --background-image-gradient-orange-soft: linear-gradient(180deg, #FFE4D2 0%, #FAF7F4 70%);
   --background-image-gradient-coral-pink:  linear-gradient(90deg, #F77268 0%, #FBB7BC 100%);
   --background-image-gradient-glow:        radial-gradient(60% 60% at 50% 50%, rgba(249,115,22,0.35) 0%, rgba(249,115,22,0) 70%);
@@ -178,19 +188,19 @@
   --card-foreground:      oklch(0.187 0.018 257);
   --popover:              oklch(1 0 0);
   --popover-foreground:   oklch(0.187 0.018 257);
-  --primary:              oklch(0.696 0.197 41.3);  /* orange-500 #F97316 */
+  --primary:              #FD6824;                  /* THE orange (§3.2) */
   --primary-foreground:   oklch(1 0 0);
   --secondary:            oklch(0.967 0.018 78);    /* cream-soft */
   --secondary-foreground: oklch(0.187 0.018 257);
   --muted:                oklch(0.962 0.011 76);
   --muted-foreground:     oklch(0.503 0.011 257);
-  --accent:               oklch(0.696 0.197 41.3);
+  --accent:               #FD6824;
   --accent-foreground:    oklch(1 0 0);
   --destructive:          oklch(0.621 0.198 25);    /* danger #DC4B45 */
   --destructive-foreground: oklch(1 0 0);
   --border:               oklch(0.928 0.014 76);    /* cream-line */
   --input:                oklch(0.928 0.014 76);
-  --ring:                 oklch(0.696 0.197 41.3);
+  --ring:                 #FD6824;
   --radius: 0.625rem;                                /* 10px = --radius-lg */
 }
 
@@ -262,4 +272,53 @@ h5,
 h6 {
   overflow-wrap: break-word;
   word-break: break-word;
+}
+
+/* ==========================================================================
+   Motion & smooth scrolling (§6.1 / §6.4)
+   ========================================================================== */
+/* Smooth anchor scrolling for FAQ / "see all" jumps; offset by header height
+   so anchored sections don't hide behind the sticky header. */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 88px;
+}
+
+/* Scroll-reveal: fade + rise a section as it enters the viewport. Pure CSS via
+   scroll-driven animations — no JS, progressive (no-op where unsupported).
+   Apply `reveal-up` to a section/card root; stagger with inline delays. */
+@keyframes reveal-up {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  @supports (animation-timeline: view()) {
+    .reveal-up {
+      animation: reveal-up linear both;
+      animation-timeline: view();
+      animation-range: entry 0% entry 32%;
+    }
+  }
+}
+
+/* Honour reduced-motion everywhere: kill smooth scroll and transitions. */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
 }

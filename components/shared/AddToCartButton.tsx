@@ -11,12 +11,19 @@ interface AddToCartButtonProps {
   className?: string;
   /** Label shown in the default (not-added) state. */
   label?: string;
+  /**
+   * Icon-only rendering — shows just the cart/check icon (no text). The
+   * accessible name still comes from `aria-label`. Used on compact cards where
+   * "Book now" is the single primary action.
+   */
+  iconOnly?: boolean;
 }
 
 export function AddToCartButton({
   item,
   className,
   label = "Add to cart",
+  iconOnly = false,
 }: AddToCartButtonProps) {
   const router = useRouter();
   const addItem = useCartStore((s) => s.addItem);
@@ -53,17 +60,17 @@ export function AddToCartButton({
       {justAdded ? (
         <>
           <Check className="w-4 h-4" />
-          Added
+          {!iconOnly && "Added"}
         </>
       ) : inCart ? (
         <>
           <ShoppingCart className="w-4 h-4" />
-          Go to cart
+          {!iconOnly && "Go to cart"}
         </>
       ) : (
         <>
           <ShoppingCart className="w-4 h-4" />
-          {label}
+          {!iconOnly && label}
         </>
       )}
     </button>

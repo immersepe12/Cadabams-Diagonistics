@@ -632,10 +632,10 @@
     },
     {
       "id": "673db6af534c72d341052c2f",
-      "testName": "MRI LUMAR SPINE",
+      "testName": "MRI LUMBAR SPINE",
       "route": "/lumbar-spine-mri",
       "basic_info": {
-        "name": "MRI LUMAR SPINE",
+        "name": "MRI LUMBAR SPINE",
         "categoryId": "671b5102ad9bf8d210384d1a",
         "price": 7800,
         "discount": "0",
