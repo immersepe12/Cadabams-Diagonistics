@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import { SearchExperience } from "@/components/search/SearchExperience";
 
 export const metadata: Metadata = {
-  title: "Search | Cadabam's Diagnostics",
+  title: "Search",
   // Search results pages should not be indexed.
   robots: { index: false, follow: true },
 };

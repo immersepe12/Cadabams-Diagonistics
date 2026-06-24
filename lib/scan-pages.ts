@@ -6,6 +6,8 @@ import {
 } from "@/lib/data/nonlabtests";
 import { stripLeadingSlash } from "@/lib/data/types";
 import { nonLabTestUrl } from "@/lib/urls";
+import { listingKeywords } from "@/lib/keywords";
+import { pageTitle } from "@/lib/seo-title";
 
 export function scanFamilyStaticParams(familyPath: string): { slug: string }[] {
   const category = getNonLabTestCategoryBySlug(familyPath);
@@ -24,6 +26,11 @@ export function scanListingMetadata(familyPath: string): Metadata {
   return {
     title,
     description,
+    keywords: listingKeywords(category.name, [
+      `${category.name.toLowerCase()} scan in bangalore`,
+      "radiology centre in bangalore",
+      "diagnostic imaging bangalore",
+    ]),
     alternates: { canonical: url },
     openGraph: {
       title: `${title} | Cadabams Diagnostics`,
@@ -34,17 +41,23 @@ export function scanListingMetadata(familyPath: string): Metadata {
   };
 }
 
+/** Title used for a scan family's listing OG image — matches its page title. */
+export function scanListingOgTitle(familyPath: string): string {
+  const category = getNonLabTestCategoryBySlug(familyPath);
+  return `${category?.name ?? "Scans"} in Bangalore`;
+}
+
 export function scanDetailMetadata(slug: string): Metadata {
   const test = getNonLabTestBySlug(slug);
   if (!test) return {};
-  const fallbackTitle = `${test.testName} in Bangalore | Cadabam's Diagnostics`;
+  const fallbackTitle = `${test.testName} in Bangalore`;
   const fallbackDesc =
     `Book ${test.testName} scan in Bangalore. ${test.basic_info.Identifies || ""}`.trim();
   const canonical =
     test.seo?.canonicalUrl ||
     `https://cadabamsdiagnostics.com${nonLabTestUrl(test)}`;
   return {
-    title: test.seo?.title || fallbackTitle,
+    title: pageTitle(test.seo?.title || fallbackTitle),
     description: test.seo?.description || fallbackDesc,
     alternates: { canonical },
     openGraph: {

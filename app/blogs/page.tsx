@@ -19,12 +19,12 @@ import { TrustBadges } from "@/components/shared/TrustBadges";
 export const revalidate = 3600;
 
 export const metadata: Metadata = {
-  title: "Health & Diagnostics Blog | Cadabam's Diagnostics",
+  title: "Health & Diagnostics Blog",
   description:
     "Doctor-reviewed articles on lab tests, scans, preventive health, and wellness from Cadabam's Diagnostics.",
   alternates: { canonical: "https://cadabamsdiagnostics.com/blogs" },
   openGraph: {
-    title: "Cadabam's Diagnostics Blog",
+    title: "Health & Diagnostics Blog | Cadabams Diagnostics",
     description:
       "Doctor-reviewed articles on tests, scans, and preventive health.",
     url: "/blogs",

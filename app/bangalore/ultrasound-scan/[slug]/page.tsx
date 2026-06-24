@@ -11,6 +11,7 @@ import {
   scanDetailMetadata,
   scanFamilyStaticParams,
 } from "@/lib/scan-pages";
+import { listingKeywords } from "@/lib/keywords";
 
 export const revalidate = 86400;
 
@@ -33,14 +34,23 @@ export async function generateMetadata({
 
   if (isScanFilterKey(slug) && !getNonLabTestBySlug(slug)) {
     const label = getScanFilterLabel(slug) ?? "Ultrasound";
-    const title = `${label} Ultrasound Scans in Bangalore | Cadabam's Diagnostics`;
+    const title = `${label} Ultrasound Scans in Bangalore`;
     return {
       title,
       description: `Book ${label.toLowerCase()} ultrasound scans in Bangalore at Cadabam's Diagnostics. Advanced equipment, fast reports.`,
+      keywords: listingKeywords(`${label} Ultrasound`, [
+        "ultrasound scan bangalore",
+        "ultrasound centre in bangalore",
+        "diagnostic imaging bangalore",
+      ]),
       alternates: {
         canonical: `https://cadabamsdiagnostics.com/bangalore/${FAMILY}/${slug}`,
       },
-      openGraph: { title, url: `/bangalore/${FAMILY}/${slug}`, type: "website" },
+      openGraph: {
+        title: `${title} | Cadabams Diagnostics`,
+        url: `/bangalore/${FAMILY}/${slug}`,
+        type: "website",
+      },
     };
   }
 

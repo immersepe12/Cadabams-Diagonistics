@@ -1,19 +1,29 @@
 import type { Metadata } from "next";
 import { LabTestListing } from "@/components/labtests/LabTestListing";
+import { listingKeywords } from "@/lib/keywords";
 
 export const revalidate = 3600;
 
+// Title + description copy mirrors the live site exactly (audit parity).
+const DESCRIPTION =
+  "Get accurate and reliable lab test services in Bangalore at Cadabams Diagnostics. From routine blood tests to advanced diagnostics, we ensure precise results with state-of-the-art technology and expert care. Book your test today!";
+
 export const metadata: Metadata = {
-  title: "Lab Tests in Bangalore",
-  description:
-    "Book lab tests in Bangalore at best prices. Complete Blood Count, Thyroid, Diabetes, Liver Function, Lipid Profile and more — with home sample collection.",
+  title: "Reliable Lab Tests in Bangalore",
+  description: DESCRIPTION,
+  keywords: listingKeywords("Lab Tests", [
+    "blood tests bangalore",
+    "diagnostic tests bangalore",
+    "health checkup bangalore",
+    "pathology lab bangalore",
+    "home sample collection bangalore",
+  ]),
   alternates: {
     canonical: "https://cadabamsdiagnostics.com/bangalore/lab-test",
   },
   openGraph: {
-    title: "Lab Tests in Bangalore | Cadabams Diagnostics",
-    description:
-      "Book lab tests in Bangalore at best prices with home sample collection.",
+    title: "Reliable Lab Tests in Bangalore | Cadabams Diagnostics",
+    description: DESCRIPTION,
     url: "/bangalore/lab-test",
     type: "website",
   },

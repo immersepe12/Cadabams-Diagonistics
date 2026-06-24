@@ -30,12 +30,22 @@ export const metadata: Metadata = {
     "max-snippet": -1,
     "max-video-preview": -1,
   },
+  appleWebApp: {
+    capable: true,
+    title: "Cadabams Diagnostics",
+    statusBarStyle: "default",
+  },
+  formatDetection: { telephone: false },
+  // `appleWebApp.capable` now renders the modern `mobile-web-app-capable`;
+  // also emit the legacy apple-prefixed tag to match the live site exactly.
+  other: { "apple-mobile-web-app-capable": "yes" },
 };
 
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
   maximumScale: 5,
+  themeColor: "#ffffff",
 };
 
 export default function RootLayout({
