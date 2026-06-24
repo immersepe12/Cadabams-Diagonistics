@@ -2,11 +2,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { getNavbar } from "@/lib/data/navbars";
 import { getAllCenters } from "@/lib/data/centers";
-import { getLabTestById } from "@/lib/data/labtests";
-import { getNonLabTestById } from "@/lib/data/nonlabtests";
-import { getHomepage } from "@/lib/data/homepages";
+import { getLabTestBySlug } from "@/lib/data/labtests";
+import { getNonLabTestBySlug } from "@/lib/data/nonlabtests";
 import { centerUrl, labTestUrl, nonLabTestUrl } from "@/lib/urls";
-import { titleCaseTestName } from "@/lib/format";
 
 interface FooterLink {
   label: string;
@@ -55,35 +53,50 @@ function buildCentresColumn(): FooterColumn {
   };
 }
 
+// Curated "Popular Tests" lists — label text, slugs and order mirror the live
+// site's footer. Each slug is resolved at build time so the link points at the
+// real page (and is skipped if the test is ever removed).
+const POPULAR_LAB_TESTS: { label: string; slug: string }[] = [
+  { label: "Complete Blood Count (CBC)", slug: "complete-blood-count-cbc" },
+  { label: "Glucose Fasting Test", slug: "glucose-fasting-test-gft" },
+  { label: "Urine Analysis", slug: "urine-analysis" },
+  { label: "Lipid Profile Test", slug: "lipid-profile-test-lpt" },
+  { label: "Liver Function Test", slug: "liver-function-test-lft" },
+  {
+    label: "Thyroid Stimulating Test (TSH)",
+    slug: "thyroid-simulation-harmone-tsh",
+  },
+];
+
+const POPULAR_RADIOLOGY_TESTS: { label: string; slug: string }[] = [
+  { label: "Abdomen Ultrasound", slug: "abdomen-ultrasound-scan" },
+  { label: "Pelvic Ultrasound", slug: "pelvis-ultrasound" },
+  {
+    label: "Pregnancy TIFFA Scan",
+    slug: "pregnancy-tiffa-anomaly-scan-level-2-ultrasound",
+  },
+  { label: "Lumbar Spine MRI", slug: "lumbar-spine-mri" },
+  { label: "Chest XRay", slug: "chest-x-ray" },
+  {
+    label: "Musculoskeletal Ultrasound (MSK)",
+    slug: "musculoskeletal-ultrasound-msk",
+  },
+];
+
 function buildPopularLabTestsColumn(): FooterColumn {
-  const home = getHomepage();
-  const ids = home.healthMonitoring.content
-    .map((item) => item.test)
-    .filter((id): id is string => Boolean(id));
   const links: FooterLink[] = [];
-  const seen = new Set<string>();
-  for (const id of ids) {
-    if (seen.has(id)) continue;
-    const test = getLabTestById(id);
-    if (!test) continue;
-    seen.add(id);
-    links.push({ label: titleCaseTestName(test.testName), href: labTestUrl(test) });
-    if (links.length >= 6) break;
+  for (const { label, slug } of POPULAR_LAB_TESTS) {
+    const test = getLabTestBySlug(slug);
+    if (test) links.push({ label, href: labTestUrl(test) });
   }
   return { heading: "Popular Lab Tests", links };
 }
 
 function buildPopularScansColumn(): FooterColumn {
-  const home = getHomepage();
   const links: FooterLink[] = [];
-  const seen = new Set<string>();
-  for (const c of home.mostBookedCheckups.checkups) {
-    if (seen.has(c.href)) continue;
-    const test = getNonLabTestById(c.href);
-    if (!test) continue;
-    seen.add(c.href);
-    links.push({ label: titleCaseTestName(test.testName), href: nonLabTestUrl(test) });
-    if (links.length >= 6) break;
+  for (const { label, slug } of POPULAR_RADIOLOGY_TESTS) {
+    const test = getNonLabTestBySlug(slug);
+    if (test) links.push({ label, href: nonLabTestUrl(test) });
   }
   return { heading: "Popular Radiology Tests", links };
 }

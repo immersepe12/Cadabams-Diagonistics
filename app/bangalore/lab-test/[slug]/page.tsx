@@ -42,6 +42,9 @@ import {
 import { FaqList } from "@/components/shared/FaqList";
 import { ProductSeo } from "@/components/shared/ProductSeo";
 import { SectionTabs } from "@/components/shared/SectionTabs";
+import { DiscountBadges } from "@/components/shared/DiscountBadges";
+import { listingKeywords } from "@/lib/keywords";
+import { pageTitle } from "@/lib/seo-title";
 import {
   buildMarkdownToc,
   getCanonicalSectionLabels,
@@ -107,21 +110,32 @@ export async function generateMetadata({
   // Category listing page (e.g. /bangalore/lab-test/blood-tests).
   const category = getLabTestCategoryBySlug(slug);
   if (category && !getLabTestBySlug(slug)) {
-    const title = `${category.name} in Bangalore | Cadabam's Diagnostics`;
+    const label = /tests?$/i.test(category.name)
+      ? category.name
+      : `${category.name} Tests`;
+    const title = `${label} in Bangalore`;
     return {
       title,
-      description: `Book ${category.name.toLowerCase()} in Bangalore with home sample collection and reports in 6 hours.`,
+      description: `Book ${label.toLowerCase()} in Bangalore with home sample collection and reports in 6 hours.`,
+      keywords: listingKeywords(label, [
+        "lab tests bangalore",
+        "home sample collection bangalore",
+      ]),
       alternates: {
         canonical: `https://cadabamsdiagnostics.com/bangalore/lab-test/${slug}`,
       },
-      openGraph: { title, url: `/bangalore/lab-test/${slug}`, type: "website" },
+      openGraph: {
+        title: `${title} | Cadabams Diagnostics`,
+        url: `/bangalore/lab-test/${slug}`,
+        type: "website",
+      },
     };
   }
 
   const test = getLabTestBySlug(slug);
   if (!test) return {};
 
-  const fallbackTitle = `${test.testName} in Bangalore | Cadabam's Diagnostics`;
+  const fallbackTitle = `${test.testName} in Bangalore`;
   const fallbackDesc =
     `Book ${test.testName} in Bangalore. ${test.basic_info.Identifies || ""}`.trim();
   const canonical =
@@ -129,7 +143,7 @@ export async function generateMetadata({
     `https://cadabamsdiagnostics.com${labTestUrl(test)}`;
 
   return {
-    title: test.seo?.title || fallbackTitle,
+    title: pageTitle(test.seo?.title || fallbackTitle),
     description: test.seo?.description || fallbackDesc,
     alternates: { canonical },
     openGraph: {
@@ -338,6 +352,8 @@ export default async function LabTestDetailPage({ params }: PageProps) {
                   className="flex-1 min-w-0 inline-flex items-center justify-center gap-1.5 sm:gap-2 rounded-pill bg-cream-card hover:bg-orange-50 text-ink-900 hover:text-orange-700 font-semibold px-3 sm:px-6 py-3.5 text-body-sm sm:text-body whitespace-nowrap border border-cream-line hover:border-orange-300 shadow-sh-1 transition-all duration-200 active:scale-[0.98] focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-orange-200"
                 />
               </div>
+
+              <DiscountBadges className="pt-3 max-w-xl" />
             </div>
 
             <div className="relative">

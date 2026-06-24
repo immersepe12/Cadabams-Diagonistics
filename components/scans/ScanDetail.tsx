@@ -38,6 +38,7 @@ import {
 import { FaqList } from "@/components/shared/FaqList";
 import { ProductSeo } from "@/components/shared/ProductSeo";
 import { SectionTabs } from "@/components/shared/SectionTabs";
+import { DiscountBadges } from "@/components/shared/DiscountBadges";
 import {
   buildMarkdownToc,
   getCanonicalSectionLabels,
@@ -50,12 +51,11 @@ const CITY = "bangalore";
 const FALLBACK_IMAGE = "/shared/image-1727884059139-383535423.webp";
 
 /**
- * Scan/radiology stats — these are centre-visit procedures, so the lab-test
- * "60 Mins Home Collection" stat does not apply (§4). Lead with reporting speed
- * instead.
+ * Scan/radiology stats — report turnaround is quoted as 60 mins (centre-visit
+ * procedures, so the lab-test "home collection" highlight doesn't apply).
  */
 const SCAN_STATS: LabStatItem[] = [
-  { value: 24, suffix: "h", label: "Report Turnaround", Icon: Clock },
+  { value: 60, suffix: " Mins", label: "Report Turnaround", Icon: Clock },
   { value: 1, suffix: "M", label: "Happy Customers", Icon: Smile },
   { value: 4.9, label: "Google Rating", Icon: Star },
   { value: 5, label: "Certified Labs", Icon: ShieldCheck },
@@ -354,6 +354,8 @@ export function ScanDetail({ familyPath, slug }: ScanDetailProps) {
                   className="flex-1 min-w-0 inline-flex items-center justify-center gap-1.5 sm:gap-2 rounded-pill bg-cream-card hover:bg-orange-50 text-ink-900 hover:text-orange-700 font-semibold px-3 sm:px-6 py-3.5 text-body-sm sm:text-body whitespace-nowrap border border-cream-line hover:border-orange-300 shadow-sh-1 transition-all duration-200 active:scale-[0.98] focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-orange-200"
                 />
               </div>
+
+              <DiscountBadges className="pt-3 max-w-xl" />
             </div>
 
             <div className="relative">

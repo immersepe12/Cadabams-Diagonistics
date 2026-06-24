@@ -128,11 +128,11 @@ function splitMarkdownByH2(markdown: string): MarkdownSection[] {
 }
 
 /**
- * Scan/radiology stats — centre-visit procedures, so the lab-test
- * "60 Mins Home Collection" stat does not apply (§4).
+ * Scan/radiology stats — report turnaround is quoted as 60 mins (centre-visit
+ * procedures, so the lab-test "home collection" highlight doesn't apply).
  */
 const SCAN_STATS: LabStatItem[] = [
-  { value: 24, suffix: "h", label: "Report Turnaround", Icon: Clock },
+  { value: 60, suffix: " Mins", label: "Report Turnaround", Icon: Clock },
   { value: 1, suffix: "M", label: "Happy Customers", Icon: Smile },
   { value: 4.9, label: "Google Rating", Icon: Star },
   { value: 5, label: "Certified Labs", Icon: ShieldCheck },
@@ -154,6 +154,14 @@ export function ScanListing({
   const page = getScanListingPage(familyPath);
   if (!page) notFound();
   const category = page.category;
+
+  // H1 mirrors the live site: "<Family> Scans in Bangalore". Append "Scans"
+  // only when the category name doesn't already end in scan/scans/checks (so
+  // "MRI" -> "MRI Scans" but "CT Scan"/"MSK Scans" don't double up).
+  const familyHeading = /scans?$|checks?$|health/i.test(category.name)
+    ? category.name
+    : `${category.name} Scans`;
+  const h1Heading = `${familyHeading} in Bangalore`;
 
   const basePath = `/bangalore/${familyPath}`;
 
@@ -252,7 +260,7 @@ export function ScanListing({
                 {category.name} in Bangalore
               </p>
               <h1 className="text-h1 sm:text-display-2 lg:text-[44px] lg:leading-[1.05] font-display font-extrabold mb-3 tracking-tight">
-                {category.name} Scans
+                {h1Heading}
               </h1>
               <p className="text-body-sm sm:text-body lg:text-h3 text-white/90 max-w-2xl leading-relaxed">
                 {allTests.length}+ {category.name.toLowerCase()} scans in
