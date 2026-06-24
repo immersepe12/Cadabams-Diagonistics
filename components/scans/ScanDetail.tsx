@@ -662,6 +662,18 @@ export function ScanDetail({ familyPath, slug }: ScanDetailProps) {
         sku={test.id}
         category={category.name}
         medicalType="MedicalProcedure"
+        breadcrumbs={[
+          { name: "Home", url: "https://cadabamsdiagnostics.com" },
+          {
+            name: category.name,
+            url: `https://cadabamsdiagnostics.com/${CITY}/${familyPath}`,
+          },
+          {
+            name: displayName,
+            url: `https://cadabamsdiagnostics.com${nonLabTestUrl(test)}`,
+          },
+        ]}
+        faqs={faqs}
       />
     </main>
   );

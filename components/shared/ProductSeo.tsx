@@ -10,10 +10,18 @@
  *    Metadata `other` field would emit `name=` instead of `property=`, so we
  *    rely on React 19 always hoisting `<meta>` into `<head>`.
  *
- * 2. A complete Product JSON-LD block (brand, sku, category, image and a full
- *    Offer with price / currency / availability) with `additionalType` pointing
- *    at the medical schema type, so the structured data backs the OG tags.
+ * 2. A JSON-LD @graph (BreadcrumbList + Product + MedicalWebPage + FAQPage)
+ *    mirroring the legacy site's structured data, so the page is eligible for
+ *    the same rich results.
  */
+
+import {
+  type Crumb,
+  breadcrumbList,
+  faqPage,
+  graph,
+  medicalWebPage,
+} from "@/lib/jsonld";
 
 const BRAND = "Cadabams Diagnostics";
 const ORIGIN = "https://cadabamsdiagnostics.com";
@@ -41,6 +49,10 @@ interface ProductSeoProps {
   category?: string | null;
   /** Medical schema type retained alongside the Product type. */
   medicalType: "MedicalTest" | "MedicalProcedure";
+  /** Breadcrumb trail (Home → Category → Test) for BreadcrumbList. */
+  breadcrumbs?: Crumb[];
+  /** FAQs rendered on the page, for FAQPage. */
+  faqs?: { question: string; answer: string }[];
 }
 
 export function ProductSeo({
@@ -52,12 +64,13 @@ export function ProductSeo({
   sku,
   category,
   medicalType,
+  breadcrumbs,
+  faqs,
 }: ProductSeoProps) {
   const hasPrice = Number.isFinite(price) && price > 0;
   const imageAbs = image ? toAbsolute(image) : undefined;
 
-  const jsonLd: Record<string, unknown> = {
-    "@context": "https://schema.org",
+  const product = {
     "@type": "Product",
     name,
     description,
@@ -80,6 +93,13 @@ export function ProductSeo({
         }
       : {}),
   };
+
+  const jsonLd = graph([
+    breadcrumbs && breadcrumbs.length > 1 ? breadcrumbList(breadcrumbs) : null,
+    product,
+    medicalWebPage({ name, description, url, image: imageAbs }),
+    faqs && faqs.length > 0 ? faqPage(faqs) : null,
+  ]);
 
   return (
     <>

@@ -8,6 +8,7 @@ import { stripLeadingSlash } from "@/lib/data/types";
 import { nonLabTestUrl } from "@/lib/urls";
 import { listingKeywords } from "@/lib/keywords";
 import { pageTitle } from "@/lib/seo-title";
+import { breadcrumbList, faqPage, graph, medicalWebPage } from "@/lib/jsonld";
 
 export function scanFamilyStaticParams(familyPath: string): { slug: string }[] {
   const category = getNonLabTestCategoryBySlug(familyPath);
@@ -44,15 +45,52 @@ const LISTING_DESCRIPTION: Record<string, string> = {
     "Book X-ray scans for accurate results in Bangalore. Trusted diagnostic centers with quick results.",
 };
 
+export function scanListingTitle(familyPath: string): string {
+  const category = getNonLabTestCategoryBySlug(familyPath);
+  if (!category) return "";
+  return LISTING_TITLE[familyPath] || `${category.name} in Bangalore`;
+}
+
+export function scanListingDescription(familyPath: string): string {
+  const category = getNonLabTestCategoryBySlug(familyPath);
+  if (!category) return "";
+  return (
+    LISTING_DESCRIPTION[familyPath] ||
+    `Book ${category.name.toLowerCase()} in Bangalore at Cadabam's Diagnostics. Advanced equipment, certified team, fast reports. Trusted by 10,000+ patients.`
+  );
+}
+
+/** JSON-LD @graph (Breadcrumb + MedicalWebPage + FAQPage) for a scan listing. */
+export function scanListingJsonLd(
+  familyPath: string,
+  faqs: { question: string; answer: string }[],
+  image?: string | null,
+) {
+  const category = getNonLabTestCategoryBySlug(familyPath);
+  if (!category) return null;
+  const url = `https://cadabamsdiagnostics.com/bangalore/${familyPath}`;
+  return graph([
+    breadcrumbList([
+      { name: "Home", url: "https://cadabamsdiagnostics.com" },
+      { name: "Bangalore", url: "https://cadabamsdiagnostics.com/bangalore" },
+      { name: category.name, url },
+    ]),
+    medicalWebPage({
+      name: `${scanListingTitle(familyPath)} | Cadabam's Diagnostics`,
+      description: scanListingDescription(familyPath),
+      url,
+      image,
+    }),
+    faqs.length > 0 ? faqPage(faqs) : null,
+  ]);
+}
+
 export function scanListingMetadata(familyPath: string): Metadata {
   const category = getNonLabTestCategoryBySlug(familyPath);
   if (!category) return {};
   const url = `https://cadabamsdiagnostics.com/bangalore/${familyPath}`;
-  const title =
-    LISTING_TITLE[familyPath] || `${category.name} in Bangalore`;
-  const description =
-    LISTING_DESCRIPTION[familyPath] ||
-    `Book ${category.name.toLowerCase()} in Bangalore at Cadabam's Diagnostics. Advanced equipment, certified team, fast reports. Trusted by 10,000+ patients.`;
+  const title = scanListingTitle(familyPath);
+  const description = scanListingDescription(familyPath);
   return {
     title,
     description,

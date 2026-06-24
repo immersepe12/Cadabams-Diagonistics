@@ -31,6 +31,8 @@ import {
 } from "@/components/scans/ScanFamilyResults";
 import { MarkdownContent } from "@/components/shared/MarkdownContent";
 import { FaqList } from "@/components/shared/FaqList";
+import { JsonLd } from "@/components/shared/JsonLd";
+import { scanListingJsonLd } from "@/lib/scan-pages";
 import { LabStats, type LabStatItem } from "@/components/shared/LabStats";
 import { TrustBadges } from "@/components/shared/TrustBadges";
 
@@ -224,6 +226,7 @@ export function ScanListing({
 
   return (
     <main className="bg-cream-bg min-h-screen">
+      <JsonLd data={scanListingJsonLd(familyPath, faqs, category.image)} />
       <section className="relative overflow-hidden bg-gradient-hero text-white">
         <div
           aria-hidden

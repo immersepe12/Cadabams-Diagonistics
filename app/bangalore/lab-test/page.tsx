@@ -1,6 +1,10 @@
 import type { Metadata } from "next";
 import { LabTestListing } from "@/components/labtests/LabTestListing";
 import { listingKeywords } from "@/lib/keywords";
+import { JsonLd } from "@/components/shared/JsonLd";
+import { breadcrumbList, graph, medicalWebPage } from "@/lib/jsonld";
+
+const LAB_URL = "https://cadabamsdiagnostics.com/bangalore/lab-test";
 
 export const revalidate = 3600;
 
@@ -30,5 +34,22 @@ export const metadata: Metadata = {
 };
 
 export default function LabTestsListPage() {
-  return <LabTestListing />;
+  return (
+    <>
+      <JsonLd
+        data={graph([
+          breadcrumbList([
+            { name: "Home", url: "https://cadabamsdiagnostics.com" },
+            { name: "Lab Tests", url: LAB_URL },
+          ]),
+          medicalWebPage({
+            name: "Reliable Lab Tests in Bangalore | Cadabam's Diagnostics",
+            description: DESCRIPTION,
+            url: LAB_URL,
+          }),
+        ])}
+      />
+      <LabTestListing />
+    </>
+  );
 }

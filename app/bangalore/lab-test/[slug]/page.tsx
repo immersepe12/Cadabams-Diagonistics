@@ -617,6 +617,26 @@ export default async function LabTestDetailPage({ params }: PageProps) {
         sku={test.id}
         category={category?.name}
         medicalType="MedicalTest"
+        breadcrumbs={[
+          { name: "Home", url: "https://cadabamsdiagnostics.com" },
+          {
+            name: "Lab Tests",
+            url: `https://cadabamsdiagnostics.com/${CITY}/lab-test`,
+          },
+          ...(category
+            ? [
+                {
+                  name: category.name,
+                  url: `https://cadabamsdiagnostics.com/${CITY}/lab-test/${stripLeadingSlash(category.path)}`,
+                },
+              ]
+            : []),
+          {
+            name: test.testName,
+            url: `https://cadabamsdiagnostics.com${labTestUrl(test)}`,
+          },
+        ]}
+        faqs={faqs}
       />
     </main>
   );

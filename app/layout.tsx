@@ -3,6 +3,8 @@ import { Header } from "@/components/layout/Header";
 import { SiteFooterArea } from "@/components/layout/SiteFooterArea";
 import { FloatingContactCTA } from "@/components/layout/FloatingContactCTA";
 import { getSiteUrl } from "@/lib/site-url";
+import { JsonLd } from "@/components/shared/JsonLd";
+import { graph, organization } from "@/lib/jsonld";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -54,6 +56,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="h-full antialiased">
       <body className="min-h-full bg-cream-bg text-ink-900 flex flex-col overflow-x-hidden">
+        <JsonLd data={graph([organization()])} />
         <Header />
         {children}
         <SiteFooterArea />
