@@ -4,8 +4,8 @@ import { useEffect, useRef, useState } from "react";
 import { usePathname } from "next/navigation";
 import { MessageCircle, Phone, X } from "lucide-react";
 
-const PHONE_NUMBER = "+91990016611";
-const WHATSAPP_NUMBER = "919538593355";
+const PHONE_NUMBER = "+919900126611";
+const WHATSAPP_NUMBER = "918123954336";
 
 type Mode = "whatsapp" | "call";
 

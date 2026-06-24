@@ -235,12 +235,12 @@ export function PolicyPageShell({
                 </a>
                 <ContactActionButton
                   mode="call"
-                  phone="+91 99006 64696"
+                  phone="+91 99001 26611"
                   context={`Question about ${title}`}
                   className="inline-flex items-center justify-center gap-2 rounded-pill bg-gradient-cta text-white font-semibold px-5 py-2.5 text-body-sm shadow-glow-orange hover:brightness-110 active:scale-[0.98] transition-all"
                 >
                   <Phone className="w-4 h-4" />
-                  +91 99006 64696
+                  +91 99001 26611
                 </ContactActionButton>
               </div>
             </div>
