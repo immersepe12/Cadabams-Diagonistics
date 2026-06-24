@@ -101,3 +101,84 @@ export function buildMarkdownToc(titles: string[]): TocItem[] {
     .sort(([a], [b]) => a - b)
     .map(([index, label]) => ({ id: sectionAnchorId(index), label }));
 }
+
+/* ==========================================================================
+   Canonical section ordering (scan / radiology pages)
+
+   The migrated `markdown` for scan pages does not preserve the section order
+   of the legacy site — most notably "Risks & Limitations" lands high up
+   (right after "When/Who") when on the old site it sits near the very end.
+   We restore the legacy flow by ranking each section heading and stable
+   sorting by that rank.
+
+   IMPORTANT: this ordering is for SCAN/RADIOLOGY pages only. Lab-test pages
+   already match the legacy order (their "Risks or Limitations" intentionally
+   sits early, right after "When"), so they must NOT use this.
+   ========================================================================== */
+
+interface RankMatcher {
+  rank: number;
+  test: (lowerTitle: string) => boolean;
+}
+
+// Ordered to mirror the legacy scan page flow. First match wins, so more
+// specific / earlier-in-the-page categories are listed first.
+const SCAN_SECTION_RANKS: RankMatcher[] = [
+  { rank: 10, test: (t) => /\boverview\b/.test(t) },
+  { rank: 20, test: (t) => /what is\b|what are\b|what's a\b|definition of/.test(t) },
+  { rank: 30, test: (t) => /\btypes? of\b/.test(t) },
+  { rank: 40, test: (t) => /parameter/.test(t) },
+  {
+    rank: 50,
+    test: (t) => /\breasons?\b|\breasoning\b|why is it important|why this test/.test(t),
+  },
+  { rank: 60, test: (t) => /\bwhen\b|\bwho\b/.test(t) },
+  { rank: 70, test: (t) => /benefit|advantage/.test(t) },
+  {
+    rank: 80,
+    test: (t) =>
+      /illness|disease|\bdiagnosed\b|what conditions|conditions? (can|that|are|to|in|by)/.test(
+        t,
+      ),
+  },
+  { rank: 90, test: (t) => /\bprepar/.test(t) },
+  { rank: 100, test: (t) => /pre-?requisite|prerequisite|requisite/.test(t) },
+  { rank: 110, test: (t) => /best time/.test(t) },
+  { rank: 120, test: (t) => /eligib/.test(t) },
+  { rank: 130, test: (t) => /procedure|step.?by.?step/.test(t) },
+  { rank: 140, test: (t) => /caution/.test(t) },
+  {
+    rank: 150,
+    test: (t) =>
+      /\brisks?\b.*\blimitation|^risks?\b|limitations? (of|to|and)/.test(t),
+  },
+];
+
+function scanSectionRank(title: string): number | null {
+  const normalized = normalizeHeading(title);
+  for (const matcher of SCAN_SECTION_RANKS) {
+    if (matcher.test(normalized)) return matcher.rank;
+  }
+  return null;
+}
+
+/**
+ * Reorder scan/radiology markdown sections into the legacy site's canonical
+ * flow. Sections whose heading doesn't match a known category (intro taglines,
+ * promo blurbs, one-off headings) inherit the rank of the section they follow,
+ * so they stay glued in place rather than jumping around. The sort is stable
+ * (ties break on original index) and deterministic.
+ */
+export function orderScanSections<T extends { title: string }>(
+  sections: T[],
+): T[] {
+  let lastRank = Number.NEGATIVE_INFINITY;
+  return sections
+    .map((section, index) => {
+      const rank = scanSectionRank(section.title);
+      if (rank !== null) lastRank = rank;
+      return { section, index, key: rank !== null ? rank : lastRank };
+    })
+    .sort((a, b) => a.key - b.key || a.index - b.index)
+    .map((entry) => entry.section);
+}

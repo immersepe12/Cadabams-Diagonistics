@@ -40,6 +40,7 @@ import { SectionTabs } from "@/components/shared/SectionTabs";
 import {
   buildMarkdownToc,
   getCanonicalSectionLabels,
+  orderScanSections,
   sectionAnchorId,
   type TocItem,
 } from "@/lib/toc";
@@ -219,7 +220,11 @@ export function ScanDetail({ familyPath, slug }: ScanDetailProps) {
       isMeaningfulText(f.question, 8) && isMeaningfulText(f.answer, 8),
   );
   const hasFaqs = faqs.length > 0;
-  const markdownSections = splitMarkdownByH2(test.markdown ?? "");
+  // Restore the legacy site's section order (e.g. Risks & Limitations belongs
+  // near the end, not right after "When/Who"). Scan pages only — see lib/toc.
+  const markdownSections = orderScanSections(
+    splitMarkdownByH2(test.markdown ?? ""),
+  );
 
   const hasAboutBox = !!validIdentifies || !!validMeasures;
 
