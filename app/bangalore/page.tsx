@@ -21,7 +21,7 @@ export const metadata: Metadata = {
       "Cadabam's Diagnostics - Bangalore | Best Diagnostic Center in Bangalore",
   },
   description:
-    "Lab tests, radiology, and health checkups across Bangalore. Five centres, certified labs, advanced imaging, and home sample collection.",
+    "Cadabam's Diagnostics Bangalore offers comprehensive diagnostic services including blood tests, scans, and health checkups. Book your diagnostic tests online or get home sample collection in Bangalore. Trusted by thousands for accurate and timely results.",
   alternates: { canonical: "https://cadabamsdiagnostics.com/bangalore" },
 };
 

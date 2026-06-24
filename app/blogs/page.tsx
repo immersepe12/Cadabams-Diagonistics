@@ -21,12 +21,12 @@ export const revalidate = 3600;
 export const metadata: Metadata = {
   title: "Health & Diagnostics Blog",
   description:
-    "Doctor-reviewed articles on lab tests, scans, preventive health, and wellness from Cadabam's Diagnostics.",
+    "Discover insights for a healthier you with Cadabams Health Blog. Expert medical advice, health tips, and wellness guides.",
   alternates: { canonical: "https://cadabamsdiagnostics.com/blogs" },
   openGraph: {
     title: "Health & Diagnostics Blog | Cadabam's Diagnostics",
     description:
-      "Doctor-reviewed articles on tests, scans, and preventive health.",
+      "Discover insights for a healthier you with Cadabams Health Blog. Expert medical advice, health tips, and wellness guides.",
     url: "/blogs",
     type: "website",
   },

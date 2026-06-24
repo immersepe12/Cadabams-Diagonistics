@@ -12,7 +12,7 @@ export const metadata: Metadata = {
       "Contact Us | Cadabam's Diagnostics - Leading Diagnostic Center in Bangalore",
   },
   description:
-    "Get in touch with Cadabam's Diagnostics. Phone, email, WhatsApp, and addresses for all our Bangalore centres.",
+    "Contact Cadabam's Diagnostics for all your medical testing and diagnostic needs. Book appointments, request home sample collection, or get information about our services.",
   alternates: { canonical: "https://cadabamsdiagnostics.com/contact-us" },
 };
 

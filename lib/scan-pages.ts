@@ -28,13 +28,31 @@ const LISTING_TITLE: Record<string, string> = {
   "msk-scan": "MSK Scan Centre in Bangalore",
 };
 
+// Listing-page meta descriptions mirror the live site.
+const LISTING_DESCRIPTION: Record<string, string> = {
+  "ct-scan":
+    "Book CT scans for advanced diagnostic imaging in Bangalore. Trusted diagnostic centers with quick results.",
+  "mri-scan":
+    "Get accurate imaging with MRI scans in Bangalore. Trusted diagnostic centers with quick results.",
+  "msk-scan":
+    "Book diagnostic scans in Bangalore. Trusted diagnostic centers with quick results.",
+  "pregnancy-scan":
+    "Book pregnancy scans for comprehensive prenatal care in Bangalore. Trusted diagnostic centers with quick results.",
+  "ultrasound-scan":
+    "Book ultrasound scans for accurate imaging in Bangalore. Trusted diagnostic centers with quick results.",
+  "xray-scan":
+    "Book X-ray scans for accurate results in Bangalore. Trusted diagnostic centers with quick results.",
+};
+
 export function scanListingMetadata(familyPath: string): Metadata {
   const category = getNonLabTestCategoryBySlug(familyPath);
   if (!category) return {};
   const url = `https://cadabamsdiagnostics.com/bangalore/${familyPath}`;
   const title =
     LISTING_TITLE[familyPath] || `${category.name} in Bangalore`;
-  const description = `Book ${category.name.toLowerCase()} in Bangalore at Cadabam's Diagnostics. Advanced equipment, certified team, fast reports. Trusted by 10,000+ patients.`;
+  const description =
+    LISTING_DESCRIPTION[familyPath] ||
+    `Book ${category.name.toLowerCase()} in Bangalore at Cadabam's Diagnostics. Advanced equipment, certified team, fast reports. Trusted by 10,000+ patients.`;
   return {
     title,
     description,

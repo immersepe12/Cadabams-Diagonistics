@@ -40,7 +40,7 @@ export const metadata: Metadata = {
       "About Us | Leading Diagnostic Center in Bangalore | Cadabam's Diagnostics",
   },
   description:
-    "Cadabam's Diagnostics is a Bangalore-based network of advanced diagnostic centres combining modern equipment, NABL-aligned labs, and specialist-led reporting so you get answers you can trust — fast.",
+    "Discover Cadabam's Diagnostics - Bangalore's premier diagnostic center with 30+ years of excellence. Advanced imaging, expert medical team, and comprehensive healthcare services.",
   alternates: { canonical: "https://cadabamsdiagnostics.com/about-us" },
 };
 
