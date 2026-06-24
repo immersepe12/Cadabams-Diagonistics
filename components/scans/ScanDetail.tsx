@@ -36,6 +36,7 @@ import {
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
 import { FaqList } from "@/components/shared/FaqList";
+import { ProductSeo } from "@/components/shared/ProductSeo";
 import { SectionTabs } from "@/components/shared/SectionTabs";
 import {
   buildMarkdownToc,
@@ -242,28 +243,10 @@ export function ScanDetail({ familyPath, slug }: ScanDetailProps) {
     ...(hasFaqs ? [{ id: "faqs", label: "FAQs" }] : []),
   ];
 
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@type": "MedicalProcedure",
-    name: test.testName,
-    description:
-      test.seo?.description ||
-      test.basic_info.Identifies ||
-      `${test.testName} scan`,
-    procedureType: category.name,
-    provider: {
-      "@type": "MedicalOrganization",
-      name: "Cadabam's Diagnostics",
-      url: "https://cadabamsdiagnostics.com",
-    },
-    offers: {
-      "@type": "Offer",
-      price: finalPrice,
-      priceCurrency: "INR",
-      availability: "https://schema.org/InStock",
-      url: `https://cadabamsdiagnostics.com${nonLabTestUrl(test)}`,
-    },
-  };
+  const productDescription =
+    test.seo?.description ||
+    test.basic_info.Identifies ||
+    `${test.testName} scan`;
 
   return (
     <main className="bg-cream-bg min-h-screen">
@@ -668,9 +651,15 @@ export function ScanDetail({ familyPath, slug }: ScanDetailProps) {
         </aside>
       </div>
 
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      <ProductSeo
+        name={displayName}
+        description={productDescription}
+        url={`https://cadabamsdiagnostics.com${nonLabTestUrl(test)}`}
+        price={finalPrice}
+        image={heroImage}
+        sku={test.id}
+        category={category.name}
+        medicalType="MedicalProcedure"
       />
     </main>
   );

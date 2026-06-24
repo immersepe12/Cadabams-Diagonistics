@@ -40,6 +40,7 @@ import {
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
 import { FaqList } from "@/components/shared/FaqList";
+import { ProductSeo } from "@/components/shared/ProductSeo";
 import { SectionTabs } from "@/components/shared/SectionTabs";
 import {
   buildMarkdownToc,
@@ -221,27 +222,10 @@ export default async function LabTestDetailPage({ params }: PageProps) {
     ...(hasFaqs ? [{ id: "faqs", label: "FAQs" }] : []),
   ];
 
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@type": "MedicalTest",
-    name: test.testName,
-    description:
-      test.seo?.description ||
-      test.basic_info.Identifies ||
-      `${test.testName} lab test`,
-    provider: {
-      "@type": "MedicalOrganization",
-      name: "Cadabam's Diagnostics",
-      url: "https://cadabamsdiagnostics.com",
-    },
-    offers: {
-      "@type": "Offer",
-      price: finalPrice,
-      priceCurrency: "INR",
-      availability: "https://schema.org/InStock",
-      url: `https://cadabamsdiagnostics.com${labTestUrl(test)}`,
-    },
-  };
+  const productDescription =
+    test.seo?.description ||
+    test.basic_info.Identifies ||
+    `${test.testName} lab test`;
 
   return (
     <main className="bg-cream-bg min-h-screen">
@@ -608,9 +592,15 @@ export default async function LabTestDetailPage({ params }: PageProps) {
         </aside>
       </div>
 
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      <ProductSeo
+        name={test.testName}
+        description={productDescription}
+        url={`https://cadabamsdiagnostics.com${labTestUrl(test)}`}
+        price={finalPrice}
+        image={heroImage}
+        sku={test.id}
+        category={category?.name}
+        medicalType="MedicalTest"
       />
     </main>
   );
