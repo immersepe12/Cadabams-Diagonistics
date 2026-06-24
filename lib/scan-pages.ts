@@ -17,11 +17,23 @@ export function scanFamilyStaticParams(familyPath: string): { slug: string }[] {
     .filter((p) => p.slug.length > 0);
 }
 
+// Listing-page <title>s mirror the live site ("<Family> Scan Centre in
+// Bangalore"). Falls back to a generated title for families not listed.
+const LISTING_TITLE: Record<string, string> = {
+  "ct-scan": "CT Scan Centre in Bangalore",
+  "mri-scan": "MRI Scan Centre in Bangalore",
+  "ultrasound-scan": "Ultrasound Scan Centre in Bangalore",
+  "xray-scan": "X-ray Scan Centre in Bangalore",
+  "pregnancy-scan": "Pregnancy Scan Centre in Bangalore",
+  "msk-scan": "MSK Scan Centre in Bangalore",
+};
+
 export function scanListingMetadata(familyPath: string): Metadata {
   const category = getNonLabTestCategoryBySlug(familyPath);
   if (!category) return {};
   const url = `https://cadabamsdiagnostics.com/bangalore/${familyPath}`;
-  const title = `${category.name} in Bangalore`;
+  const title =
+    LISTING_TITLE[familyPath] || `${category.name} in Bangalore`;
   const description = `Book ${category.name.toLowerCase()} in Bangalore at Cadabam's Diagnostics. Advanced equipment, certified team, fast reports. Trusted by 10,000+ patients.`;
   return {
     title,
@@ -33,7 +45,7 @@ export function scanListingMetadata(familyPath: string): Metadata {
     ]),
     alternates: { canonical: url },
     openGraph: {
-      title: `${title} | Cadabams Diagnostics`,
+      title: `${title} | Cadabam's Diagnostics`,
       description,
       url,
       type: "website",

@@ -125,7 +125,7 @@ export async function generateMetadata({
         canonical: `https://cadabamsdiagnostics.com/bangalore/lab-test/${slug}`,
       },
       openGraph: {
-        title: `${title} | Cadabams Diagnostics`,
+        title: `${title} | Cadabam's Diagnostics`,
         url: `/bangalore/lab-test/${slug}`,
         type: "website",
       },

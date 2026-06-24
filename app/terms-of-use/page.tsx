@@ -7,7 +7,9 @@ import { getPolicyPage } from "@/lib/data/allpages";
 export const revalidate = 86400;
 
 export const metadata: Metadata = {
-  title: "Terms of Use",
+  title: {
+    absolute: "Terms of Use | Your Health Lab | Cadabam's Diagnostics Labs",
+  },
   description:
     "The terms and conditions that apply when you use cadabamsdiagnostics.com and book services through it.",
   alternates: { canonical: "https://cadabamsdiagnostics.com/terms-of-use" },

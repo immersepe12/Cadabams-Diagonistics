@@ -7,7 +7,9 @@ import { getPolicyPage } from "@/lib/data/allpages";
 export const revalidate = 86400;
 
 export const metadata: Metadata = {
-  title: "Privacy Policy",
+  title: {
+    absolute: "Privacy Policy | Your Health Lab | Cadabam's Diagnostics Labs",
+  },
   description:
     "How Cadabam's Diagnostics collects, uses, and protects your personal and health information.",
   alternates: {

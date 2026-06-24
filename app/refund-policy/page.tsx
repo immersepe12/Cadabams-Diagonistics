@@ -7,7 +7,9 @@ import { getPolicyPage } from "@/lib/data/allpages";
 export const revalidate = 86400;
 
 export const metadata: Metadata = {
-  title: "Refund & Cancellation Policy",
+  title: {
+    absolute: "Refund Policy | Your Health Lab | Cadabam's Diagnostics Labs",
+  },
   description:
     "How refunds, cancellations, and rescheduling work for lab tests, scans, and health checkups booked with Cadabam's Diagnostics.",
   alternates: { canonical: "https://cadabamsdiagnostics.com/refund-policy" },

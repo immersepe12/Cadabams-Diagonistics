@@ -15,13 +15,13 @@ export const revalidate = 3600;
 
 export const metadata: Metadata = {
   title:
-    "Best Diagnostic Center in Bangalore | Cadabams Diagnostics",
+    "Best Diagnostic Center in Bangalore | Cadabam's Diagnostics",
   description:
     "Cadabam's Diagnostics offers comprehensive diagnostic services including blood tests, scans, and health checkups. Book your diagnostic tests online or get home sample collection in Bangalore.",
   alternates: { canonical: "/" },
   openGraph: {
     title:
-      "Best Diagnostic Center in Bangalore | Cadabams Diagnostics",
+      "Best Diagnostic Center in Bangalore | Cadabam's Diagnostics",
     description:
       "Cadabam's Diagnostics offers comprehensive diagnostic services including blood tests, scans, and health checkups. Book your diagnostic tests online or get home sample collection in Bangalore.",
     url: "/",

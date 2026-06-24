@@ -16,7 +16,10 @@ import { SectionOverline } from "@/components/shared/SectionOverline";
 export const revalidate = 86400;
 
 export const metadata: Metadata = {
-  title: "Diagnostic Centre in Bangalore",
+  title: {
+    absolute:
+      "Cadabam's Diagnostics - Bangalore | Best Diagnostic Center in Bangalore",
+  },
   description:
     "Lab tests, radiology, and health checkups across Bangalore. Five centres, certified labs, advanced imaging, and home sample collection.",
   alternates: { canonical: "https://cadabamsdiagnostics.com/bangalore" },

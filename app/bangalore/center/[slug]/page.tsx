@@ -177,7 +177,7 @@ export async function generateMetadata({
     description,
     alternates: { canonical },
     openGraph: {
-      title: `${title} | Cadabams Diagnostics`,
+      title: `${title} | Cadabam's Diagnostics`,
       description,
       url: canonical,
       type: "website",

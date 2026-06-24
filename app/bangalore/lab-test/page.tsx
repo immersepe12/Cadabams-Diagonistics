@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     canonical: "https://cadabamsdiagnostics.com/bangalore/lab-test",
   },
   openGraph: {
-    title: "Reliable Lab Tests in Bangalore | Cadabams Diagnostics",
+    title: "Reliable Lab Tests in Bangalore | Cadabam's Diagnostics",
     description: DESCRIPTION,
     url: "/bangalore/lab-test",
     type: "website",

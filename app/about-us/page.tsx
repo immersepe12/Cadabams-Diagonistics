@@ -35,7 +35,10 @@ import {
 export const revalidate = 86400;
 
 export const metadata: Metadata = {
-  title: "About us",
+  title: {
+    absolute:
+      "About Us | Leading Diagnostic Center in Bangalore | Cadabam's Diagnostics",
+  },
   description:
     "Cadabam's Diagnostics is a Bangalore-based network of advanced diagnostic centres combining modern equipment, NABL-aligned labs, and specialist-led reporting so you get answers you can trust — fast.",
   alternates: { canonical: "https://cadabamsdiagnostics.com/about-us" },

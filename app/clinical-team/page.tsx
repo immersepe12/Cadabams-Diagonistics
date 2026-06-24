@@ -30,7 +30,10 @@ import {
 export const revalidate = 86400;
 
 export const metadata: Metadata = {
-  title: "Clinical team",
+  title: {
+    absolute:
+      "Clinical Team | Expert Radiologists & Specialists | Cadabam's Diagnostics",
+  },
   description:
     "Meet our expert team of radiologists and specialists at Cadabam's Diagnostics — led by Dr. S Pradeep, Dr. Divya Cadabam, and Dr. Shreyas Cadabam, offering specialized diagnostic services in Bangalore.",
   alternates: { canonical: "https://cadabamsdiagnostics.com/clinical-team" },

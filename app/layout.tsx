@@ -11,14 +11,14 @@ export const metadata: Metadata = {
   // social unfurls fetch the image from the wrong host and show nothing.
   metadataBase: new URL(getSiteUrl()),
   title: {
-    default: "Cadabams Diagnostics — Accurate lab tests & scans in Bangalore",
-    template: "%s | Cadabams Diagnostics",
+    default: "Cadabam's Diagnostics — Accurate lab tests & scans in Bangalore",
+    template: "%s | Cadabam's Diagnostics",
   },
   description:
     "Trusted lab tests, radiology, and health checkups across Bangalore. Reports in 6 hours. Certified labs. Home sample collection.",
   openGraph: {
     type: "website",
-    siteName: "Cadabams Diagnostics",
+    siteName: "Cadabam's Diagnostics",
   },
   twitter: {
     card: "summary_large_image",

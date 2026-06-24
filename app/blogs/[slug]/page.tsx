@@ -10,6 +10,7 @@ import {
 import { getAllCenters, getCenterSlug } from "@/lib/data/centers";
 import { blogUrl } from "@/lib/urls";
 import { pageTitle } from "@/lib/seo-title";
+import { BLOG_SEO_TITLES } from "@/lib/blog-seo-titles";
 import { MarkdownContent } from "@/components/shared/MarkdownContent";
 import { BlogCard } from "@/components/shared/BlogCard";
 import { BlogSidebar } from "@/components/shared/BlogSidebar";
@@ -52,12 +53,15 @@ export async function generateMetadata({
   const canonical =
     blog.seo?.canonicalUrl ||
     `https://cadabamsdiagnostics.com${blogUrl(blog)}`;
+  // Live SEO title (from the migration audit) takes precedence so staging
+  // <title>s match the live site; the template appends the brand suffix.
+  const liveTitle = BLOG_SEO_TITLES[slug];
   return {
-    title: pageTitle(blog.seo?.title || blog.title),
+    title: pageTitle(liveTitle || blog.seo?.title || blog.title),
     description: blog.seo?.description || fallbackDesc,
     alternates: { canonical },
     openGraph: {
-      title: blog.seo?.ogTitle || blog.seo?.title || blog.title,
+      title: liveTitle || blog.seo?.ogTitle || blog.seo?.title || blog.title,
       description:
         blog.seo?.ogDescription || blog.seo?.description || fallbackDesc,
       images: blog.imageUrl ? [{ url: blog.imageUrl }] : undefined,

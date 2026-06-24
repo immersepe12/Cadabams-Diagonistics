@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     "Doctor-reviewed articles on lab tests, scans, preventive health, and wellness from Cadabam's Diagnostics.",
   alternates: { canonical: "https://cadabamsdiagnostics.com/blogs" },
   openGraph: {
-    title: "Health & Diagnostics Blog | Cadabams Diagnostics",
+    title: "Health & Diagnostics Blog | Cadabam's Diagnostics",
     description:
       "Doctor-reviewed articles on tests, scans, and preventive health.",
     url: "/blogs",

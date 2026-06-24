@@ -47,7 +47,7 @@ export async function generateMetadata({
         canonical: `https://cadabamsdiagnostics.com/bangalore/${FAMILY}/${slug}`,
       },
       openGraph: {
-        title: `${title} | Cadabams Diagnostics`,
+        title: `${title} | Cadabam's Diagnostics`,
         url: `/bangalore/${FAMILY}/${slug}`,
         type: "website",
       },
