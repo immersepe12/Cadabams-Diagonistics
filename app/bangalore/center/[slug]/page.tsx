@@ -30,6 +30,7 @@ import {
   getCenterSlug,
 } from "@/lib/data/centers";
 import { centerUrl } from "@/lib/urls";
+import { pageTitle } from "@/lib/seo-title";
 import { MarkdownContent } from "@/components/shared/MarkdownContent";
 import { LabStats } from "@/components/shared/LabStats";
 import { ContactActionButton } from "@/components/shared/ContactActionButton";
@@ -163,9 +164,10 @@ export async function generateMetadata({
   const { slug } = await params;
   const center = getCenterBySlug(slug);
   if (!center) return {};
-  const title =
-    center.seo?.title ||
-    `${center.basic_info.center_name} | Cadabam's Diagnostics`;
+  // Strip any embedded brand so the root template appends exactly one suffix.
+  const title = pageTitle(
+    center.seo?.title || center.basic_info.center_name,
+  );
   const description =
     center.seo?.description ||
     `Visit ${center.basic_info.center_name} for accurate diagnostics, lab tests, and scans. ${center.center_info.address}`;
@@ -174,7 +176,12 @@ export async function generateMetadata({
     title,
     description,
     alternates: { canonical },
-    openGraph: { title, description, url: canonical, type: "website" },
+    openGraph: {
+      title: `${title} | Cadabams Diagnostics`,
+      description,
+      url: canonical,
+      type: "website",
+    },
   };
 }
 
