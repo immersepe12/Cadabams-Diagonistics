@@ -2,10 +2,14 @@ import type { Metadata, Viewport } from "next";
 import { Header } from "@/components/layout/Header";
 import { SiteFooterArea } from "@/components/layout/SiteFooterArea";
 import { FloatingContactCTA } from "@/components/layout/FloatingContactCTA";
+import { getSiteUrl } from "@/lib/site-url";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://cadabamsdiagnostics.com"),
+  // Resolve OG/Twitter image URLs against the host actually serving the page
+  // (staging vercel.app vs. production), not a hardcoded domain — otherwise
+  // social unfurls fetch the image from the wrong host and show nothing.
+  metadataBase: new URL(getSiteUrl()),
   title: {
     default: "Cadabams Diagnostics — Accurate lab tests & scans in Bangalore",
     template: "%s | Cadabams Diagnostics",
