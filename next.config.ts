@@ -16,6 +16,8 @@ const nextConfig: NextConfig = {
 
       { source: "/bangalore/preventive-health/:slug", destination: "/bangalore/preventive-health-checks/:slug", permanent: true },
 
+      { source: "/bangalore/mri-scan/lumbar-lumbosacral-spine-without-contrast-mri", destination: "/bangalore/mri-scan/lumbar-lumbosacral-spine-without-contrast-mri-scan", permanent: true },
+
       { source: "/blogs/difference-between-mri-and-x-ray", destination: "/blogs/difference-between-mri-and-xray", permanent: true },
     ];
   },
