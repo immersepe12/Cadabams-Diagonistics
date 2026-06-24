@@ -88,6 +88,11 @@ export function ProductSeo({
           <meta property="og:price:amount" content={String(price)} />
           <meta property="og:price:currency" content="INR" />
           <meta property="og:availability" content="instock" />
+          {/* Twitter/X summary-card rich data: shows Price / Availability. */}
+          <meta name="twitter:label1" content="Price" />
+          <meta name="twitter:data1" content={`₹${price.toLocaleString("en-IN")}`} />
+          <meta name="twitter:label2" content="Availability" />
+          <meta name="twitter:data2" content="In Stock" />
         </>
       )}
       <meta property="og:brand" content={BRAND} />
