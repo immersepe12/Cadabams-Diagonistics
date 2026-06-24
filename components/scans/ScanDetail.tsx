@@ -36,6 +36,13 @@ import {
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
 import { FaqList } from "@/components/shared/FaqList";
+import { SectionTabs } from "@/components/shared/SectionTabs";
+import {
+  buildMarkdownToc,
+  getCanonicalSectionLabels,
+  sectionAnchorId,
+  type TocItem,
+} from "@/lib/toc";
 
 const CITY = "bangalore";
 const FALLBACK_IMAGE = "/shared/image-1727884059139-383535423.webp";
@@ -214,15 +221,21 @@ export function ScanDetail({ familyPath, slug }: ScanDetailProps) {
   const hasFaqs = faqs.length > 0;
   const markdownSections = splitMarkdownByH2(test.markdown ?? "");
 
-  const hasAbout =
-    !!validIdentifies || !!validMeasures || markdownSections.length > 0;
+  const hasAboutBox = !!validIdentifies || !!validMeasures;
 
-  // In-page section nav — only links to sections that actually render.
-  const sectionNav = [
-    hasAbout && { id: "about", label: "About" },
-    hasInterpretations && { id: "results", label: "Results" },
-    hasFaqs && { id: "faqs", label: "FAQs" },
-  ].filter(Boolean) as { id: string; label: string }[];
+  const sectionTitles = markdownSections.map((s) => s.title);
+  // Maps a markdown section index to the short label shown in the TOC, so the
+  // section can echo that label and the visitor knows where a tab led them.
+  const sectionLabels = getCanonicalSectionLabels(sectionTitles);
+
+  // In-page Table of Contents — surfaces the canonical content sections that
+  // actually render on this page, in document order.
+  const toc: TocItem[] = [
+    ...(hasAboutBox ? [{ id: "about", label: "About The Scan" }] : []),
+    ...buildMarkdownToc(sectionTitles),
+    ...(hasInterpretations ? [{ id: "results", label: "Test Results" }] : []),
+    ...(hasFaqs ? [{ id: "faqs", label: "FAQs" }] : []),
+  ];
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -395,27 +408,7 @@ export function ScanDetail({ familyPath, slug }: ScanDetailProps) {
         <LabStats stats={SCAN_STATS} />
       </div>
 
-      {sectionNav.length > 0 && (
-        <nav
-          aria-label="On this page"
-          className="sticky top-16 z-30 mt-6 bg-cream-bg/90 backdrop-blur-sm border-y border-cream-line"
-        >
-          <div className="mx-auto max-w-7xl px-gutter">
-            <ul className="flex items-center gap-1 overflow-x-auto py-2.5 text-body-sm font-semibold">
-              {sectionNav.map((s) => (
-                <li key={s.id}>
-                  <a
-                    href={`#${s.id}`}
-                    className="inline-flex items-center rounded-pill px-3 py-1.5 text-ink-600 hover:text-orange-700 hover:bg-orange-50 transition-colors whitespace-nowrap"
-                  >
-                    {s.label}
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </div>
-        </nav>
-      )}
+      <SectionTabs sections={toc} />
 
       <div className="mx-auto max-w-7xl px-gutter py-10 lg:py-14 grid gap-6 lg:gap-10 lg:grid-cols-3">
         <div className="lg:col-span-2 space-y-6 min-w-0">
@@ -423,12 +416,9 @@ export function ScanDetail({ familyPath, slug }: ScanDetailProps) {
             validMeasures ||
             markdownSections.length > 0 ||
             hasInterpretations) && (
-            <div
-              id="about"
-              className="scroll-mt-24 bg-cream-card rounded-sm shadow-sh-2 p-4 sm:p-6 lg:p-8 space-y-8"
-            >
+            <div className="bg-cream-card rounded-sm shadow-sh-2 p-4 sm:p-6 lg:p-8 space-y-8">
               {(validIdentifies || validMeasures) && (
-                <section>
+                <section id="about" className="scroll-mt-32">
                   <h2 className="text-h2 font-display font-bold text-ink-900 mb-5">
                     About The Scan
                   </h2>
@@ -459,9 +449,19 @@ export function ScanDetail({ familyPath, slug }: ScanDetailProps) {
 
               {markdownSections.map((section, i) => {
                 const imageRight = i % 2 === 1;
+                const tocLabel = sectionLabels.get(i);
                 if (!section.image) {
                   return (
-                    <section key={`md-section-${i}`}>
+                    <section
+                      key={`md-section-${i}`}
+                      id={sectionAnchorId(i)}
+                      className="scroll-mt-32"
+                    >
+                      {tocLabel && (
+                        <p className="text-overline uppercase text-orange-700 font-bold tracking-overline mb-1.5">
+                          {tocLabel}
+                        </p>
+                      )}
                       <h2 className="text-h2 font-display font-bold text-ink-900 mb-4">
                         {section.title}
                       </h2>
@@ -472,7 +472,8 @@ export function ScanDetail({ familyPath, slug }: ScanDetailProps) {
                 return (
                   <section
                     key={`md-section-${i}`}
-                    className="overflow-hidden"
+                    id={sectionAnchorId(i)}
+                    className="scroll-mt-32 overflow-hidden"
                   >
                     <div className="grid gap-6 lg:gap-10 items-center lg:grid-cols-[1fr_1fr]">
                       <div className={imageRight ? "lg:order-1" : "lg:order-2"}>
@@ -487,6 +488,11 @@ export function ScanDetail({ familyPath, slug }: ScanDetailProps) {
                         </div>
                       </div>
                       <div className={imageRight ? "lg:order-2" : "lg:order-1"}>
+                        {tocLabel && (
+                          <p className="text-overline uppercase text-orange-700 font-bold tracking-overline mb-1.5">
+                            {tocLabel}
+                          </p>
+                        )}
                         <h2 className="text-h2 font-display font-bold text-ink-900 mb-3">
                           {section.title}
                         </h2>
@@ -498,7 +504,7 @@ export function ScanDetail({ familyPath, slug }: ScanDetailProps) {
               })}
 
               {hasInterpretations && (
-                <section id="results" className="scroll-mt-24">
+                <section id="results" className="scroll-mt-32">
                   <h2 className="text-h2 font-display font-bold text-ink-900 mb-4">
                     Test Results
                   </h2>
@@ -560,7 +566,7 @@ export function ScanDetail({ familyPath, slug }: ScanDetailProps) {
           {hasFaqs && (
             <section
               id="faqs"
-              className="scroll-mt-24 bg-cream-card rounded-sm shadow-sh-2 border border-cream-line p-4 sm:p-6 lg:p-8"
+              className="scroll-mt-32 bg-cream-card rounded-sm shadow-sh-2 border border-cream-line p-4 sm:p-6 lg:p-8"
             >
               <h2 className="text-h2 font-display font-bold text-ink-900 mb-5">
                 FAQs

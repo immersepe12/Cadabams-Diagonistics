@@ -6,7 +6,10 @@
       "Bash(python scripts/convert_db_to_md.py)",
       "Bash(python *)",
       "Bash(findstr next *)",
-      "Bash(npx tsc *)"
+      "Bash(npx tsc *)",
+      "Bash(node -e ' *)",
+      "Bash(echo \"EXIT: $?\")",
+      "Bash(node *)"
     ]
   }
 }

@@ -40,6 +40,13 @@ import {
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
 import { FaqList } from "@/components/shared/FaqList";
+import { SectionTabs } from "@/components/shared/SectionTabs";
+import {
+  buildMarkdownToc,
+  getCanonicalSectionLabels,
+  sectionAnchorId,
+  type TocItem,
+} from "@/lib/toc";
 
 export const revalidate = 86400;
 
@@ -197,6 +204,22 @@ export default async function LabTestDetailPage({ params }: PageProps) {
   );
   const hasFaqs = faqs.length > 0;
   const markdownSections = splitMarkdownByH2(test.markdown ?? "");
+
+  const hasAboutBox = !!validIdentifies || !!validMeasures;
+
+  const sectionTitles = markdownSections.map((s) => s.title);
+  // Maps a markdown section index to the short label shown in the TOC, so the
+  // section can echo that label and the visitor knows where a tab led them.
+  const sectionLabels = getCanonicalSectionLabels(sectionTitles);
+
+  // In-page Table of Contents — surfaces the canonical content sections that
+  // actually render on this page, in document order.
+  const toc: TocItem[] = [
+    ...(hasAboutBox ? [{ id: "about", label: "About The Test" }] : []),
+    ...buildMarkdownToc(sectionTitles),
+    ...(hasInterpretations ? [{ id: "results", label: "Test Results" }] : []),
+    ...(hasFaqs ? [{ id: "faqs", label: "FAQs" }] : []),
+  ];
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -373,6 +396,8 @@ export default async function LabTestDetailPage({ params }: PageProps) {
         <LabStats />
       </div>
 
+      <SectionTabs sections={toc} />
+
       <div className="mx-auto max-w-7xl px-gutter py-10 lg:py-14 grid gap-6 lg:gap-10 lg:grid-cols-3">
         <div className="lg:col-span-2 space-y-6 min-w-0">
           {(validIdentifies ||
@@ -381,7 +406,7 @@ export default async function LabTestDetailPage({ params }: PageProps) {
             hasInterpretations) && (
             <div className="bg-cream-card rounded-sm shadow-sh-2 p-4 sm:p-6 lg:p-8 space-y-8">
               {(validIdentifies || validMeasures) && (
-                <section>
+                <section id="about" className="scroll-mt-32">
                   <h2 className="text-h2 font-display font-bold text-ink-900 mb-5">
                     About The Test
                   </h2>
@@ -410,17 +435,29 @@ export default async function LabTestDetailPage({ params }: PageProps) {
                 </section>
               )}
 
-              {markdownSections.map((section, i) => (
-                <section key={`md-section-${i}`}>
-                  <h2 className="text-h2 font-display font-bold text-ink-900 mb-4">
-                    {section.title}
-                  </h2>
-                  <MarkdownContent content={section.body} />
-                </section>
-              ))}
+              {markdownSections.map((section, i) => {
+                const tocLabel = sectionLabels.get(i);
+                return (
+                  <section
+                    key={`md-section-${i}`}
+                    id={sectionAnchorId(i)}
+                    className="scroll-mt-32"
+                  >
+                    {tocLabel && (
+                      <p className="text-overline uppercase text-orange-700 font-bold tracking-overline mb-1.5">
+                        {tocLabel}
+                      </p>
+                    )}
+                    <h2 className="text-h2 font-display font-bold text-ink-900 mb-4">
+                      {section.title}
+                    </h2>
+                    <MarkdownContent content={section.body} />
+                  </section>
+                );
+              })}
 
               {hasInterpretations && (
-                <section>
+                <section id="results" className="scroll-mt-32">
                   <h2 className="text-h2 font-display font-bold text-ink-900 mb-4">
                     Test Results
                   </h2>
@@ -472,7 +509,10 @@ export default async function LabTestDetailPage({ params }: PageProps) {
           )}
 
           {hasFaqs && (
-            <section className="bg-cream-card rounded-sm shadow-sh-2 border border-cream-line p-4 sm:p-6 lg:p-8">
+            <section
+              id="faqs"
+              className="scroll-mt-32 bg-cream-card rounded-sm shadow-sh-2 border border-cream-line p-4 sm:p-6 lg:p-8"
+            >
               <h2 className="text-h2 font-display font-bold text-ink-900 mb-5">
                 FAQs
               </h2>
