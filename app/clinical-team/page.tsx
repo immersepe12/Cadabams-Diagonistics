@@ -36,7 +36,7 @@ export const metadata: Metadata = {
   },
   description:
     "Meet our expert team of radiologists and specialists at Cadabam's Diagnostics. Led by Dr. S Pradeep, Dr. Divya Cadabam, and Dr. Shreyas Cadabam, offering specialized diagnostic services in Bangalore.",
-  alternates: { canonical: "https://cadabamsdiagnostics.com/clinical-team" },
+  alternates: { canonical: "/clinical-team" },
 };
 
 const ICONS: Record<string, LucideIcon> = {

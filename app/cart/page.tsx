@@ -77,12 +77,17 @@ export default function CartPage() {
     );
   }
 
-  // Avoid a hydration flash: render nothing meaningful until the store is read.
+  // Avoid a hydration flash: render only the (cart-state-independent) heading
+  // until the store is read. The H1 is rendered server-side too, so crawlers and
+  // the no-JS view get a real page heading instead of an empty document.
   if (!hydrated) {
     return (
       <main className="bg-cream-bg min-h-screen">
         <section className="mx-auto max-w-5xl px-gutter py-10 lg:py-14">
-          <div className="h-8 w-40 bg-cream-line rounded-pill animate-pulse" />
+          <h1 className="text-h1 sm:text-display-2 font-display font-extrabold text-ink-900 tracking-tight">
+            {cartContent.title}
+          </h1>
+          <div className="mt-6 h-8 w-40 bg-cream-line rounded-pill animate-pulse" />
         </section>
       </main>
     );

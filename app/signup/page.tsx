@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: "Create account",
   description:
     "Create a Cadabam's Diagnostics account to book lab tests and scans, access reports, and arrange home sample collection across Bangalore.",
-  alternates: { canonical: "https://cadabamsdiagnostics.com/signup" },
+  alternates: { canonical: "/signup" },
   robots: { index: false, follow: true },
 };
 

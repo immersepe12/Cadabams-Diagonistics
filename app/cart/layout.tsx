@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 // self-referencing canonical) lives here in a server-component layout.
 export const metadata: Metadata = {
   title: "Your Cart",
-  alternates: { canonical: "https://cadabamsdiagnostics.com/cart" },
+  alternates: { canonical: "/cart" },
 };
 
 export default function CartLayout({

@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title: "Legal",
   description:
     "Legal information, disclaimers, accreditation, and entity details for Cadabam's Diagnostics.",
-  alternates: { canonical: "https://cadabamsdiagnostics.com/legal" },
+  alternates: { canonical: "/legal" },
 };
 
 export default function LegalPage() {

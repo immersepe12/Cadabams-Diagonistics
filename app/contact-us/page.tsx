@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   },
   description:
     "Contact Cadabam's Diagnostics for all your medical testing and diagnostic needs. Book appointments, request home sample collection, or get information about our services.",
-  alternates: { canonical: "https://cadabamsdiagnostics.com/contact-us" },
+  alternates: { canonical: "/contact-us" },
 };
 
 function titleCase(s: string): string {

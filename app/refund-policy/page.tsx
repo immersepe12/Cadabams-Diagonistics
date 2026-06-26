@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   },
   description:
     "How refunds, cancellations, and rescheduling work for lab tests, scans, and health checkups booked with Cadabam's Diagnostics.",
-  alternates: { canonical: "https://cadabamsdiagnostics.com/refund-policy" },
+  alternates: { canonical: "/refund-policy" },
 };
 
 export default function RefundPolicyPage() {

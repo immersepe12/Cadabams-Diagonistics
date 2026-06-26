@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: "Sign in",
   description:
     "Sign in to your Cadabam's Diagnostics account to view reports, manage bookings and track home sample collections.",
-  alternates: { canonical: "https://cadabamsdiagnostics.com/login" },
+  alternates: { canonical: "/login" },
   robots: { index: false, follow: true },
 };
 

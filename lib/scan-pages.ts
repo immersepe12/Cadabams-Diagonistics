@@ -9,6 +9,7 @@ import { nonLabTestUrl } from "@/lib/urls";
 import { listingKeywords } from "@/lib/keywords";
 import { pageTitle } from "@/lib/seo-title";
 import { breadcrumbList, faqPage, graph, medicalWebPage } from "@/lib/jsonld";
+import { getSiteUrl } from "@/lib/site-url";
 
 export function scanFamilyStaticParams(familyPath: string): { slug: string }[] {
   const category = getNonLabTestCategoryBySlug(familyPath);
@@ -68,11 +69,12 @@ export function scanListingJsonLd(
 ) {
   const category = getNonLabTestCategoryBySlug(familyPath);
   if (!category) return null;
-  const url = `https://cadabamsdiagnostics.com/bangalore/${familyPath}`;
+  const origin = getSiteUrl();
+  const url = `${origin}/bangalore/${familyPath}`;
   return graph([
     breadcrumbList([
-      { name: "Home", url: "https://cadabamsdiagnostics.com" },
-      { name: "Bangalore", url: "https://cadabamsdiagnostics.com/bangalore" },
+      { name: "Home", url: origin },
+      { name: "Bangalore", url: `${origin}/bangalore` },
       { name: category.name, url },
     ]),
     medicalWebPage({
@@ -88,7 +90,10 @@ export function scanListingJsonLd(
 export function scanListingMetadata(familyPath: string): Metadata {
   const category = getNonLabTestCategoryBySlug(familyPath);
   if (!category) return {};
-  const url = `https://cadabamsdiagnostics.com/bangalore/${familyPath}`;
+  // Relative path: Next resolves it against `metadataBase` (= getSiteUrl()),
+  // so canonical/OG URLs point at the host actually serving the page (staging
+  // on staging, production once SITE_URL is set) instead of a hardcoded domain.
+  const url = `/bangalore/${familyPath}`;
   const title = scanListingTitle(familyPath);
   const description = scanListingDescription(familyPath);
   return {
@@ -121,9 +126,9 @@ export function scanDetailMetadata(slug: string): Metadata {
   const fallbackTitle = `${test.testName} in Bangalore`;
   const fallbackDesc =
     `Book ${test.testName} scan in Bangalore. ${test.basic_info.Identifies || ""}`.trim();
-  const canonical =
-    test.seo?.canonicalUrl ||
-    `https://cadabamsdiagnostics.com${nonLabTestUrl(test)}`;
+  // Relative fallback resolves against metadataBase (= getSiteUrl()), so the
+  // canonical is self-referential on staging and production-correct at go-live.
+  const canonical = test.seo?.canonicalUrl || nonLabTestUrl(test);
   return {
     title: pageTitle(test.seo?.title || fallbackTitle),
     description: test.seo?.description || fallbackDesc,

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   },
   description:
     "The terms and conditions that apply when you use cadabamsdiagnostics.com and book services through it.",
-  alternates: { canonical: "https://cadabamsdiagnostics.com/terms-of-use" },
+  alternates: { canonical: "/terms-of-use" },
 };
 
 export default function TermsOfUsePage() {

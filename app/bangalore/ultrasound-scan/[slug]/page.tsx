@@ -44,7 +44,7 @@ export async function generateMetadata({
         "diagnostic imaging bangalore",
       ]),
       alternates: {
-        canonical: `https://cadabamsdiagnostics.com/bangalore/${FAMILY}/${slug}`,
+        canonical: `/bangalore/${FAMILY}/${slug}`,
       },
       openGraph: {
         title: `${title} | Cadabam's Diagnostics`,

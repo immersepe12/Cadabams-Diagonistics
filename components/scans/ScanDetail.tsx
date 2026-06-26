@@ -17,6 +17,7 @@ import {
 } from "@/lib/data/nonlabtests";
 import { getScanDetailPage } from "@/lib/data/allpages";
 import { nonLabTestUrl } from "@/lib/urls";
+import { getSiteUrl } from "@/lib/site-url";
 import { titleCaseTestName } from "@/lib/format";
 import { MarkdownContent } from "@/components/shared/MarkdownContent";
 import { RelatedTestsCarousel } from "@/components/shared/RelatedTestsCarousel";
@@ -228,6 +229,9 @@ export function ScanDetail({ familyPath, slug }: ScanDetailProps) {
   );
 
   const hasAboutBox = !!validIdentifies || !!validMeasures;
+
+  // Host serving the page (staging vs production) for absolute JSON-LD URLs.
+  const origin = getSiteUrl();
 
   const sectionTitles = markdownSections.map((s) => s.title);
   // Maps a markdown section index to the short label shown in the TOC, so the
@@ -656,21 +660,21 @@ export function ScanDetail({ familyPath, slug }: ScanDetailProps) {
       <ProductSeo
         name={displayName}
         description={productDescription}
-        url={`https://cadabamsdiagnostics.com${nonLabTestUrl(test)}`}
+        url={`${origin}${nonLabTestUrl(test)}`}
         price={finalPrice}
         image={heroImage}
         sku={test.id}
         category={category.name}
         medicalType="MedicalProcedure"
         breadcrumbs={[
-          { name: "Home", url: "https://cadabamsdiagnostics.com" },
+          { name: "Home", url: origin },
           {
             name: category.name,
-            url: `https://cadabamsdiagnostics.com/${CITY}/${familyPath}`,
+            url: `${origin}/${CITY}/${familyPath}`,
           },
           {
             name: displayName,
-            url: `https://cadabamsdiagnostics.com${nonLabTestUrl(test)}`,
+            url: `${origin}${nonLabTestUrl(test)}`,
           },
         ]}
         faqs={faqs}

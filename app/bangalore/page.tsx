@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   },
   description:
     "Cadabam's Diagnostics Bangalore offers comprehensive diagnostic services including blood tests, scans, and health checkups. Book your diagnostic tests online or get home sample collection in Bangalore. Trusted by thousands for accurate and timely results.",
-  alternates: { canonical: "https://cadabamsdiagnostics.com/bangalore" },
+  alternates: { canonical: "/bangalore" },
 };
 
 const ICONS: Record<string, LucideIcon> = { FlaskConical, Activity };

@@ -22,9 +22,12 @@ import {
   graph,
   medicalWebPage,
 } from "@/lib/jsonld";
+import { getSiteUrl } from "@/lib/site-url";
 
 const BRAND = "Cadabams Diagnostics";
-const ORIGIN = "https://cadabamsdiagnostics.com";
+// Host actually serving the page (staging vs production); used to absolutize
+// root-relative image paths and the seller URL in the Product JSON-LD.
+const ORIGIN = getSiteUrl();
 
 function toAbsolute(url: string): string {
   if (!url) return url;

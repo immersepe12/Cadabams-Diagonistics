@@ -30,6 +30,7 @@ import {
   getCenterSlug,
 } from "@/lib/data/centers";
 import { centerUrl } from "@/lib/urls";
+import { getSiteUrl } from "@/lib/site-url";
 import { pageTitle } from "@/lib/seo-title";
 import { MarkdownContent } from "@/components/shared/MarkdownContent";
 import { LabStats } from "@/components/shared/LabStats";
@@ -171,7 +172,7 @@ export async function generateMetadata({
   const description =
     center.seo?.description ||
     `Visit ${center.basic_info.center_name} for accurate diagnostics, lab tests, and scans. ${center.center_info.address}`;
-  const canonical = `https://cadabamsdiagnostics.com${centerUrl(center)}`;
+  const canonical = centerUrl(center);
   return {
     title,
     description,
@@ -242,6 +243,8 @@ export default async function CenterDetailPage({ params }: PageProps) {
   );
   const hasFaqs = faqs.length > 0;
 
+  // Host serving the page (staging vs production) for absolute JSON-LD URLs.
+  const origin = getSiteUrl();
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "MedicalClinic",
@@ -255,9 +258,9 @@ export default async function CenterDetailPage({ params }: PageProps) {
     },
     telephone: primaryPhone,
     email: center.center_info.email,
-    url: `https://cadabamsdiagnostics.com${centerUrl(center)}`,
+    url: `${origin}${centerUrl(center)}`,
     image: heroImage.startsWith("/")
-      ? `https://cadabamsdiagnostics.com${heroImage}`
+      ? `${origin}${heroImage}`
       : heroImage,
     medicalSpecialty: services.map((s) => s.title),
   };

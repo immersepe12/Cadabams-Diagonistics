@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "How Cadabam's Diagnostics collects, uses, and protects your personal and health information.",
   alternates: {
-    canonical: "https://cadabamsdiagnostics.com/privacy-policy",
+    canonical: "/privacy-policy",
   },
 };
 

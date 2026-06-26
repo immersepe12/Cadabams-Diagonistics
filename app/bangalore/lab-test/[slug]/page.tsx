@@ -20,6 +20,7 @@ import {
   getPriceNumber,
 } from "@/lib/data/labtests";
 import { labTestUrl } from "@/lib/urls";
+import { getSiteUrl } from "@/lib/site-url";
 import { LabTestListing } from "@/components/labtests/LabTestListing";
 import { stripLeadingSlash } from "@/lib/data/types";
 import { MarkdownContent } from "@/components/shared/MarkdownContent";
@@ -122,7 +123,7 @@ export async function generateMetadata({
         "home sample collection bangalore",
       ]),
       alternates: {
-        canonical: `https://cadabamsdiagnostics.com/bangalore/lab-test/${slug}`,
+        canonical: `/bangalore/lab-test/${slug}`,
       },
       openGraph: {
         title: `${title} | Cadabam's Diagnostics`,
@@ -138,9 +139,9 @@ export async function generateMetadata({
   const fallbackTitle = `${test.testName} in Bangalore`;
   const fallbackDesc =
     `Book ${test.testName} in Bangalore. ${test.basic_info.Identifies || ""}`.trim();
-  const canonical =
-    test.seo?.canonicalUrl ||
-    `https://cadabamsdiagnostics.com${labTestUrl(test)}`;
+  // Relative fallback resolves against metadataBase (= getSiteUrl()) → self-
+  // referential on staging, production-correct once SITE_URL is set.
+  const canonical = test.seo?.canonicalUrl || labTestUrl(test);
 
   return {
     title: pageTitle(test.seo?.title || fallbackTitle),
@@ -240,6 +241,9 @@ export default async function LabTestDetailPage({ params }: PageProps) {
     test.seo?.description ||
     test.basic_info.Identifies ||
     `${test.testName} lab test`;
+
+  // Host serving the page (staging vs production) for absolute JSON-LD URLs.
+  const origin = getSiteUrl();
 
   return (
     <main className="bg-cream-bg min-h-screen">
@@ -611,29 +615,29 @@ export default async function LabTestDetailPage({ params }: PageProps) {
       <ProductSeo
         name={test.testName}
         description={productDescription}
-        url={`https://cadabamsdiagnostics.com${labTestUrl(test)}`}
+        url={`${origin}${labTestUrl(test)}`}
         price={finalPrice}
         image={heroImage}
         sku={test.id}
         category={category?.name}
         medicalType="MedicalTest"
         breadcrumbs={[
-          { name: "Home", url: "https://cadabamsdiagnostics.com" },
+          { name: "Home", url: origin },
           {
             name: "Lab Tests",
-            url: `https://cadabamsdiagnostics.com/${CITY}/lab-test`,
+            url: `${origin}/${CITY}/lab-test`,
           },
           ...(category
             ? [
                 {
                   name: category.name,
-                  url: `https://cadabamsdiagnostics.com/${CITY}/lab-test/${stripLeadingSlash(category.path)}`,
+                  url: `${origin}/${CITY}/lab-test/${stripLeadingSlash(category.path)}`,
                 },
               ]
             : []),
           {
             name: test.testName,
-            url: `https://cadabamsdiagnostics.com${labTestUrl(test)}`,
+            url: `${origin}${labTestUrl(test)}`,
           },
         ]}
         faqs={faqs}

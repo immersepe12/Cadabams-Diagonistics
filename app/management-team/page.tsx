@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   description:
     "Meet the visionary leaders of Cadabam's Diagnostics. Our management team brings 30+ years of healthcare excellence, led by Chairman Cadabam M Ramesh and an experienced executive board.",
   alternates: {
-    canonical: "https://cadabamsdiagnostics.com/management-team",
+    canonical: "/management-team",
   },
 };
 

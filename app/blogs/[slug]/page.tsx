@@ -9,6 +9,7 @@ import {
 } from "@/lib/data/blogs";
 import { getAllCenters, getCenterSlug } from "@/lib/data/centers";
 import { blogUrl } from "@/lib/urls";
+import { getSiteUrl } from "@/lib/site-url";
 import { pageTitle } from "@/lib/seo-title";
 import { BLOG_SEO_TITLES } from "@/lib/blog-seo-titles";
 import { MarkdownContent } from "@/components/shared/MarkdownContent";
@@ -50,9 +51,9 @@ export async function generateMetadata({
   const fallbackDesc = blog.markdown
     ? blog.markdown.replace(/[#*_`>[\]()]/g, "").slice(0, 160).trim()
     : `${blog.title} — Cadabam's Diagnostics`;
-  const canonical =
-    blog.seo?.canonicalUrl ||
-    `https://cadabamsdiagnostics.com${blogUrl(blog)}`;
+  // Relative fallback resolves against metadataBase (= getSiteUrl()) → self-
+  // referential on staging, production-correct once SITE_URL is set.
+  const canonical = blog.seo?.canonicalUrl || blogUrl(blog);
   // Live SEO title (from the migration audit) takes precedence so staging
   // <title>s match the live site; the template appends the brand suffix.
   const liveTitle = BLOG_SEO_TITLES[slug];
@@ -101,6 +102,8 @@ export default async function BlogDetailPage({ params }: PageProps) {
       slug: getCenterSlug(c),
     }));
 
+  // Host serving the page (staging vs production) for absolute JSON-LD URLs.
+  const origin = getSiteUrl();
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -116,11 +119,11 @@ export default async function BlogDetailPage({ params }: PageProps) {
     publisher: {
       "@type": "Organization",
       name: "Cadabam's Diagnostics",
-      url: "https://cadabamsdiagnostics.com",
+      url: origin,
     },
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": `https://cadabamsdiagnostics.com${blogUrl(blog)}`,
+      "@id": `${origin}${blogUrl(blog)}`,
     },
   };
 

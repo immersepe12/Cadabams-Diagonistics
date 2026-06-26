@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   title: "Health & Diagnostics Blog",
   description:
     "Discover insights for a healthier you with Cadabams Health Blog. Expert medical advice, health tips, and wellness guides.",
-  alternates: { canonical: "https://cadabamsdiagnostics.com/blogs" },
+  alternates: { canonical: "/blogs" },
   openGraph: {
     title: "Health & Diagnostics Blog | Cadabam's Diagnostics",
     description:

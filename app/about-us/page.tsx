@@ -41,7 +41,7 @@ export const metadata: Metadata = {
   },
   description:
     "Discover Cadabam's Diagnostics - Bangalore's premier diagnostic center with 30+ years of excellence. Advanced imaging, expert medical team, and comprehensive healthcare services.",
-  alternates: { canonical: "https://cadabamsdiagnostics.com/about-us" },
+  alternates: { canonical: "/about-us" },
 };
 
 const ICONS: Record<string, LucideIcon> = {

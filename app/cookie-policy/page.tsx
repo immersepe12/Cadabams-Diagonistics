@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   description:
     "How Cadabam's Diagnostics uses cookies and similar technologies on cadabamsdiagnostics.com.",
   alternates: {
-    canonical: "https://cadabamsdiagnostics.com/cookie-policy",
+    canonical: "/cookie-policy",
   },
 };
 

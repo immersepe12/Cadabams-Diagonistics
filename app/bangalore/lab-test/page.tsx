@@ -3,8 +3,11 @@ import { LabTestListing } from "@/components/labtests/LabTestListing";
 import { listingKeywords } from "@/lib/keywords";
 import { JsonLd } from "@/components/shared/JsonLd";
 import { breadcrumbList, graph, medicalWebPage } from "@/lib/jsonld";
+import { getSiteUrl } from "@/lib/site-url";
 
-const LAB_URL = "https://cadabamsdiagnostics.com/bangalore/lab-test";
+// Host serving the page (staging vs production) for absolute JSON-LD URLs.
+const ORIGIN = getSiteUrl();
+const LAB_URL = `${ORIGIN}/bangalore/lab-test`;
 
 export const revalidate = 3600;
 
@@ -23,7 +26,7 @@ export const metadata: Metadata = {
     "home sample collection bangalore",
   ]),
   alternates: {
-    canonical: "https://cadabamsdiagnostics.com/bangalore/lab-test",
+    canonical: "/bangalore/lab-test",
   },
   openGraph: {
     title: "Reliable Lab Tests in Bangalore | Cadabam's Diagnostics",
@@ -39,7 +42,7 @@ export default function LabTestsListPage() {
       <JsonLd
         data={graph([
           breadcrumbList([
-            { name: "Home", url: "https://cadabamsdiagnostics.com" },
+            { name: "Home", url: ORIGIN },
             { name: "Lab Tests", url: LAB_URL },
           ]),
           medicalWebPage({

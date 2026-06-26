@@ -1182,7 +1182,7 @@
     "blogCategoryId": "671b5106ad9bf8d210384d33",
     "verifiedBy": "Doctor A",
     "imageUrl": "",
-    "pageState": "draft",
+    "pageState": "publish",
     "createdAt": "2025-06-17T11:58:23.161Z",
     "updatedAt": "2025-06-17T11:58:23.163Z",
     "seo": {
@@ -2132,7 +2132,7 @@
     "blogCategoryId": "671b5106ad9bf8d210384d33",
     "verifiedBy": "Doctor B",
     "imageUrl": "",
-    "pageState": "draft",
+    "pageState": "publish",
     "createdAt": "2025-08-06T11:52:41.972Z",
     "updatedAt": "2025-08-06T11:52:41.978Z",
     "seo": {
@@ -2216,7 +2216,7 @@
     "blogCategoryId": "671b5106ad9bf8d210384d33",
     "verifiedBy": "Doctor B",
     "imageUrl": "",
-    "pageState": "draft",
+    "pageState": "publish",
     "createdAt": "2025-08-29T12:47:09.705Z",
     "updatedAt": "2025-08-29T12:47:09.711Z",
     "seo": {
@@ -2630,7 +2630,7 @@
     "blogCategoryId": "671b5106ad9bf8d210384d33",
     "verifiedBy": "Doctor B",
     "imageUrl": "",
-    "pageState": "draft",
+    "pageState": "publish",
     "createdAt": "2025-11-27T09:04:53.585Z",
     "updatedAt": "2025-11-27T09:04:53.590Z",
     "seo": {
@@ -2672,7 +2672,7 @@
     "blogCategoryId": "671b5106ad9bf8d210384d33",
     "verifiedBy": "Doctor A",
     "imageUrl": "",
-    "pageState": "draft",
+    "pageState": "publish",
     "createdAt": "2025-11-28T11:56:55.037Z",
     "updatedAt": "2025-11-28T11:56:55.041Z",
     "seo": {

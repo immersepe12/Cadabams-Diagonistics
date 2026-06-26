@@ -8,7 +8,11 @@
  *   - Organization       (site-wide)
  */
 
-const ORIGIN = "https://cadabamsdiagnostics.com";
+import { getSiteUrl } from "@/lib/site-url";
+
+// Host actually serving the page (staging vs production), so JSON-LD URLs stay
+// consistent with the page's canonical instead of hardcoding the live domain.
+const ORIGIN = getSiteUrl();
 const BRAND = "Cadabam's Diagnostics";
 
 export interface Crumb {
@@ -50,6 +54,10 @@ export function medicalWebPage(opts: {
     ...(opts.description ? { description: opts.description } : {}),
     url: opts.url,
     ...(opts.image ? { primaryImageOfPage: opts.image } : {}),
+    // `specialty` must be a schema.org MedicalSpecialty enum value; the legacy
+    // site used the invalid free-text "Medical Diagnostics", which fails the
+    // Rich Results / schema.org validator. "Pathology" is the correct enum.
+    specialty: "Pathology",
     audience: {
       "@type": "MedicalAudience",
       audienceType: "Patients",
